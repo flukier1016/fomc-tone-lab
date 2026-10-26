@@ -1,0 +1,154 @@
+{
+ "key": "statement_20120425",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20120425",
+  "previous_doc_id": "statement_20120313",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "83ba91aa4cdf8782481d488db382df538c29f10dbea8bcb94d08e6db6fe4198c",
+ "message_id": "msg_011CgFudUUC1nhHwcnnyEfwt",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1839,
+  "output_tokens": 587,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.\",\"after\":\"Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.\",\"direction\":\"dovish\"},{\"before\":\"The housing sector remains depressed.\",\"after\":\"Despite some signs of improvement, the housing sector remains depressed.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.\",\"after\":\"Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects moderate economic growth over coming quarters and consequently anticipates\",\"after\":\"The Committee expects economic growth to remain moderate over coming quarters and then to pick up gradually.\",\"direction\":\"hawkish\"},{\"before\":\"Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.\",\"after\":\"Strains in global financial markets continue to pose significant downside risks to the economic outlook.\",\"direction\":\"dovish\"},{\"before\":\"The recent increase in oil and gasoline prices will push up inflation temporarily\",\"after\":\"The increase in oil and gasoline prices earlier this year is expected to affect inflation only temporarily\",\"direction\":\"dovish\"}],\"rationale\":\"The statement mixes slightly firmer inflation and growth descriptions with softer labor-market wording, dropped mention of eased financial strains, and a more benign oil-price framing. The policy rate, the late-2014 guidance and the balance-sheet language are unchanged, so the net signal is roughly neutral.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.",
+    "after": "Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The housing sector remains depressed.",
+    "after": "Despite some signs of improvement, the housing sector remains depressed.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.",
+    "after": "Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects moderate economic growth over coming quarters and consequently anticipates",
+    "after": "The Committee expects economic growth to remain moderate over coming quarters and then to pick up gradually.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+    "after": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The recent increase in oil and gasoline prices will push up inflation temporarily",
+    "after": "The increase in oil and gasoline prices earlier this year is expected to affect inflation only temporarily",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The statement mixes slightly firmer inflation and growth descriptions with softer labor-market wording, dropped mention of eased financial strains, and a more benign oil-price framing. The policy rate, the late-2014 guidance and the balance-sheet language are unchanged, so the net signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.",
+     "start": 133,
+     "end": 260
+    },
+    {
+     "quote": "The housing sector remains depressed.",
+     "start": 338,
+     "end": 374
+    },
+    {
+     "quote": "Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.",
+     "start": 376,
+     "end": 484
+    },
+    {
+     "quote": "The Committee expects moderate economic growth over coming quarters and consequently anticipates",
+     "start": 653,
+     "end": 749
+    },
+    {
+     "quote": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+     "start": 880,
+     "end": 1007
+    },
+    {
+     "quote": "The recent increase in oil and gasoline prices will push up inflation temporarily",
+     "start": 1009,
+     "end": 1090
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.",
+     "start": 131,
+     "end": 242
+    },
+    {
+     "quote": "Despite some signs of improvement, the housing sector remains depressed.",
+     "start": 320,
+     "end": 391
+    },
+    {
+     "quote": "Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.",
+     "start": 393,
+     "end": 484
+    },
+    {
+     "quote": "The Committee expects economic growth to remain moderate over coming quarters and then to pick up gradually.",
+     "start": 662,
+     "end": 769
+    },
+    {
+     "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 930,
+     "end": 1033
+    },
+    {
+     "quote": "The increase in oil and gasoline prices earlier this year is expected to affect inflation only temporarily",
+     "start": 1035,
+     "end": 1141
+    }
+   ]
+  }
+ }
+}

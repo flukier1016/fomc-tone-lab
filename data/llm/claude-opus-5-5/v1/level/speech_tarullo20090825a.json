@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20090825a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20090825a",
+  "doc_type": "speech",
+  "text_sha256": "3fddb384deb0b4b045be382e00f7405e749e1a0b8b850d802138cd5494af3a53"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "59259b7a172afc82f5b4effa49ec79d651f8ea45056626f467a4ba541df37515",
+ "message_id": "msg_011CgFugFdrWeZNNoAZifi9K",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4920,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the recovery may well be gradual and halting. National unemployment is likely to continue upward for a time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic conditions in low- and moderate-income communities are likely to be especially challenging for some time to come.\"},{\"dimension\":\"overall\",\"quote\":\"I would like to take the time you have given me this morning to review the evolution of the Community Affairs function at the Federal Reserve\"}],\"rationale\":\"The speech is about the Fed's Community Affairs function and takes no monetary policy view. Its brief remarks on the economy describe a gradual recovery with rising unemployment, a mild dovish tilt in the activity assessment.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the recovery may well be gradual and halting. National unemployment is likely to continue upward for a time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic conditions in low- and moderate-income communities are likely to be especially challenging for some time to come."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I would like to take the time you have given me this morning to review the evolution of the Community Affairs function at the Federal Reserve"
+   }
+  ],
+  "rationale": "The speech is about the Fed's Community Affairs function and takes no monetary policy view. Its brief remarks on the economy describe a gradual recovery with rising unemployment, a mild dovish tilt in the activity assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the recovery may well be gradual and halting. National unemployment is likely to continue upward for a time",
+     "start": 692,
+     "end": 799
+    },
+    {
+     "quote": "economic conditions in low- and moderate-income communities are likely to be especially challenging for some time to come.",
+     "start": 12844,
+     "end": 12965
+    },
+    {
+     "quote": "I would like to take the time you have given me this morning to review the evolution of the Community Affairs function at the Federal Reserve",
+     "start": 1508,
+     "end": 1649
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

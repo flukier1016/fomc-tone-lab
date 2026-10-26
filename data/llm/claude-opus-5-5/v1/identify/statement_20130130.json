@@ -1,0 +1,52 @@
+{
+ "key": "statement_20130130",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20130130",
+  "release_date": "2013-01-30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1e313869b02dd85b4d519939a37a9e2826983508d397821b65ef8d04b6764460",
+ "message_id": "msg_011CgFue7C3mkaZacmVDa4Hc",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1740,
+  "output_tokens": 453,
+  "output_tokens_details": {
+   "thinking_tokens": 168
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2013,\"month\":1,\"confidence\":0.88,\"cues\":[\"The statement says growth paused in recent months because of weather-related disruptions and other transitory factors, matching Hurricane Sandy and the weak Q4 2012 GDP report.\",\"Purchases run at $40 billion per month in agency MBS and $45 billion per month in Treasuries, the open-ended QE3 pace that started after Operation Twist ended in December 2012.\",\"The unemployment and inflation thresholds guiding the low-rate period, introduced in December 2012, are retained.\",\"James Bullard is a voting member, consistent with the 2013 rotation of rotating voters.\",\"The lone dissent cites the risk of future imbalances and higher inflation expectations, consistent with Esther George's 2013 dissents.\",\"The text notes that strains in global financial markets have eased somewhat.\"]}",
+ "parsed": {
+  "year": 2013,
+  "month": 1,
+  "confidence": 0.88,
+  "cues": [
+   "The statement says growth paused in recent months because of weather-related disruptions and other transitory factors, matching Hurricane Sandy and the weak Q4 2012 GDP report.",
+   "Purchases run at $40 billion per month in agency MBS and $45 billion per month in Treasuries, the open-ended QE3 pace that started after Operation Twist ended in December 2012.",
+   "The unemployment and inflation thresholds guiding the low-rate period, introduced in December 2012, are retained.",
+   "James Bullard is a voting member, consistent with the 2013 rotation of rotating voters.",
+   "The lone dissent cites the risk of future imbalances and higher inflation expectations, consistent with Esther George's 2013 dissents.",
+   "The text notes that strains in global financial markets have eased somewhat."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

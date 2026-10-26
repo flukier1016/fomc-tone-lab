@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20230110a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230110a",
+  "doc_type": "speech",
+  "text_sha256": "465d0771f772a79aed52faa32b5939c8b2176f816c7f72e21fe560fe4f5873a1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "31734ef9e44326c50ed81b940b089ebbc5c9e3f4400293309e71c21a3a75f9cf",
+ "message_id": "msg_011CgFugH1wrksNnfS75Tjff",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3299,
+  "output_tokens": 498,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I expect the FOMC will continue raising interest rates to tighten monetary policy, as we stated after our December meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is much too high, and I am focused on bringing it down toward our 2 percent goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I expect that once we achieve a sufficiently restrictive federal funds rate, it will need to remain at that level for some time in order to restore price stability\"},{\"dimension\":\"risk_balance\",\"quote\":\"It's important to keep in mind that there are costs and risks to tightening policy to lower inflation, but I see the costs and risks of allowing inflation to persist as far greater.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So far, the job market has remained resilient despite higher interest rates and slower growth.\"}],\"rationale\":\"Governor signals continued rate increases, holding rates restrictive for some time, and views risks of persistent inflation as far greater than tightening costs, citing 1970s premature easing. The labor market is described as resilient, and about half the speech covers non-policy regulatory topics.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect the FOMC will continue raising interest rates to tighten monetary policy, as we stated after our December meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is much too high, and I am focused on bringing it down toward our 2 percent goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect that once we achieve a sufficiently restrictive federal funds rate, it will need to remain at that level for some time in order to restore price stability"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It's important to keep in mind that there are costs and risks to tightening policy to lower inflation, but I see the costs and risks of allowing inflation to persist as far greater."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So far, the job market has remained resilient despite higher interest rates and slower growth."
+   }
+  ],
+  "rationale": "Governor signals continued rate increases, holding rates restrictive for some time, and views risks of persistent inflation as far greater than tightening costs, citing 1970s premature easing. The labor market is described as resilient, and about half the speech covers non-policy regulatory topics."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I expect the FOMC will continue raising interest rates to tighten monetary policy, as we stated after our December meeting.",
+     "start": 1995,
+     "end": 2117
+    },
+    {
+     "quote": "Inflation is much too high, and I am focused on bringing it down toward our 2 percent goal.",
+     "start": 1126,
+     "end": 1216
+    },
+    {
+     "quote": "I expect that once we achieve a sufficiently restrictive federal funds rate, it will need to remain at that level for some time in order to restore price stability",
+     "start": 2634,
+     "end": 2797
+    },
+    {
+     "quote": "It's important to keep in mind that there are costs and risks to tightening policy to lower inflation, but I see the costs and risks of allowing inflation to persist as far greater.",
+     "start": 3631,
+     "end": 3811
+    },
+    {
+     "quote": "So far, the job market has remained resilient despite higher interest rates and slower growth.",
+     "start": 5209,
+     "end": 5302
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20121014a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20121014a",
+  "doc_type": "speech",
+  "text_sha256": "b005c650e91cc01be73dddf47964601b093469cb66b433f4a4b953d47fbffa23"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "259b0e4f12f4bc55e10a2042690d2bc3f94690221b3e7a39548bbafab75d466f",
+ "message_id": "msg_011CgFugA3FvCrtffeFSM4Ei",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3318,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee clarified that it expects to maintain a highly accommodative stance of monetary policy for a considerable period after the economic recovery strengthens.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"announcing that it will purchase agency mortgage-backed securities (MBS) at a pace of $40 billion per month\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Consumer price inflation is running somewhat below the Federal Reserve's 2 percent longer-run objective\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of our recovery has been frustratingly slow\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee also judged that there were significant downside risks to this outlook\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve is providing additional monetary accommodation to achieve its dual mandate of maximum employment and price stability.\"}],\"rationale\":\"The speech defends and explains open-ended asset purchases and extended low-rate guidance, citing weak labor markets, subdued inflation, and downside risks. It also rebuts international criticism of accommodative policy, so the overall signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee clarified that it expects to maintain a highly accommodative stance of monetary policy for a considerable period after the economic recovery strengthens."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "announcing that it will purchase agency mortgage-backed securities (MBS) at a pace of $40 billion per month"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Consumer price inflation is running somewhat below the Federal Reserve's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of our recovery has been frustratingly slow"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee also judged that there were significant downside risks to this outlook"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve is providing additional monetary accommodation to achieve its dual mandate of maximum employment and price stability."
+   }
+  ],
+  "rationale": "The speech defends and explains open-ended asset purchases and extended low-rate guidance, citing weak labor markets, subdued inflation, and downside risks. It also rebuts international criticism of accommodative policy, so the overall signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee clarified that it expects to maintain a highly accommodative stance of monetary policy for a considerable period after the economic recovery strengthens.",
+     "start": 3995,
+     "end": 4161
+    },
+    {
+     "quote": "announcing that it will purchase agency mortgage-backed securities (MBS) at a pace of $40 billion per month",
+     "start": 4247,
+     "end": 4354
+    },
+    {
+     "quote": "Consumer price inflation is running somewhat below the Federal Reserve's 2 percent longer-run objective",
+     "start": 1407,
+     "end": 1510
+    },
+    {
+     "quote": "the pace of our recovery has been frustratingly slow",
+     "start": 599,
+     "end": 651
+    },
+    {
+     "quote": "The Committee also judged that there were significant downside risks to this outlook",
+     "start": 2597,
+     "end": 2681
+    },
+    {
+     "quote": "the Federal Reserve is providing additional monetary accommodation to achieve its dual mandate of maximum employment and price stability.",
+     "start": 10710,
+     "end": 10846
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

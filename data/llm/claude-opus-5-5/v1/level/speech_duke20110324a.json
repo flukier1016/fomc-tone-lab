@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20110324a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20110324a",
+  "doc_type": "speech",
+  "text_sha256": "81e3230633f230fc476446e1602da2dec5cb50d027ccc67d5ada0b0802431e20"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "41883424e334ce78871dba6858078298ef2a9eb0ce59a51c771bcdf4406a2aa6",
+ "message_id": "msg_011CgFugEwBhrAPPMXNtgRLH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6621,
+  "output_tokens": 453,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"All of this evidence may help explain the sharp drop in consumer spending as household wealth declined and the continued sluggishness of consumer spending even as asset values have recovered.\"},{\"dimension\":\"risk_balance\",\"quote\":\"imply that some of the effects of recent economic turmoil may result in a longer period of economic adjustment than has been the case in past recessions, as fundamental attitudes appear to have shifted.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In addition, there appears to be an asymmetric reaction to wealth shocks that could be a factor in the slow recovery of spending.\"},{\"dimension\":\"overall\",\"quote\":\"that business credit was hard to obtain even for good borrowers.\"}],\"rationale\":\"This research-focused speech on Survey of Consumer Finances data does not discuss policy directly. Its emphasis on household caution, sluggish spending, a prolonged adjustment and tight small-business credit implies a mildly dovish view of the recovery.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "All of this evidence may help explain the sharp drop in consumer spending as household wealth declined and the continued sluggishness of consumer spending even as asset values have recovered."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "imply that some of the effects of recent economic turmoil may result in a longer period of economic adjustment than has been the case in past recessions, as fundamental attitudes appear to have shifted."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In addition, there appears to be an asymmetric reaction to wealth shocks that could be a factor in the slow recovery of spending."
+   },
+   {
+    "dimension": "overall",
+    "quote": "that business credit was hard to obtain even for good borrowers."
+   }
+  ],
+  "rationale": "This research-focused speech on Survey of Consumer Finances data does not discuss policy directly. Its emphasis on household caution, sluggish spending, a prolonged adjustment and tight small-business credit implies a mildly dovish view of the recovery."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "All of this evidence may help explain the sharp drop in consumer spending as household wealth declined and the continued sluggishness of consumer spending even as asset values have recovered.",
+     "start": 13520,
+     "end": 13710
+    },
+    {
+     "quote": "imply that some of the effects of recent economic turmoil may result in a longer period of economic adjustment than has been the case in past recessions, as fundamental attitudes appear to have shifted.",
+     "start": 13960,
+     "end": 14161
+    },
+    {
+     "quote": "In addition, there appears to be an asymmetric reaction to wealth shocks that could be a factor in the slow recovery of spending.",
+     "start": 22050,
+     "end": 22178
+    },
+    {
+     "quote": "that business credit was hard to obtain even for good borrowers.",
+     "start": 21129,
+     "end": 21192
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

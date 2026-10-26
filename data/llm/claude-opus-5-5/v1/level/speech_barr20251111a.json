@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20251111a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251111a",
+  "doc_type": "speech",
+  "text_sha256": "1cfb7c6cc38f0a170b88cce09cf85d0588ba6f2abc5742c93b13608cbad4055c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cefb5e9b292983d8c289c794c7cd76fb3620b7accacc48734a8e5d04ae83a631",
+ "message_id": "msg_011CgFugKbUaaX7Pn3K2GRfu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3267,
+  "output_tokens": 393,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But survey respondents also report that AI has led firms to scale back hiring, a development that may be contributing to the recent low levels of job creation in the U.S. economy\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Investment in capital generally raises labor productivity and offers the potential for higher output growth without pressure on inflation over the longer term.\"},{\"dimension\":\"overall\",\"quote\":\"central banks, including the Fed, need to keep up with AI by increasing our speed of adoption for our own operations.\"}],\"rationale\":\"The speech is about AI adoption in the economy, the financial sector and central bank operations, with no signal about the policy path. The only macro remarks are a mild note on low job creation and a view that AI-driven productivity could support growth without inflation pressure, which together make a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But survey respondents also report that AI has led firms to scale back hiring, a development that may be contributing to the recent low levels of job creation in the U.S. economy"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Investment in capital generally raises labor productivity and offers the potential for higher output growth without pressure on inflation over the longer term."
+   },
+   {
+    "dimension": "overall",
+    "quote": "central banks, including the Fed, need to keep up with AI by increasing our speed of adoption for our own operations."
+   }
+  ],
+  "rationale": "The speech is about AI adoption in the economy, the financial sector and central bank operations, with no signal about the policy path. The only macro remarks are a mild note on low job creation and a view that AI-driven productivity could support growth without inflation pressure, which together make a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But survey respondents also report that AI has led firms to scale back hiring, a development that may be contributing to the recent low levels of job creation in the U.S. economy",
+     "start": 2292,
+     "end": 2470
+    },
+    {
+     "quote": "Investment in capital generally raises labor productivity and offers the potential for higher output growth without pressure on inflation over the longer term.",
+     "start": 4587,
+     "end": 4745
+    },
+    {
+     "quote": "central banks, including the Fed, need to keep up with AI by increasing our speed of adoption for our own operations.",
+     "start": 7963,
+     "end": 8079
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

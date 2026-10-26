@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20141217",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20141217",
+  "doc_type": "minutes",
+  "text_sha256": "01db521041c722f30092a659f888ddc86221b76241ac1712538be87f2b39c34c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4ed6b5bfbdd07a9fd08737722d65039032f8b8d24b5654038a3dadd3a124888b",
+ "message_id": "msg_011CgFugDe3odL6DDu1J4paZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13380,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants thought the reference to patience indicated that the Committee was unlikely to begin the normalization process for at least the next couple of meetings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it was noted that the Committee might begin normalization at a time when core inflation was near current levels\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"a number of participants saw a risk that it could run persistently below their 2 percent objective\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants saw broad-based improvement in labor market conditions over the intermeeting period\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, the downside risks were seen as nearly balanced by risks to the upside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The minutes describe improving activity and labor markets and a shift from 'considerable time' toward 'patient' guidance, with a mid-2015 liftoff in view and willingness to lift off with low core inflation, which leans slightly toward normalization. This is offset by concern about below-target inflation, falling inflation compensation, and continued reinvestment of the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants thought the reference to patience indicated that the Committee was unlikely to begin the normalization process for at least the next couple of meetings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it was noted that the Committee might begin normalization at a time when core inflation was near current levels"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "a number of participants saw a risk that it could run persistently below their 2 percent objective"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants saw broad-based improvement in labor market conditions over the intermeeting period"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, the downside risks were seen as nearly balanced by risks to the upside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The minutes describe improving activity and labor markets and a shift from 'considerable time' toward 'patient' guidance, with a mid-2015 liftoff in view and willingness to lift off with low core inflation, which leans slightly toward normalization. This is offset by concern about below-target inflation, falling inflation compensation, and continued reinvestment of the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants thought the reference to patience indicated that the Committee was unlikely to begin the normalization process for at least the next couple of meetings.",
+     "start": 31570,
+     "end": 31739
+    },
+    {
+     "quote": "it was noted that the Committee might begin normalization at a time when core inflation was near current levels",
+     "start": 32668,
+     "end": 32779
+    },
+    {
+     "quote": "a number of participants saw a risk that it could run persistently below their 2 percent objective",
+     "start": 29960,
+     "end": 30058
+    },
+    {
+     "quote": "Participants saw broad-based improvement in labor market conditions over the intermeeting period",
+     "start": 24729,
+     "end": 24825
+    },
+    {
+     "quote": "However, the downside risks were seen as nearly balanced by risks to the upside.",
+     "start": 29492,
+     "end": 29571
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 38143,
+     "end": 38292
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

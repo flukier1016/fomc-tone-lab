@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20210628a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20210628a",
+  "doc_type": "speech",
+  "text_sha256": "f2991f3d29c8330ea8414d0a95a694c63940543354dc535d22c50938f49c28d8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f4a05b59111ba57ea4f7ecbecc102d0e69b3153fd5d736bc3be9140fa23e2876",
+ "message_id": "msg_011CgFugAyZWhTGETPuzaS9w",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6465,
+  "output_tokens": 326,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Which brings us to my topic today: central bank digital currencies, or CBDCs.\"},{\"dimension\":\"overall\",\"quote\":\"First, the U.S. dollar payment system is very good, and it is getting better. Second, the potential benefits of a Federal Reserve CBDC are unclear.\"},{\"dimension\":\"overall\",\"quote\":\"In my judgment, we do not need to fear stablecoins.\"}],\"rationale\":\"The speech is about CBDCs, stablecoins and the payment system, and it does not address the policy rate path, inflation, labor markets or the balance sheet. It therefore carries no monetary-policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Which brings us to my topic today: central bank digital currencies, or CBDCs."
+   },
+   {
+    "dimension": "overall",
+    "quote": "First, the U.S. dollar payment system is very good, and it is getting better. Second, the potential benefits of a Federal Reserve CBDC are unclear."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my judgment, we do not need to fear stablecoins."
+   }
+  ],
+  "rationale": "The speech is about CBDCs, stablecoins and the payment system, and it does not address the policy rate path, inflation, labor markets or the balance sheet. It therefore carries no monetary-policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Which brings us to my topic today: central bank digital currencies, or CBDCs.",
+     "start": 785,
+     "end": 861
+    },
+    {
+     "quote": "First, the U.S. dollar payment system is very good, and it is getting better. Second, the potential benefits of a Federal Reserve CBDC are unclear.",
+     "start": 20056,
+     "end": 20202
+    },
+    {
+     "quote": "In my judgment, we do not need to fear stablecoins.",
+     "start": 11664,
+     "end": 11714
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

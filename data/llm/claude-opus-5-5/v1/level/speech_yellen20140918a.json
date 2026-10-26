@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20140918a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20140918a",
+  "doc_type": "speech",
+  "text_sha256": "66fe8d8207f2805041d91d9afe096828c1e45c25fd63ed26f55f3ddd37601941"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1de13984340b1d24050f5b5e4e4506ff4855ae3400623ad28ae763264b676ab2",
+ "message_id": "msg_011CgFugDwuFxHPemWhUYm7s",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1152,
+  "output_tokens": 346,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We have come far from the worst moments of the crisis, and the economy continues to improve.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But the effects of the recession are still being felt by many families, particularly those that had very little in savings and other assets beforehand.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve's mission is to promote a healthy economy and strong financial system, and that is why we have promoted and will continue to promote asset-building.\"}],\"rationale\":\"This is a community development speech on household asset-building with no monetary policy signal. It does note lingering recession effects on lower-income families, a mild dovish tilt in the activity assessment.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We have come far from the worst moments of the crisis, and the economy continues to improve."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But the effects of the recession are still being felt by many families, particularly those that had very little in savings and other assets beforehand."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve's mission is to promote a healthy economy and strong financial system, and that is why we have promoted and will continue to promote asset-building."
+   }
+  ],
+  "rationale": "This is a community development speech on household asset-building with no monetary policy signal. It does note lingering recession effects on lower-income families, a mild dovish tilt in the activity assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We have come far from the worst moments of the crisis, and the economy continues to improve.",
+     "start": 361,
+     "end": 452
+    },
+    {
+     "quote": "But the effects of the recession are still being felt by many families, particularly those that had very little in savings and other assets beforehand.",
+     "start": 454,
+     "end": 604
+    },
+    {
+     "quote": "The Federal Reserve's mission is to promote a healthy economy and strong financial system, and that is why we have promoted and will continue to promote asset-building.",
+     "start": 3192,
+     "end": 3359
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

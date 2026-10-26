@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20160912a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20160912a",
+  "doc_type": "speech",
+  "text_sha256": "164649474519c586e2d690b0877910551da56dd67da6bbed721131e19f3a5184"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "78b251972552b0cb672162932583ccc65205dd981fa27da25c11fb065e80e375",
+ "message_id": "msg_011CgFugCcHnrWzkYhfvb6PE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6196,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This asymmetry in risk management in today's new normal counsels prudence in the removal of policy accommodation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In particular, to the extent that the effect on inflation of further gradual tightening in labor market conditions is likely to be moderate and gradual, the case to tighten policy preemptively is less compelling.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it would be unwise for policy to foreclose on the possibility of making further gains in the labor market.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the asymmetry in the conventional policy toolkit would lead me to expect policy to be tilted somewhat in favor of guarding against downside risks relative to preemptively raising rates to guard against upside risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"recent developments suggest some reasons to be concerned more about undershooting than overshooting.\"}],\"rationale\":\"The speaker argues forcefully that persistent inflation undershooting, remaining labor slack, a low neutral rate, and asymmetric policy tools argue against preemptive tightening. Risk management is explicitly tilted toward downside risks, counseling prudence in removing accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This asymmetry in risk management in today's new normal counsels prudence in the removal of policy accommodation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In particular, to the extent that the effect on inflation of further gradual tightening in labor market conditions is likely to be moderate and gradual, the case to tighten policy preemptively is less compelling."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it would be unwise for policy to foreclose on the possibility of making further gains in the labor market."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the asymmetry in the conventional policy toolkit would lead me to expect policy to be tilted somewhat in favor of guarding against downside risks relative to preemptively raising rates to guard against upside risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "recent developments suggest some reasons to be concerned more about undershooting than overshooting."
+   }
+  ],
+  "rationale": "The speaker argues forcefully that persistent inflation undershooting, remaining labor slack, a low neutral rate, and asymmetric policy tools argue against preemptive tightening. Risk management is explicitly tilted toward downside risks, counseling prudence in removing accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This asymmetry in risk management in today's new normal counsels prudence in the removal of policy accommodation.",
+     "start": 20071,
+     "end": 20183
+    },
+    {
+     "quote": "In particular, to the extent that the effect on inflation of further gradual tightening in labor market conditions is likely to be moderate and gradual, the case to tighten policy preemptively is less compelling.",
+     "start": 3561,
+     "end": 3772
+    },
+    {
+     "quote": "it would be unwise for policy to foreclose on the possibility of making further gains in the labor market.",
+     "start": 6105,
+     "end": 6210
+    },
+    {
+     "quote": "the asymmetry in the conventional policy toolkit would lead me to expect policy to be tilted somewhat in favor of guarding against downside risks relative to preemptively raising rates to guard against upside risks.",
+     "start": 14146,
+     "end": 14360
+    },
+    {
+     "quote": "recent developments suggest some reasons to be concerned more about undershooting than overshooting.",
+     "start": 2107,
+     "end": 2206
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

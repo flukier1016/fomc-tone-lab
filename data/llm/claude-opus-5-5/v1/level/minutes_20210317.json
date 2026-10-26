@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20210317",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20210317",
+  "doc_type": "minutes",
+  "text_sha256": "16ba4f87e888181d5afcf7dbc7a1ae4ef0680e66735751b57d2eb6486c58399b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7ae764312632c9d33aa58f51b285d71b88fe1343b224eb6d5bc143f4b2bf66d4",
+ "message_id": "msg_011CgFugAX2R7mVz9L7JYRx7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15440,
+  "output_tokens": 554,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Participants noted that it would likely be some time until substantial further progress toward the Committee's maximum-employment and price-stability goals would be realized\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"After the transitory effects of these factors fade, however, participants generally anticipated that annual inflation readings would edge down next year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, participants noted that the economy was far from achieving the Committee's broad-based and inclusive goal of maximum employment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most participants indicated that the pandemic continued to pose considerable risks to the economic outlook\"},{\"dimension\":\"balance_sheet\",\"quote\":\"asset purchases would continue at least at the current pace until then\"},{\"dimension\":\"forward_guidance\",\"quote\":\"various participants noted that changes in the path of policy should be based primarily on observed outcomes rather than forecasts.\"}],\"rationale\":\"Despite upgraded growth projections, participants stressed the economy remained far from goals, treated the expected inflation overshoot as transitory, and reaffirmed continued asset purchases and near-zero rates for some time. The tone is moderately dovish, with purely outcome-based guidance pushing back on market pricing of earlier hikes.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants noted that it would likely be some time until substantial further progress toward the Committee's maximum-employment and price-stability goals would be realized"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "After the transitory effects of these factors fade, however, participants generally anticipated that annual inflation readings would edge down next year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, participants noted that the economy was far from achieving the Committee's broad-based and inclusive goal of maximum employment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most participants indicated that the pandemic continued to pose considerable risks to the economic outlook"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "asset purchases would continue at least at the current pace until then"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "various participants noted that changes in the path of policy should be based primarily on observed outcomes rather than forecasts."
+   }
+  ],
+  "rationale": "Despite upgraded growth projections, participants stressed the economy remained far from goals, treated the expected inflation overshoot as transitory, and reaffirmed continued asset purchases and near-zero rates for some time. The tone is moderately dovish, with purely outcome-based guidance pushing back on market pricing of earlier hikes."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants noted that it would likely be some time until substantial further progress toward the Committee's maximum-employment and price-stability goals would be realized",
+     "start": 42181,
+     "end": 42354
+    },
+    {
+     "quote": "After the transitory effects of these factors fade, however, participants generally anticipated that annual inflation readings would edge down next year.",
+     "start": 36423,
+     "end": 36575
+    },
+    {
+     "quote": "However, participants noted that the economy was far from achieving the Committee's broad-based and inclusive goal of maximum employment.",
+     "start": 35114,
+     "end": 35250
+    },
+    {
+     "quote": "Most participants indicated that the pandemic continued to pose considerable risks to the economic outlook",
+     "start": 38761,
+     "end": 38867
+    },
+    {
+     "quote": "asset purchases would continue at least at the current pace until then",
+     "start": 42421,
+     "end": 42491
+    },
+    {
+     "quote": "various participants noted that changes in the path of policy should be based primarily on observed outcomes rather than forecasts.",
+     "start": 41806,
+     "end": 41936
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

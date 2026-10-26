@@ -1,0 +1,129 @@
+{
+ "key": "statement_20200916",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200916",
+  "previous_doc_id": "statement_20200827",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0b4a8000654093771f3e45061dae1e929415e08a55e5c205f5a3f85bfc0ba917",
+ "message_id": "msg_011CgFue66pCRd6oYxJ7AYRV",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2431,
+  "output_tokens": 720,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"To this end, the revised statement states that \\\"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\\\"\",\"after\":\"With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events\",\"direction\":\"neutral\"}],\"rationale\":\"The current statement turns the framework's flexible average-inflation language into explicit outcome-based forward guidance. It commits to holding rates at zero until maximum employment is reached and inflation is on track to moderately exceed 2 percent, and it sustains asset purchases, a clear dovish strengthening of guidance.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "To this end, the revised statement states that \"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"",
+    "after": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The current statement turns the framework's flexible average-inflation language into explicit outcome-based forward guidance. It commits to holding rates at zero until maximum employment is reached and inflation is on track to moderately exceed 2 percent, and it sustains asset purchases, a clear dovish strengthening of guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "To this end, the revised statement states that \"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"",
+     "start": 1784,
+     "end": 2017
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+     "start": 1094,
+     "end": 1362
+    },
+    {
+     "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.",
+     "start": 1476,
+     "end": 1848
+    },
+    {
+     "quote": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+     "start": 1364,
+     "end": 1474
+    },
+    {
+     "quote": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions",
+     "start": 1850,
+     "end": 2106
+    },
+    {
+     "quote": "The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+     "start": 786,
+     "end": 981
+    },
+    {
+     "quote": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events",
+     "start": 2950,
+     "end": 3153
+    }
+   ]
+  }
+ }
+}

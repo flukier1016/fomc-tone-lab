@@ -1,0 +1,124 @@
+{
+ "key": "statement_20260429",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20260429",
+  "previous_doc_id": "statement_20260318",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2fb9f9c6cb4c5e716bc0d9f06c39f3fb4092939d3b275bf01af6a8f9ef04e861",
+ "message_id": "msg_011CgFudUShp885emShXTDd2",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1375,
+  "output_tokens": 552,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Inflation remains somewhat elevated.\",\"after\":\"Inflation is elevated, in part reflecting the recent increase in global energy prices.\",\"direction\":\"hawkish\"},{\"before\":\"Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain.\",\"after\":\"Developments in the Middle East are contributing to a high level of uncertainty about the economic outlook.\",\"direction\":\"neutral\"},{\"before\":\"Job gains have remained low, and the unemployment rate has been little changed in recent months.\",\"after\":\"Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.\",\"direction\":\"neutral\"},{\"before\":\"Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\",\"after\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.\",\"direction\":\"hawkish\"}],\"rationale\":\"The inflation characterization was upgraded from 'somewhat elevated' to 'elevated' with energy-price pressure cited, and three hawkish dissents objected to the easing bias, signaling internal resistance to further cuts. Policy rate and forward guidance are unchanged, so the shift is moderately hawkish.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Inflation remains somewhat elevated.",
+    "after": "Inflation is elevated, in part reflecting the recent increase in global energy prices.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain.",
+    "after": "Developments in the Middle East are contributing to a high level of uncertainty about the economic outlook.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Job gains have remained low, and the unemployment rate has been little changed in recent months.",
+    "after": "Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+    "after": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The inflation characterization was upgraded from 'somewhat elevated' to 'elevated' with energy-price pressure cited, and three hawkish dissents objected to the easing bias, signaling internal resistance to further cuts. Policy rate and forward guidance are unchanged, so the shift is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation remains somewhat elevated.",
+     "start": 185,
+     "end": 220
+    },
+    {
+     "quote": "Uncertainty about the economic outlook remains elevated. The implications of developments in the Middle East for the U.S. economy are uncertain.",
+     "start": 333,
+     "end": 476
+    },
+    {
+     "quote": "Job gains have remained low, and the unemployment rate has been little changed in recent months.",
+     "start": 88,
+     "end": 183
+    },
+    {
+     "quote": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 1821,
+     "end": 1976
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation is elevated, in part reflecting the recent increase in global energy prices.",
+     "start": 194,
+     "end": 279
+    },
+    {
+     "quote": "Developments in the Middle East are contributing to a high level of uncertainty about the economic outlook.",
+     "start": 392,
+     "end": 498
+    },
+    {
+     "quote": "Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.",
+     "start": 85,
+     "end": 192
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.",
+     "start": 1795,
+     "end": 2156
+    }
+   ]
+  }
+ }
+}

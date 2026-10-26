@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20161009a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20161009a",
+  "doc_type": "speech",
+  "text_sha256": "e1d05edb3982c845dc4b49c6cc2ff565213970355c3e41e984ea943c2a3ae447"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "731672bcf7473571dcfaa5b4ad3b5b41e646cbb50e67ec54c382ea3d0429bbbb",
+ "message_id": "msg_011CgFugAQpsNMKv73HSTPyG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2512,
+  "output_tokens": 469,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the recent pickup in economic growth and continued progress in the labor market have strengthened the case for an increase in the federal funds rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"there appears little risk of falling behind the curve in the near future, and gradual increases in the federal funds rate will likely be sufficient\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I see the U.S. economy as close to full employment, with some further improvement expected.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"As oil prices and the dollar stabilize, the drag on consumer price inflation from these sources ought to dissipate, and inflation will likely move closer to 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the Committee judged the risks to the U.S. economic outlook to be roughly balanced.\"}],\"rationale\":\"The speaker signals a coming rate increase, calling September a close call, and describes the economy as near full employment. This hawkish lean is tempered by gradualism, inflation still below target and balanced risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the recent pickup in economic growth and continued progress in the labor market have strengthened the case for an increase in the federal funds rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "there appears little risk of falling behind the curve in the near future, and gradual increases in the federal funds rate will likely be sufficient"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I see the U.S. economy as close to full employment, with some further improvement expected."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "As oil prices and the dollar stabilize, the drag on consumer price inflation from these sources ought to dissipate, and inflation will likely move closer to 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the Committee judged the risks to the U.S. economic outlook to be roughly balanced."
+   }
+  ],
+  "rationale": "The speaker signals a coming rate increase, calling September a close call, and describes the economy as near full employment. This hawkish lean is tempered by gradualism, inflation still below target and balanced risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the recent pickup in economic growth and continued progress in the labor market have strengthened the case for an increase in the federal funds rate.",
+     "start": 5312,
+     "end": 5460
+    },
+    {
+     "quote": "there appears little risk of falling behind the curve in the near future, and gradual increases in the federal funds rate will likely be sufficient",
+     "start": 7372,
+     "end": 7519
+    },
+    {
+     "quote": "I see the U.S. economy as close to full employment, with some further improvement expected.",
+     "start": 1120,
+     "end": 1210
+    },
+    {
+     "quote": "As oil prices and the dollar stabilize, the drag on consumer price inflation from these sources ought to dissipate, and inflation will likely move closer to 2 percent.",
+     "start": 4714,
+     "end": 4880
+    },
+    {
+     "quote": "the Committee judged the risks to the U.S. economic outlook to be roughly balanced.",
+     "start": 5797,
+     "end": 5879
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

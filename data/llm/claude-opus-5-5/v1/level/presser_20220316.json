@@ -1,0 +1,121 @@
+{
+ "key": "presser_20220316",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20220316",
+  "doc_type": "presser",
+  "text_sha256": "db6c38dff98bac9bcd313788c7deca74d7d36b3e0aeb2e7bcc0fdab30afa4bdc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d4c0131ee6fc5bb7b70afaeca631151da551b14479675695af713790bb723bc1",
+ "message_id": "msg_011CgFugJksn74Wo5JSzpaRb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11324,
+  "output_tokens": 525,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, in support of these goals, the FOMC raised its policy interest rate by ¼ percentage point.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And if we conclude that it would be appropriate to raise interest rates more quickly, then we'll do so.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"this trajectory is notably higher than projected in December, and participants continue to see risks as weighted to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So that's a very, very tight labor market— tight to an unhealthy level, I would say.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"And that could come as soon as our next meeting in May.\"},{\"dimension\":\"overall\",\"quote\":\"getting rates back up to more neutral levels as quickly as we practicably can and then moving beyond that, if that turns out to be appropriate.\"}],\"rationale\":\"The Chair announces a hike, signals ongoing increases, possibly faster ones, and imminent faster-than-last-time balance sheet runoff, while stressing upside inflation risks and a very strong economy able to handle tighter policy. The Ukraine-related growth risks are acknowledged but subordinated to the price-stability priority.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, in support of these goals, the FOMC raised its policy interest rate by ¼ percentage point."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And if we conclude that it would be appropriate to raise interest rates more quickly, then we'll do so."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "this trajectory is notably higher than projected in December, and participants continue to see risks as weighted to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So that's a very, very tight labor market— tight to an unhealthy level, I would say."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "And that could come as soon as our next meeting in May."
+   },
+   {
+    "dimension": "overall",
+    "quote": "getting rates back up to more neutral levels as quickly as we practicably can and then moving beyond that, if that turns out to be appropriate."
+   }
+  ],
+  "rationale": "The Chair announces a hike, signals ongoing increases, possibly faster ones, and imminent faster-than-last-time balance sheet runoff, while stressing upside inflation risks and a very strong economy able to handle tighter policy. The Ukraine-related growth risks are acknowledged but subordinated to the price-stability priority."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, in support of these goals, the FOMC raised its policy interest rate by ¼ percentage point.",
+     "start": 431,
+     "end": 527
+    },
+    {
+     "quote": "And if we conclude that it would be appropriate to raise interest rates more quickly, then we'll do so.",
+     "start": 15587,
+     "end": 15689
+    },
+    {
+     "quote": "this trajectory is notably higher than projected in December, and participants continue to see risks as weighted to the upside.",
+     "start": 3971,
+     "end": 4097
+    },
+    {
+     "quote": "So that's a very, very tight labor market— tight to an unhealthy level, I would say.",
+     "start": 19259,
+     "end": 19342
+    },
+    {
+     "quote": "And that could come as soon as our next meeting in May.",
+     "start": 24437,
+     "end": 24491
+    },
+    {
+     "quote": "getting rates back up to more neutral levels as quickly as we practicably can and then moving beyond that, if that turns out to be appropriate.",
+     "start": 37019,
+     "end": 37161
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,33 @@
+# Google Cloud Run: build the read-only dashboard (deploy/Dockerfile), push it to Artifact Registry, roll it out.
+# From the repository root:  make deploy-cloudrun   (one-time setup in docs/DEPLOY.md)
+# The service scales to zero between visits, so a course demo stays inside Cloud Run's free tier.
+substitutions:
+  _REGION: us-east4
+  _SERVICE: fomc-tone-lab
+  _REPO: fomc
+options:
+  logging: CLOUD_LOGGING_ONLY
+steps:
+  - id: build
+    name: gcr.io/cloud-builders/docker
+    args: ["build", "-f", "deploy/Dockerfile", "-t", "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$BUILD_ID", "."]
+  - id: push
+    name: gcr.io/cloud-builders/docker
+    args: ["push", "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$BUILD_ID"]
+  - id: deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$BUILD_ID
+      - --region=${_REGION}
+      - --allow-unauthenticated
+      - --memory=1Gi
+      - --cpu=1
+      - --cpu-boost
+      - --min-instances=0
+      - --max-instances=3
+      - --concurrency=40
+      - --set-env-vars=FOMC_PUBLIC=1

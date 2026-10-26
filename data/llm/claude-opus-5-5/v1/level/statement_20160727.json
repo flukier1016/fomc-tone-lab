@@ -1,0 +1,121 @@
+{
+ "key": "statement_20160727",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20160727",
+  "doc_type": "statement",
+  "text_sha256": "e06478e7dbb13364856791d1fb9ec60753056edf28a64c8ed5ab7e88e23edab7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "564363faa02858bcbd056451f6f64ec089fff38314e01b224f283833fc8f0eec",
+ "message_id": "msg_011CgFugDtgaBGzy41vskrTm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1153,
+  "output_tokens": 518,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook have diminished.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains were strong in June following weak growth in May.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run below the Committee's 2 percent longer-run objective\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate\"},{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent.\"},{\"dimension\":\"overall\",\"quote\":\"Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\"}],\"rationale\":\"The statement holds rates steady, keeps reinvestment going, and notes below-target inflation, but it also describes a stronger labor market and diminished near-term risks. Together with a hawkish dissent, that gives a slight hawkish tilt within a mostly neutral statement that keeps its gradual guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook have diminished."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains were strong in June following weak growth in May."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run below the Committee's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent."
+   }
+  ],
+  "rationale": "The statement holds rates steady, keeps reinvestment going, and notes below-target inflation, but it also describes a stronger labor market and diminished near-term risks. Together with a hawkish dissent, that gives a slight hawkish tilt within a mostly neutral statement that keeps its gradual guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Near-term risks to the economic outlook have diminished.",
+     "start": 1378,
+     "end": 1433
+    },
+    {
+     "quote": "Job gains were strong in June following weak growth in May.",
+     "start": 184,
+     "end": 242
+    },
+    {
+     "quote": "Inflation has continued to run below the Committee's 2 percent longer-run objective",
+     "start": 451,
+     "end": 534
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate",
+     "start": 2467,
+     "end": 2604
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent.",
+     "start": 1571,
+     "end": 1670
+    },
+    {
+     "quote": "Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 3584,
+     "end": 3736
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

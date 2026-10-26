@@ -1,0 +1,112 @@
+{
+ "key": "statement_20120801",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20120801",
+  "doc_type": "statement",
+  "text_sha256": "59fb5140571fcdbf95b647c351b120e52c5e2f0b0aab228fd36da84888d9a8fd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d864ad4c89afce4e313410ca68233017c0cbff1caad7b25ce3df034a4ac79f16",
+ "message_id": "msg_011CgFugDPuqhrJadkXrCBL7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 962,
+  "output_tokens": 466,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014\"},{\"dimension\":\"risk_balance\",\"quote\":\"strains in global financial markets continue to pose significant downside risks to the economic outlook\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity decelerated somewhat over the first half of this year\"}],\"rationale\":\"The statement holds rates near zero, keeps the extended low-rate guidance and the maturity extension program, and explicitly signals readiness to add accommodation. It also characterizes growth, labor and inflation as weak and emphasizes downside risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity decelerated somewhat over the first half of this year"
+   }
+  ],
+  "rationale": "The statement holds rates near zero, keeps the extended low-rate guidance and the maturity extension program, and explicitly signals readiness to add accommodation. It also characterizes growth, labor and inflation as weak and emphasizes downside risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability",
+     "start": 2336,
+     "end": 2508
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014",
+     "start": 1787,
+     "end": 1887
+    },
+    {
+     "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook",
+     "start": 1042,
+     "end": 1145
+    },
+    {
+     "quote": "The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate.",
+     "start": 1147,
+     "end": 1291
+    },
+    {
+     "quote": "economic activity decelerated somewhat over the first half of this year",
+     "start": 87,
+     "end": 158
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20130412a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20130412a",
+  "doc_type": "speech",
+  "text_sha256": "c23b0432adf92cc19c7276a04f6e06e1f2997c6a0105fdf7d2fc3cd2e258dd0e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a84a0da49028a2fb9e6344d74d5de5b465ad6445392e3c21ca9cb23c0aeea1ab",
+ "message_id": "msg_011CgFugExvYkBpe2zfAZ7GJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6314,
+  "output_tokens": 395,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"while employment and housing show signs of improving for the nation as a whole, conditions in lower-income neighborhoods remain difficult by many measures.\"},{\"dimension\":\"overall\",\"quote\":\"Successful strategies to rebuild communities cannot focus narrowly on a single problem, such as the physical deterioration of neighborhoods that suffered high rates of foreclosure.\"},{\"dimension\":\"overall\",\"quote\":\"I want to thank all of you here today for the role you play in bringing your skills in research and analysis to the important work of rebuilding lower-income communities.\"}],\"rationale\":\"This is a community development speech with no monetary policy content beyond a brief note that national conditions are improving while low-income areas remain difficult. The stance is scored neutral, with only a slight dovish tilt from the emphasis on lingering hardship.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "while employment and housing show signs of improving for the nation as a whole, conditions in lower-income neighborhoods remain difficult by many measures."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Successful strategies to rebuild communities cannot focus narrowly on a single problem, such as the physical deterioration of neighborhoods that suffered high rates of foreclosure."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I want to thank all of you here today for the role you play in bringing your skills in research and analysis to the important work of rebuilding lower-income communities."
+   }
+  ],
+  "rationale": "This is a community development speech with no monetary policy content beyond a brief note that national conditions are improving while low-income areas remain difficult. The stance is scored neutral, with only a slight dovish tilt from the emphasis on lingering hardship."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "while employment and housing show signs of improving for the nation as a whole, conditions in lower-income neighborhoods remain difficult by many measures.",
+     "start": 1043,
+     "end": 1197
+    },
+    {
+     "quote": "Successful strategies to rebuild communities cannot focus narrowly on a single problem, such as the physical deterioration of neighborhoods that suffered high rates of foreclosure.",
+     "start": 2007,
+     "end": 2186
+    },
+    {
+     "quote": "I want to thank all of you here today for the role you play in bringing your skills in research and analysis to the important work of rebuilding lower-income communities.",
+     "start": 21042,
+     "end": 21211
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

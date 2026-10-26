@@ -1,0 +1,121 @@
+{
+ "key": "presser_20130619",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20130619",
+  "doc_type": "presser",
+  "text_sha256": "9c6601059b1a6ab8c354aea4c33bd4477b6e82cb2342ddc9c163fc8560742355"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4b96c278c78f7f9a58e1c1dd21f0eb75e38c42aa6cc5d1a546b6ebcd6f6c69a4",
+ "message_id": "msg_011CgFugJXygJ6cnQMcCobVD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12322,
+  "output_tokens": 548,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"If the incoming data are broadly consistent with this forecast, the Committee currently anticipates that it would be appropriate to moderate the monthly pace of purchases later this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"However, any need to consider applying the brakes by raising short-term rates is still far in the future.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has been running below the Committee’s longer-run objective of 2 percent for some time and has been a bit softer recently.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Overall, the Committee believes the downside risks to the outlook for the economy and the labor market have diminished since the fall\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market has continued to improve, with gains in private payroll employment averaging about 200,000 jobs per month over the past six months.\"},{\"dimension\":\"policy_action\",\"quote\":\"Today the Committee made no changes to the purchase program.\"}],\"rationale\":\"The Chair lays out a conditional plan to taper asset purchases later this year and end them around mid-2014, citing diminished downside risks and an improving labor market, which leans hawkish. This is tempered by low inflation and repeated assurances that rate hikes are far off and that policy depends on incoming data.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "If the incoming data are broadly consistent with this forecast, the Committee currently anticipates that it would be appropriate to moderate the monthly pace of purchases later this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, any need to consider applying the brakes by raising short-term rates is still far in the future."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has been running below the Committee’s longer-run objective of 2 percent for some time and has been a bit softer recently."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Overall, the Committee believes the downside risks to the outlook for the economy and the labor market have diminished since the fall"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market has continued to improve, with gains in private payroll employment averaging about 200,000 jobs per month over the past six months."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Committee made no changes to the purchase program."
+   }
+  ],
+  "rationale": "The Chair lays out a conditional plan to taper asset purchases later this year and end them around mid-2014, citing diminished downside risks and an improving labor market, which leans hawkish. This is tempered by low inflation and repeated assurances that rate hikes are far off and that policy depends on incoming data."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the incoming data are broadly consistent with this forecast, the Committee currently anticipates that it would be appropriate to moderate the monthly pace of purchases later this year.",
+     "start": 8142,
+     "end": 8328
+    },
+    {
+     "quote": "However, any need to consider applying the brakes by raising short-term rates is still far in the future.",
+     "start": 10876,
+     "end": 10980
+    },
+    {
+     "quote": "Inflation has been running below the Committee’s longer-run objective of 2 percent for some time and has been a bit softer recently.",
+     "start": 949,
+     "end": 1080
+    },
+    {
+     "quote": "Overall, the Committee believes the downside risks to the outlook for the economy and the labor market have diminished since the fall",
+     "start": 735,
+     "end": 868
+    },
+    {
+     "quote": "The labor market has continued to improve, with gains in private payroll employment averaging about 200,000 jobs per month over the past six months.",
+     "start": 311,
+     "end": 458
+    },
+    {
+     "quote": "Today the Committee made no changes to the purchase program.",
+     "start": 7370,
+     "end": 7429
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

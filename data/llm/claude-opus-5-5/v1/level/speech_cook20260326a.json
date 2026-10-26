@@ -1,0 +1,94 @@
+{
+ "key": "speech_cook20260326a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260326a",
+  "doc_type": "speech",
+  "text_sha256": "1d3d266d41fa0f4dfe62fc70f522ab4ef5d85b8f2347ac390b57bc454fe31a86"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a9d0fa80f50e165f37857598578092ffd96a0177486a8e56338331bd6a5cb4c",
+ "message_id": "msg_011CgFugD4a5Jzr2PyYEAw8V",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6300,
+  "output_tokens": 400,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I will start by discussing the financial stability committee itself and then move to reflections on the Fed's Financial Stability Report (FSR) and scenario analysis, the analytical workhorse of financial stability analysis.\"},{\"dimension\":\"overall\",\"quote\":\"Before I conclude, let me offer some thoughts on policymaking to support financial stability. I am not going to comment on any specific proposals or past actions.\"},{\"dimension\":\"overall\",\"quote\":\"While I take comfort in the very high levels of resilience of the U.S. G-SIBs, vigilance in ensuring their continued resilience is critical.\"}],\"rationale\":\"The speech focuses on financial stability monitoring, the FSR, and scenario analysis, and offers no view on rates, inflation, or the economic outlook. The stance is therefore neutral and the document has low monetary-policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I will start by discussing the financial stability committee itself and then move to reflections on the Fed's Financial Stability Report (FSR) and scenario analysis, the analytical workhorse of financial stability analysis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Before I conclude, let me offer some thoughts on policymaking to support financial stability. I am not going to comment on any specific proposals or past actions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While I take comfort in the very high levels of resilience of the U.S. G-SIBs, vigilance in ensuring their continued resilience is critical."
+   }
+  ],
+  "rationale": "The speech focuses on financial stability monitoring, the FSR, and scenario analysis, and offers no view on rates, inflation, or the economic outlook. The stance is therefore neutral and the document has low monetary-policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I will start by discussing the financial stability committee itself and then move to reflections on the Fed's Financial Stability Report (FSR) and scenario analysis, the analytical workhorse of financial stability analysis.",
+     "start": 1864,
+     "end": 2092
+    },
+    {
+     "quote": "Before I conclude, let me offer some thoughts on policymaking to support financial stability. I am not going to comment on any specific proposals or past actions.",
+     "start": 14003,
+     "end": 14164
+    },
+    {
+     "quote": "While I take comfort in the very high levels of resilience of the U.S. G-SIBs, vigilance in ensuring their continued resilience is critical.",
+     "start": 17939,
+     "end": 18078
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

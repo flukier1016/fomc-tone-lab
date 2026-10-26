@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20191218a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20191218a",
+  "doc_type": "speech",
+  "text_sha256": "0564a3dc7816409418ee1b77bad4b5f8d263d916d3edec87cab30bfb3d257883"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "df4af2bb0c5d84f4f82e3a17b1df9cb01c0e46b6585d989b43d5954a948dee8e",
+ "message_id": "msg_011CgFugCaJWg9mjjt6FsNLG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4516,
+  "output_tokens": 353,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I was asked to provide some brief thoughts about digital developments in the world of monetary policy and central banking.\"},{\"dimension\":\"overall\",\"quote\":\"Libra, like any stablecoin project with global scale and scope, must address a core set of legal and regulatory challenges.\"},{\"dimension\":\"overall\",\"quote\":\"Similarly, there are potential implications for monetary policy. For smaller economies, there may be material effects on monetary policy from private sector digital currencies as well as foreign central bank digital currencies.\"}],\"rationale\":\"The speech addresses stablecoins, digital currencies and payments regulation and offers no view on the economic outlook or the path of monetary policy. It is scored neutral, with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I was asked to provide some brief thoughts about digital developments in the world of monetary policy and central banking."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Libra, like any stablecoin project with global scale and scope, must address a core set of legal and regulatory challenges."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Similarly, there are potential implications for monetary policy. For smaller economies, there may be material effects on monetary policy from private sector digital currencies as well as foreign central bank digital currencies."
+   }
+  ],
+  "rationale": "The speech addresses stablecoins, digital currencies and payments regulation and offers no view on the economic outlook or the path of monetary policy. It is scored neutral, with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I was asked to provide some brief thoughts about digital developments in the world of monetary policy and central banking.",
+     "start": 1838,
+     "end": 1959
+    },
+    {
+     "quote": "Libra, like any stablecoin project with global scale and scope, must address a core set of legal and regulatory challenges.",
+     "start": 5513,
+     "end": 5635
+    },
+    {
+     "quote": "Similarly, there are potential implications for monetary policy. For smaller economies, there may be material effects on monetary policy from private sector digital currencies as well as foreign central bank digital currencies.",
+     "start": 9799,
+     "end": 10025
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "key": "statement_20160727",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20160727",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "6d5fc8b9cfca29cd36867d2919e23f0872f8f4e346739ae97a6636d56f313ced"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1655f04d7616621d86628c6e5fc79fdcaf48417b39b6a706b5b81f92101ffdf3",
+ "message_id": "msg_011CgFudRqC883PaAkN8NVYQ",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1129,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook have diminished.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"indicates that the labor market strengthened and that economic activity has been expanding at a moderate rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run below the Committee's 2 percent longer-run objective\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate\"},{\"dimension\":\"policy_action\",\"quote\":\"Voting against the action was [NAME], who preferred at this meeting to raise the target range for the federal funds rate to [RANGE] percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The Committee holds rates and keeps its gradual-increase guidance, but describes a strengthening labor market and diminished near-term risks, with one dissent favoring a hike. Below-target inflation and continued reinvestment temper this, leaving a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook have diminished."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "indicates that the labor market strengthened and that economic activity has been expanding at a moderate rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run below the Committee's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "Voting against the action was [NAME], who preferred at this meeting to raise the target range for the federal funds rate to [RANGE] percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The Committee holds rates and keeps its gradual-increase guidance, but describes a strengthening labor market and diminished near-term risks, with one dissent favoring a hike. Below-target inflation and continued reinvestment temper this, leaving a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Near-term risks to the economic outlook have diminished.",
+     "start": 1384,
+     "end": 1439
+    },
+    {
+     "quote": "indicates that the labor market strengthened and that economic activity has been expanding at a moderate rate",
+     "start": 76,
+     "end": 185
+    },
+    {
+     "quote": "Inflation has continued to run below the Committee's 2 percent longer-run objective",
+     "start": 457,
+     "end": 540
+    },
+    {
+     "quote": "the Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate",
+     "start": 2470,
+     "end": 2607
+    },
+    {
+     "quote": "Voting against the action was [NAME], who preferred at this meeting to raise the target range for the federal funds rate to [RANGE] percent.",
+     "start": 3535,
+     "end": 3674
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 3205,
+     "end": 3354
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

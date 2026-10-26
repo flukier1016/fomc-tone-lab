@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20130404a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20130404a",
+  "doc_type": "speech",
+  "text_sha256": "3566000951fe1352a58d6dc495d0396921f058bc402cfe32672920cd511ac6bc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "57d2cf8ac63b2b1d34ea16559c700d452f208426a59141c7c6b92d072833a7f5",
+ "message_id": "msg_011CgFugBxMBqN4FeYMbjK95",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8205,
+  "output_tokens": 561,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"In this circumstance, both legs of the dual mandate call for a highly accommodative monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the current rate of unemployment, at 7.7 percent, is far above the 5.2 to 6 percent range in the statement and is expected to decline only gradually.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I believe progress on reducing unemployment should take center stage for the FOMC, even if maintaining that progress might result in inflation slightly and temporarily exceeding 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Accordingly, there will likely be a substantial period after asset purchases conclude but before the FOMC starts removing accommodation by reducing asset holdings or raising the federal funds rate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"An end to those purchases means that the FOMC has ceased augmenting that support, not that it is withdrawing accommodation.\"}],\"rationale\":\"Mostly a communications history speech, but the speaker explicitly prioritizes reducing unemployment, tolerates temporary inflation above 2 percent, and stresses a long period of accommodation after purchases end. Mentions of eventual exit and adjusting purchase pace temper the dovishness only slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In this circumstance, both legs of the dual mandate call for a highly accommodative monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the current rate of unemployment, at 7.7 percent, is far above the 5.2 to 6 percent range in the statement and is expected to decline only gradually."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I believe progress on reducing unemployment should take center stage for the FOMC, even if maintaining that progress might result in inflation slightly and temporarily exceeding 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Accordingly, there will likely be a substantial period after asset purchases conclude but before the FOMC starts removing accommodation by reducing asset holdings or raising the federal funds rate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "An end to those purchases means that the FOMC has ceased augmenting that support, not that it is withdrawing accommodation."
+   }
+  ],
+  "rationale": "Mostly a communications history speech, but the speaker explicitly prioritizes reducing unemployment, tolerates temporary inflation above 2 percent, and stresses a long period of accommodation after purchases end. Mentions of eventual exit and adjusting purchase pace temper the dovishness only slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In this circumstance, both legs of the dual mandate call for a highly accommodative monetary policy.",
+     "start": 19923,
+     "end": 20022
+    },
+    {
+     "quote": "the current rate of unemployment, at 7.7 percent, is far above the 5.2 to 6 percent range in the statement and is expected to decline only gradually.",
+     "start": 19641,
+     "end": 19789
+    },
+    {
+     "quote": "I believe progress on reducing unemployment should take center stage for the FOMC, even if maintaining that progress might result in inflation slightly and temporarily exceeding 2 percent.",
+     "start": 20083,
+     "end": 20270
+    },
+    {
+     "quote": "Accordingly, there will likely be a substantial period after asset purchases conclude but before the FOMC starts removing accommodation by reducing asset holdings or raising the federal funds rate.",
+     "start": 24908,
+     "end": 25104
+    },
+    {
+     "quote": "An end to those purchases means that the FOMC has ceased augmenting that support, not that it is withdrawing accommodation.",
+     "start": 24362,
+     "end": 24484
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

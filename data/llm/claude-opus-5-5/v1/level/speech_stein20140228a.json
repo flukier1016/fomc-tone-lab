@@ -1,0 +1,103 @@
+{
+ "key": "speech_stein20140228a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_stein20140228a",
+  "doc_type": "speech",
+  "text_sha256": "5359181a7bce2a26506af8ac69bf0c0781cc6ea3f24d66c1199b37dd07e1eb6e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cacb82e98d141d8e9d8e6eab28dd17acc57bab5be9bf473fd4e5fa0d7c6aa906",
+ "message_id": "msg_011CgFugMmheHHtW7RPGR73k",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4321,
+  "output_tokens": 458,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This is the spirit in which I will discuss the paper--not as a comment on the current stance of policy, but as an exploration of the factors that should be taken into account\"},{\"dimension\":\"risk_balance\",\"quote\":\"I think they are absolutely on target in emphasizing that the rapid growth of fixed-income funds--as well as other, similar vehicles--bears careful watching.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So monetary policymakers cannot wash their hands of what happens when these spreads revert sharply.\"},{\"dimension\":\"overall\",\"quote\":\"I would not want to rule out the possibility that some of the risks identified by the authors could be mitigated, at least in part, via a regulatory approach.\"}],\"rationale\":\"The discussion of financial stability risks from reach-for-yield under low rates leans slightly hawkish, since it agrees that monetary policy cannot ignore such risks. However, the speaker explicitly disclaims any comment on current policy and favors regulatory tools where possible, so the net signal is near neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This is the spirit in which I will discuss the paper--not as a comment on the current stance of policy, but as an exploration of the factors that should be taken into account"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I think they are absolutely on target in emphasizing that the rapid growth of fixed-income funds--as well as other, similar vehicles--bears careful watching."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So monetary policymakers cannot wash their hands of what happens when these spreads revert sharply."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I would not want to rule out the possibility that some of the risks identified by the authors could be mitigated, at least in part, via a regulatory approach."
+   }
+  ],
+  "rationale": "The discussion of financial stability risks from reach-for-yield under low rates leans slightly hawkish, since it agrees that monetary policy cannot ignore such risks. However, the speaker explicitly disclaims any comment on current policy and favors regulatory tools where possible, so the net signal is near neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This is the spirit in which I will discuss the paper--not as a comment on the current stance of policy, but as an exploration of the factors that should be taken into account",
+     "start": 2417,
+     "end": 2591
+    },
+    {
+     "quote": "I think they are absolutely on target in emphasizing that the rapid growth of fixed-income funds--as well as other, similar vehicles--bears careful watching.",
+     "start": 12753,
+     "end": 12909
+    },
+    {
+     "quote": "So monetary policymakers cannot wash their hands of what happens when these spreads revert sharply.",
+     "start": 13444,
+     "end": 13542
+    },
+    {
+     "quote": "I would not want to rule out the possibility that some of the risks identified by the authors could be mitigated, at least in part, via a regulatory approach.",
+     "start": 14249,
+     "end": 14406
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

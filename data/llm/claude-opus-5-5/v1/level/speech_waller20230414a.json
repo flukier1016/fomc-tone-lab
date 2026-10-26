@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20230414a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230414a",
+  "doc_type": "speech",
+  "text_sha256": "b7f5772506d62e331ac9f7743394aaf2c5b794eadb4b6555575b060bb6b4d520"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "18c01f7fe5db0782cb14d410f038226d31b24290548fab61d046393bb9e92376",
+ "message_id": "msg_011CgFugCyNGitSU3qi1ouuG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3404,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"so monetary policy needs to be tightened further\"},{\"dimension\":\"forward_guidance\",\"quote\":\"monetary policy will need to remain tight for a substantial period of time, and longer than markets anticipate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Since December of 2021, core inflation has basically moved sideways with no apparent downward movement.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the data in hand for the first quarter of 2023 continue to surprise me, with stronger growth and job creation than I expected late last year\"},{\"dimension\":\"risk_balance\",\"quote\":\"a significant tightening of credit conditions could obviate the need for some additional monetary policy tightening, but making such a judgement is difficult, especially in real time.\"}],\"rationale\":\"The speaker explicitly calls for further tightening and holding policy tight longer than markets expect, citing stalled core inflation and a resilient economy and labor market. Acknowledgment that banking-related credit tightening could substitute for some hikes tempers the stance only slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "so monetary policy needs to be tightened further"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "monetary policy will need to remain tight for a substantial period of time, and longer than markets anticipate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Since December of 2021, core inflation has basically moved sideways with no apparent downward movement."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the data in hand for the first quarter of 2023 continue to surprise me, with stronger growth and job creation than I expected late last year"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a significant tightening of credit conditions could obviate the need for some additional monetary policy tightening, but making such a judgement is difficult, especially in real time."
+   }
+  ],
+  "rationale": "The speaker explicitly calls for further tightening and holding policy tight longer than markets expect, citing stalled core inflation and a resilient economy and labor market. Acknowledgment that banking-related credit tightening could substitute for some hikes tempers the stance only slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "so monetary policy needs to be tightened further",
+     "start": 10242,
+     "end": 10290
+    },
+    {
+     "quote": "monetary policy will need to remain tight for a substantial period of time, and longer than markets anticipate",
+     "start": 10504,
+     "end": 10614
+    },
+    {
+     "quote": "Since December of 2021, core inflation has basically moved sideways with no apparent downward movement.",
+     "start": 9413,
+     "end": 9515
+    },
+    {
+     "quote": "the data in hand for the first quarter of 2023 continue to surprise me, with stronger growth and job creation than I expected late last year",
+     "start": 6151,
+     "end": 6291
+    },
+    {
+     "quote": "a significant tightening of credit conditions could obviate the need for some additional monetary policy tightening, but making such a judgement is difficult, especially in real time.",
+     "start": 5932,
+     "end": 6114
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

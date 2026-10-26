@@ -1,0 +1,121 @@
+{
+ "key": "presser_20140319",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20140319",
+  "doc_type": "presser",
+  "text_sha256": "dabc46c3c07efed02541ac07a8c283814613179dd1a9a0585c1d3c7d49c15112"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8bbbd6a502ec06877b5678c8648424221c77e1e12d6050caaee695674d544964",
+ "message_id": "msg_011CgFug8fQdmHZJHxXhQncW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10820,
+  "output_tokens": 860,
+  "output_tokens_details": {
+   "thinking_tokens": 351
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Starting next month, we will be purchasing $55 billion of securities per month, down $10 billion per month from our current rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it probably means something on the order of around six months or that type of thing.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"These conditions warrant the continuation of highly accommodative policy reflected in today’s policy statement.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"we are fully committed to the 2 percent inflation objective, and we do not want to undershoot inflation for a prolonged period of time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In contrast, labor market conditions have continued to improve.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will likely continue to reduce the pace of asset purchases in measured steps at future meetings.\"}],\"rationale\":\"The Chair announces continued tapering and suggests purchases end next fall, with rate hikes possibly about six months later, but she emphasizes highly accommodative policy, below-target inflation, substantial slack and rates below normal for some time. On net the signal is a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Starting next month, we will be purchasing $55 billion of securities per month, down $10 billion per month from our current rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it probably means something on the order of around six months or that type of thing."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "These conditions warrant the continuation of highly accommodative policy reflected in today’s policy statement."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "we are fully committed to the 2 percent inflation objective, and we do not want to undershoot inflation for a prolonged period of time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In contrast, labor market conditions have continued to improve."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will likely continue to reduce the pace of asset purchases in measured steps at future meetings."
+   }
+  ],
+  "rationale": "The Chair announces continued tapering and suggests purchases end next fall, with rate hikes possibly about six months later, but she emphasizes highly accommodative policy, below-target inflation, substantial slack and rates below normal for some time. On net the signal is a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Starting next month, we will be purchasing $55 billion of securities per month, down $10 billion per month from our current rate.",
+     "start": 4196,
+     "end": 4324
+    },
+    {
+     "quote": "it probably means something on the order of around six months or that type of thing.",
+     "start": 23284,
+     "end": 23367
+    },
+    {
+     "quote": "These conditions warrant the continuation of highly accommodative policy reflected in today’s policy statement.",
+     "start": 10117,
+     "end": 10227
+    },
+    {
+     "quote": "we are fully committed to the 2 percent inflation objective, and we do not want to undershoot inflation for a prolonged period of time.",
+     "start": 13373,
+     "end": 13507
+    },
+    {
+     "quote": "In contrast, labor market conditions have continued to improve.",
+     "start": 1516,
+     "end": 1578
+    },
+    {
+     "quote": "the Committee will likely continue to reduce the pace of asset purchases in measured steps at future meetings.",
+     "start": 5297,
+     "end": 5406
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

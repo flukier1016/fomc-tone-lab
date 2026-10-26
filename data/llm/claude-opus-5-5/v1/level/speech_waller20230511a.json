@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20230511a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230511a",
+  "doc_type": "speech",
+  "text_sha256": "eebfa50f2823e21c9a6348af4fea57107f87a8ca365028563e5e3fb308ee54db"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "11a51225b041405e2ff7161b3f36a806c9fbe6ac0190658c8735e025cdbe36b9",
+ "message_id": "msg_011CgFug8zzqqGZvCT3P53wY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4424,
+  "output_tokens": 319,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Climate change is real, but I do not believe it poses a serious risk to the safety and soundness of large banks or the financial stability of the United States.\"},{\"dimension\":\"overall\",\"quote\":\"I don't see a need for special treatment for climate-related risks in our financial stability monitoring and policies.\"},{\"dimension\":\"overall\",\"quote\":\"My job is to make sure that the financial system is resilient to a range of risks.\"}],\"rationale\":\"The speech addresses climate-related financial stability risk and supervisory approach, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Climate change is real, but I do not believe it poses a serious risk to the safety and soundness of large banks or the financial stability of the United States."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I don't see a need for special treatment for climate-related risks in our financial stability monitoring and policies."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My job is to make sure that the financial system is resilient to a range of risks."
+   }
+  ],
+  "rationale": "The speech addresses climate-related financial stability risk and supervisory approach, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Climate change is real, but I do not believe it poses a serious risk to the safety and soundness of large banks or the financial stability of the United States.",
+     "start": 0,
+     "end": 159
+    },
+    {
+     "quote": "I don't see a need for special treatment for climate-related risks in our financial stability monitoring and policies.",
+     "start": 14850,
+     "end": 14967
+    },
+    {
+     "quote": "My job is to make sure that the financial system is resilient to a range of risks.",
+     "start": 279,
+     "end": 360
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

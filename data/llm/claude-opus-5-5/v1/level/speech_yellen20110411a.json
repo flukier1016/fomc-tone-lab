@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20110411a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20110411a",
+  "doc_type": "speech",
+  "text_sha256": "6c0223bb07b47e0fb9874b0710f1cb8fa8811922c2d0021f1e512903174199f9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b0f5ddc514ca11eb529a52306b8060992e4014d10ec9b42ec81aec10048e8a3b",
+ "message_id": "msg_011CgFugAgCpJbjvfWLQzXbq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8654,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are not likely to warrant any substantial shift in the stance of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect the overall inflationary consequences of these pass-through effects to be modest and transitory, provided that longer-run inflation expectations remain well anchored.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I see weak demand for labor as the predominant explanation of why the rate of unemployment remains elevated\"},{\"dimension\":\"risk_balance\",\"quote\":\"Such circumstances would clearly call for policy firming to ensure that longer-term inflation expectations remain firmly anchored.\"},{\"dimension\":\"overall\",\"quote\":\"I believe this accommodative policy stance is still appropriate because unemployment remains elevated, longer-run inflation expectations remain well anchored, and measures of underlying inflation are somewhat low\"}],\"rationale\":\"The speaker argues that commodity-driven inflation is transitory, that underlying inflation is below target and that slack reflects weak demand, so accommodation remains appropriate and no substantial policy shift is warranted. Vigilance about inflation expectations and an acknowledgment of eventual exit temper the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are not likely to warrant any substantial shift in the stance of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect the overall inflationary consequences of these pass-through effects to be modest and transitory, provided that longer-run inflation expectations remain well anchored."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I see weak demand for labor as the predominant explanation of why the rate of unemployment remains elevated"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Such circumstances would clearly call for policy firming to ensure that longer-term inflation expectations remain firmly anchored."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe this accommodative policy stance is still appropriate because unemployment remains elevated, longer-run inflation expectations remain well anchored, and measures of underlying inflation are somewhat low"
+   }
+  ],
+  "rationale": "The speaker argues that commodity-driven inflation is transitory, that underlying inflation is below target and that slack reflects weak demand, so accommodation remains appropriate and no substantial policy shift is warranted. Vigilance about inflation expectations and an acknowledgment of eventual exit temper the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are not likely to warrant any substantial shift in the stance of monetary policy.",
+     "start": 3042,
+     "end": 3122
+    },
+    {
+     "quote": "I expect the overall inflationary consequences of these pass-through effects to be modest and transitory, provided that longer-run inflation expectations remain well anchored.",
+     "start": 14774,
+     "end": 14948
+    },
+    {
+     "quote": "I see weak demand for labor as the predominant explanation of why the rate of unemployment remains elevated",
+     "start": 21556,
+     "end": 21663
+    },
+    {
+     "quote": "Such circumstances would clearly call for policy firming to ensure that longer-term inflation expectations remain firmly anchored.",
+     "start": 28207,
+     "end": 28336
+    },
+    {
+     "quote": "I believe this accommodative policy stance is still appropriate because unemployment remains elevated, longer-run inflation expectations remain well anchored, and measures of underlying inflation are somewhat low",
+     "start": 25941,
+     "end": 26153
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

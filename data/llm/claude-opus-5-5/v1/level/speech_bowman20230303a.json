@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20230303a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230303a",
+  "doc_type": "speech",
+  "text_sha256": "007f036e5324f0240f82fece8a3f897e42ea0e2a071cd8bc885b29cd7b671b00"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c23b33af96c27343513479aee6b718dd096f18817f5deac36573fe6626d04266",
+ "message_id": "msg_011CgFugEsxuoiHRXw1hYBZT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1519,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Financial stability is essential for a well-functioning economy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"a key issue for central banks to consider is how to clearly distinguish asset purchases from the central bank's monetary policy actions.\"},{\"dimension\":\"overall\",\"quote\":\"This would be especially important during a period of monetary policy tightening, as we are currently experiencing.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A further consideration is how to construct and communicate an exit strategy to reduce the enlarged balance sheet over time.\"}],\"rationale\":\"The speech is about financial stability tools and market functioning, not the monetary policy outlook, and gives no signal on rates. It only notes that a tightening cycle is underway and favors limiting the Fed's footprint, a slight hawkish tinge.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Financial stability is essential for a well-functioning economy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "a key issue for central banks to consider is how to clearly distinguish asset purchases from the central bank's monetary policy actions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This would be especially important during a period of monetary policy tightening, as we are currently experiencing."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A further consideration is how to construct and communicate an exit strategy to reduce the enlarged balance sheet over time."
+   }
+  ],
+  "rationale": "The speech is about financial stability tools and market functioning, not the monetary policy outlook, and gives no signal on rates. It only notes that a tightening cycle is underway and favors limiting the Fed's footprint, a slight hawkish tinge."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Financial stability is essential for a well-functioning economy.",
+     "start": 169,
+     "end": 232
+    },
+    {
+     "quote": "a key issue for central banks to consider is how to clearly distinguish asset purchases from the central bank's monetary policy actions.",
+     "start": 3706,
+     "end": 3841
+    },
+    {
+     "quote": "This would be especially important during a period of monetary policy tightening, as we are currently experiencing.",
+     "start": 3845,
+     "end": 3959
+    },
+    {
+     "quote": "A further consideration is how to construct and communicate an exit strategy to reduce the enlarged balance sheet over time.",
+     "start": 4084,
+     "end": 4207
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

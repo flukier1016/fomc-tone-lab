@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20190516a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190516a",
+  "doc_type": "speech",
+  "text_sha256": "52a4a76016cedd9e3bd4ace6de660a06dd24a2f00dc983dbf0c47a8dae5f0f7a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "923bc3b7a80b5482efecf5834757535ee69d6dd81da3d88a5a6e9a64d2e906d6",
+ "message_id": "msg_011CgFug8hPUC5kQcERk3oCq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5469,
+  "output_tokens": 583,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"underlying trend inflation—the trend in inflation after filtering out idiosyncratic and transitory factors—appears to be somewhat below the Federal Reserve's goal of 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it may make sense to take actions other than tightening monetary policy to temper the financial cycle.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Federal Reserve could use that opportunity to communicate that a mild overshooting of inflation is consistent with our goals and to align policy with that statement.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The job market is strong. At 3.6 percent, the unemployment rate is now lower than it was before the crisis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Elevated valuations and corporate debt could leave the economy more vulnerable to negative shocks.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, it is therefore wise to proceed cautiously, helping to sustain the expansion and further gains in employment\"}],\"rationale\":\"Brainard emphasizes below-target trend inflation, a willingness to tolerate a mild overshoot, and the use of macroprudential tools rather than rate hikes against financial risks, all of which lean dovish. Her strong labor-market assessment is offset by her call to proceed cautiously and sustain the expansion.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "underlying trend inflation—the trend in inflation after filtering out idiosyncratic and transitory factors—appears to be somewhat below the Federal Reserve's goal of 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it may make sense to take actions other than tightening monetary policy to temper the financial cycle."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Federal Reserve could use that opportunity to communicate that a mild overshooting of inflation is consistent with our goals and to align policy with that statement."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The job market is strong. At 3.6 percent, the unemployment rate is now lower than it was before the crisis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Elevated valuations and corporate debt could leave the economy more vulnerable to negative shocks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, it is therefore wise to proceed cautiously, helping to sustain the expansion and further gains in employment"
+   }
+  ],
+  "rationale": "Brainard emphasizes below-target trend inflation, a willingness to tolerate a mild overshoot, and the use of macroprudential tools rather than rate hikes against financial risks, all of which lean dovish. Her strong labor-market assessment is offset by her call to proceed cautiously and sustain the expansion."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "underlying trend inflation—the trend in inflation after filtering out idiosyncratic and transitory factors—appears to be somewhat below the Federal Reserve's goal of 2 percent.",
+     "start": 4608,
+     "end": 4783
+    },
+    {
+     "quote": "it may make sense to take actions other than tightening monetary policy to temper the financial cycle.",
+     "start": 12144,
+     "end": 12245
+    },
+    {
+     "quote": "The Federal Reserve could use that opportunity to communicate that a mild overshooting of inflation is consistent with our goals and to align policy with that statement.",
+     "start": 17394,
+     "end": 17562
+    },
+    {
+     "quote": "The job market is strong. At 3.6 percent, the unemployment rate is now lower than it was before the crisis.",
+     "start": 1504,
+     "end": 1610
+    },
+    {
+     "quote": "Elevated valuations and corporate debt could leave the economy more vulnerable to negative shocks.",
+     "start": 11416,
+     "end": 11513
+    },
+    {
+     "quote": "In my view, it is therefore wise to proceed cautiously, helping to sustain the expansion and further gains in employment",
+     "start": 18192,
+     "end": 18312
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20090616a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20090616a",
+  "doc_type": "speech",
+  "text_sha256": "c4c6bc07140679c367e7683f36326776a28c6be64fb9cd262636419a90ada625"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c509562cddeae65e69e7d744f191b4e655491541623c9502a8a25fb83395bf8b",
+ "message_id": "msg_011CgFugBu83WFb4jQVwWbw3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10048,
+  "output_tokens": 514,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"With inflation expected to remain subdued for some time, the FOMC has indicated that short-term interest rates are likely to remain low for an extended period.\"},{\"dimension\":\"risk_balance\",\"quote\":\"a significantly weaker path of lending--and thereby economic activity--could very likely occur if policy support for the financial sector is withdrawn too soon.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In the past, economic downturns were deepened or prolonged by the premature withdrawal of monetary or fiscal stimulus.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The program appears to be having its intended effect. Yields on mortgages relative to Treasury yields have come down since November 2008.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the downturn in credit evident in the most recent quarter provides a reminder that conditions are still far from normal.\"}],\"rationale\":\"The speech mainly evaluates crisis programs as successful but closes with a clear warning against premature withdrawal of stimulus and credit support, alongside reaffirming extended low rates with subdued inflation. This tilts the net signal dovish, favoring continued accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "With inflation expected to remain subdued for some time, the FOMC has indicated that short-term interest rates are likely to remain low for an extended period."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a significantly weaker path of lending--and thereby economic activity--could very likely occur if policy support for the financial sector is withdrawn too soon."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In the past, economic downturns were deepened or prolonged by the premature withdrawal of monetary or fiscal stimulus."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The program appears to be having its intended effect. Yields on mortgages relative to Treasury yields have come down since November 2008."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the downturn in credit evident in the most recent quarter provides a reminder that conditions are still far from normal."
+   }
+  ],
+  "rationale": "The speech mainly evaluates crisis programs as successful but closes with a clear warning against premature withdrawal of stimulus and credit support, alongside reaffirming extended low rates with subdued inflation. This tilts the net signal dovish, favoring continued accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation expected to remain subdued for some time, the FOMC has indicated that short-term interest rates are likely to remain low for an extended period.",
+     "start": 5243,
+     "end": 5401
+    },
+    {
+     "quote": "a significantly weaker path of lending--and thereby economic activity--could very likely occur if policy support for the financial sector is withdrawn too soon.",
+     "start": 32462,
+     "end": 32621
+    },
+    {
+     "quote": "In the past, economic downturns were deepened or prolonged by the premature withdrawal of monetary or fiscal stimulus.",
+     "start": 32226,
+     "end": 32343
+    },
+    {
+     "quote": "The program appears to be having its intended effect. Yields on mortgages relative to Treasury yields have come down since November 2008.",
+     "start": 15796,
+     "end": 15932
+    },
+    {
+     "quote": "the downturn in credit evident in the most recent quarter provides a reminder that conditions are still far from normal.",
+     "start": 32962,
+     "end": 33081
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

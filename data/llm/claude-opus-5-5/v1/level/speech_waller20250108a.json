@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20250108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250108a",
+  "doc_type": "speech",
+  "text_sha256": "9a81248830d935ad8efdc7a2376455319f9237e972e3e93b1bdc01f93df9e4b9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a7403903d61ea58c611e3a75481e47f44738cb82e1cb10d075568fc875b4389f",
+ "message_id": "msg_011CgFugEHF8BwQ7r3BPxvMU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5353,
+  "output_tokens": 517,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If the outlook evolves as I have described here, I will support continuing to cut our policy rate in 2025.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"my bottom-line message is that I believe more cuts will be appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, I believe that inflation will continue to make progress toward our 2 percent goal over the medium term and that further reductions will be appropriate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If, as I expect, tariffs do not have a significant or persistent effect on inflation, they are unlikely to affect my view of appropriate monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I have seen nothing in the data or forecasts that suggests the labor market will dramatically weaken over coming months.\"}],\"rationale\":\"The speaker explicitly supports continued rate cuts in 2025 and pushes back on calls to pause, arguing that the stalled progress on inflation reflects imputed prices and that tariff effects will likely be transitory. Growth is described as solid and the labor market as near maximum employment, which tempers the dovish signal to a moderate overall lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the outlook evolves as I have described here, I will support continuing to cut our policy rate in 2025."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "my bottom-line message is that I believe more cuts will be appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, I believe that inflation will continue to make progress toward our 2 percent goal over the medium term and that further reductions will be appropriate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If, as I expect, tariffs do not have a significant or persistent effect on inflation, they are unlikely to affect my view of appropriate monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I have seen nothing in the data or forecasts that suggests the labor market will dramatically weaken over coming months."
+   }
+  ],
+  "rationale": "The speaker explicitly supports continued rate cuts in 2025 and pushes back on calls to pause, arguing that the stalled progress on inflation reflects imputed prices and that tariff effects will likely be transitory. Growth is described as solid and the labor market as near maximum employment, which tempers the dovish signal to a moderate overall lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the outlook evolves as I have described here, I will support continuing to cut our policy rate in 2025.",
+     "start": 3819,
+     "end": 3924
+    },
+    {
+     "quote": "my bottom-line message is that I believe more cuts will be appropriate.",
+     "start": 4448,
+     "end": 4518
+    },
+    {
+     "quote": "However, I believe that inflation will continue to make progress toward our 2 percent goal over the medium term and that further reductions will be appropriate.",
+     "start": 1476,
+     "end": 1635
+    },
+    {
+     "quote": "If, as I expect, tariffs do not have a significant or persistent effect on inflation, they are unlikely to affect my view of appropriate monetary policy.",
+     "start": 3544,
+     "end": 3696
+    },
+    {
+     "quote": "I have seen nothing in the data or forecasts that suggests the labor market will dramatically weaken over coming months.",
+     "start": 918,
+     "end": 1037
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

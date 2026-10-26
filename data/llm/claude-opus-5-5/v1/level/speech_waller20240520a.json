@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20240520a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240520a",
+  "doc_type": "speech",
+  "text_sha256": "61579851ae6e40ff0e195e8ced8684358004c27c897b5c2e4414f0903bda4b99"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1294fd63fcaf57737662fbdea4fd83e58d176c10d1864c276ab1a88865f12a98",
+ "message_id": "msg_011CgFugD7YcmFzcZyaGJN1M",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2289,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to welcome everyone to this Third Conference on the International Roles of the U.S. Dollar\"},{\"dimension\":\"overall\",\"quote\":\"The dollar remains, by far, the most widely used currency across a variety of metrics, including as a store of value and a medium of exchange.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve supports the use of dollars internationally through our liquidity facilities, including the central bank liquidity swap lines\"}],\"rationale\":\"Welcoming remarks about the international role of the dollar, swap lines and cross-border payments, with no discussion of the policy rate path, inflation, or labor markets. The speech carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to welcome everyone to this Third Conference on the International Roles of the U.S. Dollar"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The dollar remains, by far, the most widely used currency across a variety of metrics, including as a store of value and a medium of exchange."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve supports the use of dollars internationally through our liquidity facilities, including the central bank liquidity swap lines"
+   }
+  ],
+  "rationale": "Welcoming remarks about the international role of the dollar, swap lines and cross-border payments, with no discussion of the policy rate path, inflation, or labor markets. The speech carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to welcome everyone to this Third Conference on the International Roles of the U.S. Dollar",
+     "start": 695,
+     "end": 798
+    },
+    {
+     "quote": "The dollar remains, by far, the most widely used currency across a variety of metrics, including as a store of value and a medium of exchange.",
+     "start": 2315,
+     "end": 2456
+    },
+    {
+     "quote": "The Federal Reserve supports the use of dollars internationally through our liquidity facilities, including the central bank liquidity swap lines",
+     "start": 6045,
+     "end": 6190
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

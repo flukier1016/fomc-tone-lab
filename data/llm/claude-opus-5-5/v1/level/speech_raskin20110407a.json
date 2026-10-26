@@ -1,0 +1,94 @@
+{
+ "key": "speech_raskin20110407a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20110407a",
+  "doc_type": "speech",
+  "text_sha256": "00c37e41bfd26ccecf1cb96e67195ceffcfa435432cbbd76331d93ec1afa081c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "16dca9649682d3377099019d222ac4f65e81925e362606afc2a694bc8484f6cd",
+ "message_id": "msg_011CgFugKyJZybJUQbm1MYSW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6574,
+  "output_tokens": 363,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"From a regulatory and supervisory perspective, we will certainly be dealing with the long-term consequences of the crisis for years to come.\"},{\"dimension\":\"overall\",\"quote\":\"Now we must address the aftershocks of the subprime mortgage meltdown: dislocation, joblessness, and loss of confidence.\"},{\"dimension\":\"overall\",\"quote\":\"In order to sustain the economic recovery, we need strong, well-run community banks that operate in a framework of smart and effective supervision.\"}],\"rationale\":\"The speech is about bank supervision and the division of responsibilities between banks and examiners under Dodd-Frank. It offers no view on monetary policy, inflation or the rate path, so the policy dimensions are null and the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "From a regulatory and supervisory perspective, we will certainly be dealing with the long-term consequences of the crisis for years to come."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Now we must address the aftershocks of the subprime mortgage meltdown: dislocation, joblessness, and loss of confidence."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In order to sustain the economic recovery, we need strong, well-run community banks that operate in a framework of smart and effective supervision."
+   }
+  ],
+  "rationale": "The speech is about bank supervision and the division of responsibilities between banks and examiners under Dodd-Frank. It offers no view on monetary policy, inflation or the rate path, so the policy dimensions are null and the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "From a regulatory and supervisory perspective, we will certainly be dealing with the long-term consequences of the crisis for years to come.",
+     "start": 1444,
+     "end": 1583
+    },
+    {
+     "quote": "Now we must address the aftershocks of the subprime mortgage meltdown: dislocation, joblessness, and loss of confidence.",
+     "start": 1322,
+     "end": 1441
+    },
+    {
+     "quote": "In order to sustain the economic recovery, we need strong, well-run community banks that operate in a framework of smart and effective supervision.",
+     "start": 22763,
+     "end": 22909
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

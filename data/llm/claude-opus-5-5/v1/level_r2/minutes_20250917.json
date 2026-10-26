@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20250917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20250917",
+  "doc_type": "minutes",
+  "text_sha256": "941d065027411c0cfbf7b33e60313baa32f47ff64aea580fecaf00f6dc6ac7a4"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0fe86f146bc630b96a131dea9e2fbdc890a62349e486c874581c3d1724b0c66a",
+ "message_id": "msg_011CgG27qj6vjuEWbTCcXsTs",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10321,
+  "output_tokens": 581,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most judged that it likely would be appropriate to ease policy further over the remainder of this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"they judged that downside risks to employment had increased over the intermeeting period and that upside risks to inflation had either diminished or not increased\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"A majority of participants emphasized upside risks to their outlooks for inflation, pointing to inflation readings moving further from 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants indicated that their outlooks for the labor market were uncertain and viewed downside risks to employment as having increased over the intermeeting period.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants judged it appropriate to continue the process of reducing the Federal Reserve's securities holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants noted that, by several measures, financial conditions suggested that monetary policy may not be particularly restrictive, which they judged as warranting a cautious approach\"}],\"rationale\":\"The minutes describe a cut motivated by rising downside employment risks, with most participants expecting further easing this year, though a majority still flagged upside inflation risks and some urged caution. Continued runoff is mildly hawkish on the balance sheet, but the net signal is a moderate dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most judged that it likely would be appropriate to ease policy further over the remainder of this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "they judged that downside risks to employment had increased over the intermeeting period and that upside risks to inflation had either diminished or not increased"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "A majority of participants emphasized upside risks to their outlooks for inflation, pointing to inflation readings moving further from 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants indicated that their outlooks for the labor market were uncertain and viewed downside risks to employment as having increased over the intermeeting period."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants judged it appropriate to continue the process of reducing the Federal Reserve's securities holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants noted that, by several measures, financial conditions suggested that monetary policy may not be particularly restrictive, which they judged as warranting a cautious approach"
+   }
+  ],
+  "rationale": "The minutes describe a cut motivated by rising downside employment risks, with most participants expecting further easing this year, though a majority still flagged upside inflation risks and some urged caution. Continued runoff is mildly hawkish on the balance sheet, but the net signal is a moderate dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most judged that it likely would be appropriate to ease policy further over the remainder of this year.",
+     "start": 25608,
+     "end": 25710
+    },
+    {
+     "quote": "they judged that downside risks to employment had increased over the intermeeting period and that upside risks to inflation had either diminished or not increased",
+     "start": 24133,
+     "end": 24295
+    },
+    {
+     "quote": "A majority of participants emphasized upside risks to their outlooks for inflation, pointing to inflation readings moving further from 2 percent",
+     "start": 18868,
+     "end": 19012
+    },
+    {
+     "quote": "Participants indicated that their outlooks for the labor market were uncertain and viewed downside risks to employment as having increased over the intermeeting period.",
+     "start": 21259,
+     "end": 21426
+    },
+    {
+     "quote": "All participants judged it appropriate to continue the process of reducing the Federal Reserve's securities holdings.",
+     "start": 24878,
+     "end": 24994
+    },
+    {
+     "quote": "Some participants noted that, by several measures, financial conditions suggested that monetary policy may not be particularly restrictive, which they judged as warranting a cautious approach",
+     "start": 25712,
+     "end": 25903
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

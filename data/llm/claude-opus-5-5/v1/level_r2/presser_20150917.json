@@ -1,0 +1,121 @@
+{
+ "key": "presser_20150917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20150917",
+  "doc_type": "presser",
+  "text_sha256": "fd890753cf994f59db6b3f2fdca0d5e96f54b366df455dc1542705bd9d52e39d"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e8959e348c0af6bde808582472f72d05f2c48feae8c30cb19d3b0abe58147dd7",
+ "message_id": "msg_011CgG27uDhd1TeRWbcSsGbB",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10263,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"However, in light of the heightened uncertainties abroad and a slightly softer expected path for inflation, the Committee judged it appropriate to wait for more evidence\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In 2016 and 2017, the medians are about ¼ percentage point below those projected in June.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So, yes, October remains a possibility.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Accordingly, the Committee anticipates that inflation will remain quite low in the coming months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"These developments may restrain U.S. economic activity somewhat and are likely to put further downward pressure on inflation in the near term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy has been performing well, and we expect it to continue to do so.\"}],\"rationale\":\"The Committee held rates despite acknowledging a case for a hike, citing global risks and softer inflation, and it lowered the projected rate path, all of which leans dovish. Strong domestic data and the statement that a hike later this year remains likely, including in October, temper that lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "However, in light of the heightened uncertainties abroad and a slightly softer expected path for inflation, the Committee judged it appropriate to wait for more evidence"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In 2016 and 2017, the medians are about ¼ percentage point below those projected in June."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So, yes, October remains a possibility."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Accordingly, the Committee anticipates that inflation will remain quite low in the coming months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "These developments may restrain U.S. economic activity somewhat and are likely to put further downward pressure on inflation in the near term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy has been performing well, and we expect it to continue to do so."
+   }
+  ],
+  "rationale": "The Committee held rates despite acknowledging a case for a hike, citing global risks and softer inflation, and it lowered the projected rate path, all of which leans dovish. Strong domestic data and the statement that a hike later this year remains likely, including in October, temper that lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, in light of the heightened uncertainties abroad and a slightly softer expected path for inflation, the Committee judged it appropriate to wait for more evidence",
+     "start": 7522,
+     "end": 7691
+    },
+    {
+     "quote": "In 2016 and 2017, the medians are about ¼ percentage point below those projected in June.",
+     "start": 9547,
+     "end": 9635
+    },
+    {
+     "quote": "So, yes, October remains a possibility.",
+     "start": 13247,
+     "end": 13285
+    },
+    {
+     "quote": "Accordingly, the Committee anticipates that inflation will remain quite low in the coming months.",
+     "start": 4052,
+     "end": 4148
+    },
+    {
+     "quote": "These developments may restrain U.S. economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+     "start": 6872,
+     "end": 7013
+    },
+    {
+     "quote": "The economy has been performing well, and we expect it to continue to do so.",
+     "start": 7961,
+     "end": 8036
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

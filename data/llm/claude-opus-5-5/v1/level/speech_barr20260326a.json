@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20260326a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260326a",
+  "doc_type": "speech",
+  "text_sha256": "266c46512ad7c52b4f10917383f65a03330c731574aca7369f7201ee16aaeaf7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b5e1e4a6f9dda918cc314dec106fcdcf1a2267166c625fa4d947aacdafb5d751",
+ "message_id": "msg_011CgFugDjFuPzGZTJvJzsV7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1830,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"so I am particularly concerned that yet another price shock could increase longer-term inflation expectations.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We need to be especially vigilant.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Our current policy stance puts us in a good place to hold steady while we evaluate incoming data, the evolving forecast, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The longer inflation remains above 2 percent, the greater the risk that it becomes entrenched in expectations, making it harder to achieve the FOMC's goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yet low levels of hiring likely leave the labor market vulnerable to shocks, so continued vigilance on labor market conditions remains warranted.\"}],\"rationale\":\"The speaker emphasizes persistent elevated inflation, energy and tariff shocks, and the risk to inflation expectations, and signals holding policy steady with no hint of cuts. Labor market vulnerability is noted but secondary, giving a moderately hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "so I am particularly concerned that yet another price shock could increase longer-term inflation expectations."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We need to be especially vigilant."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Our current policy stance puts us in a good place to hold steady while we evaluate incoming data, the evolving forecast, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The longer inflation remains above 2 percent, the greater the risk that it becomes entrenched in expectations, making it harder to achieve the FOMC's goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yet low levels of hiring likely leave the labor market vulnerable to shocks, so continued vigilance on labor market conditions remains warranted."
+   }
+  ],
+  "rationale": "The speaker emphasizes persistent elevated inflation, energy and tariff shocks, and the risk to inflation expectations, and signals holding policy steady with no hint of cuts. Labor market vulnerability is noted but secondary, giving a moderately hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "so I am particularly concerned that yet another price shock could increase longer-term inflation expectations.",
+     "start": 2312,
+     "end": 2421
+    },
+    {
+     "quote": "We need to be especially vigilant.",
+     "start": 2644,
+     "end": 2677
+    },
+    {
+     "quote": "Our current policy stance puts us in a good place to hold steady while we evaluate incoming data, the evolving forecast, and the balance of risks.",
+     "start": 5064,
+     "end": 5209
+    },
+    {
+     "quote": "The longer inflation remains above 2 percent, the greater the risk that it becomes entrenched in expectations, making it harder to achieve the FOMC's goal.",
+     "start": 4696,
+     "end": 4850
+    },
+    {
+     "quote": "Yet low levels of hiring likely leave the labor market vulnerable to shocks, so continued vigilance on labor market conditions remains warranted.",
+     "start": 4190,
+     "end": 4334
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

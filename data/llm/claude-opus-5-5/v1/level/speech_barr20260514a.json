@@ -1,0 +1,103 @@
+{
+ "key": "speech_barr20260514a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260514a",
+  "doc_type": "speech",
+  "text_sha256": "66027b81db93633433039790237f7d8437b11f561f284b388efff502a3c1c9cc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "febf6f052fcf6a7e229b0b451652561e230c6279482b59a8393e825266c2a11c",
+ "message_id": "msg_011CgFug8o6d3yyoaoJASK1V",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6471,
+  "output_tokens": 468,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I think shrinking the balance sheet is the wrong objective, and many of the proposals to meet this objective would undermine bank resilience, impede money market functioning, and, ultimately, threaten financial stability.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Fed is now slowly growing our balance sheet to keep up with demand for our liabilities.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In sum, shrinking the Fed's balance sheet is the wrong goal, and reducing the resilience of the banking system is the wrong means.\"},{\"dimension\":\"overall\",\"quote\":\"Our current approach of gradually growing our balance sheet in response to trend growth in demand for our liabilities, so that our transactions are as boring as possible, is much preferable.\"}],\"rationale\":\"The speech is about balance sheet implementation and opposes proposals to shrink the balance sheet, a mildly dovish balance-sheet lean, but it says nothing about rates, inflation, or growth. The net policy signal is therefore near neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I think shrinking the balance sheet is the wrong objective, and many of the proposals to meet this objective would undermine bank resilience, impede money market functioning, and, ultimately, threaten financial stability."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Fed is now slowly growing our balance sheet to keep up with demand for our liabilities."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In sum, shrinking the Fed's balance sheet is the wrong goal, and reducing the resilience of the banking system is the wrong means."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our current approach of gradually growing our balance sheet in response to trend growth in demand for our liabilities, so that our transactions are as boring as possible, is much preferable."
+   }
+  ],
+  "rationale": "The speech is about balance sheet implementation and opposes proposals to shrink the balance sheet, a mildly dovish balance-sheet lean, but it says nothing about rates, inflation, or growth. The net policy signal is therefore near neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I think shrinking the balance sheet is the wrong objective, and many of the proposals to meet this objective would undermine bank resilience, impede money market functioning, and, ultimately, threaten financial stability.",
+     "start": 326,
+     "end": 546
+    },
+    {
+     "quote": "the Fed is now slowly growing our balance sheet to keep up with demand for our liabilities.",
+     "start": 5741,
+     "end": 5831
+    },
+    {
+     "quote": "In sum, shrinking the Fed's balance sheet is the wrong goal, and reducing the resilience of the banking system is the wrong means.",
+     "start": 20869,
+     "end": 20998
+    },
+    {
+     "quote": "Our current approach of gradually growing our balance sheet in response to trend growth in demand for our liabilities, so that our transactions are as boring as possible, is much preferable.",
+     "start": 16278,
+     "end": 16467
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

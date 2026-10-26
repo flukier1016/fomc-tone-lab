@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20130627a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20130627a",
+  "doc_type": "speech",
+  "text_sha256": "35e3a2570b3c7465b4c40d68a1b633f4ba45989029c3b6ad94632b952f8ed940"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c386d31aa1d992c4e07a62273bd49cd071d83a12ac6b2eb2d9fe597073385b82",
+ "message_id": "msg_011CgFugBEBxk3JNeDhJX2RS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6173,
+  "output_tokens": 797,
+  "output_tokens_details": {
+   "thinking_tokens": 291
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Market adjustments since May have been larger than would be justified by any reasonable reassessment of the path of policy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"If the Committee's economic outlook is broadly realized, there will likely be a moderation in the pace of purchases later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Continued low or falling inflation could, however, raise real concerns. Inflation can be too low as well as too high.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But we are still far from full employment. The case for continued support for the economy from monetary policy is strong.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In my view, there has been real progress in the labor market.\"},{\"dimension\":\"risk_balance\",\"quote\":\"With inflation in check, the most important potential risk, in my view, is that of financial instability.\"}],\"rationale\":\"The speaker endorses a data-dependent taper later this year but strongly pushes back against market pricing of early rate hikes, stresses below-target inflation and distance from full employment. Net signal leans modestly dovish relative to market expectations despite the taper endorsement.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Market adjustments since May have been larger than would be justified by any reasonable reassessment of the path of policy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "If the Committee's economic outlook is broadly realized, there will likely be a moderation in the pace of purchases later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Continued low or falling inflation could, however, raise real concerns. Inflation can be too low as well as too high."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But we are still far from full employment. The case for continued support for the economy from monetary policy is strong."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In my view, there has been real progress in the labor market."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With inflation in check, the most important potential risk, in my view, is that of financial instability."
+   }
+  ],
+  "rationale": "The speaker endorses a data-dependent taper later this year but strongly pushes back against market pricing of early rate hikes, stresses below-target inflation and distance from full employment. Net signal leans modestly dovish relative to market expectations despite the taper endorsement."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Market adjustments since May have been larger than would be justified by any reasonable reassessment of the path of policy.",
+     "start": 15990,
+     "end": 16112
+    },
+    {
+     "quote": "If the Committee's economic outlook is broadly realized, there will likely be a moderation in the pace of purchases later this year.",
+     "start": 18444,
+     "end": 18575
+    },
+    {
+     "quote": "Continued low or falling inflation could, however, raise real concerns. Inflation can be too low as well as too high.",
+     "start": 5125,
+     "end": 5241
+    },
+    {
+     "quote": "But we are still far from full employment. The case for continued support for the economy from monetary policy is strong.",
+     "start": 6841,
+     "end": 6961
+    },
+    {
+     "quote": "In my view, there has been real progress in the labor market.",
+     "start": 18947,
+     "end": 19007
+    },
+    {
+     "quote": "With inflation in check, the most important potential risk, in my view, is that of financial instability.",
+     "start": 12687,
+     "end": 12791
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

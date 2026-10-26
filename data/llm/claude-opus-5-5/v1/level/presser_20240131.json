@@ -1,0 +1,121 @@
+{
+ "key": "presser_20240131",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20240131",
+  "doc_type": "presser",
+  "text_sha256": "05302d3520523b246454a83817e2b5b1c37350ef2c1161c4018e9a54a469ed83"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "77632a371a65eae15e55b669df49e094065bf8903695ef628a0d8ff2546f96bf",
+ "message_id": "msg_011CgFugDA2Vi1PJsPhW2kcT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11655,
+  "output_tokens": 569,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.2,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I don't think it's likely that the Committee will reach a level of confidence by the time of the March meeting to identify March as the time to do that.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But inflation is still too high, ongoing progress in bringing it down is not assured, and the path forward is uncertain.\"},{\"dimension\":\"risk_balance\",\"quote\":\"As labor market tightness has eased and progress on inflation has continued, the risks to achieving our employment and inflation goals are moving into better balance.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has been expanding at a solid pace.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"to continue the process of significantly reducing our securities holdings\"}],\"rationale\":\"Rates held with explicit signaling that the peak is reached and cuts are likely this year, a dovish shift, though tempered by pushback on a March cut and continued caution about inflation. Strong growth and labor market plus continued runoff add hawkish offsets, leaving a mild dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.2,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I don't think it's likely that the Committee will reach a level of confidence by the time of the March meeting to identify March as the time to do that."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But inflation is still too high, ongoing progress in bringing it down is not assured, and the path forward is uncertain."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "As labor market tightness has eased and progress on inflation has continued, the risks to achieving our employment and inflation goals are moving into better balance."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "to continue the process of significantly reducing our securities holdings"
+   }
+  ],
+  "rationale": "Rates held with explicit signaling that the peak is reached and cuts are likely this year, a dovish shift, though tempered by pushback on a March cut and continued caution about inflation. Strong growth and labor market plus continued runoff add hawkish offsets, leaving a mild dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year.",
+     "start": 4170,
+     "end": 4396
+    },
+    {
+     "quote": "I don't think it's likely that the Committee will reach a level of confidence by the time of the March meeting to identify March as the time to do that.",
+     "start": 24013,
+     "end": 24164
+    },
+    {
+     "quote": "But inflation is still too high, ongoing progress in bringing it down is not assured, and the path forward is uncertain.",
+     "start": 330,
+     "end": 449
+    },
+    {
+     "quote": "As labor market tightness has eased and progress on inflation has continued, the risks to achieving our employment and inflation goals are moving into better balance.",
+     "start": 1036,
+     "end": 1201
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace.",
+     "start": 1320,
+     "end": 1403
+    },
+    {
+     "quote": "to continue the process of significantly reducing our securities holdings",
+     "start": 4095,
+     "end": 4168
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

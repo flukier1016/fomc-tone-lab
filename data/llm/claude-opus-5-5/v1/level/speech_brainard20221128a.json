@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20221128a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20221128a",
+  "doc_type": "speech",
+  "text_sha256": "2f25f726e7bea17100bd4b1e3472f6d4d9250999d7f02b322421cfcebb7a9eab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a5d0bd82728a49f8209c7e962d43ffa9f7b7846ce7b5218808e65334b10f4d50",
+ "message_id": "msg_011CgFugA21pfXUNzZZEaxpB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3308,
+  "output_tokens": 514,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation in the United States and many countries around the world is very high ( figure 1 ).\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a drawn-out sequence of adverse supply shocks that has the cumulative effect of constraining potential output for an extended period is likely to call for monetary policy tightening to restore balance between demand and supply.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it is important for monetary policy to take a risk-management posture to avoid the risk of inflation expectations drifting above target.\"},{\"dimension\":\"risk_balance\",\"quote\":\"more recently, following substantial cumulative monetary policy tightening, the increased dispersion has also reflected increased expectations of no inflation or even disinflation.\"},{\"dimension\":\"overall\",\"quote\":\"research suggests that more muted policy reactions are warranted when uncertainty about the output gap is high.\"}],\"rationale\":\"The speech is largely analytical, but it describes inflation as very high and argues that protracted supply shocks and the risk of unanchored expectations call for tightening for risk-management reasons. This hawkish lean is tempered by notes on muted reactions under uncertainty and on rising expectations of disinflation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation in the United States and many countries around the world is very high ( figure 1 )."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a drawn-out sequence of adverse supply shocks that has the cumulative effect of constraining potential output for an extended period is likely to call for monetary policy tightening to restore balance between demand and supply."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it is important for monetary policy to take a risk-management posture to avoid the risk of inflation expectations drifting above target."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "more recently, following substantial cumulative monetary policy tightening, the increased dispersion has also reflected increased expectations of no inflation or even disinflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "research suggests that more muted policy reactions are warranted when uncertainty about the output gap is high."
+   }
+  ],
+  "rationale": "The speech is largely analytical, but it describes inflation as very high and argues that protracted supply shocks and the risk of unanchored expectations call for tightening for risk-management reasons. This hawkish lean is tempered by notes on muted reactions under uncertainty and on rising expectations of disinflation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation in the United States and many countries around the world is very high ( figure 1 ).",
+     "start": 882,
+     "end": 974
+    },
+    {
+     "quote": "a drawn-out sequence of adverse supply shocks that has the cumulative effect of constraining potential output for an extended period is likely to call for monetary policy tightening to restore balance between demand and supply.",
+     "start": 5732,
+     "end": 5958
+    },
+    {
+     "quote": "it is important for monetary policy to take a risk-management posture to avoid the risk of inflation expectations drifting above target.",
+     "start": 6532,
+     "end": 6667
+    },
+    {
+     "quote": "more recently, following substantial cumulative monetary policy tightening, the increased dispersion has also reflected increased expectations of no inflation or even disinflation.",
+     "start": 7505,
+     "end": 7684
+    },
+    {
+     "quote": "research suggests that more muted policy reactions are warranted when uncertainty about the output gap is high.",
+     "start": 5080,
+     "end": 5190
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20250515a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20250515a",
+  "doc_type": "speech",
+  "text_sha256": "45a07523517d7cb67d90c4368796469421ecd46559087a5f43879b2fb66b944c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dcf0e6bb640ec52680f4bb6751f7feee1be14be1edbe320d4e38fc3ae5f17974",
+ "message_id": "msg_011CgFugJ8vB6m97yfKRFU8o",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3778,
+  "output_tokens": 481,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In our discussions so far, participants have indicated that they thought it would be appropriate to reconsider the language around shortfalls.\"},{\"dimension\":\"overall\",\"quote\":\"And at our meeting last week, we had a similar take on average inflation targeting.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We may be entering a period of more frequent, and potentially more persistent, supply shocks—a difficult challenge for the economy and for central banks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Anchored expectations are critical to everything we do, and we remain fully committed to the 2 percent target today.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The most recent data suggest that 12-month PCE (personal consumption expenditures) inflation was 2.2 percent in April, far below its 7.2 percent peak in 2022.\"}],\"rationale\":\"This framework-review speech offers no near-term policy guidance. It leans modestly hawkish by signaling a move away from shortfalls and average inflation targeting, and by citing higher neutral rates and risks of more frequent supply shocks.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In our discussions so far, participants have indicated that they thought it would be appropriate to reconsider the language around shortfalls."
+   },
+   {
+    "dimension": "overall",
+    "quote": "And at our meeting last week, we had a similar take on average inflation targeting."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We may be entering a period of more frequent, and potentially more persistent, supply shocks—a difficult challenge for the economy and for central banks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Anchored expectations are critical to everything we do, and we remain fully committed to the 2 percent target today."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The most recent data suggest that 12-month PCE (personal consumption expenditures) inflation was 2.2 percent in April, far below its 7.2 percent peak in 2022."
+   }
+  ],
+  "rationale": "This framework-review speech offers no near-term policy guidance. It leans modestly hawkish by signaling a move away from shortfalls and average inflation targeting, and by citing higher neutral rates and risks of more frequent supply shocks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In our discussions so far, participants have indicated that they thought it would be appropriate to reconsider the language around shortfalls.",
+     "start": 10671,
+     "end": 10812
+    },
+    {
+     "quote": "And at our meeting last week, we had a similar take on average inflation targeting.",
+     "start": 10814,
+     "end": 10896
+    },
+    {
+     "quote": "We may be entering a period of more frequent, and potentially more persistent, supply shocks—a difficult challenge for the economy and for central banks.",
+     "start": 8703,
+     "end": 8855
+    },
+    {
+     "quote": "Anchored expectations are critical to everything we do, and we remain fully committed to the 2 percent target today.",
+     "start": 10098,
+     "end": 10213
+    },
+    {
+     "quote": "The most recent data suggest that 12-month PCE (personal consumption expenditures) inflation was 2.2 percent in April, far below its 7.2 percent peak in 2022.",
+     "start": 7792,
+     "end": 7949
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20140702a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20140702a",
+  "doc_type": "speech",
+  "text_sha256": "3e3a66a4f204dcf68f960efc2850df6e3b47493cabb0406e9670b55cc9600f7e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "edef12c52858265092a6aad2c281748f9e9fd69a75aa89052fd5b31e3a9f102b",
+ "message_id": "msg_011CgFugGUhmP68PBFZHVumf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7522,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Taking all of these factors into consideration, I do not presently see a need for monetary policy to deviate from a primary focus on attaining price stability and maximum employment, in order to address financial stability concerns.\"},{\"dimension\":\"overall\",\"quote\":\"efforts to promote financial stability through adjustments in interest rates would increase the volatility of inflation and employment. As a result, I believe a macroprudential approach to supervision and regulation needs to play the primary role.\"},{\"dimension\":\"risk_balance\",\"quote\":\"That said, I do see pockets of increased risk-taking across the financial system, and an acceleration or broadening of these concerns could necessitate a more robust macroprudential approach.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we consider the deployment of other tools, including adjustments to the stance of monetary policy, as conditions change in potentially unexpected ways.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In recent years, accommodative monetary policy has contributed to low interest rates, a flat yield curve, improved financial conditions more broadly, and a stronger labor market.\"}],\"rationale\":\"The speech argues against using rate hikes to address financial stability and says there is presently no need to deviate from the dual-mandate focus, which mildly dovishly supports the accommodative stance. It notes pockets of risk-taking and leaves the door open to future policy adjustments, which tempers the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Taking all of these factors into consideration, I do not presently see a need for monetary policy to deviate from a primary focus on attaining price stability and maximum employment, in order to address financial stability concerns."
+   },
+   {
+    "dimension": "overall",
+    "quote": "efforts to promote financial stability through adjustments in interest rates would increase the volatility of inflation and employment. As a result, I believe a macroprudential approach to supervision and regulation needs to play the primary role."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "That said, I do see pockets of increased risk-taking across the financial system, and an acceleration or broadening of these concerns could necessitate a more robust macroprudential approach."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we consider the deployment of other tools, including adjustments to the stance of monetary policy, as conditions change in potentially unexpected ways."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In recent years, accommodative monetary policy has contributed to low interest rates, a flat yield curve, improved financial conditions more broadly, and a stronger labor market."
+   }
+  ],
+  "rationale": "The speech argues against using rate hikes to address financial stability and says there is presently no need to deviate from the dual-mandate focus, which mildly dovishly supports the accommodative stance. It notes pockets of risk-taking and leaves the door open to future policy adjustments, which tempers the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Taking all of these factors into consideration, I do not presently see a need for monetary policy to deviate from a primary focus on attaining price stability and maximum employment, in order to address financial stability concerns.",
+     "start": 23294,
+     "end": 23525
+    },
+    {
+     "quote": "efforts to promote financial stability through adjustments in interest rates would increase the volatility of inflation and employment. As a result, I believe a macroprudential approach to supervision and regulation needs to play the primary role.",
+     "start": 1939,
+     "end": 2185
+    },
+    {
+     "quote": "That said, I do see pockets of increased risk-taking across the financial system, and an acceleration or broadening of these concerns could necessitate a more robust macroprudential approach.",
+     "start": 23527,
+     "end": 23717
+    },
+    {
+     "quote": "we consider the deployment of other tools, including adjustments to the stance of monetary policy, as conditions change in potentially unexpected ways.",
+     "start": 25113,
+     "end": 25263
+    },
+    {
+     "quote": "In recent years, accommodative monetary policy has contributed to low interest rates, a flat yield curve, improved financial conditions more broadly, and a stronger labor market.",
+     "start": 22417,
+     "end": 22594
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

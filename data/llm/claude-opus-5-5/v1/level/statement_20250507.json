@@ -1,0 +1,121 @@
+{
+ "key": "statement_20250507",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20250507",
+  "doc_type": "statement",
+  "text_sha256": "a8b688e44db8985c52bac65d0bb83b164a90813c0d0d024e0c1431bea3d69bf3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f27a11e6224a92850a7d5a6ecaf86c77286f3e56921c542e1f6e50c7d5ffdad6",
+ "message_id": "msg_011CgFugDGy7UUYsjQbECSdN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 714,
+  "output_tokens": 517,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"judges that the risks of higher unemployment and higher inflation have risen\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent indicators suggest that economic activity has continued to expand at a solid pace\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains somewhat elevated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.\"}],\"rationale\":\"The Committee holds rates steady, describes solid activity and somewhat elevated inflation, and flags two-sided risks with no directional guidance. Continued balance sheet runoff adds a slight hawkish tilt, but the net signal is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "judges that the risks of higher unemployment and higher inflation have risen"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent indicators suggest that economic activity has continued to expand at a solid pace"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains somewhat elevated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities."
+   }
+  ],
+  "rationale": "The Committee holds rates steady, describes solid activity and somewhat elevated inflation, and flags two-sided risks with no directional guidance. Continued balance sheet runoff adds a slight hawkish tilt, but the net signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+     "start": 649,
+     "end": 752
+    },
+    {
+     "quote": "judges that the risks of higher unemployment and higher inflation have risen",
+     "start": 545,
+     "end": 621
+    },
+    {
+     "quote": "recent indicators suggest that economic activity has continued to expand at a solid pace",
+     "start": 55,
+     "end": 143
+    },
+    {
+     "quote": "Inflation remains somewhat elevated.",
+     "start": 257,
+     "end": 292
+    },
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 754,
+     "end": 962
+    },
+    {
+     "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+     "start": 964,
+     "end": 1090
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

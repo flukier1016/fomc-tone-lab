@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20091102a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20091102a",
+  "doc_type": "speech",
+  "text_sha256": "a7e8be99d7d6cbd8bdeeaec46872c9e486cd06cbdd3382ac5540294b55f8a306"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "72e26318c2c42567d367e6c16279ca1e7cb7dc70205978d08af18d7e8d466e96",
+ "message_id": "msg_011CgFugEYsMUt9uvUDCLiUi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5555,
+  "output_tokens": 358,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"our concern with compensation matters rests squarely on our statutory responsibility to ensure the safety and soundness of the banking organizations we regulate.\"},{\"dimension\":\"overall\",\"quote\":\"Our compensation guidance is just one piece of a broad program of regulatory and supervisory reforms, which include strengthened capital and liquidity requirements\"},{\"dimension\":\"overall\",\"quote\":\"incentive compensation arrangements should not create \\\"heads I win, tails the firm loses\\\" expectations.\"}],\"rationale\":\"The speech addresses supervisory guidance on incentive compensation at banking organizations and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with null dimensions.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "our concern with compensation matters rests squarely on our statutory responsibility to ensure the safety and soundness of the banking organizations we regulate."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our compensation guidance is just one piece of a broad program of regulatory and supervisory reforms, which include strengthened capital and liquidity requirements"
+   },
+   {
+    "dimension": "overall",
+    "quote": "incentive compensation arrangements should not create \"heads I win, tails the firm loses\" expectations."
+   }
+  ],
+  "rationale": "The speech addresses supervisory guidance on incentive compensation at banking organizations and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with null dimensions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "our concern with compensation matters rests squarely on our statutory responsibility to ensure the safety and soundness of the banking organizations we regulate.",
+     "start": 955,
+     "end": 1115
+    },
+    {
+     "quote": "Our compensation guidance is just one piece of a broad program of regulatory and supervisory reforms, which include strengthened capital and liquidity requirements",
+     "start": 7363,
+     "end": 7526
+    },
+    {
+     "quote": "incentive compensation arrangements should not create \"heads I win, tails the firm loses\" expectations.",
+     "start": 9600,
+     "end": 9702
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_waller20260706a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20260706a",
+  "doc_type": "speech",
+  "text_sha256": "e4d62b8b99ea9a244d259bba7c54fd46f74184fc6089c243e25c1d20a38d158c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "550dbd7cfa0631ef437987562b3aa5dca25fd6856bc54310976740291c28aa05",
+ "message_id": "msg_011CgFugFBpDNkfYhFbeEZMG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1969,
+  "output_tokens": 416,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In the end, this restrictive guidance tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases.\"},{\"dimension\":\"overall\",\"quote\":\"So the takeaway is that forward guidance can help speed up policy transmission, but if it is not flexible enough, it can hinder policy transmission.\"},{\"dimension\":\"overall\",\"quote\":\"In these divergent situations, it's much harder to give forward guidance, and, as a result, it is less useful.\"},{\"dimension\":\"overall\",\"quote\":\"To decide where policy should go, you need a clear sense of where you are starting from.\"}],\"rationale\":\"The speech is a methodological discussion of policy transmission and forward guidance, offering no view on the current economy or the future rate path. Criticism of guidance that delayed 2021 hikes and the preference for flexibility hint slightly hawkish, but the net policy signal is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In the end, this restrictive guidance tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So the takeaway is that forward guidance can help speed up policy transmission, but if it is not flexible enough, it can hinder policy transmission."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In these divergent situations, it's much harder to give forward guidance, and, as a result, it is less useful."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To decide where policy should go, you need a clear sense of where you are starting from."
+   }
+  ],
+  "rationale": "The speech is a methodological discussion of policy transmission and forward guidance, offering no view on the current economy or the future rate path. Criticism of guidance that delayed 2021 hikes and the preference for flexibility hint slightly hawkish, but the net policy signal is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In the end, this restrictive guidance tied the hands of the FOMC in 2021 and unnecessarily delayed rate increases.",
+     "start": 5480,
+     "end": 5593
+    },
+    {
+     "quote": "So the takeaway is that forward guidance can help speed up policy transmission, but if it is not flexible enough, it can hinder policy transmission.",
+     "start": 6301,
+     "end": 6448
+    },
+    {
+     "quote": "In these divergent situations, it's much harder to give forward guidance, and, as a result, it is less useful.",
+     "start": 6189,
+     "end": 6298
+    },
+    {
+     "quote": "To decide where policy should go, you need a clear sense of where you are starting from.",
+     "start": 597,
+     "end": 684
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

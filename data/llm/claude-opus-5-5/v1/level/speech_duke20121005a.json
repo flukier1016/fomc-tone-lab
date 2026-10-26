@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20121005a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20121005a",
+  "doc_type": "speech",
+  "text_sha256": "a0486aa91cd58a2b638aad7f0c718b8e601ae5bc25e9839664755457ab7ba3be"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a45840558927742345fcd8285090a91c31bd23e70fe8f9cdb8f428dcdd8e74bd",
+ "message_id": "msg_011CgFugAZWE8RL6EDe9X2W3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7594,
+  "output_tokens": 375,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"All of this has resulted in a slow recovery in housing, which is one of the primary reasons why our overall economic recovery has been so sluggish.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Since the beginning of this year, there have been signs of improvement in aggregate housing market conditions nationally.\"},{\"dimension\":\"overall\",\"quote\":\"I can assure you the Federal Reserve System will continue to support recovery through the use of all its policy tools and research capacity.\"}],\"rationale\":\"The speech focuses on vacant housing and community development, not monetary policy, though it describes a sluggish recovery held back by housing. Only a generic pledge to support recovery hints at policy, so the overall stance is neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "All of this has resulted in a slow recovery in housing, which is one of the primary reasons why our overall economic recovery has been so sluggish."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Since the beginning of this year, there have been signs of improvement in aggregate housing market conditions nationally."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I can assure you the Federal Reserve System will continue to support recovery through the use of all its policy tools and research capacity."
+   }
+  ],
+  "rationale": "The speech focuses on vacant housing and community development, not monetary policy, though it describes a sluggish recovery held back by housing. Only a generic pledge to support recovery hints at policy, so the overall stance is neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "All of this has resulted in a slow recovery in housing, which is one of the primary reasons why our overall economic recovery has been so sluggish.",
+     "start": 579,
+     "end": 725
+    },
+    {
+     "quote": "Since the beginning of this year, there have been signs of improvement in aggregate housing market conditions nationally.",
+     "start": 2216,
+     "end": 2336
+    },
+    {
+     "quote": "I can assure you the Federal Reserve System will continue to support recovery through the use of all its policy tools and research capacity.",
+     "start": 25129,
+     "end": 25268
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

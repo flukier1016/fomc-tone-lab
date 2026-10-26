@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20250722a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20250722a",
+  "doc_type": "speech",
+  "text_sha256": "bfb71227b9f65568a09b24a130137018aa7bfe7329458a58afc226ea9005c310"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "daf9949fc7d4ade446d1c2ad94ce3f98a28b0f93272ef93fd8bead07d59c14c1",
+ "message_id": "msg_011CgFugBChgASni6JDYRKxL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 938,
+  "output_tokens": 292,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"the integrated review of the capital framework for large banks\"},{\"dimension\":\"overall\",\"quote\":\"We need to ensure that all the different pieces of the capital framework work together effectively.\"},{\"dimension\":\"overall\",\"quote\":\"We need our large banks to be well capitalized and to manage their key risks well.\"}],\"rationale\":\"These are brief opening remarks on bank capital regulation and supervision, with no discussion of monetary policy, inflation, or the economic outlook. The stance is therefore neutral and the policy dimensions are null.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "the integrated review of the capital framework for large banks"
+   },
+   {
+    "dimension": "overall",
+    "quote": "We need to ensure that all the different pieces of the capital framework work together effectively."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We need our large banks to be well capitalized and to manage their key risks well."
+   }
+  ],
+  "rationale": "These are brief opening remarks on bank capital regulation and supervision, with no discussion of monetary policy, inflation, or the economic outlook. The stance is therefore neutral and the policy dimensions are null."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the integrated review of the capital framework for large banks",
+     "start": 59,
+     "end": 121
+    },
+    {
+     "quote": "We need to ensure that all the different pieces of the capital framework work together effectively.",
+     "start": 1353,
+     "end": 1451
+    },
+    {
+     "quote": "We need our large banks to be well capitalized and to manage their key risks well.",
+     "start": 2277,
+     "end": 2358
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

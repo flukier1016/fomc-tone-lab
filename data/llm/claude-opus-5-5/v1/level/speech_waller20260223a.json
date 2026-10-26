@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20260223a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20260223a",
+  "doc_type": "speech",
+  "text_sha256": "ced99b03941f0cb0659ed3cc76484087a8955a4adc08826cd0384d464f022f10"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3892d44f55130f94a3a9466713ad24ff701ed8342aa0aa8d4655972b01d27a16",
+ "message_id": "msg_011CgFugQAZh3LWSoKGBF3nu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4875,
+  "output_tokens": 540,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As things stand today, I rate these two possible outcomes as close to a coin flip.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"that a 25-basis-point reduction in the policy rate was appropriate, and that such a cut should be made at the March meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"So, I estimate that what I call underlying inflation—inflation without the effects of tariffs—is close to the FOMC's 2 percent goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I continue to believe that close to zero net job creation over 2025 indicates a weak, and fragile job market\"},{\"dimension\":\"risk_balance\",\"quote\":\"I have some concerns that the report may contain more noise than signal.\"},{\"dimension\":\"overall\",\"quote\":\"my view of appropriate monetary policy may tilt toward a pause at our upcoming meeting\"}],\"rationale\":\"The governor, who dissented for a cut, now sees a pause versus a cut as a coin flip, so a pause is the least-dovish option on the table. Combined with underlying inflation seen near 2 percent and emphasis on labor market fragility, the net signal is a moderate dovish lean, though somewhat softened from her earlier stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As things stand today, I rate these two possible outcomes as close to a coin flip."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "that a 25-basis-point reduction in the policy rate was appropriate, and that such a cut should be made at the March meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "So, I estimate that what I call underlying inflation—inflation without the effects of tariffs—is close to the FOMC's 2 percent goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I continue to believe that close to zero net job creation over 2025 indicates a weak, and fragile job market"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I have some concerns that the report may contain more noise than signal."
+   },
+   {
+    "dimension": "overall",
+    "quote": "my view of appropriate monetary policy may tilt toward a pause at our upcoming meeting"
+   }
+  ],
+  "rationale": "The governor, who dissented for a cut, now sees a pause versus a cut as a coin flip, so a pause is the least-dovish option on the table. Combined with underlying inflation seen near 2 percent and emphasis on labor market fragility, the net signal is a moderate dovish lean, though somewhat softened from her earlier stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As things stand today, I rate these two possible outcomes as close to a coin flip.",
+     "start": 15513,
+     "end": 15594
+    },
+    {
+     "quote": "that a 25-basis-point reduction in the policy rate was appropriate, and that such a cut should be made at the March meeting.",
+     "start": 15387,
+     "end": 15510
+    },
+    {
+     "quote": "So, I estimate that what I call underlying inflation—inflation without the effects of tariffs—is close to the FOMC's 2 percent goal.",
+     "start": 12856,
+     "end": 12987
+    },
+    {
+     "quote": "I continue to believe that close to zero net job creation over 2025 indicates a weak, and fragile job market",
+     "start": 8590,
+     "end": 8698
+    },
+    {
+     "quote": "I have some concerns that the report may contain more noise than signal.",
+     "start": 9689,
+     "end": 9760
+    },
+    {
+     "quote": "my view of appropriate monetary policy may tilt toward a pause at our upcoming meeting",
+     "start": 3144,
+     "end": 3230
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

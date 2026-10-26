@@ -1,0 +1,169 @@
+{
+ "key": "statement_20141029",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20141029",
+  "previous_doc_id": "statement_20140917",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "55a26a8fe81c4f9c33e19290a50fee97ff57414e5bf353d51471a609c6cb0d84",
+ "message_id": "msg_011CgFueJH3azqVzAqkSUp8C",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 3252,
+  "output_tokens": 955,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed and a range of labor market indicators suggests that there remains significant underutilization of labor resources.\",\"after\":\"Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate. On balance, a range of labor market indicators suggests that underutilization of labor resources is gradually diminishing.\",\"direction\":\"hawkish\"},{\"before\":\"Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.\",\"after\":\"Accordingly, the Committee decided to conclude its asset purchase program this month.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.\",\"after\":\"the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"However, if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has been running below the Committee's longer-run objective. Longer-term inflation expectations have remained stable.\",\"after\":\"Inflation has continued to run below the Committee's longer-run objective. Market-based measures of inflation compensation have declined somewhat; survey-based measures of longer-term inflation expectations have remained stable.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Although inflation in the near term will likely be held down by lower energy prices and other factors,\",\"direction\":\"dovish\"},{\"before\":\"Voting against the action were Richard W. Fisher and Charles I. Plosser.\",\"after\":\"Voting against the action was Narayana Kocherlakota,\",\"direction\":\"dovish\"}],\"rationale\":\"The statement ends QE as previously signaled, upgrades the labor market assessment, drops 'highly accommodative,' and adds data-dependent language allowing earlier hikes, all modestly hawkish. These are partly offset by acknowledgment of falling market inflation compensation and a dovish dissent replacing two hawkish ones, though 'considerable time' is retained.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed and a range of labor market indicators suggests that there remains significant underutilization of labor resources.",
+    "after": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate. On balance, a range of labor market indicators suggests that underutilization of labor resources is gradually diminishing.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.",
+    "after": "Accordingly, the Committee decided to conclude its asset purchase program this month.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.",
+    "after": "the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "However, if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has been running below the Committee's longer-run objective. Longer-term inflation expectations have remained stable.",
+    "after": "Inflation has continued to run below the Committee's longer-run objective. Market-based measures of inflation compensation have declined somewhat; survey-based measures of longer-term inflation expectations have remained stable.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Although inflation in the near term will likely be held down by lower energy prices and other factors,",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against the action were Richard W. Fisher and Charles I. Plosser.",
+    "after": "Voting against the action was Narayana Kocherlakota,",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The statement ends QE as previously signaled, upgrades the labor market assessment, drops 'highly accommodative,' and adds data-dependent language allowing earlier hikes, all modestly hawkish. These are partly offset by acknowledgment of falling market inflation compensation and a dovish dissent replacing two hawkish ones, though 'considerable time' is retained."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed and a range of labor market indicators suggests that there remains significant underutilization of labor resources.",
+     "start": 138,
+     "end": 364
+    },
+    {
+     "quote": "Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.",
+     "start": 1757,
+     "end": 2056
+    },
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.",
+     "start": 3664,
+     "end": 3777
+    },
+    {
+     "quote": "Inflation has been running below the Committee's longer-run objective. Longer-term inflation expectations have remained stable.",
+     "start": 611,
+     "end": 737
+    },
+    {
+     "quote": "Voting against the action were Richard W. Fisher and Charles I. Plosser.",
+     "start": 5327,
+     "end": 5398
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate. On balance, a range of labor market indicators suggests that underutilization of labor resources is gradually diminishing.",
+     "start": 143,
+     "end": 367
+    },
+    {
+     "quote": "Accordingly, the Committee decided to conclude its asset purchase program this month.",
+     "start": 1776,
+     "end": 1860
+    },
+    {
+     "quote": "The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.",
+     "start": 1432,
+     "end": 1592
+    },
+    {
+     "quote": "the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate.",
+     "start": 2343,
+     "end": 2476
+    },
+    {
+     "quote": "However, if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.",
+     "start": 3310,
+     "end": 3717
+    },
+    {
+     "quote": "Inflation has continued to run below the Committee's longer-run objective. Market-based measures of inflation compensation have declined somewhat; survey-based measures of longer-term inflation expectations have remained stable.",
+     "start": 508,
+     "end": 735
+    },
+    {
+     "quote": "Although inflation in the near term will likely be held down by lower energy prices and other factors,",
+     "start": 1190,
+     "end": 1291
+    },
+    {
+     "quote": "Voting against the action was Narayana Kocherlakota,",
+     "start": 4409,
+     "end": 4460
+    }
+   ]
+  }
+ }
+}

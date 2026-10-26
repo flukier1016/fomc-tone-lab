@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20260407a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20260407a",
+  "doc_type": "speech",
+  "text_sha256": "9a1b30acce6a81a75280f3b2e962f2c59f7c36625448bb888e2320ec2e7f59ff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "555e983080ef0da97b14a6771faca3a3d1ecf7813cbff6acb89100f06290bff9",
+ "message_id": "msg_011CgFug8g9XSBcfxhbmAJg1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4179,
+  "output_tokens": 564,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that the current stance allows us to determine the extent and timing of additional adjustments to our policy rate based on the incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I am highly attentive to the fact that inflation has remained above the Fed's 2 percent target for five years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"There has been little progress in lowering core inflation over the past year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Still, overall, I see the labor market as roughly in balance, and my baseline forecast is for the unemployment rate to remain roughly steady this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In the current environment, I confront an outlook in which there is downside risk to the labor market and upside risk to inflation.\"},{\"dimension\":\"overall\",\"quote\":\"I continue, however, to see our current policy stance as appropriately positioned to allow us to assess how the economy evolves.\"}],\"rationale\":\"The speaker sees policy near neutral and well positioned, with two-sided risks and data-dependent guidance. Inflation concern is moderately elevated given stalled progress and energy prices, while the labor market is described as stabilizing but fragile, yielding a roughly neutral net stance with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that the current stance allows us to determine the extent and timing of additional adjustments to our policy rate based on the incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I am highly attentive to the fact that inflation has remained above the Fed's 2 percent target for five years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There has been little progress in lowering core inflation over the past year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Still, overall, I see the labor market as roughly in balance, and my baseline forecast is for the unemployment rate to remain roughly steady this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In the current environment, I confront an outlook in which there is downside risk to the labor market and upside risk to inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I continue, however, to see our current policy stance as appropriately positioned to allow us to assess how the economy evolves."
+   }
+  ],
+  "rationale": "The speaker sees policy near neutral and well positioned, with two-sided risks and data-dependent guidance. Inflation concern is moderately elevated given stalled progress and energy prices, while the labor market is described as stabilizing but fragile, yielding a roughly neutral net stance with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that the current stance allows us to determine the extent and timing of additional adjustments to our policy rate based on the incoming data, the evolving outlook, and the balance of risks.",
+     "start": 9999,
+     "end": 10197
+    },
+    {
+     "quote": "I am highly attentive to the fact that inflation has remained above the Fed's 2 percent target for five years.",
+     "start": 2711,
+     "end": 2820
+    },
+    {
+     "quote": "There has been little progress in lowering core inflation over the past year.",
+     "start": 3640,
+     "end": 3716
+    },
+    {
+     "quote": "Still, overall, I see the labor market as roughly in balance, and my baseline forecast is for the unemployment rate to remain roughly steady this year.",
+     "start": 8821,
+     "end": 8971
+    },
+    {
+     "quote": "In the current environment, I confront an outlook in which there is downside risk to the labor market and upside risk to inflation.",
+     "start": 9133,
+     "end": 9263
+    },
+    {
+     "quote": "I continue, however, to see our current policy stance as appropriately positioned to allow us to assess how the economy evolves.",
+     "start": 13569,
+     "end": 13696
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

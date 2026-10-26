@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20221010a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20221010a",
+  "doc_type": "speech",
+  "text_sha256": "c279b202197fce5767401aeda154e89dc136bdda61465f46345cdbe752391572"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e2c8b1fdf7e1510107d3dfbf466865985e570e879b1c7ca379651c7a17d9a892",
+ "message_id": "msg_011CgFugESRTgazW4zwjF68k",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3558,
+  "output_tokens": 774,
+  "output_tokens_details": {
+   "thinking_tokens": 209
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.2,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Monetary policy will be restrictive for some time to ensure that inflation moves back to target over time.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"moving forward deliberately and in a data-dependent manner will enable us to learn how economic activity, employment, and inflation are adjusting to cumulative tightening\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Strong wage growth along with high rental and housing costs mean that inflation from core services is expected to ease only slowly from currently elevated levels.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The combined effect of concurrent global tightening is larger than the sum of its parts.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"balance sheet shrinkage is now proceeding at its maximum rate, reinforcing the move to a restrictive stance.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I now expect that the second-half rebound will be limited, and that real GDP growth will be essentially flat this year.\"}],\"rationale\":\"The speech commits to keeping policy restrictive for some time amid high inflation, but stresses lags, amplified global tightening, financial vulnerabilities, and a deliberate data-dependent approach, tempering the hawkish signal. Net result is a mild hawkish lean with clear signs of caution about overtightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.2,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Monetary policy will be restrictive for some time to ensure that inflation moves back to target over time."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "moving forward deliberately and in a data-dependent manner will enable us to learn how economic activity, employment, and inflation are adjusting to cumulative tightening"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Strong wage growth along with high rental and housing costs mean that inflation from core services is expected to ease only slowly from currently elevated levels."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The combined effect of concurrent global tightening is larger than the sum of its parts."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "balance sheet shrinkage is now proceeding at its maximum rate, reinforcing the move to a restrictive stance."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I now expect that the second-half rebound will be limited, and that real GDP growth will be essentially flat this year."
+   }
+  ],
+  "rationale": "The speech commits to keeping policy restrictive for some time amid high inflation, but stresses lags, amplified global tightening, financial vulnerabilities, and a deliberate data-dependent approach, tempering the hawkish signal. Net result is a mild hawkish lean with clear signs of caution about overtightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Monetary policy will be restrictive for some time to ensure that inflation moves back to target over time.",
+     "start": 11087,
+     "end": 11192
+    },
+    {
+     "quote": "moving forward deliberately and in a data-dependent manner will enable us to learn how economic activity, employment, and inflation are adjusting to cumulative tightening",
+     "start": 11394,
+     "end": 11564
+    },
+    {
+     "quote": "Strong wage growth along with high rental and housing costs mean that inflation from core services is expected to ease only slowly from currently elevated levels.",
+     "start": 5026,
+     "end": 5187
+    },
+    {
+     "quote": "The combined effect of concurrent global tightening is larger than the sum of its parts.",
+     "start": 9859,
+     "end": 9946
+    },
+    {
+     "quote": "balance sheet shrinkage is now proceeding at its maximum rate, reinforcing the move to a restrictive stance.",
+     "start": 8826,
+     "end": 8933
+    },
+    {
+     "quote": "I now expect that the second-half rebound will be limited, and that real GDP growth will be essentially flat this year.",
+     "start": 2262,
+     "end": 2380
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

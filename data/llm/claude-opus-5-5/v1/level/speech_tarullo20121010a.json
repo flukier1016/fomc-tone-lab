@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20121010a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20121010a",
+  "doc_type": "speech",
+  "text_sha256": "2f5390a7c37753bba69e974da1fd3c1be59d202f7d8328aa9966884b50e094af"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7a83eb33f4fd2958201d8202a280d5277b8e73173dc7a801d3006667a8d0513c",
+ "message_id": "msg_011CgFugCTcQAyDAKXvodpvT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 16235,
+  "output_tokens": 411,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thus, the aim of financial stability capital standards is to reduce further the probability that the firm might fail under stress through holding additional capital.\"},{\"dimension\":\"overall\",\"quote\":\"As many of us in the government have pointed out, money market funds remain a major part of the shadow banking system and a key potential systemic risk even in the post-crisis financial environment.\"},{\"dimension\":\"overall\",\"quote\":\"This emphasis on financial stability and systemic risk is hardly surprising in light of the damage done by the financial crisis and the ensuing Great Recession, from which we continue to recover only slowly.\"}],\"rationale\":\"The speech addresses financial stability regulation under Dodd-Frank, including capital surcharges, merger review and money market funds, and does not discuss monetary policy, inflation or the rate path. Its only reference to the economy is a passing mention of slow recovery, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thus, the aim of financial stability capital standards is to reduce further the probability that the firm might fail under stress through holding additional capital."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As many of us in the government have pointed out, money market funds remain a major part of the shadow banking system and a key potential systemic risk even in the post-crisis financial environment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This emphasis on financial stability and systemic risk is hardly surprising in light of the damage done by the financial crisis and the ensuing Great Recession, from which we continue to recover only slowly."
+   }
+  ],
+  "rationale": "The speech addresses financial stability regulation under Dodd-Frank, including capital surcharges, merger review and money market funds, and does not discuss monetary policy, inflation or the rate path. Its only reference to the economy is a passing mention of slow recovery, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thus, the aim of financial stability capital standards is to reduce further the probability that the firm might fail under stress through holding additional capital.",
+     "start": 26563,
+     "end": 26727
+    },
+    {
+     "quote": "As many of us in the government have pointed out, money market funds remain a major part of the shadow banking system and a key potential systemic risk even in the post-crisis financial environment.",
+     "start": 48488,
+     "end": 48685
+    },
+    {
+     "quote": "This emphasis on financial stability and systemic risk is hardly surprising in light of the damage done by the financial crisis and the ensuing Great Recession, from which we continue to recover only slowly.",
+     "start": 859,
+     "end": 1065
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

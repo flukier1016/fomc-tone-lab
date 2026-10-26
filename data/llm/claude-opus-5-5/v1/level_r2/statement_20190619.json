@@ -1,0 +1,121 @@
+{
+ "key": "statement_20190619",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20190619",
+  "doc_type": "statement",
+  "text_sha256": "e5ca448ab5067448120bf12fb34039954be3642c47a397693bd8674d7341d103"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6669df36b612a06181b2e989f0a9e5e430f9dd868931487f3e5ef345eee61559",
+ "message_id": "msg_011CgG27kgFBvG5wGCVccuL7",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 738,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion\"},{\"dimension\":\"risk_balance\",\"quote\":\"uncertainties about this outlook have increased\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"overall inflation and inflation for items other than food and energy are running below 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"indicators of business fixed investment have been soft\"},{\"dimension\":\"overall\",\"quote\":\"Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.\"}],\"rationale\":\"Rates are held, but the statement drops patience language, cites increased uncertainties and muted inflation, and pledges to 'act as appropriate to sustain the expansion,' a clear easing signal reinforced by a dissent favoring a cut. Inflation running below 2 percent and declining inflation compensation add to the dovish tilt despite a strong labor market.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "uncertainties about this outlook have increased"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "overall inflation and inflation for items other than food and energy are running below 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "indicators of business fixed investment have been soft"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points."
+   }
+  ],
+  "rationale": "Rates are held, but the statement drops patience language, cites increased uncertainties and muted inflation, and pledges to 'act as appropriate to sustain the expansion,' a clear easing signal reinforced by a dissent favoring a cut. Inflation running below 2 percent and declining inflation compensation add to the dovish tilt despite a strong labor market."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent",
+     "start": 822,
+     "end": 925
+    },
+    {
+     "quote": "the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion",
+     "start": 1243,
+     "end": 1396
+    },
+    {
+     "quote": "uncertainties about this outlook have increased",
+     "start": 1131,
+     "end": 1178
+    },
+    {
+     "quote": "overall inflation and inflation for items other than food and energy are running below 2 percent",
+     "start": 444,
+     "end": 540
+    },
+    {
+     "quote": "indicators of business fixed investment have been soft",
+     "start": 367,
+     "end": 421
+    },
+    {
+     "quote": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.",
+     "start": 2214,
+     "end": 2360
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

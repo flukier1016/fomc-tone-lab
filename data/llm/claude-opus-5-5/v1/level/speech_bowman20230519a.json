@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20230519a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230519a",
+  "doc_type": "speech",
+  "text_sha256": "b7f98322aaee9d6a78b86804eeb0478319f52e0d27fdb34115c82c4b8294777a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aa3500b8eb6d618f8939eb208bc719892958a181d43253f6bdcd678d4410f17a",
+ "message_id": "msg_011CgFugAfTevefYCsKfmEuJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5682,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will begin with bank supervision and risk-tailored bank regulation, and how I think about tailoring in the context of the recent bank failures and ongoing discussions about regulatory reform.\"},{\"dimension\":\"overall\",\"quote\":\"While we have seen stress in some parts of the banking system, overall the system is strong and resilient.\"},{\"dimension\":\"overall\",\"quote\":\"This banking system is not only strong today but is well prepared to continue supporting the provision of credit and the broader economy.\"}],\"rationale\":\"The speech addresses bank supervision, tailoring and regulatory reform after the bank failures, and it takes no position on interest rates, inflation or the balance sheet. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will begin with bank supervision and risk-tailored bank regulation, and how I think about tailoring in the context of the recent bank failures and ongoing discussions about regulatory reform."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While we have seen stress in some parts of the banking system, overall the system is strong and resilient."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This banking system is not only strong today but is well prepared to continue supporting the provision of credit and the broader economy."
+   }
+  ],
+  "rationale": "The speech addresses bank supervision, tailoring and regulatory reform after the bank failures, and it takes no position on interest rates, inflation or the balance sheet. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will begin with bank supervision and risk-tailored bank regulation, and how I think about tailoring in the context of the recent bank failures and ongoing discussions about regulatory reform.",
+     "start": 1516,
+     "end": 1708
+    },
+    {
+     "quote": "While we have seen stress in some parts of the banking system, overall the system is strong and resilient.",
+     "start": 7289,
+     "end": 7394
+    },
+    {
+     "quote": "This banking system is not only strong today but is well prepared to continue supporting the provision of credit and the broader economy.",
+     "start": 17524,
+     "end": 17660
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

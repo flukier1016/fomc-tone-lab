@@ -1,0 +1,134 @@
+{
+ "key": "statement_20180321",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20180321",
+  "previous_doc_id": "statement_20180131",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "134c4f6df97a8f2a064e9c1c262ca4822c66f2f8a833813d6c6efed75c743e50",
+ "message_id": "msg_011CgFue2uaDfMjJMXeP8chW",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1763,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.\",\"after\":\"In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The economic outlook has strengthened in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"economic activity has been rising at a solid rate. Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.\",\"after\":\"economic activity has been rising at a moderate rate. Job gains have been strong in recent months, and the unemployment rate has stayed low. Recent data suggest that growth rates of household spending and business fixed investment have moderated from their strong fourth-quarter readings.\",\"direction\":\"dovish\"},{\"before\":\"economic activity will expand at a moderate pace and labor market conditions will remain strong.\",\"after\":\"economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.\",\"direction\":\"neutral\"},{\"before\":\"Inflation on a 12‑month basis is expected to move up this year\",\"after\":\"Inflation on a 12-month basis is expected to move up in coming months\",\"direction\":\"hawkish\"}],\"rationale\":\"The Committee raised the rate by 25 bp, which was widely anticipated, and added that the outlook has strengthened, with inflation expected to rise sooner ('in coming months'). These hawkish changes outweigh a softer description of current spending, while the 'further gradual increases' guidance is unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.",
+    "after": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The economic outlook has strengthened in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "economic activity has been rising at a solid rate. Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.",
+    "after": "economic activity has been rising at a moderate rate. Job gains have been strong in recent months, and the unemployment rate has stayed low. Recent data suggest that growth rates of household spending and business fixed investment have moderated from their strong fourth-quarter readings.",
+    "direction": "dovish"
+   },
+   {
+    "before": "economic activity will expand at a moderate pace and labor market conditions will remain strong.",
+    "after": "economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Inflation on a 12‑month basis is expected to move up this year",
+    "after": "Inflation on a 12-month basis is expected to move up in coming months",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The Committee raised the rate by 25 bp, which was widely anticipated, and added that the outlook has strengthened, with inflation expected to rise sooner ('in coming months'). These hawkish changes outweigh a softer description of current spending, while the 'further gradual increases' guidance is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.",
+     "start": 1226,
+     "end": 1401
+    },
+    {
+     "quote": "economic activity has been rising at a solid rate. Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.",
+     "start": 146,
+     "end": 325
+    },
+    {
+     "quote": "economic activity will expand at a moderate pace and labor market conditions will remain strong.",
+     "start": 854,
+     "end": 949
+    },
+    {
+     "quote": "Inflation on a 12‑month basis is expected to move up this year",
+     "start": 951,
+     "end": 1013
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.",
+     "start": 1415,
+     "end": 1587
+    },
+    {
+     "quote": "The economic outlook has strengthened in recent months.",
+     "start": 866,
+     "end": 920
+    },
+    {
+     "quote": "economic activity has been rising at a moderate rate. Job gains have been strong in recent months, and the unemployment rate has stayed low. Recent data suggest that growth rates of household spending and business fixed investment have moderated from their strong fourth-quarter readings.",
+     "start": 145,
+     "end": 432
+    },
+    {
+     "quote": "economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.",
+     "start": 1017,
+     "end": 1131
+    },
+    {
+     "quote": "Inflation on a 12-month basis is expected to move up in coming months",
+     "start": 1133,
+     "end": 1202
+    }
+   ]
+  }
+ }
+}

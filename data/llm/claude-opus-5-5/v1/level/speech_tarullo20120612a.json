@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20120612a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20120612a",
+  "doc_type": "speech",
+  "text_sha256": "8c78a881c83ce0f11204daad864260e0683ae2b9276fef0237c00f64e29e05fd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "278914c5854bb8ce13a1371efbd439b91eab1a618262e7903b893199edce26ea",
+ "message_id": "msg_011CgFugG1RwfWtEEtA32AAG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7293,
+  "output_tokens": 320,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I want to focus on the development of a regulatory reform agenda for the shadow banking system.\"},{\"dimension\":\"overall\",\"quote\":\"We should act now to address some obvious sources of vulnerability in the financial system.\"},{\"dimension\":\"overall\",\"quote\":\"First, we should create greater transparency with respect to the various transactions and markets that comprise the shadow banking system.\"}],\"rationale\":\"The speech addresses financial regulation of shadow banking, money market funds and triparty repo, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary-policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I want to focus on the development of a regulatory reform agenda for the shadow banking system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We should act now to address some obvious sources of vulnerability in the financial system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "First, we should create greater transparency with respect to the various transactions and markets that comprise the shadow banking system."
+   }
+  ],
+  "rationale": "The speech addresses financial regulation of shadow banking, money market funds and triparty repo, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary-policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I want to focus on the development of a regulatory reform agenda for the shadow banking system.",
+     "start": 1754,
+     "end": 1854
+    },
+    {
+     "quote": "We should act now to address some obvious sources of vulnerability in the financial system.",
+     "start": 19382,
+     "end": 19472
+    },
+    {
+     "quote": "First, we should create greater transparency with respect to the various transactions and markets that comprise the shadow banking system.",
+     "start": 19868,
+     "end": 20005
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

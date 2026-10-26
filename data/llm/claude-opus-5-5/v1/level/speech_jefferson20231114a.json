@@ -1,0 +1,103 @@
+{
+ "key": "speech_jefferson20231114a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20231114a",
+  "doc_type": "speech",
+  "text_sha256": "a2d4dadbca135302cfae49e8b59be870e4b2206ab92a16d425f1e0e0431fe06b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8253cfef88bb8a85fb6207946d4a76cd4d7e49dc1c929681ced9bfc91cc5254",
+ "message_id": "msg_011CgFugEcarJoGkfLAtQba7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5314,
+  "output_tokens": 472,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"with inflation uncertainty becoming the dominant source of aggregate economic uncertainty, especially since the Russian invasion of Ukraine.\"},{\"dimension\":\"risk_balance\",\"quote\":\"both the Bayesian and ambiguity aversion approaches tend to lead to policy that is stronger than the certainty equivalent case to forestall the possibility of inflationary forces becoming embedded in inflation expectations.\"},{\"dimension\":\"overall\",\"quote\":\"Monetary policymakers need to consider what they don't know in their decisionmaking, along with what they do know.\"},{\"dimension\":\"risk_balance\",\"quote\":\"This suggests that the economic effects of the higher economic uncertainty may be somewhat mitigated\"}],\"rationale\":\"The speech is a largely academic discussion of uncertainty measurement and policy under uncertainty, offering no explicit policy path. It does give a mild hawkish tilt by highlighting elevated inflation uncertainty and arguing that inflation persistence calls for stronger-than-certainty-equivalent policy.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "with inflation uncertainty becoming the dominant source of aggregate economic uncertainty, especially since the Russian invasion of Ukraine."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "both the Bayesian and ambiguity aversion approaches tend to lead to policy that is stronger than the certainty equivalent case to forestall the possibility of inflationary forces becoming embedded in inflation expectations."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Monetary policymakers need to consider what they don't know in their decisionmaking, along with what they do know."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "This suggests that the economic effects of the higher economic uncertainty may be somewhat mitigated"
+   }
+  ],
+  "rationale": "The speech is a largely academic discussion of uncertainty measurement and policy under uncertainty, offering no explicit policy path. It does give a mild hawkish tilt by highlighting elevated inflation uncertainty and arguing that inflation persistence calls for stronger-than-certainty-equivalent policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "with inflation uncertainty becoming the dominant source of aggregate economic uncertainty, especially since the Russian invasion of Ukraine.",
+     "start": 11072,
+     "end": 11211
+    },
+    {
+     "quote": "both the Bayesian and ambiguity aversion approaches tend to lead to policy that is stronger than the certainty equivalent case to forestall the possibility of inflationary forces becoming embedded in inflation expectations.",
+     "start": 15683,
+     "end": 15905
+    },
+    {
+     "quote": "Monetary policymakers need to consider what they don't know in their decisionmaking, along with what they do know.",
+     "start": 15948,
+     "end": 16061
+    },
+    {
+     "quote": "This suggests that the economic effects of the higher economic uncertainty may be somewhat mitigated",
+     "start": 13596,
+     "end": 13696
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

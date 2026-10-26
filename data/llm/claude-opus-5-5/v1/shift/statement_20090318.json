@@ -1,0 +1,164 @@
+{
+ "key": "statement_20090318",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20090318",
+  "previous_doc_id": "statement_20090128",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d0d81fc0232d29e71a5cd8a4884e4bf2173958c40444fabe0337584cc33108e3",
+ "message_id": "msg_011CgFudUpXWWEYwXBCswSsD",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1864,
+  "output_tokens": 948,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.\",\"after\":\"anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\",\"direction\":\"dovish\"},{\"before\":\"The Committee also is prepared to purchase longer-term Treasury securities if evolving circumstances indicate that such transactions would be particularly effective in improving conditions in private credit markets.\",\"after\":\"Moreover, to help improve conditions in private credit markets, the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.\",\"direction\":\"dovish\"},{\"before\":\"The Federal Reserve continues to purchase large quantities of agency debt and mortgage-backed securities to provide support to the mortgage and housing markets, and it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.\",\"after\":\"To provide greater support to mortgage lending and housing markets, the Committee decided today to increase the size of the Federal Reserve’s balance sheet further by purchasing up to an additional $750 billion of agency mortgage-backed securities, bringing its total purchases of these securities to up to $1.25 trillion this year, and to increase its purchases of agency debt this year by up to $100 billion to a total of up to $200 billion.\",\"direction\":\"dovish\"},{\"before\":\"The Federal Reserve will be implementing the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses.\",\"after\":\"The Federal Reserve has launched the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses and anticipates that the range of eligible collateral for this facility is likely to be expanded to include other financial assets.\",\"direction\":\"dovish\"},{\"before\":\"Information received since the Committee met in December suggests that the economy has weakened further.\",\"after\":\"Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract.\",\"direction\":\"dovish\"},{\"before\":\"The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.\",\"after\":\"Although the near-term economic outlook is weak, the Committee anticipates that policy actions to stabilize financial markets and institutions, together with fiscal and monetary stimulus, will contribute to a gradual resumption of sustainable economic growth.\",\"direction\":\"neutral\"},{\"before\":\"Voting against was Jeffrey M. Lacker, who preferred to expand the monetary base at this time by purchasing U.S. Treasury securities rather than through targeted credit programs.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"x\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.",
+    "after": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee also is prepared to purchase longer-term Treasury securities if evolving circumstances indicate that such transactions would be particularly effective in improving conditions in private credit markets.",
+    "after": "Moreover, to help improve conditions in private credit markets, the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Federal Reserve continues to purchase large quantities of agency debt and mortgage-backed securities to provide support to the mortgage and housing markets, and it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.",
+    "after": "To provide greater support to mortgage lending and housing markets, the Committee decided today to increase the size of the Federal Reserve’s balance sheet further by purchasing up to an additional $750 billion of agency mortgage-backed securities, bringing its total purchases of these securities to up to $1.25 trillion this year, and to increase its purchases of agency debt this year by up to $100 billion to a total of up to $200 billion.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Federal Reserve will be implementing the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses.",
+    "after": "The Federal Reserve has launched the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses and anticipates that the range of eligible collateral for this facility is likely to be expanded to include other financial assets.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Information received since the Committee met in December suggests that the economy has weakened further.",
+    "after": "Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+    "after": "Although the near-term economic outlook is weak, the Committee anticipates that policy actions to stabilize financial markets and institutions, together with fiscal and monetary stimulus, will contribute to a gradual resumption of sustainable economic growth.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against was Jeffrey M. Lacker, who preferred to expand the monetary base at this time by purchasing U.S. Treasury securities rather than through targeted credit programs.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "x"
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.",
+     "start": 121,
+     "end": 270
+    },
+    {
+     "quote": "The Committee also is prepared to purchase longer-term Treasury securities if evolving circumstances indicate that such transactions would be particularly effective in improving conditions in private credit markets.",
+     "start": 2041,
+     "end": 2255
+    },
+    {
+     "quote": "The Federal Reserve continues to purchase large quantities of agency debt and mortgage-backed securities to provide support to the mortgage and housing markets, and it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.",
+     "start": 1755,
+     "end": 2039
+    },
+    {
+     "quote": "The Federal Reserve will be implementing the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses.",
+     "start": 2257,
+     "end": 2417
+    },
+    {
+     "quote": "Information received since the Committee met in December suggests that the economy has weakened further.",
+     "start": 273,
+     "end": 376
+    },
+    {
+     "quote": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+     "start": 814,
+     "end": 967
+    },
+    {
+     "quote": "Voting against was Jeffrey M. Lacker, who preferred to expand the monetary base at this time by purchasing U.S. Treasury securities rather than through targeted credit programs.",
+     "start": 2985,
+     "end": 3161
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1251,
+     "end": 1383
+    },
+    {
+     "quote": "Moreover, to help improve conditions in private credit markets, the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.",
+     "start": 1829,
+     "end": 2005
+    },
+    {
+     "quote": "To provide greater support to mortgage lending and housing markets, the Committee decided today to increase the size of the Federal Reserve’s balance sheet further by purchasing up to an additional $750 billion of agency mortgage-backed securities, bringing its total purchases of these securities to up to $1.25 trillion this year, and to increase its purchases of agency debt this year by up to $100 billion to a total of up to $200 billion.",
+     "start": 1385,
+     "end": 1827
+    },
+    {
+     "quote": "The Federal Reserve has launched the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses and anticipates that the range of eligible collateral for this facility is likely to be expanded to include other financial assets.",
+     "start": 2007,
+     "end": 2290
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract.",
+     "start": 0,
+     "end": 124
+    },
+    {
+     "quote": "Although the near-term economic outlook is weak, the Committee anticipates that policy actions to stabilize financial markets and institutions, together with fiscal and monetary stimulus, will contribute to a gradual resumption of sustainable economic growth.",
+     "start": 478,
+     "end": 736
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20260715a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260715a",
+  "doc_type": "speech",
+  "text_sha256": "1e2412d152a80abfcdcf0ad018c338adead1a0526f89c2150b2e392eefd9be83"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "77112e17c8912e3db8e642e807c65c1fa85c62c3c387a8d57cd9023dd5495fac",
+ "message_id": "msg_011CgFugE479tczB7sAu5Z2M",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3103,
+  "output_tokens": 477,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.65,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"The initial assessment is easy: inflation is simply too high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"As a whole, I see a notable shift in the balance of risks relative to a year or so ago, with inflation risks now outweighing employment risks.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If we do not see signs of disinflation soon, I am prepared to act.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The mostly steady unemployment rate suggests that the labor market has been stable. In fact, nearly all indicators point to stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Going forward, though, I believe the risks continue to be strongly weighted toward higher inflation for at least two reasons.\"}],\"rationale\":\"The speaker forcefully stresses elevated inflation and a risk balance tilted toward inflation, with a stable labor market and resilient growth, and signals readiness to tighten if disinflation doesn't appear. This is tempered by support for holding steady for now and by anchored expectations and decelerating wages.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.65,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The initial assessment is easy: inflation is simply too high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "As a whole, I see a notable shift in the balance of risks relative to a year or so ago, with inflation risks now outweighing employment risks."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If we do not see signs of disinflation soon, I am prepared to act."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The mostly steady unemployment rate suggests that the labor market has been stable. In fact, nearly all indicators point to stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Going forward, though, I believe the risks continue to be strongly weighted toward higher inflation for at least two reasons."
+   }
+  ],
+  "rationale": "The speaker forcefully stresses elevated inflation and a risk balance tilted toward inflation, with a stable labor market and resilient growth, and signals readiness to tighten if disinflation doesn't appear. This is tempered by support for holding steady for now and by anchored expectations and decelerating wages."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The initial assessment is easy: inflation is simply too high.",
+     "start": 5300,
+     "end": 5360
+    },
+    {
+     "quote": "As a whole, I see a notable shift in the balance of risks relative to a year or so ago, with inflation risks now outweighing employment risks.",
+     "start": 6871,
+     "end": 7012
+    },
+    {
+     "quote": "If we do not see signs of disinflation soon, I am prepared to act.",
+     "start": 9187,
+     "end": 9252
+    },
+    {
+     "quote": "The mostly steady unemployment rate suggests that the labor market has been stable. In fact, nearly all indicators point to stability.",
+     "start": 3251,
+     "end": 3384
+    },
+    {
+     "quote": "Going forward, though, I believe the risks continue to be strongly weighted toward higher inflation for at least two reasons.",
+     "start": 7464,
+     "end": 7588
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

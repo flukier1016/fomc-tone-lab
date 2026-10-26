@@ -1,0 +1,52 @@
+{
+ "key": "statement_20110427",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20110427",
+  "release_date": "2011-04-27"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f3e0f8565ab86b84026dcb1c26ce3018058d033cff4531de46096b448c3fc9dd",
+ "message_id": "msg_011CgFudVRzMJS9KFkBDmDT4",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1350,
+  "output_tokens": 229,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2011,\"month\":4,\"confidence\":0.85,\"cues\":[\"QE2 $600 billion purchases to be completed 'by the end of the current quarter' (Q2 2011, ending June 2011)\",\"Oil price increase concerns since prior meeting (Libya, early 2011)\",\"'Inflation has picked up in recent months' with transitory commodity effects\",\"Kocherlakota as a voter (2011 rotation) with Raskin on the Board\",\"'Overall conditions in the labor market are improving gradually' language matches April 27, 2011 statement\",\"'End of the current quarter' rather than 'by the end of next quarter' (March) or 'by the end of this month' (June) points to April\"]}",
+ "parsed": {
+  "year": 2011,
+  "month": 4,
+  "confidence": 0.85,
+  "cues": [
+   "QE2 $600 billion purchases to be completed 'by the end of the current quarter' (Q2 2011, ending June 2011)",
+   "Oil price increase concerns since prior meeting (Libya, early 2011)",
+   "'Inflation has picked up in recent months' with transitory commodity effects",
+   "Kocherlakota as a voter (2011 rotation) with Raskin on the Board",
+   "'Overall conditions in the labor market are improving gradually' language matches April 27, 2011 statement",
+   "'End of the current quarter' rather than 'by the end of next quarter' (March) or 'by the end of this month' (June) points to April"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

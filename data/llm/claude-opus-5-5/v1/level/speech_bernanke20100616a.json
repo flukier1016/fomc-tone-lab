@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20100616a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100616a",
+  "doc_type": "speech",
+  "text_sha256": "f6a810c2536a428067def47c3a568ddd92261019290f89c72c5541ff66640fe5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4c0698dff3d6b105ba308f20d09599c8fb24c915c9c1fb142ca85e978875f624",
+ "message_id": "msg_011CgFug9NKtF19cwwrqJ5Qx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5254,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"How do we strengthen the financial system and its oversight so as to minimize the risk of a replay of the recent financial crisis?\"},{\"dimension\":\"overall\",\"quote\":\"To be sure, reasonable transition periods will be necessary to allow banks to meet these more demanding standards without unduly constricting credit or endangering the recovery.\"},{\"dimension\":\"overall\",\"quote\":\"The financial reform legislation in both the House and the Senate would provide for such a resolution regime.\"}],\"rationale\":\"The speech addresses financial regulatory reform, macroprudential supervision, capital standards and resolution regimes, and offers no view on monetary policy. Only the passing reference to not endangering the recovery touches the economy, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "How do we strengthen the financial system and its oversight so as to minimize the risk of a replay of the recent financial crisis?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "To be sure, reasonable transition periods will be necessary to allow banks to meet these more demanding standards without unduly constricting credit or endangering the recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The financial reform legislation in both the House and the Senate would provide for such a resolution regime."
+   }
+  ],
+  "rationale": "The speech addresses financial regulatory reform, macroprudential supervision, capital standards and resolution regimes, and offers no view on monetary policy. Only the passing reference to not endangering the recovery touches the economy, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "How do we strengthen the financial system and its oversight so as to minimize the risk of a replay of the recent financial crisis?",
+     "start": 448,
+     "end": 578
+    },
+    {
+     "quote": "To be sure, reasonable transition periods will be necessary to allow banks to meet these more demanding standards without unduly constricting credit or endangering the recovery.",
+     "start": 10410,
+     "end": 10586
+    },
+    {
+     "quote": "The financial reform legislation in both the House and the Senate would provide for such a resolution regime.",
+     "start": 14341,
+     "end": 14449
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

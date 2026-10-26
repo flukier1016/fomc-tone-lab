@@ -1,0 +1,103 @@
+{
+ "key": "speech_waller20240524a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240524a",
+  "doc_type": "speech",
+  "text_sha256": "a01785a37e01d5e25cf093d5d8c3f83f21123fc44af6137beb26f2883a0f24ca"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bd2b7a40a4b1157a1b155ff973f3e1a0a647784b678281cd8059c5430c7c46b3",
+ "message_id": "msg_011CgFugEvwLzj2EnWMAwppr",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5982,
+  "output_tokens": 468,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I do not believe any of these factors can explain the possible recent increase in r*, but some may conceivably be a contributing factor to an increase in r* in the future.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This will continue to put downward, not upward, pressure on r*.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"All of these financing pressures may contribute to a rise in r* in coming years, but only time will tell how large a factor the U.S. fiscal position will be in affecting r*.\"},{\"dimension\":\"overall\",\"quote\":\"One cannot simply claim r* has risen based on gut feelings—there must be a reasonable economic explanation for why it has risen or fallen.\"}],\"rationale\":\"The speech is a longer-run analysis of r* that is skeptical that the factors behind its decline have reversed, which implies a slightly lower neutral rate, while acknowledging that fiscal deficits could push r* up. It offers no near-term view on policy, inflation or the labor market, so the net stance is roughly neutral with a faint dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I do not believe any of these factors can explain the possible recent increase in r*, but some may conceivably be a contributing factor to an increase in r* in the future."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This will continue to put downward, not upward, pressure on r*."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "All of these financing pressures may contribute to a rise in r* in coming years, but only time will tell how large a factor the U.S. fiscal position will be in affecting r*."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One cannot simply claim r* has risen based on gut feelings—there must be a reasonable economic explanation for why it has risen or fallen."
+   }
+  ],
+  "rationale": "The speech is a longer-run analysis of r* that is skeptical that the factors behind its decline have reversed, which implies a slightly lower neutral rate, while acknowledging that fiscal deficits could push r* up. It offers no near-term view on policy, inflation or the labor market, so the net stance is roughly neutral with a faint dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I do not believe any of these factors can explain the possible recent increase in r*, but some may conceivably be a contributing factor to an increase in r* in the future.",
+     "start": 16496,
+     "end": 16666
+    },
+    {
+     "quote": "This will continue to put downward, not upward, pressure on r*.",
+     "start": 16852,
+     "end": 16914
+    },
+    {
+     "quote": "All of these financing pressures may contribute to a rise in r* in coming years, but only time will tell how large a factor the U.S. fiscal position will be in affecting r*.",
+     "start": 19271,
+     "end": 19443
+    },
+    {
+     "quote": "One cannot simply claim r* has risen based on gut feelings—there must be a reasonable economic explanation for why it has risen or fallen.",
+     "start": 19598,
+     "end": 19735
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

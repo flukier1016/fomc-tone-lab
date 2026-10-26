@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20201216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20201216",
+  "doc_type": "minutes",
+  "text_sha256": "c55f5655fdaa8bfe1d505cfa39b93848b22106823936ecb3c47e674cf995bc2b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb90048dd8e5bb9e4e2e6d195c2bf09dfbacddee962354b89dab03fc3262faea",
+ "message_id": "msg_011CgFug9xHs4GdSCftPvdn1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14630,
+  "output_tokens": 545,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"increases in asset holdings would continue, with purchases of Treasury securities of at least $80 billion per month and of agency MBS of at least $40 billion per month, until substantial further progress has been made\"},{\"dimension\":\"forward_guidance\",\"quote\":\"all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants cited several downside risks that could threaten the economic recovery.\"}],\"rationale\":\"The minutes describe outcome-based guidance committing to near-zero rates and open-ended asset purchases until substantial further progress, with inflation risks still tilted down and the economy far from goals. Improved vaccine outlook tempers but does not offset the strongly accommodative signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "increases in asset holdings would continue, with purchases of Treasury securities of at least $80 billion per month and of agency MBS of at least $40 billion per month, until substantial further progress has been made"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants cited several downside risks that could threaten the economic recovery."
+   }
+  ],
+  "rationale": "The minutes describe outcome-based guidance committing to near-zero rates and open-ended asset purchases until substantial further progress, with inflation risks still tilted down and the economy far from goals. Improved vaccine outlook tempers but does not offset the strongly accommodative signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "increases in asset holdings would continue, with purchases of Treasury securities of at least $80 billion per month and of agency MBS of at least $40 billion per month, until substantial further progress has been made",
+     "start": 37452,
+     "end": 37669
+    },
+    {
+     "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time.",
+     "start": 37082,
+     "end": 37271
+    },
+    {
+     "quote": "Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside.",
+     "start": 35721,
+     "end": 35917
+    },
+    {
+     "quote": "labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal.",
+     "start": 29444,
+     "end": 29601
+    },
+    {
+     "quote": "Participants cited several downside risks that could threaten the economic recovery.",
+     "start": 34788,
+     "end": 34871
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

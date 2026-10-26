@@ -1,0 +1,121 @@
+{
+ "key": "presser_20180321",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20180321",
+  "doc_type": "presser",
+  "text_sha256": "3f37acbaecbb0f4a4832d0332585d12c979e51440d894c716ebea1554aaa5172"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3675f760aa195937b41d2830dc7b3327a3ffa63ef5bc072197e21047bdd2da0c",
+ "message_id": "msg_011CgFugDHxrviezfM8eBk3w",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8836,
+  "output_tokens": 505,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"we decided today to raise the target rate for the federal funds rate by ¼ percentage point, bringing it to 1½ to 1¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In the Committee’s view, further gradual increases in the federal funds rate will best promote these goals.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Indeed, the economic outlook has strengthened in recent months.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"there’s no sense in the data that we’re on the cusp of an acceleration of inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Barring a very significant and unexpected weakening in the outlook, we do not intend to alter this program.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So we’re trying to take that middle ground\"}],\"rationale\":\"The Chair announces a rate hike, signals further gradual increases with higher projected dots for 2019–2020, and describes a strengthened outlook. These hawkish signals are tempered by inflation still below 2 percent, no sign of accelerating inflation, and a balanced 'middle ground' framing of risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "we decided today to raise the target rate for the federal funds rate by ¼ percentage point, bringing it to 1½ to 1¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In the Committee’s view, further gradual increases in the federal funds rate will best promote these goals."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Indeed, the economic outlook has strengthened in recent months."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "there’s no sense in the data that we’re on the cusp of an acceleration of inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Barring a very significant and unexpected weakening in the outlook, we do not intend to alter this program."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So we’re trying to take that middle ground"
+   }
+  ],
+  "rationale": "The Chair announces a rate hike, signals further gradual increases with higher projected dots for 2019–2020, and describes a strengthened outlook. These hawkish signals are tempered by inflation still below 2 percent, no sign of accelerating inflation, and a balanced 'middle ground' framing of risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we decided today to raise the target rate for the federal funds rate by ¼ percentage point, bringing it to 1½ to 1¾ percent.",
+     "start": 260,
+     "end": 383
+    },
+    {
+     "quote": "In the Committee’s view, further gradual increases in the federal funds rate will best promote these goals.",
+     "start": 3986,
+     "end": 4092
+    },
+    {
+     "quote": "Indeed, the economic outlook has strengthened in recent months.",
+     "start": 1297,
+     "end": 1359
+    },
+    {
+     "quote": "there’s no sense in the data that we’re on the cusp of an acceleration of inflation.",
+     "start": 10523,
+     "end": 10606
+    },
+    {
+     "quote": "Barring a very significant and unexpected weakening in the outlook, we do not intend to alter this program.",
+     "start": 5319,
+     "end": 5425
+    },
+    {
+     "quote": "So we’re trying to take that middle ground",
+     "start": 7153,
+     "end": 7195
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

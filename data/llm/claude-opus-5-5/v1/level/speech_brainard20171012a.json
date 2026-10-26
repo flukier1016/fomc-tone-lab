@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20171012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20171012a",
+  "doc_type": "speech",
+  "text_sha256": "40b47239cc169698232cded88097b487b0cee9a222868df752810811f69ab6ff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "89f4b213c830593f7856079f02bfdc1d6213199fc4923db3497573352757a226",
+ "message_id": "msg_011CgFugLej2pKjQ45at4jpU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5736,
+  "output_tokens": 478,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"My comments are not intended to address current policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation has remained stubbornly below the FOMC's 2 percent target for the past five years even as unemployment has fallen from 8.2 percent to 4.2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations\"},{\"dimension\":\"overall\",\"quote\":\"could guard against premature liftoff and help prevent the erosion of longer-term inflation expectations.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The risks of such financial imbalances may be greater in the context of the kind of explicit inflation target overshooting policies proposed in the paper.\"}],\"rationale\":\"Brainard's framework discussion, which disclaims current policy, emphasizes persistent inflation shortfalls, downside risks to inflation expectations, and the risk of premature normalization, a moderately dovish lean. She tempers this with caveats about overshooting and financial-imbalance risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "My comments are not intended to address current policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation has remained stubbornly below the FOMC's 2 percent target for the past five years even as unemployment has fallen from 8.2 percent to 4.2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations"
+   },
+   {
+    "dimension": "overall",
+    "quote": "could guard against premature liftoff and help prevent the erosion of longer-term inflation expectations."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The risks of such financial imbalances may be greater in the context of the kind of explicit inflation target overshooting policies proposed in the paper."
+   }
+  ],
+  "rationale": "Brainard's framework discussion, which disclaims current policy, emphasizes persistent inflation shortfalls, downside risks to inflation expectations, and the risk of premature normalization, a moderately dovish lean. She tempers this with caveats about overshooting and financial-imbalance risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My comments are not intended to address current policy.",
+     "start": 431,
+     "end": 485
+    },
+    {
+     "quote": "inflation has remained stubbornly below the FOMC's 2 percent target for the past five years even as unemployment has fallen from 8.2 percent to 4.2 percent",
+     "start": 2655,
+     "end": 2810
+    },
+    {
+     "quote": "frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations",
+     "start": 1813,
+     "end": 1925
+    },
+    {
+     "quote": "could guard against premature liftoff and help prevent the erosion of longer-term inflation expectations.",
+     "start": 7066,
+     "end": 7170
+    },
+    {
+     "quote": "The risks of such financial imbalances may be greater in the context of the kind of explicit inflation target overshooting policies proposed in the paper.",
+     "start": 17879,
+     "end": 18032
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

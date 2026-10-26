@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20231011a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20231011a",
+  "doc_type": "speech",
+  "text_sha256": "73d90b30d59076096f223230933a1069afeed396088163766ce50b24ed860c5e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "20004599afab3ea0a846f0555e7a6dc8755d21e2cb0354314abd5305e5f7a3b4",
+ "message_id": "msg_011CgFugBvcMZUCqcdGp2LSU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5518,
+  "output_tokens": 460,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This suggests that the policy rate may need to rise further and stay restrictive for some time to return inflation to the FOMC's goal.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, inflation remains well above the FOMC's 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Domestic spending has continued at a strong pace, and the labor market remains tight.\"},{\"dimension\":\"risk_balance\",\"quote\":\"It is essential that central banks facing high inflation bring inflation back to target.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"especially as the Federal Reserve continues to reduce its holdings of Treasury securities\"}],\"rationale\":\"The speech is mainly about financial stability, but it explicitly signals that rates may need to rise further and stay restrictive, citing inflation still well above target alongside strong spending and a tight labor market. Its separation of financial stability tools from monetary policy keeps the policy focus on inflation, a moderately hawkish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This suggests that the policy rate may need to rise further and stay restrictive for some time to return inflation to the FOMC's goal."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, inflation remains well above the FOMC's 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Domestic spending has continued at a strong pace, and the labor market remains tight."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It is essential that central banks facing high inflation bring inflation back to target."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "especially as the Federal Reserve continues to reduce its holdings of Treasury securities"
+   }
+  ],
+  "rationale": "The speech is mainly about financial stability, but it explicitly signals that rates may need to rise further and stay restrictive, citing inflation still well above target alongside strong spending and a tight labor market. Its separation of financial stability tools from monetary policy keeps the policy focus on inflation, a moderately hawkish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This suggests that the policy rate may need to rise further and stay restrictive for some time to return inflation to the FOMC's goal.",
+     "start": 2330,
+     "end": 2463
+    },
+    {
+     "quote": "However, inflation remains well above the FOMC's 2 percent target.",
+     "start": 2177,
+     "end": 2242
+    },
+    {
+     "quote": "Domestic spending has continued at a strong pace, and the labor market remains tight.",
+     "start": 2244,
+     "end": 2328
+    },
+    {
+     "quote": "It is essential that central banks facing high inflation bring inflation back to target.",
+     "start": 18135,
+     "end": 18222
+    },
+    {
+     "quote": "especially as the Federal Reserve continues to reduce its holdings of Treasury securities",
+     "start": 8974,
+     "end": 9063
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

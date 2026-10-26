@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20181206a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20181206a",
+  "doc_type": "speech",
+  "text_sha256": "1ad8f958f0bfaa0dac4e51e289beb38e975a93e3ee502113ca24afcec552a484"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f49d5d063e26445cdd9548b6bf28bff21c4a326680474cf44f611fdc3d59760",
+ "message_id": "msg_011CgFugEPSx9Jt5mA9ZCCG3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2067,
+  "output_tokens": 402,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I am happy to report that our economy is currently performing very well overall, with strong job creation and gradually rising wages.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is 3.7 percent, the lowest since 1969.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"despite positive trends in national data, the benefits of the ongoing economic expansion are still not reaching some communities.\"},{\"dimension\":\"overall\",\"quote\":\"CRA has been an important tool for strengthening local community and economic development infrastructure since it was enacted in 1977.\"}],\"rationale\":\"The speech is mainly about rural community development and CRA, with only a brief upbeat note on the national labor market, tempered by uneven regional outcomes. It offers no view on inflation or the policy path, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I am happy to report that our economy is currently performing very well overall, with strong job creation and gradually rising wages."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is 3.7 percent, the lowest since 1969."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "despite positive trends in national data, the benefits of the ongoing economic expansion are still not reaching some communities."
+   },
+   {
+    "dimension": "overall",
+    "quote": "CRA has been an important tool for strengthening local community and economic development infrastructure since it was enacted in 1977."
+   }
+  ],
+  "rationale": "The speech is mainly about rural community development and CRA, with only a brief upbeat note on the national labor market, tempered by uneven regional outcomes. It offers no view on inflation or the policy path, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am happy to report that our economy is currently performing very well overall, with strong job creation and gradually rising wages.",
+     "start": 632,
+     "end": 764
+    },
+    {
+     "quote": "The unemployment rate is 3.7 percent, the lowest since 1969.",
+     "start": 766,
+     "end": 825
+    },
+    {
+     "quote": "despite positive trends in national data, the benefits of the ongoing economic expansion are still not reaching some communities.",
+     "start": 1974,
+     "end": 2102
+    },
+    {
+     "quote": "CRA has been an important tool for strengthening local community and economic development infrastructure since it was enacted in 1977.",
+     "start": 5571,
+     "end": 5704
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

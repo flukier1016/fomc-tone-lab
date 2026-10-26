@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20170926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170926a",
+  "doc_type": "speech",
+  "text_sha256": "6a5da84dcc3dd2a25d65ecb60b8a58ad318747e4543b85167c84a722d7610312"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9f56794d7029893e04cca79de5c656b0d8f22abd829eae9568f2bd9098bed3b3",
+ "message_id": "msg_011CgFug98w1uNfwtP1MzCP5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6767,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"price inflation is likely to be less informative regarding labor market tightness than it was previously.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity.\"},{\"dimension\":\"overall\",\"quote\":\"This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Some research suggests that widening income and wealth inequality may damp consumer spending in the aggregate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it seems likely that racial differences in unemployment rates will continue to shrink if the overall unemployment rate falls further.\"}],\"rationale\":\"The speech focuses on labor market disparities and emphasizes potential remaining slack, a flat Phillips curve, and the benefits of letting the expansion continue, implying a mild dovish lean. No explicit policy path is discussed.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "price inflation is likely to be less informative regarding labor market tightness than it was previously."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Some research suggests that widening income and wealth inequality may damp consumer spending in the aggregate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it seems likely that racial differences in unemployment rates will continue to shrink if the overall unemployment rate falls further."
+   }
+  ],
+  "rationale": "The speech focuses on labor market disparities and emphasizes potential remaining slack, a flat Phillips curve, and the benefits of letting the expansion continue, implying a mild dovish lean. No explicit policy path is discussed."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "price inflation is likely to be less informative regarding labor market tightness than it was previously.",
+     "start": 1938,
+     "end": 2042
+    },
+    {
+     "quote": "it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity.",
+     "start": 2858,
+     "end": 3109
+    },
+    {
+     "quote": "This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards.",
+     "start": 1542,
+     "end": 1807
+    },
+    {
+     "quote": "Some research suggests that widening income and wealth inequality may damp consumer spending in the aggregate",
+     "start": 5176,
+     "end": 5285
+    },
+    {
+     "quote": "it seems likely that racial differences in unemployment rates will continue to shrink if the overall unemployment rate falls further.",
+     "start": 7570,
+     "end": 7702
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

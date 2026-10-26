@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20181127a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20181127a",
+  "doc_type": "speech",
+  "text_sha256": "95a34a1dbc5454cb942daf75c7a5c37d73f47e46ce95cc6655c513a997a39338"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0501b9abdc72406e045b46f46254ed3dff2ef9c4ee0bfdd99c65906f80d0b1e1",
+ "message_id": "msg_011CgFugAsMyehP1vvRw5rwz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3626,
+  "output_tokens": 551,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"U.S. economic fundamentals are robust, as indicated by strong growth in gross domestic product (GDP) and a job market that has been surprising on the upside for nearly two years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The median of expected inflation 5-to-10 years in the future from the University of Michigan Surveys of Consumers is within--but I believe at the lower end of--the range consistent with price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Raising rates too quickly could unnecessarily shorten the economic expansion, while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This process of learning about r * and u * as new data arrive supports the case for gradual policy normalization\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it is much closer to the vicinity of r * than it was when the FOMC started to remove accommodation in December 2015.\"}],\"rationale\":\"Strong growth and labor data and continued gradual normalization are offset by noting that rates are near neutral, inflation is at target with expectations at the low end, and risks are symmetric. The net signal is roughly balanced, with a slight hawkish tilt from the continued-normalization framing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "U.S. economic fundamentals are robust, as indicated by strong growth in gross domestic product (GDP) and a job market that has been surprising on the upside for nearly two years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The median of expected inflation 5-to-10 years in the future from the University of Michigan Surveys of Consumers is within--but I believe at the lower end of--the range consistent with price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Raising rates too quickly could unnecessarily shorten the economic expansion, while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This process of learning about r * and u * as new data arrive supports the case for gradual policy normalization"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it is much closer to the vicinity of r * than it was when the FOMC started to remove accommodation in December 2015."
+   }
+  ],
+  "rationale": "Strong growth and labor data and continued gradual normalization are offset by noting that rates are near neutral, inflation is at target with expectations at the low end, and risks are symmetric. The net signal is roughly balanced, with a slight hawkish tilt from the continued-normalization framing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "U.S. economic fundamentals are robust, as indicated by strong growth in gross domestic product (GDP) and a job market that has been surprising on the upside for nearly two years.",
+     "start": 461,
+     "end": 638
+    },
+    {
+     "quote": "The median of expected inflation 5-to-10 years in the future from the University of Michigan Surveys of Consumers is within--but I believe at the lower end of--the range consistent with price stability.",
+     "start": 2173,
+     "end": 2374
+    },
+    {
+     "quote": "Raising rates too quickly could unnecessarily shorten the economic expansion, while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse",
+     "start": 10869,
+     "end": 11076
+    },
+    {
+     "quote": "This process of learning about r * and u * as new data arrive supports the case for gradual policy normalization",
+     "start": 11592,
+     "end": 11704
+    },
+    {
+     "quote": "it is much closer to the vicinity of r * than it was when the FOMC started to remove accommodation in December 2015.",
+     "start": 11257,
+     "end": 11372
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

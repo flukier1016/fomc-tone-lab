@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20090310a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090310a",
+  "doc_type": "speech",
+  "text_sha256": "1a4cc6f6d49c1502fec50add83d8b79949564793448217c42f11cbc34f74164a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "97f67494a434cda4af327d2640e2badb53b489b3baae355e4fbd4ddcd967776c",
+ "message_id": "msg_011CgFug8J5qAhnttX2VdA43",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8021,
+  "output_tokens": 424,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The world is suffering through the worst financial crisis since the 1930s, a crisis that has precipitated a sharp downturn in the global economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Until we stabilize the financial system, a sustainable economic recovery will remain out of reach.\"},{\"dimension\":\"overall\",\"quote\":\"In the near term, governments around the world must continue to take forceful and, when appropriate, coordinated actions to restore financial market functioning and the flow of credit.\"},{\"dimension\":\"overall\",\"quote\":\"Today, I would like to talk about four key elements of such a strategy.\"}],\"rationale\":\"The speech is mainly about financial regulatory reform (too big to fail, infrastructure, procyclicality, systemic risk authority) and offers no monetary policy guidance. Its brief references to a sharp global downturn and the need to restore credit lend only a slight dovish tone.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The world is suffering through the worst financial crisis since the 1930s, a crisis that has precipitated a sharp downturn in the global economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Until we stabilize the financial system, a sustainable economic recovery will remain out of reach."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In the near term, governments around the world must continue to take forceful and, when appropriate, coordinated actions to restore financial market functioning and the flow of credit."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, I would like to talk about four key elements of such a strategy."
+   }
+  ],
+  "rationale": "The speech is mainly about financial regulatory reform (too big to fail, infrastructure, procyclicality, systemic risk authority) and offers no monetary policy guidance. Its brief references to a sharp global downturn and the need to restore credit lend only a slight dovish tone."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The world is suffering through the worst financial crisis since the 1930s, a crisis that has precipitated a sharp downturn in the global economy.",
+     "start": 0,
+     "end": 144
+    },
+    {
+     "quote": "Until we stabilize the financial system, a sustainable economic recovery will remain out of reach.",
+     "start": 2862,
+     "end": 2959
+    },
+    {
+     "quote": "In the near term, governments around the world must continue to take forceful and, when appropriate, coordinated actions to restore financial market functioning and the flow of credit.",
+     "start": 2527,
+     "end": 2710
+    },
+    {
+     "quote": "Today, I would like to talk about four key elements of such a strategy.",
+     "start": 4119,
+     "end": 4189
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

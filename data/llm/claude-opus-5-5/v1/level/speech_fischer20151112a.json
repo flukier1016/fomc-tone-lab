@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20151112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20151112a",
+  "doc_type": "speech",
+  "text_sha256": "fcceb3f9c44a819b4196a711df8db88fb5115eca4137a37fc17062eee00a4191"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "09b6e53d82bb557e1552ca44b763c13557886bbb0e3b5b347b8aec83b991f68d",
+ "message_id": "msg_011CgFugEb6xJvNCp5PQaHgB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4407,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"the stronger dollar has played a material role in holding core PCE inflation below 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"there is good reason to expect that the drag on GDP growth from the stronger dollar will persist well into next year\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This greater degree of monetary accommodation seems appropriate given the adverse effects on U.S. aggregate demand coming from the rise in the dollar\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The October 2015 FOMC statement indicated that it may be appropriate to raise the target range for the federal funds rate at the next meeting in December\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"both core and overall inflation are likely to rise gradually toward 2 percent over the medium term as the labor market improves further\"}],\"rationale\":\"The speech emphasizes the dollar's sizable drag on GDP and inflation and endorses greater accommodation and delayed liftoff, a dovish lean. It merely references the possible December hike without endorsing it, and expects inflation to rebound gradually, which tempers the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the stronger dollar has played a material role in holding core PCE inflation below 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "there is good reason to expect that the drag on GDP growth from the stronger dollar will persist well into next year"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This greater degree of monetary accommodation seems appropriate given the adverse effects on U.S. aggregate demand coming from the rise in the dollar"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The October 2015 FOMC statement indicated that it may be appropriate to raise the target range for the federal funds rate at the next meeting in December"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "both core and overall inflation are likely to rise gradually toward 2 percent over the medium term as the labor market improves further"
+   }
+  ],
+  "rationale": "The speech emphasizes the dollar's sizable drag on GDP and inflation and endorses greater accommodation and delayed liftoff, a dovish lean. It merely references the possible December hike without endorsing it, and expects inflation to rebound gradually, which tempers the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the stronger dollar has played a material role in holding core PCE inflation below 2 percent.",
+     "start": 8991,
+     "end": 9083
+    },
+    {
+     "quote": "there is good reason to expect that the drag on GDP growth from the stronger dollar will persist well into next year",
+     "start": 7288,
+     "end": 7404
+    },
+    {
+     "quote": "This greater degree of monetary accommodation seems appropriate given the adverse effects on U.S. aggregate demand coming from the rise in the dollar",
+     "start": 11777,
+     "end": 11926
+    },
+    {
+     "quote": "The October 2015 FOMC statement indicated that it may be appropriate to raise the target range for the federal funds rate at the next meeting in December",
+     "start": 13423,
+     "end": 13576
+    },
+    {
+     "quote": "both core and overall inflation are likely to rise gradually toward 2 percent over the medium term as the labor market improves further",
+     "start": 10355,
+     "end": 10490
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

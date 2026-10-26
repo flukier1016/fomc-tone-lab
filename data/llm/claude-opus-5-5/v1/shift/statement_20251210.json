@@ -1,0 +1,144 @@
+{
+ "key": "statement_20251210",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20251210",
+  "previous_doc_id": "statement_20251029",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "744d89ea2033d9cda8b9dbdf845361f31560f7096a4b18f0124659686a78d948",
+ "message_id": "msg_011CgFue4cWxHCPHLFe897V1",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1564,
+  "output_tokens": 742,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"In considering additional adjustments to the target range for the federal funds rate\",\"after\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.\",\"after\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"and the unemployment rate has edged up but remained low through August; more recent indicators are consistent with these developments.\",\"after\":\"and the unemployment rate has edged up through September. More recent indicators are consistent with these developments.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.\",\"direction\":\"dovish\"},{\"before\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\",\"after\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"Although the Committee cut again, adding \\\"extent and timing\\\" to the forward guidance signals a likely pause, and a second hawkish dissent (Goolsbee) strengthens that signal. Dropping \\\"remained low\\\" on unemployment and starting reserve-management bill purchases lean dovish but are secondary to the guidance shift.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "In considering additional adjustments to the target range for the federal funds rate",
+    "after": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.",
+    "after": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "and the unemployment rate has edged up but remained low through August; more recent indicators are consistent with these developments.",
+    "after": "and the unemployment rate has edged up through September. More recent indicators are consistent with these developments.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+    "after": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Although the Committee cut again, adding \"extent and timing\" to the forward guidance signals a likely pause, and a second hawkish dissent (Goolsbee) strengthens that signal. Dropping \"remained low\" on unemployment and starting reserve-management bill purchases lean dovish but are secondary to the guidance shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In considering additional adjustments to the target range for the federal funds rate",
+     "start": 847,
+     "end": 931
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.",
+     "start": 725,
+     "end": 845
+    },
+    {
+     "quote": "and the unemployment rate has edged up but remained low through August; more recent indicators are consistent with these developments.",
+     "start": 124,
+     "end": 257
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+     "start": 2055,
+     "end": 2322
+    },
+    {
+     "quote": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.",
+     "start": 1032,
+     "end": 1130
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate",
+     "start": 837,
+     "end": 946
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.",
+     "start": 711,
+     "end": 835
+    },
+    {
+     "quote": "and the unemployment rate has edged up through September. More recent indicators are consistent with these developments.",
+     "start": 124,
+     "end": 243
+    },
+    {
+     "quote": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+     "start": 1715,
+     "end": 1921
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+     "start": 2159,
+     "end": 2449
+    }
+   ]
+  }
+ }
+}

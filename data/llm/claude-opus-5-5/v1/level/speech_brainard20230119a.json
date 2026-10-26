@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20230119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20230119a",
+  "doc_type": "speech",
+  "text_sha256": "c221dd4eabd8c7d54c2b5f7935e26fa7d51200706c36d2db1b952a9d19d21981"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "be0cfc006d1473f05172610d7aeec6bc8ad4b6bb4f7220a63c3ba2cf3d675710",
+ "message_id": "msg_011CgFugJEd7CD2ut3Yhkgtg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3782,
+  "output_tokens": 577,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This will enable us to assess more data as we move the policy rate closer to a sufficiently restrictive level, taking into account the risks around our dual-mandate goals.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"policy will need to be sufficiently restrictive for some time to make sure inflation returns to 2 percent on a sustained basis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it is likely that the full effect on demand, employment, and inflation of the cumulative tightening that is in the pipeline still lies ahead.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent declines in average weekly hours, temporary-help services, and monthly payrolls growth suggest tentative signs that labor demand is cooling.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"may provide some reassurance that we are not currently experiencing a 1970s‑style wage–price spiral.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In parallel, balance sheet runoff is continuing.\"}],\"rationale\":\"The speech commits to sufficiently restrictive policy but emphasizes disinflation, cooling labor demand, lagged effects of tightening still to come, and a slower pace of hikes, giving a balanced-to-slightly-dovish lean. Inflation is described as high but declining with reassurance about wage-price dynamics.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This will enable us to assess more data as we move the policy rate closer to a sufficiently restrictive level, taking into account the risks around our dual-mandate goals."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "policy will need to be sufficiently restrictive for some time to make sure inflation returns to 2 percent on a sustained basis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it is likely that the full effect on demand, employment, and inflation of the cumulative tightening that is in the pipeline still lies ahead."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent declines in average weekly hours, temporary-help services, and monthly payrolls growth suggest tentative signs that labor demand is cooling."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "may provide some reassurance that we are not currently experiencing a 1970s‑style wage–price spiral."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In parallel, balance sheet runoff is continuing."
+   }
+  ],
+  "rationale": "The speech commits to sufficiently restrictive policy but emphasizes disinflation, cooling labor demand, lagged effects of tightening still to come, and a slower pace of hikes, giving a balanced-to-slightly-dovish lean. Inflation is described as high but declining with reassurance about wage-price dynamics."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This will enable us to assess more data as we move the policy rate closer to a sufficiently restrictive level, taking into account the risks around our dual-mandate goals.",
+     "start": 11752,
+     "end": 11922
+    },
+    {
+     "quote": "policy will need to be sufficiently restrictive for some time to make sure inflation returns to 2 percent on a sustained basis.",
+     "start": 12034,
+     "end": 12160
+    },
+    {
+     "quote": "it is likely that the full effect on demand, employment, and inflation of the cumulative tightening that is in the pipeline still lies ahead.",
+     "start": 2897,
+     "end": 3037
+    },
+    {
+     "quote": "Recent declines in average weekly hours, temporary-help services, and monthly payrolls growth suggest tentative signs that labor demand is cooling.",
+     "start": 3553,
+     "end": 3699
+    },
+    {
+     "quote": "may provide some reassurance that we are not currently experiencing a 1970s‑style wage–price spiral.",
+     "start": 10825,
+     "end": 10924
+    },
+    {
+     "quote": "In parallel, balance sheet runoff is continuing.",
+     "start": 11924,
+     "end": 11971
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

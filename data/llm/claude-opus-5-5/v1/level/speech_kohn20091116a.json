@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20091116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20091116a",
+  "doc_type": "speech",
+  "text_sha256": "5b8c91f0ca53cc32d09e0f96b558b868b3bdb2f6b40d6161ae25fd208344cbd6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4e658bf464fc0c353536333cf9dd1431d1140efc692889c9580224379056d99d",
+ "message_id": "msg_011CgFugFdrPixdfXxBiBjG4",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8643,
+  "output_tokens": 567,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Tightening financial conditions at a time when an economic recovery has just begun, when labor markets are continuing to weaken, when inflation is below its optimal level for the longer run\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"when inflation is below its optimal level for the longer run\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the level of output is expected to remain depressed for some time relative to the capacity of the economy to produce\"},{\"dimension\":\"risk_balance\",\"quote\":\"At present, however, the prices of assets in U.S. financial markets do not appear to be clearly out of line with the outlook for the economy\"},{\"dimension\":\"risk_balance\",\"quote\":\"Still, we will need to be alert to any tendencies for movements in prices for commodities and assets to result in a sustained increase in inflation and inflation expectations\"},{\"dimension\":\"overall\",\"quote\":\"Given our state of knowledge, we should keep monetary policy focused on our mandates for maximum employment and stable prices.\"}],\"rationale\":\"The speaker argues against tightening policy (raising rates or selling securities) to lean against asset prices, citing a nascent recovery, weakening labor markets, and below-optimal inflation, which implies continued accommodation. A brief caveat about watching inflation expectations tempers the dovish lean only slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Tightening financial conditions at a time when an economic recovery has just begun, when labor markets are continuing to weaken, when inflation is below its optimal level for the longer run"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "when inflation is below its optimal level for the longer run"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the level of output is expected to remain depressed for some time relative to the capacity of the economy to produce"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At present, however, the prices of assets in U.S. financial markets do not appear to be clearly out of line with the outlook for the economy"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Still, we will need to be alert to any tendencies for movements in prices for commodities and assets to result in a sustained increase in inflation and inflation expectations"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given our state of knowledge, we should keep monetary policy focused on our mandates for maximum employment and stable prices."
+   }
+  ],
+  "rationale": "The speaker argues against tightening policy (raising rates or selling securities) to lean against asset prices, citing a nascent recovery, weakening labor markets, and below-optimal inflation, which implies continued accommodation. A brief caveat about watching inflation expectations tempers the dovish lean only slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Tightening financial conditions at a time when an economic recovery has just begun, when labor markets are continuing to weaken, when inflation is below its optimal level for the longer run",
+     "start": 18219,
+     "end": 18408
+    },
+    {
+     "quote": "when inflation is below its optimal level for the longer run",
+     "start": 18348,
+     "end": 18408
+    },
+    {
+     "quote": "the level of output is expected to remain depressed for some time relative to the capacity of the economy to produce",
+     "start": 16689,
+     "end": 16805
+    },
+    {
+     "quote": "At present, however, the prices of assets in U.S. financial markets do not appear to be clearly out of line with the outlook for the economy",
+     "start": 16905,
+     "end": 17045
+    },
+    {
+     "quote": "Still, we will need to be alert to any tendencies for movements in prices for commodities and assets to result in a sustained increase in inflation and inflation expectations",
+     "start": 18603,
+     "end": 18777
+    },
+    {
+     "quote": "Given our state of knowledge, we should keep monetary policy focused on our mandates for maximum employment and stable prices.",
+     "start": 8342,
+     "end": 8467
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "key": "statement_20181219",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20181219",
+  "previous_doc_id": "statement_20181108",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e6af5ba4880df97be5315a0a2a4b91cd394ec2ebc181502979ac26431cb61c0f",
+ "message_id": "msg_011CgFueAGbQCxgtL3xsfHd5",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1322,
+  "output_tokens": 417,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent\",\"after\":\"The Committee judges that some further gradual increases in the target range for the federal funds rate will be consistent\",\"direction\":\"dovish\"},{\"before\":\"Risks to the economic outlook appear roughly balanced.\",\"after\":\"The Committee judges that risks to the economic outlook are roughly balanced, but will continue to monitor global economic and financial developments and assess their implications for the economic outlook.\",\"direction\":\"dovish\"},{\"before\":\"the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.\",\"after\":\"the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2‑1/2 percent.\",\"direction\":\"hawkish\"},{\"before\":\"and the unemployment rate has declined.\",\"after\":\"and the unemployment rate has remained low.\",\"direction\":\"neutral\"}],\"rationale\":\"The rate hike was widely expected, while the addition of \\\"some\\\" before further gradual increases and the new caveat about monitoring global economic and financial developments signal a shallower remaining tightening path. On net, the forward guidance moved in a dovish direction.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent",
+    "after": "The Committee judges that some further gradual increases in the target range for the federal funds rate will be consistent",
+    "direction": "dovish"
+   },
+   {
+    "before": "Risks to the economic outlook appear roughly balanced.",
+    "after": "The Committee judges that risks to the economic outlook are roughly balanced, but will continue to monitor global economic and financial developments and assess their implications for the economic outlook.",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.",
+    "after": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2‑1/2 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "and the unemployment rate has declined.",
+    "after": "and the unemployment rate has remained low.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The rate hike was widely expected, while the addition of \"some\" before further gradual increases and the new caveat about monitoring global economic and financial developments signal a shallower remaining tightening path. On net, the forward guidance moved in a dovish direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent",
+     "start": 754,
+     "end": 872
+    },
+    {
+     "quote": "Risks to the economic outlook appear roughly balanced.",
+     "start": 1039,
+     "end": 1092
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.",
+     "start": 1167,
+     "end": 1266
+    },
+    {
+     "quote": "and the unemployment rate has declined.",
+     "start": 257,
+     "end": 295
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee judges that some further gradual increases in the target range for the federal funds rate will be consistent",
+     "start": 757,
+     "end": 879
+    },
+    {
+     "quote": "The Committee judges that risks to the economic outlook are roughly balanced, but will continue to monitor global economic and financial developments and assess their implications for the economic outlook.",
+     "start": 1046,
+     "end": 1250
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2‑1/2 percent.",
+     "start": 1325,
+     "end": 1425
+    },
+    {
+     "quote": "and the unemployment rate has remained low.",
+     "start": 256,
+     "end": 298
+    }
+   ]
+  }
+ }
+}

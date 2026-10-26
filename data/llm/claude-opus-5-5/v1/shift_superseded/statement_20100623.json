@@ -1,0 +1,124 @@
+{
+ "key": "statement_20100623",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100623",
+  "previous_doc_id": "statement_20100509",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8818e6b125aaf4575c8af229bb503fa211577d89683a748b81a658dbdc630220",
+ "message_id": "msg_011CgFudUxTnRG3JcKDGZn4i",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1457,
+  "output_tokens": 905,
+  "output_tokens_details": {
+   "thinking_tokens": 338
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"\",\"after\":\"Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted\",\"direction\":\"hawkish\"},{\"before\":\"These swap arrangements have been authorized through January 2011.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The previous document was an emergency swap-line announcement with no rate guidance, while the current is a regular statement reaffirming near-zero rates for an extended period, so there is no like-for-like change in policy direction. Dovish notes on tighter financial conditions and lower inflation are roughly offset by the continued Hoenig hawkish dissent, leaving the signal essentially unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "",
+    "after": "Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted",
+    "direction": "hawkish"
+   },
+   {
+    "before": "These swap arrangements have been authorized through January 2011.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The previous document was an emergency swap-line announcement with no rate guidance, while the current is a regular statement reaffirming near-zero rates for an extended period, so there is no like-for-like change in policy direction. Dovish notes on tighter financial conditions and lower inflation are roughly offset by the continued Hoenig hawkish dissent, leaving the signal essentially unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "These swap arrangements have been authorized through January 2011.",
+     "start": 1494,
+     "end": 1559
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.",
+     "start": 549,
+     "end": 667
+    },
+    {
+     "quote": "Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.",
+     "start": 933,
+     "end": 1055
+    },
+    {
+     "quote": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+     "start": 1057,
+     "end": 1221
+    },
+    {
+     "quote": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1224,
+     "end": 1571
+    },
+    {
+     "quote": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted",
+     "start": 1993,
+     "end": 2204
+    }
+   ]
+  }
+ }
+}

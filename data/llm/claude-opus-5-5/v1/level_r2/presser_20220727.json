@@ -1,0 +1,121 @@
+{
+ "key": "presser_20220727",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20220727",
+  "doc_type": "presser",
+  "text_sha256": "5a11137e7fbe15de68328433dd6b118756d716d57124463722ff538f4508a66c"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b77ef08d6b6e6fa995c036aa9915dd438c00df76b767d5ae46ea7ab76096990f",
+ "message_id": "msg_011CgG27jbFzq4eint3wBAdv",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 12737,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"today the FOMC raised its policy interest rate by ¾ of a percentage point and anticipates that ongoing increases in the target range for the federal funds rate will be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"As the stance of monetary policy tightens further, it likely will become appropriate to slow the pace of increases while we assess how our cumulative policy adjustments are affecting the economy and inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"While another unusually large increase could be appropriate at our next meeting, that is a decision that will depend on the data we get between now and then.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has obviously surprised to the upside over the past year, and further surprises could be in store.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market is extremely tight, and inflation is much too high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the risk of doing too little and leaving the economy with this entrenched inflation, it only raises the cost.\"}],\"rationale\":\"A second 75bp hike, guidance for ongoing increases toward a moderately restrictive level, and forceful inflation concern are clearly hawkish. This is tempered by signals that the pace of hikes will slow now that policy is at neutral, by acknowledged softening in activity, and by the end of explicit guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "today the FOMC raised its policy interest rate by ¾ of a percentage point and anticipates that ongoing increases in the target range for the federal funds rate will be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "As the stance of monetary policy tightens further, it likely will become appropriate to slow the pace of increases while we assess how our cumulative policy adjustments are affecting the economy and inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "While another unusually large increase could be appropriate at our next meeting, that is a decision that will depend on the data we get between now and then."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has obviously surprised to the upside over the past year, and further surprises could be in store."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market is extremely tight, and inflation is much too high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the risk of doing too little and leaving the economy with this entrenched inflation, it only raises the cost."
+   }
+  ],
+  "rationale": "A second 75bp hike, guidance for ongoing increases toward a moderately restrictive level, and forceful inflation concern are clearly hawkish. This is tempered by signals that the pace of hikes will slow now that policy is at neutral, by acknowledged softening in activity, and by the end of explicit guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "today the FOMC raised its policy interest rate by ¾ of a percentage point and anticipates that ongoing increases in the target range for the federal funds rate will be appropriate.",
+     "start": 766,
+     "end": 945
+    },
+    {
+     "quote": "As the stance of monetary policy tightens further, it likely will become appropriate to slow the pace of increases while we assess how our cumulative policy adjustments are affecting the economy and inflation.",
+     "start": 4787,
+     "end": 4995
+    },
+    {
+     "quote": "While another unusually large increase could be appropriate at our next meeting, that is a decision that will depend on the data we get between now and then.",
+     "start": 4500,
+     "end": 4656
+    },
+    {
+     "quote": "Inflation has obviously surprised to the upside over the past year, and further surprises could be in store.",
+     "start": 5356,
+     "end": 5463
+    },
+    {
+     "quote": "The labor market is extremely tight, and inflation is much too high.",
+     "start": 674,
+     "end": 741
+    },
+    {
+     "quote": "the risk of doing too little and leaving the economy with this entrenched inflation, it only raises the cost.",
+     "start": 16865,
+     "end": 16973
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

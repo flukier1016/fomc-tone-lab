@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20180627a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20180627a",
+  "doc_type": "speech",
+  "text_sha256": "441b5e3f9a8ec5934d1dfca910965a82ec55e99da9141f6fdff2b7661903b724"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ecf4eb768a8301226c9ac6c6cc1114447cd71a075b650d7eb945810ad4ce1279",
+ "message_id": "msg_011CgFugBQ7SgeGZUxxHTQ1P",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5511,
+  "output_tokens": 343,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"like our economy, the condition of the U.S. banking industry is strong.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Banks are well capitalized and positioned to increase lending to finance investment in a strengthening economy.\"},{\"dimension\":\"overall\",\"quote\":\"A common theme in the legislation and the Fed's steps to improve our regulation and supervision is tailoring.\"}],\"rationale\":\"The speech is about bank regulation, tailoring and the Financial Stability Board, with no discussion of the policy rate path, inflation or the balance sheet. Brief remarks about a strong and strengthening economy give only a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "like our economy, the condition of the U.S. banking industry is strong."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Banks are well capitalized and positioned to increase lending to finance investment in a strengthening economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A common theme in the legislation and the Fed's steps to improve our regulation and supervision is tailoring."
+   }
+  ],
+  "rationale": "The speech is about bank regulation, tailoring and the Financial Stability Board, with no discussion of the policy rate path, inflation or the balance sheet. Brief remarks about a strong and strengthening economy give only a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "like our economy, the condition of the U.S. banking industry is strong.",
+     "start": 5068,
+     "end": 5138
+    },
+    {
+     "quote": "Banks are well capitalized and positioned to increase lending to finance investment in a strengthening economy.",
+     "start": 5209,
+     "end": 5319
+    },
+    {
+     "quote": "A common theme in the legislation and the Fed's steps to improve our regulation and supervision is tailoring.",
+     "start": 9143,
+     "end": 9251
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

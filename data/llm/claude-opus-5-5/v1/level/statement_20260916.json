@@ -1,0 +1,126 @@
+{
+ "key": "statement_20260916",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20260916",
+  "doc_type": "statement",
+  "text_sha256": "ad37699c78fbb3b1aa3115deccf3e5edd101c6e784d1546740a024b5ae3e9b77"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "30b2f0997537b974652f000128b2fb1c1be17b6a06d70d4d5e60b03f6c499f3c",
+ "message_id": "msg_011CgFuSbK9DEgPj1r1uNrzu",
+ "request_id": "req_011CgFuSaxKazjcMb7GvsKr7",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 300,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2241,
+    "input_tokens": 300,
+    "model": null,
+    "output_tokens": 425,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 425,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:05:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated. Today's policy action will support a timelier return to the Committee's 2 percent goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee will deliver price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity is expanding at a solid pace.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is continuing its policy of maintaining ample reserves in the banking system.\"}],\"rationale\":\"The statement announces a unanimous rate hike, describes inflation as elevated and growth as solid, and commits firmly to delivering price stability. The policy path is not spelled out explicitly, but the overall signal is clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated. Today's policy action will support a timelier return to the Committee's 2 percent goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee will deliver price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity is expanding at a solid pace."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system."
+   }
+  ],
+  "rationale": "The statement announces a unanimous rate hike, describes inflation as elevated and growth as solid, and commits firmly to delivering price stability. The policy path is not spelled out explicitly, but the overall signal is clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent",
+     "start": 98,
+     "end": 218
+    },
+    {
+     "quote": "Inflation remains elevated. Today's policy action will support a timelier return to the Committee's 2 percent goal.",
+     "start": 687,
+     "end": 801
+    },
+    {
+     "quote": "The Committee will deliver price stability.",
+     "start": 803,
+     "end": 845
+    },
+    {
+     "quote": "Economic activity is expanding at a solid pace.",
+     "start": 363,
+     "end": 409
+    },
+    {
+     "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system.",
+     "start": 270,
+     "end": 360
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

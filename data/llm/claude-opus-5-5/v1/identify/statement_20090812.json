@@ -1,0 +1,51 @@
+{
+ "key": "statement_20090812",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20090812",
+  "release_date": "2009-08-12"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e668926025fd38a4721fd83edcefde91b3b0e7c57c71a8a7297e896c950732e4",
+ "message_id": "msg_011CgFudW3hKtMrv3rAFWo9i",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1264,
+  "output_tokens": 196,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2009,\"month\":8,\"confidence\":0.93,\"cues\":[\"'economic activity is leveling out' language matches the August 2009 statement\",\"Decision to gradually slow Treasury purchases, with the full $300 billion completed by end of October, was announced in August 2009\",\"MBS purchases of $1.25 trillion and agency debt of $200 billion 'by the end of the year' fit before the September 2009 extension to 2010 Q1\",\"'Exceptionally low levels... for an extended period' language was in use from 2009\",\"Ten voters, consistent with 2009 FOMC composition\"]}",
+ "parsed": {
+  "year": 2009,
+  "month": 8,
+  "confidence": 0.93,
+  "cues": [
+   "'economic activity is leveling out' language matches the August 2009 statement",
+   "Decision to gradually slow Treasury purchases, with the full $300 billion completed by end of October, was announced in August 2009",
+   "MBS purchases of $1.25 trillion and agency debt of $200 billion 'by the end of the year' fit before the September 2009 extension to 2010 Q1",
+   "'Exceptionally low levels... for an extended period' language was in use from 2009",
+   "Ten voters, consistent with 2009 FOMC composition"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

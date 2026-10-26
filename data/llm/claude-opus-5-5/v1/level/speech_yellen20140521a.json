@@ -1,0 +1,85 @@
+{
+ "key": "speech_yellen20140521a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20140521a",
+  "doc_type": "speech",
+  "text_sha256": "b39334b5b1144a6a45f37f0ddb27c71b299d902b917bfbb0b2a26f1df7b377b4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f466c6cdbf1b1d861b089cc1d7e504396f4ecea98755fc819b730995d31f5526",
+ "message_id": "msg_011CgFug8y1sGjuf4D322tWz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1724,
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Your NYU education has not only provided you with a foundation of knowledge; it has also, I hope, instilled in you a love of knowledge and an enduring curiosity.\"},{\"dimension\":\"overall\",\"quote\":\"We brainstormed and designed a host of programs to unclog the plumbing of the financial system and to keep credit flowing.\"}],\"rationale\":\"This is a commencement address about curiosity, grit and passion, with only a historical reference to the Fed's crisis response. It contains no current monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Your NYU education has not only provided you with a foundation of knowledge; it has also, I hope, instilled in you a love of knowledge and an enduring curiosity."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We brainstormed and designed a host of programs to unclog the plumbing of the financial system and to keep credit flowing."
+   }
+  ],
+  "rationale": "This is a commencement address about curiosity, grit and passion, with only a historical reference to the Fed's crisis response. It contains no current monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Your NYU education has not only provided you with a foundation of knowledge; it has also, I hope, instilled in you a love of knowledge and an enduring curiosity.",
+     "start": 293,
+     "end": 453
+    },
+    {
+     "quote": "We brainstormed and designed a host of programs to unclog the plumbing of the financial system and to keep credit flowing.",
+     "start": 2327,
+     "end": 2448
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

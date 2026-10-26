@@ -1,0 +1,51 @@
+{
+ "key": "statement_20240612",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20240612",
+  "release_date": "2024-06-12"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7ec688c44b55bfd927be660036b359a900bd4b27cf0e90c3f2064881d9bba8da",
+ "message_id": "msg_011CgFudyQEYQyQgUjrSyjvh",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1110,
+  "output_tokens": 390,
+  "output_tokens_details": {
+   "thinking_tokens": 171
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2024,\"month\":6,\"confidence\":0.85,\"cues\":[\"'modest further progress toward the Committee's 2 percent inflation objective' replaced May 2024's 'lack of further progress'\",\"Risks 'moved toward better balance over the past year', the 2024 phrasing\",\"Statement says it does not expect to cut until it has 'greater confidence' inflation is moving sustainably to 2 percent, so this is before the September 2024 cut\",\"Balance sheet sentence is simplified, with no runoff-slowdown details, consistent with the meeting after the May 2024 taper announcement\",\"'Economic activity has continued to expand at a solid pace'\"]}",
+ "parsed": {
+  "year": 2024,
+  "month": 6,
+  "confidence": 0.85,
+  "cues": [
+   "'modest further progress toward the Committee's 2 percent inflation objective' replaced May 2024's 'lack of further progress'",
+   "Risks 'moved toward better balance over the past year', the 2024 phrasing",
+   "Statement says it does not expect to cut until it has 'greater confidence' inflation is moving sustainably to 2 percent, so this is before the September 2024 cut",
+   "Balance sheet sentence is simplified, with no runoff-slowdown details, consistent with the meeting after the May 2024 taper announcement",
+   "'Economic activity has continued to expand at a solid pace'"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

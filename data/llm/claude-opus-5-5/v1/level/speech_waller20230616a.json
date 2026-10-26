@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20230616a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230616a",
+  "doc_type": "speech",
+  "text_sha256": "1f35211b157526ddcd4f80672677580d1c06de33efd27536ffa68825b037b3c3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3cfaf8f903e9bdd9424bc4aa1cc3283cd8db3cb03392e011ebd844083c319ee5",
+ "message_id": "msg_011CgFugFdrPfyDtZ3f6MSgD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1846,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Fed's job is to use monetary policy to achieve its dual mandate, and right now that means raising rates to fight inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I do not support altering the stance of monetary policy over worries of ineffectual management at a few banks.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If that is the case, then it might reduce the need for at least some further tightening of monetary policy to lower inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it is still not clear that recent strains in the banking sector materially intensified the tightening of lending conditions.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"A rapid, sizable increase in interest rates resulting from persistently elevated inflation contributed to stresses in the banking system\"}],\"rationale\":\"The speaker says tighter credit conditions could reduce the need for further hikes, but finds little evidence so far that banking strains have tightened lending beyond the normal effect of rate increases. The speaker unequivocally backs continued rate increases to fight inflation, so the net signal is a moderate hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Fed's job is to use monetary policy to achieve its dual mandate, and right now that means raising rates to fight inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I do not support altering the stance of monetary policy over worries of ineffectual management at a few banks."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If that is the case, then it might reduce the need for at least some further tightening of monetary policy to lower inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it is still not clear that recent strains in the banking sector materially intensified the tightening of lending conditions."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "A rapid, sizable increase in interest rates resulting from persistently elevated inflation contributed to stresses in the banking system"
+   }
+  ],
+  "rationale": "The speaker says tighter credit conditions could reduce the need for further hikes, but finds little evidence so far that banking strains have tightened lending beyond the normal effect of rate increases. The speaker unequivocally backs continued rate increases to fight inflation, so the net signal is a moderate hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Fed's job is to use monetary policy to achieve its dual mandate, and right now that means raising rates to fight inflation.",
+     "start": 5750,
+     "end": 5876
+    },
+    {
+     "quote": "I do not support altering the stance of monetary policy over worries of ineffectual management at a few banks.",
+     "start": 5993,
+     "end": 6102
+    },
+    {
+     "quote": "If that is the case, then it might reduce the need for at least some further tightening of monetary policy to lower inflation.",
+     "start": 3993,
+     "end": 4118
+    },
+    {
+     "quote": "it is still not clear that recent strains in the banking sector materially intensified the tightening of lending conditions.",
+     "start": 5356,
+     "end": 5479
+    },
+    {
+     "quote": "A rapid, sizable increase in interest rates resulting from persistently elevated inflation contributed to stresses in the banking system",
+     "start": 1671,
+     "end": 1807
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

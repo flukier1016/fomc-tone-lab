@@ -1,0 +1,30 @@
+{
+ "batch_id": "msgbatch_0137zjuvs6g4s3y8YAcskMw9",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "run_tag": "",
+ "rubric_version": "v1",
+ "created_at": "2026-10-21T20:56:19.380030+00:00",
+ "jobs": {
+  "statement_20100623": {
+   "mode": "shift",
+   "input_sha256": "ca6f8c5faeafc5805ac0ccd78f8d71a7658b0a15eec80a4b68291afc53a70044"
+  },
+  "statement_20191030": {
+   "mode": "shift",
+   "input_sha256": "d781b60309134f9ab49a943dca819d3fa1fe6922bd5099e0592c50af49720c9b"
+  },
+  "statement_20200429": {
+   "mode": "shift",
+   "input_sha256": "adfe7587d929ac74377695c048905469367fc39cb341950f68c241254682a0e8"
+  },
+  "statement_20200916": {
+   "mode": "shift",
+   "input_sha256": "9323b2e14a80fedd91a260d83aaeebc4264eae93f768cd660f86c5c8d431e224"
+  },
+  "statement_20250917": {
+   "mode": "shift",
+   "input_sha256": "083d8b57af6a944f43fd352dc62a7ba6f16375c14021e8251f544322ee0ca264"
+  }
+ }
+}

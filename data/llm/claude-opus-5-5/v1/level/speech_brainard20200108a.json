@@ -1,0 +1,85 @@
+{
+ "key": "speech_brainard20200108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200108a",
+  "doc_type": "speech",
+  "text_sha256": "b5501c635af30abe6efda7ae050861da8963344e3f4baaccf8af4fb7bdaa1bce"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5f091fc0de1348b8a749236023260c839540cb9afd5f7219c62ba2416a4a06bd",
+ "message_id": "msg_011CgFugEf4rs1gdQYE6owbp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6823,
+  "output_tokens": 277,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am pleased to be here at the Urban Institute to discuss how to strengthen the Community Reinvestment Act (CRA), which is a key priority for the Federal Reserve.\"},{\"dimension\":\"overall\",\"quote\":\"So it is much more important to get reform right than to do it quickly.\"}],\"rationale\":\"The speech is about Community Reinvestment Act regulatory reform and does not address monetary policy, inflation, or the economic outlook. No policy stance can be inferred.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am pleased to be here at the Urban Institute to discuss how to strengthen the Community Reinvestment Act (CRA), which is a key priority for the Federal Reserve."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So it is much more important to get reform right than to do it quickly."
+   }
+  ],
+  "rationale": "The speech is about Community Reinvestment Act regulatory reform and does not address monetary policy, inflation, or the economic outlook. No policy stance can be inferred."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am pleased to be here at the Urban Institute to discuss how to strengthen the Community Reinvestment Act (CRA), which is a key priority for the Federal Reserve.",
+     "start": 14,
+     "end": 175
+    },
+    {
+     "quote": "So it is much more important to get reform right than to do it quickly.",
+     "start": 3624,
+     "end": 3694
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

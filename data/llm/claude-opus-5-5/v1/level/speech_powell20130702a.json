@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20130702a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20130702a",
+  "doc_type": "speech",
+  "text_sha256": "e667bf0f8f3ca878ee248df7168e82cfafd5c38f88cc2eaa90a538000e3cc5b9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0a5e70b442416dc80f5bd7b31fff08b5ee29ba5430e3ff4897f836303de20b89",
+ "message_id": "msg_011CgFugADg12UvrAPR3TFnb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3365,
+  "output_tokens": 429,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Today, inflation is well below our 2 percent longer-term objective, as measured by prices for personal consumption expenditures.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In all likelihood, this path will involve continued support from accommodative monetary policy for quite some time.\"},{\"dimension\":\"overall\",\"quote\":\"In the meantime, the case for continued support for our economy from monetary policy remains strong.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But today, our private sector shows real signs of underlying improvement.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it remains well above our estimate of a longer-run, more normal level.\"}],\"rationale\":\"The monetary policy section is brief but dovish: inflation is described as well below target, unemployment as elevated, and policy as staying accommodative for quite some time. Private-sector improvement is noted, but most of the speech concerns regulation.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Today, inflation is well below our 2 percent longer-term objective, as measured by prices for personal consumption expenditures."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In all likelihood, this path will involve continued support from accommodative monetary policy for quite some time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In the meantime, the case for continued support for our economy from monetary policy remains strong."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But today, our private sector shows real signs of underlying improvement."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it remains well above our estimate of a longer-run, more normal level."
+   }
+  ],
+  "rationale": "The monetary policy section is brief but dovish: inflation is described as well below target, unemployment as elevated, and policy as staying accommodative for quite some time. Private-sector improvement is noted, but most of the speech concerns regulation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, inflation is well below our 2 percent longer-term objective, as measured by prices for personal consumption expenditures.",
+     "start": 3097,
+     "end": 3224
+    },
+    {
+     "quote": "In all likelihood, this path will involve continued support from accommodative monetary policy for quite some time.",
+     "start": 4503,
+     "end": 4617
+    },
+    {
+     "quote": "In the meantime, the case for continued support for our economy from monetary policy remains strong.",
+     "start": 3520,
+     "end": 3619
+    },
+    {
+     "quote": "But today, our private sector shows real signs of underlying improvement.",
+     "start": 3752,
+     "end": 3824
+    },
+    {
+     "quote": "it remains well above our estimate of a longer-run, more normal level.",
+     "start": 3306,
+     "end": 3375
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

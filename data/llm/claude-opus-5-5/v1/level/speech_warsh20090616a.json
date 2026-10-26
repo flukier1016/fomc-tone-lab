@@ -1,0 +1,112 @@
+{
+ "key": "speech_warsh20090616a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20090616a",
+  "doc_type": "speech",
+  "text_sha256": "2ad7895980afdfb0d990c38f8206bd05bbde6c514c0f71864e6db79021173988"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3c0d8185f257d2c154ed62cdec8f9531b41ff8695ef7e61d56e4b7c92950cd73",
+ "message_id": "msg_011CgFugDz8mSD6ogquoQ5st",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6429,
+  "output_tokens": 1101,
+  "output_tokens_details": {
+   "thinking_tokens": 537
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The panic's hasty retreat should not be confused with robust recovery. For economic performance will turn ultimately on the force of private final demand; and for now, it remains weak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"unemployment rates, in my judgment, are likely to remain higher and linger longer than in recent recessions.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"During the transition, there may well be political impetus for still more-aggressive macroeconomic policies. In evaluating new measures, however, policymakers' predominant interest should be ensuring the credibility of their fiscal and monetary frameworks.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve should not--and will not--compromise another kind of stability--price stability--to help achieve other government policy objectives.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Looking ahead, I could well imagine that the natural rate of unemployment trends higher.\"}],\"rationale\":\"The speech describes weak private demand and a likely jobless recovery (dovish on activity) but cautions against more aggressive macro policy, stresses price-stability credibility, and flags a possibly higher NAIRU, giving a slight hawkish tilt. Most of the text concerns structural growth policy rather than the policy rate path, so the net signal is near neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The panic's hasty retreat should not be confused with robust recovery. For economic performance will turn ultimately on the force of private final demand; and for now, it remains weak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "unemployment rates, in my judgment, are likely to remain higher and linger longer than in recent recessions."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "During the transition, there may well be political impetus for still more-aggressive macroeconomic policies. In evaluating new measures, however, policymakers' predominant interest should be ensuring the credibility of their fiscal and monetary frameworks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve should not--and will not--compromise another kind of stability--price stability--to help achieve other government policy objectives."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Looking ahead, I could well imagine that the natural rate of unemployment trends higher."
+   }
+  ],
+  "rationale": "The speech describes weak private demand and a likely jobless recovery (dovish on activity) but cautions against more aggressive macro policy, stresses price-stability credibility, and flags a possibly higher NAIRU, giving a slight hawkish tilt. Most of the text concerns structural growth policy rather than the policy rate path, so the net signal is near neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The panic's hasty retreat should not be confused with robust recovery. For economic performance will turn ultimately on the force of private final demand; and for now, it remains weak.",
+     "start": 11479,
+     "end": 11662
+    },
+    {
+     "quote": "unemployment rates, in my judgment, are likely to remain higher and linger longer than in recent recessions.",
+     "start": 13902,
+     "end": 14009
+    },
+    {
+     "quote": "During the transition, there may well be political impetus for still more-aggressive macroeconomic policies. In evaluating new measures, however, policymakers' predominant interest should be ensuring the credibility of their fiscal and monetary frameworks.",
+     "start": 14297,
+     "end": 14552
+    },
+    {
+     "quote": "The Federal Reserve should not--and will not--compromise another kind of stability--price stability--to help achieve other government policy objectives.",
+     "start": 13092,
+     "end": 13243
+    },
+    {
+     "quote": "Looking ahead, I could well imagine that the natural rate of unemployment trends higher.",
+     "start": 18731,
+     "end": 18818
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

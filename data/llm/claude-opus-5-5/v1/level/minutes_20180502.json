@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20180502",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20180502",
+  "doc_type": "minutes",
+  "text_sha256": "ffc1a25079f9bdef42e301eff15d98d81089d3a9c6abf7ad5bbc65f7ce762e1d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb4275230830775856cd6f08ca14eaae3b53f5fc19f60514544e7c09602d619d",
+ "message_id": "msg_011CgFugCFTQRxXWVNcGxxq3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14267,
+  "output_tokens": 570,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants judged that if incoming information broadly confirmed their current economic outlook, it would likely soon be appropriate for the Committee to take another step in removing policy accommodation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Some participants noted that inflation was likely to modestly overshoot 2 percent for a time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"They noted a number of economic fundamentals were currently supporting continued above-trend economic growth\"},{\"dimension\":\"risk_balance\",\"quote\":\"Members judged that the risks to the economic outlook appeared to be roughly balanced.\"},{\"dimension\":\"overall\",\"quote\":\"It was also noted that a temporary period of inflation modestly above 2 percent would be consistent with the Committee's symmetric inflation objective\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Participants generally agreed with the assessment that continuing to raise the target range for the federal funds rate gradually would likely be appropriate if the economy evolves about as expected.\"}],\"rationale\":\"The minutes signal a near-term hike ('soon be appropriate') and continued gradual tightening amid strong labor markets and inflation near 2 percent. This hawkish lean is tempered by tolerance of a modest overshoot, balanced risks, and discussion of a possibly lower neutral rate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants judged that if incoming information broadly confirmed their current economic outlook, it would likely soon be appropriate for the Committee to take another step in removing policy accommodation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Some participants noted that inflation was likely to modestly overshoot 2 percent for a time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "They noted a number of economic fundamentals were currently supporting continued above-trend economic growth"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Members judged that the risks to the economic outlook appeared to be roughly balanced."
+   },
+   {
+    "dimension": "overall",
+    "quote": "It was also noted that a temporary period of inflation modestly above 2 percent would be consistent with the Committee's symmetric inflation objective"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants generally agreed with the assessment that continuing to raise the target range for the federal funds rate gradually would likely be appropriate if the economy evolves about as expected."
+   }
+  ],
+  "rationale": "The minutes signal a near-term hike ('soon be appropriate') and continued gradual tightening amid strong labor markets and inflation near 2 percent. This hawkish lean is tempered by tolerance of a modest overshoot, balanced risks, and discussion of a possibly lower neutral rate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants judged that if incoming information broadly confirmed their current economic outlook, it would likely soon be appropriate for the Committee to take another step in removing policy accommodation.",
+     "start": 35412,
+     "end": 35623
+    },
+    {
+     "quote": "Some participants noted that inflation was likely to modestly overshoot 2 percent for a time.",
+     "start": 29403,
+     "end": 29495
+    },
+    {
+     "quote": "They noted a number of economic fundamentals were currently supporting continued above-trend economic growth",
+     "start": 25721,
+     "end": 25829
+    },
+    {
+     "quote": "Members judged that the risks to the economic outlook appeared to be roughly balanced.",
+     "start": 41258,
+     "end": 41343
+    },
+    {
+     "quote": "It was also noted that a temporary period of inflation modestly above 2 percent would be consistent with the Committee's symmetric inflation objective",
+     "start": 36888,
+     "end": 37038
+    },
+    {
+     "quote": "Participants generally agreed with the assessment that continuing to raise the target range for the federal funds rate gradually would likely be appropriate if the economy evolves about as expected.",
+     "start": 36109,
+     "end": 36306
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

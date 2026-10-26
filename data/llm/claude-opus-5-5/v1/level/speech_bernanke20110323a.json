@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20110323a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110323a",
+  "doc_type": "speech",
+  "text_sha256": "7c1f49c2290bbd67ae6fccecbd2b2f32b054ba7be54bc614ec9287e94d63876f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2229fbc5c5bab0c636fb6c7287f1ed0cfbbfbdd143e7a90d6b766fddbef66404",
+ "message_id": "msg_011CgFugDiGKZwVUWjiyPb6z",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5249,
+  "output_tokens": 420,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Community banks face substantial challenges in the months and years to come, including still-difficult economic conditions, continued uncertainties in real estate and other key markets, and a changing regulatory environment.\"},{\"dimension\":\"overall\",\"quote\":\"My themes today are the vital role that community banks need to play in the economic recovery, the value that the Federal Reserve places on insights from community banks, and the evolving regulatory environment.\"},{\"dimension\":\"overall\",\"quote\":\"to minimize the impact of the new capital rules on credit availability while the global economy is still recovering, we and our international colleagues have agreed to allow long transition periods\"}],\"rationale\":\"The speech focuses on community banking, supervision and Dodd-Frank/Basel III regulatory reform, with no monetary policy signal. Only brief references to still-difficult economic conditions and an ongoing recovery give a slight dovish tilt to activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Community banks face substantial challenges in the months and years to come, including still-difficult economic conditions, continued uncertainties in real estate and other key markets, and a changing regulatory environment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My themes today are the vital role that community banks need to play in the economic recovery, the value that the Federal Reserve places on insights from community banks, and the evolving regulatory environment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "to minimize the impact of the new capital rules on credit availability while the global economy is still recovering, we and our international colleagues have agreed to allow long transition periods"
+   }
+  ],
+  "rationale": "The speech focuses on community banking, supervision and Dodd-Frank/Basel III regulatory reform, with no monetary policy signal. Only brief references to still-difficult economic conditions and an ongoing recovery give a slight dovish tilt to activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Community banks face substantial challenges in the months and years to come, including still-difficult economic conditions, continued uncertainties in real estate and other key markets, and a changing regulatory environment.",
+     "start": 17788,
+     "end": 18011
+    },
+    {
+     "quote": "My themes today are the vital role that community banks need to play in the economic recovery, the value that the Federal Reserve places on insights from community banks, and the evolving regulatory environment.",
+     "start": 958,
+     "end": 1168
+    },
+    {
+     "quote": "to minimize the impact of the new capital rules on credit availability while the global economy is still recovering, we and our international colleagues have agreed to allow long transition periods",
+     "start": 13107,
+     "end": 13304
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

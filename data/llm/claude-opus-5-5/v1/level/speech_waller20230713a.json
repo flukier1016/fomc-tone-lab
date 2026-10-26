@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20230713a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230713a",
+  "doc_type": "speech",
+  "text_sha256": "584462ef6cf8119e5700a3000667fcfa64dda67d34fe84a97b67441cb11348a0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0d804dd8de9ed2bf27e112a22812ce9355674f28525657e54dbfdf4e1b9ca3a8",
+ "message_id": "msg_011CgFugBVZmdVeikZcXAL7o",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5915,
+  "output_tokens": 524,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I see two more 25-basis-point hikes in the target range over the four remaining meetings this year as necessary to keep inflation moving toward our target.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I see no reason why the first of those two hikes should not occur at our meeting later this month.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This is welcome news, but one data point does not make a trend.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The robust strength of the labor market and the solid overall performance of the U.S. economy gives us room to tighten policy further.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am more confident that the banking turmoil is not going to result in a significant problem for the economy\"},{\"dimension\":\"overall\",\"quote\":\"Pausing rate hikes now, because you are waiting for long and variable lags to arrive, may leave you standing on the platform waiting for a train that has already left the station.\"}],\"rationale\":\"Waller explicitly calls for two more 25bp hikes, starting at the next meeting, arguing that policy lags are short and that the strong labor market leaves room to tighten. He discounts the soft CPI reading as a single data point and judges that banking risks have receded.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I see two more 25-basis-point hikes in the target range over the four remaining meetings this year as necessary to keep inflation moving toward our target."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I see no reason why the first of those two hikes should not occur at our meeting later this month."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This is welcome news, but one data point does not make a trend."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The robust strength of the labor market and the solid overall performance of the U.S. economy gives us room to tighten policy further."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am more confident that the banking turmoil is not going to result in a significant problem for the economy"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Pausing rate hikes now, because you are waiting for long and variable lags to arrive, may leave you standing on the platform waiting for a train that has already left the station."
+   }
+  ],
+  "rationale": "Waller explicitly calls for two more 25bp hikes, starting at the next meeting, arguing that policy lags are short and that the strong labor market leaves room to tighten. He discounts the soft CPI reading as a single data point and judges that banking risks have receded."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I see two more 25-basis-point hikes in the target range over the four remaining meetings this year as necessary to keep inflation moving toward our target.",
+     "start": 19164,
+     "end": 19318
+    },
+    {
+     "quote": "I see no reason why the first of those two hikes should not occur at our meeting later this month.",
+     "start": 19655,
+     "end": 19752
+    },
+    {
+     "quote": "This is welcome news, but one data point does not make a trend.",
+     "start": 16996,
+     "end": 17058
+    },
+    {
+     "quote": "The robust strength of the labor market and the solid overall performance of the U.S. economy gives us room to tighten policy further.",
+     "start": 18837,
+     "end": 18970
+    },
+    {
+     "quote": "I am more confident that the banking turmoil is not going to result in a significant problem for the economy",
+     "start": 19541,
+     "end": 19649
+    },
+    {
+     "quote": "Pausing rate hikes now, because you are waiting for long and variable lags to arrive, may leave you standing on the platform waiting for a train that has already left the station.",
+     "start": 15291,
+     "end": 15469
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20221102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20221102",
+  "doc_type": "presser",
+  "text_sha256": "eed61f3c80051f1543e253edd18494436d353d40f241912fffc932b5cfe0fa3a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2102607b0785b24a3da8c6f5edea6f7f8eec14c95aba330b848763996ee3772b",
+ "message_id": "msg_011CgFugE4MTBEttRbdszonZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10550,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the FOMC raised our policy interest rate by 75 basis points.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"incoming data since our last meeting suggest that the ultimate level of interest rates will be higher than previously expected.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"It's very premature, in my view, to think about or be talking about pausing our rate hike. We have a ways to go.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"And the recent inflation data again have come in higher than expected. Price pressures remain evident across a broad range of goods and services.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we want to be sure that we don't make the mistake of either failing to tighten enough or loosening policy too soon.\"}],\"rationale\":\"The Chair announces another 75 bp hike, signals ongoing increases to a terminal rate higher than previously expected, and calls talk of pausing very premature, citing persistent inflation and a very tight labor market. Signals of a possible slower pace are explicitly subordinated to how high and how long rates stay restrictive, leaving the net message strongly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the FOMC raised our policy interest rate by 75 basis points."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "incoming data since our last meeting suggest that the ultimate level of interest rates will be higher than previously expected."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "It's very premature, in my view, to think about or be talking about pausing our rate hike. We have a ways to go."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "And the recent inflation data again have come in higher than expected. Price pressures remain evident across a broad range of goods and services."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we want to be sure that we don't make the mistake of either failing to tighten enough or loosening policy too soon."
+   }
+  ],
+  "rationale": "The Chair announces another 75 bp hike, signals ongoing increases to a terminal rate higher than previously expected, and calls talk of pausing very premature, citing persistent inflation and a very tight labor market. Signals of a possible slower pace are explicitly subordinated to how high and how long rates stay restrictive, leaving the net message strongly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the FOMC raised our policy interest rate by 75 basis points.",
+     "start": 550,
+     "end": 616
+    },
+    {
+     "quote": "incoming data since our last meeting suggest that the ultimate level of interest rates will be higher than previously expected.",
+     "start": 5291,
+     "end": 5417
+    },
+    {
+     "quote": "It's very premature, in my view, to think about or be talking about pausing our rate hike. We have a ways to go.",
+     "start": 16630,
+     "end": 16741
+    },
+    {
+     "quote": "And the recent inflation data again have come in higher than expected. Price pressures remain evident across a broad range of goods and services.",
+     "start": 2564,
+     "end": 2708
+    },
+    {
+     "quote": "the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated.",
+     "start": 1760,
+     "end": 1902
+    },
+    {
+     "quote": "we want to be sure that we don't make the mistake of either failing to tighten enough or loosening policy too soon.",
+     "start": 15991,
+     "end": 16105
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

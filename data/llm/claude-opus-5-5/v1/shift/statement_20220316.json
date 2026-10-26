@@ -1,0 +1,159 @@
+{
+ "key": "statement_20220316",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20220316",
+  "previous_doc_id": "statement_20220126",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "884c47fdcf73b66cb69acb43950c8945db34d1b9bcd483a6bfcc3229d8a6b5a2",
+ "message_id": "msg_011CgFudUSTb3wJgSaakeZWP",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1595,
+  "output_tokens": 838,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"In support of these goals, the Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent. With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.\",\"after\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.\",\"direction\":\"hawkish\"},{\"before\":\"Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation.\",\"after\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The implications for the U.S. economy are highly uncertain, but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.\",\"direction\":\"neutral\"},{\"before\":\"Job gains have been solid in recent months, and the unemployment rate has declined substantially.\",\"after\":\"Job gains have been strong in recent months, and the unemployment rate has declined substantially.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong.\",\"direction\":\"hawkish\"},{\"before\":\"Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\",\"after\":\"\",\"direction\":\"hawkish\"}],\"rationale\":\"The Committee moved from signaling liftoff to actually raising rates, guiding to ongoing increases and imminent balance-sheet runoff, with broadened inflation concern and a hawkish dissent favoring 50bp. This is a clear change in policy direction toward tightening.\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "In support of these goals, the Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent. With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.",
+    "after": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation.",
+    "after": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The implications for the U.S. economy are highly uncertain, but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Job gains have been solid in recent months, and the unemployment rate has declined substantially.",
+    "after": "Job gains have been strong in recent months, and the unemployment rate has declined substantially.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+    "after": "",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The Committee moved from signaling liftoff to actually raising rates, guiding to ongoing increases and imminent balance-sheet runoff, with broadened inflation concern and a hawkish dissent favoring 50bp. This is a clear change in policy direction toward tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent. With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.",
+     "start": 1078,
+     "end": 1365
+    },
+    {
+     "quote": "Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation.",
+     "start": 325,
+     "end": 471
+    },
+    {
+     "quote": "Job gains have been solid in recent months, and the unemployment rate has declined substantially.",
+     "start": 227,
+     "end": 323
+    },
+    {
+     "quote": "Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+     "start": 473,
+     "end": 638
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent and anticipates that ongoing increases in the target range will be appropriate.",
+     "start": 890,
+     "end": 1092
+    },
+    {
+     "quote": "In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.",
+     "start": 1094,
+     "end": 1256
+    },
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.",
+     "start": 176,
+     "end": 318
+    },
+    {
+     "quote": "Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.",
+     "start": 2033,
+     "end": 2207
+    },
+    {
+     "quote": "The implications for the U.S. economy are highly uncertain, but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.",
+     "start": 406,
+     "end": 610
+    },
+    {
+     "quote": "Job gains have been strong in recent months, and the unemployment rate has declined substantially.",
+     "start": 77,
+     "end": 174
+    },
+    {
+     "quote": "With appropriate firming in the stance of monetary policy, the Committee expects inflation to return to its 2 percent objective and the labor market to remain strong.",
+     "start": 723,
+     "end": 888
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240926a",
+  "doc_type": "speech",
+  "text_sha256": "4a07f0a8e7681c7924d359ee33e69c0d2c886e4ece44ee7cbd5e6c8d9f364c24"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a1815c5df0af9aa393c91aed7c415ee91136a621873619e3973dc757e87d5d27",
+ "message_id": "msg_011CgFugDoioxaMjzrEY5Mb6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4187,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I will remain cautious in my approach to adjusting the stance of policy going forward.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The progress in lowering inflation since April is a welcome development, but core inflation is still uncomfortably above the Committee's 2 percent goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In my view, the upside risks to inflation remain prominent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"still-elevated wage growth, solid consumer spending, and resilient GDP growth are not consistent with a material economic weakening or fragility.\"},{\"dimension\":\"overall\",\"quote\":\"I preferred a smaller initial cut in the policy rate while the U.S. economy remains strong and inflation remains a concern, despite recent progress.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Bringing the policy rate down too quickly carries the risk of unleashing that pent-up demand.\"}],\"rationale\":\"Governor Bowman explains her hawkish dissent favoring a smaller cut. She emphasizes upside inflation risks, a strong economy and a higher neutral rate, and argues for a measured, cautious pace of easing, though she still accepts that rates will move toward neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will remain cautious in my approach to adjusting the stance of policy going forward."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The progress in lowering inflation since April is a welcome development, but core inflation is still uncomfortably above the Committee's 2 percent goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In my view, the upside risks to inflation remain prominent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "still-elevated wage growth, solid consumer spending, and resilient GDP growth are not consistent with a material economic weakening or fragility."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I preferred a smaller initial cut in the policy rate while the U.S. economy remains strong and inflation remains a concern, despite recent progress."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Bringing the policy rate down too quickly carries the risk of unleashing that pent-up demand."
+   }
+  ],
+  "rationale": "Governor Bowman explains her hawkish dissent favoring a smaller cut. She emphasizes upside inflation risks, a strong economy and a higher neutral rate, and argues for a measured, cautious pace of easing, though she still accepts that rates will move toward neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will remain cautious in my approach to adjusting the stance of policy going forward.",
+     "start": 11823,
+     "end": 11908
+    },
+    {
+     "quote": "The progress in lowering inflation since April is a welcome development, but core inflation is still uncomfortably above the Committee's 2 percent goal.",
+     "start": 2644,
+     "end": 2795
+    },
+    {
+     "quote": "In my view, the upside risks to inflation remain prominent.",
+     "start": 9897,
+     "end": 9955
+    },
+    {
+     "quote": "still-elevated wage growth, solid consumer spending, and resilient GDP growth are not consistent with a material economic weakening or fragility.",
+     "start": 9089,
+     "end": 9233
+    },
+    {
+     "quote": "I preferred a smaller initial cut in the policy rate while the U.S. economy remains strong and inflation remains a concern, despite recent progress.",
+     "start": 1689,
+     "end": 1836
+    },
+    {
+     "quote": "Bringing the policy rate down too quickly carries the risk of unleashing that pent-up demand.",
+     "start": 8030,
+     "end": 8122
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "statement_20100428",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20100428",
+  "doc_type": "statement",
+  "text_sha256": "4a7496ef14d0be4a1eabc48885f4ce057120333776006a767bdb39a2b53b45ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1530022c618de6023c027c1bf99a8414b3a32041fb4fd83b0ac67465c80a8c70",
+ "message_id": "msg_011CgFugE27yikK1ocgZvFgq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 861,
+  "output_tokens": 473,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity has continued to strengthen and that the labor market is beginning to improve\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis\"},{\"dimension\":\"overall\",\"quote\":\"Voting against the policy action was Thomas M. Hoenig\"}],\"rationale\":\"The Committee holds rates at zero and keeps its 'extended period' guidance, citing subdued inflation and substantial slack, which is a clearly accommodative signal. An improving economy, the winding down of crisis liquidity facilities and one hawkish dissent temper that dovishness slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity has continued to strengthen and that the labor market is beginning to improve"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against the policy action was Thomas M. Hoenig"
+   }
+  ],
+  "rationale": "The Committee holds rates at zero and keeps its 'extended period' guidance, citing subdued inflation and substantial slack, which is a clearly accommodative signal. An improving economy, the winding down of crisis liquidity facilities and one hawkish dissent temper that dovishness slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 1310,
+     "end": 1405
+    },
+    {
+     "quote": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+     "start": 891,
+     "end": 1055
+    },
+    {
+     "quote": "economic activity has continued to strengthen and that the labor market is beginning to improve",
+     "start": 88,
+     "end": 183
+    },
+    {
+     "quote": "the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis",
+     "start": 1646,
+     "end": 1777
+    },
+    {
+     "quote": "Voting against the policy action was Thomas M. Hoenig",
+     "start": 2271,
+     "end": 2324
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

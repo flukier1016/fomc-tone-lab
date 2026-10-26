@@ -1,0 +1,112 @@
+{
+ "key": "statement_20190731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20190731",
+  "doc_type": "statement",
+  "text_sha256": "390b4ed0fc188de9811af3a064d72f20bcb3c8191cbbeee4bed8272fe88f42f6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "63cab1f263a2fa787484c701127d4b9336398b0f8acf9ef2f19a9fe5cebaacdb",
+ "message_id": "msg_011CgFugAEfPMKN2Ed2kPR7C",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 818,
+  "output_tokens": 492,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In light of the implications of global developments for the economic outlook as well as muted inflation pressures\"}],\"rationale\":\"The statement announces a rate cut citing global risks and muted inflation, keeps an easing-leaning 'act as appropriate' guidance, and ends balance sheet runoff early. A strong labor market description and two dissents favoring a hold temper the dovish signal somewhat.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures"
+   }
+  ],
+  "rationale": "The statement announces a rate cut citing global risks and muted inflation, keeps an easing-leaning 'act as appropriate' guidance, and ends balance sheet runoff early. A strong labor market description and two dissents favoring a hold temper the dovish signal somewhat."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent",
+     "start": 897,
+     "end": 993
+    },
+    {
+     "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective",
+     "start": 1448,
+     "end": 1577
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+     "start": 413,
+     "end": 530
+    },
+    {
+     "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+     "start": 2083,
+     "end": 2251
+    },
+    {
+     "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures",
+     "start": 782,
+     "end": 895
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

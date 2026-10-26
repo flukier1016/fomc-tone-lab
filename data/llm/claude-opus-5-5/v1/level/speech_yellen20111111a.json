@@ -1,0 +1,103 @@
+{
+ "key": "speech_yellen20111111a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20111111a",
+  "doc_type": "speech",
+  "text_sha256": "cca512b3357fc8f0b1d0ee23a42101d8aeef86a08d61c8f5e292aadc3e2bc122"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0abd2c8b1e2158c2270ee68289287e1007f07ffc650a8a7d1edd3dde99b3db64",
+ "message_id": "msg_011CgFugCQstimYjLZ13v3x7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6125,
+  "output_tokens": 420,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"concerns about European fiscal and banking issues have contributed to strains in global financial markets that pose significant downside risks to the U.S. economic outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Cyclical vulnerabilities seem relatively quiescent at present. Still, such vulnerabilities could easily emerge, especially once the economy starts to expand more robustly.\"},{\"dimension\":\"overall\",\"quote\":\"I agree that targeted prudential policies should be the first line of defense against threats to financial stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"further intensification of financial disruptions in Europe could lead to a deterioration of financial conditions in the United States.\"}],\"rationale\":\"The speech is mainly about macroprudential regulation and financial stability and offers no monetary policy guidance. Its emphasis on European downside risks gives a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "concerns about European fiscal and banking issues have contributed to strains in global financial markets that pose significant downside risks to the U.S. economic outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Cyclical vulnerabilities seem relatively quiescent at present. Still, such vulnerabilities could easily emerge, especially once the economy starts to expand more robustly."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I agree that targeted prudential policies should be the first line of defense against threats to financial stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "further intensification of financial disruptions in Europe could lead to a deterioration of financial conditions in the United States."
+   }
+  ],
+  "rationale": "The speech is mainly about macroprudential regulation and financial stability and offers no monetary policy guidance. Its emphasis on European downside risks gives a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "concerns about European fiscal and banking issues have contributed to strains in global financial markets that pose significant downside risks to the U.S. economic outlook.",
+     "start": 18220,
+     "end": 18391
+    },
+    {
+     "quote": "Cyclical vulnerabilities seem relatively quiescent at present. Still, such vulnerabilities could easily emerge, especially once the economy starts to expand more robustly.",
+     "start": 15750,
+     "end": 15920
+    },
+    {
+     "quote": "I agree that targeted prudential policies should be the first line of defense against threats to financial stability.",
+     "start": 5151,
+     "end": 5267
+    },
+    {
+     "quote": "further intensification of financial disruptions in Europe could lead to a deterioration of financial conditions in the United States.",
+     "start": 18811,
+     "end": 18944
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

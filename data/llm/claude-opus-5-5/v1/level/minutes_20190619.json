@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20190619",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20190619",
+  "doc_type": "minutes",
+  "text_sha256": "85c20e80ecf727f546542d78cea8a0501c31763c911875a8bf7387108f571590"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1c7ab455de8318d61b382c4da264cdd197abc5ac8ac31f10d9c6d67be73a9b0c",
+ "message_id": "msg_011CgFugJ9AiigsF64bGYn5L",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12633,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants indicated that the case for somewhat more accommodative policy had strengthened.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Many judged additional monetary policy accommodation would be warranted in the near term should these recent developments prove to be sustained and continue to weigh on the economic outlook.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally agreed that downside risks to the outlook for economic activity had risen materially since their May meeting\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants viewed the risks to the outlook for inflation as weighted to the downside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economy appeared to have lost some momentum\"},{\"dimension\":\"forward_guidance\",\"quote\":\"members agreed to remove the \\\"patient\\\" language\"}],\"rationale\":\"The minutes describe a hold but strongly signal near-term easing, with downside risks to growth and inflation emphasized, removal of 'patient' language, and dissent favoring a cut. Only a few participants pushed back against easing, leaving a clearly dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants indicated that the case for somewhat more accommodative policy had strengthened."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many judged additional monetary policy accommodation would be warranted in the near term should these recent developments prove to be sustained and continue to weigh on the economic outlook."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally agreed that downside risks to the outlook for economic activity had risen materially since their May meeting"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants viewed the risks to the outlook for inflation as weighted to the downside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economy appeared to have lost some momentum"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "members agreed to remove the \"patient\" language"
+   }
+  ],
+  "rationale": "The minutes describe a hold but strongly signal near-term easing, with downside risks to growth and inflation emphasized, removal of 'patient' language, and dissent favoring a cut. Only a few participants pushed back against easing, leaving a clearly dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many participants indicated that the case for somewhat more accommodative policy had strengthened.",
+     "start": 31268,
+     "end": 31365
+    },
+    {
+     "quote": "Many judged additional monetary policy accommodation would be warranted in the near term should these recent developments prove to be sustained and continue to weigh on the economic outlook.",
+     "start": 31509,
+     "end": 31698
+    },
+    {
+     "quote": "Participants generally agreed that downside risks to the outlook for economic activity had risen materially since their May meeting",
+     "start": 27651,
+     "end": 27782
+    },
+    {
+     "quote": "many participants viewed the risks to the outlook for inflation as weighted to the downside.",
+     "start": 25720,
+     "end": 25811
+    },
+    {
+     "quote": "the economy appeared to have lost some momentum",
+     "start": 21098,
+     "end": 21145
+    },
+    {
+     "quote": "members agreed to remove the \"patient\" language",
+     "start": 36887,
+     "end": 36934
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

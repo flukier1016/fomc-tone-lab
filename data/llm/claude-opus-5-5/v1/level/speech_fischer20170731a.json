@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20170731a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170731a",
+  "doc_type": "speech",
+  "text_sha256": "183fa09effcad5b0ebfb824618c23bfaaefdc073b203b713c5351f62f5521199"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "41f3d469db0b177c374cd5566f0396b6b0abe848704e8df7417fa9c5938379e6",
+ "message_id": "msg_011CgFugL8yMfmMS9qdMoH1u",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5341,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In recent years, the coincidence of low inflation and low interest rates suggests that the natural rate of interest is likely very low today.\"},{\"dimension\":\"risk_balance\",\"quote\":\"a low equilibrium interest rate increases the risks of falling into a liquidity trap\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"According to the Congressional Budget Office (CBO), real potential growth in the United States is currently around 1.5 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the unemployment rate has declined below the median of FOMC participants' assessments of its longer-run normal level.\"},{\"dimension\":\"overall\",\"quote\":\"policies to boost productivity growth and the longer-run potential of the economy are more likely to be found in effective fiscal and regulatory measures than in central bank actions.\"}],\"rationale\":\"This is an analytical speech on structural drivers of low r*, emphasizing slow trend growth and liquidity-trap risks, which leans mildly dovish. It offers no explicit near-term policy guidance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In recent years, the coincidence of low inflation and low interest rates suggests that the natural rate of interest is likely very low today."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a low equilibrium interest rate increases the risks of falling into a liquidity trap"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "According to the Congressional Budget Office (CBO), real potential growth in the United States is currently around 1.5 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the unemployment rate has declined below the median of FOMC participants' assessments of its longer-run normal level."
+   },
+   {
+    "dimension": "overall",
+    "quote": "policies to boost productivity growth and the longer-run potential of the economy are more likely to be found in effective fiscal and regulatory measures than in central bank actions."
+   }
+  ],
+  "rationale": "This is an analytical speech on structural drivers of low r*, emphasizing slow trend growth and liquidity-trap risks, which leans mildly dovish. It offers no explicit near-term policy guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In recent years, the coincidence of low inflation and low interest rates suggests that the natural rate of interest is likely very low today.",
+     "start": 3788,
+     "end": 3928
+    },
+    {
+     "quote": "a low equilibrium interest rate increases the risks of falling into a liquidity trap",
+     "start": 6617,
+     "end": 6701
+    },
+    {
+     "quote": "According to the Congressional Budget Office (CBO), real potential growth in the United States is currently around 1.5 percent",
+     "start": 7497,
+     "end": 7623
+    },
+    {
+     "quote": "the unemployment rate has declined below the median of FOMC participants' assessments of its longer-run normal level.",
+     "start": 3263,
+     "end": 3379
+    },
+    {
+     "quote": "policies to boost productivity growth and the longer-run potential of the economy are more likely to be found in effective fiscal and regulatory measures than in central bank actions.",
+     "start": 17402,
+     "end": 17584
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

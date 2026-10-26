@@ -1,0 +1,94 @@
+{
+ "key": "speech_clarida20211119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20211119a",
+  "doc_type": "speech",
+  "text_sha256": "56dc92bbb4d2ad7788d7b7acebb955004cd2cdfc9865781f5bbbb690dd238515"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "40a29fab48af80cc9635e644ed7e6d09d4a416b165a15a48b0985e6b4eaebfb2",
+ "message_id": "msg_011CgFug92EgX97wevYm8uw5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7012,
+  "output_tokens": 400,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"adopting formal global monetary policy cooperation could plausibly erode central bank credibility and public support for central bank independence.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This asymmetry of policy effectiveness caused by the ELB imparts a secular downward bias to inflation that, if not offset, could de-anchor inflation expectations below the central bank's price-stability objectives.\"},{\"dimension\":\"overall\",\"quote\":\"This decline has critical implications for monetary policy because it leaves central banks with less conventional policy space to offset adverse shocks to aggregate demand.\"}],\"rationale\":\"The speech is an academic discussion of international monetary policy coordination with no signal about the current or future U.S. policy path. The only mild tilt is a structural concern about a downward bias to inflation at the effective lower bound, which is slightly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "adopting formal global monetary policy cooperation could plausibly erode central bank credibility and public support for central bank independence."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This asymmetry of policy effectiveness caused by the ELB imparts a secular downward bias to inflation that, if not offset, could de-anchor inflation expectations below the central bank's price-stability objectives."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This decline has critical implications for monetary policy because it leaves central banks with less conventional policy space to offset adverse shocks to aggregate demand."
+   }
+  ],
+  "rationale": "The speech is an academic discussion of international monetary policy coordination with no signal about the current or future U.S. policy path. The only mild tilt is a structural concern about a downward bias to inflation at the effective lower bound, which is slightly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "adopting formal global monetary policy cooperation could plausibly erode central bank credibility and public support for central bank independence.",
+     "start": 21850,
+     "end": 21996
+    },
+    {
+     "quote": "This asymmetry of policy effectiveness caused by the ELB imparts a secular downward bias to inflation that, if not offset, could de-anchor inflation expectations below the central bank's price-stability objectives.",
+     "start": 20944,
+     "end": 21157
+    },
+    {
+     "quote": "This decline has critical implications for monetary policy because it leaves central banks with less conventional policy space to offset adverse shocks to aggregate demand.",
+     "start": 18683,
+     "end": 18854
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

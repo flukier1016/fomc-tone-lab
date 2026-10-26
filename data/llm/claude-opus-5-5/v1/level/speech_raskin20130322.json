@@ -1,0 +1,112 @@
+{
+ "key": "speech_raskin20130322",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20130322",
+  "doc_type": "speech",
+  "text_sha256": "df49d32b8371205b33576acef51f121600298a71afad7ecb29df2424d1d57959"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2c21999aaa4d2ae85f79f8f10673244c11df843fcd0817bc388613f14f2ad91b",
+ "message_id": "msg_011CgFugAmAb8dWqKvTFaeLh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6615,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Fed policymakers intend to keep interest rates low for a considerable time to promote a stronger economic recovery, a substantial improvement in labor market conditions, and greater progress toward maximum employment in a context of price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A broader measure of underemployment that includes these and other potential workers stands at 14.3 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Furthermore, wage growth has remained more muted than is typical during an economic recovery.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"use the unconventional policy tools to bring longer-term interest rates such as mortgage rates down further.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Our country cannot achieve prosperity without addressing the powerful undertow created by flat wages and tenuous financial security for so many millions of Americans.\"}],\"rationale\":\"The speech focuses on labor market weakness, underemployment and muted wage growth, and endorses keeping rates low for a considerable time, giving a moderate dovish lean. Much of the content concerns community development and supervision, so it is only partly about monetary policy.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Fed policymakers intend to keep interest rates low for a considerable time to promote a stronger economic recovery, a substantial improvement in labor market conditions, and greater progress toward maximum employment in a context of price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A broader measure of underemployment that includes these and other potential workers stands at 14.3 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Furthermore, wage growth has remained more muted than is typical during an economic recovery."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "use the unconventional policy tools to bring longer-term interest rates such as mortgage rates down further."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Our country cannot achieve prosperity without addressing the powerful undertow created by flat wages and tenuous financial security for so many millions of Americans."
+   }
+  ],
+  "rationale": "The speech focuses on labor market weakness, underemployment and muted wage growth, and endorses keeping rates low for a considerable time, giving a moderate dovish lean. Much of the content concerns community development and supervision, so it is only partly about monetary policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Fed policymakers intend to keep interest rates low for a considerable time to promote a stronger economic recovery, a substantial improvement in labor market conditions, and greater progress toward maximum employment in a context of price stability.",
+     "start": 15219,
+     "end": 15467
+    },
+    {
+     "quote": "A broader measure of underemployment that includes these and other potential workers stands at 14.3 percent.",
+     "start": 2713,
+     "end": 2820
+    },
+    {
+     "quote": "Furthermore, wage growth has remained more muted than is typical during an economic recovery.",
+     "start": 3447,
+     "end": 3539
+    },
+    {
+     "quote": "use the unconventional policy tools to bring longer-term interest rates such as mortgage rates down further.",
+     "start": 15109,
+     "end": 15216
+    },
+    {
+     "quote": "Our country cannot achieve prosperity without addressing the powerful undertow created by flat wages and tenuous financial security for so many millions of Americans.",
+     "start": 14238,
+     "end": 14403
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

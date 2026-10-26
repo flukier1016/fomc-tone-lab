@@ -1,0 +1,103 @@
+{
+ "key": "speech_brainard20170522a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170522a",
+  "doc_type": "speech",
+  "text_sha256": "8fdeab51a490915c1cb06d84f3991be10101a268903c516a2299fe0094a478b4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c94f2e1451f8b20d6f1ff75eced297b9879d8a323bbe84f55763f947f715464c",
+ "message_id": "msg_011CgFugAcEiWYKUjYNiQEsx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6929,
+  "output_tokens": 489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This approach to maximum employment has allowed the FOMC to navigate the current recovery in a way that has likely brought more people back into productive employment than might have been the case with a fixed, aggregate unemployment-rate target\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This is especially true at a time when the traditional Phillips curve relationship between unemployment and inflation is extremely flat for reasons we do not fully understand.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even though the unemployment rates of these groups are back around their pre-recession levels, they remain higher than the national average.\"},{\"dimension\":\"overall\",\"quote\":\"At the Federal Reserve, we will continue to navigate the recovery to ensure we reach and sustain our long-term goals of maximum employment and price stability.\"}],\"rationale\":\"The speech centers on inclusion and community development, but it implicitly leans dovish by questioning whether aggregate unemployment reflects full employment and by noting a flat Phillips curve. It gives no explicit guidance on the future path of rates or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This approach to maximum employment has allowed the FOMC to navigate the current recovery in a way that has likely brought more people back into productive employment than might have been the case with a fixed, aggregate unemployment-rate target"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This is especially true at a time when the traditional Phillips curve relationship between unemployment and inflation is extremely flat for reasons we do not fully understand."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even though the unemployment rates of these groups are back around their pre-recession levels, they remain higher than the national average."
+   },
+   {
+    "dimension": "overall",
+    "quote": "At the Federal Reserve, we will continue to navigate the recovery to ensure we reach and sustain our long-term goals of maximum employment and price stability."
+   }
+  ],
+  "rationale": "The speech centers on inclusion and community development, but it implicitly leans dovish by questioning whether aggregate unemployment reflects full employment and by noting a flat Phillips curve. It gives no explicit guidance on the future path of rates or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This approach to maximum employment has allowed the FOMC to navigate the current recovery in a way that has likely brought more people back into productive employment than might have been the case with a fixed, aggregate unemployment-rate target",
+     "start": 2955,
+     "end": 3200
+    },
+    {
+     "quote": "This is especially true at a time when the traditional Phillips curve relationship between unemployment and inflation is extremely flat for reasons we do not fully understand.",
+     "start": 3272,
+     "end": 3446
+    },
+    {
+     "quote": "Even though the unemployment rates of these groups are back around their pre-recession levels, they remain higher than the national average.",
+     "start": 4091,
+     "end": 4230
+    },
+    {
+     "quote": "At the Federal Reserve, we will continue to navigate the recovery to ensure we reach and sustain our long-term goals of maximum employment and price stability.",
+     "start": 23372,
+     "end": 23530
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

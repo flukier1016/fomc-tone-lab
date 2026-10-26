@@ -1,0 +1,85 @@
+{
+ "key": "speech_cook20250604a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20250604a",
+  "doc_type": "speech",
+  "text_sha256": "9197d60a299824d4d2aa72b66d5b836f89c7a31566051b3e7efc984b4880239b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3646b865584c3a4a4d3d49d7f4508d31e7740a55bf9164a5ef7a76c6b1d1e883",
+ "message_id": "msg_011CgFugHFqSNj8qpdpzvqgd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 691,
+  "output_tokens": 291,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The purpose of today's Fed Listens event is to hear from all of you about how the Federal Reserve's approach to monetary policy affects your families, your businesses, and your communities.\"},{\"dimension\":\"overall\",\"quote\":\"This Fed Listens event is specifically tied to the review of our long-run goals and strategy for monetary policy, which we call our framework.\"}],\"rationale\":\"These are brief welcoming remarks at a Fed Listens event about the framework review. They offer no view on the economy, inflation, or the path of policy.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The purpose of today's Fed Listens event is to hear from all of you about how the Federal Reserve's approach to monetary policy affects your families, your businesses, and your communities."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This Fed Listens event is specifically tied to the review of our long-run goals and strategy for monetary policy, which we call our framework."
+   }
+  ],
+  "rationale": "These are brief welcoming remarks at a Fed Listens event about the framework review. They offer no view on the economy, inflation, or the path of policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The purpose of today's Fed Listens event is to hear from all of you about how the Federal Reserve's approach to monetary policy affects your families, your businesses, and your communities.",
+     "start": 557,
+     "end": 745
+    },
+    {
+     "quote": "This Fed Listens event is specifically tied to the review of our long-run goals and strategy for monetary policy, which we call our framework.",
+     "start": 1699,
+     "end": 1840
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

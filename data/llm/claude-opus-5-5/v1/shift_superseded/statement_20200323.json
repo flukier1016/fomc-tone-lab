@@ -1,0 +1,144 @@
+{
+ "key": "statement_20200323",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200323",
+  "previous_doc_id": "statement_20200315",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8e58e8406f0c4dbe79bcad3c8c6cea763f57aacab8ff4464c866fb2beb8ec4f6",
+ "message_id": "msg_011CgFueKj7DdQRQBbBC5LH3",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1630,
+  "output_tokens": 783,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.\",\"after\":\"The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee will include purchases of agency commercial mortgage-backed securities in its agency mortgage-backed security purchases.\",\"direction\":\"dovish\"},{\"before\":\"The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.\",\"after\":\"The Federal Reserve is committed to use its full range of tools to support the U.S. economy in this challenging time and thereby promote its maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"In addition, the Open Market Desk has recently expanded its overnight and term repurchase agreement operations.\",\"after\":\"In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will continue to closely monitor market conditions and is prepared to adjust its plans as appropriate.\",\"after\":\"The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings.\",\"direction\":\"neutral\"},{\"before\":\"Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.\",\"after\":\"\",\"direction\":\"dovish\"}],\"rationale\":\"The Fed replaced fixed purchase amounts with open-ended asset purchases \\\"in the amounts needed,\\\" extended them to agency CMBS, and strengthened its language from \\\"prepared\\\" to \\\"committed\\\" to use its full range of tools. These changes mark a dovish expansion of balance-sheet easing, though the rate stance was unchanged and the hawkish dissent disappeared.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "after": "The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will include purchases of agency commercial mortgage-backed securities in its agency mortgage-backed security purchases.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.",
+    "after": "The Federal Reserve is committed to use its full range of tools to support the U.S. economy in this challenging time and thereby promote its maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In addition, the Open Market Desk has recently expanded its overnight and term repurchase agreement operations.",
+    "after": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will continue to closely monitor market conditions and is prepared to adjust its plans as appropriate.",
+    "after": "The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+    "after": "",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Fed replaced fixed purchase amounts with open-ended asset purchases \"in the amounts needed,\" extended them to agency CMBS, and strengthened its language from \"prepared\" to \"committed\" to use its full range of tools. These changes mark a dovish expansion of balance-sheet easing, though the rate stance was unchanged and the hawkish dissent disappeared."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+     "start": 2867,
+     "end": 3053
+    },
+    {
+     "quote": "The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.",
+     "start": 2499,
+     "end": 2689
+    },
+    {
+     "quote": "In addition, the Open Market Desk has recently expanded its overnight and term repurchase agreement operations.",
+     "start": 3238,
+     "end": 3348
+    },
+    {
+     "quote": "The Committee will continue to closely monitor market conditions and is prepared to adjust its plans as appropriate.",
+     "start": 3350,
+     "end": 3465
+    },
+    {
+     "quote": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+     "start": 3693,
+     "end": 3998
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.",
+     "start": 407,
+     "end": 647
+    },
+    {
+     "quote": "The Committee will include purchases of agency commercial mortgage-backed securities in its agency mortgage-backed security purchases.",
+     "start": 649,
+     "end": 782
+    },
+    {
+     "quote": "The Federal Reserve is committed to use its full range of tools to support the U.S. economy in this challenging time and thereby promote its maximum employment and price stability goals.",
+     "start": 0,
+     "end": 185
+    },
+    {
+     "quote": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.",
+     "start": 784,
+     "end": 903
+    },
+    {
+     "quote": "The Committee will continue to closely monitor market conditions, and will assess the appropriate pace of its securities purchases at future meetings.",
+     "start": 905,
+     "end": 1054
+    }
+   ]
+  }
+ }
+}

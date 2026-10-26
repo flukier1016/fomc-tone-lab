@@ -1,0 +1,103 @@
+{
+ "key": "speech_waller20220506a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20220506a",
+  "doc_type": "speech",
+  "text_sha256": "7133cc0031c3fd3bc39a86531e73bb59f2080992ef8c9a9bbfb46ea4fd7d0a2f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "724d72f8abb9b7f5860e85cef3818d85a7a0a58561b9b511f278defe87d160bb",
+ "message_id": "msg_011CgFug9XFVziFVb5ihJhbD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3762,
+  "output_tokens": 429,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"we needed to \\\"go early and go fast\\\" on tapering our asset purchases to position ourselves for rate hikes in 2022 should we need to tighten policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"It became clear that the high inflation realizations were not as temporary as originally thought.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"As the revisions came in, a consensus grew that the labor market was much stronger than we originally thought.\"},{\"dimension\":\"overall\",\"quote\":\"If we knew then what we know now, I believe the Committee would have accelerated tapering and raised rates sooner.\"}],\"rationale\":\"This is a retrospective defense of 2021 policy in which the speaker describes himself pushing for earlier tapering and liftoff, and he acknowledges inflation was more persistent and the labor market stronger than first thought. It gives no explicit forward guidance, so the hawkish lean is mild.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "we needed to \"go early and go fast\" on tapering our asset purchases to position ourselves for rate hikes in 2022 should we need to tighten policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "It became clear that the high inflation realizations were not as temporary as originally thought."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "As the revisions came in, a consensus grew that the labor market was much stronger than we originally thought."
+   },
+   {
+    "dimension": "overall",
+    "quote": "If we knew then what we know now, I believe the Committee would have accelerated tapering and raised rates sooner."
+   }
+  ],
+  "rationale": "This is a retrospective defense of 2021 policy in which the speaker describes himself pushing for earlier tapering and liftoff, and he acknowledges inflation was more persistent and the labor market stronger than first thought. It gives no explicit forward guidance, so the hawkish lean is mild."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we needed to \"go early and go fast\" on tapering our asset purchases to position ourselves for rate hikes in 2022 should we need to tighten policy.",
+     "start": 6534,
+     "end": 6679
+    },
+    {
+     "quote": "It became clear that the high inflation realizations were not as temporary as originally thought.",
+     "start": 8107,
+     "end": 8203
+    },
+    {
+     "quote": "As the revisions came in, a consensus grew that the labor market was much stronger than we originally thought.",
+     "start": 11174,
+     "end": 11283
+    },
+    {
+     "quote": "If we knew then what we know now, I believe the Committee would have accelerated tapering and raised rates sooner.",
+     "start": 11285,
+     "end": 11398
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

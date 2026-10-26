@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20230106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20230106a",
+  "doc_type": "speech",
+  "text_sha256": "56bfa19443a70c9f66625ca4edef609de5f67da31cab5971ea154c838abefa40"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b8c0a6754c0771bc8aeafe6750ad43ce4432e748458089d91d7f33cade33656a",
+ "message_id": "msg_011CgFugAACZVyi5UXGPhmra",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3691,
+  "output_tokens": 462,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains far too high, despite some encouraging signs lately, and is therefore of great concern.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I would caution against putting too much weight on the past few favorable monthly data reports.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Crucially, we must be vigilant to ensure that pandemic-era cost pressures and disruptions do not have lasting effects on inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation in other core services—a large category that covers activities as varied as travel and recreation to medical and legal services—has remained stubbornly high.\"},{\"dimension\":\"overall\",\"quote\":\"As a Fed policymaker, I am committed to bringing inflation back to our 2 percent goal.\"}],\"rationale\":\"The speech stresses that inflation remains far too high and warns of de-anchoring risks, while acknowledging easing goods and rent pressures, giving a moderate hawkish lean. It offers no explicit guidance on the policy path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains far too high, despite some encouraging signs lately, and is therefore of great concern."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I would caution against putting too much weight on the past few favorable monthly data reports."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Crucially, we must be vigilant to ensure that pandemic-era cost pressures and disruptions do not have lasting effects on inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation in other core services—a large category that covers activities as varied as travel and recreation to medical and legal services—has remained stubbornly high."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As a Fed policymaker, I am committed to bringing inflation back to our 2 percent goal."
+   }
+  ],
+  "rationale": "The speech stresses that inflation remains far too high and warns of de-anchoring risks, while acknowledging easing goods and rent pressures, giving a moderate hawkish lean. It offers no explicit guidance on the policy path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation remains far too high, despite some encouraging signs lately, and is therefore of great concern.",
+     "start": 1497,
+     "end": 1601
+    },
+    {
+     "quote": "I would caution against putting too much weight on the past few favorable monthly data reports.",
+     "start": 2131,
+     "end": 2225
+    },
+    {
+     "quote": "Crucially, we must be vigilant to ensure that pandemic-era cost pressures and disruptions do not have lasting effects on inflation.",
+     "start": 7815,
+     "end": 7945
+    },
+    {
+     "quote": "inflation in other core services—a large category that covers activities as varied as travel and recreation to medical and legal services—has remained stubbornly high.",
+     "start": 6687,
+     "end": 6853
+    },
+    {
+     "quote": "As a Fed policymaker, I am committed to bringing inflation back to our 2 percent goal.",
+     "start": 1603,
+     "end": 1688
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20150602a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20150602a",
+  "doc_type": "speech",
+  "text_sha256": "eba25c809ca75ca6defe9b548639a5361b387b436f19d8e7c903d6750b57b930"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8093bf5d54e0a2ef1a1bbdbdab67ae50d54fcd89161545f6c7ce5f120d7ec8d4",
+ "message_id": "msg_011CgFugFeboV6gXBexqeY7g",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5843,
+  "output_tokens": 603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I think there is value to watchful waiting while additional data help clarify the economy's underlying momentum in the face of the headwinds from abroad.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If continued labor market strengthening is confirmed and inflation readings continue to improve, liftoff could come before the end of the year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"are around 1-1/4 to 1-1/2 percent, noticeably below the FOMC's 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"aggregate measures of wage growth remain soft and have not significantly strengthened in the past year, suggesting there is remaining slack in the labor market.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there remain risks and uncertainties surrounding foreign growth that could prolong or intensify foreign headwinds going forward.\"},{\"dimension\":\"overall\",\"quote\":\"Based on today's picture of moderate underlying momentum in the domestic economy and the likelihood of continued crosscurrents from abroad, the process of normalizing monetary policy is likely to be gradual.\"}],\"rationale\":\"Brainard emphasizes soft first-quarter data, foreign headwinds, remaining labor slack and below-target inflation, arguing for watchful waiting and a gradual path. She acknowledges liftoff could come before year-end, so the lean is moderately dovish rather than strongly so.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I think there is value to watchful waiting while additional data help clarify the economy's underlying momentum in the face of the headwinds from abroad."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If continued labor market strengthening is confirmed and inflation readings continue to improve, liftoff could come before the end of the year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "are around 1-1/4 to 1-1/2 percent, noticeably below the FOMC's 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "aggregate measures of wage growth remain soft and have not significantly strengthened in the past year, suggesting there is remaining slack in the labor market."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there remain risks and uncertainties surrounding foreign growth that could prolong or intensify foreign headwinds going forward."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Based on today's picture of moderate underlying momentum in the domestic economy and the likelihood of continued crosscurrents from abroad, the process of normalizing monetary policy is likely to be gradual."
+   }
+  ],
+  "rationale": "Brainard emphasizes soft first-quarter data, foreign headwinds, remaining labor slack and below-target inflation, arguing for watchful waiting and a gradual path. She acknowledges liftoff could come before year-end, so the lean is moderately dovish rather than strongly so."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I think there is value to watchful waiting while additional data help clarify the economy's underlying momentum in the face of the headwinds from abroad.",
+     "start": 15486,
+     "end": 15638
+    },
+    {
+     "quote": "If continued labor market strengthening is confirmed and inflation readings continue to improve, liftoff could come before the end of the year.",
+     "start": 15640,
+     "end": 15782
+    },
+    {
+     "quote": "are around 1-1/4 to 1-1/2 percent, noticeably below the FOMC's 2 percent target.",
+     "start": 12913,
+     "end": 12992
+    },
+    {
+     "quote": "aggregate measures of wage growth remain soft and have not significantly strengthened in the past year, suggesting there is remaining slack in the labor market.",
+     "start": 14298,
+     "end": 14457
+    },
+    {
+     "quote": "there remain risks and uncertainties surrounding foreign growth that could prolong or intensify foreign headwinds going forward.",
+     "start": 8821,
+     "end": 8948
+    },
+    {
+     "quote": "Based on today's picture of moderate underlying momentum in the domestic economy and the likelihood of continued crosscurrents from abroad, the process of normalizing monetary policy is likely to be gradual.",
+     "start": 17726,
+     "end": 17932
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

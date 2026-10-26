@@ -1,0 +1,53 @@
+{
+ "key": "statement_20120620",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20120620",
+  "release_date": "2012-06-20"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d97d6d2326e193886f00a3d620ead60158128663eccd950b3a3ad259cd484d42",
+ "message_id": "msg_011CgFudVTiurZewJ1hxdg1v",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1432,
+  "output_tokens": 263,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2012,\"month\":6,\"confidence\":0.93,\"cues\":[\"Decision to continue the maturity extension program (Operation Twist) through the end of the year, which was announced in June 2012\",\"Accompanying 'Statement Regarding Continuation of the Maturity Extension Program'\",\"Forward guidance of exceptionally low rates 'at least through late 2014' (stated with the year masked), used from January to July 2012\",\"Inflation declined owing to lower crude oil and gasoline prices, consistent with spring 2012\",\"Employment growth slowed in recent months, matching the weak spring 2012 payrolls\",\"Strains in global financial markets, pointing to the euro-area crisis\",\"Lacker dissented against continuing the maturity extension program; Pianalto and Raskin are listed as voters\"]}",
+ "parsed": {
+  "year": 2012,
+  "month": 6,
+  "confidence": 0.93,
+  "cues": [
+   "Decision to continue the maturity extension program (Operation Twist) through the end of the year, which was announced in June 2012",
+   "Accompanying 'Statement Regarding Continuation of the Maturity Extension Program'",
+   "Forward guidance of exceptionally low rates 'at least through late 2014' (stated with the year masked), used from January to July 2012",
+   "Inflation declined owing to lower crude oil and gasoline prices, consistent with spring 2012",
+   "Employment growth slowed in recent months, matching the weak spring 2012 payrolls",
+   "Strains in global financial markets, pointing to the euro-area crisis",
+   "Lacker dissented against continuing the maturity extension program; Pianalto and Raskin are listed as voters"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20120125",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20120125",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "50e149efa1e6ae224b47c163ef71284372e802766d2484dd2e1e51b18d2c6550"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c9337030237bf9abc58512a8eb4b8e4550a42ced4b79a5d76645fd8223e86327",
+ "message_id": "msg_011CgFudRSNodgyri4sREvNo",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 11873,
+  "output_tokens": 572,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late [YEAR], longer than had been indicated in recent FOMC statements.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"extending the horizon of the Committee's forward guidance would help provide more accommodative financial conditions by shifting downward investors' expectations regarding the future path of the target federal funds rate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"could warrant the initiation of additional securities purchases before long.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants generally anticipated that economic growth over coming quarters would be modest and, consequently, expected that the unemployment rate would decline only gradually.\"}],\"rationale\":\"The minutes describe extending the low-rate guidance further out to ease financial conditions, with some members open to additional asset purchases amid downside risks and subdued inflation. A lone hawkish dissent does not offset the clearly dovish majority signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late [YEAR], longer than had been indicated in recent FOMC statements."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "extending the horizon of the Committee's forward guidance would help provide more accommodative financial conditions by shifting downward investors' expectations regarding the future path of the target federal funds rate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "could warrant the initiation of additional securities purchases before long."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants generally anticipated that economic growth over coming quarters would be modest and, consequently, expected that the unemployment rate would decline only gradually."
+   }
+  ],
+  "rationale": "The minutes describe extending the low-rate guidance further out to ease financial conditions, with some members open to additional asset purchases amid downside risks and subdued inflation. A lone hawkish dissent does not offset the clearly dovish majority signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late [YEAR], longer than had been indicated in recent FOMC statements.",
+     "start": 32789,
+     "end": 32949
+    },
+    {
+     "quote": "extending the horizon of the Committee's forward guidance would help provide more accommodative financial conditions by shifting downward investors' expectations regarding the future path of the target federal funds rate.",
+     "start": 33203,
+     "end": 33423
+    },
+    {
+     "quote": "could warrant the initiation of additional securities purchases before long.",
+     "start": 33991,
+     "end": 34066
+    },
+    {
+     "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 37316,
+     "end": 37419
+    },
+    {
+     "quote": "Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time.",
+     "start": 27597,
+     "end": 27772
+    },
+    {
+     "quote": "participants generally anticipated that economic growth over coming quarters would be modest and, consequently, expected that the unemployment rate would decline only gradually.",
+     "start": 19430,
+     "end": 19606
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

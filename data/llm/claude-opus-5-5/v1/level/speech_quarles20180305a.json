@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20180305a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20180305a",
+  "doc_type": "speech",
+  "text_sha256": "72d0748c62d3c090ec34209d45d48e6301d61c30f0f5b31b893e1e4b01656816"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8f5ab8b9b6c81ac2f26b5fc087149002912c2e3fc9a4d01b1a1aca814c876d98",
+ "message_id": "msg_011CgFugBEBzAbY87HgVFA9A",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5539,
+  "output_tokens": 373,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"So today I want to share my perspective on the appropriate regulatory environment for foreign banks operating in the United States, as well as some thoughts on specific elements of that regime.\"},{\"dimension\":\"overall\",\"quote\":\"I believe the regulation implementing the Volcker rule is an example of a complex regulation that is not working well.\"},{\"dimension\":\"overall\",\"quote\":\"We are committed to tailoring our regulatory and supervisory regimes to align with the risk posed by financial institutions to the U.S. financial system.\"}],\"rationale\":\"The speech addresses bank regulation (enhanced prudential standards for foreign banks and the Volcker rule) and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "So today I want to share my perspective on the appropriate regulatory environment for foreign banks operating in the United States, as well as some thoughts on specific elements of that regime."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe the regulation implementing the Volcker rule is an example of a complex regulation that is not working well."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are committed to tailoring our regulatory and supervisory regimes to align with the risk posed by financial institutions to the U.S. financial system."
+   }
+  ],
+  "rationale": "The speech addresses bank regulation (enhanced prudential standards for foreign banks and the Volcker rule) and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So today I want to share my perspective on the appropriate regulatory environment for foreign banks operating in the United States, as well as some thoughts on specific elements of that regime.",
+     "start": 820,
+     "end": 1012
+    },
+    {
+     "quote": "I believe the regulation implementing the Volcker rule is an example of a complex regulation that is not working well.",
+     "start": 10029,
+     "end": 10146
+    },
+    {
+     "quote": "We are committed to tailoring our regulatory and supervisory regimes to align with the risk posed by financial institutions to the U.S. financial system.",
+     "start": 9483,
+     "end": 9635
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

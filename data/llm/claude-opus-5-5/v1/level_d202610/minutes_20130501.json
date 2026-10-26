@@ -1,0 +1,126 @@
+{
+ "key": "minutes_20130501",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20130501",
+  "doc_type": "minutes",
+  "text_sha256": "2e04e803983d59b713027f0361dfc9930926787d69c94077c2037117a66e71da"
+ },
+ "run_tag": "d202610",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5481d21e0523f600d466ad5c4ea140733db7b0f477c777d36a09fe5eecca888d",
+ "message_id": "msg_011CgGw5wZCuqKychJq2d5TB",
+ "request_id": "req_011CgGw5vN2b72zToVuFxfVy",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 12286,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2241
+    },
+    "cache_creation_input_tokens": 2241,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 12286,
+    "model": null,
+    "output_tokens": 549,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 549,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-22T08:08:08+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"A number of participants expressed willingness to adjust the flow of purchases downward as early as the June meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Nonetheless, a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A number of participants noted that the balance of risks to growth remained to the downside\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"meeting participants generally indicated that they viewed the information received during the intermeeting period as suggesting that the economy was expanding at a moderate pace despite some softness in recent economic data.\"}],\"rationale\":\"Hawkish signals that some participants are open to tapering as early as June, plus financial-stability concerns, are offset by below-target inflation worries, downside growth risks and continued highly accommodative guidance. On net the minutes read as roughly balanced with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "A number of participants expressed willingness to adjust the flow of purchases downward as early as the June meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nonetheless, a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A number of participants noted that the balance of risks to growth remained to the downside"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "meeting participants generally indicated that they viewed the information received during the intermeeting period as suggesting that the economy was expanding at a moderate pace despite some softness in recent economic data."
+   }
+  ],
+  "rationale": "Hawkish signals that some participants are open to tapering as early as June, plus financial-stability concerns, are offset by below-target inflation worries, downside growth risks and continued highly accommodative guidance. On net the minutes read as roughly balanced with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A number of participants expressed willingness to adjust the flow of purchases downward as early as the June meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth",
+     "start": 26972,
+     "end": 27198
+    },
+    {
+     "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+     "start": 35344,
+     "end": 35519
+    },
+    {
+     "quote": "Nonetheless, a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching.",
+     "start": 23602,
+     "end": 23771
+    },
+    {
+     "quote": "A number of participants noted that the balance of risks to growth remained to the downside",
+     "start": 18271,
+     "end": 18362
+    },
+    {
+     "quote": "meeting participants generally indicated that they viewed the information received during the intermeeting period as suggesting that the economy was expanding at a moderate pace despite some softness in recent economic data.",
+     "start": 16615,
+     "end": 16838
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

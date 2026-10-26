@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20221102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20221102",
+  "doc_type": "minutes",
+  "text_sha256": "654485551d53c9ab586f8049ef2d73e36848cb9d856a825821ab092ab1b25e01"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "743de9e97a1eb68b3eb6cff059300b9b15e6de5cdecf6cf4eb855a87efd8ef35",
+ "message_id": "msg_011CgFugDDFm9bt1uwmMVjWN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13752,
+  "output_tokens": 565,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"a substantial majority of participants judged that a slowing in the pace of increase would likely soon be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"their assessment of the ultimate level of the federal funds rate that would be necessary to achieve the Committee's goals was somewhat higher than they had previously expected.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that inflation was unacceptably high and was well above the Committee's longer-run goal of 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally noted that the uncertainty associated with their economic outlooks was high and that the risks to the inflation outlook remained tilted to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite the slowdown in growth, the labor market remained extremely tight, and nominal wage growth remained elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"to continue the process of reducing the Federal Reserve's securities holdings\"}],\"rationale\":\"Minutes signal continued hikes and a higher terminal rate amid forceful inflation concern, with an extremely tight labor market and ongoing runoff. That hawkish lean is tempered by a majority favoring a slower pace of increases soon and by noted downside growth risks and overtightening concerns.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "a substantial majority of participants judged that a slowing in the pace of increase would likely soon be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "their assessment of the ultimate level of the federal funds rate that would be necessary to achieve the Committee's goals was somewhat higher than they had previously expected."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that inflation was unacceptably high and was well above the Committee's longer-run goal of 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally noted that the uncertainty associated with their economic outlooks was high and that the risks to the inflation outlook remained tilted to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite the slowdown in growth, the labor market remained extremely tight, and nominal wage growth remained elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "to continue the process of reducing the Federal Reserve's securities holdings"
+   }
+  ],
+  "rationale": "Minutes signal continued hikes and a higher terminal rate amid forceful inflation concern, with an extremely tight labor market and ongoing runoff. That hawkish lean is tempered by a majority favoring a slower pace of increases soon and by noted downside growth risks and overtightening concerns."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "a substantial majority of participants judged that a slowing in the pace of increase would likely soon be appropriate.",
+     "start": 36708,
+     "end": 36825
+    },
+    {
+     "quote": "their assessment of the ultimate level of the federal funds rate that would be necessary to achieve the Committee's goals was somewhat higher than they had previously expected.",
+     "start": 35891,
+     "end": 36066
+    },
+    {
+     "quote": "Participants agreed that inflation was unacceptably high and was well above the Committee's longer-run goal of 2 percent.",
+     "start": 25515,
+     "end": 25635
+    },
+    {
+     "quote": "Participants generally noted that the uncertainty associated with their economic outlooks was high and that the risks to the inflation outlook remained tilted to the upside.",
+     "start": 29986,
+     "end": 30158
+    },
+    {
+     "quote": "Despite the slowdown in growth, the labor market remained extremely tight, and nominal wage growth remained elevated.",
+     "start": 33066,
+     "end": 33182
+    },
+    {
+     "quote": "to continue the process of reducing the Federal Reserve's securities holdings",
+     "start": 33344,
+     "end": 33421
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

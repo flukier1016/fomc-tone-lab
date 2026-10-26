@@ -1,0 +1,169 @@
+{
+ "key": "statement_20130918",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20130918",
+  "previous_doc_id": "statement_20130731",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "02398212e9df5a2ad8e0399a9311fd111dc719caac140ef7c6da8bab7911953c",
+ "message_id": "msg_011CgFudUSCr3D8Emb6VL9Vh",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3056,
+  "output_tokens": 850,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"\",\"after\":\"However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.\",\"direction\":\"dovish\"},{\"before\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.\",\"after\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.\",\"direction\":\"dovish\"},{\"before\":\"Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated.\",\"after\":\"Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"In judging when to moderate the pace of asset purchases, the Committee will, at its coming meetings, assess whether incoming information continues to support the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its longer-run objective.\",\"direction\":\"hawkish\"},{\"before\":\"economic activity expanded at a modest pace during the first half of the year\",\"after\":\"economic activity has been expanding at a moderate pace\",\"direction\":\"hawkish\"},{\"before\":\"but mortgage rates have risen somewhat\",\"after\":\"but mortgage rates have risen further\",\"direction\":\"dovish\"},{\"before\":\"The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.\",\"after\":\"Asset purchases are not on a preset course, and the Committee's decisions about their pace will remain contingent on the Committee's economic outlook as well as its assessment of the likely efficacy and costs of such purchases.\",\"direction\":\"neutral\"}],\"rationale\":\"Although the statement upgrades the growth assessment and explicitly frames upcoming decisions around when to moderate purchases, it decides to await more evidence before tapering and flags tightening financial conditions as a downside risk. Against a backdrop where reducing purchases was the expected step, this signals a dovish delay.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "",
+    "after": "However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.",
+    "after": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated.",
+    "after": "Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "In judging when to moderate the pace of asset purchases, the Committee will, at its coming meetings, assess whether incoming information continues to support the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its longer-run objective.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "economic activity expanded at a modest pace during the first half of the year",
+    "after": "economic activity has been expanding at a moderate pace",
+    "direction": "hawkish"
+   },
+   {
+    "before": "but mortgage rates have risen somewhat",
+    "after": "but mortgage rates have risen further",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+    "after": "Asset purchases are not on a preset course, and the Committee's decisions about their pace will remain contingent on the Committee's economic outlook as well as its assessment of the likely efficacy and costs of such purchases.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Although the statement upgrades the growth assessment and explicitly frames upcoming decisions around when to moderate purchases, it decides to await more evidence before tapering and flags tightening financial conditions as a downside risk. Against a backdrop where reducing purchases was the expected step, this signals a dovish delay."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.",
+     "start": 1008,
+     "end": 1133
+    },
+    {
+     "quote": "Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated.",
+     "start": 166,
+     "end": 293
+    },
+    {
+     "quote": "economic activity expanded at a modest pace during the first half of the year",
+     "start": 87,
+     "end": 164
+    },
+    {
+     "quote": "but mortgage rates have risen somewhat",
+     "start": 401,
+     "end": 439
+    },
+    {
+     "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+     "start": 2485,
+     "end": 2660
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.",
+     "start": 1786,
+     "end": 1914
+    },
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+     "start": 1008,
+     "end": 1295
+    },
+    {
+     "quote": "Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.",
+     "start": 144,
+     "end": 278
+    },
+    {
+     "quote": "Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.",
+     "start": 1515,
+     "end": 1784
+    },
+    {
+     "quote": "In judging when to moderate the pace of asset purchases, the Committee will, at its coming meetings, assess whether incoming information continues to support the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its longer-run objective.",
+     "start": 3080,
+     "end": 3373
+    },
+    {
+     "quote": "economic activity has been expanding at a moderate pace",
+     "start": 87,
+     "end": 142
+    },
+    {
+     "quote": "but mortgage rates have risen further",
+     "start": 386,
+     "end": 423
+    },
+    {
+     "quote": "Asset purchases are not on a preset course, and the Committee's decisions about their pace will remain contingent on the Committee's economic outlook as well as its assessment of the likely efficacy and costs of such purchases.",
+     "start": 3375,
+     "end": 3601
+    }
+   ]
+  }
+ }
+}

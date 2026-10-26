@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20160603a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20160603a",
+  "doc_type": "speech",
+  "text_sha256": "a86a30f258e9c6b6c5302418b504fa6c266bd64e52b061af44397d6396bfea54"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a93f4a400b0c3cea769b7b14d3c6924055db6c704517b49bd20c2ea2c18109b3",
+ "message_id": "msg_011CgFugAX2eVjCq9TxzY7om",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4721,
+  "output_tokens": 501,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"there would appear to be an advantage to waiting until developments provide greater confidence.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the appropriate path of policy is likely to remain shallow for several years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the risks to the return of inflation to our 2 percent target over the medium term are weighted to the downside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The data in today's labor market report on balance suggest that the labor market has slowed.\"},{\"dimension\":\"risk_balance\",\"quote\":\"This asymmetry in the capability of policy effectively skews risks to the outlook to the downside.\"},{\"dimension\":\"overall\",\"quote\":\"To conclude, recent economic developments have been mixed, and important downside risks remain.\"}],\"rationale\":\"The speaker explicitly argues for delaying the next rate increase, stresses downside risks to inflation and growth (Brexit, China, the ZLB asymmetry, a slowing labor market), and signals a shallow path for several years given a low neutral rate. This makes the speech clearly dovish relative to the tightening path then in place.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "there would appear to be an advantage to waiting until developments provide greater confidence."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the appropriate path of policy is likely to remain shallow for several years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the risks to the return of inflation to our 2 percent target over the medium term are weighted to the downside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The data in today's labor market report on balance suggest that the labor market has slowed."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "This asymmetry in the capability of policy effectively skews risks to the outlook to the downside."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To conclude, recent economic developments have been mixed, and important downside risks remain."
+   }
+  ],
+  "rationale": "The speaker explicitly argues for delaying the next rate increase, stresses downside risks to inflation and growth (Brexit, China, the ZLB asymmetry, a slowing labor market), and signals a shallow path for several years given a low neutral rate. This makes the speech clearly dovish relative to the tightening path then in place."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "there would appear to be an advantage to waiting until developments provide greater confidence.",
+     "start": 11795,
+     "end": 11889
+    },
+    {
+     "quote": "the appropriate path of policy is likely to remain shallow for several years.",
+     "start": 15707,
+     "end": 15783
+    },
+    {
+     "quote": "the risks to the return of inflation to our 2 percent target over the medium term are weighted to the downside.",
+     "start": 4208,
+     "end": 4318
+    },
+    {
+     "quote": "The data in today's labor market report on balance suggest that the labor market has slowed.",
+     "start": 649,
+     "end": 740
+    },
+    {
+     "quote": "This asymmetry in the capability of policy effectively skews risks to the outlook to the downside.",
+     "start": 8799,
+     "end": 8896
+    },
+    {
+     "quote": "To conclude, recent economic developments have been mixed, and important downside risks remain.",
+     "start": 15228,
+     "end": 15322
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

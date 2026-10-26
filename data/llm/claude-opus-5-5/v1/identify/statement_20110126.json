@@ -1,0 +1,52 @@
+{
+ "key": "statement_20110126",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20110126",
+  "release_date": "2011-01-26"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a97dccb7a8f12232c2773c2b09e54d613202e2790ab478626100eaf4d6bac24",
+ "message_id": "msg_011CgFudVSjKdRUxzST6at5o",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1318,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 132
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2011,\"month\":1,\"confidence\":0.85,\"cues\":[\"QE2 $600 billion Treasury purchases by end of second quarter, announced in a prior month (November 2010), so this is a later meeting while purchases are ongoing\",\"'Growth in household spending picked up late last year' points to an early-year meeting\",\"Kocherlakota is a voter, consistent with the 2011 rotation\",\"Unanimous vote with no dissent, unlike Hoenig's dissents in 2010\",\"'Although commodity prices have risen' matches early 2011 language\",\"The recovery is described as insufficient, without the 'firmer footing' wording of March 2011\"]}",
+ "parsed": {
+  "year": 2011,
+  "month": 1,
+  "confidence": 0.85,
+  "cues": [
+   "QE2 $600 billion Treasury purchases by end of second quarter, announced in a prior month (November 2010), so this is a later meeting while purchases are ongoing",
+   "'Growth in household spending picked up late last year' points to an early-year meeting",
+   "Kocherlakota is a voter, consistent with the 2011 rotation",
+   "Unanimous vote with no dissent, unlike Hoenig's dissents in 2010",
+   "'Although commodity prices have risen' matches early 2011 language",
+   "The recovery is described as insufficient, without the 'firmer footing' wording of March 2011"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

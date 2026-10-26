@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20251016a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251016a",
+  "doc_type": "speech",
+  "text_sha256": "6d55ba90dff958ca42e42a8143445da6c2d8b4b145b1814800d368f47e27ff28"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f771d1f04a916dcda26a143cbad439b16f799e1af298f950c952dddf302e1eb5",
+ "message_id": "msg_011CgFugEJjjDJYFHXtnWdzi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5971,
+  "output_tokens": 334,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"For the bulk of my remarks today, I will focus on the benefits and risks of stablecoins.\"},{\"dimension\":\"overall\",\"quote\":\"Caution is warranted because of the long and painful history of private money created with insufficient safeguards.\"},{\"dimension\":\"overall\",\"quote\":\"While the GENIUS Act made important progress in creating a framework for stablecoins, a great deal will depend on how federal and state regulators implement it.\"}],\"rationale\":\"The speech addresses stablecoin regulation, payments innovation and financial stability, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "For the bulk of my remarks today, I will focus on the benefits and risks of stablecoins."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Caution is warranted because of the long and painful history of private money created with insufficient safeguards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While the GENIUS Act made important progress in creating a framework for stablecoins, a great deal will depend on how federal and state regulators implement it."
+   }
+  ],
+  "rationale": "The speech addresses stablecoin regulation, payments innovation and financial stability, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "For the bulk of my remarks today, I will focus on the benefits and risks of stablecoins.",
+     "start": 599,
+     "end": 686
+    },
+    {
+     "quote": "Caution is warranted because of the long and painful history of private money created with insufficient safeguards.",
+     "start": 6517,
+     "end": 6631
+    },
+    {
+     "quote": "While the GENIUS Act made important progress in creating a framework for stablecoins, a great deal will depend on how federal and state regulators implement it.",
+     "start": 19610,
+     "end": 19769
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

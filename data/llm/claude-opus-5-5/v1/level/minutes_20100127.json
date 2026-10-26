@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20100127",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20100127",
+  "doc_type": "minutes",
+  "text_sha256": "80e602258406af3cb52f597c348da7a0539f74a8df169f9e060a9f6a3d2115e2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "efec565a5e5656dd1eb286084028bece1a9182fef6d7d98a25969513f2aa3fa6",
+ "message_id": "msg_011CgFugAy4obb5nfGJjRfij",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14284,
+  "output_tokens": 591,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Policymakers were unanimous in the view that it will be appropriate to shrink the supply of reserve balances and the size of the Federal Reserve's balance sheet substantially over time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The weakness in labor markets continued to be an important concern for the FOMC\"},{\"dimension\":\"risk_balance\",\"quote\":\"In general, participants saw the upside and downside risks to the outlook for economic growth as roughly balanced.\"},{\"dimension\":\"overall\",\"quote\":\"Mr. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to \\\"warrant exceptionally low levels of the federal funds rate for an extended period.\\\"\"}],\"rationale\":\"The minutes retain the extended-period guidance and describe subdued inflation and weak labor markets, while extensive exit-strategy planning, a unanimous intent to shrink the balance sheet, normalization of liquidity facilities and a hawkish dissent add a tightening tilt. On net the stance is roughly neutral with a slight dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Policymakers were unanimous in the view that it will be appropriate to shrink the supply of reserve balances and the size of the Federal Reserve's balance sheet substantially over time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The weakness in labor markets continued to be an important concern for the FOMC"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In general, participants saw the upside and downside risks to the outlook for economic growth as roughly balanced."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Mr. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to \"warrant exceptionally low levels of the federal funds rate for an extended period.\""
+   }
+  ],
+  "rationale": "The minutes retain the extended-period guidance and describe subdued inflation and weak labor markets, while extensive exit-strategy planning, a unanimous intent to shrink the balance sheet, normalization of liquidity facilities and a hawkish dissent add a tightening tilt. On net the stance is roughly neutral with a slight dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 44841,
+     "end": 44936
+    },
+    {
+     "quote": "Policymakers were unanimous in the view that it will be appropriate to shrink the supply of reserve balances and the size of the Federal Reserve's balance sheet substantially over time.",
+     "start": 9413,
+     "end": 9597
+    },
+    {
+     "quote": "Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time.",
+     "start": 31997,
+     "end": 32106
+    },
+    {
+     "quote": "The weakness in labor markets continued to be an important concern for the FOMC",
+     "start": 32561,
+     "end": 32640
+    },
+    {
+     "quote": "In general, participants saw the upside and downside risks to the outlook for economic growth as roughly balanced.",
+     "start": 31882,
+     "end": 31995
+    },
+    {
+     "quote": "Mr. Hoenig dissented because he believed it was no longer advisable to indicate that economic and financial conditions were likely to \"warrant exceptionally low levels of the federal funds rate for an extended period.\"",
+     "start": 46820,
+     "end": 47036
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

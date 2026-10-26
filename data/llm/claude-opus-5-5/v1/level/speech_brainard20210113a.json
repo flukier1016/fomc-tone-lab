@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20210113a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210113a",
+  "doc_type": "speech",
+  "text_sha256": "d24d9d43867d9d6ba01da8482a4ed7aab0095b1909684147150a78aa532d5786"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7e87b4590634b145d68d9b2c4cc28485b45b819b72dfe78318440f0c859741b1",
+ "message_id": "msg_011CgFug9nsZF3WD9JXjDTcG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5095,
+  "output_tokens": 617,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Given my baseline outlook, I expect that the current pace of purchases will remain appropriate for quite some time.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Even after economic conditions warrant liftoff, changes in the policy rate are likely to be only gradual to support the inflation makeup strategy and maximum employment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains very low; core PCE inflation ran at 1.4 percent over the 12 months ending in November.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"If we adjust the 6.7 percent headline unemployment rate for the decline in participation since February and the Bureau of Labor Statistics estimate of misclassification, the unemployment rate would be 10 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"And there is some risk to the upside if the efficient delivery of vaccines across many jurisdictions ultimately results in a globally synchronized expansion.\"},{\"dimension\":\"overall\",\"quote\":\"The economy is far away from our goals in terms of both employment and inflation, and even under an optimistic outlook, it will take time to achieve substantial further progress.\"}],\"rationale\":\"Brainard strongly emphasizes the economy being far from goals, very low inflation, and expects asset purchases at the current pace for quite some time with only gradual rate increases after a distant liftoff. A noted upside risk from vaccines is minor relative to the forceful dovish messaging.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Given my baseline outlook, I expect that the current pace of purchases will remain appropriate for quite some time."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Even after economic conditions warrant liftoff, changes in the policy rate are likely to be only gradual to support the inflation makeup strategy and maximum employment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains very low; core PCE inflation ran at 1.4 percent over the 12 months ending in November."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "If we adjust the 6.7 percent headline unemployment rate for the decline in participation since February and the Bureau of Labor Statistics estimate of misclassification, the unemployment rate would be 10 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "And there is some risk to the upside if the efficient delivery of vaccines across many jurisdictions ultimately results in a globally synchronized expansion."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The economy is far away from our goals in terms of both employment and inflation, and even under an optimistic outlook, it will take time to achieve substantial further progress."
+   }
+  ],
+  "rationale": "Brainard strongly emphasizes the economy being far from goals, very low inflation, and expects asset purchases at the current pace for quite some time with only gradual rate increases after a distant liftoff. A noted upside risk from vaccines is minor relative to the forceful dovish messaging."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given my baseline outlook, I expect that the current pace of purchases will remain appropriate for quite some time.",
+     "start": 15787,
+     "end": 15901
+    },
+    {
+     "quote": "Even after economic conditions warrant liftoff, changes in the policy rate are likely to be only gradual to support the inflation makeup strategy and maximum employment.",
+     "start": 8515,
+     "end": 8683
+    },
+    {
+     "quote": "Inflation remains very low; core PCE inflation ran at 1.4 percent over the 12 months ending in November.",
+     "start": 11284,
+     "end": 11387
+    },
+    {
+     "quote": "If we adjust the 6.7 percent headline unemployment rate for the decline in participation since February and the Bureau of Labor Statistics estimate of misclassification, the unemployment rate would be 10 percent",
+     "start": 12579,
+     "end": 12790
+    },
+    {
+     "quote": "And there is some risk to the upside if the efficient delivery of vaccines across many jurisdictions ultimately results in a globally synchronized expansion.",
+     "start": 15184,
+     "end": 15340
+    },
+    {
+     "quote": "The economy is far away from our goals in terms of both employment and inflation, and even under an optimistic outlook, it will take time to achieve substantial further progress.",
+     "start": 15608,
+     "end": 15785
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_fischer20160622a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160622a",
+  "doc_type": "speech",
+  "text_sha256": "9f262210cfb5d2707f59e11d31590aeeaa749883f31d4cce8e2d195e6052f7fc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b8d17e230b5718608963c76d336f7e1f5f7edf718f29813a20c3aec607b84aa2",
+ "message_id": "msg_011CgFug9RJUisVDVy7AWQua",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3303,
+  "output_tokens": 315,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve Board has recently proposed important new rules to increase the prospects for the orderly resolution of a GSIB with minimal effect on financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"In short, we and other U.S. regulators are working hard to address the too-big-to-fail problem by improving the prospects for the orderly resolution of a GSIB in the United States.\"}],\"rationale\":\"The speech covers bank resolution frameworks, TLAC and living wills, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve Board has recently proposed important new rules to increase the prospects for the orderly resolution of a GSIB with minimal effect on financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In short, we and other U.S. regulators are working hard to address the too-big-to-fail problem by improving the prospects for the orderly resolution of a GSIB in the United States."
+   }
+  ],
+  "rationale": "The speech covers bank resolution frameworks, TLAC and living wills, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve Board has recently proposed important new rules to increase the prospects for the orderly resolution of a GSIB with minimal effect on financial stability.",
+     "start": 3304,
+     "end": 3477
+    },
+    {
+     "quote": "In short, we and other U.S. regulators are working hard to address the too-big-to-fail problem by improving the prospects for the orderly resolution of a GSIB in the United States.",
+     "start": 9870,
+     "end": 10049
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

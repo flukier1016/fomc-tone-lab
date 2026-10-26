@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20240108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240108a",
+  "doc_type": "speech",
+  "text_sha256": "7b46e5550167aec895047e3b374ef23f983aebc0c62e46f0e97e486f0911ab72"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "39d6d8b3b48f54edeff38f7cf0b99cfd94e5a3b8c978378cc81450cca15303cd",
+ "message_id": "msg_011CgFugHQWx5pQPgP8axCAg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7068,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Should inflation continue to fall closer to our 2 percent goal over time, it will eventually become appropriate to begin the process of lowering our policy rate to prevent policy from becoming overly restrictive.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In my view, we are not yet at that point. And important upside inflation risks remain.\"},{\"dimension\":\"risk_balance\",\"quote\":\"There is also the risk that the recent easing in financial conditions encourages a reacceleration of growth, stalling the progress in lowering inflation, or even causing inflation to reaccelerate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to raise the federal funds rate further at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"last Friday's employment report showed continued strength in job gains and wage growth, and the labor force participation rate declined.\"}],\"rationale\":\"Bowman acknowledges inflation progress and the eventual appropriateness of cuts, a dovish evolution, but stresses that cuts are not yet warranted, highlights upside inflation risks, and keeps open further hikes. Net signal is roughly balanced with a slight hawkish tilt, and much of the speech concerns regulation.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Should inflation continue to fall closer to our 2 percent goal over time, it will eventually become appropriate to begin the process of lowering our policy rate to prevent policy from becoming overly restrictive."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my view, we are not yet at that point. And important upside inflation risks remain."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "There is also the risk that the recent easing in financial conditions encourages a reacceleration of growth, stalling the progress in lowering inflation, or even causing inflation to reaccelerate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to raise the federal funds rate further at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "last Friday's employment report showed continued strength in job gains and wage growth, and the labor force participation rate declined."
+   }
+  ],
+  "rationale": "Bowman acknowledges inflation progress and the eventual appropriateness of cuts, a dovish evolution, but stresses that cuts are not yet warranted, highlights upside inflation risks, and keeps open further hikes. Net signal is roughly balanced with a slight hawkish tilt, and much of the speech concerns regulation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Should inflation continue to fall closer to our 2 percent goal over time, it will eventually become appropriate to begin the process of lowering our policy rate to prevent policy from becoming overly restrictive.",
+     "start": 2283,
+     "end": 2494
+    },
+    {
+     "quote": "In my view, we are not yet at that point. And important upside inflation risks remain.",
+     "start": 2496,
+     "end": 2581
+    },
+    {
+     "quote": "There is also the risk that the recent easing in financial conditions encourages a reacceleration of growth, stalling the progress in lowering inflation, or even causing inflation to reaccelerate.",
+     "start": 2715,
+     "end": 2910
+    },
+    {
+     "quote": "I remain willing to raise the federal funds rate further at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.",
+     "start": 3920,
+     "end": 4081
+    },
+    {
+     "quote": "last Friday's employment report showed continued strength in job gains and wage growth, and the labor force participation rate declined.",
+     "start": 3093,
+     "end": 3228
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

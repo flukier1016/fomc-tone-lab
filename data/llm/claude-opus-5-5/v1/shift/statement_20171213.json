@@ -1,0 +1,164 @@
+{
+ "key": "statement_20171213",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20171213",
+  "previous_doc_id": "statement_20171101",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1f861ce44bddff963a85f94b50a590698c560a1f0f574b27ed4fa82942f82358",
+ "message_id": "msg_011CgFue3T4tsW8SwNWrmEFi",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2058,
+  "output_tokens": 919,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.\",\"after\":\"In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.\",\"direction\":\"hawkish\"},{\"before\":\"economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further.\",\"after\":\"economic activity will expand at a moderate pace and labor market conditions will remain strong.\",\"direction\":\"neutral\"},{\"before\":\"The stance of monetary policy remains accommodative, thereby supporting some further strengthening in labor market conditions and a sustained return to 2 percent inflation.\",\"after\":\"The stance of monetary policy remains accommodative, thereby supporting strong labor market conditions and a sustained return to 2 percent inflation.\",\"direction\":\"neutral\"},{\"before\":\"Hurricane-related disruptions and rebuilding will continue to affect economic activity, employment, and inflation in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.\",\"after\":\"Hurricane-related disruptions and rebuilding have affected economic activity, employment, and inflation in recent months but have not materially altered the outlook for the national economy.\",\"direction\":\"neutral\"},{\"before\":\"Although the hurricanes caused a drop in payroll employment in September, the unemployment rate declined further.\",\"after\":\"Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further.\",\"direction\":\"hawkish\"},{\"before\":\"Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Jerome H. Powell; and Randal K. Quarles.\",\"after\":\"Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.\",\"direction\":\"dovish\"},{\"before\":\"The balance sheet normalization program initiated in October 2017 is proceeding.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee raised the funds rate target by 25 bp and kept its guidance for further gradual increases unchanged, a hawkish move partly offset by two dovish dissents and unchanged soft-inflation language. The rate hike itself is the main signal, but because the forward guidance was unchanged the shift is moderate.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.",
+    "after": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further.",
+    "after": "economic activity will expand at a moderate pace and labor market conditions will remain strong.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The stance of monetary policy remains accommodative, thereby supporting some further strengthening in labor market conditions and a sustained return to 2 percent inflation.",
+    "after": "The stance of monetary policy remains accommodative, thereby supporting strong labor market conditions and a sustained return to 2 percent inflation.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Hurricane-related disruptions and rebuilding will continue to affect economic activity, employment, and inflation in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.",
+    "after": "Hurricane-related disruptions and rebuilding have affected economic activity, employment, and inflation in recent months but have not materially altered the outlook for the national economy.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Although the hurricanes caused a drop in payroll employment in September, the unemployment rate declined further.",
+    "after": "Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Jerome H. Powell; and Randal K. Quarles.",
+    "after": "Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The balance sheet normalization program initiated in October 2017 is proceeding.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee raised the funds rate target by 25 bp and kept its guidance for further gradual increases unchanged, a hawkish move partly offset by two dovish dissents and unchanged soft-inflation language. The rate hike itself is the main signal, but because the forward guidance was unchanged the shift is moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.",
+     "start": 1813,
+     "end": 1984
+    },
+    {
+     "quote": "economic activity will expand at a moderate pace, and labor market conditions will strengthen somewhat further.",
+     "start": 1395,
+     "end": 1505
+    },
+    {
+     "quote": "The stance of monetary policy remains accommodative, thereby supporting some further strengthening in labor market conditions and a sustained return to 2 percent inflation.",
+     "start": 1986,
+     "end": 2157
+    },
+    {
+     "quote": "Hurricane-related disruptions and rebuilding will continue to affect economic activity, employment, and inflation in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.",
+     "start": 1015,
+     "end": 1280
+    },
+    {
+     "quote": "Although the hurricanes caused a drop in payroll employment in September, the unemployment rate declined further.",
+     "start": 236,
+     "end": 348
+    },
+    {
+     "quote": "Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Jerome H. Powell; and Randal K. Quarles.",
+     "start": 3218,
+     "end": 3446
+    },
+    {
+     "quote": "The balance sheet normalization program initiated in October 2017 is proceeding.",
+     "start": 3136,
+     "end": 3215
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.",
+     "start": 1571,
+     "end": 1743
+    },
+    {
+     "quote": "economic activity will expand at a moderate pace and labor market conditions will remain strong.",
+     "start": 1168,
+     "end": 1263
+    },
+    {
+     "quote": "The stance of monetary policy remains accommodative, thereby supporting strong labor market conditions and a sustained return to 2 percent inflation.",
+     "start": 1745,
+     "end": 1893
+    },
+    {
+     "quote": "Hurricane-related disruptions and rebuilding have affected economic activity, employment, and inflation in recent months but have not materially altered the outlook for the national economy.",
+     "start": 864,
+     "end": 1053
+    },
+    {
+     "quote": "Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further.",
+     "start": 197,
+     "end": 316
+    },
+    {
+     "quote": "Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+     "start": 3068,
+     "end": 3229
+    }
+   ]
+  }
+ }
+}

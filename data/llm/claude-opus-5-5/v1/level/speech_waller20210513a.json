@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20210513a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20210513a",
+  "doc_type": "speech",
+  "text_sha256": "0b4da114a4c5dcc125edf7a976e5a85fb66f4df74b9b742f65b78ab82e623e6b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c574d8f4ebfbf2ba455198525eb4c604e51e7686866854f58d07fa98b3b67def",
+ "message_id": "msg_011CgFug9BuSKFnRf2e2B1fi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4565,
+  "output_tokens": 585,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In light of that fact, I expect the FOMC to maintain an accommodative policy for some time.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Now is the time we need to be patient, steely-eyed central bankers, and not be head-faked by temporary data surprises.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the factors putting upward pressure on inflation are temporary, and an accommodative monetary policy continues to have an important role to play in supporting the recovery.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the U.S. economy is hitting the gas and continuing to make a very strong recovery from the severe COVID-19 recession.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"some of the labor market's cylinders are firing away, and some are still sputtering, so monetary accommodation continues to be warranted.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"For these reasons, I expect that inflation will exceed 2 percent this year and next year. After that, it should return to target.\"}],\"rationale\":\"Despite describing a booming economy and above-target inflation, the speaker frames inflation pressures as transitory, stresses labor-market shortfalls, and explicitly urges patience and continued accommodation. The net signal is a moderate dovish lean, tempered by acknowledgment of strong growth and possibly persistent price pressures.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In light of that fact, I expect the FOMC to maintain an accommodative policy for some time."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Now is the time we need to be patient, steely-eyed central bankers, and not be head-faked by temporary data surprises."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the factors putting upward pressure on inflation are temporary, and an accommodative monetary policy continues to have an important role to play in supporting the recovery."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the U.S. economy is hitting the gas and continuing to make a very strong recovery from the severe COVID-19 recession."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "some of the labor market's cylinders are firing away, and some are still sputtering, so monetary accommodation continues to be warranted."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "For these reasons, I expect that inflation will exceed 2 percent this year and next year. After that, it should return to target."
+   }
+  ],
+  "rationale": "Despite describing a booming economy and above-target inflation, the speaker frames inflation pressures as transitory, stresses labor-market shortfalls, and explicitly urges patience and continued accommodation. The net signal is a moderate dovish lean, tempered by acknowledgment of strong growth and possibly persistent price pressures."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of that fact, I expect the FOMC to maintain an accommodative policy for some time.",
+     "start": 13835,
+     "end": 13925
+    },
+    {
+     "quote": "Now is the time we need to be patient, steely-eyed central bankers, and not be head-faked by temporary data surprises.",
+     "start": 14647,
+     "end": 14764
+    },
+    {
+     "quote": "the factors putting upward pressure on inflation are temporary, and an accommodative monetary policy continues to have an important role to play in supporting the recovery.",
+     "start": 824,
+     "end": 995
+    },
+    {
+     "quote": "the U.S. economy is hitting the gas and continuing to make a very strong recovery from the severe COVID-19 recession.",
+     "start": 479,
+     "end": 595
+    },
+    {
+     "quote": "some of the labor market's cylinders are firing away, and some are still sputtering, so monetary accommodation continues to be warranted.",
+     "start": 4278,
+     "end": 4414
+    },
+    {
+     "quote": "For these reasons, I expect that inflation will exceed 2 percent this year and next year. After that, it should return to target.",
+     "start": 11447,
+     "end": 11575
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

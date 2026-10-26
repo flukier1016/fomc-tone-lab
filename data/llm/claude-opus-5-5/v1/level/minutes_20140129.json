@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20140129",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20140129",
+  "doc_type": "minutes",
+  "text_sha256": "73f74af08236d74777385ff2f02d701f92232c54f978f09b7e13574686fe8191"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a5445eafbb33cbe819deec60cd2738de0b327d92439fb4fe35f5390f9eade774",
+ "message_id": "msg_011CgFugF3PMrhqe3nLUMwyD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13006,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"there should be a clear presumption in favor of continuing to reduce the pace of purchases by a total of $10 billion at each FOMC meeting\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A few participants raised the possibility that it might be appropriate to increase the federal funds rate relatively soon.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants noted that inflation persistently below the Committee's objective would pose risks to economic performance and that inflation developments would need to be monitored carefully.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants generally noted that economic activity had strengthened more in the second half of 2013 than they had expected at the time of the December meeting\"},{\"dimension\":\"risk_balance\",\"quote\":\"most participants still viewed the risks to the outlook for the economy and the labor market as having become more nearly balanced in recent months\"}],\"rationale\":\"The minutes show continued tapering, stronger growth, and a few participants floating earlier rate hikes, which leans modestly hawkish. Low-inflation concerns and the reaffirmed near-zero rate guidance roughly offset that lean, leaving the net signal near neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "there should be a clear presumption in favor of continuing to reduce the pace of purchases by a total of $10 billion at each FOMC meeting"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few participants raised the possibility that it might be appropriate to increase the federal funds rate relatively soon."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants noted that inflation persistently below the Committee's objective would pose risks to economic performance and that inflation developments would need to be monitored carefully."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants generally noted that economic activity had strengthened more in the second half of 2013 than they had expected at the time of the December meeting"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "most participants still viewed the risks to the outlook for the economy and the labor market as having become more nearly balanced in recent months"
+   }
+  ],
+  "rationale": "The minutes show continued tapering, stronger growth, and a few participants floating earlier rate hikes, which leans modestly hawkish. Low-inflation concerns and the reaffirmed near-zero rate guidance roughly offset that lean, leaving the net signal near neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "there should be a clear presumption in favor of continuing to reduce the pace of purchases by a total of $10 billion at each FOMC meeting",
+     "start": 30348,
+     "end": 30485
+    },
+    {
+     "quote": "A few participants raised the possibility that it might be appropriate to increase the federal funds rate relatively soon.",
+     "start": 32053,
+     "end": 32174
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent",
+     "start": 44174,
+     "end": 44342
+    },
+    {
+     "quote": "Participants noted that inflation persistently below the Committee's objective would pose risks to economic performance and that inflation developments would need to be monitored carefully.",
+     "start": 29426,
+     "end": 29614
+    },
+    {
+     "quote": "participants generally noted that economic activity had strengthened more in the second half of 2013 than they had expected at the time of the December meeting",
+     "start": 21837,
+     "end": 21996
+    },
+    {
+     "quote": "most participants still viewed the risks to the outlook for the economy and the labor market as having become more nearly balanced in recent months",
+     "start": 23296,
+     "end": 23443
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

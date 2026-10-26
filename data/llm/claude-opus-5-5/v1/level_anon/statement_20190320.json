@@ -1,0 +1,113 @@
+{
+ "key": "statement_20190320",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20190320",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "81d9576257692a23b7776ef1330328ddba2e1636cccb757574d33868b7d0a2a8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "03be5e5526d2e31550e6963675d6eb7cc4a90b750227e42098c5ac1500f48843",
+ "message_id": "msg_011CgFudx38jo3z5c31qsTtw",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 682,
+  "output_tokens": 477,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at [RANGE] percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"market-based measures of inflation compensation have remained low in recent months\"}],\"rationale\":\"The Committee holds rates and signals patience, citing global developments and muted inflation, which is a dovish pause relative to the prior tightening path. Slowing growth and low inflation compensation reinforce the dovish lean, though the labor market is described as strong.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at [RANGE] percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "market-based measures of inflation compensation have remained low in recent months"
+   }
+  ],
+  "rationale": "The Committee holds rates and signals patience, citing global developments and muted inflation, which is a dovish pause relative to the prior tightening path. Slowing growth and low inflation compensation reinforce the dovish lean, though the labor market is described as strong."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at [RANGE] percent",
+     "start": 969,
+     "end": 1065
+    },
+    {
+     "quote": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate",
+     "start": 1267,
+     "end": 1489
+    },
+    {
+     "quote": "the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter",
+     "start": 91,
+     "end": 212
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices",
+     "start": 484,
+     "end": 579
+    },
+    {
+     "quote": "market-based measures of inflation compensation have remained low in recent months",
+     "start": 664,
+     "end": 746
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

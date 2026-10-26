@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20140319",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20140319",
+  "doc_type": "minutes",
+  "text_sha256": "418f11c0c3c7b55c208c16d799a5e6528bba961b9db55369963e435ae9b2aa17"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f671884723efde16796d493c9da08ae6f02e9fef9de56554ec61e4bd1a35ad6c",
+ "message_id": "msg_011CgFugB32zAEfRXYH8AAGJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14917,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"A couple of participants expressed concern that inflation might not return to 2 percent in the next few years\"},{\"dimension\":\"balance_sheet\",\"quote\":\"members decided that it would be appropriate to make a further measured reduction in the pace of its asset purchases at this meeting.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the risks to the forecast for real GDP growth were viewed as tilted a little to the downside\"},{\"dimension\":\"overall\",\"quote\":\"Most participants favored providing an explicit indication in the statement that the new forward guidance, taken as a whole, did not imply a change in the Committee's policy intentions\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market indicators were mixed but on balance showed further improvement.\"}],\"rationale\":\"The minutes describe continued measured tapering but emphasize low inflation concerns, persistent slack, and new guidance that rates will stay below normal for some time after liftoff, with efforts to avoid any hawkish misinterpretation of the SEP dots. The net signal leans modestly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "A couple of participants expressed concern that inflation might not return to 2 percent in the next few years"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "members decided that it would be appropriate to make a further measured reduction in the pace of its asset purchases at this meeting."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the risks to the forecast for real GDP growth were viewed as tilted a little to the downside"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Most participants favored providing an explicit indication in the statement that the new forward guidance, taken as a whole, did not imply a change in the Committee's policy intentions"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market indicators were mixed but on balance showed further improvement."
+   }
+  ],
+  "rationale": "The minutes describe continued measured tapering but emphasize low inflation concerns, persistent slack, and new guidance that rates will stay below normal for some time after liftoff, with efforts to avoid any hawkish misinterpretation of the SEP dots. The net signal leans modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+     "start": 29567,
+     "end": 29713
+    },
+    {
+     "quote": "A couple of participants expressed concern that inflation might not return to 2 percent in the next few years",
+     "start": 24660,
+     "end": 24769
+    },
+    {
+     "quote": "members decided that it would be appropriate to make a further measured reduction in the pace of its asset purchases at this meeting.",
+     "start": 33442,
+     "end": 33574
+    },
+    {
+     "quote": "the risks to the forecast for real GDP growth were viewed as tilted a little to the downside",
+     "start": 18435,
+     "end": 18527
+    },
+    {
+     "quote": "Most participants favored providing an explicit indication in the statement that the new forward guidance, taken as a whole, did not imply a change in the Committee's policy intentions",
+     "start": 31179,
+     "end": 31363
+    },
+    {
+     "quote": "Labor market indicators were mixed but on balance showed further improvement.",
+     "start": 31700,
+     "end": 31776
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

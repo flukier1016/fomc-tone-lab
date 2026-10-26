@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20150330a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150330a",
+  "doc_type": "speech",
+  "text_sha256": "4814446b1b91dcb8af50d4d3642e7122a005b18a599ad87076df95638d81d057"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8df20a53ab019c15d9026bd4bb9c3feb019df297a1208e93661594b2a393b7fe",
+ "message_id": "msg_011CgFugGb9cLk2Fh6eEm5y5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5559,
+  "output_tokens": 350,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This evening I would like to take stock of progress on financial reforms in the nonbank financial sector and highlight some principles for approaching prudential regulation of this sector to further strengthen financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"To sum up, much has been done to strengthen prudential regulation and supervision of the nonbank financial system, but more will need to be done.\"},{\"dimension\":\"overall\",\"quote\":\"While there has been progress on the financial reform front, we should not be complacent about the stability of the financial system.\"}],\"rationale\":\"The speech addresses nonbank financial regulation and financial stability, with no discussion of interest rates, inflation, or the economic outlook. No monetary policy signal is present.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This evening I would like to take stock of progress on financial reforms in the nonbank financial sector and highlight some principles for approaching prudential regulation of this sector to further strengthen financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To sum up, much has been done to strengthen prudential regulation and supervision of the nonbank financial system, but more will need to be done."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While there has been progress on the financial reform front, we should not be complacent about the stability of the financial system."
+   }
+  ],
+  "rationale": "The speech addresses nonbank financial regulation and financial stability, with no discussion of interest rates, inflation, or the economic outlook. No monetary policy signal is present."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This evening I would like to take stock of progress on financial reforms in the nonbank financial sector and highlight some principles for approaching prudential regulation of this sector to further strengthen financial stability.",
+     "start": 396,
+     "end": 625
+    },
+    {
+     "quote": "To sum up, much has been done to strengthen prudential regulation and supervision of the nonbank financial system, but more will need to be done.",
+     "start": 17843,
+     "end": 17987
+    },
+    {
+     "quote": "While there has been progress on the financial reform front, we should not be complacent about the stability of the financial system.",
+     "start": 1082,
+     "end": 1214
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

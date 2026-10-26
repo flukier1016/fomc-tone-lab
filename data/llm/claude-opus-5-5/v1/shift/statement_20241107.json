@@ -1,0 +1,134 @@
+{
+ "key": "statement_20241107",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20241107",
+  "previous_doc_id": "statement_20240918",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3ed6d279bf9b23b6279acef72e60eafc07b8ed547d655db2fd8793fed2d784f1",
+ "message_id": "msg_011CgFudV6eQ9fNUFAhjZM36",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1465,
+  "output_tokens": 595,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Job gains have slowed, and the unemployment rate has moved up but remains low.\",\"after\":\"Since earlier in the year, labor market conditions have generally eased, and the unemployment rate has moved up but remains low.\",\"direction\":\"neutral\"},{\"before\":\"Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.\",\"after\":\"Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent, and judges that the risks to achieving its employment and inflation goals are roughly in balance.\",\"after\":\"The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance.\",\"direction\":\"hawkish\"},{\"before\":\"In light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.\",\"after\":\"In support of its goals, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"Voting against this action was Michelle W. Bowman, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee slowed the pace of easing from 50 to 25 basis points, dropped the 'greater confidence' on inflation and the word 'further' on inflation progress. That modestly tempers the dovish signal, though the easing direction is unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Job gains have slowed, and the unemployment rate has moved up but remains low.",
+    "after": "Since earlier in the year, labor market conditions have generally eased, and the unemployment rate has moved up but remains low.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+    "after": "Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent, and judges that the risks to achieving its employment and inflation goals are roughly in balance.",
+    "after": "The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+    "after": "In support of its goals, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against this action was Michelle W. Bowman, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee slowed the pace of easing from 50 to 25 basis points, dropped the 'greater confidence' on inflation and the word 'further' on inflation progress. That modestly tempers the dovish signal, though the easing direction is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Job gains have slowed, and the unemployment rate has moved up but remains low.",
+     "start": 90,
+     "end": 167
+    },
+    {
+     "quote": "Inflation has made further progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+     "start": 169,
+     "end": 277
+    },
+    {
+     "quote": "The Committee has gained greater confidence that inflation is moving sustainably toward 2 percent, and judges that the risks to achieving its employment and inflation goals are roughly in balance.",
+     "start": 390,
+     "end": 585
+    },
+    {
+     "quote": "In light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+     "start": 702,
+     "end": 886
+    },
+    {
+     "quote": "Voting against this action was Michelle W. Bowman, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 2133,
+     "end": 2290
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Since earlier in the year, labor market conditions have generally eased, and the unemployment rate has moved up but remains low.",
+     "start": 90,
+     "end": 217
+    },
+    {
+     "quote": "Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+     "start": 219,
+     "end": 319
+    },
+    {
+     "quote": "The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance.",
+     "start": 432,
+     "end": 538
+    },
+    {
+     "quote": "In support of its goals, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent.",
+     "start": 655,
+     "end": 804
+    }
+   ]
+  }
+ }
+}

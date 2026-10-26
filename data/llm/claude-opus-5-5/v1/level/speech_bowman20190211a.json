@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20190211a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20190211a",
+  "doc_type": "speech",
+  "text_sha256": "a225e18d7201a739967b552d86753d138c55a1aee3b8b1c1cd46f1e2acec8495"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d1d3ac1ab67977d7f3116fe0b7d1297ffc3aed504c654e58734300c2e6fca283",
+ "message_id": "msg_011CgFugBTagQqtw1mghCN3i",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3399,
+  "output_tokens": 350,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is a pleasure to be here today to talk about the Federal Reserve's commitment to and oversight of community banking.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve and other federal banking agencies have demonstrated a commitment to reducing regulatory burden, especially on community banks, while maintaining safety and soundness.\"},{\"dimension\":\"overall\",\"quote\":\"In fact, given the sound condition of the banking industry, there were no community bank failures in 2018.\"}],\"rationale\":\"The speech covers community bank supervision and regulatory tailoring and offers no view on monetary policy, inflation or the macroeconomic outlook. Its policy relevance is low and its stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is a pleasure to be here today to talk about the Federal Reserve's commitment to and oversight of community banking."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve and other federal banking agencies have demonstrated a commitment to reducing regulatory burden, especially on community banks, while maintaining safety and soundness."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In fact, given the sound condition of the banking industry, there were no community bank failures in 2018."
+   }
+  ],
+  "rationale": "The speech covers community bank supervision and regulatory tailoring and offers no view on monetary policy, inflation or the macroeconomic outlook. Its policy relevance is low and its stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is a pleasure to be here today to talk about the Federal Reserve's commitment to and oversight of community banking.",
+     "start": 14,
+     "end": 132
+    },
+    {
+     "quote": "The Federal Reserve and other federal banking agencies have demonstrated a commitment to reducing regulatory burden, especially on community banks, while maintaining safety and soundness.",
+     "start": 7485,
+     "end": 7671
+    },
+    {
+     "quote": "In fact, given the sound condition of the banking industry, there were no community bank failures in 2018.",
+     "start": 5746,
+     "end": 5851
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

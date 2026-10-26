@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20250820a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250820a",
+  "doc_type": "speech",
+  "text_sha256": "e7491030eea9c56652fefe5c9778a7c336a24fac65067bdfcdb2ca0acda13874"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7edabe159a678f10d0406a1333f6b41fa63afa96761876fdf144bb3ef9fa0ab5",
+ "message_id": "msg_011CgFugHbfweMUo19wXC1mY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2956,
+  "output_tokens": 311,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thank you for inviting me to speak today on payments innovation.\"},{\"dimension\":\"overall\",\"quote\":\"Stablecoins are the latest example of private sector-led innovation in payments.\"},{\"dimension\":\"overall\",\"quote\":\"That is why it is important for the Federal Reserve to continue to embrace technological advancements to modernize its services and continue to support private sector innovation.\"}],\"rationale\":\"The speech is about payments innovation, stablecoins, and AI, and does not address monetary policy, inflation, or the economic outlook. All policy dimensions are null and the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thank you for inviting me to speak today on payments innovation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Stablecoins are the latest example of private sector-led innovation in payments."
+   },
+   {
+    "dimension": "overall",
+    "quote": "That is why it is important for the Federal Reserve to continue to embrace technological advancements to modernize its services and continue to support private sector innovation."
+   }
+  ],
+  "rationale": "The speech is about payments innovation, stablecoins, and AI, and does not address monetary policy, inflation, or the economic outlook. All policy dimensions are null and the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thank you for inviting me to speak today on payments innovation.",
+     "start": 0,
+     "end": 63
+    },
+    {
+     "quote": "Stablecoins are the latest example of private sector-led innovation in payments.",
+     "start": 4871,
+     "end": 4950
+    },
+    {
+     "quote": "That is why it is important for the Federal Reserve to continue to embrace technological advancements to modernize its services and continue to support private sector innovation.",
+     "start": 9265,
+     "end": 9442
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

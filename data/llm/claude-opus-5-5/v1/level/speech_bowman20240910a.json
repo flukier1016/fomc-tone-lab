@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240910a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240910a",
+  "doc_type": "speech",
+  "text_sha256": "03180c7c2154b4996880af27c4ed65dba2c14a93ac1ba904da244509182292df"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "849e0a438cdebb7f4f0eae9cb24f74f2295bade95405669a4e3db1a4dd2f6415",
+ "message_id": "msg_011CgFugG3fBZ58zWX3QvZZ8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7081,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Given the recent conclusion of the Board's stress test, it seems timely to share my thoughts on the stress testing program.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, an up-calibration of capital requirements through an expanded scenario-testing regime would not be supportable based on the underlying risks.\"},{\"dimension\":\"overall\",\"quote\":\"Third, we should adjust the compliance framework for stress capital buffers.\"}],\"rationale\":\"The speech addresses bank stress testing and capital regulation, not monetary policy, inflation, or the economic outlook. It offers no signal on rates or the balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Given the recent conclusion of the Board's stress test, it seems timely to share my thoughts on the stress testing program."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, an up-calibration of capital requirements through an expanded scenario-testing regime would not be supportable based on the underlying risks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Third, we should adjust the compliance framework for stress capital buffers."
+   }
+  ],
+  "rationale": "The speech addresses bank stress testing and capital regulation, not monetary policy, inflation, or the economic outlook. It offers no signal on rates or the balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given the recent conclusion of the Board's stress test, it seems timely to share my thoughts on the stress testing program.",
+     "start": 44,
+     "end": 166
+    },
+    {
+     "quote": "In my view, an up-calibration of capital requirements through an expanded scenario-testing regime would not be supportable based on the underlying risks.",
+     "start": 12673,
+     "end": 12825
+    },
+    {
+     "quote": "Third, we should adjust the compliance framework for stress capital buffers.",
+     "start": 22961,
+     "end": 23036
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

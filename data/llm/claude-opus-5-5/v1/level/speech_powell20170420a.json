@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20170420a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170420a",
+  "doc_type": "speech",
+  "text_sha256": "f85226936287c571afda73c5b75f554f3e522ecc81d4a21e723368559d0209e2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9e0192f3907dd32014975f6eb4ec36615380fd8533c40edadde0e38ab8f83939",
+ "message_id": "msg_011CgFugFXejVqLCDFAPpeqm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2262,
+  "output_tokens": 419,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"And with unemployment at 4.5 percent, we are at or close to full employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although job growth has been strong, gross domestic product has increased only about 2 percent annually since the crisis, held down by the weakest sustained period of labor productivity growth since World War II.\"},{\"dimension\":\"overall\",\"quote\":\"For the most part, these policies are not in the purview of the Federal Reserve.\"},{\"dimension\":\"overall\",\"quote\":\"I support adjustments designed to enhance the efficiency and effectiveness of regulation without sacrificing safety and soundness or undermining macroprudential goals.\"}],\"rationale\":\"The speech focuses on financial regulation and its post-crisis reforms, offering no view on interest rates or inflation. Its description of the economy, near full employment but with weak productivity, is balanced, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "And with unemployment at 4.5 percent, we are at or close to full employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although job growth has been strong, gross domestic product has increased only about 2 percent annually since the crisis, held down by the weakest sustained period of labor productivity growth since World War II."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For the most part, these policies are not in the purview of the Federal Reserve."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I support adjustments designed to enhance the efficiency and effectiveness of regulation without sacrificing safety and soundness or undermining macroprudential goals."
+   }
+  ],
+  "rationale": "The speech focuses on financial regulation and its post-crisis reforms, offering no view on interest rates or inflation. Its description of the economy, near full employment but with weak productivity, is balanced, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "And with unemployment at 4.5 percent, we are at or close to full employment.",
+     "start": 1972,
+     "end": 2047
+    },
+    {
+     "quote": "Although job growth has been strong, gross domestic product has increased only about 2 percent annually since the crisis, held down by the weakest sustained period of labor productivity growth since World War II.",
+     "start": 2071,
+     "end": 2282
+    },
+    {
+     "quote": "For the most part, these policies are not in the purview of the Federal Reserve.",
+     "start": 3014,
+     "end": 3093
+    },
+    {
+     "quote": "I support adjustments designed to enhance the efficiency and effectiveness of regulation without sacrificing safety and soundness or undermining macroprudential goals.",
+     "start": 6375,
+     "end": 6541
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

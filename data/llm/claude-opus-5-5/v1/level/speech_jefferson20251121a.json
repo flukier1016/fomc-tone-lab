@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20251121a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20251121a",
+  "doc_type": "speech",
+  "text_sha256": "cbfaf15e0a59561f21c9f6e7fb4ff7fef333af492ea201469e6d11837e44b98e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5c650b16ce31fa845f2ced43169c69497c96242348886653110d6d073df6e261",
+ "message_id": "msg_011CgFugDLSeXPC6Uj3cq6g2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4090,
+  "output_tokens": 497,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"AI could help the economy achieve higher growth through increased productivity while reducing inflationary pressures.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"For the overall economy, one way to think about AI-related job losses—at least until it creates new jobs—is that AI can create economic slack.\"},{\"dimension\":\"overall\",\"quote\":\"In terms of AI's implications for monetary policy, it is likely still too soon to tell.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants noted that if such an unwinding were to occur, it could tighten financial conditions and restrain economic activity more broadly.\"},{\"dimension\":\"overall\",\"quote\":\"The financial system remains sound and resilient, with high levels of risk appetite and leverage at hedge funds balanced by strong household and business balance sheets and high levels of capital in the banking system.\"}],\"rationale\":\"The speech is mainly about AI and financial stability and gives no policy-path signal. It leans slightly dovish by highlighting AI-driven slack, disinflationary productivity and downside sentiment risks, though these are balanced by caveats and uncertainty.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "AI could help the economy achieve higher growth through increased productivity while reducing inflationary pressures."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "For the overall economy, one way to think about AI-related job losses—at least until it creates new jobs—is that AI can create economic slack."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In terms of AI's implications for monetary policy, it is likely still too soon to tell."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants noted that if such an unwinding were to occur, it could tighten financial conditions and restrain economic activity more broadly."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The financial system remains sound and resilient, with high levels of risk appetite and leverage at hedge funds balanced by strong household and business balance sheets and high levels of capital in the banking system."
+   }
+  ],
+  "rationale": "The speech is mainly about AI and financial stability and gives no policy-path signal. It leans slightly dovish by highlighting AI-driven slack, disinflationary productivity and downside sentiment risks, though these are balanced by caveats and uncertainty."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "AI could help the economy achieve higher growth through increased productivity while reducing inflationary pressures.",
+     "start": 4785,
+     "end": 4901
+    },
+    {
+     "quote": "For the overall economy, one way to think about AI-related job losses—at least until it creates new jobs—is that AI can create economic slack.",
+     "start": 4173,
+     "end": 4314
+    },
+    {
+     "quote": "In terms of AI's implications for monetary policy, it is likely still too soon to tell.",
+     "start": 5791,
+     "end": 5877
+    },
+    {
+     "quote": "Participants noted that if such an unwinding were to occur, it could tighten financial conditions and restrain economic activity more broadly.",
+     "start": 7652,
+     "end": 7793
+    },
+    {
+     "quote": "The financial system remains sound and resilient, with high levels of risk appetite and leverage at hedge funds balanced by strong household and business balance sheets and high levels of capital in the banking system.",
+     "start": 6632,
+     "end": 6849
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

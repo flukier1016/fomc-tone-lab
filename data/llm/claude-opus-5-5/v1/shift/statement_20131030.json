@@ -1,0 +1,124 @@
+{
+ "key": "statement_20131030",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20131030",
+  "previous_doc_id": "statement_20130918",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f8af69af9e9319e0dbbf1b7d98b856476780aa162f7cfeebc89197844b16d0a",
+ "message_id": "msg_011CgFudUTSq3CJ7jFbtbCrf",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3192,
+  "output_tokens": 623,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.\",\"after\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall.\",\"direction\":\"hawkish\"},{\"before\":\"Household spending and business fixed investment advanced, and the housing sector has been strengthening, but mortgage rates have risen further and fiscal policy is restraining economic growth.\",\"after\":\"Available data suggest that household spending and business fixed investment advanced, while the recovery in the housing sector slowed somewhat in recent months.\",\"direction\":\"dovish\"},{\"before\":\"Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.\",\"after\":\"Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated.\",\"direction\":\"neutral\"},{\"before\":\"Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.\",\"after\":\"Taking into account the extent of federal fiscal retrenchment over the past year, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program as consistent with growing underlying strength in the broader economy.\",\"direction\":\"neutral\"}],\"rationale\":\"Dropping the warning that tightening financial conditions could slow improvement removes a key reason for delaying tapering, a modestly hawkish shift, partly offset by a softer housing assessment. Purchase pace and forward guidance are unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+    "after": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending and business fixed investment advanced, and the housing sector has been strengthening, but mortgage rates have risen further and fiscal policy is restraining economic growth.",
+    "after": "Available data suggest that household spending and business fixed investment advanced, while the recovery in the housing sector slowed somewhat in recent months.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.",
+    "after": "Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.",
+    "after": "Taking into account the extent of federal fiscal retrenchment over the past year, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program as consistent with growing underlying strength in the broader economy.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Dropping the warning that tightening financial conditions could slow improvement removes a key reason for delaying tapering, a modestly hawkish shift, partly offset by a softer housing assessment. Purchase pace and forward guidance are unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall, but the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+     "start": 1008,
+     "end": 1295
+    },
+    {
+     "quote": "Household spending and business fixed investment advanced, and the housing sector has been strengthening, but mortgage rates have risen further and fiscal policy is restraining economic growth.",
+     "start": 280,
+     "end": 472
+    },
+    {
+     "quote": "Some indicators of labor market conditions have shown further improvement in recent months, but the unemployment rate remains elevated.",
+     "start": 144,
+     "end": 278
+    },
+    {
+     "quote": "Taking into account the extent of federal fiscal retrenchment, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program a year ago as consistent with growing underlying strength in the broader economy.",
+     "start": 1515,
+     "end": 1784
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall.",
+     "start": 1025,
+     "end": 1160
+    },
+    {
+     "quote": "Available data suggest that household spending and business fixed investment advanced, while the recovery in the housing sector slowed somewhat in recent months.",
+     "start": 283,
+     "end": 443
+    },
+    {
+     "quote": "Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated.",
+     "start": 164,
+     "end": 281
+    },
+    {
+     "quote": "Taking into account the extent of federal fiscal retrenchment over the past year, the Committee sees the improvement in economic activity and labor market conditions since it began its asset purchase program as consistent with growing underlying strength in the broader economy.",
+     "start": 1380,
+     "end": 1657
+    }
+   ]
+  }
+ }
+}

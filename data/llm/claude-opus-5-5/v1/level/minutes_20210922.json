@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20210922",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20210922",
+  "doc_type": "minutes",
+  "text_sha256": "f66b591015a7165cf6db583d8d1f2294478536a8302babb739e5cd99d92e37e1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "30cdef54a76499ce56751f663b0505cc3f1e766f31c1414ec60f070d51cf0164",
+ "message_id": "msg_011CgFugBpf8BXxXMLedPWv6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15787,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"participants generally assessed that, provided that the economic recovery remained broadly on track, a gradual tapering process that concluded around the middle of next year would likely be appropriate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Several participants indicated that they preferred to proceed with a more rapid moderation of purchases than described in the illustrative examples.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a number of participants raised the possibility of beginning to increase the target range by the end of next year\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most participants saw inflation risks as weighted to the upside because of concerns that supply disruptions and labor shortages might last longer\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation was elevated, largely reflecting transitory factors.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally saw the risks to the outlook for economic activity as broadly balanced.\"}],\"rationale\":\"The minutes signal imminent tapering, with some participants favoring faster runoff and liftoff by end-2022, and they describe inflation risks as tilted upside. This is offset partly by the transitory framing and by participants who prefer keeping rates near zero for years.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "participants generally assessed that, provided that the economic recovery remained broadly on track, a gradual tapering process that concluded around the middle of next year would likely be appropriate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Several participants indicated that they preferred to proceed with a more rapid moderation of purchases than described in the illustrative examples."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a number of participants raised the possibility of beginning to increase the target range by the end of next year"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most participants saw inflation risks as weighted to the upside because of concerns that supply disruptions and labor shortages might last longer"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation was elevated, largely reflecting transitory factors."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally saw the risks to the outlook for economic activity as broadly balanced."
+   }
+  ],
+  "rationale": "The minutes signal imminent tapering, with some participants favoring faster runoff and liftoff by end-2022, and they describe inflation risks as tilted upside. This is offset partly by the transitory framing and by participants who prefer keeping rates near zero for years."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "participants generally assessed that, provided that the economic recovery remained broadly on track, a gradual tapering process that concluded around the middle of next year would likely be appropriate.",
+     "start": 38641,
+     "end": 38842
+    },
+    {
+     "quote": "Several participants indicated that they preferred to proceed with a more rapid moderation of purchases than described in the illustrative examples.",
+     "start": 38402,
+     "end": 38549
+    },
+    {
+     "quote": "a number of participants raised the possibility of beginning to increase the target range by the end of next year",
+     "start": 42011,
+     "end": 42124
+    },
+    {
+     "quote": "Most participants saw inflation risks as weighted to the upside because of concerns that supply disruptions and labor shortages might last longer",
+     "start": 33076,
+     "end": 33221
+    },
+    {
+     "quote": "Inflation was elevated, largely reflecting transitory factors.",
+     "start": 23680,
+     "end": 23741
+    },
+    {
+     "quote": "Participants generally saw the risks to the outlook for economic activity as broadly balanced.",
+     "start": 32542,
+     "end": 32635
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

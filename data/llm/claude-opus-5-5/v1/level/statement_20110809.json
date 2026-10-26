@@ -1,0 +1,121 @@
+{
+ "key": "statement_20110809",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20110809",
+  "doc_type": "statement",
+  "text_sha256": "d383652861eed3bc0d0abd332ec2e1d3b924a99e69b23251af7e159f063f0563"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f35324d8d90eead3962b9543dc1c2c65fde1ec7ee6718f12cd6ac3e5b567c5a",
+ "message_id": "msg_011CgFug9sqHyQ79krogkbzS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1072,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic growth so far this year has been considerably slower than the Committee had expected\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, downside risks to the economic outlook have increased.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate.\"},{\"dimension\":\"overall\",\"quote\":\"The Committee discussed the range of policy tools available to promote a stronger economic recovery in a context of price stability.\"}],\"rationale\":\"The statement converts open-ended guidance into a calendar commitment to near-zero rates through at least mid-2013, citing weakening growth, rising unemployment, increased downside risks, and subdued inflation. It also signals readiness to use additional tools, including adjustments to its securities holdings, which makes it strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic growth so far this year has been considerably slower than the Committee had expected"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, downside risks to the economic outlook have increased."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Committee discussed the range of policy tools available to promote a stronger economic recovery in a context of price stability."
+   }
+  ],
+  "rationale": "The statement converts open-ended guidance into a calendar commitment to near-zero rates through at least mid-2013, citing weakening growth, rising unemployment, increased downside risks, and subdued inflation. It also signals readiness to use additional tools, including adjustments to its securities holdings, which makes it strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013",
+     "start": 2341,
+     "end": 2440
+    },
+    {
+     "quote": "economic growth so far this year has been considerably slower than the Committee had expected",
+     "start": 88,
+     "end": 181
+    },
+    {
+     "quote": "Moreover, downside risks to the economic outlook have increased.",
+     "start": 1525,
+     "end": 1588
+    },
+    {
+     "quote": "inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate",
+     "start": 1626,
+     "end": 1743
+    },
+    {
+     "quote": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate.",
+     "start": 2559,
+     "end": 2702
+    },
+    {
+     "quote": "The Committee discussed the range of policy tools available to promote a stronger economic recovery in a context of price stability.",
+     "start": 2705,
+     "end": 2836
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

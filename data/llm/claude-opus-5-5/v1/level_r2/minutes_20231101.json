@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20231101",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20231101",
+  "doc_type": "minutes",
+  "text_sha256": "0b467df98bc39e12925a42b94d20ec39c31db54571d1d6c14cc3e870e4f75a69"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ea88b1b50d4401d096aac6fe812965633a0a3c041628e47ae78cba895b1ce31d",
+ "message_id": "msg_011CgG27mapJUoZKyvtXYMCn",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 11913,
+  "output_tokens": 593,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants noted that economic activity expanded at a strong pace in the third quarter and had been resilient.\"}],\"rationale\":\"The minutes keep a tightening bias with policy held restrictive 'for some time', stress unacceptably high inflation and upside inflation risks, and note continued runoff. This is tempered by acknowledgment that risks have become more two-sided and that financial conditions have tightened significantly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants noted that economic activity expanded at a strong pace in the third quarter and had been resilient."
+   }
+  ],
+  "rationale": "The minutes keep a tightening bias with policy held restrictive 'for some time', stress unacceptably high inflation and upside inflation risks, and note continued runoff. This is tempered by acknowledgment that risks have become more two-sided and that financial conditions have tightened significantly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient.",
+     "start": 30729,
+     "end": 30919
+    },
+    {
+     "quote": "All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective.",
+     "start": 31407,
+     "end": 31602
+    },
+    {
+     "quote": "stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent.",
+     "start": 18980,
+     "end": 19098
+    },
+    {
+     "quote": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation.",
+     "start": 32440,
+     "end": 32606
+    },
+    {
+     "quote": "A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.",
+     "start": 31810,
+     "end": 31991
+    },
+    {
+     "quote": "participants noted that economic activity expanded at a strong pace in the third quarter and had been resilient.",
+     "start": 28488,
+     "end": 28599
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

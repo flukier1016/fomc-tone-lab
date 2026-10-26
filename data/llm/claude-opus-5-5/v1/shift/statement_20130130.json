@@ -1,0 +1,149 @@
+{
+ "key": "statement_20130130",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20130130",
+  "previous_doc_id": "statement_20121212",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a305fc0d4d4710971b6013b57167ae8147d4bea461b15a59e0af8474236cc989",
+ "message_id": "msg_011CgFudUnYTAsnvpmcg2Fo1",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2762,
+  "output_tokens": 793,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in October suggests that economic activity and employment have continued to expand at a moderate pace in recent months, apart from weather-related disruptions.\",\"after\":\"Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.\",\"direction\":\"dovish\"},{\"before\":\"Household spending has continued to advance, and the housing sector has shown further signs of improvement, but growth in business fixed investment has slowed.\",\"after\":\"Household spending and business fixed investment advanced, and the housing sector has shown further improvement.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee remains concerned that, without sufficient policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.\",\"after\":\"The Committee expects that, with appropriate policy accommodation, economic growth will proceed at a moderate pace and the unemployment rate will gradually decline toward levels the Committee judges consistent with its dual mandate.\",\"direction\":\"hawkish\"},{\"before\":\"Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.\",\"after\":\"Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee views these thresholds as consistent with its earlier date-based guidance.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action was Jeffrey M. Lacker, who opposed the asset purchase program and the characterization of the conditions under which an exceptionally low range for the federal funds rate will be appropriate.\",\"after\":\"Voting against the action was Esther L. George, who was concerned that the continued high level of monetary accommodation increased the risks of future economic and financial imbalances and, over time, could cause an increase in long-term inflation expectations.\",\"direction\":\"neutral\"}],\"rationale\":\"Policy settings, purchase pace and threshold guidance are unchanged; the outlook is somewhat more confident (eased global strains, expected gradual unemployment decline), offset by a reported pause in growth attributed to transitory factors. Net signal is essentially unchanged, with only a slight hawkish tilt in the risk assessment.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in October suggests that economic activity and employment have continued to expand at a moderate pace in recent months, apart from weather-related disruptions.",
+    "after": "Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Household spending has continued to advance, and the housing sector has shown further signs of improvement, but growth in business fixed investment has slowed.",
+    "after": "Household spending and business fixed investment advanced, and the housing sector has shown further improvement.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee remains concerned that, without sufficient policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.",
+    "after": "The Committee expects that, with appropriate policy accommodation, economic growth will proceed at a moderate pace and the unemployment rate will gradually decline toward levels the Committee judges consistent with its dual mandate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+    "after": "Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee views these thresholds as consistent with its earlier date-based guidance.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action was Jeffrey M. Lacker, who opposed the asset purchase program and the characterization of the conditions under which an exceptionally low range for the federal funds rate will be appropriate.",
+    "after": "Voting against the action was Esther L. George, who was concerned that the continued high level of monetary accommodation increased the risks of future economic and financial imbalances and, over time, could cause an increase in long-term inflation expectations.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Policy settings, purchase pace and threshold guidance are unchanged; the outlook is somewhat more confident (eased global strains, expected gradual unemployment decline), offset by a reported pause in growth attributed to transitory factors. Net signal is essentially unchanged, with only a slight hawkish tilt in the risk assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in October suggests that economic activity and employment have continued to expand at a moderate pace in recent months, apart from weather-related disruptions.",
+     "start": 0,
+     "end": 223
+    },
+    {
+     "quote": "Household spending has continued to advance, and the housing sector has shown further signs of improvement, but growth in business fixed investment has slowed.",
+     "start": 317,
+     "end": 475
+    },
+    {
+     "quote": "The Committee remains concerned that, without sufficient policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.",
+     "start": 808,
+     "end": 990
+    },
+    {
+     "quote": "Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 992,
+     "end": 1108
+    },
+    {
+     "quote": "The Committee views these thresholds as consistent with its earlier date-based guidance.",
+     "start": 3542,
+     "end": 3629
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who opposed the asset purchase program and the characterization of the conditions under which an exceptionally low range for the federal funds rate will be appropriate.",
+     "start": 4397,
+     "end": 4613
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.",
+     "start": 0,
+     "end": 225
+    },
+    {
+     "quote": "Household spending and business fixed investment advanced, and the housing sector has shown further improvement.",
+     "start": 325,
+     "end": 436
+    },
+    {
+     "quote": "The Committee expects that, with appropriate policy accommodation, economic growth will proceed at a moderate pace and the unemployment rate will gradually decline toward levels the Committee judges consistent with its dual mandate.",
+     "start": 769,
+     "end": 1000
+    },
+    {
+     "quote": "Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.",
+     "start": 1002,
+     "end": 1137
+    },
+    {
+     "quote": "Voting against the action was Esther L. George, who was concerned that the continued high level of monetary accommodation increased the risks of future economic and financial imbalances and, over time, could cause an increase in long-term inflation expectations.",
+     "start": 4147,
+     "end": 4408
+    }
+   ]
+  }
+ }
+}

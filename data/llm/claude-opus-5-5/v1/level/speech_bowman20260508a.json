@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20260508a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260508a",
+  "doc_type": "speech",
+  "text_sha256": "6015748b2615c6699e2c6ae895f54fb0b78db86ec978c8c790f960578fc5e0bf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a57603056235883059a4e077cd3c4ae8b79597427d8cfd72973b85464bb696f4",
+ "message_id": "msg_011CgFugEarARGSCcTBMHgwx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3785,
+  "output_tokens": 389,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Instead of talking about monetary policy, my remarks will focus on this topic.\"},{\"dimension\":\"overall\",\"quote\":\"Therefore, my remarks will focus on private credit funds, and business development companies (BDCs), and will consider the circumstances that lead to this outmigration, the implications of banks exiting these services, and the Federal Reserve's policy response.\"},{\"dimension\":\"overall\",\"quote\":\"For bank lending to corporations and businesses, the proposal would generally reduce the risk weight from 100 percent to 65 percent for corporates considered to be investment grade by the lending bank.\"}],\"rationale\":\"The speech is explicitly about bank regulation, capital rules, and private credit rather than monetary policy. It offers no view on rates, inflation, the labor market, or the balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Instead of talking about monetary policy, my remarks will focus on this topic."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Therefore, my remarks will focus on private credit funds, and business development companies (BDCs), and will consider the circumstances that lead to this outmigration, the implications of banks exiting these services, and the Federal Reserve's policy response."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For bank lending to corporations and businesses, the proposal would generally reduce the risk weight from 100 percent to 65 percent for corporates considered to be investment grade by the lending bank."
+   }
+  ],
+  "rationale": "The speech is explicitly about bank regulation, capital rules, and private credit rather than monetary policy. It offers no view on rates, inflation, the labor market, or the balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Instead of talking about monetary policy, my remarks will focus on this topic.",
+     "start": 364,
+     "end": 441
+    },
+    {
+     "quote": "Therefore, my remarks will focus on private credit funds, and business development companies (BDCs), and will consider the circumstances that lead to this outmigration, the implications of banks exiting these services, and the Federal Reserve's policy response.",
+     "start": 1037,
+     "end": 1297
+    },
+    {
+     "quote": "For bank lending to corporations and businesses, the proposal would generally reduce the risk weight from 100 percent to 65 percent for corporates considered to be investment grade by the lending bank.",
+     "start": 5854,
+     "end": 6054
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

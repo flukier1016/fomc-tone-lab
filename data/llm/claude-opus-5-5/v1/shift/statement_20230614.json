@@ -1,0 +1,124 @@
+{
+ "key": "statement_20230614",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20230614",
+  "previous_doc_id": "statement_20230503",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3e3d57e14335a807cf248a2edc2313308897d098294d2f9a2c20a592ecceee5b",
+ "message_id": "msg_011CgFudXhufXvjaDXmsFQTF",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1446,
+  "output_tokens": 577,
+  "output_tokens_details": {
+   "thinking_tokens": 162
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.\",\"after\":\"In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5 to 5-1/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will closely monitor incoming information and assess the implications for monetary policy.\",\"after\":\"Holding the target range steady at this meeting allows the Committee to assess additional information and its implications for monetary policy.\",\"direction\":\"dovish\"},{\"before\":\"In determining the extent to which additional policy firming may be appropriate\",\"after\":\"In determining the extent of additional policy firming that may be appropriate\",\"direction\":\"hawkish\"},{\"before\":\"Economic activity expanded at a modest pace in the first quarter.\",\"after\":\"Recent indicators suggest that economic activity has continued to expand at a modest pace.\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee paused after a hike, which is a dovish shift in the policy action, framed as a chance to assess more information. The revised guidance wording, however, more strongly presumes further firming, so the tightening bias remains and limits the dovish move.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.",
+    "after": "In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5 to 5-1/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+    "after": "Holding the target range steady at this meeting allows the Committee to assess additional information and its implications for monetary policy.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In determining the extent to which additional policy firming may be appropriate",
+    "after": "In determining the extent of additional policy firming that may be appropriate",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Economic activity expanded at a modest pace in the first quarter.",
+    "after": "Recent indicators suggest that economic activity has continued to expand at a modest pace.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee paused after a hike, which is a dovish shift in the policy action, framed as a chance to assess more information. The revised guidance wording, however, more strongly presumes further firming, so the tightening bias remains and limits the dovish move."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.",
+     "start": 570,
+     "end": 693
+    },
+    {
+     "quote": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+     "start": 695,
+     "end": 798
+    },
+    {
+     "quote": "In determining the extent to which additional policy firming may be appropriate",
+     "start": 800,
+     "end": 879
+    },
+    {
+     "quote": "Economic activity expanded at a modest pace in the first quarter.",
+     "start": 0,
+     "end": 64
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 5 to 5-1/4 percent.",
+     "start": 595,
+     "end": 721
+    },
+    {
+     "quote": "Holding the target range steady at this meeting allows the Committee to assess additional information and its implications for monetary policy.",
+     "start": 723,
+     "end": 865
+    },
+    {
+     "quote": "In determining the extent of additional policy firming that may be appropriate",
+     "start": 867,
+     "end": 945
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has continued to expand at a modest pace.",
+     "start": 0,
+     "end": 89
+    }
+   ]
+  }
+ }
+}

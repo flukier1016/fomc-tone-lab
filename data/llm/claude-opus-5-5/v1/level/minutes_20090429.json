@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20090429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20090429",
+  "doc_type": "minutes",
+  "text_sha256": "068e68dd51c018294e6b156756a091e7df25a281b6dbf662a9d70181413dd7c7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a965f3eb2ef9a084e667e8c195148e6aeb05a9ec43f7d2a590b8015ceed36fb4",
+ "message_id": "msg_011CgFug9NKfZbuhA4hCWUtM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11863,
+  "output_tokens": 570,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Some members noted that a further increase in the total amount of purchases might well be warranted at some point to spur a more rapid pace of recovery\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Moreover, the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, participants continued to see significant downside risks to the economic outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions were still deteriorating.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee anticipates that the combination of outright purchases and various liquidity facilities outstanding will cause the size of the Federal Reserve's balance sheet to expand significantly in coming months.\"}],\"rationale\":\"The minutes reaffirm near-zero rates for an extended period and large-scale asset purchases, with some members open to expanding them, amid downside growth risks and a risk of inflation persisting below target. Modest improvement in the outlook and a few concerns about future inflation only slightly temper a clearly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Some members noted that a further increase in the total amount of purchases might well be warranted at some point to spur a more rapid pace of recovery"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Moreover, the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, participants continued to see significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions were still deteriorating."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee anticipates that the combination of outright purchases and various liquidity facilities outstanding will cause the size of the Federal Reserve's balance sheet to expand significantly in coming months."
+   }
+  ],
+  "rationale": "The minutes reaffirm near-zero rates for an extended period and large-scale asset purchases, with some members open to expanding them, amid downside growth risks and a risk of inflation persisting below target. Modest improvement in the outlook and a few concerns about future inflation only slightly temper a clearly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 37392,
+     "end": 37524
+    },
+    {
+     "quote": "Some members noted that a further increase in the total amount of purchases might well be warranted at some point to spur a more rapid pace of recovery",
+     "start": 33048,
+     "end": 33199
+    },
+    {
+     "quote": "Moreover, the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.",
+     "start": 36993,
+     "end": 37155
+    },
+    {
+     "quote": "Moreover, participants continued to see significant downside risks to the economic outlook.",
+     "start": 29318,
+     "end": 29408
+    },
+    {
+     "quote": "Labor market conditions were still deteriorating.",
+     "start": 26615,
+     "end": 26663
+    },
+    {
+     "quote": "The Committee anticipates that the combination of outright purchases and various liquidity facilities outstanding will cause the size of the Federal Reserve's balance sheet to expand significantly in coming months.",
+     "start": 34943,
+     "end": 35156
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

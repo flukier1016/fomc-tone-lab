@@ -1,0 +1,112 @@
+{
+ "key": "statement_20090812",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20090812",
+  "doc_type": "statement",
+  "text_sha256": "1a8114c97c3b013c1fa08ecf735b887f07f3b4da04ab379c7974fc03a3c306cb"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8431b9f01598707f2c0000dcf77b856eba81155ece9d8c90b408c50d3e38ead8",
+ "message_id": "msg_011CgG27ng3pXGeoRvb2rqXR",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 882,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although economic activity is likely to remain weak for a time\"}],\"rationale\":\"The Committee holds rates at zero with extended-period guidance and continues large asset purchases amid subdued inflation and weak activity. Slight improvement in the outlook and the tapering of Treasury purchases temper the dovishness modestly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although economic activity is likely to remain weak for a time"
+   }
+  ],
+  "rationale": "The Committee holds rates at zero with extended-period guidance and continues large asset purchases amid subdued inflation and weak activity. Slight improvement in the outlook and the tapering of Treasury purchases temper the dovishness modestly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 1319,
+     "end": 1434
+    },
+    {
+     "quote": "substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.",
+     "start": 916,
+     "end": 1053
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.",
+     "start": 0,
+     "end": 120
+    },
+    {
+     "quote": "the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October.",
+     "start": 1943,
+     "end": 2094
+    },
+    {
+     "quote": "Although economic activity is likely to remain weak for a time",
+     "start": 520,
+     "end": 582
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

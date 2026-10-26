@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240626a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240626a",
+  "doc_type": "speech",
+  "text_sha256": "3aabd0997b32b4436909e36a21cdfbee78e2f3ed85fdd36bd233828e12440a4d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cb48d7cf9fc9389a8b180537f8ae9a2bac288b575f20e20d26f562692db04650",
+ "message_id": "msg_011CgFugRXuxm5LBCjGV3GwT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4881,
+  "output_tokens": 554,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":2,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to raise the target range for the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect inflation to remain elevated for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite some further rebalancing between supply and demand, the labor market remains tight.\"},{\"dimension\":\"risk_balance\",\"quote\":\"additional fiscal stimulus could add momentum to demand, stalling any further progress or even causing inflation to reaccelerate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it will eventually become appropriate to gradually lower the target range for the federal funds rate to prevent monetary policy from becoming overly restrictive.\"}],\"rationale\":\"The monetary policy section stresses elevated inflation, multiple upside inflation risks, says it is not yet time to cut and leaves the door open to hikes, though it acknowledges eventual gradual cuts. The remainder of the speech concerns bank capital regulation, which is not monetary policy.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 2,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to raise the target range for the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect inflation to remain elevated for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite some further rebalancing between supply and demand, the labor market remains tight."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "additional fiscal stimulus could add momentum to demand, stalling any further progress or even causing inflation to reaccelerate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it will eventually become appropriate to gradually lower the target range for the federal funds rate to prevent monetary policy from becoming overly restrictive."
+   }
+  ],
+  "rationale": "The monetary policy section stresses elevated inflation, multiple upside inflation risks, says it is not yet time to cut and leaves the door open to hikes, though it acknowledges eventual gradual cuts. The remainder of the speech concerns bank capital regulation, which is not monetary policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation.",
+     "start": 3775,
+     "end": 3927
+    },
+    {
+     "quote": "I remain willing to raise the target range for the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.",
+     "start": 6534,
+     "end": 6708
+    },
+    {
+     "quote": "I expect inflation to remain elevated for some time.",
+     "start": 1543,
+     "end": 1594
+    },
+    {
+     "quote": "Despite some further rebalancing between supply and demand, the labor market remains tight.",
+     "start": 2671,
+     "end": 2761
+    },
+    {
+     "quote": "additional fiscal stimulus could add momentum to demand, stalling any further progress or even causing inflation to reaccelerate.",
+     "start": 4931,
+     "end": 5059
+    },
+    {
+     "quote": "it will eventually become appropriate to gradually lower the target range for the federal funds rate to prevent monetary policy from becoming overly restrictive.",
+     "start": 3613,
+     "end": 3773
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

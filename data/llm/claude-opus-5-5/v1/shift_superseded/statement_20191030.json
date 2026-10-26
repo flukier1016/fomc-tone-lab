@@ -1,0 +1,129 @@
+{
+ "key": "statement_20191030",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20191030",
+  "previous_doc_id": "statement_20191011",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ca2059ec3b85280d4e2fc4bb837a9a33bbd140c1fb32e50ff981bf7e8ab47628",
+ "message_id": "msg_011CgFue1bCqT9r4jkwdLSvx",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2225,
+  "output_tokens": 944,
+  "output_tokens_details": {
+   "thinking_tokens": 400
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"maintain the federal funds rate in a target range of 1-3/4 to 2 percent\",\"after\":\"the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"In light of the implications of global developments for the economic outlook as well as muted inflation pressures\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.\",\"direction\":\"hawkish\"},{\"before\":\"These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The current statement delivers a 25 bp rate cut, citing global developments and muted inflation, a dovish move relative to the prior technical statement that kept the range at 1-3/4 to 2 percent. This is partly offset by neutral \\\"assesses the appropriate path\\\" guidance with no easing bias and two hawkish dissents, which point to a possible pause.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "maintain the federal funds rate in a target range of 1-3/4 to 2 percent",
+    "after": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The current statement delivers a 25 bp rate cut, citing global developments and muted inflation, a dovish move relative to the prior technical statement that kept the range at 1-3/4 to 2 percent. This is partly offset by neutral \"assesses the appropriate path\" guidance with no easing bias and two hawkish dissents, which point to a possible pause."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "maintain the federal funds rate in a target range of 1-3/4 to 2 percent",
+     "start": 2303,
+     "end": 2374
+    },
+    {
+     "quote": "These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.",
+     "start": 1382,
+     "end": 1559
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+     "start": 886,
+     "end": 986
+    },
+    {
+     "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures",
+     "start": 771,
+     "end": 884
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+     "start": 402,
+     "end": 519
+    },
+    {
+     "quote": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.",
+     "start": 1249,
+     "end": 1436
+    },
+    {
+     "quote": "Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.",
+     "start": 2151,
+     "end": 2312
+    }
+   ]
+  }
+ }
+}

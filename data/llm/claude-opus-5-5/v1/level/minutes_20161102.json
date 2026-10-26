@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20161102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20161102",
+  "doc_type": "minutes",
+  "text_sha256": "cd450aa39b234ca0203efa9ddc5b14911f1ef3dbcd9a7e2f3b2aa093307f4f55"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3883a4aa9a00b1823abc8d920f3589c7034aa1248ff9ff5939466cae2682440b",
+ "message_id": "msg_011CgFugCKBJqqJE7owR47gi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14400,
+  "output_tokens": 583,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants expressed a view that it could well become appropriate to raise the target range for the federal funds rate relatively soon, so long as incoming data provided some further evidence of continued progress toward the Committee's objectives.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"argued that to preserve credibility, such an increase should occur at the next meeting.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally agreed that labor market conditions had continued to improve over the intermeeting period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Readings on headline and core PCE price inflation had come in somewhat higher than expected in recent months. Participants generally regarded this as a positive development\"},{\"dimension\":\"risk_balance\",\"quote\":\"A substantial majority viewed the near-term risks to the economic outlook as roughly balanced\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The minutes signal a strengthening case for a near-term rate increase, with most participants seeing a hike appropriate relatively soon and two dissents for a hike, though gradualism, below-target inflation and continued reinvestment temper the hawkish lean. Risks are seen as roughly balanced with labor markets strengthening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants expressed a view that it could well become appropriate to raise the target range for the federal funds rate relatively soon, so long as incoming data provided some further evidence of continued progress toward the Committee's objectives."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "argued that to preserve credibility, such an increase should occur at the next meeting."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally agreed that labor market conditions had continued to improve over the intermeeting period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Readings on headline and core PCE price inflation had come in somewhat higher than expected in recent months. Participants generally regarded this as a positive development"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A substantial majority viewed the near-term risks to the economic outlook as roughly balanced"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The minutes signal a strengthening case for a near-term rate increase, with most participants seeing a hike appropriate relatively soon and two dissents for a hike, though gradualism, below-target inflation and continued reinvestment temper the hawkish lean. Risks are seen as roughly balanced with labor markets strengthening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants expressed a view that it could well become appropriate to raise the target range for the federal funds rate relatively soon, so long as incoming data provided some further evidence of continued progress toward the Committee's objectives.",
+     "start": 34639,
+     "end": 34893
+    },
+    {
+     "quote": "argued that to preserve credibility, such an increase should occur at the next meeting.",
+     "start": 35056,
+     "end": 35142
+    },
+    {
+     "quote": "Participants generally agreed that labor market conditions had continued to improve over the intermeeting period.",
+     "start": 27369,
+     "end": 27481
+    },
+    {
+     "quote": "Readings on headline and core PCE price inflation had come in somewhat higher than expected in recent months. Participants generally regarded this as a positive development",
+     "start": 29492,
+     "end": 29664
+    },
+    {
+     "quote": "A substantial majority viewed the near-term risks to the economic outlook as roughly balanced",
+     "start": 23772,
+     "end": 23865
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 42026,
+     "end": 42175
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

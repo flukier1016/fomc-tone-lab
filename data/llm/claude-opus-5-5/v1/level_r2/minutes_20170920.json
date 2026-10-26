@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20170920",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20170920",
+  "doc_type": "minutes",
+  "text_sha256": "70687be481f651cfc9e19276d8aed28fc2faf38ef62f1e8e1bb587b4977614b8"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ec5c0447aef0a828b3984e6cb69289b710f0874a9c1b354c784c1a47afe2ffd7",
+ "message_id": "msg_011CgG2ApGdCRAgkY3wX4sqK",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14900,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"many participants thought that another increase in the target range later this year was likely to be warranted if the medium-term outlook remained broadly unchanged.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants expressed concern that the low inflation readings this year might reflect not only transitory factors, but also the influence of developments that could prove more persistent\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Members agreed that, in October, the Committee would initiate the balance sheet normalization program described in the June 2017 Addendum to the Policy Normalization Principles and Plans.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions strengthened further in recent months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Members saw near-term risks to the economic outlook as roughly balanced, but they agreed to continue to monitor inflation developments closely.\"}],\"rationale\":\"The minutes record the start of balance sheet runoff and expectations of gradual hikes, with many participants seeing another increase this year as likely, backed by a strengthening labor market. These hawkish signals are tempered by concern over persistently low inflation and calls for patience from some participants.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "many participants thought that another increase in the target range later this year was likely to be warranted if the medium-term outlook remained broadly unchanged."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants expressed concern that the low inflation readings this year might reflect not only transitory factors, but also the influence of developments that could prove more persistent"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Members agreed that, in October, the Committee would initiate the balance sheet normalization program described in the June 2017 Addendum to the Policy Normalization Principles and Plans."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions strengthened further in recent months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Members saw near-term risks to the economic outlook as roughly balanced, but they agreed to continue to monitor inflation developments closely."
+   }
+  ],
+  "rationale": "The minutes record the start of balance sheet runoff and expectations of gradual hikes, with many participants seeing another increase this year as likely, backed by a strengthening labor market. These hawkish signals are tempered by concern over persistently low inflation and calls for patience from some participants."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "many participants thought that another increase in the target range later this year was likely to be warranted if the medium-term outlook remained broadly unchanged.",
+     "start": 39568,
+     "end": 39732
+    },
+    {
+     "quote": "many participants expressed concern that the low inflation readings this year might reflect not only transitory factors, but also the influence of developments that could prove more persistent",
+     "start": 38228,
+     "end": 38420
+    },
+    {
+     "quote": "Members agreed that, in October, the Committee would initiate the balance sheet normalization program described in the June 2017 Addendum to the Policy Normalization Principles and Plans.",
+     "start": 43959,
+     "end": 44145
+    },
+    {
+     "quote": "Labor market conditions strengthened further in recent months.",
+     "start": 29630,
+     "end": 29691
+    },
+    {
+     "quote": "Members saw near-term risks to the economic outlook as roughly balanced, but they agreed to continue to monitor inflation developments closely.",
+     "start": 42227,
+     "end": 42369
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20240301a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240301a",
+  "doc_type": "speech",
+  "text_sha256": "05729b6ec13d672dd1e3f1aedc9e6ce29c1cca72c69d4ab6a76b1b4ee870b2a3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "688365a356d02d2ca5c55dafe61775cd43374c202cdef141e3fb6233ae631aa4",
+ "message_id": "msg_011CgFugAuM37VSSiSxxGWjw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5998,
+  "output_tokens": 683,
+  "output_tokens_details": {
+   "thinking_tokens": 188
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.2,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"so this tells me that we can continue to reduce our holdings for some time.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I would like to see the Fed's agency MBS holdings go to zero.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Chair Powell has noted that the FOMC will begin to discuss slowing our redemptions at our FOMC meeting this month\"},{\"dimension\":\"overall\",\"quote\":\"They do not imply anything about the stance of interest rate policy, which is focused on influencing the macroeconomy and achieving our dual mandate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"As a result, the pace of runoff is not a problem.\"}],\"rationale\":\"The speech focuses on QT and leans hawkish on the balance sheet: it backs continued runoff, full MBS runoff, and notes ample excess liquidity in ON RRP, while acknowledging that slowing redemptions is under discussion. It explicitly delinks balance sheet plans from rate policy and gives no rate, inflation, or activity signal, so the overall stance is near neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.2,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "so this tells me that we can continue to reduce our holdings for some time."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I would like to see the Fed's agency MBS holdings go to zero."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Chair Powell has noted that the FOMC will begin to discuss slowing our redemptions at our FOMC meeting this month"
+   },
+   {
+    "dimension": "overall",
+    "quote": "They do not imply anything about the stance of interest rate policy, which is focused on influencing the macroeconomy and achieving our dual mandate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "As a result, the pace of runoff is not a problem."
+   }
+  ],
+  "rationale": "The speech focuses on QT and leans hawkish on the balance sheet: it backs continued runoff, full MBS runoff, and notes ample excess liquidity in ON RRP, while acknowledging that slowing redemptions is under discussion. It explicitly delinks balance sheet plans from rate policy and gives no rate, inflation, or activity signal, so the overall stance is near neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "so this tells me that we can continue to reduce our holdings for some time.",
+     "start": 17024,
+     "end": 17098
+    },
+    {
+     "quote": "I would like to see the Fed's agency MBS holdings go to zero.",
+     "start": 18272,
+     "end": 18332
+    },
+    {
+     "quote": "Chair Powell has noted that the FOMC will begin to discuss slowing our redemptions at our FOMC meeting this month",
+     "start": 17542,
+     "end": 17655
+    },
+    {
+     "quote": "They do not imply anything about the stance of interest rate policy, which is focused on influencing the macroeconomy and achieving our dual mandate.",
+     "start": 18018,
+     "end": 18166
+    },
+    {
+     "quote": "As a result, the pace of runoff is not a problem.",
+     "start": 16109,
+     "end": 16157
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20211019a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20211019a",
+  "doc_type": "speech",
+  "text_sha256": "34902e8b380ec9eaabdb4c77792a564afd0889b8e2ea5931d3f63889d0f3b6e7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e99aa77b3752193a35ca28bc1fd7157a6c393c32647671ea8b7ce3263be82b33",
+ "message_id": "msg_011CgFugH4visFegJjrcyuds",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2827,
+  "output_tokens": 448,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.3,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Therefore, I see a risk that lack of childcare availability will continue to hold women back from participating in the labor force, which could be a drag on the economy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The loss of these workers will limit the productive capacity of the economy, and may make it harder, or even impossible in the near term, to return to the high level of employment achieved before the pandemic.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"As the job market strengthens, many women, particularly minority women, say they are considering returning to the labor force.\"},{\"dimension\":\"overall\",\"quote\":\"So today, I would like to focus my discussion on how all of this has affected women in the labor market.\"}],\"rationale\":\"The speech focuses on women's labor force participation and childcare rather than monetary policy, offering no policy signal. It notes both a strengthening job market and lasting participation drags; the supply-capacity point arguably cuts against further accommodation, so the net stance is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.3,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Therefore, I see a risk that lack of childcare availability will continue to hold women back from participating in the labor force, which could be a drag on the economy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The loss of these workers will limit the productive capacity of the economy, and may make it harder, or even impossible in the near term, to return to the high level of employment achieved before the pandemic."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "As the job market strengthens, many women, particularly minority women, say they are considering returning to the labor force."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So today, I would like to focus my discussion on how all of this has affected women in the labor market."
+   }
+  ],
+  "rationale": "The speech focuses on women's labor force participation and childcare rather than monetary policy, offering no policy signal. It notes both a strengthening job market and lasting participation drags; the supply-capacity point arguably cuts against further accommodation, so the net stance is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Therefore, I see a risk that lack of childcare availability will continue to hold women back from participating in the labor force, which could be a drag on the economy.",
+     "start": 5704,
+     "end": 5872
+    },
+    {
+     "quote": "The loss of these workers will limit the productive capacity of the economy, and may make it harder, or even impossible in the near term, to return to the high level of employment achieved before the pandemic.",
+     "start": 6277,
+     "end": 6485
+    },
+    {
+     "quote": "As the job market strengthens, many women, particularly minority women, say they are considering returning to the labor force.",
+     "start": 6690,
+     "end": 6815
+    },
+    {
+     "quote": "So today, I would like to focus my discussion on how all of this has affected women in the labor market.",
+     "start": 980,
+     "end": 1083
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

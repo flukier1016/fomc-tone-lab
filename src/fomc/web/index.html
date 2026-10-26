@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="alternate" type="application/atom+xml" title="The Fed, read by Claude" href="/feed.xml">
+  <title>FOMC Tone Lab</title>
+  <meta name="description" content="Fed communication tone, minute-stamped Treasury event studies and a pre-registered duration backtest.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23151312'/%3E%3Cpath d='M14 42c6-16 12-16 18-6s12 10 18-12' stroke='%23fffefb' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='50' cy='24' r='5.5' fill='%23e54728'/%3E%3C/svg%3E">
+  <link rel="modulepreload" href="/static/app.js?v=__V__">
+  <link rel="stylesheet" href="/static/styles.css?v=__V__">
+  <script>
+    try {
+      const q = new URLSearchParams(location.search).get("theme");
+      const saved = localStorage.getItem("fomc.theme");
+      const t = q || (saved ? JSON.parse(saved) : null);
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+  <script src="/static/vendor/echarts.min.js?v=__V__" defer></script>
+  <script type="module" src="/static/app.js?v=__V__"></script>
+</head>
+<body>
+__SPRITE__
+<a class="skip" href="#view">Skip to content</a>
+<div class="progress-top" aria-hidden="true"></div>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand-row">
+    <a class="brand" href="#/overview">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M14 42c6-16 12-16 18-6s12 10 18-12" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round"/><circle class="logo-dot" cx="50" cy="24" r="5.5"/></svg></span>
+      <span class="brand-text"><strong>FOMC Tone Lab</strong><small>Fed language &rarr; Treasury duration</small></span>
+    </a>
+    <button class="icon-btn sidebar-toggle" id="sidebar-toggle" aria-controls="sidebar" aria-expanded="true" aria-label="Collapse the sidebar" title="Collapse the sidebar ([)"><svg class="ic" aria-hidden="true"><use href="#i-panel-left-close"/></svg></button>
+    </div>
+    <button class="search-trigger" id="open-palette" aria-label="Search documents">
+      <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg><span>Search documents</span><kbd>&#8984;K</kbd>
+    </button>
+    <nav id="nav" aria-label="Main">
+      <a href="#/overview" data-group="home"><svg class="ic" aria-hidden="true"><use href="#i-layout-dashboard"/></svg><span>Home</span></a>
+      <a href="#/fed" data-group="fed"><svg class="ic" aria-hidden="true"><use href="#i-landmark"/></svg><span>Fed now</span></a>
+      <a href="#/documents" data-group="documents"><svg class="ic" aria-hidden="true"><use href="#i-file-text"/></svg><span>Documents</span></a>
+      <a href="#/event-study" data-group="research"><svg class="ic" aria-hidden="true"><use href="#i-chart-spline"/></svg><span>Research</span></a>
+      <a href="#/duration" data-group="duration"><svg class="ic" aria-hidden="true"><use href="#i-trending-up"/></svg><span>Duration</span></a>
+      <a href="#/system" data-group="system"><svg class="ic" aria-hidden="true"><use href="#i-settings"/></svg><span>System</span></a>
+    </nav>
+    <div class="sidebar-foot">
+      <span class="muted small" id="data-through">&nbsp;</span>
+      <span class="muted small">Final Project Group 2 &middot; IEOR 4723</span>
+      <a id="api-pill" class="pill" href="#/settings">Checking API&hellip;</a>
+      <span class="muted small">v<span id="version">0.1.0</span> &middot; <span id="mode-label">local</span></span>
+    </div>
+    <div class="sidebar-resizer" id="sidebar-resizer" role="separator" aria-orientation="vertical" aria-controls="sidebar" aria-label="Sidebar width" tabindex="0" aria-valuemin="200" aria-valuemax="360" aria-valuenow="252" title="Drag to resize; double-click to reset"></div>
+  </aside>
+  <main id="main">
+    <header class="topbar">
+      <div class="titles">
+        <h1 id="page-title">Home</h1>
+        <p id="page-sub"></p>
+        <nav id="page-tabs" class="page-tabs" aria-label="Pages in this section" hidden></nav>
+      </div>
+      <div class="top-actions">
+        <label class="field inline"><span>Read by</span><select id="method-select"></select></label>
+        <button id="copy-view" class="icon-btn" title="Copy a link to this view" aria-label="Copy a link to this view"><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg></button>
+        <div id="theme-toggle" class="theme-switch" role="group" aria-label="Color theme" title="Light / dark (T)">
+          <button type="button" data-theme-choice="light" aria-pressed="false"><svg class="ic" aria-hidden="true"><use href="#i-sun"/></svg>Light</button>
+          <button type="button" data-theme-choice="dark" aria-pressed="false"><svg class="ic" aria-hidden="true"><use href="#i-moon"/></svg>Dark</button>
+        </div>
+      </div>
+    </header>
+    <section id="view" class="view" tabindex="-1"></section>
+  </main>
+</div>
+
+<div id="drawer" class="drawer" hidden>
+  <div class="drawer-backdrop" data-close></div>
+  <article class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <button class="icon-btn drawer-full" data-full aria-label="Read full screen" aria-pressed="false" title="Read full screen (F)"><svg class="ic" aria-hidden="true"><use href="#i-maximize"/></svg></button>
+    <button class="icon-btn drawer-close" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+    <div id="drawer-body"></div>
+  </article>
+</div>
+
+<div id="palette" class="palette" hidden>
+  <div class="palette-backdrop" data-close-palette></div>
+  <div class="palette-panel" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="palette-input">
+      <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
+      <input id="palette-q" placeholder="Search 4.5M words of Fed communication, or jump to a page..." autocomplete="off">
+      <kbd>esc</kbd>
+    </div>
+    <div id="palette-results" class="palette-results"></div>
+    <div class="palette-foot"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span>phrases in "quotes" &middot; OR between terms</span></div>
+  </div>
+</div>
+<dialog id="keys" class="keys" aria-labelledby="keys-title">
+  <div class="keys-head"><h2 id="keys-title">Keyboard shortcuts</h2><button class="icon-btn" data-close-keys aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div>
+  <div class="keys-grid">
+    <div><h3>Anywhere</h3>
+      <p><span><kbd>/</kbd> or <kbd>&#8984;</kbd><kbd>K</kbd></span>Search documents and pages</p>
+      <p><span><kbd>?</kbd></span>This list</p>
+      <p><span><kbd>T</kbd></span>Light or dark theme</p>
+      <p><span><kbd>[</kbd></span>Collapse or expand the sidebar</p>
+      <p><span><kbd>F</kbd></span>Read the open document full screen, or back to the panel</p>
+      <p><span><kbd>Esc</kbd></span>Close a panel</p></div>
+    <div><h3>Go to</h3>
+      <p><span><kbd>G</kbd> <kbd>H</kbd></span>Home</p>
+      <p><span><kbd>G</kbd> <kbd>F</kbd></span>Fed now</p>
+      <p><span><kbd>G</kbd> <kbd>D</kbd></span>Documents</p>
+      <p><span><kbd>G</kbd> <kbd>T</kbd></span>Decisions</p>
+      <p><span><kbd>G</kbd> <kbd>E</kbd></span>Event study</p>
+      <p><span><kbd>G</kbd> <kbd>B</kbd></span>Backtest</p>
+      <p><span><kbd>G</kbd> <kbd>V</kbd></span>Validity</p>
+      <p><span><kbd>G</kbd> <kbd>L</kbd></span>Team labels</p>
+      <p><span><kbd>G</kbd> <kbd>S</kbd></span>System</p></div>
+    <div><h3>In the story</h3>
+      <p><span><kbd>&larr;</kbd> <kbd>&rarr;</kbd></span>Previous and next slide</p>
+      <p><span><kbd>F</kbd></span>Full screen</p>
+      <p><span><kbd>N</kbd></span>Speaker notes</p>
+      <p><span><kbd>V</kbd></span>Presenter view in a second window</p>
+      <p><span><kbd>Esc</kbd></span>Leave the story</p></div>
+    <div><h3>Tables and charts</h3>
+      <p><span>click a header</span>Sort; again to reverse</p>
+      <p><span><svg class="ic" aria-hidden="true"><use href="#i-download"/></svg></span>Download the table as CSV</p>
+      <p><span><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg></span>Copy a link to this exact view</p>
+      <p><span>Ctrl + scroll</span>Zoom a time chart</p></div>
+  </div>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

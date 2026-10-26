@@ -1,0 +1,139 @@
+{
+ "key": "statement_20111213",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20111213",
+  "previous_doc_id": "statement_20111102",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "02d5678448182e5e1e8924bc681eba068879896932975477e8637a20796073bf",
+ "message_id": "msg_011CgFudURi7CpipH33HQZHN",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1920,
+  "output_tokens": 621,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Nonetheless, recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated.\",\"after\":\"While indicators point to some improvement in overall labor market conditions, the unemployment rate remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"Information received since the Federal Open Market Committee met in September indicates that economic growth strengthened somewhat in the third quarter, reflecting in part a reversal of the temporary factors that had weighed on growth earlier in the year.\",\"after\":\"Information received since the Federal Open Market Committee met in November suggests that the economy has been expanding moderately, notwithstanding some apparent slowing in global growth.\",\"direction\":\"dovish\"},{\"before\":\"Business investment in equipment and software has continued to expand, but investment in nonresidential structures is still weak, and the housing sector remains depressed.\",\"after\":\"Household spending has continued to advance, but business fixed investment appears to be increasing less rapidly and the housing sector remains depressed.\",\"direction\":\"dovish\"},{\"before\":\"Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.\",\"after\":\"Strains in global financial markets continue to pose significant downside risks to the economic outlook.\",\"direction\":\"dovish\"},{\"before\":\"Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.\",\"after\":\"Inflation has moderated since earlier in the year, and longer-term inflation expectations have remained stable.\",\"direction\":\"dovish\"}],\"rationale\":\"Policy actions and the mid-2013 forward guidance are unchanged, with only modest offsetting tweaks: a better labor-market read against slower investment, global slowing, and more emphasized financial-strain risks. Net signal is essentially unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Nonetheless, recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated.",
+    "after": "While indicators point to some improvement in overall labor market conditions, the unemployment rate remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in September indicates that economic growth strengthened somewhat in the third quarter, reflecting in part a reversal of the temporary factors that had weighed on growth earlier in the year.",
+    "after": "Information received since the Federal Open Market Committee met in November suggests that the economy has been expanding moderately, notwithstanding some apparent slowing in global growth.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Business investment in equipment and software has continued to expand, but investment in nonresidential structures is still weak, and the housing sector remains depressed.",
+    "after": "Household spending has continued to advance, but business fixed investment appears to be increasing less rapidly and the housing sector remains depressed.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+    "after": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.",
+    "after": "Inflation has moderated since earlier in the year, and longer-term inflation expectations have remained stable.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "Policy actions and the mid-2013 forward guidance are unchanged, with only modest offsetting tweaks: a better labor-market read against slower investment, global slowing, and more emphasized financial-strain risks. Net signal is essentially unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nonetheless, recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated.",
+     "start": 256,
+     "end": 394
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in September indicates that economic growth strengthened somewhat in the third quarter, reflecting in part a reversal of the temporary factors that had weighed on growth earlier in the year.",
+     "start": 0,
+     "end": 254
+    },
+    {
+     "quote": "Business investment in equipment and software has continued to expand, but investment in nonresidential structures is still weak, and the housing sector remains depressed.",
+     "start": 473,
+     "end": 643
+    },
+    {
+     "quote": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+     "start": 1201,
+     "end": 1318
+    },
+    {
+     "quote": "Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.",
+     "start": 645,
+     "end": 778
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While indicators point to some improvement in overall labor market conditions, the unemployment rate remains elevated.",
+     "start": 190,
+     "end": 307
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in November suggests that the economy has been expanding moderately, notwithstanding some apparent slowing in global growth.",
+     "start": 0,
+     "end": 188
+    },
+    {
+     "quote": "Household spending has continued to advance, but business fixed investment appears to be increasing less rapidly and the housing sector remains depressed.",
+     "start": 309,
+     "end": 462
+    },
+    {
+     "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 940,
+     "end": 1043
+    },
+    {
+     "quote": "Inflation has moderated since earlier in the year, and longer-term inflation expectations have remained stable.",
+     "start": 464,
+     "end": 574
+    }
+   ]
+  }
+ }
+}

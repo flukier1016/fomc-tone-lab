@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20151002a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20151002a",
+  "doc_type": "speech",
+  "text_sha256": "b4b68f743469a4ee0a0cdb644acd12929c3e2d5dbafdf54f8469e59799d9c824"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a92f4e732a3cf136103e22dca0eb633bb737c54ff87b56ff3df4388e45c52a01",
+ "message_id": "msg_011CgFugEfZm18XtnJGPrau2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4858,
+  "output_tokens": 444,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"the limited macroprudential toolkit in the United States leads me to conclude that there may be times when adjustments in monetary policy should be discussed as a means to curb risks to financial stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"that does not imply that I see acute risks to financial stability in the near term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the housing market is not overheated, and borrowing by households and businesses has only begun to pick up after years of decline or very slow growth.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A more restrictive monetary policy would, all else being equal, lead to deviations from price stability and full employment.\"}],\"rationale\":\"The speech is mainly about macroprudential policy and raises, in the abstract, the possibility of using monetary policy to curb financial stability risks, which leans slightly hawkish. It also stresses the costs of doing so and says it sees no acute near-term risks, so the net policy signal is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "the limited macroprudential toolkit in the United States leads me to conclude that there may be times when adjustments in monetary policy should be discussed as a means to curb risks to financial stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "that does not imply that I see acute risks to financial stability in the near term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the housing market is not overheated, and borrowing by households and businesses has only begun to pick up after years of decline or very slow growth."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A more restrictive monetary policy would, all else being equal, lead to deviations from price stability and full employment."
+   }
+  ],
+  "rationale": "The speech is mainly about macroprudential policy and raises, in the abstract, the possibility of using monetary policy to curb financial stability risks, which leans slightly hawkish. It also stresses the costs of doing so and says it sees no acute near-term risks, so the net policy signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the limited macroprudential toolkit in the United States leads me to conclude that there may be times when adjustments in monetary policy should be discussed as a means to curb risks to financial stability.",
+     "start": 12247,
+     "end": 12452
+    },
+    {
+     "quote": "that does not imply that I see acute risks to financial stability in the near term.",
+     "start": 11373,
+     "end": 11455
+    },
+    {
+     "quote": "the housing market is not overheated, and borrowing by households and businesses has only begun to pick up after years of decline or very slow growth.",
+     "start": 11528,
+     "end": 11677
+    },
+    {
+     "quote": "A more restrictive monetary policy would, all else being equal, lead to deviations from price stability and full employment.",
+     "start": 12518,
+     "end": 12641
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

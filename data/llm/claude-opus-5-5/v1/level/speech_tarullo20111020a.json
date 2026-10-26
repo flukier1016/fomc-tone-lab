@@ -1,0 +1,112 @@
+{
+ "key": "speech_tarullo20111020a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20111020a",
+  "doc_type": "speech",
+  "text_sha256": "42ae362b18e4ea5d7290cae94e9db90547af09e327d2dc98d8b36c8a079092ff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c0c34a9594d04930e8b2ecca74b284db3f6b5a138922671dde4694ac435f9aa3",
+ "message_id": "msg_011CgFugA21pfXUNzZfJTQLF",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10159,
+  "output_tokens": 501,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"But, in the absence of favorable developments in the coming months, there will be a strong case for additional measures.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I believe we should move back up toward the top of the list of options the large-scale purchase of additional mortgage-backed securities (MBS)\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"There is need, and ample room, for additional measures to increase aggregate demand in the near to medium term, particularly in light of the limited upside risks to inflation over the medium term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even more dispiriting than this snapshot of the employment picture is that there is so little momentum toward improvements in labor market conditions.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Of course, if anything, this possibility argues for more-aggressive policies to reduce unemployment sooner.\"}],\"rationale\":\"The speaker describes an employment crisis driven by an aggregate demand shortfall, sees limited inflation risk, and explicitly advocates additional accommodation including large-scale MBS purchases. This is a strongly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "But, in the absence of favorable developments in the coming months, there will be a strong case for additional measures."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I believe we should move back up toward the top of the list of options the large-scale purchase of additional mortgage-backed securities (MBS)"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There is need, and ample room, for additional measures to increase aggregate demand in the near to medium term, particularly in light of the limited upside risks to inflation over the medium term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even more dispiriting than this snapshot of the employment picture is that there is so little momentum toward improvements in labor market conditions."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Of course, if anything, this possibility argues for more-aggressive policies to reduce unemployment sooner."
+   }
+  ],
+  "rationale": "The speaker describes an employment crisis driven by an aggregate demand shortfall, sees limited inflation risk, and explicitly advocates additional accommodation including large-scale MBS purchases. This is a strongly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But, in the absence of favorable developments in the coming months, there will be a strong case for additional measures.",
+     "start": 26151,
+     "end": 26270
+    },
+    {
+     "quote": "I believe we should move back up toward the top of the list of options the large-scale purchase of additional mortgage-backed securities (MBS)",
+     "start": 27684,
+     "end": 27826
+    },
+    {
+     "quote": "There is need, and ample room, for additional measures to increase aggregate demand in the near to medium term, particularly in light of the limited upside risks to inflation over the medium term.",
+     "start": 22216,
+     "end": 22411
+    },
+    {
+     "quote": "Even more dispiriting than this snapshot of the employment picture is that there is so little momentum toward improvements in labor market conditions.",
+     "start": 4534,
+     "end": 4683
+    },
+    {
+     "quote": "Of course, if anything, this possibility argues for more-aggressive policies to reduce unemployment sooner.",
+     "start": 21981,
+     "end": 22087
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

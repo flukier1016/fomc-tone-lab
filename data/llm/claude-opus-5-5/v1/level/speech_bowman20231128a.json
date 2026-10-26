@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20231128a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20231128a",
+  "doc_type": "speech",
+  "text_sha256": "48c43d4b8650e79ecc8b68b5639d8f26a0bc5b5a22c7f3ea4ee0b141002535e2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6a38e1bbd239b059ac22f5cf902155f6fa5324bd4db85e078bca3680b9555cc2",
+ "message_id": "msg_011CgFugA8iBvJfNFrCRPcfx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6033,
+  "output_tokens": 671,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.88,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"But my baseline economic outlook continues to expect that we will need to increase the federal funds rate further to keep policy sufficiently restrictive to bring inflation down to our 2 percent target in a timely way.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But the level of inflation remains high, with the most recent readings of 12-month total and core PCE inflation at 3.4 percent and 3.7 percent, respectively. And recent progress has been uneven.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy has remained strong as the FOMC has raised the federal funds rate, and recent data indicate that economic activity accelerated in the third quarter, with real GDP growing at a 4.9 percent annual rate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In my view, there is also a risk that over the coming months higher energy prices could reverse some of the recent progress made by supply-side improvements to bring overall inflation down.\"},{\"dimension\":\"overall\",\"quote\":\"We should keep in mind the historical lessons and risks associated with prematurely declaring victory in the fight against inflation, including the risk that inflation may settle at a level above our 2 percent target without further policy tightening.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the FOMC voted to maintain the target range for the federal funds rate at the current level and continue to run off the Fed's securities holdings.\"}],\"rationale\":\"The governor's baseline explicitly expects further rate hikes, emphasizes high and uneven inflation with multiple upside risks, and warns against prematurely declaring victory. Strong growth and continued runoff reinforce a clearly hawkish stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.88,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "But my baseline economic outlook continues to expect that we will need to increase the federal funds rate further to keep policy sufficiently restrictive to bring inflation down to our 2 percent target in a timely way."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But the level of inflation remains high, with the most recent readings of 12-month total and core PCE inflation at 3.4 percent and 3.7 percent, respectively. And recent progress has been uneven."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy has remained strong as the FOMC has raised the federal funds rate, and recent data indicate that economic activity accelerated in the third quarter, with real GDP growing at a 4.9 percent annual rate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In my view, there is also a risk that over the coming months higher energy prices could reverse some of the recent progress made by supply-side improvements to bring overall inflation down."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We should keep in mind the historical lessons and risks associated with prematurely declaring victory in the fight against inflation, including the risk that inflation may settle at a level above our 2 percent target without further policy tightening."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the FOMC voted to maintain the target range for the federal funds rate at the current level and continue to run off the Fed's securities holdings."
+   }
+  ],
+  "rationale": "The governor's baseline explicitly expects further rate hikes, emphasizes high and uneven inflation with multiple upside risks, and warns against prematurely declaring victory. Strong growth and continued runoff reinforce a clearly hawkish stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But my baseline economic outlook continues to expect that we will need to increase the federal funds rate further to keep policy sufficiently restrictive to bring inflation down to our 2 percent target in a timely way.",
+     "start": 12638,
+     "end": 12855
+    },
+    {
+     "quote": "But the level of inflation remains high, with the most recent readings of 12-month total and core PCE inflation at 3.4 percent and 3.7 percent, respectively. And recent progress has been uneven.",
+     "start": 11743,
+     "end": 11936
+    },
+    {
+     "quote": "The economy has remained strong as the FOMC has raised the federal funds rate, and recent data indicate that economic activity accelerated in the third quarter, with real GDP growing at a 4.9 percent annual rate.",
+     "start": 11938,
+     "end": 12149
+    },
+    {
+     "quote": "In my view, there is also a risk that over the coming months higher energy prices could reverse some of the recent progress made by supply-side improvements to bring overall inflation down.",
+     "start": 14198,
+     "end": 14386
+    },
+    {
+     "quote": "We should keep in mind the historical lessons and risks associated with prematurely declaring victory in the fight against inflation, including the risk that inflation may settle at a level above our 2 percent target without further policy tightening.",
+     "start": 19996,
+     "end": 20246
+    },
+    {
+     "quote": "the FOMC voted to maintain the target range for the federal funds rate at the current level and continue to run off the Fed's securities holdings.",
+     "start": 11469,
+     "end": 11614
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

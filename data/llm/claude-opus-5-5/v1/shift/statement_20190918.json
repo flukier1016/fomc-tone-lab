@@ -1,0 +1,119 @@
+{
+ "key": "statement_20190918",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20190918",
+  "previous_doc_id": "statement_20190731",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb9012d647427ce16b04ed701c0928c68b3c421d506cb3c8d9810024d67578aa",
+ "message_id": "msg_011CgFudUSTCHtfS5hEp4ZzD",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1596,
+  "output_tokens": 537,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent\",\"after\":\"the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent\",\"direction\":\"dovish\"},{\"before\":\"Although growth of household spending has picked up from earlier in the year, growth of business fixed investment has been soft.\",\"after\":\"Although household spending has been rising at a strong pace, business fixed investment and exports have weakened.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.\",\"after\":\"Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee delivered a second 25bp cut and described weakening investment and exports, with a new dissent favoring a larger cut, though forward guidance was unchanged and hawkish dissents persisted. The shift is a moderate dovish continuation rather than a change in direction.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent",
+    "after": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent",
+    "direction": "dovish"
+   },
+   {
+    "before": "Although growth of household spending has picked up from earlier in the year, growth of business fixed investment has been soft.",
+    "after": "Although household spending has been rising at a strong pace, business fixed investment and exports have weakened.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+    "after": "Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee delivered a second 25bp cut and described weakening investment and exports, with a new dissent favoring a larger cut, though forward guidance was unchanged and hawkish dissents persisted. The shift is a moderate dovish continuation rather than a change in direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent",
+     "start": 897,
+     "end": 993
+    },
+    {
+     "quote": "Although growth of household spending has picked up from earlier in the year, growth of business fixed investment has been soft.",
+     "start": 284,
+     "end": 411
+    },
+    {
+     "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+     "start": 2083,
+     "end": 2251
+    },
+    {
+     "quote": "Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+     "start": 2463,
+     "end": 2645
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent",
+     "start": 883,
+     "end": 979
+    },
+    {
+     "quote": "Although household spending has been rising at a strong pace, business fixed investment and exports have weakened.",
+     "start": 284,
+     "end": 397
+    },
+    {
+     "quote": "Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.",
+     "start": 2263,
+     "end": 2535
+    }
+   ]
+  }
+ }
+}

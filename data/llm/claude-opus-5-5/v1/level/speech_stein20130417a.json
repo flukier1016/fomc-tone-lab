@@ -1,0 +1,94 @@
+{
+ "key": "speech_stein20130417a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_stein20130417a",
+  "doc_type": "speech",
+  "text_sha256": "85205aecb9b3aceefdf459ac3c1b8f73bec6481d268a6456f5c9025621c44ec1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a694252d76a33b3ba5c4f022b707fdbff0f2a3b0876b4fea34d6e6cfad6cb112",
+ "message_id": "msg_011CgFug99RcZ42Jzvwhfiwd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4229,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will focus my remarks today on the ongoing regulatory challenges associated with large, systemically important financial institutions, or SIFIs.\"},{\"dimension\":\"overall\",\"quote\":\"two ideas merit consideration: (1) an increase in the slope of the capital-surcharge schedule that is applied to large complex firms\"},{\"dimension\":\"overall\",\"quote\":\"Where do we stand with respect to fixing the problem of \\\"too big to fail\\\" (TBTF)?\"}],\"rationale\":\"The speech addresses bank regulation and the too-big-to-fail problem, not monetary policy. It offers no signal on rates, inflation, activity, or the balance sheet, so every dimension is null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will focus my remarks today on the ongoing regulatory challenges associated with large, systemically important financial institutions, or SIFIs."
+   },
+   {
+    "dimension": "overall",
+    "quote": "two ideas merit consideration: (1) an increase in the slope of the capital-surcharge schedule that is applied to large complex firms"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Where do we stand with respect to fixing the problem of \"too big to fail\" (TBTF)?"
+   }
+  ],
+  "rationale": "The speech addresses bank regulation and the too-big-to-fail problem, not monetary policy. It offers no signal on rates, inflation, activity, or the balance sheet, so every dimension is null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will focus my remarks today on the ongoing regulatory challenges associated with large, systemically important financial institutions, or SIFIs.",
+     "start": 184,
+     "end": 329
+    },
+    {
+     "quote": "two ideas merit consideration: (1) an increase in the slope of the capital-surcharge schedule that is applied to large complex firms",
+     "start": 5050,
+     "end": 5182
+    },
+    {
+     "quote": "Where do we stand with respect to fixing the problem of \"too big to fail\" (TBTF)?",
+     "start": 430,
+     "end": 511
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

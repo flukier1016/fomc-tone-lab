@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20230331a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230331a",
+  "doc_type": "speech",
+  "text_sha256": "03d1087b26eb6109da371bda0dba85c1ef6ee0459a15bc52a4237e566f0dcee0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e0729bd4774071ddb91dc30065822a32f109f6f2d3308a5fcc2d4e314f7c6e05",
+ "message_id": "msg_011CgFugFF3KxjoBaotmTzdx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4145,
+  "output_tokens": 558,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"A steep Phillips curve means inflation can be brought down quickly with relatively little pain in terms of higher unemployment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"So, overall, measures of longer-term inflation expectations have remained contained, while shorter-term expectations had moved up in 2021 and have partially reversed their earlier increases.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If unanchored inflation expectations were driving what looks like a shifting Phillips curve, this would be extremely problematic for central bankers because it could require dramatic actions by the FOMC\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But we will need more data to conclude which story is right—which is what a data-dependent central bank does to implement appropriate monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market became extremely tight as the U.S. economy emerged from pandemic lockdowns.\"}],\"rationale\":\"The speech is a largely academic discussion of the Phillips curve, giving no explicit policy signal. The speaker favors the more benign story, in which inflation can fall with little unemployment cost and longer-term expectations stay anchored, which gives a mild dovish tilt, though it is tempered by data dependence and mention of the risk from unanchored expectations.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "A steep Phillips curve means inflation can be brought down quickly with relatively little pain in terms of higher unemployment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "So, overall, measures of longer-term inflation expectations have remained contained, while shorter-term expectations had moved up in 2021 and have partially reversed their earlier increases."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If unanchored inflation expectations were driving what looks like a shifting Phillips curve, this would be extremely problematic for central bankers because it could require dramatic actions by the FOMC"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But we will need more data to conclude which story is right—which is what a data-dependent central bank does to implement appropriate monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market became extremely tight as the U.S. economy emerged from pandemic lockdowns."
+   }
+  ],
+  "rationale": "The speech is a largely academic discussion of the Phillips curve, giving no explicit policy signal. The speaker favors the more benign story, in which inflation can fall with little unemployment cost and longer-term expectations stay anchored, which gives a mild dovish tilt, though it is tempered by data dependence and mention of the risk from unanchored expectations."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A steep Phillips curve means inflation can be brought down quickly with relatively little pain in terms of higher unemployment.",
+     "start": 13012,
+     "end": 13138
+    },
+    {
+     "quote": "So, overall, measures of longer-term inflation expectations have remained contained, while shorter-term expectations had moved up in 2021 and have partially reversed their earlier increases.",
+     "start": 10792,
+     "end": 10981
+    },
+    {
+     "quote": "If unanchored inflation expectations were driving what looks like a shifting Phillips curve, this would be extremely problematic for central bankers because it could require dramatic actions by the FOMC",
+     "start": 12321,
+     "end": 12523
+    },
+    {
+     "quote": "But we will need more data to conclude which story is right—which is what a data-dependent central bank does to implement appropriate monetary policy.",
+     "start": 13269,
+     "end": 13418
+    },
+    {
+     "quote": "the labor market became extremely tight as the U.S. economy emerged from pandemic lockdowns.",
+     "start": 6830,
+     "end": 6921
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

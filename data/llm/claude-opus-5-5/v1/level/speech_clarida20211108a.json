@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20211108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20211108a",
+  "doc_type": "speech",
+  "text_sha256": "9a876129dbe29c6fc9ffdfb7371b4890e0f8497f470be87bed81ade08762368b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a53a82a6ff8eea03cb634711541a88e4f8d405d14d6b2a1ba7dc8e3583d884a",
+ "message_id": "msg_011CgFug99RyshyuwkPiZ1MQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3186,
+  "output_tokens": 551,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"realized PCE inflation so far this year represents, to me, much more than a \\\"moderate\\\" overshoot of our 2 percent longer-run inflation objective, and I would not consider a repeat performance next year a policy success.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I and 12 of my colleagues believe that the risks to the outlook for inflation are to the upside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"At our meeting last week, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"GDP growth in 2021 is projected by the Fed and many outside forecasters to be the fastest since 1983.\"}],\"rationale\":\"The speaker signals that liftoff conditions will be met by end-2022, describes the inflation overshoot as more than moderate with upside risks, and endorses the taper, all hawkish leans. He retains a transitory baseline and notes rates are still a ways off from rising, which tempers the signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "realized PCE inflation so far this year represents, to me, much more than a \"moderate\" overshoot of our 2 percent longer-run inflation objective, and I would not consider a repeat performance next year a policy success."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I and 12 of my colleagues believe that the risks to the outlook for inflation are to the upside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "At our meeting last week, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "GDP growth in 2021 is projected by the Fed and many outside forecasters to be the fastest since 1983."
+   }
+  ],
+  "rationale": "The speaker signals that liftoff conditions will be met by end-2022, describes the inflation overshoot as more than moderate with upside risks, and endorses the taper, all hawkish leans. He retains a transitory baseline and notes rates are still a ways off from rising, which tempers the signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022.",
+     "start": 5345,
+     "end": 5489
+    },
+    {
+     "quote": "realized PCE inflation so far this year represents, to me, much more than a \"moderate\" overshoot of our 2 percent longer-run inflation objective, and I would not consider a repeat performance next year a policy success.",
+     "start": 3955,
+     "end": 4173
+    },
+    {
+     "quote": "I and 12 of my colleagues believe that the risks to the outlook for inflation are to the upside.",
+     "start": 4230,
+     "end": 4325
+    },
+    {
+     "quote": "At our meeting last week, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.",
+     "start": 8781,
+     "end": 8982
+    },
+    {
+     "quote": "GDP growth in 2021 is projected by the Fed and many outside forecasters to be the fastest since 1983.",
+     "start": 1149,
+     "end": 1249
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

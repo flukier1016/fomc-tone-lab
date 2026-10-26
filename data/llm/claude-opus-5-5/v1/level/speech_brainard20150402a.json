@@ -1,0 +1,103 @@
+{
+ "key": "speech_brainard20150402a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20150402a",
+  "doc_type": "speech",
+  "text_sha256": "c66572082d5cbbe9833ff4265a335002316dde9294d827001d35347b3ebac3c1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "eff534079834b619adb047de4ca574a5a481e017363aaf0f8519326a6671e452",
+ "message_id": "msg_011CgFugG8875b5o8MjbYybv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5557,
+  "output_tokens": 460,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"while inflation has remained below its target\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recently, the labor market prospects for young people have started to improve, with the unemployment rate for 20- to 24-year-olds falling about one-third relative to its peak and inflation-adjusted earnings starting to rise.\"},{\"dimension\":\"overall\",\"quote\":\"Monetary policy has remained accommodative over an extended period, which has supported labor market recovery\"},{\"dimension\":\"risk_balance\",\"quote\":\"there is a risk that the high rates of unemployment, low labor force attachment, and stagnant wages experienced by those who have come of age in the years surrounding the Great Recession may have long-lasting consequences.\"}],\"rationale\":\"This is mainly a community development speech on the Great Recession's lasting effects on young people, with only a brief nod to monetary policy. That passage credits accommodative policy for the labor recovery and notes below-target inflation, giving a slight dovish tilt but no clear policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "while inflation has remained below its target"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recently, the labor market prospects for young people have started to improve, with the unemployment rate for 20- to 24-year-olds falling about one-third relative to its peak and inflation-adjusted earnings starting to rise."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Monetary policy has remained accommodative over an extended period, which has supported labor market recovery"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there is a risk that the high rates of unemployment, low labor force attachment, and stagnant wages experienced by those who have come of age in the years surrounding the Great Recession may have long-lasting consequences."
+   }
+  ],
+  "rationale": "This is mainly a community development speech on the Great Recession's lasting effects on young people, with only a brief nod to monetary policy. That passage credits accommodative policy for the labor recovery and notes below-target inflation, giving a slight dovish tilt but no clear policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "while inflation has remained below its target",
+     "start": 16491,
+     "end": 16536
+    },
+    {
+     "quote": "Recently, the labor market prospects for young people have started to improve, with the unemployment rate for 20- to 24-year-olds falling about one-third relative to its peak and inflation-adjusted earnings starting to rise.",
+     "start": 4014,
+     "end": 4237
+    },
+    {
+     "quote": "Monetary policy has remained accommodative over an extended period, which has supported labor market recovery",
+     "start": 16259,
+     "end": 16368
+    },
+    {
+     "quote": "there is a risk that the high rates of unemployment, low labor force attachment, and stagnant wages experienced by those who have come of age in the years surrounding the Great Recession may have long-lasting consequences.",
+     "start": 4288,
+     "end": 4509
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

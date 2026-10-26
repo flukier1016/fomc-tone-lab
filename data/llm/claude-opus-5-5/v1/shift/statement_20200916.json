@@ -1,0 +1,168 @@
+{
+ "key": "statement_20200916",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200916",
+  "previous_doc_id": "statement_20200729",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9323b2e14a80fedd91a260d83aaeebc4264eae93f768cd660f86c5c8d431e224",
+ "message_id": "msg_011CgG4g5rHtNRQQS8ZSjw7H",
+ "request_id": "req_011CgG4g5UiXkJyoTkpWoLoo",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1958,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 810,
+    "input_tokens": 1958,
+    "model": null,
+    "output_tokens": 1068,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 1068,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T21:07:07+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\",\"after\":\"The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.\",\"direction\":\"dovish\"},{\"before\":\"To support the flow of credit to households and businesses, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace to sustain smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.\",\"after\":\"In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\",\"direction\":\"dovish\"},{\"before\":\"Following sharp declines, economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year.\",\"after\":\"Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.\",\"direction\":\"hawkish\"},{\"before\":\"The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term\",\"after\":\"The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement introduces explicit outcome-based forward guidance tying liftoff to maximum employment and inflation reaching 2 percent and on track to moderately exceed it, along with a commitment to overshoot inflation, a clear dovish strengthening of guidance. Slightly upgraded economic descriptions and dissents on both sides do not offset this major shift.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+    "after": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "direction": "dovish"
+   },
+   {
+    "before": "To support the flow of credit to households and businesses, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace to sustain smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.",
+    "after": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Following sharp declines, economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year.",
+    "after": "Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term",
+    "after": "The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement introduces explicit outcome-based forward guidance tying liftoff to maximum employment and inflation reaching 2 percent and on track to moderately exceed it, along with a commitment to overshoot inflation, a clear dovish strengthening of guidance. Slightly upgraded economic descriptions and dissents on both sides do not offset this major shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1148,
+     "end": 1342
+    },
+    {
+     "quote": "To support the flow of credit to households and businesses, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace to sustain smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.",
+     "start": 2120,
+     "end": 2492
+    },
+    {
+     "quote": "Following sharp declines, economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year.",
+     "start": 311,
+     "end": 474
+    },
+    {
+     "quote": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term",
+     "start": 824,
+     "end": 940
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment and inflation has risen to 2 percent and is on track to moderately exceed 2 percent for some time.",
+     "start": 1476,
+     "end": 1848
+    },
+    {
+     "quote": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+     "start": 1094,
+     "end": 1362
+    },
+    {
+     "quote": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+     "start": 1364,
+     "end": 1474
+    },
+    {
+     "quote": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+     "start": 1850,
+     "end": 2174
+    },
+    {
+     "quote": "Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.",
+     "start": 308,
+     "end": 436
+    },
+    {
+     "quote": "The ongoing public health crisis will continue to weigh on economic activity, employment, and inflation in the near term",
+     "start": 786,
+     "end": 906
+    },
+    {
+     "quote": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.",
+     "start": 2950,
+     "end": 3547
+    }
+   ]
+  }
+ }
+}

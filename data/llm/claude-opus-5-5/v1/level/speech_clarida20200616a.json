@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20200616a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20200616a",
+  "doc_type": "speech",
+  "text_sha256": "fa0af97424a567beef0e7562994898dbaa9d22d0e2007753706e518b892e0580"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f293742e6ceb98b9e4ad68063ff66b199563c94a784fc7ac6f71be52020e497c",
+ "message_id": "msg_011CgFugAcUpozfjEJervxqG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4162,
+  "output_tokens": 537,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we expect to maintain the target range at this level until we are confident that the economy has weathered recent events and is on track to achieve our maximum-employment and price-stability goals.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"they will continue in coming months at least at the current pace, which should sustain smooth market functioning\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"despite the improvements seen in the May jobs report, the unemployment rate, at 13.3 percent, remains historically high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"given the likely depth of this downturn, are at risk of falling below that range.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit\"}],\"rationale\":\"The speaker stresses deep economic weakness, disinflation and the risk that inflation expectations fall below target. He pledges near-zero rates, continued large asset purchases and possibly more support, which is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we expect to maintain the target range at this level until we are confident that the economy has weathered recent events and is on track to achieve our maximum-employment and price-stability goals."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "they will continue in coming months at least at the current pace, which should sustain smooth market functioning"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "despite the improvements seen in the May jobs report, the unemployment rate, at 13.3 percent, remains historically high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "given the likely depth of this downturn, are at risk of falling below that range."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit"
+   }
+  ],
+  "rationale": "The speaker stresses deep economic weakness, disinflation and the risk that inflation expectations fall below target. He pledges near-zero rates, continued large asset purchases and possibly more support, which is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection.",
+     "start": 4400,
+     "end": 4560
+    },
+    {
+     "quote": "we expect to maintain the target range at this level until we are confident that the economy has weathered recent events and is on track to achieve our maximum-employment and price-stability goals.",
+     "start": 6523,
+     "end": 6719
+    },
+    {
+     "quote": "they will continue in coming months at least at the current pace, which should sustain smooth market functioning",
+     "start": 7090,
+     "end": 7202
+    },
+    {
+     "quote": "despite the improvements seen in the May jobs report, the unemployment rate, at 13.3 percent, remains historically high.",
+     "start": 2386,
+     "end": 2505
+    },
+    {
+     "quote": "given the likely depth of this downturn, are at risk of falling below that range.",
+     "start": 5474,
+     "end": 5554
+    },
+    {
+     "quote": "The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit",
+     "start": 13315,
+     "end": 13422
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

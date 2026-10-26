@@ -1,0 +1,85 @@
+{
+ "key": "speech_cook20230513a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20230513a",
+  "doc_type": "speech",
+  "text_sha256": "d561cc78b1c457dcd0412ab3bc0e2f37bd4deadcb6af208b4740f3927f9485e2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "69da48dac7c7b117072bbd958bf57c3155d259710431214cc21429235b6320f0",
+ "message_id": "msg_011CgFugBejsAwCn6MsnCd7y",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3656,
+  "output_tokens": 275,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is through innovation that our economy becomes more productive, bringing down costs, pushing up growth, and lifting our standard of living.\"},{\"dimension\":\"overall\",\"quote\":\"Congratulations, Tuskegee University Class of 2023!\"}],\"rationale\":\"This is a commencement address about inspiration, innovation, and personal history that contains no discussion of monetary policy, inflation, or the economic outlook. All policy dimensions are null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is through innovation that our economy becomes more productive, bringing down costs, pushing up growth, and lifting our standard of living."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Congratulations, Tuskegee University Class of 2023!"
+   }
+  ],
+  "rationale": "This is a commencement address about inspiration, innovation, and personal history that contains no discussion of monetary policy, inflation, or the economic outlook. All policy dimensions are null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is through innovation that our economy becomes more productive, bringing down costs, pushing up growth, and lifting our standard of living.",
+     "start": 6038,
+     "end": 6179
+    },
+    {
+     "quote": "Congratulations, Tuskegee University Class of 2023!",
+     "start": 11251,
+     "end": 11302
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

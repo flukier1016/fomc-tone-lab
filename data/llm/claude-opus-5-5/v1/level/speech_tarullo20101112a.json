@@ -1,0 +1,103 @@
+{
+ "key": "speech_tarullo20101112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20101112a",
+  "doc_type": "speech",
+  "text_sha256": "f1807d9fdf36c588d195824518293d4390939202ec1e7558556f0499884cbfe8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "61fda0a5672b940c4403c097cf55cc1d80aa96ceda4c5cf31d12cb241e579c34",
+ "message_id": "msg_011CgFugFHGswTmXyKhjQzhB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6876,
+  "output_tokens": 414,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"But it was also evident that capital requirements had simply been set too low in general, and with respect to particular assets.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While there continues to be a relatively high degree of uncertainty about near- to medium-term economic prospects, the basic questions surrounding capital and regulatory reform have now been answered.\"},{\"dimension\":\"overall\",\"quote\":\"I can say that our approach to considering such requests will be a conservative one.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This simply is not a good outcome from any broad perspective--not for the revival of housing markets\"}],\"rationale\":\"The speech is about financial regulation (Basel III, Dodd-Frank, dividend policy, mortgage modifications) and takes no monetary policy view. Its only macro content is a passing note of economic uncertainty and weak housing, which is mildly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "But it was also evident that capital requirements had simply been set too low in general, and with respect to particular assets."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While there continues to be a relatively high degree of uncertainty about near- to medium-term economic prospects, the basic questions surrounding capital and regulatory reform have now been answered."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I can say that our approach to considering such requests will be a conservative one."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This simply is not a good outcome from any broad perspective--not for the revival of housing markets"
+   }
+  ],
+  "rationale": "The speech is about financial regulation (Basel III, Dodd-Frank, dividend policy, mortgage modifications) and takes no monetary policy view. Its only macro content is a passing note of economic uncertainty and weak housing, which is mildly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But it was also evident that capital requirements had simply been set too low in general, and with respect to particular assets.",
+     "start": 8280,
+     "end": 8407
+    },
+    {
+     "quote": "While there continues to be a relatively high degree of uncertainty about near- to medium-term economic prospects, the basic questions surrounding capital and regulatory reform have now been answered.",
+     "start": 21570,
+     "end": 21769
+    },
+    {
+     "quote": "I can say that our approach to considering such requests will be a conservative one.",
+     "start": 22201,
+     "end": 22284
+    },
+    {
+     "quote": "This simply is not a good outcome from any broad perspective--not for the revival of housing markets",
+     "start": 1115,
+     "end": 1215
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

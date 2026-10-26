@@ -1,0 +1,112 @@
+{
+ "key": "speech_raskin20130516a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20130516a",
+  "doc_type": "speech",
+  "text_sha256": "a963eef47c7dd723601f4c9e988e1e2944e764ab9537ac7768ece0a5c5eb49d1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cf3def6f7c6f26bf104b2d8ec70d4a4726d42769e189790a24aa93ea30e139d1",
+ "message_id": "msg_011CgFugGDad8FT1qxhMkEBi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6025,
+  "output_tokens": 502,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it has been appropriate for the Federal Reserve to continue to pursue a highly accommodative monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Both total and core inflation were only about 1 percent over the 12 months ending in March, below the FOMC's long-run objective of 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the U.S. economy has continued to recover from the effects of the financial crisis and deep recession, though at a pace that has been disappointingly slow.\"},{\"dimension\":\"risk_balance\",\"quote\":\"both the tax legislation signed into law in January and the sharp spending cuts associated with sequestration will likely significantly hinder GDP growth this year.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"available research suggests that our previous asset purchases have eased financial conditions and provided meaningful support to the economic recovery.\"}],\"rationale\":\"The speaker stresses a slow recovery, high unemployment, below-target inflation and fiscal drag. She endorses continued highly accommodative policy and asset purchases, though with no explicit signal of new easing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it has been appropriate for the Federal Reserve to continue to pursue a highly accommodative monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Both total and core inflation were only about 1 percent over the 12 months ending in March, below the FOMC's long-run objective of 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the U.S. economy has continued to recover from the effects of the financial crisis and deep recession, though at a pace that has been disappointingly slow."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "both the tax legislation signed into law in January and the sharp spending cuts associated with sequestration will likely significantly hinder GDP growth this year."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "available research suggests that our previous asset purchases have eased financial conditions and provided meaningful support to the economic recovery."
+   }
+  ],
+  "rationale": "The speaker stresses a slow recovery, high unemployment, below-target inflation and fiscal drag. She endorses continued highly accommodative policy and asset purchases, though with no explicit signal of new easing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it has been appropriate for the Federal Reserve to continue to pursue a highly accommodative monetary policy.",
+     "start": 16517,
+     "end": 16625
+    },
+    {
+     "quote": "Both total and core inflation were only about 1 percent over the 12 months ending in March, below the FOMC's long-run objective of 2 percent.",
+     "start": 9395,
+     "end": 9535
+    },
+    {
+     "quote": "the U.S. economy has continued to recover from the effects of the financial crisis and deep recession, though at a pace that has been disappointingly slow.",
+     "start": 19930,
+     "end": 20084
+    },
+    {
+     "quote": "both the tax legislation signed into law in January and the sharp spending cuts associated with sequestration will likely significantly hinder GDP growth this year.",
+     "start": 10776,
+     "end": 10939
+    },
+    {
+     "quote": "available research suggests that our previous asset purchases have eased financial conditions and provided meaningful support to the economic recovery.",
+     "start": 19085,
+     "end": 19235
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

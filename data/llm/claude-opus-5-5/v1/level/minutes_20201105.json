@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20201105",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20201105",
+  "doc_type": "minutes",
+  "text_sha256": "50a2a9d748bcc456c0d8910de6e4ea13d12341801578e1322936e0b9ecfa00d4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b2c47d63c47c33bbfa127d6691832348316beea4d4f568604674460fecda7bab",
+ "message_id": "msg_011CgFugFaP6uKQsgpU68Vem",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 17118,
+  "output_tokens": 560,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"they expected that it would be appropriate to maintain this target range until labor market conditions had reached levels consistent with the Committee's assessments of maximum employment\"},{\"dimension\":\"balance_sheet\",\"quote\":\"participants judged that it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency MBS at least at the current pace.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants viewed the resurgence of COVID-19 cases in the United States and abroad as a downside risk to the recovery\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"some consumer prices had increased more quickly than expected in recent months but that broader price trends were still quite soft.\"},{\"dimension\":\"overall\",\"quote\":\"all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve the Committee's long-run 2 percent inflation objective.\"}],\"rationale\":\"The minutes convey strong commitment to near-zero rates until maximum employment is reached and inflation is on track to overshoot 2 percent, plus continued asset purchases with discussion of adding accommodation. Downside risks from the virus and fiscal support are emphasized, partly offset by a few concerns about the limits of purchases and about financial stability.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "they expected that it would be appropriate to maintain this target range until labor market conditions had reached levels consistent with the Committee's assessments of maximum employment"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "participants judged that it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency MBS at least at the current pace."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants viewed the resurgence of COVID-19 cases in the United States and abroad as a downside risk to the recovery"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "some consumer prices had increased more quickly than expected in recent months but that broader price trends were still quite soft."
+   },
+   {
+    "dimension": "overall",
+    "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve the Committee's long-run 2 percent inflation objective."
+   }
+  ],
+  "rationale": "The minutes convey strong commitment to near-zero rates until maximum employment is reached and inflation is on track to overshoot 2 percent, plus continued asset purchases with discussion of adding accommodation. Downside risks from the virus and fiscal support are emphasized, partly offset by a few concerns about the limits of purchases and about financial stability."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "they expected that it would be appropriate to maintain this target range until labor market conditions had reached levels consistent with the Committee's assessments of maximum employment",
+     "start": 51752,
+     "end": 51939
+    },
+    {
+     "quote": "participants judged that it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency MBS at least at the current pace.",
+     "start": 47455,
+     "end": 47638
+    },
+    {
+     "quote": "Participants viewed the resurgence of COVID-19 cases in the United States and abroad as a downside risk to the recovery",
+     "start": 47138,
+     "end": 47257
+    },
+    {
+     "quote": "some consumer prices had increased more quickly than expected in recent months but that broader price trends were still quite soft.",
+     "start": 39847,
+     "end": 39977
+    },
+    {
+     "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve the Committee's long-run 2 percent inflation objective.",
+     "start": 45793,
+     "end": 45988
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

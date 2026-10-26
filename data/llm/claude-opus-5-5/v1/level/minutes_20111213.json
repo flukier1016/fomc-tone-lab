@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20111213",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20111213",
+  "doc_type": "minutes",
+  "text_sha256": "7e85dee20d888fb1e1aabbedfb1be1e896eb4e3297d448aa20135455d4d9df67"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f785d575de82bb2359b20c43804deb6975dcbf480fe7c6c93aa808d29742ac7f",
+ "message_id": "msg_011CgFugL9Da9GzVxefS6ziB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13890,
+  "output_tokens": 519,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A number of members indicated that current and prospective economic conditions could well warrant additional policy accommodation\"},{\"dimension\":\"forward_guidance\",\"quote\":\"several members noted that the reference to mid-2013 might need to be adjusted before long.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Strains in global financial markets continued to pose significant downside risks to economic activity.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Indeed, some expressed the concern that, with the persistence of considerable resource slack, inflation might run below mandate-consistent levels for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the unemployment rate was expected to remain elevated at the end of 2013.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"they agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September\"}],\"rationale\":\"The minutes describe a held policy stance, with significant downside risks, subdued inflation, and several members open to more accommodation and a likely extension of the mid-2013 guidance, partly offset by a few hawkish voices. Net signal is a moderate dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A number of members indicated that current and prospective economic conditions could well warrant additional policy accommodation"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "several members noted that the reference to mid-2013 might need to be adjusted before long."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Strains in global financial markets continued to pose significant downside risks to economic activity."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Indeed, some expressed the concern that, with the persistence of considerable resource slack, inflation might run below mandate-consistent levels for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the unemployment rate was expected to remain elevated at the end of 2013."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "they agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September"
+   }
+  ],
+  "rationale": "The minutes describe a held policy stance, with significant downside risks, subdued inflation, and several members open to more accommodation and a likely extension of the mid-2013 guidance, partly offset by a few hawkish voices. Net signal is a moderate dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A number of members indicated that current and prospective economic conditions could well warrant additional policy accommodation",
+     "start": 30181,
+     "end": 30310
+    },
+    {
+     "quote": "several members noted that the reference to mid-2013 might need to be adjusted before long.",
+     "start": 29535,
+     "end": 29625
+    },
+    {
+     "quote": "Strains in global financial markets continued to pose significant downside risks to economic activity.",
+     "start": 28512,
+     "end": 28613
+    },
+    {
+     "quote": "Indeed, some expressed the concern that, with the persistence of considerable resource slack, inflation might run below mandate-consistent levels for some time.",
+     "start": 26941,
+     "end": 27100
+    },
+    {
+     "quote": "the unemployment rate was expected to remain elevated at the end of 2013.",
+     "start": 17574,
+     "end": 17646
+    },
+    {
+     "quote": "they agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September",
+     "start": 29081,
+     "end": 29224
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

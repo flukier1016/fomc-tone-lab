@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20200901a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200901a",
+  "doc_type": "speech",
+  "text_sha256": "49045bf11e3a0e9908d9d75697de6e288d84e1651f0eb47d1dee19ab372bd834"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "646468d255872d3cda74f9b95a420e673bc1bf51909d2e545a139efa90436641",
+ "message_id": "msg_011CgFugHWU8ECweQsH8TkPh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4503,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"in coming months, it will be important for monetary policy to pivot from stabilization to accommodation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would expect the Committee to accommodate rather than offset inflationary pressures moderately above 2 percent, in a process of opportunistic reflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation remains weaker than pre-crisis, and it is likely to take some time to return closer to target.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the economy continues to face considerable uncertainty associated with the vagaries of the COVID-19 pandemic, and risks are tilted to the downside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the strong pace of improvement in employment in May and June, which was importantly driven by recall hiring out of temporary layoffs, appears to have slowed.\"}],\"rationale\":\"Brainard explicitly calls for pivoting to more accommodation, tolerating inflation above 2 percent and not withdrawing support preemptively. She also stresses below-target inflation, slowing employment gains and downside risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "in coming months, it will be important for monetary policy to pivot from stabilization to accommodation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would expect the Committee to accommodate rather than offset inflationary pressures moderately above 2 percent, in a process of opportunistic reflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation remains weaker than pre-crisis, and it is likely to take some time to return closer to target."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the economy continues to face considerable uncertainty associated with the vagaries of the COVID-19 pandemic, and risks are tilted to the downside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the strong pace of improvement in employment in May and June, which was importantly driven by recall hiring out of temporary layoffs, appears to have slowed."
+   }
+  ],
+  "rationale": "Brainard explicitly calls for pivoting to more accommodation, tolerating inflation above 2 percent and not withdrawing support preemptively. She also stresses below-target inflation, slowing employment gains and downside risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "in coming months, it will be important for monetary policy to pivot from stabilization to accommodation.",
+     "start": 13333,
+     "end": 13436
+    },
+    {
+     "quote": "I would expect the Committee to accommodate rather than offset inflationary pressures moderately above 2 percent, in a process of opportunistic reflation.",
+     "start": 7460,
+     "end": 7613
+    },
+    {
+     "quote": "inflation remains weaker than pre-crisis, and it is likely to take some time to return closer to target.",
+     "start": 12589,
+     "end": 12692
+    },
+    {
+     "quote": "the economy continues to face considerable uncertainty associated with the vagaries of the COVID-19 pandemic, and risks are tilted to the downside.",
+     "start": 12713,
+     "end": 12859
+    },
+    {
+     "quote": "the strong pace of improvement in employment in May and June, which was importantly driven by recall hiring out of temporary layoffs, appears to have slowed.",
+     "start": 12367,
+     "end": 12523
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

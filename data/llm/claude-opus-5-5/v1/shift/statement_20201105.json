@@ -1,0 +1,119 @@
+{
+ "key": "statement_20201105",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20201105",
+  "previous_doc_id": "statement_20200916",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "35984a9015f3cfe5549c55a89d07e2ebc9d45c07e0b60526cfd54ccab2c43f50",
+ "message_id": "msg_011CgFudUyx3d2pKH8MXtG6V",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2018,
+  "output_tokens": 573,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.\",\"after\":\"Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year.\",\"direction\":\"neutral\"},{\"before\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\",\"after\":\"Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.\",\"direction\":\"hawkish\"},{\"before\":\"Overall financial conditions have improved in recent months, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\",\"after\":\"Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"Policy guidance on rates and asset purchases is unchanged, with only minor updates to the economic description (oil price drag framed as past). The removal of dissents reflects unanimity but no shift in direction, so the overall signal is essentially unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.",
+    "after": "Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+    "after": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Overall financial conditions have improved in recent months, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+    "after": "Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Policy guidance on rates and asset purchases is unchanged, with only minor updates to the economic description (oil price drag framed as past). The removal of dissents reflects unanimity but no shift in direction, so the overall signal is essentially unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year.",
+     "start": 308,
+     "end": 436
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 438,
+     "end": 528
+    },
+    {
+     "quote": "Overall financial conditions have improved in recent months, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+     "start": 530,
+     "end": 705
+    },
+    {
+     "quote": "Voting against the action were Robert S. Kaplan, who expects that it will be appropriate to maintain the current target range until the Committee is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals as articulated in its new policy strategy statement, but prefers that the Committee retain greater policy rate flexibility beyond that point; and Neel Kashkari, who prefers that the Committee indicate that it expects to maintain the current target range until core inflation has reached 2 percent on a sustained basis.",
+     "start": 2950,
+     "end": 3547
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year.",
+     "start": 308,
+     "end": 430
+    },
+    {
+     "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+     "start": 432,
+     "end": 528
+    },
+    {
+     "quote": "Overall financial conditions remain accommodative, in part reflecting policy measures to support the economy and the flow of credit to U.S. households and businesses.",
+     "start": 530,
+     "end": 695
+    }
+   ]
+  }
+ }
+}

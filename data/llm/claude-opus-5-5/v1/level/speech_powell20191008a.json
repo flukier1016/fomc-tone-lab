@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20191008a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20191008a",
+  "doc_type": "speech",
+  "text_sha256": "55310c6222bdea4cfe87b8c6fb90e7b463ede92bba861536d1b00861b0b1c4ac"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7a566ac3c69ac3af9c3fc1cf706dd644d710ade5dcde525af36792052b015483",
+ "message_id": "msg_011CgFug8aSs4VSn5eSks7fj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5833,
+  "output_tokens": 551,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we will act as appropriate to support continued growth, a strong job market, and inflation moving back to our symmetric 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But there are risks to this favorable outlook, principally from global developments.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is somewhat below our symmetric 2 percent objective but has been gradually firming over the past few months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"where we had seen a booming job market, we now see more-moderate growth.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"my colleagues and I will soon announce measures to add to the supply of reserves over time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many indicators show a historically strong labor market, with solid job gains, the unemployment rate at half-century lows, and rising prime-age labor force participation.\"}],\"rationale\":\"The speech emphasizes downside global risks, below-target inflation, a downward-revised job picture and readiness to act to sustain the expansion after 50 bp of cuts, signaling an easing bias, though it describes the labor market as strong. Balance sheet growth is framed as technical reserve management, not stimulus, so it is only mildly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we will act as appropriate to support continued growth, a strong job market, and inflation moving back to our symmetric 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But there are risks to this favorable outlook, principally from global developments."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is somewhat below our symmetric 2 percent objective but has been gradually firming over the past few months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "where we had seen a booming job market, we now see more-moderate growth."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "my colleagues and I will soon announce measures to add to the supply of reserves over time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many indicators show a historically strong labor market, with solid job gains, the unemployment rate at half-century lows, and rising prime-age labor force participation."
+   }
+  ],
+  "rationale": "The speech emphasizes downside global risks, below-target inflation, a downward-revised job picture and readiness to act to sustain the expansion after 50 bp of cuts, signaling an easing bias, though it describes the labor market as strong. Balance sheet growth is framed as technical reserve management, not stimulus, so it is only mildly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we will act as appropriate to support continued growth, a strong job market, and inflation moving back to our symmetric 2 percent objective.",
+     "start": 19567,
+     "end": 19706
+    },
+    {
+     "quote": "But there are risks to this favorable outlook, principally from global developments.",
+     "start": 18752,
+     "end": 18835
+    },
+    {
+     "quote": "Inflation is somewhat below our symmetric 2 percent objective but has been gradually firming over the past few months.",
+     "start": 18421,
+     "end": 18538
+    },
+    {
+     "quote": "where we had seen a booming job market, we now see more-moderate growth.",
+     "start": 13656,
+     "end": 13727
+    },
+    {
+     "quote": "my colleagues and I will soon announce measures to add to the supply of reserves over time.",
+     "start": 16492,
+     "end": 16582
+    },
+    {
+     "quote": "Many indicators show a historically strong labor market, with solid job gains, the unemployment rate at half-century lows, and rising prime-age labor force participation.",
+     "start": 18187,
+     "end": 18356
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

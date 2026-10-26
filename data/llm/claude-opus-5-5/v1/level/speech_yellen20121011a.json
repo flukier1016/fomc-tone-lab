@@ -1,0 +1,103 @@
+{
+ "key": "speech_yellen20121011a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20121011a",
+  "doc_type": "speech",
+  "text_sha256": "49c461578e9026c0bd6cc4f3944d607113f725e6197f7a5c453d0d2c096ad107"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "35e506e98159752f9132142a52a5eaff38be18fd155d35da92ea129ed5c21ae4",
+ "message_id": "msg_011CgFugCpSFsyLVf2NpY9tw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2538,
+  "output_tokens": 435,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Most advanced economies are growing very slowly and operating well short of potential.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In the United States, spillovers from Europe and a still-depressed housing market also help account for our tepid recovery and elevated unemployment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Currently, policymakers in both Japan and the United States face the challenge of designing policies that provide a credible commitment to medium-term deficit reduction without disrupting the fragile recovery.\"},{\"dimension\":\"overall\",\"quote\":\"Growth in the advanced economies is still hampered by critical challenges and full recovery is likely to take several years.\"}],\"rationale\":\"The speech focuses on global growth and structural issues, emphasizing a weak, fragile US and advanced-economy recovery with elevated unemployment. It gives no explicit policy guidance, but the tone implies a continued need for accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Most advanced economies are growing very slowly and operating well short of potential."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In the United States, spillovers from Europe and a still-depressed housing market also help account for our tepid recovery and elevated unemployment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Currently, policymakers in both Japan and the United States face the challenge of designing policies that provide a credible commitment to medium-term deficit reduction without disrupting the fragile recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Growth in the advanced economies is still hampered by critical challenges and full recovery is likely to take several years."
+   }
+  ],
+  "rationale": "The speech focuses on global growth and structural issues, emphasizing a weak, fragile US and advanced-economy recovery with elevated unemployment. It gives no explicit policy guidance, but the tone implies a continued need for accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most advanced economies are growing very slowly and operating well short of potential.",
+     "start": 460,
+     "end": 545
+    },
+    {
+     "quote": "In the United States, spillovers from Europe and a still-depressed housing market also help account for our tepid recovery and elevated unemployment.",
+     "start": 2725,
+     "end": 2873
+    },
+    {
+     "quote": "Currently, policymakers in both Japan and the United States face the challenge of designing policies that provide a credible commitment to medium-term deficit reduction without disrupting the fragile recovery.",
+     "start": 6989,
+     "end": 7197
+    },
+    {
+     "quote": "Growth in the advanced economies is still hampered by critical challenges and full recovery is likely to take several years.",
+     "start": 7921,
+     "end": 8044
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

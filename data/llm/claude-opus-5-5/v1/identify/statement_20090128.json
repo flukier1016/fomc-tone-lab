@@ -1,0 +1,52 @@
+{
+ "key": "statement_20090128",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20090128",
+  "release_date": "2009-01-28"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2c038649a4453c73ab46401c350f41b271f2f7842de03e93eb8b9d60ad889366",
+ "message_id": "msg_011CgFudV7tPoEDwVzAwCmuo",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1366,
+  "output_tokens": 239,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2009,\"month\":1,\"confidence\":0.93,\"cues\":[\"Target range held at what is presumably 0-0.25 percent, with 'exceptionally low levels... for some time' language (post-December 2008)\",\"TALF described as 'will be implementing', so not yet launched (it launched March 2009)\",\"Committee only 'prepared to purchase longer-term Treasury securities', placing this before the March 2009 decision to buy Treasuries\",\"Dissent preferring Treasury purchases to expand the monetary base, matching Lacker's dissent at the January 27-28, 2009 meeting\",\"'Information received since the Committee met in December' implied by the masked month\",\"Expectation that a gradual recovery will begin later this year\"]}",
+ "parsed": {
+  "year": 2009,
+  "month": 1,
+  "confidence": 0.93,
+  "cues": [
+   "Target range held at what is presumably 0-0.25 percent, with 'exceptionally low levels... for some time' language (post-December 2008)",
+   "TALF described as 'will be implementing', so not yet launched (it launched March 2009)",
+   "Committee only 'prepared to purchase longer-term Treasury securities', placing this before the March 2009 decision to buy Treasuries",
+   "Dissent preferring Treasury purchases to expand the monetary base, matching Lacker's dissent at the January 27-28, 2009 meeting",
+   "'Information received since the Committee met in December' implied by the masked month",
+   "Expectation that a gradual recovery will begin later this year"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

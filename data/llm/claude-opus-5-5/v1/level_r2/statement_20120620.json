@@ -1,0 +1,112 @@
+{
+ "key": "statement_20120620",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20120620",
+  "doc_type": "statement",
+  "text_sha256": "225298d2b65f4736ce52132e4b916b1291526eae912295d9afd02ab8943d01a3"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3b90cba5c02afc508aef29016689fafcaf5c6a85eefc95aeae2b421d5f75438d",
+ "message_id": "msg_011CgG27k6WzqDtLRDtpapzG",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1051,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate.\"}],\"rationale\":\"The Committee extends the maturity extension program and keeps its guidance of exceptionally low rates through late 2014, while signaling readiness for further action. It also cites slowing employment growth, significant downside risks and subdued inflation, all of which point in a dovish direction.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate."
+   }
+  ],
+  "rationale": "The Committee extends the maturity extension program and keeps its guidance of exceptionally low rates through late 2014, while signaling readiness for further action. It also cites slowing employment growth, significant downside risks and subdued inflation, all of which point in a dovish direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.",
+     "start": 1850,
+     "end": 1989
+    },
+    {
+     "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 2618,
+     "end": 2806
+    },
+    {
+     "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 1002,
+     "end": 1105
+    },
+    {
+     "quote": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.",
+     "start": 141,
+     "end": 242
+    },
+    {
+     "quote": "The Committee anticipates that inflation over the medium term will run at or below the rate that it judges most consistent with its dual mandate.",
+     "start": 1107,
+     "end": 1251
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

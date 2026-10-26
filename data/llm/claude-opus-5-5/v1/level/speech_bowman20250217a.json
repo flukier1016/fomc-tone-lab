@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20250217a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250217a",
+  "doc_type": "speech",
+  "text_sha256": "4f972bce789fc3e399d751aeb4cec39bc230f569bf45301259d72130396671b9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "81039a103566619facebcbb943dfcb0004c0bf78cc31be8216a186a9adff5c88",
+ "message_id": "msg_011CgFug9J7Fzu8ijbxHnUeh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11080,
+  "output_tokens": 459,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I think that policy is now in a good place, allowing the Committee to be patient and pay closer attention to the inflation data as it evolves.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I continue to see greater risks to price stability, especially while the labor market remains strong.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"For now, the U.S. economy remains strong, with solid growth in economic activity and a labor market near full employment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"There is still more work to be done to bring inflation closer to our 2 percent goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"there are a few considerations that lead me to prefer a cautious and gradual approach to adjusting policy\"}],\"rationale\":\"The monetary policy section stresses a strong economy, upside inflation risks, and patience with a cautious, gradual approach to further cuts, which is a moderately hawkish lean. The rest of the speech covers bank regulation, so policy relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I think that policy is now in a good place, allowing the Committee to be patient and pay closer attention to the inflation data as it evolves."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I continue to see greater risks to price stability, especially while the labor market remains strong."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "For now, the U.S. economy remains strong, with solid growth in economic activity and a labor market near full employment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There is still more work to be done to bring inflation closer to our 2 percent goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "there are a few considerations that lead me to prefer a cautious and gradual approach to adjusting policy"
+   }
+  ],
+  "rationale": "The monetary policy section stresses a strong economy, upside inflation risks, and patience with a cautious, gradual approach to further cuts, which is a moderately hawkish lean. The rest of the speech covers bank regulation, so policy relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I think that policy is now in a good place, allowing the Committee to be patient and pay closer attention to the inflation data as it evolves.",
+     "start": 2003,
+     "end": 2144
+    },
+    {
+     "quote": "I continue to see greater risks to price stability, especially while the labor market remains strong.",
+     "start": 6383,
+     "end": 6483
+    },
+    {
+     "quote": "For now, the U.S. economy remains strong, with solid growth in economic activity and a labor market near full employment.",
+     "start": 2555,
+     "end": 2675
+    },
+    {
+     "quote": "There is still more work to be done to bring inflation closer to our 2 percent goal.",
+     "start": 7749,
+     "end": 7832
+    },
+    {
+     "quote": "there are a few considerations that lead me to prefer a cautious and gradual approach to adjusting policy",
+     "start": 7048,
+     "end": 7153
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

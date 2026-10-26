@@ -1,0 +1,103 @@
+{
+ "key": "speech_quarles20211202a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20211202a",
+  "doc_type": "speech",
+  "text_sha256": "e514628348daa17c3f6c5c94ca11fb0756c148bd8037fc2fd0eefd244b2332b5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "db5463513cd4e8b1295ba6b3e062374acdcb8aa6ba5c1c7d8b5c9ca79b33296c",
+ "message_id": "msg_011CgFugDy978Bh3DMuTYwZ6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11727,
+  "output_tokens": 406,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my view the resilience of banks during the COVID event, coupled with the results of our stress tests, demonstrate that the overall level of capital in the banking system is more than ample.\"},{\"dimension\":\"overall\",\"quote\":\"One of the principal matters that the Fed will have to take up in the very near term is the calibration of our leverage capital standards.\"},{\"dimension\":\"overall\",\"quote\":\"Treasury issuance is at an all-time high and the banking system is awash with central bank reserves.\"},{\"dimension\":\"overall\",\"quote\":\"Let me now turn to a longer-term challenge: the implications of our emergency actions in the recent crisis.\"}],\"rationale\":\"This farewell speech addresses bank regulation, supervision, emergency lending governance and FSB work, offering no view on the rate path, inflation or the economic outlook. It is low relevance for monetary policy stance and is scored neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my view the resilience of banks during the COVID event, coupled with the results of our stress tests, demonstrate that the overall level of capital in the banking system is more than ample."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One of the principal matters that the Fed will have to take up in the very near term is the calibration of our leverage capital standards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Treasury issuance is at an all-time high and the banking system is awash with central bank reserves."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Let me now turn to a longer-term challenge: the implications of our emergency actions in the recent crisis."
+   }
+  ],
+  "rationale": "This farewell speech addresses bank regulation, supervision, emergency lending governance and FSB work, offering no view on the rate path, inflation or the economic outlook. It is low relevance for monetary policy stance and is scored neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view the resilience of banks during the COVID event, coupled with the results of our stress tests, demonstrate that the overall level of capital in the banking system is more than ample.",
+     "start": 4227,
+     "end": 4418
+    },
+    {
+     "quote": "One of the principal matters that the Fed will have to take up in the very near term is the calibration of our leverage capital standards.",
+     "start": 8090,
+     "end": 8227
+    },
+    {
+     "quote": "Treasury issuance is at an all-time high and the banking system is awash with central bank reserves.",
+     "start": 10291,
+     "end": 10390
+    },
+    {
+     "quote": "Let me now turn to a longer-term challenge: the implications of our emergency actions in the recent crisis.",
+     "start": 25532,
+     "end": 25638
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

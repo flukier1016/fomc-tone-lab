@@ -1,0 +1,94 @@
+{
+ "key": "speech_raskin20130228a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20130228a",
+  "doc_type": "speech",
+  "text_sha256": "d1dc9ace71d12b3bf8fb3e6e3555fb616d88786ba870bdd4c63c25edf552b6b8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "664f83f70161401917bceea94d94650a47ae4bcdfadcef129b4c25443425bcd4",
+ "message_id": "msg_011CgFug9QZAV2oGsQTzxgo2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7317,
+  "output_tokens": 339,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to share some thoughts this afternoon on a broader topic, however, that may be due for a refreshed look: the relevance of a bank's reputation.\"},{\"dimension\":\"overall\",\"quote\":\"If bank profitability is going to improve in a context of low interest rates and higher compliance costs, lending income may remain low.\"},{\"dimension\":\"overall\",\"quote\":\"which have been responsible, in part, for the slow recovery we confront today.\"}],\"rationale\":\"The speech addresses bank reputational risk, supervision, financial inclusion and cybersecurity, and takes no position on monetary policy. Passing references to the slow recovery and low rates are contextual, not policy signals.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to share some thoughts this afternoon on a broader topic, however, that may be due for a refreshed look: the relevance of a bank's reputation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "If bank profitability is going to improve in a context of low interest rates and higher compliance costs, lending income may remain low."
+   },
+   {
+    "dimension": "overall",
+    "quote": "which have been responsible, in part, for the slow recovery we confront today."
+   }
+  ],
+  "rationale": "The speech addresses bank reputational risk, supervision, financial inclusion and cybersecurity, and takes no position on monetary policy. Passing references to the slow recovery and low rates are contextual, not policy signals."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to share some thoughts this afternoon on a broader topic, however, that may be due for a refreshed look: the relevance of a bank's reputation.",
+     "start": 295,
+     "end": 449
+    },
+    {
+     "quote": "If bank profitability is going to improve in a context of low interest rates and higher compliance costs, lending income may remain low.",
+     "start": 11118,
+     "end": 11253
+    },
+    {
+     "quote": "which have been responsible, in part, for the slow recovery we confront today.",
+     "start": 6880,
+     "end": 6957
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

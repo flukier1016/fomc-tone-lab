@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20120125",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120125",
+  "doc_type": "minutes",
+  "text_sha256": "8d1642377711a1a11cee4afc2423704f2ab1d176b0a864c0bd85f4188fc6b791"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "719988b1fda03348dbaf987023b51e622655298ac468eccdc4f858b46d8e1f56",
+ "message_id": "msg_011CgFug9chdXKH9Tn51yEgz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11674,
+  "output_tokens": 484,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014, longer than had been indicated in recent FOMC statements\"},{\"dimension\":\"balance_sheet\",\"quote\":\"could warrant the initiation of additional securities purchases before long\"},{\"dimension\":\"risk_balance\",\"quote\":\"Strains in global financial markets continued to pose significant downside risks to economic activity.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"members generally expected a modest pace of economic growth over coming quarters, with the unemployment rate declining only gradually.\"}],\"rationale\":\"The minutes describe extending the low-rate guidance to late 2014 to ease financial conditions, with some members open to more asset purchases, amid subdued inflation and significant downside risks. One hawkish dissent does not offset the clearly dovish majority signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014, longer than had been indicated in recent FOMC statements"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "could warrant the initiation of additional securities purchases before long"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Strains in global financial markets continued to pose significant downside risks to economic activity."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "members generally expected a modest pace of economic growth over coming quarters, with the unemployment rate declining only gradually."
+   }
+  ],
+  "rationale": "The minutes describe extending the low-rate guidance to late 2014 to ease financial conditions, with some members open to more asset purchases, amid subdued inflation and significant downside risks. One hawkish dissent does not offset the clearly dovish majority signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014, longer than had been indicated in recent FOMC statements",
+     "start": 32802,
+     "end": 32960
+    },
+    {
+     "quote": "could warrant the initiation of additional securities purchases before long",
+     "start": 34000,
+     "end": 34075
+    },
+    {
+     "quote": "Strains in global financial markets continued to pose significant downside risks to economic activity.",
+     "start": 31298,
+     "end": 31399
+    },
+    {
+     "quote": "Some remained concerned that, with the persistence of considerable resource slack, inflation might continue to drift down and run below mandate-consistent levels for some time.",
+     "start": 27606,
+     "end": 27781
+    },
+    {
+     "quote": "members generally expected a modest pace of economic growth over coming quarters, with the unemployment rate declining only gradually.",
+     "start": 31163,
+     "end": 31296
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

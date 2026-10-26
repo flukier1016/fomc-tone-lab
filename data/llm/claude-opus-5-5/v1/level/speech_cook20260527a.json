@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20260527a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260527a",
+  "doc_type": "speech",
+  "text_sha256": "2e3ff6faf344f1915d7da5badb200775b32359b4148dcc0b9a59378acaa98a2d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7c6fd6391d31a3b4137b8c8e250cbe4a0afac03581c21a5ad8515b14bf3a1994",
+ "message_id": "msg_011CgFug8yGABEo4xDa6uD8t",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6371,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is clearly moving in the wrong direction.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, I want to be clear about my risk assessment: The risks remain tilted toward higher inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"As such, I am prepared to raise rates, if the expected disinflation does not appear in a timely manner.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I currently believe that the right course of action is to hold rates steady.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, I view the downside risks to the labor market as being elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I expect that AI will further boost productivity growth, contributing to my expectation that GDP will grow robustly in the near to medium term.\"}],\"rationale\":\"The speaker supports holding rates but stresses that inflation is moving the wrong way, says risks are tilted toward higher inflation, and states readiness to raise rates if disinflation stalls. Elevated downside labor risks and a willingness to cut if the labor market deteriorates temper this, giving a moderate hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is clearly moving in the wrong direction."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, I want to be clear about my risk assessment: The risks remain tilted toward higher inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "As such, I am prepared to raise rates, if the expected disinflation does not appear in a timely manner."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I currently believe that the right course of action is to hold rates steady."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, I view the downside risks to the labor market as being elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I expect that AI will further boost productivity growth, contributing to my expectation that GDP will grow robustly in the near to medium term."
+   }
+  ],
+  "rationale": "The speaker supports holding rates but stresses that inflation is moving the wrong way, says risks are tilted toward higher inflation, and states readiness to raise rates if disinflation stalls. Elevated downside labor risks and a willingness to cut if the labor market deteriorates temper this, giving a moderate hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation is clearly moving in the wrong direction.",
+     "start": 2559,
+     "end": 2609
+    },
+    {
+     "quote": "However, I want to be clear about my risk assessment: The risks remain tilted toward higher inflation.",
+     "start": 7521,
+     "end": 7622
+    },
+    {
+     "quote": "As such, I am prepared to raise rates, if the expected disinflation does not appear in a timely manner.",
+     "start": 7980,
+     "end": 8082
+    },
+    {
+     "quote": "I currently believe that the right course of action is to hold rates steady.",
+     "start": 7444,
+     "end": 7519
+    },
+    {
+     "quote": "However, I view the downside risks to the labor market as being elevated.",
+     "start": 5084,
+     "end": 5156
+    },
+    {
+     "quote": "I expect that AI will further boost productivity growth, contributing to my expectation that GDP will grow robustly in the near to medium term.",
+     "start": 7167,
+     "end": 7309
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

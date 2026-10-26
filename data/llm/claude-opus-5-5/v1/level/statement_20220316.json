@@ -1,0 +1,121 @@
+{
+ "key": "statement_20220316",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20220316",
+  "doc_type": "statement",
+  "text_sha256": "846ada4dcab9a8be7a00e57ce1b7984490f0d2fbcc463bb8afbe1d48e6118333"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "020c9dc62c134ce5bab3339735e3a456b763b18a562738344d106e18787c3cf2",
+ "message_id": "msg_011CgFugBdkQFgLsmJBhmpWk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 740,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"anticipates that ongoing increases in the target range will be appropriate\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have been strong in recent months, and the unemployment rate has declined substantially.\"}],\"rationale\":\"The statement begins a tightening cycle with a rate hike, signals ongoing increases and upcoming balance sheet runoff, and stresses elevated inflation, with a dissent favoring a larger hike. Risks are two-sided from the war but lean toward inflation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "anticipates that ongoing increases in the target range will be appropriate"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have been strong in recent months, and the unemployment rate has declined substantially."
+   }
+  ],
+  "rationale": "The statement begins a tightening cycle with a rate hike, signals ongoing increases and upcoming balance sheet runoff, and stresses elevated inflation, with a dissent favoring a larger hike. Risks are two-sided from the war but lean toward inflation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent",
+     "start": 917,
+     "end": 1013
+    },
+    {
+     "quote": "anticipates that ongoing increases in the target range will be appropriate",
+     "start": 1018,
+     "end": 1092
+    },
+    {
+     "quote": "the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting",
+     "start": 1107,
+     "end": 1256
+    },
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher energy prices, and broader price pressures.",
+     "start": 176,
+     "end": 318
+    },
+    {
+     "quote": "the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity",
+     "start": 487,
+     "end": 610
+    },
+    {
+     "quote": "Job gains have been strong in recent months, and the unemployment rate has declined substantially.",
+     "start": 77,
+     "end": 174
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

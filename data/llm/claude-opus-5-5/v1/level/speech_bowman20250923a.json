@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20250923a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250923a",
+  "doc_type": "speech",
+  "text_sha256": "f68b874c74f448c9f85e0987bf5cd49a3b28add97fcfe658bf58ca65f17519ce"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7d6da864788093fe4ba9897e8374786dd08524f4ee4c53a5661a82ffdcfbaa7b",
+ "message_id": "msg_011CgFugEMi72fTYxoWtHHQt",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4685,
+  "output_tokens": 550,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Assuming the economy evolves as I expect, last week's action should be the first step to bring the federal funds rate back to its neutral level.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I am also more confident that, as trade policy has become more certain, tariffs will have only a small and short-lived effect on inflation going forward.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although still near full employment, the labor market has become more fragile and could deteriorate more significantly in the coming months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see that upside risks to price stability have diminished.\"},{\"dimension\":\"overall\",\"quote\":\"it is time for the Committee to act decisively and proactively to address decreasing labor market dynamism and emerging signs of fragility.\"}],\"rationale\":\"The speaker forcefully emphasizes labor market fragility and downside employment risks, downplays tariff inflation, and explicitly calls for further, possibly faster, rate cuts toward neutral. This is a clearly dovish signal; the speech announces no new decision of its own, so policy_action is null.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Assuming the economy evolves as I expect, last week's action should be the first step to bring the federal funds rate back to its neutral level."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I am also more confident that, as trade policy has become more certain, tariffs will have only a small and short-lived effect on inflation going forward."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although still near full employment, the labor market has become more fragile and could deteriorate more significantly in the coming months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see that upside risks to price stability have diminished."
+   },
+   {
+    "dimension": "overall",
+    "quote": "it is time for the Committee to act decisively and proactively to address decreasing labor market dynamism and emerging signs of fragility."
+   }
+  ],
+  "rationale": "The speaker forcefully emphasizes labor market fragility and downside employment risks, downplays tariff inflation, and explicitly calls for further, possibly faster, rate cuts toward neutral. This is a clearly dovish signal; the speech announces no new decision of its own, so policy_action is null."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Assuming the economy evolves as I expect, last week's action should be the first step to bring the federal funds rate back to its neutral level.",
+     "start": 2124,
+     "end": 2267
+    },
+    {
+     "quote": "Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward.",
+     "start": 9537,
+     "end": 9674
+    },
+    {
+     "quote": "I am also more confident that, as trade policy has become more certain, tariffs will have only a small and short-lived effect on inflation going forward.",
+     "start": 2433,
+     "end": 2585
+    },
+    {
+     "quote": "Although still near full employment, the labor market has become more fragile and could deteriorate more significantly in the coming months.",
+     "start": 4547,
+     "end": 4686
+    },
+    {
+     "quote": "I see that upside risks to price stability have diminished.",
+     "start": 7469,
+     "end": 7527
+    },
+    {
+     "quote": "it is time for the Committee to act decisively and proactively to address decreasing labor market dynamism and emerging signs of fragility.",
+     "start": 9184,
+     "end": 9322
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

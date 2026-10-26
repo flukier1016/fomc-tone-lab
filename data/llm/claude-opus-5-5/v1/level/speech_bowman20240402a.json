@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240402a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240402a",
+  "doc_type": "speech",
+  "text_sha256": "ff7583ecb39a1d735c14b7d94b66aab3f5cbd82e28148b578816169fe5756a66"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b62c6c71a0efe56d524a1a27caf502cec35b6db5b00f1ac693c1addc850471fc",
+ "message_id": "msg_011CgFugAsMxiBJwhFm9vmPH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5743,
+  "output_tokens": 333,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am concerned that the broad-based and insufficiently focused reform agenda has become a growing source of risk to the banking system\"},{\"dimension\":\"overall\",\"quote\":\"We must not foreclose bank merger activities that are permitted by law and that are necessary to maintain a healthy banking system.\"},{\"dimension\":\"overall\",\"quote\":\"I continue to be concerned about the decline in the number of banks in the U.S.\"}],\"rationale\":\"The speech addresses bank regulation, de novo formation, and M&A approval processes, and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am concerned that the broad-based and insufficiently focused reform agenda has become a growing source of risk to the banking system"
+   },
+   {
+    "dimension": "overall",
+    "quote": "We must not foreclose bank merger activities that are permitted by law and that are necessary to maintain a healthy banking system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I continue to be concerned about the decline in the number of banks in the U.S."
+   }
+  ],
+  "rationale": "The speech addresses bank regulation, de novo formation, and M&A approval processes, and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am concerned that the broad-based and insufficiently focused reform agenda has become a growing source of risk to the banking system",
+     "start": 3239,
+     "end": 3373
+    },
+    {
+     "quote": "We must not foreclose bank merger activities that are permitted by law and that are necessary to maintain a healthy banking system.",
+     "start": 14263,
+     "end": 14393
+    },
+    {
+     "quote": "I continue to be concerned about the decline in the number of banks in the U.S.",
+     "start": 5651,
+     "end": 5729
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

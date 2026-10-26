@@ -1,0 +1,154 @@
+{
+ "key": "statement_20101214",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20101214",
+  "previous_doc_id": "statement_20101103",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a2b155e403515b36a4586fb76a5e0e769f8a7c6f769f2a3fd0625f7e115a792d",
+ "message_id": "msg_011CgFudUTStfWy3kW5DtTeC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2047,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"confirms that the pace of recovery in output and employment continues to be slow\",\"after\":\"confirms that the economic recovery is continuing, though at a rate that has been insufficient to bring down unemployment\",\"direction\":\"hawkish\"},{\"before\":\"Household spending is increasing gradually\",\"after\":\"Household spending is increasing at a moderate pace\",\"direction\":\"hawkish\"},{\"before\":\"measures of underlying inflation have trended lower in recent quarters\",\"after\":\"measures of underlying inflation have continued to trend downward\",\"direction\":\"dovish\"},{\"before\":\"the Committee decided today to expand its holdings of securities.\",\"after\":\"the Committee decided today to continue expanding its holdings of securities as announced in November.\",\"direction\":\"neutral\"},{\"before\":\"Housing starts continue to be depressed.\",\"after\":\"The housing sector continues to be depressed.\",\"direction\":\"neutral\"},{\"before\":\"Mr. Hoenig believed the risks of additional securities purchases outweighed the benefits. Mr. Hoenig also was concerned that this continued high level of monetary accommodation increased the risks of future financial imbalances\",\"after\":\"In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances\",\"direction\":\"neutral\"}],\"rationale\":\"The policy action and guidance are unchanged, with the $600 billion program simply reaffirmed. A slightly more upbeat growth description is offset by stronger language on disinflation, leaving no material net shift.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "confirms that the pace of recovery in output and employment continues to be slow",
+    "after": "confirms that the economic recovery is continuing, though at a rate that has been insufficient to bring down unemployment",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending is increasing gradually",
+    "after": "Household spending is increasing at a moderate pace",
+    "direction": "hawkish"
+   },
+   {
+    "before": "measures of underlying inflation have trended lower in recent quarters",
+    "after": "measures of underlying inflation have continued to trend downward",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Committee decided today to expand its holdings of securities.",
+    "after": "the Committee decided today to continue expanding its holdings of securities as announced in November.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Housing starts continue to be depressed.",
+    "after": "The housing sector continues to be depressed.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Mr. Hoenig believed the risks of additional securities purchases outweighed the benefits. Mr. Hoenig also was concerned that this continued high level of monetary accommodation increased the risks of future financial imbalances",
+    "after": "In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The policy action and guidance are unchanged, with the $600 billion program simply reaffirmed. A slightly more upbeat growth description is offset by stronger language on disinflation, leaving no material net shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "confirms that the pace of recovery in output and employment continues to be slow",
+     "start": 78,
+     "end": 158
+    },
+    {
+     "quote": "Household spending is increasing gradually",
+     "start": 160,
+     "end": 202
+    },
+    {
+     "quote": "measures of underlying inflation have trended lower in recent quarters",
+     "start": 630,
+     "end": 700
+    },
+    {
+     "quote": "the Committee decided today to expand its holdings of securities.",
+     "start": 1345,
+     "end": 1409
+    },
+    {
+     "quote": "Housing starts continue to be depressed.",
+     "start": 528,
+     "end": 567
+    },
+    {
+     "quote": "Mr. Hoenig believed the risks of additional securities purchases outweighed the benefits. Mr. Hoenig also was concerned that this continued high level of monetary accommodation increased the risks of future financial imbalances",
+     "start": 2871,
+     "end": 3098
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "confirms that the economic recovery is continuing, though at a rate that has been insufficient to bring down unemployment",
+     "start": 77,
+     "end": 198
+    },
+    {
+     "quote": "Household spending is increasing at a moderate pace",
+     "start": 200,
+     "end": 251
+    },
+    {
+     "quote": "measures of underlying inflation have continued to trend downward",
+     "start": 684,
+     "end": 749
+    },
+    {
+     "quote": "the Committee decided today to continue expanding its holdings of securities as announced in November.",
+     "start": 1394,
+     "end": 1495
+    },
+    {
+     "quote": "The housing sector continues to be depressed.",
+     "start": 577,
+     "end": 621
+    },
+    {
+     "quote": "In light of the improving economy, Mr. Hoenig was concerned that a continued high level of monetary accommodation would increase the risks of future economic and financial imbalances",
+     "start": 2947,
+     "end": 3129
+    }
+   ]
+  }
+ }
+}

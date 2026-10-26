@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20090320a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090320a",
+  "doc_type": "speech",
+  "text_sha256": "7582710ddd087f3a5be853725fafe82f532ba8f57ca50e0e9962d0004e74768c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7cd0357d91499d80cb77f8c1f060973f95e0137ddf1e54994a540c607fde79d9",
+ "message_id": "msg_011CgFugAGtw59PtEATQtPik",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6838,
+  "output_tokens": 585,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"As we announced this week, we are purchasing up to $300 billion in Treasury debt, $200 billion of the debt of government-sponsored enterprises (GSEs), and up to $1.25 trillion of mortgage-backed securities guaranteed by the GSEs and federal agencies this year.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Over time, we expect to expand this facility to include loans against other types of newly issued AAA-rated asset-backed securities, such as commercial mortgage-backed securities and private-label residential mortgage-backed securities.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Widening credit spreads, more-restrictive lending standards, and credit market dysfunction are working against the monetary easing and leading to tighter financial conditions overall.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we cannot have a vigorous economic recovery unless we succeed in restoring a reasonable degree of financial stability.\"},{\"dimension\":\"policy_action\",\"quote\":\"the Committee responded by cutting the target for the federal funds rate to near zero by the end of last year.\"}],\"rationale\":\"The speech, largely about community banks and regulatory reform, describes aggressive easing, large-scale asset purchases and planned TALF expansion amid tight financial conditions and a weak outlook. The net signal is dovish, with no discussion of inflation.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "As we announced this week, we are purchasing up to $300 billion in Treasury debt, $200 billion of the debt of government-sponsored enterprises (GSEs), and up to $1.25 trillion of mortgage-backed securities guaranteed by the GSEs and federal agencies this year."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Over time, we expect to expand this facility to include loans against other types of newly issued AAA-rated asset-backed securities, such as commercial mortgage-backed securities and private-label residential mortgage-backed securities."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Widening credit spreads, more-restrictive lending standards, and credit market dysfunction are working against the monetary easing and leading to tighter financial conditions overall."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we cannot have a vigorous economic recovery unless we succeed in restoring a reasonable degree of financial stability."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee responded by cutting the target for the federal funds rate to near zero by the end of last year."
+   }
+  ],
+  "rationale": "The speech, largely about community banks and regulatory reform, describes aggressive easing, large-scale asset purchases and planned TALF expansion amid tight financial conditions and a weak outlook. The net signal is dovish, with no discussion of inflation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As we announced this week, we are purchasing up to $300 billion in Treasury debt, $200 billion of the debt of government-sponsored enterprises (GSEs), and up to $1.25 trillion of mortgage-backed securities guaranteed by the GSEs and federal agencies this year.",
+     "start": 6124,
+     "end": 6383
+    },
+    {
+     "quote": "Over time, we expect to expand this facility to include loans against other types of newly issued AAA-rated asset-backed securities, such as commercial mortgage-backed securities and private-label residential mortgage-backed securities.",
+     "start": 5615,
+     "end": 5850
+    },
+    {
+     "quote": "Widening credit spreads, more-restrictive lending standards, and credit market dysfunction are working against the monetary easing and leading to tighter financial conditions overall.",
+     "start": 3303,
+     "end": 3485
+    },
+    {
+     "quote": "we cannot have a vigorous economic recovery unless we succeed in restoring a reasonable degree of financial stability.",
+     "start": 7635,
+     "end": 7752
+    },
+    {
+     "quote": "the Committee responded by cutting the target for the federal funds rate to near zero by the end of last year.",
+     "start": 2910,
+     "end": 3019
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

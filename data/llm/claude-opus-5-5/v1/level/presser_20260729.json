@@ -1,0 +1,121 @@
+{
+ "key": "presser_20260729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260729",
+  "doc_type": "presser",
+  "text_sha256": "de76c08682dc556da48b3a1f6336d58185c4f434b5841dce35d4e2d28417e7ec"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "097067f347b3459ed53625bde488549e10ef39e400325559194c8b3e1fd8e6d7",
+ "message_id": "msg_011CgFugDrSomGQJZaQBZDYT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9802,
+  "output_tokens": 869,
+  "output_tokens_details": {
+   "thinking_tokens": 309
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"There is no soft inflation target; there is no soft implicit target—not on this Committee’s watch. There’s only a target, and it’s 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If inflation continues to be elevated through the forecast period, interest rates could well be part of that solution.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So I wouldn’t characterize what we did as anything like a pause.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy is showing impressive resilience. Even with recent shocks, the trends are positive and reveal solid growth.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"how much accommodation are we getting from the balance sheet?\"},{\"dimension\":\"risk_balance\",\"quote\":\"I’ve been talking mostly about price stability because we’re doing pretty well, collectively, as a country—as policymakers—on the full-employment side. But we’re doing considerably less well on prices.\"}],\"rationale\":\"The Committee held rates, but the Chair forcefully stresses elevated inflation, rejects any tolerance above 2 percent, welcomes the market-driven tightening in nominal and real yields, and denies the hold is a pause. With growth described as solid and the balance sheet's accommodation questioned, the net signal leans hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There is no soft inflation target; there is no soft implicit target—not on this Committee’s watch. There’s only a target, and it’s 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If inflation continues to be elevated through the forecast period, interest rates could well be part of that solution."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So I wouldn’t characterize what we did as anything like a pause."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy is showing impressive resilience. Even with recent shocks, the trends are positive and reveal solid growth."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "how much accommodation are we getting from the balance sheet?"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I’ve been talking mostly about price stability because we’re doing pretty well, collectively, as a country—as policymakers—on the full-employment side. But we’re doing considerably less well on prices."
+   }
+  ],
+  "rationale": "The Committee held rates, but the Chair forcefully stresses elevated inflation, rejects any tolerance above 2 percent, welcomes the market-driven tightening in nominal and real yields, and denies the hold is a pause. With growth described as solid and the balance sheet's accommodation questioned, the net signal leans hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "There is no soft inflation target; there is no soft implicit target—not on this Committee’s watch. There’s only a target, and it’s 2 percent.",
+     "start": 1380,
+     "end": 1520
+    },
+    {
+     "quote": "If inflation continues to be elevated through the forecast period, interest rates could well be part of that solution.",
+     "start": 12260,
+     "end": 12377
+    },
+    {
+     "quote": "So I wouldn’t characterize what we did as anything like a pause.",
+     "start": 14810,
+     "end": 14873
+    },
+    {
+     "quote": "The economy is showing impressive resilience. Even with recent shocks, the trends are positive and reveal solid growth.",
+     "start": 561,
+     "end": 679
+    },
+    {
+     "quote": "how much accommodation are we getting from the balance sheet?",
+     "start": 5411,
+     "end": 5472
+    },
+    {
+     "quote": "I’ve been talking mostly about price stability because we’re doing pretty well, collectively, as a country—as policymakers—on the full-employment side. But we’re doing considerably less well on prices.",
+     "start": 18338,
+     "end": 18538
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

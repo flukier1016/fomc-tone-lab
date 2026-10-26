@@ -1,0 +1,112 @@
+{
+ "key": "speech_raskin20130418a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20130418a",
+  "doc_type": "speech",
+  "text_sha256": "8b348187beef70fbede233de6b19b55f6a6422ab2b5b8b0c0e22b209f717973e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d12fd762fc2e117c8041a9cfdd88a16754698ded640b8a7d2082c3c9926c508d",
+ "message_id": "msg_011CgFug9NpeQwnTZye62n7t",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7924,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Now we are nearly four years into the recovery, which has been weak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Wage gains have remained more muted than is typical during a recovery.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"As the housing market recovers, though, I think it is possible that accommodative monetary policy could be increasingly potent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"by initiating unconventional policy actions such as large-scale asset purchases.\"},{\"dimension\":\"overall\",\"quote\":\"I believe that the accommodative policies of the FOMC and the concerted effort we have made to ease conditions in the mortgage markets will help the economy continue to gain traction.\"}],\"rationale\":\"The speech emphasizes a weak recovery, lingering household deleveraging and muted wages, and endorses continued accommodative policy including asset purchases. It does not address inflation and offers no explicit new easing signal, so the lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Now we are nearly four years into the recovery, which has been weak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Wage gains have remained more muted than is typical during a recovery."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "As the housing market recovers, though, I think it is possible that accommodative monetary policy could be increasingly potent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "by initiating unconventional policy actions such as large-scale asset purchases."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe that the accommodative policies of the FOMC and the concerted effort we have made to ease conditions in the mortgage markets will help the economy continue to gain traction."
+   }
+  ],
+  "rationale": "The speech emphasizes a weak recovery, lingering household deleveraging and muted wages, and endorses continued accommodative policy including asset purchases. It does not address inflation and offers no explicit new easing signal, so the lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Now we are nearly four years into the recovery, which has been weak.",
+     "start": 14757,
+     "end": 14824
+    },
+    {
+     "quote": "Wage gains have remained more muted than is typical during a recovery.",
+     "start": 18272,
+     "end": 18341
+    },
+    {
+     "quote": "As the housing market recovers, though, I think it is possible that accommodative monetary policy could be increasingly potent.",
+     "start": 24278,
+     "end": 24404
+    },
+    {
+     "quote": "by initiating unconventional policy actions such as large-scale asset purchases.",
+     "start": 22650,
+     "end": 22729
+    },
+    {
+     "quote": "I believe that the accommodative policies of the FOMC and the concerted effort we have made to ease conditions in the mortgage markets will help the economy continue to gain traction.",
+     "start": 25082,
+     "end": 25264
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

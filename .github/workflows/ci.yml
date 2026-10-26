@@ -1,0 +1,28 @@
+name: CI
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
+      - name: Install (the locked versions)
+        run: |
+          pip install -r requirements.lock
+          pip install -e . --no-deps
+      - name: Lint and format
+        run: |
+          ruff check src tests scripts
+          ruff format --check src tests scripts
+      - name: Tests (offline, no API key needed)
+        run: pytest -q
+      - name: Front-end syntax and icon sprite
+        run: |
+          node --check src/fomc/web/app.js
+          python scripts/build_icons.py && git diff --exit-code src/fomc/web/vendor/icons/sprite.svg

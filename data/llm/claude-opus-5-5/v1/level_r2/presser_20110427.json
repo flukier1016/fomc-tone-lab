@@ -1,0 +1,121 @@
+{
+ "key": "presser_20110427",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20110427",
+  "doc_type": "presser",
+  "text_sha256": "8151d8959ed54bce9fbf2fc81fe16a2f1fa531bfef99c90c1df93d13f60f6dab"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "53462fa9047cdbbb59049425cf04633b128842d372eb20da55bbcbdf34cc25fa",
+ "message_id": "msg_011CgG2AzMMGv9H5sQqWTrVX",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12886,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Consequently, the Committee expects the effects on inflation of higher commodity prices to be transitory\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The substantial ongoing slack in the labor market and the relatively slow pace of improvement remain important reasons that the Committee continues to maintain a highly accommodative monetary policy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Ultimately, if—if inflation persists or if inflation expectations begin to move, then there’s no substitute for action. We would have—we would have to respond.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it’s very likely that an early step would be to stop reinvesting all or part of the securities which are coming—which are maturing.\"},{\"dimension\":\"overall\",\"quote\":\"The tradeoffs are getting—are getting less attractive at this point. Inflation has gotten higher.\"}],\"rationale\":\"The Chair completes QE2 without tapering, keeps rates near zero for an extended period, and emphasizes slack and transitory commodity-driven inflation. These accommodative signals are offset by explicit vigilance about inflation expectations, reluctance to add easing, and discussion of exit steps, leaving a roughly neutral to slightly dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Consequently, the Committee expects the effects on inflation of higher commodity prices to be transitory"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The substantial ongoing slack in the labor market and the relatively slow pace of improvement remain important reasons that the Committee continues to maintain a highly accommodative monetary policy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Ultimately, if—if inflation persists or if inflation expectations begin to move, then there’s no substitute for action. We would have—we would have to respond."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it’s very likely that an early step would be to stop reinvesting all or part of the securities which are coming—which are maturing."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The tradeoffs are getting—are getting less attractive at this point. Inflation has gotten higher."
+   }
+  ],
+  "rationale": "The Chair completes QE2 without tapering, keeps rates near zero for an extended period, and emphasizes slack and transitory commodity-driven inflation. These accommodative signals are offset by explicit vigilance about inflation expectations, reluctance to add easing, and discussion of exit steps, leaving a roughly neutral to slightly dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 1511,
+     "end": 1607
+    },
+    {
+     "quote": "Consequently, the Committee expects the effects on inflation of higher commodity prices to be transitory",
+     "start": 6636,
+     "end": 6740
+    },
+    {
+     "quote": "The substantial ongoing slack in the labor market and the relatively slow pace of improvement remain important reasons that the Committee continues to maintain a highly accommodative monetary policy.",
+     "start": 8216,
+     "end": 8414
+    },
+    {
+     "quote": "Ultimately, if—if inflation persists or if inflation expectations begin to move, then there’s no substitute for action. We would have—we would have to respond.",
+     "start": 20430,
+     "end": 20588
+    },
+    {
+     "quote": "it’s very likely that an early step would be to stop reinvesting all or part of the securities which are coming—which are maturing.",
+     "start": 22571,
+     "end": 22701
+    },
+    {
+     "quote": "The tradeoffs are getting—are getting less attractive at this point. Inflation has gotten higher.",
+     "start": 27173,
+     "end": 27269
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

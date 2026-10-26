@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20091216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20091216",
+  "doc_type": "minutes",
+  "text_sha256": "7d8785f33e2d480ebc08f864da687d8e906335b462f9e07afadea9df8041e6bc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "09a77951460ac4b65370213801e6dbdc38637662e3ce7158cb849786629e8efe",
+ "message_id": "msg_011CgFugFvxkx1oK61R6FBze",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14550,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"were likely to warrant exceptionally low rates for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The weakness in labor markets continued to be an important concern to meeting participants, who generally expected unemployment to remain elevated for quite some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Overall, many participants viewed the risks to their inflation outlooks as being roughly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"he proposed, as an interim approach, continuing the practice of not reinvesting the proceeds of maturing agency securities or MBS prepayments.\"},{\"dimension\":\"overall\",\"quote\":\"Committee members and Board members agreed that there had been substantial improvements in the functioning of financial markets\"}],\"rationale\":\"The minutes retain the 'extended period' near-zero rate guidance amid subdued inflation and substantial labor slack, a dovish lean. This is partly offset by an improving growth outlook, the expiry of liquidity facilities, exit-tool preparation, and a mix of upside and downside inflation-risk views.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "were likely to warrant exceptionally low rates for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The weakness in labor markets continued to be an important concern to meeting participants, who generally expected unemployment to remain elevated for quite some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Overall, many participants viewed the risks to their inflation outlooks as being roughly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "he proposed, as an interim approach, continuing the practice of not reinvesting the proceeds of maturing agency securities or MBS prepayments."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Committee members and Board members agreed that there had been substantial improvements in the functioning of financial markets"
+   }
+  ],
+  "rationale": "The minutes retain the 'extended period' near-zero rate guidance amid subdued inflation and substantial labor slack, a dovish lean. This is partly offset by an improving growth outlook, the expiry of liquidity facilities, exit-tool preparation, and a mix of upside and downside inflation-risk views."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "were likely to warrant exceptionally low rates for an extended period",
+     "start": 39389,
+     "end": 39458
+    },
+    {
+     "quote": "Participants agreed that underlying inflation currently was subdued and was likely to remain so for some time.",
+     "start": 25683,
+     "end": 25792
+    },
+    {
+     "quote": "The weakness in labor markets continued to be an important concern to meeting participants, who generally expected unemployment to remain elevated for quite some time.",
+     "start": 30067,
+     "end": 30233
+    },
+    {
+     "quote": "Overall, many participants viewed the risks to their inflation outlooks as being roughly balanced.",
+     "start": 36149,
+     "end": 36246
+    },
+    {
+     "quote": "he proposed, as an interim approach, continuing the practice of not reinvesting the proceeds of maturing agency securities or MBS prepayments.",
+     "start": 1623,
+     "end": 1764
+    },
+    {
+     "quote": "Committee members and Board members agreed that there had been substantial improvements in the functioning of financial markets",
+     "start": 39810,
+     "end": 39937
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

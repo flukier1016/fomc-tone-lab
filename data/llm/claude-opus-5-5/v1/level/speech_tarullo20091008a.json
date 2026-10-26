@@ -1,0 +1,112 @@
+{
+ "key": "speech_tarullo20091008a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20091008a",
+  "doc_type": "speech",
+  "text_sha256": "37f1e065196de57a523a506ab38c6f1229f9cbdf878ecb45ec18f9a1b91cc183"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3d97fa1d247b71e24e5026e7d698d9c7963ec9d86da0d7265dba269d1c82fe43",
+ "message_id": "msg_011CgFugH7QVEJQKBoTGk32V",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5792,
+  "output_tokens": 497,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The employment situation continues to be dismal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"with inflation expected to remain subdued for some time, the Federal Open Market Committee indicated after our meeting two weeks ago that exceptionally low interest rates are likely to be warranted for an extended period.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there is considerable uncertainty as to how robust growth will be in 2010.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"decisions on the timing and pace for removing accommodation should and will depend on our ongoing analysis and forecasts of all relevant economic factors.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although we can expect positive growth to continue beyond the third quarter, economic activity remains relatively weak.\"}],\"rationale\":\"The speaker stresses a dismal labor market, subdued inflation and downside uncertainty for 2010, endorsing exceptionally low rates for an extended period. Mention of eventual exit tools is data-dependent and not imminent, and much of the speech concerns regulatory reform.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The employment situation continues to be dismal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "with inflation expected to remain subdued for some time, the Federal Open Market Committee indicated after our meeting two weeks ago that exceptionally low interest rates are likely to be warranted for an extended period."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there is considerable uncertainty as to how robust growth will be in 2010."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "decisions on the timing and pace for removing accommodation should and will depend on our ongoing analysis and forecasts of all relevant economic factors."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although we can expect positive growth to continue beyond the third quarter, economic activity remains relatively weak."
+   }
+  ],
+  "rationale": "The speaker stresses a dismal labor market, subdued inflation and downside uncertainty for 2010, endorsing exceptionally low rates for an extended period. Mention of eventual exit tools is data-dependent and not imminent, and much of the speech concerns regulatory reform."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The employment situation continues to be dismal.",
+     "start": 2371,
+     "end": 2418
+    },
+    {
+     "quote": "with inflation expected to remain subdued for some time, the Federal Open Market Committee indicated after our meeting two weeks ago that exceptionally low interest rates are likely to be warranted for an extended period.",
+     "start": 4011,
+     "end": 4231
+    },
+    {
+     "quote": "there is considerable uncertainty as to how robust growth will be in 2010.",
+     "start": 4412,
+     "end": 4485
+    },
+    {
+     "quote": "decisions on the timing and pace for removing accommodation should and will depend on our ongoing analysis and forecasts of all relevant economic factors.",
+     "start": 5050,
+     "end": 5203
+    },
+    {
+     "quote": "Although we can expect positive growth to continue beyond the third quarter, economic activity remains relatively weak.",
+     "start": 2056,
+     "end": 2174
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

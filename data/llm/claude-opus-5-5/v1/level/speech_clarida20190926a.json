@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20190926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190926a",
+  "doc_type": "speech",
+  "text_sha256": "61f3f03133ef76c6179b78d370f48ee308db035351a67f5eb4616a198f79c7d9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "05688a5af6edb20a66daa2574c48dab8c6e165764bc38a84a814d8df7979b53b",
+ "message_id": "msg_011CgFugEV9aRj3upbMYxB1v",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4452,
+  "output_tokens": 505,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Also, although the labor market is robust, there is no evidence that rising wages are putting upward pressure on price inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I myself believe that the range of plausible estimates of u* extends to 4 percent and below and includes the current unemployment rate of 3.7 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Persistent inflation shortfalls carry the risk that longer-term inflation expectations become anchored below the stated inflation goal.\"},{\"dimension\":\"overall\",\"quote\":\"In many models that incorporate the ELB, these makeup strategies lead to better average performance on both legs of the dual mandate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective.\"}],\"rationale\":\"This is a framework-review speech with no explicit rate guidance. It leans mildly dovish by arguing that the tight labor market is not generating inflation pressure, that u* may be below the current unemployment rate, and by stressing effective-lower-bound and inflation-undershoot risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Also, although the labor market is robust, there is no evidence that rising wages are putting upward pressure on price inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I myself believe that the range of plausible estimates of u* extends to 4 percent and below and includes the current unemployment rate of 3.7 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become anchored below the stated inflation goal."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In many models that incorporate the ELB, these makeup strategies lead to better average performance on both legs of the dual mandate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective."
+   }
+  ],
+  "rationale": "This is a framework-review speech with no explicit rate guidance. It leans mildly dovish by arguing that the tight labor market is not generating inflation pressure, that u* may be below the current unemployment rate, and by stressing effective-lower-bound and inflation-undershoot risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Also, although the labor market is robust, there is no evidence that rising wages are putting upward pressure on price inflation.",
+     "start": 4120,
+     "end": 4248
+    },
+    {
+     "quote": "I myself believe that the range of plausible estimates of u* extends to 4 percent and below and includes the current unemployment rate of 3.7 percent.",
+     "start": 3352,
+     "end": 3501
+    },
+    {
+     "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become anchored below the stated inflation goal.",
+     "start": 7771,
+     "end": 7905
+    },
+    {
+     "quote": "In many models that incorporate the ELB, these makeup strategies lead to better average performance on both legs of the dual mandate.",
+     "start": 8409,
+     "end": 8541
+    },
+    {
+     "quote": "The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective.",
+     "start": 1016,
+     "end": 1118
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

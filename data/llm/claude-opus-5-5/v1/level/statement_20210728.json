@@ -1,0 +1,112 @@
+{
+ "key": "statement_20210728",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20210728",
+  "doc_type": "statement",
+  "text_sha256": "b9b48791561705bb6b13766a7f4388b579f4a65865d0bbd7ede490a62ed6b8ed"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ab23095d5a20d6186cd0ab818ef5859424267bce0af8f5311bf92b3732236685",
+ "message_id": "msg_011CgFugCHh61GZiT4q4eNYS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1003,
+  "output_tokens": 482,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has risen, largely reflecting transitory factors.\"},{\"dimension\":\"policy_action\",\"quote\":\"The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.\"}],\"rationale\":\"Rates and purchases are unchanged with accommodative guidance intact, but the new acknowledgment that the economy has made progress toward the taper threshold and a stronger activity assessment tilt the statement modestly hawkish. Inflation is described as risen but transitory, which leaves that dimension balanced.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has risen, largely reflecting transitory factors."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain."
+   }
+  ],
+  "rationale": "Rates and purchases are unchanged with accommodative guidance intact, but the new acknowledgment that the economy has made progress toward the taper threshold and a stronger activity assessment tilt the statement modestly hawkish. Inflation is described as risen but transitory, which leaves that dimension balanced."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings.",
+     "start": 2077,
+     "end": 2208
+    },
+    {
+     "quote": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.",
+     "start": 189,
+     "end": 321
+    },
+    {
+     "quote": "Inflation has risen, largely reflecting transitory factors.",
+     "start": 428,
+     "end": 486
+    },
+    {
+     "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent",
+     "start": 1378,
+     "end": 1471
+    },
+    {
+     "quote": "Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.",
+     "start": 728,
+     "end": 880
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

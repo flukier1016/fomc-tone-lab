@@ -1,0 +1,103 @@
+{
+ "key": "speech_brainard20181203a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20181203a",
+  "doc_type": "speech",
+  "text_sha256": "99e9796544abbfec53142f993a156129e87bf195bdcfd566a184b4a1a3e919d0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8c43d6cc9ffe11b0d639a1dc63dc8fde160fd571559349b4b8c17fa471a4a08e",
+ "message_id": "msg_011CgFugFhpoQ8R2DBDtTwYS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7084,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With the economy now at or beyond full employment and inflation around target, the Federal Open Market Committee has since gradually increased its target for the federal funds rate to between 2 and 2-1/4 percent\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Since October 2017, the portfolio of the System Open Market Account has decreased in size from $4.2 trillion to about $3.9 trillion.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the initiation of policy normalization and the ongoing reduction of the Federal Reserve's balance sheet do not appear to have sparked a deterioration in Treasury market liquidity.\"},{\"dimension\":\"overall\",\"quote\":\"we will maintain our focus on the resilience of the Treasury market specifically and the financial system more broadly.\"}],\"rationale\":\"The speech is about Treasury market structure and data collection, with only a passing descriptive mention of the economy being at or beyond full employment, inflation near target, and ongoing balance sheet normalization. It offers no forward policy signal, so the stance is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With the economy now at or beyond full employment and inflation around target, the Federal Open Market Committee has since gradually increased its target for the federal funds rate to between 2 and 2-1/4 percent"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Since October 2017, the portfolio of the System Open Market Account has decreased in size from $4.2 trillion to about $3.9 trillion."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the initiation of policy normalization and the ongoing reduction of the Federal Reserve's balance sheet do not appear to have sparked a deterioration in Treasury market liquidity."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we will maintain our focus on the resilience of the Treasury market specifically and the financial system more broadly."
+   }
+  ],
+  "rationale": "The speech is about Treasury market structure and data collection, with only a passing descriptive mention of the economy being at or beyond full employment, inflation near target, and ongoing balance sheet normalization. It offers no forward policy signal, so the stance is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With the economy now at or beyond full employment and inflation around target, the Federal Open Market Committee has since gradually increased its target for the federal funds rate to between 2 and 2-1/4 percent",
+     "start": 6612,
+     "end": 6823
+    },
+    {
+     "quote": "Since October 2017, the portfolio of the System Open Market Account has decreased in size from $4.2 trillion to about $3.9 trillion.",
+     "start": 6883,
+     "end": 7014
+    },
+    {
+     "quote": "the initiation of policy normalization and the ongoing reduction of the Federal Reserve's balance sheet do not appear to have sparked a deterioration in Treasury market liquidity.",
+     "start": 7267,
+     "end": 7445
+    },
+    {
+     "quote": "we will maintain our focus on the resilience of the Treasury market specifically and the financial system more broadly.",
+     "start": 14408,
+     "end": 14526
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

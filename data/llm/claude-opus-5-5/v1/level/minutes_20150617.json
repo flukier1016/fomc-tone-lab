@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150617",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150617",
+  "doc_type": "minutes",
+  "text_sha256": "3a8f0cf982b5d0345cdbbbab9ec136d053109cd9a0494bbd8e5e9c3732c5f186"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "20cb1416e1312f0c38069ec60ba15b6606a2c407480cfec38ec2aa9bd0f7c8ac",
+ "message_id": "msg_011CgFug8dvDPAQ8UfLPu6th",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13809,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants judged that the conditions for policy firming had not yet been achieved; a number of them cautioned against a premature decision.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Members thus saw economic conditions as continuing to approach those consistent with warranting a start to the normalization of the stance of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, core inflation was still well below 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Several other participants indicated that, in their view, labor market slack had already been largely eliminated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The risks to the forecasts for real GDP growth and inflation were seen as tilted a little to the downside\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The minutes balance a majority judging that liftoff conditions were not yet met, with low inflation and downside risks, against a minority ready to tighten soon and improving labor markets moving toward normalization. The net signal is roughly neutral, with a slight dovish tilt from the cautions against premature tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants judged that the conditions for policy firming had not yet been achieved; a number of them cautioned against a premature decision."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members thus saw economic conditions as continuing to approach those consistent with warranting a start to the normalization of the stance of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, core inflation was still well below 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Several other participants indicated that, in their view, labor market slack had already been largely eliminated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The risks to the forecasts for real GDP growth and inflation were seen as tilted a little to the downside"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The minutes balance a majority judging that liftoff conditions were not yet met, with low inflation and downside risks, against a minority ready to tighten soon and improving labor markets moving toward normalization. The net signal is roughly neutral, with a slight dovish tilt from the cautions against premature tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants judged that the conditions for policy firming had not yet been achieved; a number of them cautioned against a premature decision.",
+     "start": 30979,
+     "end": 31125
+    },
+    {
+     "quote": "Members thus saw economic conditions as continuing to approach those consistent with warranting a start to the normalization of the stance of monetary policy.",
+     "start": 36390,
+     "end": 36547
+    },
+    {
+     "quote": "However, core inflation was still well below 2 percent.",
+     "start": 38487,
+     "end": 38541
+    },
+    {
+     "quote": "Several other participants indicated that, in their view, labor market slack had already been largely eliminated.",
+     "start": 27316,
+     "end": 27428
+    },
+    {
+     "quote": "The risks to the forecasts for real GDP growth and inflation were seen as tilted a little to the downside",
+     "start": 17456,
+     "end": 17561
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 41670,
+     "end": 41819
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

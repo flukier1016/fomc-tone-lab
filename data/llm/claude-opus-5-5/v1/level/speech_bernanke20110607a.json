@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20110607a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110607a",
+  "doc_type": "speech",
+  "text_sha256": "a3f8b054050d34384a329ea54b6d4823c0f9c09810fa8aaaf1cf781973bd77fa"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "acf3acc27f3c86893c119fa1f4778f1d0db68a187b2f55aead9ccb6575cf6970",
+ "message_id": "msg_011CgFugF2PhTQfBwqBxjNJt",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7793,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Although it is moving in the right direction, the economy is still producing at levels well below its potential; consequently, accommodative monetary policies are still needed.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the upward impetus to overall price inflation will wane and the recent increase in inflation will prove transitory.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A number of indicators also suggest some loss of momentum in the labor market in recent weeks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The FOMC has indicated that it will complete its purchases of $600 billion of Treasury securities by the end of this month while maintaining its existing policy of reinvesting principal payments from its securities holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee also continues to anticipate that economic conditions are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Until we see a sustained period of stronger job creation, we cannot consider the recovery to be truly established.\"}],\"rationale\":\"The speech stresses slow growth, a weak labor market, and transitory commodity-driven inflation, and says accommodative policy, including reinvestment and extended near-zero rates, is still needed. Its warnings about vigilance on inflation expectations are conditional and do not offset that dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Although it is moving in the right direction, the economy is still producing at levels well below its potential; consequently, accommodative monetary policies are still needed."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the upward impetus to overall price inflation will wane and the recent increase in inflation will prove transitory."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A number of indicators also suggest some loss of momentum in the labor market in recent weeks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The FOMC has indicated that it will complete its purchases of $600 billion of Treasury securities by the end of this month while maintaining its existing policy of reinvesting principal payments from its securities holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee also continues to anticipate that economic conditions are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Until we see a sustained period of stronger job creation, we cannot consider the recovery to be truly established."
+   }
+  ],
+  "rationale": "The speech stresses slow growth, a weak labor market, and transitory commodity-driven inflation, and says accommodative policy, including reinvestment and extended near-zero rates, is still needed. Its warnings about vigilance on inflation expectations are conditional and do not offset that dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Although it is moving in the right direction, the economy is still producing at levels well below its potential; consequently, accommodative monetary policies are still needed.",
+     "start": 25229,
+     "end": 25404
+    },
+    {
+     "quote": "the upward impetus to overall price inflation will wane and the recent increase in inflation will prove transitory.",
+     "start": 9047,
+     "end": 9161
+    },
+    {
+     "quote": "A number of indicators also suggest some loss of momentum in the labor market in recent weeks.",
+     "start": 716,
+     "end": 809
+    },
+    {
+     "quote": "The FOMC has indicated that it will complete its purchases of $600 billion of Treasury securities by the end of this month while maintaining its existing policy of reinvesting principal payments from its securities holdings.",
+     "start": 24214,
+     "end": 24437
+    },
+    {
+     "quote": "The Committee also continues to anticipate that economic conditions are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 24439,
+     "end": 24603
+    },
+    {
+     "quote": "Until we see a sustained period of stronger job creation, we cannot consider the recovery to be truly established.",
+     "start": 25406,
+     "end": 25519
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

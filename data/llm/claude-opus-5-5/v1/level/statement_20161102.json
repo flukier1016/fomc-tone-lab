@@ -1,0 +1,112 @@
+{
+ "key": "statement_20161102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20161102",
+  "doc_type": "statement",
+  "text_sha256": "256c72ea9cbede791a2848d55f40c28ba5b380d3a51788570aa0b3b703f399ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ffffa344d92841d189371183e6fbd5c69b5dea444429ae4dcc4a76212ce0c983",
+ "message_id": "msg_011CgFugGGoN5yMPnpahnk1w",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1205,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and growth of economic activity has picked up from the modest pace seen in the first half of this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has increased somewhat since earlier this year but is still below the Committee's 2 percent longer-run objective\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced.\"},{\"dimension\":\"overall\",\"quote\":\"Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\"}],\"rationale\":\"The Committee held rates steady but said the case for a hike continued to strengthen and cited improving activity, while two members dissented in favor of a hike. These points signal a near-term tightening lean, tempered by the inflation shortfall and the gradualism language.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and growth of economic activity has picked up from the modest pace seen in the first half of this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has increased somewhat since earlier this year but is still below the Committee's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent."
+   }
+  ],
+  "rationale": "The Committee held rates steady but said the case for a hike continued to strengthen and cited improving activity, while two members dissented in favor of a hike. These points signal a near-term tightening lean, tempered by the inflation shortfall and the gradualism language."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives.",
+     "start": 1634,
+     "end": 1849
+    },
+    {
+     "quote": "the labor market has continued to strengthen and growth of economic activity has picked up from the modest pace seen in the first half of this year.",
+     "start": 93,
+     "end": 240
+    },
+    {
+     "quote": "Inflation has increased somewhat since earlier this year but is still below the Committee's 2 percent longer-run objective",
+     "start": 431,
+     "end": 553
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced.",
+     "start": 1332,
+     "end": 1395
+    },
+    {
+     "quote": "Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 3744,
+     "end": 3929
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

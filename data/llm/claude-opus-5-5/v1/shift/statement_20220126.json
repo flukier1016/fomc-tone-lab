@@ -1,0 +1,149 @@
+{
+ "key": "statement_20220126",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20220126",
+  "previous_doc_id": "statement_20211215",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e353aeb1667fbd70043f4cafe6af2006049d777592fd0ed7948fa3a759a1b965",
+ "message_id": "msg_011CgFudVHYwe4qRtjgoNGRM",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1917,
+  "output_tokens": 810,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"With inflation having exceeded 2 percent for some time, the Committee expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment.\",\"after\":\"With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.\",\"after\":\"The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.\",\"direction\":\"hawkish\"},{\"before\":\"Beginning in January, the Committee will increase its holdings of Treasury securities by at least $40 billion per month and of agency mortgage‑backed securities by at least $20 billion per month.\",\"after\":\"Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage‑backed securities by at least $10 billion per month.\",\"direction\":\"hawkish\"},{\"before\":\"The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\",\"after\":\"\",\"direction\":\"hawkish\"},{\"before\":\"The sectors most adversely affected by the pandemic have improved in recent months but continue to be affected by COVID-19.\",\"after\":\"The sectors most adversely affected by the pandemic have improved in recent months but are being affected by the recent sharp rise in COVID-19 cases.\",\"direction\":\"dovish\"},{\"before\":\"With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.\",\"after\":\"Indicators of economic activity and employment have continued to strengthen.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement replaces the hold-until-maximum-employment guidance with an explicit signal that a rate hike will 'soon' be appropriate, describes inflation as 'well above 2 percent,' and sets a firm early-March end to asset purchases. Dropping the crisis-support pledge reinforces the pivot to tightening, outweighing a modestly more cautious note on the rise in COVID cases.\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "With inflation having exceeded 2 percent for some time, the Committee expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment.",
+    "after": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.",
+    "after": "The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Beginning in January, the Committee will increase its holdings of Treasury securities by at least $40 billion per month and of agency mortgage‑backed securities by at least $20 billion per month.",
+    "after": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage‑backed securities by at least $10 billion per month.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.",
+    "after": "",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The sectors most adversely affected by the pandemic have improved in recent months but continue to be affected by COVID-19.",
+    "after": "The sectors most adversely affected by the pandemic have improved in recent months but are being affected by the recent sharp rise in COVID-19 cases.",
+    "direction": "dovish"
+   },
+   {
+    "before": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.",
+    "after": "Indicators of economic activity and employment have continued to strengthen.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement replaces the hold-until-maximum-employment guidance with an explicit signal that a rate hike will 'soon' be appropriate, describes inflation as 'well above 2 percent,' and sets a firm early-March end to asset purchases. Dropping the crisis-support pledge reinforces the pivot to tightening, outweighing a modestly more cautious note on the rise in COVID cases."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation having exceeded 2 percent for some time, the Committee expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment.",
+     "start": 1420,
+     "end": 1666
+    },
+    {
+     "quote": "The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.",
+     "start": 2118,
+     "end": 2335
+    },
+    {
+     "quote": "Beginning in January, the Committee will increase its holdings of Treasury securities by at least $40 billion per month and of agency mortgage‑backed securities by at least $20 billion per month.",
+     "start": 1922,
+     "end": 2116
+    },
+    {
+     "quote": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.",
+     "start": 0,
+     "end": 186
+    },
+    {
+     "quote": "The sectors most adversely affected by the pandemic have improved in recent months but continue to be affected by COVID-19.",
+     "start": 323,
+     "end": 445
+    },
+    {
+     "quote": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.",
+     "start": 189,
+     "end": 321
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.",
+     "start": 1200,
+     "end": 1365
+    },
+    {
+     "quote": "The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.",
+     "start": 1367,
+     "end": 1494
+    },
+    {
+     "quote": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage‑backed securities by at least $10 billion per month.",
+     "start": 1496,
+     "end": 1691
+    },
+    {
+     "quote": "The sectors most adversely affected by the pandemic have improved in recent months but are being affected by the recent sharp rise in COVID-19 cases.",
+     "start": 77,
+     "end": 225
+    },
+    {
+     "quote": "Indicators of economic activity and employment have continued to strengthen.",
+     "start": 0,
+     "end": 75
+    }
+   ]
+  }
+ }
+}

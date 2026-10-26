@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20241202a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20241202a",
+  "doc_type": "speech",
+  "text_sha256": "16c404b4b7a57ed7026f1f5768adef64ea851a40faa54b5d1fa22920c282be59"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3b827eb59a52504ae29c0728a1114c0183f9bf84f0574c999a2f6b9d0f4ebf3f",
+ "message_id": "msg_011CgFug8qKixfzJS4xBYn3c",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3868,
+  "output_tokens": 483,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"at present I lean toward supporting a cut to the policy rate at our December meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I expect rate cuts to continue over the next year until we approach a more neutral setting of the policy rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"After making a lot of progress over the past year and a half, the recent data indicate that progress may be stalling.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But recent data have raised the possibility that progress on inflation may be stalling at a level meaningfully above 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Other data sharpen this image of a looser but still-strong labor market.\"},{\"dimension\":\"overall\",\"quote\":\"then I will be supportive of holding the policy rate constant.\"}],\"rationale\":\"The speaker leans toward a December cut and sees the medium-term rate path clearly down, which is dovish guidance. This is tempered by concern that inflation progress is stalling and by openness to skipping cuts, so the overall lean is only moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "at present I lean toward supporting a cut to the policy rate at our December meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect rate cuts to continue over the next year until we approach a more neutral setting of the policy rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "After making a lot of progress over the past year and a half, the recent data indicate that progress may be stalling."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But recent data have raised the possibility that progress on inflation may be stalling at a level meaningfully above 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Other data sharpen this image of a looser but still-strong labor market."
+   },
+   {
+    "dimension": "overall",
+    "quote": "then I will be supportive of holding the policy rate constant."
+   }
+  ],
+  "rationale": "The speaker leans toward a December cut and sees the medium-term rate path clearly down, which is dovish guidance. This is tempered by concern that inflation progress is stalling and by openness to skipping cuts, so the overall lean is only moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "at present I lean toward supporting a cut to the policy rate at our December meeting.",
+     "start": 1419,
+     "end": 1503
+    },
+    {
+     "quote": "I expect rate cuts to continue over the next year until we approach a more neutral setting of the policy rate.",
+     "start": 832,
+     "end": 941
+    },
+    {
+     "quote": "After making a lot of progress over the past year and a half, the recent data indicate that progress may be stalling.",
+     "start": 7112,
+     "end": 7228
+    },
+    {
+     "quote": "But recent data have raised the possibility that progress on inflation may be stalling at a level meaningfully above 2 percent.",
+     "start": 944,
+     "end": 1070
+    },
+    {
+     "quote": "Other data sharpen this image of a looser but still-strong labor market.",
+     "start": 5743,
+     "end": 5814
+    },
+    {
+     "quote": "then I will be supportive of holding the policy rate constant.",
+     "start": 12725,
+     "end": 12786
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

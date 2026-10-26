@@ -1,0 +1,51 @@
+{
+ "key": "statement_20180926",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20180926",
+  "release_date": "2018-09-26"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c16cd5c63247e03c334c1e485b627f47c15d695d7bf6838c85ee11629bb6bf5d",
+ "message_id": "msg_011CgFudVj6cbS4d3nP9SGqQ",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1013,
+  "output_tokens": 768,
+  "output_tokens_details": {
+   "thinking_tokens": 554
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2018,\"month\":9,\"confidence\":0.85,\"cues\":[\"Rate hike with 'further gradual increases' language, typical of the 2017-2018 tightening cycle\",\"The 'stance of monetary policy remains accommodative' sentence is gone, which first happened in September 2018\",\"'Economic activity has been rising at a strong rate' and 'business fixed investment have grown strongly' match mid-to-late 2018 wording\",\"No mention of moderating business investment or monitoring global developments, which points to before December 2018\",\"Lael Brainard is listed as a voter; Chairman and Vice Chairman structure fits Powell and Williams\"]}",
+ "parsed": {
+  "year": 2018,
+  "month": 9,
+  "confidence": 0.85,
+  "cues": [
+   "Rate hike with 'further gradual increases' language, typical of the 2017-2018 tightening cycle",
+   "The 'stance of monetary policy remains accommodative' sentence is gone, which first happened in September 2018",
+   "'Economic activity has been rising at a strong rate' and 'business fixed investment have grown strongly' match mid-to-late 2018 wording",
+   "No mention of moderating business investment or monitoring global developments, which points to before December 2018",
+   "Lael Brainard is listed as a voter; Chairman and Vice Chairman structure fits Powell and Williams"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

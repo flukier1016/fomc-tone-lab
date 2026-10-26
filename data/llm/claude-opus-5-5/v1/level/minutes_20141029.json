@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20141029",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20141029",
+  "doc_type": "minutes",
+  "text_sha256": "a8fca5eacdf1efdefdf30ce9c8caf588c89600ffffe677f131ad2f62ed412ff4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "690cc4f3009301db8b2da17ddb4e1efde6e540aeffa402c7f5a233fca1343a5b",
+ "message_id": "msg_011CgFugAzoVrPEEqXHppLJZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14588,
+  "output_tokens": 605,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Accordingly, all members but one supported concluding the Committee's asset purchase program at the end of October\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants preferred to eliminate language in the statement indicating that the current target range for the federal funds rate would likely be maintained for a \\\"considerable time\\\" after the end of the asset purchase program.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants observed that the Committee should remain attentive to evidence of a possible downward shift in longer-term inflation expectations\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate\"},{\"dimension\":\"risk_balance\",\"quote\":\"The risks to the forecast for real GDP growth and inflation were seen as tilted to the downside, reflecting recent financial developments and concerns about the foreign economic outlook\"},{\"dimension\":\"overall\",\"quote\":\"the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.\"}],\"rationale\":\"The minutes record the end of QE, improving labor markets, and debate over dropping \\\"considerable time\\\" plus new data-dependent language allowing earlier hikes, a mild hawkish tilt. This is offset by below-target inflation, falling inflation compensation, and staff downside risks, leaving a roughly balanced, slightly hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Accordingly, all members but one supported concluding the Committee's asset purchase program at the end of October"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants preferred to eliminate language in the statement indicating that the current target range for the federal funds rate would likely be maintained for a \"considerable time\" after the end of the asset purchase program."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants observed that the Committee should remain attentive to evidence of a possible downward shift in longer-term inflation expectations"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The risks to the forecast for real GDP growth and inflation were seen as tilted to the downside, reflecting recent financial developments and concerns about the foreign economic outlook"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year."
+   }
+  ],
+  "rationale": "The minutes record the end of QE, improving labor markets, and debate over dropping \"considerable time\" plus new data-dependent language allowing earlier hikes, a mild hawkish tilt. This is offset by below-target inflation, falling inflation compensation, and staff downside risks, leaving a roughly balanced, slightly hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Accordingly, all members but one supported concluding the Committee's asset purchase program at the end of October",
+     "start": 37417,
+     "end": 37531
+    },
+    {
+     "quote": "Some participants preferred to eliminate language in the statement indicating that the current target range for the federal funds rate would likely be maintained for a \"considerable time\" after the end of the asset purchase program.",
+     "start": 32506,
+     "end": 32737
+    },
+    {
+     "quote": "many participants observed that the Committee should remain attentive to evidence of a possible downward shift in longer-term inflation expectations",
+     "start": 30711,
+     "end": 30859
+    },
+    {
+     "quote": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate",
+     "start": 22982,
+     "end": 23083
+    },
+    {
+     "quote": "The risks to the forecast for real GDP growth and inflation were seen as tilted to the downside, reflecting recent financial developments and concerns about the foreign economic outlook",
+     "start": 22226,
+     "end": 22411
+    },
+    {
+     "quote": "the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+     "start": 42781,
+     "end": 42917
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

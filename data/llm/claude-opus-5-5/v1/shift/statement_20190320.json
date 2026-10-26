@@ -1,0 +1,139 @@
+{
+ "key": "statement_20190320",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20190320",
+  "previous_doc_id": "statement_20190130",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fce201f9a40f2cca7799c83c7c4bdcb6090f1908305a338dbb549ee5cd7dea2a",
+ "message_id": "msg_011CgFudUSCnnCzrfirZ9p45",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1382,
+  "output_tokens": 604,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"indicates that the labor market has continued to strengthen and that economic activity has been rising at a solid rate.\",\"after\":\"indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.\",\"direction\":\"dovish\"},{\"before\":\"Job gains have been strong, on average, in recent months, and the unemployment rate has remained low.\",\"after\":\"Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.\",\"direction\":\"dovish\"},{\"before\":\"Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier last year.\",\"after\":\"Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.\",\"direction\":\"dovish\"},{\"before\":\"On a 12-month basis, both overall inflation and inflation for items other than food and energy remain near 2 percent.\",\"after\":\"On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"Although market-based measures of inflation compensation have moved lower in recent months, survey-based measures of longer-term inflation expectations are little changed.\",\"after\":\"On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.\",\"direction\":\"neutral\"}],\"rationale\":\"Policy guidance ('will be patient') is unchanged, but the economic assessment is notably downgraded, with slower growth, weaker spending, a flat February payroll and lower headline inflation. That reinforces the patient stance and tilts the statement modestly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "indicates that the labor market has continued to strengthen and that economic activity has been rising at a solid rate.",
+    "after": "indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Job gains have been strong, on average, in recent months, and the unemployment rate has remained low.",
+    "after": "Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier last year.",
+    "after": "Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.",
+    "direction": "dovish"
+   },
+   {
+    "before": "On a 12-month basis, both overall inflation and inflation for items other than food and energy remain near 2 percent.",
+    "after": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Although market-based measures of inflation compensation have moved lower in recent months, survey-based measures of longer-term inflation expectations are little changed.",
+    "after": "On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Policy guidance ('will be patient') is unchanged, but the economic assessment is notably downgraded, with slower growth, weaker spending, a flat February payroll and lower headline inflation. That reinforces the patient stance and tilts the statement modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the labor market has continued to strengthen and that economic activity has been rising at a solid rate.",
+     "start": 77,
+     "end": 195
+    },
+    {
+     "quote": "Job gains have been strong, on average, in recent months, and the unemployment rate has remained low.",
+     "start": 197,
+     "end": 297
+    },
+    {
+     "quote": "Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier last year.",
+     "start": 299,
+     "end": 443
+    },
+    {
+     "quote": "On a 12-month basis, both overall inflation and inflation for items other than food and energy remain near 2 percent.",
+     "start": 445,
+     "end": 561
+    },
+    {
+     "quote": "Although market-based measures of inflation compensation have moved lower in recent months, survey-based measures of longer-term inflation expectations are little changed.",
+     "start": 563,
+     "end": 733
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.",
+     "start": 76,
+     "end": 212
+    },
+    {
+     "quote": "Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+     "start": 214,
+     "end": 368
+    },
+    {
+     "quote": "Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.",
+     "start": 370,
+     "end": 483
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.",
+     "start": 485,
+     "end": 651
+    },
+    {
+     "quote": "On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.",
+     "start": 653,
+     "end": 831
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20240612",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20240612",
+  "doc_type": "minutes",
+  "text_sha256": "d28d8525aad9bf38f4db705cf82a3e1422d952b28e78a5efb06c20340b8cbe58"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1294cad33b287d82b916fcfe3170d912b7b77bd4bcc2eb245c833f4a39b3b24e",
+ "message_id": "msg_011CgFugDGj6AJJ8rWaJu4xe",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11080,
+  "output_tokens": 568,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Members agreed that they did not expect that it would be appropriate to reduce the target range until they have gained greater confidence that inflation is moving sustainably toward 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants observed that, were inflation to persist at an elevated level or to increase further, the target range for the federal funds rate might need to be raised.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A number of participants remarked that monetary policy should stand ready to respond to unexpected economic weakness.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants judged that although inflation remained elevated, there had been modest further progress toward the 2 percent goal in recent months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"there was some risk that further cooling in labor market conditions could be associated with an increased pace of layoffs.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.\"}],\"rationale\":\"The minutes pair a patient hold-until-confident stance and some hike talk with growing attention to labor market cooling, firms' declining pricing power, and downside risks to activity. Overall they read as roughly balanced, with a slight dovish tilt as risks move toward better balance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members agreed that they did not expect that it would be appropriate to reduce the target range until they have gained greater confidence that inflation is moving sustainably toward 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants observed that, were inflation to persist at an elevated level or to increase further, the target range for the federal funds rate might need to be raised."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A number of participants remarked that monetary policy should stand ready to respond to unexpected economic weakness."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants judged that although inflation remained elevated, there had been modest further progress toward the 2 percent goal in recent months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "there was some risk that further cooling in labor market conditions could be associated with an increased pace of layoffs."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings."
+   }
+  ],
+  "rationale": "The minutes pair a patient hold-until-confident stance and some hike talk with growing attention to labor market cooling, firms' declining pricing power, and downside risks to activity. Overall they read as roughly balanced, with a slight dovish tilt as risks move toward better balance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members agreed that they did not expect that it would be appropriate to reduce the target range until they have gained greater confidence that inflation is moving sustainably toward 2 percent.",
+     "start": 31882,
+     "end": 32073
+    },
+    {
+     "quote": "Several participants observed that, were inflation to persist at an elevated level or to increase further, the target range for the federal funds rate might need to be raised.",
+     "start": 30157,
+     "end": 30331
+    },
+    {
+     "quote": "A number of participants remarked that monetary policy should stand ready to respond to unexpected economic weakness.",
+     "start": 30333,
+     "end": 30449
+    },
+    {
+     "quote": "Participants judged that although inflation remained elevated, there had been modest further progress toward the 2 percent goal in recent months.",
+     "start": 17980,
+     "end": 18124
+    },
+    {
+     "quote": "there was some risk that further cooling in labor market conditions could be associated with an increased pace of layoffs.",
+     "start": 22918,
+     "end": 23039
+    },
+    {
+     "quote": "Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.",
+     "start": 26993,
+     "end": 27126
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20200109a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20200109a",
+  "doc_type": "speech",
+  "text_sha256": "809605238a7edb6af65ff04ca8e3bdcaee6d5de910ab6a57bc00a49e960e1415"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "11b9d201f69cf054ad37d6c01ce3d3ec7e65139837dc1cd80d212d82c8bbc80b",
+ "message_id": "msg_011CgFugCu9hh2KkH3LpV4yC",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1665,
+  "output_tokens": 502,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Moreover, inflation expectations, those measured by both surveys and market prices, have moved lower and reside at the low end of a range I consider consistent with our price-stability mandate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The U.S. economy begins the year 2020 in a good place.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We are not seeing any evidence to date that a strong labor market is putting excessive cost-push pressure on price inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it may be appropriate to gradually transition away from active repo operations this year as Treasury bill purchases supply a larger base of reserves\"}],\"rationale\":\"The speech signals an on-hold stance with a strong economy, but highlights muted inflation, lower inflation expectations and global headwinds, giving a slight dovish tilt. Balance sheet remarks are technical reserve management rather than a policy stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Moreover, inflation expectations, those measured by both surveys and market prices, have moved lower and reside at the low end of a range I consider consistent with our price-stability mandate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The U.S. economy begins the year 2020 in a good place."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We are not seeing any evidence to date that a strong labor market is putting excessive cost-push pressure on price inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it may be appropriate to gradually transition away from active repo operations this year as Treasury bill purchases supply a larger base of reserves"
+   }
+  ],
+  "rationale": "The speech signals an on-hold stance with a strong economy, but highlights muted inflation, lower inflation expectations and global headwinds, giving a slight dovish tilt. Balance sheet remarks are technical reserve management rather than a policy stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate.",
+     "start": 2724,
+     "end": 2888
+    },
+    {
+     "quote": "Moreover, inflation expectations, those measured by both surveys and market prices, have moved lower and reside at the low end of a range I consider consistent with our price-stability mandate.",
+     "start": 2152,
+     "end": 2344
+    },
+    {
+     "quote": "The U.S. economy begins the year 2020 in a good place.",
+     "start": 593,
+     "end": 646
+    },
+    {
+     "quote": "We are not seeing any evidence to date that a strong labor market is putting excessive cost-push pressure on price inflation.",
+     "start": 1274,
+     "end": 1398
+    },
+    {
+     "quote": "it may be appropriate to gradually transition away from active repo operations this year as Treasury bill purchases supply a larger base of reserves",
+     "start": 4117,
+     "end": 4265
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

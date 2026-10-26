@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20231101",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20231101",
+  "doc_type": "minutes",
+  "text_sha256": "0b467df98bc39e12925a42b94d20ec39c31db54571d1d6c14cc3e870e4f75a69"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ea88b1b50d4401d096aac6fe812965633a0a3c041628e47ae78cba895b1ce31d",
+ "message_id": "msg_011CgFugEE23JJxKVTfXb7r2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11913,
+  "output_tokens": 580,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"most participants continued to see upside risks to inflation\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants noted that real GDP had expanded at an unexpectedly strong pace in the third quarter, boosted by a surge in consumer spending.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.\"}],\"rationale\":\"The minutes retain a tightening bias, stressing unacceptably high inflation, upside inflation risks and policy staying restrictive for some time, with continued runoff. This is tempered by acknowledgment of two-sided risks, moderating inflation and the instruction to proceed carefully.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "most participants continued to see upside risks to inflation"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants noted that real GDP had expanded at an unexpectedly strong pace in the third quarter, boosted by a surge in consumer spending."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate."
+   }
+  ],
+  "rationale": "The minutes retain a tightening bias, stressing unacceptably high inflation, upside inflation risks and policy staying restrictive for some time, with continued runoff. This is tempered by acknowledgment of two-sided risks, moderating inflation and the instruction to proceed carefully."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants noted that further tightening of monetary policy would be appropriate if incoming information indicated that progress toward the Committee's inflation objective was insufficient.",
+     "start": 30729,
+     "end": 30919
+    },
+    {
+     "quote": "All participants judged that it would be appropriate for policy to remain at a restrictive stance for some time until inflation is clearly moving down sustainably toward the Committee's objective.",
+     "start": 31407,
+     "end": 31602
+    },
+    {
+     "quote": "stressed that current inflation remained unacceptably high and well above the Committee's longer-run goal of 2 percent",
+     "start": 18980,
+     "end": 19098
+    },
+    {
+     "quote": "most participants continued to see upside risks to inflation",
+     "start": 32546,
+     "end": 32606
+    },
+    {
+     "quote": "Participants noted that real GDP had expanded at an unexpectedly strong pace in the third quarter, boosted by a surge in consumer spending.",
+     "start": 18108,
+     "end": 18246
+    },
+    {
+     "quote": "A few participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.",
+     "start": 31810,
+     "end": 31991
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

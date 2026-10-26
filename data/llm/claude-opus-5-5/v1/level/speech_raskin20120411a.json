@@ -1,0 +1,112 @@
+{
+ "key": "speech_raskin20120411a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20120411a",
+  "doc_type": "speech",
+  "text_sha256": "8c945fbf3d350dae03190401cc71a8de8c14afa46495b73333df158e693e16e7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b6d3bacca9815e33922a39a872fcf959c328419c0d228d6d68214552d314c4d8",
+ "message_id": "msg_011CgFugFNUdQb87UUnbck75",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6200,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, the national economic recovery clearly has a long way to go.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the recovery--both at the national level and here in Los Angeles--has been extraordinarily slow compared with other recoveries.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Federal Reserve remains fully committed to doing everything it can to promote maximum employment in the context of price stability.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Fed then substantially expanded its holdings of longer-term securities and more recently moved to lengthen the average maturity of its holdings to put downward pressure on longer-term interest rates.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Being unemployed for such a long time can have negative effects on workers' skills and their attachment to the labor force, thereby possibly reducing the productive capacity of our economy.\"}],\"rationale\":\"The speech emphasizes a deep, unusually slow recovery, housing drag and long-term unemployment, and defends accommodative policy and asset purchases with a commitment to do everything possible for maximum employment. Inflation is not discussed, and there is no explicit signal of new easing, so the lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, the national economic recovery clearly has a long way to go."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the recovery--both at the national level and here in Los Angeles--has been extraordinarily slow compared with other recoveries."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Federal Reserve remains fully committed to doing everything it can to promote maximum employment in the context of price stability."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Fed then substantially expanded its holdings of longer-term securities and more recently moved to lengthen the average maturity of its holdings to put downward pressure on longer-term interest rates."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Being unemployed for such a long time can have negative effects on workers' skills and their attachment to the labor force, thereby possibly reducing the productive capacity of our economy."
+   }
+  ],
+  "rationale": "The speech emphasizes a deep, unusually slow recovery, housing drag and long-term unemployment, and defends accommodative policy and asset purchases with a commitment to do everything possible for maximum employment. Inflation is not discussed, and there is no explicit signal of new easing, so the lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, the national economic recovery clearly has a long way to go.",
+     "start": 8881,
+     "end": 8949
+    },
+    {
+     "quote": "the recovery--both at the national level and here in Los Angeles--has been extraordinarily slow compared with other recoveries.",
+     "start": 2142,
+     "end": 2268
+    },
+    {
+     "quote": "the Federal Reserve remains fully committed to doing everything it can to promote maximum employment in the context of price stability.",
+     "start": 20833,
+     "end": 20967
+    },
+    {
+     "quote": "The Fed then substantially expanded its holdings of longer-term securities and more recently moved to lengthen the average maturity of its holdings to put downward pressure on longer-term interest rates.",
+     "start": 14313,
+     "end": 14515
+    },
+    {
+     "quote": "Being unemployed for such a long time can have negative effects on workers' skills and their attachment to the labor force, thereby possibly reducing the productive capacity of our economy.",
+     "start": 9130,
+     "end": 9318
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

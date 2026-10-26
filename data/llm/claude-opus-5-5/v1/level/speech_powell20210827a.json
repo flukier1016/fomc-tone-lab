@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20210827a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20210827a",
+  "doc_type": "speech",
+  "text_sha256": "cb4a897bb3819faeb4af32e9e340fb6c58c3ff2468061ca7045f9bce2f4f5765"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "366b4b51c4c9e06e128f5482699017b0af91d9d917e8bd100b97173f5e9f6d5e",
+ "message_id": "msg_011CgFugAKNaV4p8hs57QNWj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5400,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"if the economy evolved broadly as anticipated, it could be appropriate to start reducing the pace of asset purchases this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The timing and pace of the coming reduction in asset purchases will not be intended to carry a direct signal regarding the timing of interest rate liftoff, for which we have articulated a different and substantially more stringent test.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But that concern is tempered by a number of factors that suggest that these elevated readings are likely to prove temporary.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Today, with substantial slack remaining in the labor market and the pandemic continuing, such a mistake could be particularly harmful.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The outlook for the labor market has brightened considerably in recent months.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We have much ground to cover to reach maximum employment, and time will tell whether we have reached 2 percent inflation on a sustainable basis.\"}],\"rationale\":\"The speech signals a likely start to tapering this year (hawkish on the balance sheet) while firmly decoupling it from liftoff, framing inflation as transitory, and warning against premature tightening given labor slack. The net signal is roughly balanced with a slight dovish tilt on rates.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "if the economy evolved broadly as anticipated, it could be appropriate to start reducing the pace of asset purchases this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The timing and pace of the coming reduction in asset purchases will not be intended to carry a direct signal regarding the timing of interest rate liftoff, for which we have articulated a different and substantially more stringent test."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But that concern is tempered by a number of factors that suggest that these elevated readings are likely to prove temporary."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Today, with substantial slack remaining in the labor market and the pandemic continuing, such a mistake could be particularly harmful."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The outlook for the labor market has brightened considerably in recent months."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We have much ground to cover to reach maximum employment, and time will tell whether we have reached 2 percent inflation on a sustainable basis."
+   }
+  ],
+  "rationale": "The speech signals a likely start to tapering this year (hawkish on the balance sheet) while firmly decoupling it from liftoff, framing inflation as transitory, and warning against premature tightening given labor slack. The net signal is roughly balanced with a slight dovish tilt on rates."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "if the economy evolved broadly as anticipated, it could be appropriate to start reducing the pace of asset purchases this year.",
+     "start": 16291,
+     "end": 16417
+    },
+    {
+     "quote": "The timing and pace of the coming reduction in asset purchases will not be intended to carry a direct signal regarding the timing of interest rate liftoff, for which we have articulated a different and substantially more stringent test.",
+     "start": 16784,
+     "end": 17019
+    },
+    {
+     "quote": "But that concern is tempered by a number of factors that suggest that these elevated readings are likely to prove temporary.",
+     "start": 6012,
+     "end": 6135
+    },
+    {
+     "quote": "Today, with substantial slack remaining in the labor market and the pandemic continuing, such a mistake could be particularly harmful.",
+     "start": 13636,
+     "end": 13769
+    },
+    {
+     "quote": "The outlook for the labor market has brightened considerably in recent months.",
+     "start": 4283,
+     "end": 4360
+    },
+    {
+     "quote": "We have much ground to cover to reach maximum employment, and time will tell whether we have reached 2 percent inflation on a sustainable basis.",
+     "start": 17300,
+     "end": 17443
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

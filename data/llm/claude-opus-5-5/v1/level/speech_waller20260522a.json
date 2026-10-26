@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20260522a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20260522a",
+  "doc_type": "speech",
+  "text_sha256": "cc165eaf6e84b5713d92cea9e507de2e1b67b7b79c1702e8d040b365b7828252"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "369e56d03b34d571d20ece8364698160def4f40950c992fac7ac58323854dce0",
+ "message_id": "msg_011CgFugDdoS8GXMQ8yXKbw3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5353,
+  "output_tokens": 549,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I would support removing the \\\"easing bias\\\" language in our policy statement to make it clear that a rate cut is no more likely in the future than a rate increase.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But I can no longer rule out rate hikes further down the road if inflation does not abate soon\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is not headed in the right direction.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent data has indicated to me that labor supply and demand have finally come into a rough balance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A risk that is getting more real every day is that the longer the energy price shock continues, the greater the chance that these increases bleed into prices for other goods and services.\"},{\"dimension\":\"overall\",\"quote\":\"If I believe inflation expectations start to become unanchored, I would not hesitate to support an increase in the target range for the federal funds rate. But at this point that action is premature.\"}],\"rationale\":\"The speaker shifts from an easing bias to a neutral-to-hawkish stance, supporting removal of the easing-bias language and opening the door to future hikes amid forceful inflation concern, while advocating holding rates near term. A stabilized labor market and upside inflation and expectations risks dominate the assessment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would support removing the \"easing bias\" language in our policy statement to make it clear that a rate cut is no more likely in the future than a rate increase."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But I can no longer rule out rate hikes further down the road if inflation does not abate soon"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is not headed in the right direction."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent data has indicated to me that labor supply and demand have finally come into a rough balance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A risk that is getting more real every day is that the longer the energy price shock continues, the greater the chance that these increases bleed into prices for other goods and services."
+   },
+   {
+    "dimension": "overall",
+    "quote": "If I believe inflation expectations start to become unanchored, I would not hesitate to support an increase in the target range for the federal funds rate. But at this point that action is premature."
+   }
+  ],
+  "rationale": "The speaker shifts from an easing bias to a neutral-to-hawkish stance, supporting removal of the easing-bias language and opening the door to future hikes amid forceful inflation concern, while advocating holding rates near term. A stabilized labor market and upside inflation and expectations risks dominate the assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would support removing the \"easing bias\" language in our policy statement to make it clear that a rate cut is no more likely in the future than a rate increase.",
+     "start": 1910,
+     "end": 2071
+    },
+    {
+     "quote": "But I can no longer rule out rate hikes further down the road if inflation does not abate soon",
+     "start": 2497,
+     "end": 2591
+    },
+    {
+     "quote": "Inflation is not headed in the right direction.",
+     "start": 1835,
+     "end": 1881
+    },
+    {
+     "quote": "recent data has indicated to me that labor supply and demand have finally come into a rough balance.",
+     "start": 5180,
+     "end": 5279
+    },
+    {
+     "quote": "A risk that is getting more real every day is that the longer the energy price shock continues, the greater the chance that these increases bleed into prices for other goods and services.",
+     "start": 9320,
+     "end": 9506
+    },
+    {
+     "quote": "If I believe inflation expectations start to become unanchored, I would not hesitate to support an increase in the target range for the federal funds rate. But at this point that action is premature.",
+     "start": 17615,
+     "end": 17813
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

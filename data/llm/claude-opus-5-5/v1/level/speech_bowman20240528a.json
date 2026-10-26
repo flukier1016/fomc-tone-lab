@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20240528a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240528a",
+  "doc_type": "speech",
+  "text_sha256": "f7bdd4b794abd899596683397271d5a47e32db820391f3d2a23c5da4b09ab36e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f444b0eb77f524e4b972ba46b6f5681d71397f921a701a4b651e59506ff30968",
+ "message_id": "msg_011CgFugD7YcPr97U4fczS2f",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5664,
+  "output_tokens": 603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":2,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I would have supported either waiting to slow the pace of balance sheet runoff to a later point in time or implementing a more tapered slowing in the pace of runoff.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In my view, it is important to continue to reduce the size of the balance sheet to reach ample reserves as soon as possible and while the economy is still strong.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Not effectively communicating this point might cause the public to interpret the endpoint of QT as a signal that the FOMC would decrease the target range for the federal funds rate, thereby causing financial conditions to inappropriately ease.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the FOMC would likely have benefited from an earlier discussion and decision to begin tapering and subsequently end asset purchases in 2021 given the signs of emerging inflationary pressures.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC continues to reduce the size of its balance sheet as it seeks to maintain a sufficiently restrictive stance of monetary policy to bring inflation back down to its 2 percent goal.\"}],\"rationale\":\"The speaker dissents from slowing QT, urges reducing the balance sheet as quickly as possible while the economy is strong, and warns against QT's end being read as a signal of rate cuts. She also critiques past QE as too prolonged amid inflation pressures, so the speech leans hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 2,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I would have supported either waiting to slow the pace of balance sheet runoff to a later point in time or implementing a more tapered slowing in the pace of runoff."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In my view, it is important to continue to reduce the size of the balance sheet to reach ample reserves as soon as possible and while the economy is still strong."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Not effectively communicating this point might cause the public to interpret the endpoint of QT as a signal that the FOMC would decrease the target range for the federal funds rate, thereby causing financial conditions to inappropriately ease."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the FOMC would likely have benefited from an earlier discussion and decision to begin tapering and subsequently end asset purchases in 2021 given the signs of emerging inflationary pressures."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC continues to reduce the size of its balance sheet as it seeks to maintain a sufficiently restrictive stance of monetary policy to bring inflation back down to its 2 percent goal."
+   }
+  ],
+  "rationale": "The speaker dissents from slowing QT, urges reducing the balance sheet as quickly as possible while the economy is strong, and warns against QT's end being read as a signal of rate cuts. She also critiques past QE as too prolonged amid inflation pressures, so the speech leans hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would have supported either waiting to slow the pace of balance sheet runoff to a later point in time or implementing a more tapered slowing in the pace of runoff.",
+     "start": 13393,
+     "end": 13557
+    },
+    {
+     "quote": "In my view, it is important to continue to reduce the size of the balance sheet to reach ample reserves as soon as possible and while the economy is still strong.",
+     "start": 13758,
+     "end": 13919
+    },
+    {
+     "quote": "Not effectively communicating this point might cause the public to interpret the endpoint of QT as a signal that the FOMC would decrease the target range for the federal funds rate, thereby causing financial conditions to inappropriately ease.",
+     "start": 14484,
+     "end": 14726
+    },
+    {
+     "quote": "the FOMC would likely have benefited from an earlier discussion and decision to begin tapering and subsequently end asset purchases in 2021 given the signs of emerging inflationary pressures.",
+     "start": 9617,
+     "end": 9807
+    },
+    {
+     "quote": "the FOMC continues to reduce the size of its balance sheet as it seeks to maintain a sufficiently restrictive stance of monetary policy to bring inflation back down to its 2 percent goal.",
+     "start": 12529,
+     "end": 12715
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

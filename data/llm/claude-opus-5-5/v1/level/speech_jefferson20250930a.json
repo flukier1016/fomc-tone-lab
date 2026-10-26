@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20250930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250930a",
+  "doc_type": "speech",
+  "text_sha256": "f7c00bda4abda1878a98029b99c4e23bd8fdf1f6212878e580378827c1746ae3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e6b5995aa96d4c0b886ec5a605ce4f11de615e27d2578a7ecf95ae08ca184598",
+ "message_id": "msg_011CgFugAhCQZ6Artih8kgr6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4847,
+  "output_tokens": 500,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"I see the risks to employment as tilted to the downside and risks to inflation to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With the unemployment rate at 4.3 percent, the labor market is softening, which suggests that, left unsupported, it could experience stress.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This change moved our policy rate closer to a more neutral stance while maintaining a balanced approach to promoting our dual-mandate objectives.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect the disinflation process to resume after this year and inflation to return to the 2 percent target in the coming years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The uptick in the unemployment rate suggests that demand has fallen by a bit more than supply and that the downside risks to employment are rising.\"}],\"rationale\":\"The speaker supports the recent cut and moving toward neutral, emphasizes rising downside employment risks and a softening labor market, and expects tariff inflation to fade, while noncommittally saying future moves depend on data. This yields a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "I see the risks to employment as tilted to the downside and risks to inflation to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With the unemployment rate at 4.3 percent, the labor market is softening, which suggests that, left unsupported, it could experience stress."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This change moved our policy rate closer to a more neutral stance while maintaining a balanced approach to promoting our dual-mandate objectives."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect the disinflation process to resume after this year and inflation to return to the 2 percent target in the coming years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The uptick in the unemployment rate suggests that demand has fallen by a bit more than supply and that the downside risks to employment are rising."
+   }
+  ],
+  "rationale": "The speaker supports the recent cut and moving toward neutral, emphasizes rising downside employment risks and a softening labor market, and expects tariff inflation to fade, while noncommittally saying future moves depend on data. This yields a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I see the risks to employment as tilted to the downside and risks to inflation to the upside.",
+     "start": 13902,
+     "end": 13994
+    },
+    {
+     "quote": "With the unemployment rate at 4.3 percent, the labor market is softening, which suggests that, left unsupported, it could experience stress.",
+     "start": 14940,
+     "end": 15079
+    },
+    {
+     "quote": "This change moved our policy rate closer to a more neutral stance while maintaining a balanced approach to promoting our dual-mandate objectives.",
+     "start": 15263,
+     "end": 15407
+    },
+    {
+     "quote": "I expect the disinflation process to resume after this year and inflation to return to the 2 percent target in the coming years.",
+     "start": 14810,
+     "end": 14937
+    },
+    {
+     "quote": "The uptick in the unemployment rate suggests that demand has fallen by a bit more than supply and that the downside risks to employment are rising.",
+     "start": 10444,
+     "end": 10590
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

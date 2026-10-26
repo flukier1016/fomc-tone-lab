@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20251210",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20251210",
+  "doc_type": "minutes",
+  "text_sha256": "fbab88bf04978e49e4b47e297bbe5456bff11179b3e64ddacefb8901444f7143"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "31e9c8bfbdb6cc9a87c5ce065ebb3bee9efad8941533d41ad89cf775d330d97b",
+ "message_id": "msg_011CgFug9CuAyrUkiBigQSX1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12588,
+  "output_tokens": 587,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants judged that further downward adjustments to the target range for the federal funds rate would likely be appropriate if inflation declined over time as expected.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it would likely be appropriate to keep the target range unchanged for some time after a lowering of the range at this meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"A majority of participants remarked that overall inflation had been above target for some time and had not moved closer to the 2 percent objective over the past year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the middle of 2025.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Most participants judged that risks to the labor market remained tilted to the downside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee would initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.\"}],\"rationale\":\"The minutes describe a divided committee that cut rates on rising downside employment risks, with most expecting further cuts if inflation declines but some favoring an extended pause and several worried about entrenched inflation. The start of reserve management purchases expands the balance sheet, but it is framed as technical, so the net signal leans modestly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants judged that further downward adjustments to the target range for the federal funds rate would likely be appropriate if inflation declined over time as expected."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it would likely be appropriate to keep the target range unchanged for some time after a lowering of the range at this meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "A majority of participants remarked that overall inflation had been above target for some time and had not moved closer to the 2 percent objective over the past year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the middle of 2025."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Most participants judged that risks to the labor market remained tilted to the downside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee would initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis."
+   }
+  ],
+  "rationale": "The minutes describe a divided committee that cut rates on rising downside employment risks, with most expecting further cuts if inflation declines but some favoring an extended pause and several worried about entrenched inflation. The start of reserve management purchases expands the balance sheet, but it is framed as technical, so the net signal leans modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants judged that further downward adjustments to the target range for the federal funds rate would likely be appropriate if inflation declined over time as expected.",
+     "start": 33473,
+     "end": 33650
+    },
+    {
+     "quote": "it would likely be appropriate to keep the target range unchanged for some time after a lowering of the range at this meeting.",
+     "start": 33829,
+     "end": 33954
+    },
+    {
+     "quote": "A majority of participants remarked that overall inflation had been above target for some time and had not moved closer to the 2 percent objective over the past year.",
+     "start": 24021,
+     "end": 24186
+    },
+    {
+     "quote": "participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the middle of 2025.",
+     "start": 34556,
+     "end": 34729
+    },
+    {
+     "quote": "Most participants judged that risks to the labor market remained tilted to the downside.",
+     "start": 27627,
+     "end": 27714
+    },
+    {
+     "quote": "the Committee would initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+     "start": 38362,
+     "end": 38506
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20250307a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250307a",
+  "doc_type": "speech",
+  "text_sha256": "bbb4bccd96e0d6912be77652fbc8e2bec55f15f29c5e2b982af2aeee86ac49f6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a43af45f5c69488798cc4951729d2ab286fd18ebbfee7d6490745f0656bc60f2",
+ "message_id": "msg_011CgFug8nbbZwZXKts4nmBN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5213,
+  "output_tokens": 480,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy outperformed in 2023 as widespread predictions of an impending recession never materialized and instead growth picked up.\"},{\"dimension\":\"overall\",\"quote\":\"An economy with stronger investment demand and very little household savings likely requires a higher equilibrium interest rate relative to pre-pandemic norms.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"as we continue to make progress on approaching our 2 percent target, I expect that the labor market and economic activity will become a larger factor in the FOMC's policy discussions.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"These deficit levels are unusual for an expansion, especially as fiscal policy seems to have contributed to the degree of tightness in the economy.\"}],\"rationale\":\"This is mostly an academic discussion of monetary transmission. Mildly hawkish points (a higher r-star, a resilient economy, expansionary fiscal policy) are offset by the expectation that the labor market will become a bigger focus as inflation progresses toward 2 percent, leaving a near-neutral net signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy outperformed in 2023 as widespread predictions of an impending recession never materialized and instead growth picked up."
+   },
+   {
+    "dimension": "overall",
+    "quote": "An economy with stronger investment demand and very little household savings likely requires a higher equilibrium interest rate relative to pre-pandemic norms."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "as we continue to make progress on approaching our 2 percent target, I expect that the labor market and economic activity will become a larger factor in the FOMC's policy discussions."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "These deficit levels are unusual for an expansion, especially as fiscal policy seems to have contributed to the degree of tightness in the economy."
+   }
+  ],
+  "rationale": "This is mostly an academic discussion of monetary transmission. Mildly hawkish points (a higher r-star, a resilient economy, expansionary fiscal policy) are offset by the expectation that the labor market will become a bigger focus as inflation progresses toward 2 percent, leaving a near-neutral net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The economy outperformed in 2023 as widespread predictions of an impending recession never materialized and instead growth picked up.",
+     "start": 11062,
+     "end": 11194
+    },
+    {
+     "quote": "An economy with stronger investment demand and very little household savings likely requires a higher equilibrium interest rate relative to pre-pandemic norms.",
+     "start": 15921,
+     "end": 16079
+    },
+    {
+     "quote": "as we continue to make progress on approaching our 2 percent target, I expect that the labor market and economic activity will become a larger factor in the FOMC's policy discussions.",
+     "start": 16665,
+     "end": 16847
+    },
+    {
+     "quote": "These deficit levels are unusual for an expansion, especially as fiscal policy seems to have contributed to the degree of tightness in the economy.",
+     "start": 15205,
+     "end": 15351
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

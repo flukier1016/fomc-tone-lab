@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20140710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20140710a",
+  "doc_type": "speech",
+  "text_sha256": "704c306d2f840c1147f924673fa4cd75b3931bee99e423ceb71cde8eedb16f82"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f0cfbe42bb2708909fec4c8a75fcde3744bf009c85033a20121f2f09c1401071",
+ "message_id": "msg_011CgFugG7NqYRBfVcnig1wW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9729,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"From among the range of topics in which financial sector reforms have been instituted since 2008, I focus on three: capital and liquidity for banks and other financial institutions, macroprudential supervision, and the problem of too big to fail (TBTF).\"},{\"dimension\":\"overall\",\"quote\":\"The United States is making significant progress in strengthening the financial system and reducing the probability of future financial crises.\"},{\"dimension\":\"overall\",\"quote\":\"From the viewpoint of the stability of the financial system, more of each is better.\"}],\"rationale\":\"The speech covers financial regulation, capital, macroprudential policy and too-big-to-fail, and offers no view on the interest rate path, inflation or the economic outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "From among the range of topics in which financial sector reforms have been instituted since 2008, I focus on three: capital and liquidity for banks and other financial institutions, macroprudential supervision, and the problem of too big to fail (TBTF)."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The United States is making significant progress in strengthening the financial system and reducing the probability of future financial crises."
+   },
+   {
+    "dimension": "overall",
+    "quote": "From the viewpoint of the stability of the financial system, more of each is better."
+   }
+  ],
+  "rationale": "The speech covers financial regulation, capital, macroprudential policy and too-big-to-fail, and offers no view on the interest rate path, inflation or the economic outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "From among the range of topics in which financial sector reforms have been instituted since 2008, I focus on three: capital and liquidity for banks and other financial institutions, macroprudential supervision, and the problem of too big to fail (TBTF).",
+     "start": 931,
+     "end": 1183
+    },
+    {
+     "quote": "The United States is making significant progress in strengthening the financial system and reducing the probability of future financial crises.",
+     "start": 29868,
+     "end": 30010
+    },
+    {
+     "quote": "From the viewpoint of the stability of the financial system, more of each is better.",
+     "start": 4391,
+     "end": 4474
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

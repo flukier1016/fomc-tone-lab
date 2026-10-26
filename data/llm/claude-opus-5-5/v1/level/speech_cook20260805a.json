@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20260805a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260805a",
+  "doc_type": "speech",
+  "text_sha256": "63a6379f4012ea6951e3dc1cb1214431ee36a3e24f55a32f261336c2bd3c84cb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a325b6503225688bcaf84707bf6a6c0ef5122c477a8eb15471b389500e8d76ae",
+ "message_id": "msg_011CgFugG3QvCa4HjiBy7GHr",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4068,
+  "output_tokens": 489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As such, I am prepared to act by raising rates, if necessary.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Thinking first of the price-stability side of our mandate, my assessment is simple: Inflation is too high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Taken together, these developments have shifted the balance of risks toward inflation and away from the labor market.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If I do not see signs of continued disinflation soon, I am prepared to act.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I view the U.S. economy as remaining resilient and growing at a solid pace.\"},{\"dimension\":\"overall\",\"quote\":\"Thus, while we might be able to afford to wait for longer in a different environment, we do not have that luxury in this one.\"}],\"rationale\":\"The speaker forcefully stresses too-high inflation, upside inflation risks and readiness to raise rates if disinflation does not appear soon. This is tempered by support for holding rates steady for now and the expectation that tariff, oil and AI-related price pressures will ease.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As such, I am prepared to act by raising rates, if necessary."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Thinking first of the price-stability side of our mandate, my assessment is simple: Inflation is too high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Taken together, these developments have shifted the balance of risks toward inflation and away from the labor market."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If I do not see signs of continued disinflation soon, I am prepared to act."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I view the U.S. economy as remaining resilient and growing at a solid pace."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Thus, while we might be able to afford to wait for longer in a different environment, we do not have that luxury in this one."
+   }
+  ],
+  "rationale": "The speaker forcefully stresses too-high inflation, upside inflation risks and readiness to raise rates if disinflation does not appear soon. This is tempered by support for holding rates steady for now and the expectation that tariff, oil and AI-related price pressures will ease."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As such, I am prepared to act by raising rates, if necessary.",
+     "start": 5057,
+     "end": 5117
+    },
+    {
+     "quote": "Thinking first of the price-stability side of our mandate, my assessment is simple: Inflation is too high.",
+     "start": 1414,
+     "end": 1519
+    },
+    {
+     "quote": "Taken together, these developments have shifted the balance of risks toward inflation and away from the labor market.",
+     "start": 2619,
+     "end": 2735
+    },
+    {
+     "quote": "If I do not see signs of continued disinflation soon, I am prepared to act.",
+     "start": 6692,
+     "end": 6766
+    },
+    {
+     "quote": "I view the U.S. economy as remaining resilient and growing at a solid pace.",
+     "start": 1105,
+     "end": 1179
+    },
+    {
+     "quote": "Thus, while we might be able to afford to wait for longer in a different environment, we do not have that luxury in this one.",
+     "start": 7051,
+     "end": 7175
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

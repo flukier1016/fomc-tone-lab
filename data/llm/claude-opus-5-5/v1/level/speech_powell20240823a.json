@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20240823a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20240823a",
+  "doc_type": "speech",
+  "text_sha256": "9aac04adcbebf8cbc23ba4b318cab4e84286263a9c313c0b230c59df5cda14f5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "238f3af8553b3c31eef0c597783ea6dc8489d358e01dd802942e535caf8a6784",
+ "message_id": "msg_011CgFugEarZj7NTWSn9yhSP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4563,
+  "output_tokens": 450,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The time has come for policy to adjust. The direction of travel is clear, and the timing and pace of rate cuts will depend on incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"My confidence has grown that inflation is on a sustainable path back to 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We do not seek or welcome further cooling in labor market conditions.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The upside risks to inflation have diminished. And the downside risks to employment have increased.\"},{\"dimension\":\"overall\",\"quote\":\"We will do everything we can to support a strong labor market as we make further progress toward price stability.\"}],\"rationale\":\"The speaker explicitly signals that rate cuts are coming, with confidence that inflation is returning to 2 percent. The speech also emphasizes increased downside risks to employment and says further labor market cooling is unwelcome.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The time has come for policy to adjust. The direction of travel is clear, and the timing and pace of rate cuts will depend on incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "My confidence has grown that inflation is on a sustainable path back to 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We do not seek or welcome further cooling in labor market conditions."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The upside risks to inflation have diminished. And the downside risks to employment have increased."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We will do everything we can to support a strong labor market as we make further progress toward price stability."
+   }
+  ],
+  "rationale": "The speaker explicitly signals that rate cuts are coming, with confidence that inflation is returning to 2 percent. The speech also emphasizes increased downside risks to employment and says further labor market cooling is unwelcome."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The time has come for policy to adjust. The direction of travel is clear, and the timing and pace of rate cuts will depend on incoming data, the evolving outlook, and the balance of risks.",
+     "start": 4188,
+     "end": 4375
+    },
+    {
+     "quote": "My confidence has grown that inflation is on a sustainable path back to 2 percent.",
+     "start": 2125,
+     "end": 2206
+    },
+    {
+     "quote": "We do not seek or welcome further cooling in labor market conditions.",
+     "start": 3781,
+     "end": 3849
+    },
+    {
+     "quote": "The upside risks to inflation have diminished. And the downside risks to employment have increased.",
+     "start": 3976,
+     "end": 4074
+    },
+    {
+     "quote": "We will do everything we can to support a strong labor market as we make further progress toward price stability.",
+     "start": 4378,
+     "end": 4490
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

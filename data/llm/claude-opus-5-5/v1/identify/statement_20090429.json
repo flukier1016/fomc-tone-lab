@@ -1,0 +1,53 @@
+{
+ "key": "statement_20090429",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20090429",
+  "release_date": "2009-04-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "64fbdd113cc0e0c783d4beb468508369d4bcc52e551210f7719f5056a658b22e",
+ "message_id": "msg_011CgFueFmUwsbdtJ1mMEjMw",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1290,
+  "output_tokens": 229,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2009,\"month\":4,\"confidence\":0.85,\"cues\":[\"Economy continued to contract but pace somewhat slower — the April 2009 assessment\",\"As previously announced, $1.25 trillion agency MBS, $200 billion agency debt, $300 billion Treasuries (purchases announced March 2009)\",\"Treasury purchases to be completed 'by autumn' — language used before the August 2009 extension\",\"Household spending showing signs of stabilizing\",\"Outlook improved modestly since the [MONTH] meeting (March)\",\"Risk of inflation persisting below desirable rates\",\"No statement that the contraction had ended or that activity was leveling out (that came in June/August 2009)\"]}",
+ "parsed": {
+  "year": 2009,
+  "month": 4,
+  "confidence": 0.85,
+  "cues": [
+   "Economy continued to contract but pace somewhat slower — the April 2009 assessment",
+   "As previously announced, $1.25 trillion agency MBS, $200 billion agency debt, $300 billion Treasuries (purchases announced March 2009)",
+   "Treasury purchases to be completed 'by autumn' — language used before the August 2009 extension",
+   "Household spending showing signs of stabilizing",
+   "Outlook improved modestly since the [MONTH] meeting (March)",
+   "Risk of inflation persisting below desirable rates",
+   "No statement that the contraction had ended or that activity was leveling out (that came in June/August 2009)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200610",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200610",
+  "doc_type": "presser",
+  "text_sha256": "5c4d22f54c9d170940fd47f6d64ab942a8e8433771d295102be96944693efefb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "30a6b695d7854d2f3ca5d53dfdba598c3af103e878f8216be4e5e2e7cdd3ec76",
+ "message_id": "msg_011CgFugHJ4yY73XsxYY38dN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13819,
+  "output_tokens": 510,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We're not even thinking about thinking about raising rates.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will increase our holdings of Treasury and agency mortgage-backed securities over coming months at least at the current pace.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Now, inflation, of course, is—is low, and we think it's very likely to remain low for some time, below our target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Moreover, despite the improvements seen in the May jobs report, unemployment remains historically high.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"overwhelmingly, FOMC participants expect, as their baseline expectation, no rate increase at least through 2022.\"},{\"dimension\":\"risk_balance\",\"quote\":\"It's possible that we will need to do more, and it's possible that Congress will need to do more.\"}],\"rationale\":\"The Chair holds rates near zero, commits to continued asset purchases at least at the current pace, rules out thinking about hikes, and explores further accommodation tools. He stresses severe labor market weakness, below-target inflation, and downside risks of lasting damage.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We're not even thinking about thinking about raising rates."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will increase our holdings of Treasury and agency mortgage-backed securities over coming months at least at the current pace."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Now, inflation, of course, is—is low, and we think it's very likely to remain low for some time, below our target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Moreover, despite the improvements seen in the May jobs report, unemployment remains historically high."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "overwhelmingly, FOMC participants expect, as their baseline expectation, no rate increase at least through 2022."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It's possible that we will need to do more, and it's possible that Congress will need to do more."
+   }
+  ],
+  "rationale": "The Chair holds rates near zero, commits to continued asset purchases at least at the current pace, rules out thinking about hikes, and explores further accommodation tools. He stresses severe labor market weakness, below-target inflation, and downside risks of lasting damage."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We're not even thinking about thinking about raising rates.",
+     "start": 16003,
+     "end": 16061
+    },
+    {
+     "quote": "we will increase our holdings of Treasury and agency mortgage-backed securities over coming months at least at the current pace.",
+     "start": 5289,
+     "end": 5416
+    },
+    {
+     "quote": "Now, inflation, of course, is—is low, and we think it's very likely to remain low for some time, below our target.",
+     "start": 44008,
+     "end": 44121
+    },
+    {
+     "quote": "Moreover, despite the improvements seen in the May jobs report, unemployment remains historically high.",
+     "start": 2818,
+     "end": 2920
+    },
+    {
+     "quote": "overwhelmingly, FOMC participants expect, as their baseline expectation, no rate increase at least through 2022.",
+     "start": 11429,
+     "end": 11540
+    },
+    {
+     "quote": "It's possible that we will need to do more, and it's possible that Congress will need to do more.",
+     "start": 27161,
+     "end": 27257
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

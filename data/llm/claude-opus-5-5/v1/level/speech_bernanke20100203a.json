@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20100203a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100203a",
+  "doc_type": "speech",
+  "text_sha256": "4035f3661fb7e6b2bdbdd86ff72e6e7fc1d0a10a56fde189f865687297b7912e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "900d1d7c4c6621ad0acc26d53d68fcc5ed04a7245b959c7e9037a1159079f91e",
+ "message_id": "msg_011CgFugHTz4mhjcjWK1GZc5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1293,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But far too many people remain unemployed, foreclosures continue at record rates, and bank credit continues to contract.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"On the economic front, the resumption of growth in the nation's output of goods and services is encouraging.\"},{\"dimension\":\"overall\",\"quote\":\"we must continue to do all that we can to ensure that our policies are helping to guide the country's return to prosperity in an environment of price stability.\"}],\"rationale\":\"This is a ceremonial swearing-in address focused on staff, regulation, independence and transparency, with no explicit policy signal. Its brief economic remarks emphasize persistent unemployment and contracting credit, a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But far too many people remain unemployed, foreclosures continue at record rates, and bank credit continues to contract."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "On the economic front, the resumption of growth in the nation's output of goods and services is encouraging."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we must continue to do all that we can to ensure that our policies are helping to guide the country's return to prosperity in an environment of price stability."
+   }
+  ],
+  "rationale": "This is a ceremonial swearing-in address focused on staff, regulation, independence and transparency, with no explicit policy signal. Its brief economic remarks emphasize persistent unemployment and contracting credit, a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But far too many people remain unemployed, foreclosures continue at record rates, and bank credit continues to contract.",
+     "start": 1168,
+     "end": 1287
+    },
+    {
+     "quote": "On the economic front, the resumption of growth in the nation's output of goods and services is encouraging.",
+     "start": 1059,
+     "end": 1166
+    },
+    {
+     "quote": "we must continue to do all that we can to ensure that our policies are helping to guide the country's return to prosperity in an environment of price stability.",
+     "start": 1442,
+     "end": 1601
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

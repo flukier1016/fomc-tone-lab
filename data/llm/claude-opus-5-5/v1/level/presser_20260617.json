@@ -1,0 +1,121 @@
+{
+ "key": "presser_20260617",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260617",
+  "doc_type": "presser",
+  "text_sha256": "a5daf0b6c35a549a79e014d7d0ddc44260ef532c0b319795420f4d7faecf8e54"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3b2afd89b0464cac98bc721512bbe5c071b1a75a71c7b42cb66e56f83fcb3e7a",
+ "message_id": "msg_011CgFugE5qm5dgJSoamqodD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7362,
+  "output_tokens": 1314,
+  "output_tokens_details": {
+   "thinking_tokens": 739
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"And today I’m announcing that this Committee, unambiguously and unanimously, have decided we are going to deliver on that.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated relative to the Committee’s 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Fed policy appears to be somewhat restrictive. I would have a hard time managing to say those words if I were to see what’s happening in financial markets, so I’d say it’s uneven.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"half of my colleagues thought the policy rate, given all those developments, should be at this level or lower between now and year-end and the other half thought higher.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"And I’d say the jobs data’s been moving in a good direction.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But I can’t give any forward guidance about what we’re going to do next.\"}],\"rationale\":\"The Chair stresses an unambiguous, unanimous commitment to bring elevated inflation back to 2 percent. He calls policy only unevenly restrictive, describes a stable-to-improving labor market and offers no easing signal, which gives a moderate hawkish lean despite dropping explicit forward guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "And today I’m announcing that this Committee, unambiguously and unanimously, have decided we are going to deliver on that."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated relative to the Committee’s 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Fed policy appears to be somewhat restrictive. I would have a hard time managing to say those words if I were to see what’s happening in financial markets, so I’d say it’s uneven."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "half of my colleagues thought the policy rate, given all those developments, should be at this level or lower between now and year-end and the other half thought higher."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "And I’d say the jobs data’s been moving in a good direction."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But I can’t give any forward guidance about what we’re going to do next."
+   }
+  ],
+  "rationale": "The Chair stresses an unambiguous, unanimous commitment to bring elevated inflation back to 2 percent. He calls policy only unevenly restrictive, describes a stable-to-improving labor market and offers no easing signal, which gives a moderate hawkish lean despite dropping explicit forward guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "And today I’m announcing that this Committee, unambiguously and unanimously, have decided we are going to deliver on that.",
+     "start": 1658,
+     "end": 1779
+    },
+    {
+     "quote": "Inflation remains elevated relative to the Committee’s 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.",
+     "start": 6328,
+     "end": 6501
+    },
+    {
+     "quote": "Fed policy appears to be somewhat restrictive. I would have a hard time managing to say those words if I were to see what’s happening in financial markets, so I’d say it’s uneven.",
+     "start": 2798,
+     "end": 2976
+    },
+    {
+     "quote": "half of my colleagues thought the policy rate, given all those developments, should be at this level or lower between now and year-end and the other half thought higher.",
+     "start": 20790,
+     "end": 20958
+    },
+    {
+     "quote": "And I’d say the jobs data’s been moving in a good direction.",
+     "start": 24077,
+     "end": 24136
+    },
+    {
+     "quote": "But I can’t give any forward guidance about what we’re going to do next.",
+     "start": 2400,
+     "end": 2471
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

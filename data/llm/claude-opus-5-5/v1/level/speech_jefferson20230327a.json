@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20230327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20230327a",
+  "doc_type": "speech",
+  "text_sha256": "37ea9aebe1276ca65b389be2c4da2eee99f0ff1852648a2694abef2b2e2c43f0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "20db6ddd2587bf116640fd105421d9a49aea3fe412e2bbf9a059121378968ed9",
+ "message_id": "msg_011CgFugGREQpNZJPfhvdXar",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6969,
+  "output_tokens": 434,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Currently, the unemployment rate is low, and the inflation rate is above the Fed's 2 percent target.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Now, the Fed is fighting inflation by raising its interest rate target range and is in the process of shrinking the Fed's balance sheet\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"you can see that inflation, measured using the personal consumption expenditures price index, has started to come down.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we are still learning about the full effect of our tightening thus far.\"},{\"dimension\":\"overall\",\"quote\":\"Currently, we are tightening monetary policy.\"}],\"rationale\":\"This is mostly an educational lecture on implementation tools, with only brief descriptive references to the ongoing tightening and QT and to inflation still being above target but easing. It gives no explicit forward guidance, so the net lean is only mildly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Currently, the unemployment rate is low, and the inflation rate is above the Fed's 2 percent target."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Now, the Fed is fighting inflation by raising its interest rate target range and is in the process of shrinking the Fed's balance sheet"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "you can see that inflation, measured using the personal consumption expenditures price index, has started to come down."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we are still learning about the full effect of our tightening thus far."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Currently, we are tightening monetary policy."
+   }
+  ],
+  "rationale": "This is mostly an educational lecture on implementation tools, with only brief descriptive references to the ongoing tightening and QT and to inflation still being above target but easing. It gives no explicit forward guidance, so the net lean is only mildly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Currently, the unemployment rate is low, and the inflation rate is above the Fed's 2 percent target.",
+     "start": 17605,
+     "end": 17704
+    },
+    {
+     "quote": "Now, the Fed is fighting inflation by raising its interest rate target range and is in the process of shrinking the Fed's balance sheet",
+     "start": 16523,
+     "end": 16658
+    },
+    {
+     "quote": "you can see that inflation, measured using the personal consumption expenditures price index, has started to come down.",
+     "start": 20551,
+     "end": 20669
+    },
+    {
+     "quote": "we are still learning about the full effect of our tightening thus far.",
+     "start": 21081,
+     "end": 21151
+    },
+    {
+     "quote": "Currently, we are tightening monetary policy.",
+     "start": 21954,
+     "end": 21998
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "key": "statement_20170726",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20170726",
+  "previous_doc_id": "statement_20170614",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9f3a26c04ae2ae2f7376d8823b04c1c03665e9113af56be9a8438d27378c067b",
+ "message_id": "msg_011CgFudXVWVKDLEyYogfwqE",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2186,
+  "output_tokens": 616,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"On a 12-month basis, inflation has declined recently and, like the measure excluding food and energy prices, is running somewhat below 2 percent.\",\"after\":\"On a 12-month basis, overall inflation and the measure excluding food and energy prices have declined and are running below 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent.\",\"after\":\"the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"The Committee currently expects to begin implementing a balance sheet normalization program this year, provided that the economy evolves broadly as anticipated.\",\"after\":\"The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated;\",\"direction\":\"hawkish\"},{\"before\":\"The Committee is maintaining its existing policy of reinvesting principal payments\",\"after\":\"For the time being, the Committee is maintaining its existing policy of reinvesting principal payments\",\"direction\":\"hawkish\"},{\"before\":\"Job gains have moderated but have been solid, on average, since the beginning of the year\",\"after\":\"Job gains have been solid, on average, since the beginning of the year\",\"direction\":\"hawkish\"},{\"before\":\"Voting against the action was Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"Removing 'somewhat' from the inflation description is a dovish tilt, and the pause after the June hike was expected. This is offset by the hawkish signal that balance-sheet runoff will begin 'relatively soon', leaving the net signal roughly unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "On a 12-month basis, inflation has declined recently and, like the measure excluding food and energy prices, is running somewhat below 2 percent.",
+    "after": "On a 12-month basis, overall inflation and the measure excluding food and energy prices have declined and are running below 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent.",
+    "after": "the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee currently expects to begin implementing a balance sheet normalization program this year, provided that the economy evolves broadly as anticipated.",
+    "after": "The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated;",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee is maintaining its existing policy of reinvesting principal payments",
+    "after": "For the time being, the Committee is maintaining its existing policy of reinvesting principal payments",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Job gains have moderated but have been solid, on average, since the beginning of the year",
+    "after": "Job gains have been solid, on average, since the beginning of the year",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against the action was Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Removing 'somewhat' from the inflation description is a dovish tilt, and the pause after the June hike was expected. This is offset by the hawkish signal that balance-sheet runoff will begin 'relatively soon', leaving the net signal roughly unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On a 12-month basis, inflation has declined recently and, like the measure excluding food and energy prices, is running somewhat below 2 percent.",
+     "start": 441,
+     "end": 585
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent.",
+     "start": 1438,
+     "end": 1534
+    },
+    {
+     "quote": "The Committee currently expects to begin implementing a balance sheet normalization program this year, provided that the economy evolves broadly as anticipated.",
+     "start": 2938,
+     "end": 3097
+    },
+    {
+     "quote": "The Committee is maintaining its existing policy of reinvesting principal payments",
+     "start": 2686,
+     "end": 2768
+    },
+    {
+     "quote": "Job gains have moderated but have been solid, on average, since the beginning of the year",
+     "start": 204,
+     "end": 293
+    },
+    {
+     "quote": "Voting against the action was Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+     "start": 3574,
+     "end": 3713
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On a 12-month basis, overall inflation and the measure excluding food and energy prices have declined and are running below 2 percent.",
+     "start": 392,
+     "end": 525
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1 to 1-1/4 percent.",
+     "start": 1378,
+     "end": 1477
+    },
+    {
+     "quote": "The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated;",
+     "start": 2901,
+     "end": 3058
+    },
+    {
+     "quote": "For the time being, the Committee is maintaining its existing policy of reinvesting principal payments",
+     "start": 2629,
+     "end": 2731
+    },
+    {
+     "quote": "Job gains have been solid, on average, since the beginning of the year",
+     "start": 205,
+     "end": 275
+    }
+   ]
+  }
+ }
+}

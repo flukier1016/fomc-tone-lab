@@ -1,0 +1,154 @@
+{
+ "key": "statement_20230201",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20230201",
+  "previous_doc_id": "statement_20221214",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "027d2ee51503ad756c4e2368f84e341d1a3e92a3957ba91119d5d71ff957ef14",
+ "message_id": "msg_011CgFudUSTQDeEfZNDXCViJ",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1516,
+  "output_tokens": 576,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\",\"after\":\"Inflation has eased somewhat but remains elevated.\",\"direction\":\"dovish\"},{\"before\":\"In determining the pace of future increases in the target range\",\"after\":\"In determining the extent of future increases in the target range\",\"direction\":\"dovish\"},{\"before\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.\",\"after\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/2 to 4-3/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.\",\"after\":\"Russia's war against Ukraine is causing tremendous human and economic hardship and is contributing to elevated global uncertainty.\",\"direction\":\"dovish\"},{\"before\":\"including readings on public health, labor market conditions\",\"after\":\"including readings on labor market conditions\",\"direction\":\"neutral\"},{\"before\":\"as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.\",\"after\":\"as described in its previously announced plans.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement acknowledges that inflation has eased, slows the hike to 25bp, and shifts the guidance from the 'pace' to the 'extent' of future increases, signaling the end of tightening is approaching. It retains 'ongoing increases' language, so the policy direction is unchanged and the shift is only modestly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+    "after": "Inflation has eased somewhat but remains elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In determining the pace of future increases in the target range",
+    "after": "In determining the extent of future increases in the target range",
+    "direction": "dovish"
+   },
+   {
+    "before": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.",
+    "after": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/2 to 4-3/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.",
+    "after": "Russia's war against Ukraine is causing tremendous human and economic hardship and is contributing to elevated global uncertainty.",
+    "direction": "dovish"
+   },
+   {
+    "before": "including readings on public health, labor market conditions",
+    "after": "including readings on labor market conditions",
+    "direction": "neutral"
+   },
+   {
+    "before": "as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+    "after": "as described in its previously announced plans.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement acknowledges that inflation has eased, slows the hike to 25bp, and shifts the guidance from the 'pace' to the 'extent' of future increases, signaling the end of tightening is approaching. It retains 'ongoing increases' language, so the policy direction is unchanged and the shift is only modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+     "start": 158,
+     "end": 309
+    },
+    {
+     "quote": "In determining the pace of future increases in the target range",
+     "start": 1021,
+     "end": 1084
+    },
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.",
+     "start": 679,
+     "end": 806
+    },
+    {
+     "quote": "The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.",
+     "start": 392,
+     "end": 512
+    },
+    {
+     "quote": "including readings on public health, labor market conditions",
+     "start": 2032,
+     "end": 2092
+    },
+    {
+     "quote": "as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+     "start": 1428,
+     "end": 1538
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation has eased somewhat but remains elevated.",
+     "start": 158,
+     "end": 207
+    },
+    {
+     "quote": "In determining the extent of future increases in the target range",
+     "start": 848,
+     "end": 913
+    },
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/2 to 4-3/4 percent.",
+     "start": 506,
+     "end": 633
+    },
+    {
+     "quote": "Russia's war against Ukraine is causing tremendous human and economic hardship and is contributing to elevated global uncertainty.",
+     "start": 210,
+     "end": 339
+    },
+    {
+     "quote": "including readings on labor market conditions",
+     "start": 1797,
+     "end": 1842
+    },
+    {
+     "quote": "as described in its previously announced plans.",
+     "start": 1257,
+     "end": 1303
+    }
+   ]
+  }
+ }
+}

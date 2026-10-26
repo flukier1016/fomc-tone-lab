@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20211019a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20211019a",
+  "doc_type": "speech",
+  "text_sha256": "5ce74f4eb1bc3ad446e8f0781f2a38781ef985011ee84cb555a1ed09a2799364"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6074fbe2aaee4b41900fda812b7144ffe4df17a4a677676e28f680d417b1f1e5",
+ "message_id": "msg_011CgFugA7xzah16LdjGbv39",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6105,
+  "output_tokens": 560,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I believe we have made enough progress such that tapering of our asset purchases should commence following our next FOMC meeting, which is in two weeks.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If monthly prints of inflation continue to run high through the remainder of this year, a more aggressive policy response than just tapering may well be warranted in 2022.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Based on my outlook for the economy, however, I do not expect liftoff to occur soon after tapering is completed.\"},{\"dimension\":\"risk_balance\",\"quote\":\"That said, I am still greatly concerned about the upside risk that elevated inflation will not prove temporary.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Consequently, both broad measures of labor market performance reveal a significant degree of healing in the U.S. labor market.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I have said in the past that I favor a pace of tapering that would result in the end of asset purchases by the middle of 2022.\"}],\"rationale\":\"The speaker backs starting the taper next meeting at a pace that ends purchases by mid-2022, stresses upside inflation risks, and warns of earlier liftoff if inflation persists. This is tempered by his baseline view that inflation is transitory and liftoff is still some time off.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I believe we have made enough progress such that tapering of our asset purchases should commence following our next FOMC meeting, which is in two weeks."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If monthly prints of inflation continue to run high through the remainder of this year, a more aggressive policy response than just tapering may well be warranted in 2022."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Based on my outlook for the economy, however, I do not expect liftoff to occur soon after tapering is completed."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "That said, I am still greatly concerned about the upside risk that elevated inflation will not prove temporary."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Consequently, both broad measures of labor market performance reveal a significant degree of healing in the U.S. labor market."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I have said in the past that I favor a pace of tapering that would result in the end of asset purchases by the middle of 2022."
+   }
+  ],
+  "rationale": "The speaker backs starting the taper next meeting at a pace that ends purchases by mid-2022, stresses upside inflation risks, and warns of earlier liftoff if inflation persists. This is tempered by his baseline view that inflation is transitory and liftoff is still some time off."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe we have made enough progress such that tapering of our asset purchases should commence following our next FOMC meeting, which is in two weeks.",
+     "start": 7167,
+     "end": 7318
+    },
+    {
+     "quote": "If monthly prints of inflation continue to run high through the remainder of this year, a more aggressive policy response than just tapering may well be warranted in 2022.",
+     "start": 761,
+     "end": 931
+    },
+    {
+     "quote": "Based on my outlook for the economy, however, I do not expect liftoff to occur soon after tapering is completed.",
+     "start": 19477,
+     "end": 19588
+    },
+    {
+     "quote": "That said, I am still greatly concerned about the upside risk that elevated inflation will not prove temporary.",
+     "start": 7957,
+     "end": 8067
+    },
+    {
+     "quote": "Consequently, both broad measures of labor market performance reveal a significant degree of healing in the U.S. labor market.",
+     "start": 6010,
+     "end": 6135
+    },
+    {
+     "quote": "I have said in the past that I favor a pace of tapering that would result in the end of asset purchases by the middle of 2022.",
+     "start": 19002,
+     "end": 19127
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

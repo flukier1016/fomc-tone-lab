@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20260716a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20260716a",
+  "doc_type": "speech",
+  "text_sha256": "f9a207d2502eb6ec32ef0b8aa8f7bbee2b13fd48556e07100fb130312faf0ff3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5d3e789173277af60d4f3f06217e743613a29ddda80cd96ab455993bd60b7b2f",
+ "message_id": "msg_011CgFugHQ1zVgF7rMwBXoWL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4593,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"That said, in a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"this supply shock is occurring in an environment in which inflation has already been above the FOMC's target for some time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the unemployment rate, illustrated in the right panel of figure 3, is near a level that most observers view as consistent with maximum employment.\"},{\"dimension\":\"overall\",\"quote\":\"I am firmly committed to returning inflation to our 2 percent target\"}],\"rationale\":\"The speaker supports holding rates but explicitly raises the possibility of reconsidering the stance, implicitly tightening, if inflation does not cool soon. She emphasizes the risk that inflation becomes entrenched while viewing the labor market as near maximum employment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "That said, in a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "this supply shock is occurring in an environment in which inflation has already been above the FOMC's target for some time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the unemployment rate, illustrated in the right panel of figure 3, is near a level that most observers view as consistent with maximum employment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I am firmly committed to returning inflation to our 2 percent target"
+   }
+  ],
+  "rationale": "The speaker supports holding rates but explicitly raises the possibility of reconsidering the stance, implicitly tightening, if inflation does not cool soon. She emphasizes the risk that inflation becomes entrenched while viewing the labor market as near maximum employment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "That said, in a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability.",
+     "start": 14173,
+     "end": 14396
+    },
+    {
+     "quote": "The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored.",
+     "start": 10065,
+     "end": 10190
+    },
+    {
+     "quote": "this supply shock is occurring in an environment in which inflation has already been above the FOMC's target for some time",
+     "start": 8790,
+     "end": 8912
+    },
+    {
+     "quote": "the unemployment rate, illustrated in the right panel of figure 3, is near a level that most observers view as consistent with maximum employment.",
+     "start": 8979,
+     "end": 9124
+    },
+    {
+     "quote": "I am firmly committed to returning inflation to our 2 percent target",
+     "start": 13650,
+     "end": 13718
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

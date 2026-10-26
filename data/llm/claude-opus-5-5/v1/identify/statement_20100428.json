@@ -1,0 +1,54 @@
+{
+ "key": "statement_20100428",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20100428",
+  "release_date": "2010-04-28"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e6ce7c2ad23a8aa142f424b82aef5e4dc6431663b7500b05481e37dd08f864e4",
+ "message_id": "msg_011CgFudVXgkF6oVZGnuwjdP",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1257,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2010,\"month\":4,\"confidence\":0.88,\"cues\":[\"Labor market 'beginning to improve': early 2010 recovery language\",\"TALF scheduled to close June 30 for new-issue CMBS and already closed March 31 for other collateral, so the statement falls between April and June 2010\",\"'Closed all but one of the special liquidity facilities' fits after the March 2010 closures\",\"Bullard and Pianalto among voters, matching the 2010 rotation\",\"Single dissent over the 'extended period' language matches Hoenig's 2010 dissents\",\"No mention of the MBS purchase program ending, consistent with the April 2010 meeting\",\"No mention of the European sovereign debt strains that appeared in the June 2010 statement\",\"Lower bound target range, 0 to 1/4 percent\"]}",
+ "parsed": {
+  "year": 2010,
+  "month": 4,
+  "confidence": 0.88,
+  "cues": [
+   "Labor market 'beginning to improve': early 2010 recovery language",
+   "TALF scheduled to close June 30 for new-issue CMBS and already closed March 31 for other collateral, so the statement falls between April and June 2010",
+   "'Closed all but one of the special liquidity facilities' fits after the March 2010 closures",
+   "Bullard and Pianalto among voters, matching the 2010 rotation",
+   "Single dissent over the 'extended period' language matches Hoenig's 2010 dissents",
+   "No mention of the MBS purchase program ending, consistent with the April 2010 meeting",
+   "No mention of the European sovereign debt strains that appeared in the June 2010 statement",
+   "Lower bound target range, 0 to 1/4 percent"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20210730a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210730a",
+  "doc_type": "speech",
+  "text_sha256": "cc7eaed82e4539baea6517823169f34c781ee8d21f2ddff4ec023aac2615e1b4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b3d5ed3a939d1e3e601c248d317962ea6431b8cdfd9fd95f942696c7d03e40c4",
+ "message_id": "msg_011CgFugH8Q5WPfuirxu2xfN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2813,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"The determination of when to begin to slow asset purchases will depend importantly on the accumulation of evidence that substantial further progress on employment has been achieved. As of today, employment has some distance to go.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Recent high inflation readings reflect supply–demand mismatches in a handful of sectors that are likely to prove transitory.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While we are seeing progress on employment, joblessness remains high and continues to fall disproportionately on African Americans and Hispanics and lower-wage workers in the services sector.\"},{\"dimension\":\"risk_balance\",\"quote\":\"There are risks on both sides of the outlook.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Importantly, I expect to be more confident in assessing the rate of progress once we have data in hand for September\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I am attentive to the risk that inflation pressures could broaden or prove persistent\"}],\"rationale\":\"The speaker views high inflation as transitory and stresses that employment has some distance to go, which implies patience on tapering at least until after September data arrive. Some vigilance about persistent inflation and strong growth temper the lean, but the net signal is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "The determination of when to begin to slow asset purchases will depend importantly on the accumulation of evidence that substantial further progress on employment has been achieved. As of today, employment has some distance to go."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Recent high inflation readings reflect supply–demand mismatches in a handful of sectors that are likely to prove transitory."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While we are seeing progress on employment, joblessness remains high and continues to fall disproportionately on African Americans and Hispanics and lower-wage workers in the services sector."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "There are risks on both sides of the outlook."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Importantly, I expect to be more confident in assessing the rate of progress once we have data in hand for September"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I am attentive to the risk that inflation pressures could broaden or prove persistent"
+   }
+  ],
+  "rationale": "The speaker views high inflation as transitory and stresses that employment has some distance to go, which implies patience on tapering at least until after September data arrive. Some vigilance about persistent inflation and strong growth temper the lean, but the net signal is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The determination of when to begin to slow asset purchases will depend importantly on the accumulation of evidence that substantial further progress on employment has been achieved. As of today, employment has some distance to go.",
+     "start": 8187,
+     "end": 8416
+    },
+    {
+     "quote": "Recent high inflation readings reflect supply–demand mismatches in a handful of sectors that are likely to prove transitory.",
+     "start": 4491,
+     "end": 4614
+    },
+    {
+     "quote": "While we are seeing progress on employment, joblessness remains high and continues to fall disproportionately on African Americans and Hispanics and lower-wage workers in the services sector.",
+     "start": 1716,
+     "end": 1906
+    },
+    {
+     "quote": "There are risks on both sides of the outlook.",
+     "start": 7199,
+     "end": 7243
+    },
+    {
+     "quote": "Importantly, I expect to be more confident in assessing the rate of progress once we have data in hand for September",
+     "start": 3217,
+     "end": 3333
+    },
+    {
+     "quote": "I am attentive to the risk that inflation pressures could broaden or prove persistent",
+     "start": 5075,
+     "end": 5160
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

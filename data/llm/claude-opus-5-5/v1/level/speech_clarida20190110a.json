@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20190110a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190110a",
+  "doc_type": "speech",
+  "text_sha256": "1e0230fd0620a748864e5dd05073fe468b18651f0214ce7126acb9ab930e430d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "45c0bfcff1ca7a63e55518d5ee35078b45f8e0018d57fcebe6a1474b8a1a82aa",
+ "message_id": "msg_011CgFugEryKfwG3epwbn5BT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4629,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In these circumstances, I believe patience is a virtue and is one we can today afford.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation has surprised to the downside recently, and it is not yet clear that inflation has moved back to 2 percent on a sustainable basis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If these crosswinds are sustained, appropriate forward‑looking monetary policy should seek to offset them\"},{\"dimension\":\"balance_sheet\",\"quote\":\"If we find that the ongoing program of balance sheet normalization or any other aspect of normalization no longer promotes the achievement of our dual-mandate goals, we will not hesitate to make changes.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"As we begin 2019, the initial conditions for the real economy are favorable.\"}],\"rationale\":\"Despite describing strong growth and a healthy labor market, Clarida emphasizes muted inflation, downside inflation surprises, global and financial crosswinds, and repeatedly signals patience on rates and openness to changing balance sheet runoff. The net signal is a dovish lean, pointing to a pause in tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In these circumstances, I believe patience is a virtue and is one we can today afford."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation has surprised to the downside recently, and it is not yet clear that inflation has moved back to 2 percent on a sustainable basis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If these crosswinds are sustained, appropriate forward‑looking monetary policy should seek to offset them"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "If we find that the ongoing program of balance sheet normalization or any other aspect of normalization no longer promotes the achievement of our dual-mandate goals, we will not hesitate to make changes."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "As we begin 2019, the initial conditions for the real economy are favorable."
+   }
+  ],
+  "rationale": "Despite describing strong growth and a healthy labor market, Clarida emphasizes muted inflation, downside inflation surprises, global and financial crosswinds, and repeatedly signals patience on rates and openness to changing balance sheet runoff. The net signal is a dovish lean, pointing to a pause in tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In these circumstances, I believe patience is a virtue and is one we can today afford.",
+     "start": 15135,
+     "end": 15220
+    },
+    {
+     "quote": "inflation has surprised to the downside recently, and it is not yet clear that inflation has moved back to 2 percent on a sustainable basis.",
+     "start": 3573,
+     "end": 3712
+    },
+    {
+     "quote": "If these crosswinds are sustained, appropriate forward‑looking monetary policy should seek to offset them",
+     "start": 14228,
+     "end": 14333
+    },
+    {
+     "quote": "If we find that the ongoing program of balance sheet normalization or any other aspect of normalization no longer promotes the achievement of our dual-mandate goals, we will not hesitate to make changes.",
+     "start": 12002,
+     "end": 12204
+    },
+    {
+     "quote": "As we begin 2019, the initial conditions for the real economy are favorable.",
+     "start": 635,
+     "end": 710
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

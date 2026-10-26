@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20240926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240926a",
+  "doc_type": "speech",
+  "text_sha256": "511b37ef59c99be7269d652826e939f59d4a3267b7a14022a4ca78bd6f32a6a0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e5dee98376d26dbbffd5af3d99f5abc40fe914b8377a91fee63a012281c45619",
+ "message_id": "msg_011CgFug9dSuDPEio7bty8yb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5552,
+  "output_tokens": 519,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"In recent months, the upside risks to inflation have diminished, and the downside risks to employment have increased.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I whole heartedly supported the decision at last week's Federal Open Market Committee (FOMC) meeting to lower our policy interest rate by 1/2 percentage point.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While the overall labor market remains solid, it has cooled noticeably this year and is now less tight than it was on the eve of the pandemic.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The slowing of the solid labor market has come alongside a significant easing in inflationary pressure.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"That decision reflected growing confidence that, with an appropriate recalibration of our policy stance, the solid labor market can be maintained\"}],\"rationale\":\"The policy section endorses a 50bp cut as a recalibration, notes cooling labor markets, easing inflation and rising downside employment risks, while keeping future moves data-dependent. Most of the speech is about AI and labor, so the policy relevance is medium and the dovish lean is moderate.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "In recent months, the upside risks to inflation have diminished, and the downside risks to employment have increased."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I whole heartedly supported the decision at last week's Federal Open Market Committee (FOMC) meeting to lower our policy interest rate by 1/2 percentage point."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While the overall labor market remains solid, it has cooled noticeably this year and is now less tight than it was on the eve of the pandemic."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The slowing of the solid labor market has come alongside a significant easing in inflationary pressure."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "That decision reflected growing confidence that, with an appropriate recalibration of our policy stance, the solid labor market can be maintained"
+   }
+  ],
+  "rationale": "The policy section endorses a 50bp cut as a recalibration, notes cooling labor markets, easing inflation and rising downside employment risks, while keeping future moves data-dependent. Most of the speech is about AI and labor, so the policy relevance is medium and the dovish lean is moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In recent months, the upside risks to inflation have diminished, and the downside risks to employment have increased.",
+     "start": 4142,
+     "end": 4258
+    },
+    {
+     "quote": "I whole heartedly supported the decision at last week's Federal Open Market Committee (FOMC) meeting to lower our policy interest rate by 1/2 percentage point.",
+     "start": 4302,
+     "end": 4460
+    },
+    {
+     "quote": "While the overall labor market remains solid, it has cooled noticeably this year and is now less tight than it was on the eve of the pandemic.",
+     "start": 2526,
+     "end": 2667
+    },
+    {
+     "quote": "The slowing of the solid labor market has come alongside a significant easing in inflationary pressure.",
+     "start": 3838,
+     "end": 3940
+    },
+    {
+     "quote": "That decision reflected growing confidence that, with an appropriate recalibration of our policy stance, the solid labor market can be maintained",
+     "start": 4557,
+     "end": 4702
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

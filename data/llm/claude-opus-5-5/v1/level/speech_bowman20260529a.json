@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20260529a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260529a",
+  "doc_type": "speech",
+  "text_sha256": "58173056ade5946e39d77eb9ac8f049c3221341f86f36bace3d57ae3b9e6df42"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dfef450df034f3053278fc23b2a5b2b4ff57ad57420a8d108b880152011f9cdd",
+ "message_id": "msg_011CgFugEFkxxSTUdaF67K6X",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7637,
+  "output_tokens": 569,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I appreciated and supported keeping the language from the March post-meeting statement about additional policy rate adjustments.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"It is appropriate to look through temporarily elevated inflation readings largely due to higher energy prices, provided that we remain credible in our commitment to achieve our inflation goal and one-off tariff effects wane, as I expect.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While the labor market appears to have become more stable in recent months, there are still signs of fragility.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the more persistent higher oil prices are—or if we start to see broader effects of higher energy prices on PCE inflation—the more likely I will consider shifting my approach to thinking about the balance of risks.\"},{\"dimension\":\"overall\",\"quote\":\"Reacting to temporarily elevated energy price inflation would add unwarranted policy restraint, weighing unnecessarily on economic activity and labor market conditions.\"}],\"rationale\":\"The speaker argues for looking through energy- and tariff-driven inflation, highlights labor market fragility, and supports guidance on further rate adjustments, which leans dovish. That lean is tempered by acknowledging stalled disinflation and signaling openness to a more hawkish risk assessment if the oil shock persists.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I appreciated and supported keeping the language from the March post-meeting statement about additional policy rate adjustments."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "It is appropriate to look through temporarily elevated inflation readings largely due to higher energy prices, provided that we remain credible in our commitment to achieve our inflation goal and one-off tariff effects wane, as I expect."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While the labor market appears to have become more stable in recent months, there are still signs of fragility."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the more persistent higher oil prices are—or if we start to see broader effects of higher energy prices on PCE inflation—the more likely I will consider shifting my approach to thinking about the balance of risks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Reacting to temporarily elevated energy price inflation would add unwarranted policy restraint, weighing unnecessarily on economic activity and labor market conditions."
+   }
+  ],
+  "rationale": "The speaker argues for looking through energy- and tariff-driven inflation, highlights labor market fragility, and supports guidance on further rate adjustments, which leans dovish. That lean is tempered by acknowledging stalled disinflation and signaling openness to a more hawkish risk assessment if the oil shock persists."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I appreciated and supported keeping the language from the March post-meeting statement about additional policy rate adjustments.",
+     "start": 23246,
+     "end": 23373
+    },
+    {
+     "quote": "It is appropriate to look through temporarily elevated inflation readings largely due to higher energy prices, provided that we remain credible in our commitment to achieve our inflation goal and one-off tariff effects wane, as I expect.",
+     "start": 23375,
+     "end": 23611
+    },
+    {
+     "quote": "While the labor market appears to have become more stable in recent months, there are still signs of fragility.",
+     "start": 20852,
+     "end": 20962
+    },
+    {
+     "quote": "the more persistent higher oil prices are—or if we start to see broader effects of higher energy prices on PCE inflation—the more likely I will consider shifting my approach to thinking about the balance of risks.",
+     "start": 24359,
+     "end": 24571
+    },
+    {
+     "quote": "Reacting to temporarily elevated energy price inflation would add unwarranted policy restraint, weighing unnecessarily on economic activity and labor market conditions.",
+     "start": 23832,
+     "end": 23999
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

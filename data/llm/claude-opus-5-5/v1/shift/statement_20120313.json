@@ -1,0 +1,184 @@
+{
+ "key": "statement_20120313",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20120313",
+  "previous_doc_id": "statement_20120125",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "67f4473df8ea53c5d502b560992eaa744b5d9867f13d2fba3e8d06ce11152382",
+ "message_id": "msg_011CgFudUXujTXNRLCGER1QU",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1789,
+  "output_tokens": 942,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in December suggests that the economy has been expanding moderately, notwithstanding some slowing in global growth.\",\"after\":\"Information received since the Federal Open Market Committee met in January suggests that the economy has been expanding moderately.\",\"direction\":\"hawkish\"},{\"before\":\"While indicators point to some further improvement in overall labor market conditions, the unemployment rate remains elevated.\",\"after\":\"Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"Household spending has continued to advance, but growth in business fixed investment has slowed, and the housing sector remains depressed.\",\"after\":\"Household spending and business fixed investment have continued to advance.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has been subdued in recent months, and longer-term inflation expectations have remained stable.\",\"after\":\"Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels\",\"after\":\"The Committee expects moderate economic growth over coming quarters and consequently anticipates that the unemployment rate will decline gradually toward levels\",\"direction\":\"hawkish\"},{\"before\":\"Strains in global financial markets continue to pose significant downside risks to the economic outlook.\",\"after\":\"Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee also anticipates that over coming quarters, inflation will run at levels at or below those consistent with the Committee's dual mandate.\",\"after\":\"The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate.\",\"direction\":\"hawkish\"},{\"before\":\"Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant exceptionally low levels of the federal funds rate.\",\"after\":\"Voting against the action was Jeffrey M. Lacker, who does not anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate through late 2014.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement upgrades its assessment of the labor market, growth outlook, and global financial strains, and flags a temporary rise in inflation from energy prices, all modestly hawkish. The late-2014 rate guidance and the balance-sheet policy are unchanged, so the shift is limited to +1.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in December suggests that the economy has been expanding moderately, notwithstanding some slowing in global growth.",
+    "after": "Information received since the Federal Open Market Committee met in January suggests that the economy has been expanding moderately.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "While indicators point to some further improvement in overall labor market conditions, the unemployment rate remains elevated.",
+    "after": "Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending has continued to advance, but growth in business fixed investment has slowed, and the housing sector remains depressed.",
+    "after": "Household spending and business fixed investment have continued to advance.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has been subdued in recent months, and longer-term inflation expectations have remained stable.",
+    "after": "Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels",
+    "after": "The Committee expects moderate economic growth over coming quarters and consequently anticipates that the unemployment rate will decline gradually toward levels",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+    "after": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee also anticipates that over coming quarters, inflation will run at levels at or below those consistent with the Committee's dual mandate.",
+    "after": "The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant exceptionally low levels of the federal funds rate.",
+    "after": "Voting against the action was Jeffrey M. Lacker, who does not anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate through late 2014.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement upgrades its assessment of the labor market, growth outlook, and global financial strains, and flags a temporary rise in inflation from energy prices, all modestly hawkish. The late-2014 rate guidance and the balance-sheet policy are unchanged, so the shift is limited to +1."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December suggests that the economy has been expanding moderately, notwithstanding some slowing in global growth.",
+     "start": 0,
+     "end": 179
+    },
+    {
+     "quote": "While indicators point to some further improvement in overall labor market conditions, the unemployment rate remains elevated.",
+     "start": 181,
+     "end": 306
+    },
+    {
+     "quote": "Household spending has continued to advance, but growth in business fixed investment has slowed, and the housing sector remains depressed.",
+     "start": 308,
+     "end": 445
+    },
+    {
+     "quote": "Inflation has been subdued in recent months, and longer-term inflation expectations have remained stable.",
+     "start": 447,
+     "end": 551
+    },
+    {
+     "quote": "The Committee expects economic growth over coming quarters to be modest and consequently anticipates that the unemployment rate will decline only gradually toward levels",
+     "start": 663,
+     "end": 832
+    },
+    {
+     "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 899,
+     "end": 1002
+    },
+    {
+     "quote": "The Committee also anticipates that over coming quarters, inflation will run at levels at or below those consistent with the Committee's dual mandate.",
+     "start": 1004,
+     "end": 1153
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant exceptionally low levels of the federal funds rate.",
+     "start": 2600,
+     "end": 2809
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January suggests that the economy has been expanding moderately.",
+     "start": 0,
+     "end": 131
+    },
+    {
+     "quote": "Labor market conditions have improved further; the unemployment rate has declined notably in recent months but remains elevated.",
+     "start": 133,
+     "end": 260
+    },
+    {
+     "quote": "Household spending and business fixed investment have continued to advance.",
+     "start": 262,
+     "end": 336
+    },
+    {
+     "quote": "Inflation has been subdued in recent months, although prices of crude oil and gasoline have increased lately.",
+     "start": 376,
+     "end": 484
+    },
+    {
+     "quote": "The Committee expects moderate economic growth over coming quarters and consequently anticipates that the unemployment rate will decline gradually toward levels",
+     "start": 653,
+     "end": 813
+    },
+    {
+     "quote": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+     "start": 880,
+     "end": 1007
+    },
+    {
+     "quote": "The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate.",
+     "start": 1009,
+     "end": 1232
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who does not anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate through late 2014.",
+     "start": 2686,
+     "end": 2874
+    }
+   ]
+  }
+ }
+}

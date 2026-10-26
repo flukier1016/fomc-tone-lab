@@ -1,0 +1,85 @@
+{
+ "key": "speech_waller20231107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20231107a",
+  "doc_type": "speech",
+  "text_sha256": "a4531f6b0f114e9a6cd56ac64d560787022af0bc173041158a78e8ac2f66c066"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ef63099b2c312581e963eb2f58ee258103d1aaad95bbb99bbc3cbbb935182c2f",
+ "message_id": "msg_011CgFugDiWpopTgGNjZ7WoC",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 907,
+  "output_tokens": 239,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will not be discussing my expectations for future monetary policy.\"},{\"dimension\":\"overall\",\"quote\":\"You can use FRED to access and analyze the data yourselves.\"}],\"rationale\":\"The speech is mainly about using the FRED data tool, and the slide content is not included in the text. It explicitly declines to discuss future policy, so it carries no directional signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will not be discussing my expectations for future monetary policy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "You can use FRED to access and analyze the data yourselves."
+   }
+  ],
+  "rationale": "The speech is mainly about using the FRED data tool, and the slide content is not included in the text. It explicitly declines to discuss future policy, so it carries no directional signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will not be discussing my expectations for future monetary policy.",
+     "start": 1370,
+     "end": 1437
+    },
+    {
+     "quote": "You can use FRED to access and analyze the data yourselves.",
+     "start": 2336,
+     "end": 2394
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

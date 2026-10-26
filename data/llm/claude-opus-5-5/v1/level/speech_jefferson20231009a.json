@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20231009a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20231009a",
+  "doc_type": "speech",
+  "text_sha256": "45bd8ca5a15f7fd42b90ecfd657f7b40bea31bdd3fc9ebf51cef75900a4a168e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "82142c30eb1621b51f559dbec85d9872db725029b97b525c7ae7db84b50229aa",
+ "message_id": "msg_011CgFugAASeEZLTU7MaQRyg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3210,
+  "output_tokens": 585,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"my view is that the FOMC is in a position to proceed carefully in assessing the extent of any additional policy firming that may be necessary.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We are in a sensitive period of risk management, where we have to balance the risk of not having tightened enough, against the risk of policy being too restrictive.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Looking ahead, I will remain cognizant of the tightening in financial conditions through higher bond yields and will keep that in mind as I assess the future path of policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Even though recent inflation data have been encouraging, inflation remains too high.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Data we have received so far point to solid economic growth in the third quarter, contrary to expectations earlier this year that the economy would slow.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am particularly attentive to upside risks to inflation, such as those associated with the economy and labor market remaining too strong to achieve further disinflation\"}],\"rationale\":\"The speaker acknowledges inflation is still too high and growth is resilient, but stresses proceeding carefully, risks moving into balance, and that higher bond yields are doing tightening work, signaling a lean against further hikes. On net this is a mildly dovish shift relative to the existing tightening stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "my view is that the FOMC is in a position to proceed carefully in assessing the extent of any additional policy firming that may be necessary."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We are in a sensitive period of risk management, where we have to balance the risk of not having tightened enough, against the risk of policy being too restrictive."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Looking ahead, I will remain cognizant of the tightening in financial conditions through higher bond yields and will keep that in mind as I assess the future path of policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Even though recent inflation data have been encouraging, inflation remains too high."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Data we have received so far point to solid economic growth in the third quarter, contrary to expectations earlier this year that the economy would slow."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am particularly attentive to upside risks to inflation, such as those associated with the economy and labor market remaining too strong to achieve further disinflation"
+   }
+  ],
+  "rationale": "The speaker acknowledges inflation is still too high and growth is resilient, but stresses proceeding carefully, risks moving into balance, and that higher bond yields are doing tightening work, signaling a lean against further hikes. On net this is a mildly dovish shift relative to the existing tightening stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my view is that the FOMC is in a position to proceed carefully in assessing the extent of any additional policy firming that may be necessary.",
+     "start": 9242,
+     "end": 9383
+    },
+    {
+     "quote": "We are in a sensitive period of risk management, where we have to balance the risk of not having tightened enough, against the risk of policy being too restrictive.",
+     "start": 9385,
+     "end": 9548
+    },
+    {
+     "quote": "Looking ahead, I will remain cognizant of the tightening in financial conditions through higher bond yields and will keep that in mind as I assess the future path of policy.",
+     "start": 10187,
+     "end": 10359
+    },
+    {
+     "quote": "Even though recent inflation data have been encouraging, inflation remains too high.",
+     "start": 822,
+     "end": 905
+    },
+    {
+     "quote": "Data we have received so far point to solid economic growth in the third quarter, contrary to expectations earlier this year that the economy would slow.",
+     "start": 3813,
+     "end": 3965
+    },
+    {
+     "quote": "I am particularly attentive to upside risks to inflation, such as those associated with the economy and labor market remaining too strong to achieve further disinflation",
+     "start": 4540,
+     "end": 4709
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20241114a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20241114a",
+  "doc_type": "speech",
+  "text_sha256": "18e59490c54d05d77fd2d98dda4b4277b54394de5a47ef689110cbeeb1a2c538"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f669a9987dfb7319f655d97cfbb1fc06c8ecfb783254203c60d47397c76d6a54",
+ "message_id": "msg_011CgFug8wmpGzjc4xHz1Lth",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1771,
+  "output_tokens": 478,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The economy is not sending any signals that we need to be in a hurry to lower rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We are moving policy over time to a more neutral setting. But the path for getting there is not preset.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The recent performance of our economy has been remarkably good, by far the best of any major economy in the world.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is running much closer to our 2 percent longer-run goal, but it is not there yet. We are committed to finishing the job.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks to both sides.\"}],\"rationale\":\"The speech reaffirms a continued move toward neutral, but it stresses economic strength and says there is no hurry to lower rates, which leans against rapid cuts. Its inflation assessment and balance of risks are presented as balanced, so the net signal is neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The economy is not sending any signals that we need to be in a hurry to lower rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are moving policy over time to a more neutral setting. But the path for getting there is not preset."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The recent performance of our economy has been remarkably good, by far the best of any major economy in the world."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is running much closer to our 2 percent longer-run goal, but it is not there yet. We are committed to finishing the job."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks to both sides."
+   }
+  ],
+  "rationale": "The speech reaffirms a continued move toward neutral, but it stresses economic strength and says there is no hurry to lower rates, which leans against rapid cuts. Its inflation assessment and balance of risks are presented as balanced, so the net signal is neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The economy is not sending any signals that we need to be in a hurry to lower rates.",
+     "start": 4979,
+     "end": 5062
+    },
+    {
+     "quote": "We are moving policy over time to a more neutral setting. But the path for getting there is not preset.",
+     "start": 4701,
+     "end": 4803
+    },
+    {
+     "quote": "The recent performance of our economy has been remarkably good, by far the best of any major economy in the world.",
+     "start": 797,
+     "end": 910
+    },
+    {
+     "quote": "Inflation is running much closer to our 2 percent longer-run goal, but it is not there yet. We are committed to finishing the job.",
+     "start": 3554,
+     "end": 3683
+    },
+    {
+     "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks to both sides.",
+     "start": 4361,
+     "end": 4502
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

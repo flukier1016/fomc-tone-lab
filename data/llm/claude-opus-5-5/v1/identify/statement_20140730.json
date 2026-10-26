@@ -1,0 +1,51 @@
+{
+ "key": "statement_20140730",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20140730",
+  "release_date": "2014-07-30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d7b2cdf762e0f33269e7ca14938af3bc2d3889027258100a42d58a7f5420956d",
+ "message_id": "msg_011CgFudYR4wsWoarirXT15g",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2114,
+  "output_tokens": 193,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":7,\"confidence\":0.95,\"cues\":[\"Taper from $15B/$20B to $10B/$15B per month corresponds to the July 2014 meeting (purchases totaling $25B beginning August)\",\"Growth rebounded in the second quarter after the Q1 contraction\",\"Lael Brainard and Stanley Fischer listed as voters (joined mid-2014)\",\"Dissent by Charles Plosser objecting to 'considerable time' language, which first appeared in July 2014\",\"Narayana Kocherlakota listed as a 2014 voter\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 7,
+  "confidence": 0.95,
+  "cues": [
+   "Taper from $15B/$20B to $10B/$15B per month corresponds to the July 2014 meeting (purchases totaling $25B beginning August)",
+   "Growth rebounded in the second quarter after the Q1 contraction",
+   "Lael Brainard and Stanley Fischer listed as voters (joined mid-2014)",
+   "Dissent by Charles Plosser objecting to 'considerable time' language, which first appeared in July 2014",
+   "Narayana Kocherlakota listed as a 2014 voter"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

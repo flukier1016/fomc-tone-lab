@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20090923",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20090923",
+  "doc_type": "minutes",
+  "text_sha256": "6cd8f8ec24e0a7327647ff458641a6bc46e32d2c08051e02a4968785c691c32b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0891b2bc22daa6af25e60878429bff984274475562bd0a87254c3bae318d9875",
+ "message_id": "msg_011CgFug9hupbDSJ2XLFouaS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13522,
+  "output_tokens": 604,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"meeting participants agreed that the incoming data and information received from business contacts suggested that economic activity had picked up following its severe downturn; most thought an economic recovery was under way.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Under these circumstances, the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS\"},{\"dimension\":\"balance_sheet\",\"quote\":\"members decided to gradually slow the pace of both its agency MBS and agency debt purchases and to extend their completion through the end of the first quarter of 2010.\"}],\"rationale\":\"The minutes reaffirm extended near-zero rates and full completion of the $1.25 trillion MBS program, while stressing subdued inflation and the high costs of weaker growth. These dovish signals are partly offset by an improved outlook, the tapering of purchases and discussion of exit tools.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "meeting participants agreed that the incoming data and information received from business contacts suggested that economic activity had picked up following its severe downturn; most thought an economic recovery was under way."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Under these circumstances, the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "members decided to gradually slow the pace of both its agency MBS and agency debt purchases and to extend their completion through the end of the first quarter of 2010."
+   }
+  ],
+  "rationale": "The minutes reaffirm extended near-zero rates and full completion of the $1.25 trillion MBS program, while stressing subdued inflation and the high costs of weaker growth. These dovish signals are partly offset by an improved outlook, the tapering of purchases and discussion of exit tools."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period",
+     "start": 39885,
+     "end": 40003
+    },
+    {
+     "quote": "most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation.",
+     "start": 30704,
+     "end": 30894
+    },
+    {
+     "quote": "meeting participants agreed that the incoming data and information received from business contacts suggested that economic activity had picked up following its severe downturn; most thought an economic recovery was under way.",
+     "start": 28599,
+     "end": 28823
+    },
+    {
+     "quote": "Under these circumstances, the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high.",
+     "start": 39579,
+     "end": 39718
+    },
+    {
+     "quote": "all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS",
+     "start": 40393,
+     "end": 40536
+    },
+    {
+     "quote": "members decided to gradually slow the pace of both its agency MBS and agency debt purchases and to extend their completion through the end of the first quarter of 2010.",
+     "start": 40809,
+     "end": 40976
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

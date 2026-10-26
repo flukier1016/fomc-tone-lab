@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20220714a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20220714a",
+  "doc_type": "speech",
+  "text_sha256": "1c39e457baa17c6e7c81785a2785c86d46ad2040133937f866bee7f5cbb2edb1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3ae575a04d3e52a99aae5e1265d839fc2c725b4338e4e33c3cebbcffeaaeb896",
+ "message_id": "msg_011CgFugFjK5DLryjvjBrSgN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5572,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.9,\"confidence\":0.93,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I support another 75-basis point increase, bringing the target range for the federal funds rate to 2-1/4 to 2-1/2 percent before August.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If that data come in materially stronger than expected it would make me lean towards a larger hike at the July meeting\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"No matter how you look at the data, inflation is far too high and my job is to move it down toward our 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This is about as good a job market as any worker has ever seen.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We need to avoid expectations rising so much that they become a factor that drives inflation higher.\"},{\"dimension\":\"overall\",\"quote\":\"I think we need to move swiftly and decisively to get inflation falling in a sustained way, and then consider what further tightening will be needed to achieve our dual mandate.\"}],\"rationale\":\"The speaker endorses another 75bp hike, raises the possibility of a larger one, and expects policy to stay restrictive until core inflation falls. He describes the labor market as very strong and plays down recession risk, while voicing forceful concern about inflation and inflation expectations.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.9,
+  "confidence": 0.93,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I support another 75-basis point increase, bringing the target range for the federal funds rate to 2-1/4 to 2-1/2 percent before August."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If that data come in materially stronger than expected it would make me lean towards a larger hike at the July meeting"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "No matter how you look at the data, inflation is far too high and my job is to move it down toward our 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This is about as good a job market as any worker has ever seen."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We need to avoid expectations rising so much that they become a factor that drives inflation higher."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I think we need to move swiftly and decisively to get inflation falling in a sustained way, and then consider what further tightening will be needed to achieve our dual mandate."
+   }
+  ],
+  "rationale": "The speaker endorses another 75bp hike, raises the possibility of a larger one, and expects policy to stay restrictive until core inflation falls. He describes the labor market as very strong and plays down recession risk, while voicing forceful concern about inflation and inflation expectations."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I support another 75-basis point increase, bringing the target range for the federal funds rate to 2-1/4 to 2-1/2 percent before August.",
+     "start": 11887,
+     "end": 12022
+    },
+    {
+     "quote": "If that data come in materially stronger than expected it would make me lean towards a larger hike at the July meeting",
+     "start": 12399,
+     "end": 12517
+    },
+    {
+     "quote": "No matter how you look at the data, inflation is far too high and my job is to move it down toward our 2 percent target.",
+     "start": 7881,
+     "end": 8000
+    },
+    {
+     "quote": "This is about as good a job market as any worker has ever seen.",
+     "start": 3567,
+     "end": 3629
+    },
+    {
+     "quote": "We need to avoid expectations rising so much that they become a factor that drives inflation higher.",
+     "start": 9634,
+     "end": 9733
+    },
+    {
+     "quote": "I think we need to move swiftly and decisively to get inflation falling in a sustained way, and then consider what further tightening will be needed to achieve our dual mandate.",
+     "start": 18591,
+     "end": 18767
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

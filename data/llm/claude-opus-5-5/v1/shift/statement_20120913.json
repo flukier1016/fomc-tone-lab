@@ -1,0 +1,164 @@
+{
+ "key": "statement_20120913",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20120913",
+  "previous_doc_id": "statement_20120801",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6ecf78ce3b4c3d5351cd21a46bb612cf7f6e5beea5c75f21b835861d54c5954b",
+ "message_id": "msg_011CgFudV7t1zfApcK9KsFEu",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2086,
+  "output_tokens": 804,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"\",\"after\":\"the Committee agreed today to increase policy accommodation by purchasing additional agency mortgage-backed securities at a pace of $40 billion per month.\",\"direction\":\"dovish\"},{\"before\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014.\",\"after\":\"exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.\",\"direction\":\"dovish\"},{\"before\":\"The Committee expects economic growth to remain moderate over coming quarters and then to pick up very gradually.\",\"after\":\"The Committee is concerned that, without further policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.\",\"direction\":\"dovish\"},{\"before\":\"Inflation has declined since earlier this year, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.\",\"after\":\"Inflation has been subdued, although the prices of some key commodities have increased recently.\",\"direction\":\"hawkish\"},{\"before\":\"suggests that economic activity decelerated somewhat over the first half of this year.\",\"after\":\"suggests that economic activity has continued to expand at a moderate pace in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"These actions, which together will increase the Committee’s holdings of longer-term securities by about $85 billion each month through the end of the year, should put downward pressure on longer-term interest rates\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee launched open-ended MBS purchases of $40 billion per month tied to substantial labor market improvement, extended rate guidance from late 2014 to mid-2015, and committed to staying accommodative after the recovery strengthens. Together these mark a clear dovish shift in policy that outweighs the slightly firmer description of activity and commodity prices.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "",
+    "after": "the Committee agreed today to increase policy accommodation by purchasing additional agency mortgage-backed securities at a pace of $40 billion per month.",
+    "direction": "dovish"
+   },
+   {
+    "before": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014.",
+    "after": "exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee expects economic growth to remain moderate over coming quarters and then to pick up very gradually.",
+    "after": "The Committee is concerned that, without further policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation has declined since earlier this year, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.",
+    "after": "Inflation has been subdued, although the prices of some key commodities have increased recently.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "suggests that economic activity decelerated somewhat over the first half of this year.",
+    "after": "suggests that economic activity has continued to expand at a moderate pace in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "These actions, which together will increase the Committee’s holdings of longer-term securities by about $85 billion each month through the end of the year, should put downward pressure on longer-term interest rates",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee launched open-ended MBS purchases of $40 billion per month tied to substantial labor market improvement, extended rate guidance from late 2014 to mid-2015, and committed to staying accommodative after the recovery strengthens. Together these mark a clear dovish shift in policy that outweighs the slightly firmer description of activity and commodity prices."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014.",
+     "start": 1787,
+     "end": 1887
+    },
+    {
+     "quote": "The Committee expects economic growth to remain moderate over coming quarters and then to pick up very gradually.",
+     "start": 754,
+     "end": 866
+    },
+    {
+     "quote": "Inflation has declined since earlier this year, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.",
+     "start": 477,
+     "end": 642
+    },
+    {
+     "quote": "suggests that economic activity decelerated somewhat over the first half of this year.",
+     "start": 73,
+     "end": 158
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee agreed today to increase policy accommodation by purchasing additional agency mortgage-backed securities at a pace of $40 billion per month.",
+     "start": 1272,
+     "end": 1425
+    },
+    {
+     "quote": "exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.",
+     "start": 3066,
+     "end": 3170
+    },
+    {
+     "quote": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability.",
+     "start": 2190,
+     "end": 2491
+    },
+    {
+     "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.",
+     "start": 2750,
+     "end": 2913
+    },
+    {
+     "quote": "The Committee is concerned that, without further policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.",
+     "start": 716,
+     "end": 890
+    },
+    {
+     "quote": "Inflation has been subdued, although the prices of some key commodities have increased recently.",
+     "start": 452,
+     "end": 547
+    },
+    {
+     "quote": "suggests that economic activity has continued to expand at a moderate pace in recent months.",
+     "start": 75,
+     "end": 166
+    },
+    {
+     "quote": "These actions, which together will increase the Committee’s holdings of longer-term securities by about $85 billion each month through the end of the year, should put downward pressure on longer-term interest rates",
+     "start": 1768,
+     "end": 1982
+    }
+   ]
+  }
+ }
+}

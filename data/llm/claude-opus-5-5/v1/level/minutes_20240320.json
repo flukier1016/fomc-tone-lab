@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20240320",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20240320",
+  "doc_type": "minutes",
+  "text_sha256": "b83e030b153b4f7a7012d2f07a0468e913b7681419450123e2262288ae11fe8a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d8886487ec4c01df261477a017755a5b0aa8ccf3f9ae6324bf119313bf0a3762",
+ "message_id": "msg_011CgFug8mrbv5sRxS1Ha5Cn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12580,
+  "output_tokens": 495,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"almost all participants judged that it would be appropriate to move policy to a less restrictive stance at some point this year if the economy evolved broadly as they expected\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"recent data had not increased their confidence that inflation was moving sustainably down to 2 percent\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The vast majority of participants thus judged it would be prudent to begin slowing the pace of runoff fairly soon.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants noted indicators pointing to strong economic momentum and disappointing readings on inflation in recent months\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants generally judged that risks to the achievement of the Committee's employment and inflation goals were moving into better balance\"}],\"rationale\":\"The minutes signal cuts later this year and a soon-to-begin slowing of runoff (dovish), but this is offset by concern over firmer inflation readings, strong activity, and the requirement of greater confidence before cutting. The net signal is near neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "almost all participants judged that it would be appropriate to move policy to a less restrictive stance at some point this year if the economy evolved broadly as they expected"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "recent data had not increased their confidence that inflation was moving sustainably down to 2 percent"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The vast majority of participants thus judged it would be prudent to begin slowing the pace of runoff fairly soon."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants noted indicators pointing to strong economic momentum and disappointing readings on inflation in recent months"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants generally judged that risks to the achievement of the Committee's employment and inflation goals were moving into better balance"
+   }
+  ],
+  "rationale": "The minutes signal cuts later this year and a soon-to-begin slowing of runoff (dovish), but this is offset by concern over firmer inflation readings, strong activity, and the requirement of greater confidence before cutting. The net signal is near neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "almost all participants judged that it would be appropriate to move policy to a less restrictive stance at some point this year if the economy evolved broadly as they expected",
+     "start": 32967,
+     "end": 33142
+    },
+    {
+     "quote": "recent data had not increased their confidence that inflation was moving sustainably down to 2 percent",
+     "start": 30556,
+     "end": 30658
+    },
+    {
+     "quote": "The vast majority of participants thus judged it would be prudent to begin slowing the pace of runoff fairly soon.",
+     "start": 7327,
+     "end": 7440
+    },
+    {
+     "quote": "Participants noted indicators pointing to strong economic momentum and disappointing readings on inflation in recent months",
+     "start": 33467,
+     "end": 33590
+    },
+    {
+     "quote": "participants generally judged that risks to the achievement of the Committee's employment and inflation goals were moving into better balance",
+     "start": 34356,
+     "end": 34497
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

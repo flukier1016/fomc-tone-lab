@@ -1,0 +1,121 @@
+{
+ "key": "presser_20111102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20111102",
+  "doc_type": "presser",
+  "text_sha256": "4de2e9708931e7e0df0258dd0debcef208a860cb956535624c5834df79b68057"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "29b894d9cfb7979a070c94465f4e162c36c48aba6a0d5db3b78da80ca769db98",
+ "message_id": "msg_011CgFugGWSRv8WMskdZ5Yni",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10285,
+  "output_tokens": 601,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We’ve already taken quite a bit of action, but we’re prepared to do more, and we have the tools to do more if that’s appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Well, the statement says “at least” mid-2013. So, clearly, it could well be some point beyond that, and markets are currently anticipating a somewhat later liftoff.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee anticipates that, over coming quarters, inflation will settle at or below its mandate-consistent rate of 2 percent or a bit less.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"while we still expect that economic activity and labor market conditions will improve gradually over time, the pace of progress is likely to be frustratingly slow.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, there are significant downside risks to the economic outlook.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"So I do think that purchases of mortgage-backed securities is a viable option. It’s certainly something we would consider if conditions were appropriate.\"}],\"rationale\":\"Policy is held at maximum accommodation with the maturity extension program continued, while the Chair repeatedly signals readiness for more stimulus, including MBS purchases, and suggests liftoff could come later than mid-2013. Downside growth risks, very high unemployment, and subdued inflation dominate the assessment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We’ve already taken quite a bit of action, but we’re prepared to do more, and we have the tools to do more if that’s appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Well, the statement says “at least” mid-2013. So, clearly, it could well be some point beyond that, and markets are currently anticipating a somewhat later liftoff."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee anticipates that, over coming quarters, inflation will settle at or below its mandate-consistent rate of 2 percent or a bit less."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "while we still expect that economic activity and labor market conditions will improve gradually over time, the pace of progress is likely to be frustratingly slow."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, there are significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "So I do think that purchases of mortgage-backed securities is a viable option. It’s certainly something we would consider if conditions were appropriate."
+   }
+  ],
+  "rationale": "Policy is held at maximum accommodation with the maturity extension program continued, while the Chair repeatedly signals readiness for more stimulus, including MBS purchases, and suggests liftoff could come later than mid-2013. Downside growth risks, very high unemployment, and subdued inflation dominate the assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We’ve already taken quite a bit of action, but we’re prepared to do more, and we have the tools to do more if that’s appropriate.",
+     "start": 25331,
+     "end": 25459
+    },
+    {
+     "quote": "Well, the statement says “at least” mid-2013. So, clearly, it could well be some point beyond that, and markets are currently anticipating a somewhat later liftoff.",
+     "start": 13077,
+     "end": 13240
+    },
+    {
+     "quote": "the Committee anticipates that, over coming quarters, inflation will settle at or below its mandate-consistent rate of 2 percent or a bit less.",
+     "start": 6792,
+     "end": 6934
+    },
+    {
+     "quote": "while we still expect that economic activity and labor market conditions will improve gradually over time, the pace of progress is likely to be frustratingly slow.",
+     "start": 5467,
+     "end": 5629
+    },
+    {
+     "quote": "Moreover, there are significant downside risks to the economic outlook.",
+     "start": 5631,
+     "end": 5701
+    },
+    {
+     "quote": "So I do think that purchases of mortgage-backed securities is a viable option. It’s certainly something we would consider if conditions were appropriate.",
+     "start": 14377,
+     "end": 14529
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

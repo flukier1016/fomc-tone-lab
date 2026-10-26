@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20260429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20260429",
+  "doc_type": "minutes",
+  "text_sha256": "b2c25e79d2a0815fa7c59f365e1871fe0903939105220ee7af1822929b5d86a3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5b5aaffa69ce397accb4c3188aaa5022507e0f13922270d93062e61a2068f6da",
+ "message_id": "msg_011CgFug8w2XeFU9PRFkDa3S",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11142,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A majority of participants highlighted, however, that some policy firming would likely become appropriate if inflation were to continue to run persistently above 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"many participants indicated that they would have preferred removing the language from the postmeeting statement that suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The vast majority of participants noted an increased risk that inflation would take longer to return to the Committee's 2 percent objective than they had previously expected.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally observed that economic activity appeared to be expanding at a solid pace.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants assessed that both upside risks to inflation and downside risks to employment remained elevated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"could necessitate maintaining the current policy stance for longer than previously anticipated.\"}],\"rationale\":\"The minutes show a clear hawkish shift: an extended hold, a majority seeing possible firming if inflation persists, and many wanting to drop the easing bias, alongside elevated, rising inflation and solid activity. Some participants still see cuts later and note downside labor risks, and one member dissented for a cut, which tempers the signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A majority of participants highlighted, however, that some policy firming would likely become appropriate if inflation were to continue to run persistently above 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "many participants indicated that they would have preferred removing the language from the postmeeting statement that suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The vast majority of participants noted an increased risk that inflation would take longer to return to the Committee's 2 percent objective than they had previously expected."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally observed that economic activity appeared to be expanding at a solid pace."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants assessed that both upside risks to inflation and downside risks to employment remained elevated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "could necessitate maintaining the current policy stance for longer than previously anticipated."
+   }
+  ],
+  "rationale": "The minutes show a clear hawkish shift: an extended hold, a majority seeing possible firming if inflation persists, and many wanting to drop the easing bias, alongside elevated, rising inflation and solid activity. Some participants still see cuts later and note downside labor risks, and one member dissented for a cut, which tempers the signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A majority of participants highlighted, however, that some policy firming would likely become appropriate if inflation were to continue to run persistently above 2 percent.",
+     "start": 29905,
+     "end": 30076
+    },
+    {
+     "quote": "many participants indicated that they would have preferred removing the language from the postmeeting statement that suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions.",
+     "start": 30107,
+     "end": 30329
+    },
+    {
+     "quote": "The vast majority of participants noted an increased risk that inflation would take longer to return to the Committee's 2 percent objective than they had previously expected.",
+     "start": 22030,
+     "end": 22203
+    },
+    {
+     "quote": "Participants generally observed that economic activity appeared to be expanding at a solid pace.",
+     "start": 23698,
+     "end": 23793
+    },
+    {
+     "quote": "participants assessed that both upside risks to inflation and downside risks to employment remained elevated.",
+     "start": 30566,
+     "end": 30674
+    },
+    {
+     "quote": "could necessitate maintaining the current policy stance for longer than previously anticipated.",
+     "start": 29546,
+     "end": 29640
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "statement_20200331",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20200331",
+  "doc_type": "statement",
+  "text_sha256": "51a5d6791181b0948a88d40baae7a60475be11c8053582bf76a8c9c66a8f2f0d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7d4fa1642fd56e80d64284a0244ca4f79f4f01627a4790939a684127b616ebeb",
+ "message_id": "msg_011CgFugBQc3nuPTK5Qmytkv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 597,
+  "output_tokens": 428,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":-1,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets\"},{\"dimension\":\"risk_balance\",\"quote\":\"to help ease strains in global U.S. dollar funding markets\"},{\"dimension\":\"balance_sheet\",\"quote\":\"FIMA account holders temporarily exchange their U.S. Treasury securities held with the Federal Reserve for U.S. dollars\"},{\"dimension\":\"overall\",\"quote\":\"will be available beginning April 6 and will continue for at least 6 months.\"}],\"rationale\":\"The announcement creates a liquidity facility that provides dollar funding to ease market strains, an accommodative step that can expand the balance sheet. It contains no rate guidance or macroeconomic assessment, so the dovish signal is moderate.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": -1,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "to help ease strains in global U.S. dollar funding markets"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "FIMA account holders temporarily exchange their U.S. Treasury securities held with the Federal Reserve for U.S. dollars"
+   },
+   {
+    "dimension": "overall",
+    "quote": "will be available beginning April 6 and will continue for at least 6 months."
+   }
+  ],
+  "rationale": "The announcement creates a liquidity facility that provides dollar funding to ease market strains, an accommodative step that can expand the balance sheet. It contains no rate guidance or macroeconomic assessment, so the dovish signal is moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets",
+     "start": 165,
+     "end": 400
+    },
+    {
+     "quote": "to help ease strains in global U.S. dollar funding markets",
+     "start": 1307,
+     "end": 1365
+    },
+    {
+     "quote": "FIMA account holders temporarily exchange their U.S. Treasury securities held with the Federal Reserve for U.S. dollars",
+     "start": 784,
+     "end": 903
+    },
+    {
+     "quote": "will be available beginning April 6 and will continue for at least 6 months.",
+     "start": 1680,
+     "end": 1755
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

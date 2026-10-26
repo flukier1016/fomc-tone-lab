@@ -1,0 +1,51 @@
+{
+ "key": "statement_20200331",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20200331",
+  "release_date": "2020-03-31"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "baa9a626f4a5b5d60af2b02a518a254dd1627e78372d840fa6efce4bdad8a454",
+ "message_id": "msg_011CgFudVTUKSqmmAoiXBMpd",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1028,
+  "output_tokens": 184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":3,\"confidence\":0.93,\"cues\":[\"Temporary FIMA Repo Facility was announced on Tuesday, March 31, 2020, during the COVID-19 market stress\",\"Availability beginning April 6 and continuing for at least 6 months\",\"Reference to existing U.S. dollar liquidity swap lines with other central banks, expanded in March 2020\",\"Release at 8:30 a.m. EDT, so daylight saving time was in effect\",\"Language about easing strains in global dollar funding and Treasury market functioning\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 3,
+  "confidence": 0.93,
+  "cues": [
+   "Temporary FIMA Repo Facility was announced on Tuesday, March 31, 2020, during the COVID-19 market stress",
+   "Availability beginning April 6 and continuing for at least 6 months",
+   "Reference to existing U.S. dollar liquidity swap lines with other central banks, expanded in March 2020",
+   "Release at 8:30 a.m. EDT, so daylight saving time was in effect",
+   "Language about easing strains in global dollar funding and Treasury market functioning"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

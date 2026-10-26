@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20181128a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20181128a",
+  "doc_type": "speech",
+  "text_sha256": "fd9c04f4eca2481c14dbf234d648022e0c4ad09aa05062dbbfe480f1935a6898"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "739732e967b09a9170b833dc2874fdbfc08ed619976c879a3237e0c1c6f973b2",
+ "message_id": "msg_011CgG27rZx7nExMpnm3ewCM",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6871,
+  "output_tokens": 498,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.2,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Interest rates are still low by historical standards, and they remain just below the broad range of estimates of the level that would be neutral for the economy\"},{\"dimension\":\"forward_guidance\",\"quote\":\"While FOMC participants' projections are based on our best assessments of the outlook, there is no preset policy path.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We know that moving too fast would risk shortening the expansion.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is 3.7 percent, a 49-year low, and many other measures of labor market strength are at or near historic bests.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is near our 2 percent target.\"},{\"dimension\":\"overall\",\"quote\":\"overall financial stability vulnerabilities are at a moderate level.\"}],\"rationale\":\"The speech describes a strong economy with inflation at target but signals proximity to neutral, no preset path, and two-sided risks including that moving too fast could shorten the expansion, a modest dovish shift from gradual tightening. Most of the speech covers financial stability, where risks are judged moderate.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.2,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Interest rates are still low by historical standards, and they remain just below the broad range of estimates of the level that would be neutral for the economy"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "While FOMC participants' projections are based on our best assessments of the outlook, there is no preset policy path."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We know that moving too fast would risk shortening the expansion."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is 3.7 percent, a 49-year low, and many other measures of labor market strength are at or near historic bests."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is near our 2 percent target."
+   },
+   {
+    "dimension": "overall",
+    "quote": "overall financial stability vulnerabilities are at a moderate level."
+   }
+  ],
+  "rationale": "The speech describes a strong economy with inflation at target but signals proximity to neutral, no preset path, and two-sided risks including that moving too fast could shorten the expansion, a modest dovish shift from gradual tightening. Most of the speech covers financial stability, where risks are judged moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Interest rates are still low by historical standards, and they remain just below the broad range of estimates of the level that would be neutral for the economy",
+     "start": 1905,
+     "end": 2065
+    },
+    {
+     "quote": "While FOMC participants' projections are based on our best assessments of the outlook, there is no preset policy path.",
+     "start": 3129,
+     "end": 3246
+    },
+    {
+     "quote": "We know that moving too fast would risk shortening the expansion.",
+     "start": 2632,
+     "end": 2696
+    },
+    {
+     "quote": "The unemployment rate is 3.7 percent, a 49-year low, and many other measures of labor market strength are at or near historic bests.",
+     "start": 1047,
+     "end": 1178
+    },
+    {
+     "quote": "Inflation is near our 2 percent target.",
+     "start": 1180,
+     "end": 1218
+    },
+    {
+     "quote": "overall financial stability vulnerabilities are at a moderate level.",
+     "start": 21374,
+     "end": 21441
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

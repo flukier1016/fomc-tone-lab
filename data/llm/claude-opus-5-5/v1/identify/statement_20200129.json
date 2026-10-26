@@ -1,0 +1,51 @@
+{
+ "key": "statement_20200129",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20200129",
+  "release_date": "2020-01-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8c3f50c4e26e69668341384e6e71079a113d08393442bc146190e0830165b928",
+ "message_id": "msg_011CgFudX1VJcJAPTmxA87Mw",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1062,
+  "output_tokens": 381,
+  "output_tokens_details": {
+   "thinking_tokens": 192
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":1,\"confidence\":0.88,\"cues\":[\"Target range 1-[X] percent maintained, consistent with 1.50-1.75 after the 2019 cuts\",\"Voters include Harker and Kashkari, who rotated in as 2020 voters\",\"Phrase 'inflation returning to the Committee's symmetric 2 percent objective' replaced 'near' in January 2020\",\"Business fixed investment and exports weak, household spending moderate, matching early 2020 before COVID\",\"No mention of the coronavirus, so it predates March 2020\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 1,
+  "confidence": 0.88,
+  "cues": [
+   "Target range 1-[X] percent maintained, consistent with 1.50-1.75 after the 2019 cuts",
+   "Voters include Harker and Kashkari, who rotated in as 2020 voters",
+   "Phrase 'inflation returning to the Committee's symmetric 2 percent objective' replaced 'near' in January 2020",
+   "Business fixed investment and exports weak, household spending moderate, matching early 2020 before COVID",
+   "No mention of the coronavirus, so it predates March 2020"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20151119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20151119a",
+  "doc_type": "speech",
+  "text_sha256": "c95d8937bf893f1bc925123e68c135c0325f5b79d639a5678388fe61f3a3972b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "99bd4067a7a3c431d5e3a51a5e6484af5d7bf603653558fb35b5db2eafbc8ebd",
+ "message_id": "msg_011CgFugF6MuHPCFZdcGwYb2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6234,
+  "output_tokens": 676,
+  "output_tokens_details": {
+   "thinking_tokens": 210
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In the relatively near future probably some major central banks will begin gradually moving away from near-zero interest rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we have done everything we can to avoid surprising the markets and governments when we move, to the extent that several emerging market (and other) central bankers have, for some time, been telling the Fed to \\\"just do it.\\\"\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"growth in emerging Asia is set to decline in 2015 and 2016, with China's growth decelerating.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, the overall message is not a pessimistic one; rather, for the most part, the slowing of growth is a natural transition and an outcome of Asia's remarkable economic success.\"}],\"rationale\":\"The speech is mostly about structural slowing in emerging Asia, framed as a natural, non-alarming transition. Its one direct policy remark signals that liftoff from near-zero rates is coming soon and has been well telegraphed, a mild hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In the relatively near future probably some major central banks will begin gradually moving away from near-zero interest rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we have done everything we can to avoid surprising the markets and governments when we move, to the extent that several emerging market (and other) central bankers have, for some time, been telling the Fed to \"just do it.\""
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "growth in emerging Asia is set to decline in 2015 and 2016, with China's growth decelerating."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, the overall message is not a pessimistic one; rather, for the most part, the slowing of growth is a natural transition and an outcome of Asia's remarkable economic success."
+   }
+  ],
+  "rationale": "The speech is mostly about structural slowing in emerging Asia, framed as a natural, non-alarming transition. Its one direct policy remark signals that liftoff from near-zero rates is coming soon and has been well telegraphed, a mild hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In the relatively near future probably some major central banks will begin gradually moving away from near-zero interest rates.",
+     "start": 18188,
+     "end": 18314
+    },
+    {
+     "quote": "we have done everything we can to avoid surprising the markets and governments when we move, to the extent that several emerging market (and other) central bankers have, for some time, been telling the Fed to \"just do it.\"",
+     "start": 18667,
+     "end": 18887
+    },
+    {
+     "quote": "growth in emerging Asia is set to decline in 2015 and 2016, with China's growth decelerating.",
+     "start": 2524,
+     "end": 2616
+    },
+    {
+     "quote": "However, the overall message is not a pessimistic one; rather, for the most part, the slowing of growth is a natural transition and an outcome of Asia's remarkable economic success.",
+     "start": 10572,
+     "end": 10752
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

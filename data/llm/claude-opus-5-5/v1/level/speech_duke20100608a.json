@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20100608a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100608a",
+  "doc_type": "speech",
+  "text_sha256": "508425e29a391d2036194c388ada069625a505722b32c37a7e54799983d53abc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d4e2bfcea748babcac74d484a133fe2371edd9a212865bab5174fb0d81e96707",
+ "message_id": "msg_011CgFug9M5v6ajxPcLqxfMQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6804,
+  "output_tokens": 414,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Still 9.7 percent of the workforce is unemployed and nearly 6 percent is working only part time while still seeking full-time employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"For the moment, the contraction in consumer credit appears to be a story both of diminished supply and weakened demand.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Consumers will reengage slowly as confidence, income, and balance sheets strengthen.\"},{\"dimension\":\"overall\",\"quote\":\"Having survived the financial crisis, it is now time to work together to build a consumer banking model for the future.\"}],\"rationale\":\"The speech is mainly about crisis response and consumer protection regulation, with no forward guidance on policy rates or the balance sheet. Its description of weak consumer finances and high unemployment leans mildly dovish but carries little policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Still 9.7 percent of the workforce is unemployed and nearly 6 percent is working only part time while still seeking full-time employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "For the moment, the contraction in consumer credit appears to be a story both of diminished supply and weakened demand."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Consumers will reengage slowly as confidence, income, and balance sheets strengthen."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Having survived the financial crisis, it is now time to work together to build a consumer banking model for the future."
+   }
+  ],
+  "rationale": "The speech is mainly about crisis response and consumer protection regulation, with no forward guidance on policy rates or the balance sheet. Its description of weak consumer finances and high unemployment leans mildly dovish but carries little policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Still 9.7 percent of the workforce is unemployed and nearly 6 percent is working only part time while still seeking full-time employment.",
+     "start": 15549,
+     "end": 15685
+    },
+    {
+     "quote": "For the moment, the contraction in consumer credit appears to be a story both of diminished supply and weakened demand.",
+     "start": 16282,
+     "end": 16400
+    },
+    {
+     "quote": "Consumers will reengage slowly as confidence, income, and balance sheets strengthen.",
+     "start": 22347,
+     "end": 22430
+    },
+    {
+     "quote": "Having survived the financial crisis, it is now time to work together to build a consumer banking model for the future.",
+     "start": 21641,
+     "end": 21759
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

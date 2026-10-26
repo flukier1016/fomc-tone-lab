@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20220318a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220318a",
+  "doc_type": "speech",
+  "text_sha256": "03ef3e3b5d750d33735700951375605a6803322c6d5cdd35d04d0ad2d8088dd0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "867f07a6154e995574f8b551a7fe592c40aad872e29e6b3271d73cff3e45f07b",
+ "message_id": "msg_011CgFugDZaxD97KTXQDp5cT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 807,
+  "output_tokens": 277,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"So the Fed's goals for monetary policy—to promote maximum, inclusive employment and price stability—are closely related to the topics that we will be discussing today.\"},{\"dimension\":\"overall\",\"quote\":\"Rising productivity allows living standards to rise without contributing to inflation.\"}],\"rationale\":\"These are introductory remarks for a Fed Listens event on youth education and work, and they offer no view on rates, inflation, or the outlook. The stance is neutral and relevance is low.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "So the Fed's goals for monetary policy—to promote maximum, inclusive employment and price stability—are closely related to the topics that we will be discussing today."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Rising productivity allows living standards to rise without contributing to inflation."
+   }
+  ],
+  "rationale": "These are introductory remarks for a Fed Listens event on youth education and work, and they offer no view on rates, inflation, or the outlook. The stance is neutral and relevance is low."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So the Fed's goals for monetary policy—to promote maximum, inclusive employment and price stability—are closely related to the topics that we will be discussing today.",
+     "start": 2181,
+     "end": 2347
+    },
+    {
+     "quote": "Rising productivity allows living standards to rise without contributing to inflation.",
+     "start": 2094,
+     "end": 2179
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

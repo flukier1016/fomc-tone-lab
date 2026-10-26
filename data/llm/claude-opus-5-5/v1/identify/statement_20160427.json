@@ -1,0 +1,52 @@
+{
+ "key": "statement_20160427",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20160427",
+  "release_date": "2016-04-27"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8c5f395485d91552e45f4f820f3e0b09cd8eba60f78176e5b6971f1d6f1cc3d7",
+ "message_id": "msg_011CgFudVTDw3RaxyR9zB9pm",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1565,
+  "output_tokens": 453,
+  "output_tokens_details": {
+   "thinking_tokens": 218
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2016,\"month\":4,\"confidence\":0.85,\"cues\":[\"2016 voter roster (Brainard, Bullard, Fischer, Rosengren) with a single dissent preferring a hike, consistent with Esther George\",\"'growth in economic activity appears to have slowed' matches the Q1 2016 slowdown\",\"'Since the beginning of the year' points to an early-2016 meeting\",\"'Households' real income has risen at a solid rate and consumer sentiment remains high' matches April 2016 language\",\"Funds rate held after the December 2015 liftoff, with 'only gradual increases' expected\",\"Explicit monitoring of global economic and financial developments, a focus after early-2016 market turmoil\"]}",
+ "parsed": {
+  "year": 2016,
+  "month": 4,
+  "confidence": 0.85,
+  "cues": [
+   "2016 voter roster (Brainard, Bullard, Fischer, Rosengren) with a single dissent preferring a hike, consistent with Esther George",
+   "'growth in economic activity appears to have slowed' matches the Q1 2016 slowdown",
+   "'Since the beginning of the year' points to an early-2016 meeting",
+   "'Households' real income has risen at a solid rate and consumer sentiment remains high' matches April 2016 language",
+   "Funds rate held after the December 2015 liftoff, with 'only gradual increases' expected",
+   "Explicit monitoring of global economic and financial developments, a focus after early-2016 market turmoil"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

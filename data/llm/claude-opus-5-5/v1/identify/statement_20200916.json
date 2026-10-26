@@ -1,0 +1,51 @@
+{
+ "key": "statement_20200916",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20200916",
+  "release_date": "2020-09-16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aee53b2a09bf8f0957adf7730b539b0ea5056398d72c06c27c533afe3b1276c4",
+ "message_id": "msg_011CgFudVVhptg4oVzza9rGx",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1476,
+  "output_tokens": 229,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":9,\"confidence\":0.95,\"cues\":[\"First statement incorporating the new average inflation targeting language ('moderately above 2 percent for some time') following the August 2020 framework revision\",\"Dissents by Kaplan (greater policy rate flexibility) and Kashkari (core inflation sustained at 2 percent) matched the September 2020 meeting\",\"'Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year' is mid/late-2020 language\",\"'Over coming months' asset purchase language, later replaced in December 2020 by 'substantial further progress' guidance\",\"Reference to the 'new policy strategy statement'\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 9,
+  "confidence": 0.95,
+  "cues": [
+   "First statement incorporating the new average inflation targeting language ('moderately above 2 percent for some time') following the August 2020 framework revision",
+   "Dissents by Kaplan (greater policy rate flexibility) and Kashkari (core inflation sustained at 2 percent) matched the September 2020 meeting",
+   "'Economic activity and employment have picked up in recent months but remain well below their levels at the beginning of the year' is mid/late-2020 language",
+   "'Over coming months' asset purchase language, later replaced in December 2020 by 'substantial further progress' guidance",
+   "Reference to the 'new policy strategy statement'"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

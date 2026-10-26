@@ -1,0 +1,112 @@
+{
+ "key": "statement_20130918",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20130918",
+  "doc_type": "statement",
+  "text_sha256": "b97b67d56b2dfa3ad9612de9d88ae829128d5d9ff182b7c00a2aadcff7cc0895"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "421c02ec9098a61ba053ae6e923f25ed5128f08e4d9dc646e113fef8e7ddf42d",
+ "message_id": "msg_011CgFugCeGXhEXXkVFm7jMz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1623,
+  "output_tokens": 540,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\"}],\"rationale\":\"The Committee kept rates near zero and chose not to taper its asset purchases, citing tightening financial conditions, fiscal restraint, and below-target inflation. It also reaffirmed highly accommodative guidance, so the net signal is dovish despite noting diminished downside risks and some underlying strength.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens."
+   }
+  ],
+  "rationale": "The Committee kept rates near zero and chose not to taper its asset purchases, citing tightening financial conditions, fiscal restraint, and below-target inflation. It also reaffirmed highly accommodative guidance, so the net signal is dovish despite noting diminished downside risks and some underlying strength."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.",
+     "start": 1786,
+     "end": 1914
+    },
+    {
+     "quote": "the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month.",
+     "start": 1929,
+     "end": 2124
+    },
+    {
+     "quote": "the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+     "start": 1149,
+     "end": 1295
+    },
+    {
+     "quote": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance",
+     "start": 1297,
+     "end": 1420
+    },
+    {
+     "quote": "a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+     "start": 3726,
+     "end": 3898
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

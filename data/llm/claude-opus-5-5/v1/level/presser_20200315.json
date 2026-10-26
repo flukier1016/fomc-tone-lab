@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200315",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200315",
+  "doc_type": "presser",
+  "text_sha256": "c450b3b36c70e1c61d44518360a7d044637af4a88e84396a3b279634ab93c953"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cd0f69a61aa334b1fc5c9b57f3fdb9d0fb9982ebcefc872b4e934a63db127bdd",
+ "message_id": "msg_011CgFugGQz8yEFjA8RfmMqa",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9280,
+  "output_tokens": 548,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.95,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today we reduced the target range for our policy interest rate by 1 percentage point, bringing it close to zero\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we expect to maintain the rate at this level until we’re confident that the economy has weathered recent events and is on track to achieve our maximum employment and price stability goals\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we announced today that we will purchase at least $500 billion of Treasury securities over the coming months\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation, which has continued to run below our symmetric 2 percent objective, will likely be held down this year by the effects of the outbreak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So that means that the second quarter is probably going to be weak—in fact, in the view of many, output declining\"},{\"dimension\":\"risk_balance\",\"quote\":\"We are prepared to use our full range of tools to support the flow of credit to households and business, to help keep the economy strong\"}],\"rationale\":\"The Fed cut rates to near zero, launched at least $700 billion in asset purchases, and gave open-ended guidance to hold rates there until recovery. Inflation was described as below target and falling, and the near-term outlook as weak with high downside risk.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.95,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today we reduced the target range for our policy interest rate by 1 percentage point, bringing it close to zero"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we expect to maintain the rate at this level until we’re confident that the economy has weathered recent events and is on track to achieve our maximum employment and price stability goals"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we announced today that we will purchase at least $500 billion of Treasury securities over the coming months"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation, which has continued to run below our symmetric 2 percent objective, will likely be held down this year by the effects of the outbreak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So that means that the second quarter is probably going to be weak—in fact, in the view of many, output declining"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We are prepared to use our full range of tools to support the flow of credit to households and business, to help keep the economy strong"
+   }
+  ],
+  "rationale": "The Fed cut rates to near zero, launched at least $700 billion in asset purchases, and gave open-ended guidance to hold rates there until recovery. Inflation was described as below target and falling, and the near-term outlook as weak with high downside risk."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today we reduced the target range for our policy interest rate by 1 percentage point, bringing it close to zero",
+     "start": 1184,
+     "end": 1295
+    },
+    {
+     "quote": "we expect to maintain the rate at this level until we’re confident that the economy has weathered recent events and is on track to achieve our maximum employment and price stability goals",
+     "start": 1311,
+     "end": 1498
+    },
+    {
+     "quote": "we announced today that we will purchase at least $500 billion of Treasury securities over the coming months",
+     "start": 4371,
+     "end": 4479
+    },
+    {
+     "quote": "Inflation, which has continued to run below our symmetric 2 percent objective, will likely be held down this year by the effects of the outbreak.",
+     "start": 3211,
+     "end": 3355
+    },
+    {
+     "quote": "So that means that the second quarter is probably going to be weak—in fact, in the view of many, output declining",
+     "start": 8762,
+     "end": 8875
+    },
+    {
+     "quote": "We are prepared to use our full range of tools to support the flow of credit to households and business, to help keep the economy strong",
+     "start": 7636,
+     "end": 7772
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

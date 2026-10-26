@@ -1,0 +1,149 @@
+{
+ "key": "statement_20100428",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100428",
+  "previous_doc_id": "statement_20100316",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8fdf8538c19998c08948352d757dae5e067a36f387f5cdb6298020f0f8a87827",
+ "message_id": "msg_011CgFudUTwb4xYqLGt6EQ41",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1784,
+  "output_tokens": 579,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"the labor market is stabilizing\",\"after\":\"the labor market is beginning to improve\",\"direction\":\"hawkish\"},{\"before\":\"Household spending is expanding at a moderate rate but remains constrained\",\"after\":\"Growth in household spending has picked up recently but remains constrained\",\"direction\":\"hawkish\"},{\"before\":\"housing starts have been flat at a depressed level\",\"after\":\"Housing starts have edged up but remain at a depressed level.\",\"direction\":\"hawkish\"},{\"before\":\"To provide support to mortgage lending and housing markets and to improve overall conditions in private credit markets, the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"the Federal Reserve has been closing the special liquidity facilities\",\"after\":\"the Federal Reserve has closed all but one of the special liquidity facilities\",\"direction\":\"neutral\"},{\"before\":\"because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.\",\"after\":\"because it could lead to a build-up of future imbalances and increase risks to longer run macroeconomic and financial stability, while limiting the Committee’s flexibility to begin raising rates modestly.\",\"direction\":\"hawkish\"}],\"rationale\":\"The economic assessment is modestly upgraded (labor market improving, consumer spending picking up, housing edging up), and the dissent now explicitly references raising rates. The 'extended period' guidance and the policy rate are unchanged, so the shift is only mildly hawkish.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "the labor market is stabilizing",
+    "after": "the labor market is beginning to improve",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending is expanding at a moderate rate but remains constrained",
+    "after": "Growth in household spending has picked up recently but remains constrained",
+    "direction": "hawkish"
+   },
+   {
+    "before": "housing starts have been flat at a depressed level",
+    "after": "Housing starts have edged up but remain at a depressed level.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "To provide support to mortgage lending and housing markets and to improve overall conditions in private credit markets, the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Federal Reserve has been closing the special liquidity facilities",
+    "after": "the Federal Reserve has closed all but one of the special liquidity facilities",
+    "direction": "neutral"
+   },
+   {
+    "before": "because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.",
+    "after": "because it could lead to a build-up of future imbalances and increase risks to longer run macroeconomic and financial stability, while limiting the Committee’s flexibility to begin raising rates modestly.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The economic assessment is modestly upgraded (labor market improving, consumer spending picking up, housing edging up), and the dissent now explicitly references raising rates. The 'extended period' guidance and the policy rate are unchanged, so the shift is only mildly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the labor market is stabilizing",
+     "start": 145,
+     "end": 176
+    },
+    {
+     "quote": "Household spending is expanding at a moderate rate but remains constrained",
+     "start": 178,
+     "end": 252
+    },
+    {
+     "quote": "housing starts have been flat at a depressed level",
+     "start": 469,
+     "end": 519
+    },
+    {
+     "quote": "To provide support to mortgage lending and housing markets and to improve overall conditions in private credit markets, the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.",
+     "start": 1390,
+     "end": 1753
+    },
+    {
+     "quote": "the Federal Reserve has been closing the special liquidity facilities",
+     "start": 1994,
+     "end": 2063
+    },
+    {
+     "quote": "because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.",
+     "start": 2815,
+     "end": 2946
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the labor market is beginning to improve",
+     "start": 143,
+     "end": 183
+    },
+    {
+     "quote": "Growth in household spending has picked up recently but remains constrained",
+     "start": 185,
+     "end": 260
+    },
+    {
+     "quote": "Housing starts have edged up but remain at a depressed level.",
+     "start": 527,
+     "end": 587
+    },
+    {
+     "quote": "the Federal Reserve has closed all but one of the special liquidity facilities",
+     "start": 1646,
+     "end": 1724
+    },
+    {
+     "quote": "because it could lead to a build-up of future imbalances and increase risks to longer run macroeconomic and financial stability, while limiting the Committee’s flexibility to begin raising rates modestly.",
+     "start": 2483,
+     "end": 2686
+    }
+   ]
+  }
+ }
+}

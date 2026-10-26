@@ -1,0 +1,121 @@
+{
+ "key": "presser_20210616",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20210616",
+  "doc_type": "presser",
+  "text_sha256": "5170bfb27e6b25c221384b61abc6c3b136062508d3a535464d1a6037a7a3e1a7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "51cc5ec1fc53eed5269c04ac9a214bf7e34de089893176af7e6f427de24be8a8",
+ "message_id": "msg_011CgFug8u3def6edEpePJup",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13989,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"But you can think of this meeting that we had as the “talking about talking about” meeting, if you like.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the median projection for the appropriate level of the federal funds rate now lies above the effective lower bound in 2023.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"These bottleneck effects have been larger than anticipated, and FOMC participants have revised up their projections for, for inflation notably for this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"raising the possibility that inflation could turn out to be higher and more persistent than we expect.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we are on a path to a very strong labor market—a labor market that, that shows low unemployment, high participation, rising wages for people across the spectrum.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Liftoff is, is well into the future.\"}],\"rationale\":\"Rates and purchases were left unchanged, but the Chair opened the taper discussion, noted the dots moving liftoff earlier into 2023, and acknowledged upside inflation risks. This hawkish shift is tempered by calling inflation transitory and liftoff well into the future.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "But you can think of this meeting that we had as the “talking about talking about” meeting, if you like."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the median projection for the appropriate level of the federal funds rate now lies above the effective lower bound in 2023."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "These bottleneck effects have been larger than anticipated, and FOMC participants have revised up their projections for, for inflation notably for this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "raising the possibility that inflation could turn out to be higher and more persistent than we expect."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we are on a path to a very strong labor market—a labor market that, that shows low unemployment, high participation, rising wages for people across the spectrum."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Liftoff is, is well into the future."
+   }
+  ],
+  "rationale": "Rates and purchases were left unchanged, but the Chair opened the taper discussion, noted the dots moving liftoff earlier into 2023, and acknowledged upside inflation risks. This hawkish shift is tempered by calling inflation transitory and liftoff well into the future."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But you can think of this meeting that we had as the “talking about talking about” meeting, if you like.",
+     "start": 15425,
+     "end": 15528
+    },
+    {
+     "quote": "the median projection for the appropriate level of the federal funds rate now lies above the effective lower bound in 2023.",
+     "start": 6593,
+     "end": 6715
+    },
+    {
+     "quote": "These bottleneck effects have been larger than anticipated, and FOMC participants have revised up their projections for, for inflation notably for this year.",
+     "start": 3576,
+     "end": 3732
+    },
+    {
+     "quote": "raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+     "start": 4247,
+     "end": 4348
+    },
+    {
+     "quote": "we are on a path to a very strong labor market—a labor market that, that shows low unemployment, high participation, rising wages for people across the spectrum.",
+     "start": 9048,
+     "end": 9208
+    },
+    {
+     "quote": "Liftoff is, is well into the future.",
+     "start": 21318,
+     "end": 21353
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

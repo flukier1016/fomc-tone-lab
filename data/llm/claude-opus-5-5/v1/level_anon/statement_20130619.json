@@ -1,0 +1,113 @@
+{
+ "key": "statement_20130619",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20130619",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "6cffea201f2e882adfaefe7b05c54588f92b77a9c28575b04ed3b12231f69631"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "43ab2db2339c358e7a1122da74eda786742b8a69343f78c9d89edec88bb076de",
+ "message_id": "msg_011CgFudRrvk3Bm6M2m1cQ3C",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1393,
+  "output_tokens": 547,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Partly reflecting transitory influences, inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated.\"}],\"rationale\":\"The statement continues $85 billion in monthly purchases and keeps the extended low-rate guidance, with inflation running below target, so the net signal is accommodative. Noting that downside risks have diminished since the fall adds a modest hawkish tilt relative to prior statements.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Partly reflecting transitory influences, inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated."
+   }
+  ],
+  "rationale": "The statement continues $85 billion in monthly purchases and keeps the extended low-rate guidance, with inflation running below target, so the net signal is accommodative. Noting that downside risks have diminished since the fall adds a modest hawkish tilt relative to prior statements."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month",
+     "start": 1334,
+     "end": 1529
+    },
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.",
+     "start": 946,
+     "end": 1071
+    },
+    {
+     "quote": "Partly reflecting transitory influences, inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.",
+     "start": 430,
+     "end": 601
+    },
+    {
+     "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens",
+     "start": 2825,
+     "end": 3024
+    },
+    {
+     "quote": "Labor market conditions have shown further improvement in recent months, on balance, but the unemployment rate remains elevated.",
+     "start": 143,
+     "end": 270
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

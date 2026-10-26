@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240810a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240810a",
+  "doc_type": "speech",
+  "text_sha256": "e9e75731b3d13a1bd43e4e604b073a7b65181083dc5fdb8e5af087ff9880beb6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "be12e89c8e5dcfba764d11adc9e2f2fadeb85eb6e9e3c9900e52bf69d6cacd94",
+ "message_id": "msg_011CgFugDvfN1R9gfRsyMVcb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8758,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"The progress in lowering inflation during May and June is a welcome development, but inflation is still uncomfortably above the Committee's 2 percent goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I will remain cautious in my approach to considering adjustments to the current stance of policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But we need to be patient and avoid undermining continued progress on lowering inflation by overreacting to any single data point.\"},{\"dimension\":\"risk_balance\",\"quote\":\"That said, I still see some upside risks to inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it also appears that the recent rise in unemployment may be exaggerating the degree of cooling in labor markets.\"},{\"dimension\":\"overall\",\"quote\":\"I still see the need to pay close attention to the price-stability side of our mandate while watching for risks of a material weakening in the labor market.\"}],\"rationale\":\"Although acknowledging that gradual cuts could become appropriate, the speaker emphasizes patience, caution, upside inflation risks, and discounts labor-market weakness, giving a moderately hawkish lean relative to the easing path. Much of the speech covers bank regulation, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The progress in lowering inflation during May and June is a welcome development, but inflation is still uncomfortably above the Committee's 2 percent goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will remain cautious in my approach to considering adjustments to the current stance of policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But we need to be patient and avoid undermining continued progress on lowering inflation by overreacting to any single data point."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "That said, I still see some upside risks to inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it also appears that the recent rise in unemployment may be exaggerating the degree of cooling in labor markets."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I still see the need to pay close attention to the price-stability side of our mandate while watching for risks of a material weakening in the labor market."
+   }
+  ],
+  "rationale": "Although acknowledging that gradual cuts could become appropriate, the speaker emphasizes patience, caution, upside inflation risks, and discounts labor-market weakness, giving a moderately hawkish lean relative to the easing path. Much of the speech covers bank regulation, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The progress in lowering inflation during May and June is a welcome development, but inflation is still uncomfortably above the Committee's 2 percent goal.",
+     "start": 1308,
+     "end": 1462
+    },
+    {
+     "quote": "I will remain cautious in my approach to considering adjustments to the current stance of policy.",
+     "start": 7728,
+     "end": 7824
+    },
+    {
+     "quote": "But we need to be patient and avoid undermining continued progress on lowering inflation by overreacting to any single data point.",
+     "start": 4444,
+     "end": 4573
+    },
+    {
+     "quote": "That said, I still see some upside risks to inflation.",
+     "start": 4734,
+     "end": 4787
+    },
+    {
+     "quote": "it also appears that the recent rise in unemployment may be exaggerating the degree of cooling in labor markets.",
+     "start": 6290,
+     "end": 6401
+    },
+    {
+     "quote": "I still see the need to pay close attention to the price-stability side of our mandate while watching for risks of a material weakening in the labor market.",
+     "start": 8944,
+     "end": 9099
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20260318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260318",
+  "doc_type": "presser",
+  "text_sha256": "494d98aa7cd2946e28694e7edba6d1941ba673db37f250bb113e6fd843da5753"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0ce43e711a66a958f93f6cc14f0c790b2efb2f8d3a88954f7017bae18e51dfb2",
+ "message_id": "msg_011CgFugCQdrLaLm1up6Je3Q",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10692,
+  "output_tokens": 602,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So if we don’t see that progress, then you won’t see the rate cut.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The policy that our—the possibility, rather, that our next move might be an increase did come up at the meeting, as it did at the last meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"we’re a full percentage point above 2 percent for some time. And that’s a concern. We need to get back down to 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We are balancing these two goals in a situation where the risks to the labor market are to the downside—which would call for lower rates—and the risks to inflation are to the upside\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Now that’s balance, okay, but I would say it does have a feel of downside risk, and it’s not kind of a really comfortable balance.\"}],\"rationale\":\"The Chair holds rates steady with an easing bias still in the SEP median, but the press conference stresses persistent above-target inflation, energy-shock risks to expectations, movement toward fewer cuts, conditional cuts, and discussion of possible hikes. Labor-market downside risks are acknowledged and the balance of risks is described as two-sided, so the net tilt is mildly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So if we don’t see that progress, then you won’t see the rate cut."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The policy that our—the possibility, rather, that our next move might be an increase did come up at the meeting, as it did at the last meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "we’re a full percentage point above 2 percent for some time. And that’s a concern. We need to get back down to 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We are balancing these two goals in a situation where the risks to the labor market are to the downside—which would call for lower rates—and the risks to inflation are to the upside"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Now that’s balance, okay, but I would say it does have a feel of downside risk, and it’s not kind of a really comfortable balance."
+   }
+  ],
+  "rationale": "The Chair holds rates steady with an easing bias still in the SEP median, but the press conference stresses persistent above-target inflation, energy-shock risks to expectations, movement toward fewer cuts, conditional cuts, and discussion of possible hikes. Labor-market downside risks are acknowledged and the balance of risks is described as two-sided, so the net tilt is mildly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.",
+     "start": 2941,
+     "end": 3058
+    },
+    {
+     "quote": "So if we don’t see that progress, then you won’t see the rate cut.",
+     "start": 7373,
+     "end": 7438
+    },
+    {
+     "quote": "The policy that our—the possibility, rather, that our next move might be an increase did come up at the meeting, as it did at the last meeting.",
+     "start": 21395,
+     "end": 21537
+    },
+    {
+     "quote": "we’re a full percentage point above 2 percent for some time. And that’s a concern. We need to get back down to 2 percent.",
+     "start": 16062,
+     "end": 16182
+    },
+    {
+     "quote": "We are balancing these two goals in a situation where the risks to the labor market are to the downside—which would call for lower rates—and the risks to inflation are to the upside",
+     "start": 13883,
+     "end": 14064
+    },
+    {
+     "quote": "Now that’s balance, okay, but I would say it does have a feel of downside risk, and it’s not kind of a really comfortable balance.",
+     "start": 19074,
+     "end": 19203
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

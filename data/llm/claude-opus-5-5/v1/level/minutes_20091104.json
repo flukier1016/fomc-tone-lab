@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20091104",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20091104",
+  "doc_type": "minutes",
+  "text_sha256": "c3f48ed8f36dd62921875fb4e32ccb84df257b88969604911d11022edeb4e9eb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "212d1026d963b33368c780b06dd16c87888f4ab00b0d9a10629f0f5df94dba46",
+ "message_id": "msg_011CgFug9cxCzNZU4tLv9mWU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12602,
+  "output_tokens": 687,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"members decided to maintain the federal funds target range at 0 to 1/4 percent and to continue to state their expectation that economic conditions were likely to warrant exceptionally low rates for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With significant underutilization of resources expected to persist for several years, the staff continued to project that core inflation would slow somewhat further over the next two years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The weakness in labor market conditions remained an important concern to meeting participants, with unemployment expected to remain elevated for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most participants now viewed the risks to their growth forecasts as being roughly balanced rather than tilted to the downside, but uncertainty surrounding these forecasts was still viewed as quite elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Announcing that purchases would total about $175 billion was viewed as providing greater clarity to the public regarding the expected amount of purchases and would not reflect a decision to scale back the degree of policy accommodation.\"},{\"dimension\":\"overall\",\"quote\":\"Participants anticipated that the Federal Reserve would conduct tests of these tools, but they stressed that such testing would not imply that these tools would be employed for policy purposes any time soon.\"}],\"rationale\":\"The minutes reaffirm exceptionally low rates for an extended period, with subdued inflation and weak labor markets, though they add exit-tool planning and note risks have become more balanced. The asset purchases continue as planned, with the smaller agency debt total explicitly framed as not a reduction in accommodation, leaving a moderately dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "members decided to maintain the federal funds target range at 0 to 1/4 percent and to continue to state their expectation that economic conditions were likely to warrant exceptionally low rates for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With significant underutilization of resources expected to persist for several years, the staff continued to project that core inflation would slow somewhat further over the next two years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The weakness in labor market conditions remained an important concern to meeting participants, with unemployment expected to remain elevated for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most participants now viewed the risks to their growth forecasts as being roughly balanced rather than tilted to the downside, but uncertainty surrounding these forecasts was still viewed as quite elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Announcing that purchases would total about $175 billion was viewed as providing greater clarity to the public regarding the expected amount of purchases and would not reflect a decision to scale back the degree of policy accommodation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Participants anticipated that the Federal Reserve would conduct tests of these tools, but they stressed that such testing would not imply that these tools would be employed for policy purposes any time soon."
+   }
+  ],
+  "rationale": "The minutes reaffirm exceptionally low rates for an extended period, with subdued inflation and weak labor markets, though they add exit-tool planning and note risks have become more balanced. The asset purchases continue as planned, with the smaller agency debt total explicitly framed as not a reduction in accommodation, leaving a moderately dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "members decided to maintain the federal funds target range at 0 to 1/4 percent and to continue to state their expectation that economic conditions were likely to warrant exceptionally low rates for an extended period.",
+     "start": 35533,
+     "end": 35749
+    },
+    {
+     "quote": "With significant underutilization of resources expected to persist for several years, the staff continued to project that core inflation would slow somewhat further over the next two years.",
+     "start": 21964,
+     "end": 22152
+    },
+    {
+     "quote": "The weakness in labor market conditions remained an important concern to meeting participants, with unemployment expected to remain elevated for some time.",
+     "start": 27949,
+     "end": 28103
+    },
+    {
+     "quote": "Most participants now viewed the risks to their growth forecasts as being roughly balanced rather than tilted to the downside, but uncertainty surrounding these forecasts was still viewed as quite elevated.",
+     "start": 25248,
+     "end": 25453
+    },
+    {
+     "quote": "Announcing that purchases would total about $175 billion was viewed as providing greater clarity to the public regarding the expected amount of purchases and would not reflect a decision to scale back the degree of policy accommodation.",
+     "start": 37300,
+     "end": 37535
+    },
+    {
+     "quote": "Participants anticipated that the Federal Reserve would conduct tests of these tools, but they stressed that such testing would not imply that these tools would be employed for policy purposes any time soon.",
+     "start": 4218,
+     "end": 4424
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

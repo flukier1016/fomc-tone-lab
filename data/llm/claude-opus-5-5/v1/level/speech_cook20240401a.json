@@ -1,0 +1,85 @@
+{
+ "key": "speech_cook20240401a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240401a",
+  "doc_type": "speech",
+  "text_sha256": "27ee9d12611f4467935a2de3d84d009f212ac0d8fd24623a356e6ef9ad613f2b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c692d1addef1ac7c2de26c73fbad49a8d923ee91b359f0a7cbaeb1a733db98c3",
+ "message_id": "msg_011CgFugFQxW5rbqWmjVN67X",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1579,
+  "output_tokens": 303,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am beyond humbled and honored to receive this career achievement award from The Samuel DuBois Cook Center on Social Equity at Duke University, and I am inspired by what it represents.\"},{\"dimension\":\"overall\",\"quote\":\"Mentors help convert hope and promise into action, enabling those who come after us to build a better future.\"}],\"rationale\":\"This is an award acceptance speech about family, the Civil Rights Movement, and mentoring, with no discussion of monetary policy or the economic outlook. All policy dimensions are null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am beyond humbled and honored to receive this career achievement award from The Samuel DuBois Cook Center on Social Equity at Duke University, and I am inspired by what it represents."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Mentors help convert hope and promise into action, enabling those who come after us to build a better future."
+   }
+  ],
+  "rationale": "This is an award acceptance speech about family, the Civil Rights Movement, and mentoring, with no discussion of monetary policy or the economic outlook. All policy dimensions are null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am beyond humbled and honored to receive this career achievement award from The Samuel DuBois Cook Center on Social Equity at Duke University, and I am inspired by what it represents.",
+     "start": 329,
+     "end": 513
+    },
+    {
+     "quote": "Mentors help convert hope and promise into action, enabling those who come after us to build a better future.",
+     "start": 3999,
+     "end": 4107
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "key": "statement_20241218",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20241218",
+  "release_date": "2024-12-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dc0dab44fdfc6d648b0366b657360b5602045ae2e8f95e682fc63c0b9084f1d8",
+ "message_id": "msg_011CgFueD1J39RbqVADf8jcQ",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1117,
+  "output_tokens": 365,
+  "output_tokens_details": {
+   "thinking_tokens": 151
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2024,\"month\":12,\"confidence\":0.88,\"cues\":[\"Quarter-point cut with the phrase 'extent and timing of additional adjustments', first introduced in December 2024\",\"A single dissent from a voter preferring no change, consistent with Hammack's December 2024 dissent\",\"'Labor market conditions have generally eased' and 'unemployment rate has moved up but remains low' match late-2024 language\",\"'Risks ... roughly in balance' with balance-sheet runoff continuing, which fits the post-September 2024 easing cycle\",\"'Economic activity has continued to expand at a solid pace' matches statements from late 2024\"]}",
+ "parsed": {
+  "year": 2024,
+  "month": 12,
+  "confidence": 0.88,
+  "cues": [
+   "Quarter-point cut with the phrase 'extent and timing of additional adjustments', first introduced in December 2024",
+   "A single dissent from a voter preferring no change, consistent with Hammack's December 2024 dissent",
+   "'Labor market conditions have generally eased' and 'unemployment rate has moved up but remains low' match late-2024 language",
+   "'Risks ... roughly in balance' with balance-sheet runoff continuing, which fits the post-September 2024 easing cycle",
+   "'Economic activity has continued to expand at a solid pace' matches statements from late 2024"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

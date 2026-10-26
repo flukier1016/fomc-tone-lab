@@ -1,0 +1,112 @@
+{
+ "key": "speech_kohn20090418a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090418a",
+  "doc_type": "speech",
+  "text_sha256": "a14a691aa7c605a78285dad8f9b0b8a757f44d7c7145cecb699da9c13810c0d7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9bceb7a698af2ff054440dac160de95e58e25029248099466637b6a1f7e980d1",
+ "message_id": "msg_011CgFugFTSYJ3Avv6pFfaXo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7233,
+  "output_tokens": 509,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"we on the Federal Open Market Committee (FOMC) recognize that high levels of Federal Reserve assets and resulting reserves are likely to be essential to fostering recovery\"},{\"dimension\":\"forward_guidance\",\"quote\":\"That flexibility could entail doing more to ease credit if the economy proves resistant to the monetary and fiscal stimulus now in train\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"No, and the key to preventing inflation will be reversing the programs, reducing reserves, and raising interest rates in a timely fashion.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This adverse feedback loop between financial conditions and the economy has been a prominent feature of the recession.\"},{\"dimension\":\"risk_balance\",\"quote\":\"encompasses both preventing inflation from falling too low in the near term and from rising too far as the economy recovers.\"}],\"rationale\":\"The speech defends aggressive easing and large-scale asset purchases amid recession, and it leaves the door open to further easing. Its discussion of exit tools is framed as a longer-run reassurance about inflation rather than a near-term tightening signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "we on the Federal Open Market Committee (FOMC) recognize that high levels of Federal Reserve assets and resulting reserves are likely to be essential to fostering recovery"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "That flexibility could entail doing more to ease credit if the economy proves resistant to the monetary and fiscal stimulus now in train"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "No, and the key to preventing inflation will be reversing the programs, reducing reserves, and raising interest rates in a timely fashion."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This adverse feedback loop between financial conditions and the economy has been a prominent feature of the recession."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "encompasses both preventing inflation from falling too low in the near term and from rising too far as the economy recovers."
+   }
+  ],
+  "rationale": "The speech defends aggressive easing and large-scale asset purchases amid recession, and it leaves the door open to further easing. Its discussion of exit tools is framed as a longer-run reassurance about inflation rather than a near-term tightening signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we on the Federal Open Market Committee (FOMC) recognize that high levels of Federal Reserve assets and resulting reserves are likely to be essential to fostering recovery",
+     "start": 18922,
+     "end": 19093
+    },
+    {
+     "quote": "That flexibility could entail doing more to ease credit if the economy proves resistant to the monetary and fiscal stimulus now in train",
+     "start": 17643,
+     "end": 17779
+    },
+    {
+     "quote": "No, and the key to preventing inflation will be reversing the programs, reducing reserves, and raising interest rates in a timely fashion.",
+     "start": 19381,
+     "end": 19518
+    },
+    {
+     "quote": "This adverse feedback loop between financial conditions and the economy has been a prominent feature of the recession.",
+     "start": 4667,
+     "end": 4784
+    },
+    {
+     "quote": "encompasses both preventing inflation from falling too low in the near term and from rising too far as the economy recovers.",
+     "start": 21882,
+     "end": 22005
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

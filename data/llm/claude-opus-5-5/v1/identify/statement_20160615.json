@@ -1,0 +1,52 @@
+{
+ "key": "statement_20160615",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20160615",
+  "release_date": "2016-06-15"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5df0164b4e325a40633a7c1845dd3136fea657bbeda066ecb8fc8833b0011267",
+ "message_id": "msg_011CgFudVcts2HTEQn9h8B6Z",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1507,
+  "output_tokens": 222,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2016,\"month\":6,\"confidence\":0.85,\"cues\":[\"Labor market improvement slowed and job gains diminished, matching the weak May 2016 payrolls report\",\"Household spending growth strengthened, which points to Q2 2016\",\"Market-based inflation compensation declined\",\"The target range was maintained at the post-December 2015 level, and the statement still refers to 'gradual increases'\",\"The 2016 voter roster includes Bullard, Rosengren, Brainard and Fischer, with Esther George presumably the dissenter, since she dissented in April 2016 but not in June\",\"No dissent appears to be listed, which fits the unanimous June 2016 decision\"]}",
+ "parsed": {
+  "year": 2016,
+  "month": 6,
+  "confidence": 0.85,
+  "cues": [
+   "Labor market improvement slowed and job gains diminished, matching the weak May 2016 payrolls report",
+   "Household spending growth strengthened, which points to Q2 2016",
+   "Market-based inflation compensation declined",
+   "The target range was maintained at the post-December 2015 level, and the statement still refers to 'gradual increases'",
+   "The 2016 voter roster includes Bullard, Rosengren, Brainard and Fischer, with Esther George presumably the dissenter, since she dissented in April 2016 but not in June",
+   "No dissent appears to be listed, which fits the unanimous June 2016 decision"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

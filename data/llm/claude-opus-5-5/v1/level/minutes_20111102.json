@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20111102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20111102",
+  "doc_type": "minutes",
+  "text_sha256": "6554c37f518929086b5ae6070a6b153368aee8d6e009796a078d1d67d5ee80ed"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3d71aa817de96ae341907a8486756471ea1991c68918f14fdf0226b64f522d82",
+ "message_id": "msg_011CgFugDnUwnLFNmdy1Sto5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13551,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A few members indicated that they believed the economic outlook might warrant additional policy accommodation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants still saw significant downside risks to the outlook for economic growth.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"most participants anticipated that inflation would settle, over coming quarters, at or below levels they judged to be most consistent with their dual mandate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the available indicators pointed to continued weakness in overall labor market conditions, and the unemployment rate remained elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"all Committee members agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September.\"}],\"rationale\":\"The minutes reaffirm near-zero rates through mid-2013, continue the maturity extension, emphasize downside growth risks and subdued inflation, and discuss possible further accommodation via communication changes, with one dissent calling for easing. Slightly stronger Q3 growth and a few hawkish concerns temper but do not offset the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few members indicated that they believed the economic outlook might warrant additional policy accommodation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants still saw significant downside risks to the outlook for economic growth."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "most participants anticipated that inflation would settle, over coming quarters, at or below levels they judged to be most consistent with their dual mandate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the available indicators pointed to continued weakness in overall labor market conditions, and the unemployment rate remained elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "all Committee members agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September."
+   }
+  ],
+  "rationale": "The minutes reaffirm near-zero rates through mid-2013, continue the maturity extension, emphasize downside growth risks and subdued inflation, and discuss possible further accommodation via communication changes, with one dissent calling for easing. Slightly stronger Q3 growth and a few hawkish concerns temper but do not offset the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013",
+     "start": 38775,
+     "end": 38874
+    },
+    {
+     "quote": "A few members indicated that they believed the economic outlook might warrant additional policy accommodation.",
+     "start": 39261,
+     "end": 39370
+    },
+    {
+     "quote": "participants still saw significant downside risks to the outlook for economic growth.",
+     "start": 35193,
+     "end": 35277
+    },
+    {
+     "quote": "most participants anticipated that inflation would settle, over coming quarters, at or below levels they judged to be most consistent with their dual mandate.",
+     "start": 28283,
+     "end": 28440
+    },
+    {
+     "quote": "the available indicators pointed to continued weakness in overall labor market conditions, and the unemployment rate remained elevated.",
+     "start": 30517,
+     "end": 30651
+    },
+    {
+     "quote": "all Committee members agreed to continue the program of extending the average maturity of the Federal Reserve's holdings of securities as announced in September.",
+     "start": 38136,
+     "end": 38296
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

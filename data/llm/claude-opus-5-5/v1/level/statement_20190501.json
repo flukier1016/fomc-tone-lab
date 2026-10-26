@@ -1,0 +1,112 @@
+{
+ "key": "statement_20190501",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20190501",
+  "doc_type": "statement",
+  "text_sha256": "8e90973a04b219ac5b8ab73ddb1ea5fc46aa0e639b751aa753a3c602ed935b96"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "39a7d0a6a2e0161e3c347a21381f402598f9534008697d2919398277b1e8f572",
+ "message_id": "msg_011CgFugCteyddzT1Mzi4N6K",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 666,
+  "output_tokens": 436,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"overall inflation and inflation for items other than food and energy have declined and are running below 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market remains strong and that economic activity rose at a solid rate\"},{\"dimension\":\"risk_balance\",\"quote\":\"In light of global economic and financial developments and muted inflation pressures\"}],\"rationale\":\"The Committee holds rates steady and keeps its patient guidance, citing below-2-percent inflation and global risks, which leans dovish. Solid labor market and growth readings partly offset this.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "overall inflation and inflation for items other than food and energy have declined and are running below 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market remains strong and that economic activity rose at a solid rate"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In light of global economic and financial developments and muted inflation pressures"
+   }
+  ],
+  "rationale": "The Committee holds rates steady and keeps its patient guidance, citing below-2-percent inflation and global risks, which leans dovish. Solid labor market and growth readings partly offset this."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent",
+     "start": 813,
+     "end": 916
+    },
+    {
+     "quote": "the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes",
+     "start": 1204,
+     "end": 1366
+    },
+    {
+     "quote": "overall inflation and inflation for items other than food and energy have declined and are running below 2 percent",
+     "start": 380,
+     "end": 494
+    },
+    {
+     "quote": "the labor market remains strong and that economic activity rose at a solid rate",
+     "start": 89,
+     "end": 168
+    },
+    {
+     "quote": "In light of global economic and financial developments and muted inflation pressures",
+     "start": 1118,
+     "end": 1202
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

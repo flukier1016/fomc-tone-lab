@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20250606a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250606a",
+  "doc_type": "speech",
+  "text_sha256": "1282b313dd970c6e9b222db29cad2dd2b7def5aae57647500d8c9e35cbc1ac12"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7a384971951b2c58a4b94eebf1d3619e4ab02eae537154e70aabd4cf7932ddc3",
+ "message_id": "msg_011CgFug8jsZtcdqSkQGpx7J",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6961,
+  "output_tokens": 384,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I will describe my approach to leading the Fed's Division of Supervision and Regulation in its vital work to promote the safe and sound operation of the U.S. banking system.\"},{\"dimension\":\"overall\",\"quote\":\"I expect that in the near future, the agencies will publish a proposal to help address this concern and ensure that the eSLR resumes functioning as a backstop capital requirement.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve will soon begin to address this mismatch, by proposing changes to the Large Financial Institution ratings framework.\"}],\"rationale\":\"The speech is about bank supervision and regulation (tailoring, ratings, eSLR, capital, applications) and does not address monetary policy, inflation, or the economic outlook. It is scored neutral with null dimensions.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I will describe my approach to leading the Fed's Division of Supervision and Regulation in its vital work to promote the safe and sound operation of the U.S. banking system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I expect that in the near future, the agencies will publish a proposal to help address this concern and ensure that the eSLR resumes functioning as a backstop capital requirement."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve will soon begin to address this mismatch, by proposing changes to the Large Financial Institution ratings framework."
+   }
+  ],
+  "rationale": "The speech is about bank supervision and regulation (tailoring, ratings, eSLR, capital, applications) and does not address monetary policy, inflation, or the economic outlook. It is scored neutral with null dimensions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I will describe my approach to leading the Fed's Division of Supervision and Regulation in its vital work to promote the safe and sound operation of the U.S. banking system.",
+     "start": 124,
+     "end": 303
+    },
+    {
+     "quote": "I expect that in the near future, the agencies will publish a proposal to help address this concern and ensure that the eSLR resumes functioning as a backstop capital requirement.",
+     "start": 15184,
+     "end": 15362
+    },
+    {
+     "quote": "The Federal Reserve will soon begin to address this mismatch, by proposing changes to the Large Financial Institution ratings framework.",
+     "start": 5970,
+     "end": 6105
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

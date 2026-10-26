@@ -1,0 +1,52 @@
+{
+ "key": "statement_20180321",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20180321",
+  "release_date": "2018-03-21"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "41a9053ea52002b8ecaba1af2c6486a3dcf2d81e3fdfdd6303b278093cf41763",
+ "message_id": "msg_011CgFudVf8DBgtGmJWACEHV",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1305,
+  "output_tokens": 255,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2018,\"month\":3,\"confidence\":0.93,\"cues\":[\"Rate hike combined with the new sentence 'The economic outlook has strengthened in recent months', which is characteristic of the March 2018 statement\",\"Household spending and business fixed investment said to have moderated from strong fourth-quarter readings, implying an early-year meeting\",\"Inflation running below 2 percent with an expectation that it will move up in coming months\",\"Statement that near-term risks appear roughly balanced while the Committee monitors inflation closely\",\"Phrasing 'further gradual increases' fits the 2017-2018 tightening cycle\",\"Small voting roster that includes Lael Brainard, consistent with early 2018 (Powell as Chairman, Dudley as Vice Chairman)\"]}",
+ "parsed": {
+  "year": 2018,
+  "month": 3,
+  "confidence": 0.93,
+  "cues": [
+   "Rate hike combined with the new sentence 'The economic outlook has strengthened in recent months', which is characteristic of the March 2018 statement",
+   "Household spending and business fixed investment said to have moderated from strong fourth-quarter readings, implying an early-year meeting",
+   "Inflation running below 2 percent with an expectation that it will move up in coming months",
+   "Statement that near-term risks appear roughly balanced while the Committee monitors inflation closely",
+   "Phrasing 'further gradual increases' fits the 2017-2018 tightening cycle",
+   "Small voting roster that includes Lael Brainard, consistent with early 2018 (Powell as Chairman, Dudley as Vice Chairman)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

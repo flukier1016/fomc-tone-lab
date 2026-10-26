@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240625a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240625a",
+  "doc_type": "speech",
+  "text_sha256": "0b48ce4cd9a698f83b144d0d72de910f47d6e382c320e38f3cb2fb89c6f45a68"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b57c7c36fa492d6a5b17802d9dc7b17f535dc44572b589dcbd7e93a5972af31d",
+ "message_id": "msg_011CgFugFJWcNokvMHoTjZvn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8053,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to raise the target range for the federal funds rate at a future meeting should progress on inflation stall or even reverse.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"However, we are still not yet at the point where it is appropriate to lower the policy rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect inflation to remain elevated for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Inflation in the U.S. remains elevated, and I still see a number of upside inflation risks that affect my outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite some further rebalancing between supply and demand, the labor market remains tight.\"},{\"dimension\":\"overall\",\"quote\":\"Reducing our policy rate too soon or too quickly could result in a rebound in inflation, requiring further future policy rate increases to return inflation to 2 percent over the longer run.\"}],\"rationale\":\"The speaker expects rates to stay on hold for some time, emphasizes upside inflation risks and a tight labor market, and remains open to further hikes. Eventual cuts are acknowledged only as conditional. Half the speech covers bank capital, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to raise the target range for the federal funds rate at a future meeting should progress on inflation stall or even reverse."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect inflation to remain elevated for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Inflation in the U.S. remains elevated, and I still see a number of upside inflation risks that affect my outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite some further rebalancing between supply and demand, the labor market remains tight."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Reducing our policy rate too soon or too quickly could result in a rebound in inflation, requiring further future policy rate increases to return inflation to 2 percent over the longer run."
+   }
+  ],
+  "rationale": "The speaker expects rates to stay on hold for some time, emphasizes upside inflation risks and a tight labor market, and remains open to further hikes. Eventual cuts are acknowledged only as conditional. Half the speech covers bank capital, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I remain willing to raise the target range for the federal funds rate at a future meeting should progress on inflation stall or even reverse.",
+     "start": 12675,
+     "end": 12815
+    },
+    {
+     "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate.",
+     "start": 12433,
+     "end": 12524
+    },
+    {
+     "quote": "I expect inflation to remain elevated for some time.",
+     "start": 6760,
+     "end": 6811
+    },
+    {
+     "quote": "Inflation in the U.S. remains elevated, and I still see a number of upside inflation risks that affect my outlook.",
+     "start": 9313,
+     "end": 9426
+    },
+    {
+     "quote": "Despite some further rebalancing between supply and demand, the labor market remains tight.",
+     "start": 7392,
+     "end": 7482
+    },
+    {
+     "quote": "Reducing our policy rate too soon or too quickly could result in a rebound in inflation, requiring further future policy rate increases to return inflation to 2 percent over the longer run.",
+     "start": 12975,
+     "end": 13163
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

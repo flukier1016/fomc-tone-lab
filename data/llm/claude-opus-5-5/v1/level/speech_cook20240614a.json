@@ -1,0 +1,85 @@
+{
+ "key": "speech_cook20240614a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240614a",
+  "doc_type": "speech",
+  "text_sha256": "b42df0233076d415c11080385c92eac08fc0f7421257f1250ffaab16350ee656"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8407c85aba0e744a30412606a55f9dc9fc5b4de6b1cbc07b5de2649d6a1d9ae5",
+ "message_id": "msg_011CgFugGVCSRRQgqrfwJXNw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2273,
+  "output_tokens": 262,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am delighted to celebrate 50 years of the American Economic Association's Summer Program (AEASP) with you this evening.\"},{\"dimension\":\"overall\",\"quote\":\"Second, outreach and recruiting efforts are very important.\"}],\"rationale\":\"The speech is a celebratory address about the AEA Summer Program and mentoring in economics, with no discussion of monetary policy, inflation, or the economy. No policy signal is present.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am delighted to celebrate 50 years of the American Economic Association's Summer Program (AEASP) with you this evening."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Second, outreach and recruiting efforts are very important."
+   }
+  ],
+  "rationale": "The speech is a celebratory address about the AEA Summer Program and mentoring in economics, with no discussion of monetary policy, inflation, or the economy. No policy signal is present."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am delighted to celebrate 50 years of the American Economic Association's Summer Program (AEASP) with you this evening.",
+     "start": 0,
+     "end": 120
+    },
+    {
+     "quote": "Second, outreach and recruiting efforts are very important.",
+     "start": 3596,
+     "end": 3654
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

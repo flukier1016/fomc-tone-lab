@@ -1,0 +1,112 @@
+{
+ "key": "speech_kohn20090910a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090910a",
+  "doc_type": "speech",
+  "text_sha256": "ce627bb0ccafec1168d7912740359510d2ccdbb709e9cedb6efd5341cb673865"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7ef6602573db2763d0412a46bf0f1812746db28f319a3cac8ed4261b1a049a21",
+ "message_id": "msg_011CgFugCcHXG8jppxJqqUep",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3157,
+  "output_tokens": 564,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With the global economy quite weak and inflation low, a large and rapid rise seems quite improbable.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the provision of forward guidance that the level of short-term interest rates is expected to remain quite low \\\"for an extended period\\\" conditional on the outlook for the economy and inflation\"},{\"dimension\":\"risk_balance\",\"quote\":\"a policy of achieving \\\"temporarily\\\" higher inflation over the medium term would run the risk of altering inflation expectations beyond the horizon that is desirable.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"So we continue to develop tools that enable the Federal Open Market Committee (FOMC) to drain or neutralize large volumes of reserves were the Committee to decide that doing so would support its objectives.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"keep inflation expectations from slipping to undesirably low levels in order to prevent unwanted disinflation.\"}],\"rationale\":\"This academic discussion mostly defends crisis credit policies, notes a weak economy with low inflation, and reaffirms the 'extended period' guidance, all of which lean dovish. That lean is offset by rejecting a higher-inflation target and by emphasizing exit tools, leaving a near-neutral, slightly dovish stance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With the global economy quite weak and inflation low, a large and rapid rise seems quite improbable."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the provision of forward guidance that the level of short-term interest rates is expected to remain quite low \"for an extended period\" conditional on the outlook for the economy and inflation"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a policy of achieving \"temporarily\" higher inflation over the medium term would run the risk of altering inflation expectations beyond the horizon that is desirable."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "So we continue to develop tools that enable the Federal Open Market Committee (FOMC) to drain or neutralize large volumes of reserves were the Committee to decide that doing so would support its objectives."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "keep inflation expectations from slipping to undesirably low levels in order to prevent unwanted disinflation."
+   }
+  ],
+  "rationale": "This academic discussion mostly defends crisis credit policies, notes a weak economy with low inflation, and reaffirms the 'extended period' guidance, all of which lean dovish. That lean is offset by rejecting a higher-inflation target and by emphasizing exit tools, leaving a near-neutral, slightly dovish stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With the global economy quite weak and inflation low, a large and rapid rise seems quite improbable.",
+     "start": 6941,
+     "end": 7040
+    },
+    {
+     "quote": "the provision of forward guidance that the level of short-term interest rates is expected to remain quite low \"for an extended period\" conditional on the outlook for the economy and inflation",
+     "start": 10341,
+     "end": 10532
+    },
+    {
+     "quote": "a policy of achieving \"temporarily\" higher inflation over the medium term would run the risk of altering inflation expectations beyond the horizon that is desirable.",
+     "start": 9660,
+     "end": 9824
+    },
+    {
+     "quote": "So we continue to develop tools that enable the Federal Open Market Committee (FOMC) to drain or neutralize large volumes of reserves were the Committee to decide that doing so would support its objectives.",
+     "start": 8371,
+     "end": 8576
+    },
+    {
+     "quote": "keep inflation expectations from slipping to undesirably low levels in order to prevent unwanted disinflation.",
+     "start": 10169,
+     "end": 10278
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

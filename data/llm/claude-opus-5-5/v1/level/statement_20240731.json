@@ -1,0 +1,121 @@
+{
+ "key": "statement_20240731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20240731",
+  "doc_type": "statement",
+  "text_sha256": "68d3ea69c406f76de3891ac7fee8b7f7ac5faf949cea40f90483564d703b3527"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ae38b7c57f9af0f300706a5dbb8c96f89fc56c72e135315ec3fdf99e03dc4548",
+ "message_id": "msg_011CgFug9WWKS6sYJTLUeDQ2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 779,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have moderated, and the unemployment rate has moved up but remains low.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In recent months, there has been some further progress toward the Committee's 2 percent inflation objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the Committee is attentive to the risks to both sides of its dual mandate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.\"}],\"rationale\":\"Rates are held, but the statement notes softening labor conditions, further disinflation progress, and new attention to risks on both sides of the mandate, which leans toward coming cuts. Continued runoff and the conditional cut guidance temper the dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have moderated, and the unemployment rate has moved up but remains low."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In recent months, there has been some further progress toward the Committee's 2 percent inflation objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the Committee is attentive to the risks to both sides of its dual mandate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities."
+   }
+  ],
+  "rationale": "Rates are held, but the statement notes softening labor conditions, further disinflation progress, and new attention to risks on both sides of the mandate, which leans toward coming cuts. Continued runoff and the conditional cut guidance temper the dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent",
+     "start": 724,
+     "end": 827
+    },
+    {
+     "quote": "Job gains have moderated, and the unemployment rate has moved up but remains low.",
+     "start": 90,
+     "end": 170
+    },
+    {
+     "quote": "In recent months, there has been some further progress toward the Committee's 2 percent inflation objective.",
+     "start": 242,
+     "end": 349
+    },
+    {
+     "quote": "the Committee is attentive to the risks to both sides of its dual mandate.",
+     "start": 623,
+     "end": 696
+    },
+    {
+     "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.",
+     "start": 1007,
+     "end": 1179
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+     "start": 1194,
+     "end": 1320
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

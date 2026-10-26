@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20090414a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090414a",
+  "doc_type": "speech",
+  "text_sha256": "2f88ba1897f11f55f3ff07c87fbf0b306e66c00ee3ca653c6dfa938779cbacf2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6ad0a0939f8404ef72dced8e3e843f02c5fcf45629bfd10bce231d1371c67729",
+ "message_id": "msg_011CgFugCTcMjHRnkf2pV9At",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7878,
+  "output_tokens": 576,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC has made clear that it expects economic conditions to warrant holding the federal funds rate low for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"our best forecast is that inflation will remain quite low for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With recent job losses exceeding half a million per month, this year's college graduates are facing the toughest labor market in 25 years.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The FOMC has approved purchases of well over $1 trillion this year of mortgage-related securities guaranteed by the government-sponsored mortgage companies, Fannie Mae and Freddie Mac.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I can assure you that monetary policy makers are fully committed to acting as needed to withdraw on a timely basis the extraordinary support now being provided to the economy\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve will continue to take the necessary steps to unclog the credit markets and strengthen the economy.\"}],\"rationale\":\"The speech describes a severe recession, near-zero rates expected to stay low for an extended period, large asset purchases, and low inflation, signaling continued accommodation. Discussion of eventual exit is framed as a future contingency, tempering but not offsetting the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC has made clear that it expects economic conditions to warrant holding the federal funds rate low for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "our best forecast is that inflation will remain quite low for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With recent job losses exceeding half a million per month, this year's college graduates are facing the toughest labor market in 25 years."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The FOMC has approved purchases of well over $1 trillion this year of mortgage-related securities guaranteed by the government-sponsored mortgage companies, Fannie Mae and Freddie Mac."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I can assure you that monetary policy makers are fully committed to acting as needed to withdraw on a timely basis the extraordinary support now being provided to the economy"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve will continue to take the necessary steps to unclog the credit markets and strengthen the economy."
+   }
+  ],
+  "rationale": "The speech describes a severe recession, near-zero rates expected to stay low for an extended period, large asset purchases, and low inflation, signaling continued accommodation. Discussion of eventual exit is framed as a future contingency, tempering but not offsetting the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the FOMC has made clear that it expects economic conditions to warrant holding the federal funds rate low for an extended period.",
+     "start": 9361,
+     "end": 9489
+    },
+    {
+     "quote": "our best forecast is that inflation will remain quite low for some time.",
+     "start": 16804,
+     "end": 16875
+    },
+    {
+     "quote": "With recent job losses exceeding half a million per month, this year's college graduates are facing the toughest labor market in 25 years.",
+     "start": 1024,
+     "end": 1161
+    },
+    {
+     "quote": "The FOMC has approved purchases of well over $1 trillion this year of mortgage-related securities guaranteed by the government-sponsored mortgage companies, Fannie Mae and Freddie Mac.",
+     "start": 13837,
+     "end": 14020
+    },
+    {
+     "quote": "I can assure you that monetary policy makers are fully committed to acting as needed to withdraw on a timely basis the extraordinary support now being provided to the economy",
+     "start": 17877,
+     "end": 18051
+    },
+    {
+     "quote": "The Federal Reserve will continue to take the necessary steps to unclog the credit markets and strengthen the economy.",
+     "start": 14855,
+     "end": 14972
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

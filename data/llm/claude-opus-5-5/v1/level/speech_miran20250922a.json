@@ -1,0 +1,112 @@
+{
+ "key": "speech_miran20250922a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_miran20250922a",
+  "doc_type": "speech",
+  "text_sha256": "6feecd4b7385196ec442cd10e6339fc03cbd9a979a8fd111617e204348f65749"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8316194a90c60323dd4e785d2fcf6b375019eaf1a850f3cada8271c609a8001",
+ "message_id": "msg_011CgFugEVeXGPM6xfEbL3LQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6056,
+  "output_tokens": 513,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe the appropriate fed funds rate is in the mid-2 percent area, almost 2 percentage points lower than current policy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Leaving short-term interest rates roughly 2 percentage points too tight risks unnecessary layoffs and higher unemployment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect CPI rent inflation will decline from its current level of roughly 3.5 percent to below 1.5 percent in 2027.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With respect to tariffs, relatively small changes in some goods prices have led to what I view as unreasonable levels of concern.\"},{\"dimension\":\"overall\",\"quote\":\"I view policy as very restrictive, believe it poses material risks to the Fed's employment mandate, and would like to explain why.\"}],\"rationale\":\"The speaker explicitly argues the policy rate should be nearly 2 percentage points lower, citing a falling neutral rate, rent disinflation, and dismissing tariff inflation concerns. He emphasizes risks to employment from overly restrictive policy, an explicit easing signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe the appropriate fed funds rate is in the mid-2 percent area, almost 2 percentage points lower than current policy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Leaving short-term interest rates roughly 2 percentage points too tight risks unnecessary layoffs and higher unemployment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect CPI rent inflation will decline from its current level of roughly 3.5 percent to below 1.5 percent in 2027."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With respect to tariffs, relatively small changes in some goods prices have led to what I view as unreasonable levels of concern."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I view policy as very restrictive, believe it poses material risks to the Fed's employment mandate, and would like to explain why."
+   }
+  ],
+  "rationale": "The speaker explicitly argues the policy rate should be nearly 2 percentage points lower, citing a falling neutral rate, rent disinflation, and dismissing tariff inflation concerns. He emphasizes risks to employment from overly restrictive policy, an explicit easing signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe the appropriate fed funds rate is in the mid-2 percent area, almost 2 percentage points lower than current policy.",
+     "start": 3269,
+     "end": 3392
+    },
+    {
+     "quote": "Leaving short-term interest rates roughly 2 percentage points too tight risks unnecessary layoffs and higher unemployment.",
+     "start": 17818,
+     "end": 17939
+    },
+    {
+     "quote": "I expect CPI rent inflation will decline from its current level of roughly 3.5 percent to below 1.5 percent in 2027.",
+     "start": 4958,
+     "end": 5073
+    },
+    {
+     "quote": "With respect to tariffs, relatively small changes in some goods prices have led to what I view as unreasonable levels of concern.",
+     "start": 8219,
+     "end": 8347
+    },
+    {
+     "quote": "I view policy as very restrictive, believe it poses material risks to the Fed's employment mandate, and would like to explain why.",
+     "start": 418,
+     "end": 547
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "statement_20220126",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20220126",
+  "doc_type": "statement",
+  "text_sha256": "19796da63c960262e03003e8451675b94c697f7ab5e0c0c90407b06379981694"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "21c78f772cb76a3cc95573e9ddb72a3df773c6284a38987ab158258644dbcf35",
+ "message_id": "msg_011CgFugCCyeHZFTKNYmbPke",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 871,
+  "output_tokens": 472,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have been solid in recent months, and the unemployment rate has declined substantially.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Risks to the economic outlook remain, including from new variants of the virus.\"}],\"rationale\":\"The statement explicitly signals an imminent rate hike, citing inflation well above 2 percent and a strong labor market, and it confirms that asset purchases will end in early March. These are clear tightening signals despite the rate being held at zero.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have been solid in recent months, and the unemployment rate has declined substantially."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Risks to the economic outlook remain, including from new variants of the virus."
+   }
+  ],
+  "rationale": "The statement explicitly signals an imminent rate hike, citing inflation well above 2 percent and a strong labor market, and it confirms that asset purchases will end in early March. These are clear tightening signals despite the rate being held at zero."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation well above 2 percent and a strong labor market, the Committee expects it will soon be appropriate to raise the target range for the federal funds rate.",
+     "start": 1200,
+     "end": 1365
+    },
+    {
+     "quote": "The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.",
+     "start": 1367,
+     "end": 1494
+    },
+    {
+     "quote": "Job gains have been solid in recent months, and the unemployment rate has declined substantially.",
+     "start": 227,
+     "end": 323
+    },
+    {
+     "quote": "Supply and demand imbalances related to the pandemic and the reopening of the economy have continued to contribute to elevated levels of inflation.",
+     "start": 325,
+     "end": 471
+    },
+    {
+     "quote": "Risks to the economic outlook remain, including from new variants of the virus.",
+     "start": 887,
+     "end": 965
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_fischer20150829a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150829a",
+  "doc_type": "speech",
+  "text_sha256": "bdf51d393f88d67be2040ba19bb50b1091231473c1d7878ccdb6a904c12b0548"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f6a0b3e134b51a0440b4219e58a3be7e61db57a4fd889da0b793f6f95d652134",
+ "message_id": "msg_011CgFugFGXhab8eH5TygBqJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3879,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Yet, because monetary policy influences real activity with a substantial lag, we should not wait until inflation is back to 2 percent to begin tightening.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"With inflation low, we can probably remove accommodation at a gradual pace.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"there is good reason to believe that inflation will move higher as the forces holding down inflation dissipate further.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market is approaching our maximum employment objective, inflation has been persistently below 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"At this moment, we are following developments in the Chinese economy and their actual and potential effects on other economies even more closely than usual.\"},{\"dimension\":\"overall\",\"quote\":\"we will most likely need to proceed cautiously in normalizing the stance of monetary policy.\"}],\"rationale\":\"The speech argues that the forces holding down inflation are transitory and that tightening should begin before inflation reaches 2 percent, which leans hawkish. This is offset by its emphasis on low inflation, a cautious and gradual pace, and close attention to China, so the net stance is near neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Yet, because monetary policy influences real activity with a substantial lag, we should not wait until inflation is back to 2 percent to begin tightening."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "With inflation low, we can probably remove accommodation at a gradual pace."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "there is good reason to believe that inflation will move higher as the forces holding down inflation dissipate further."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market is approaching our maximum employment objective, inflation has been persistently below 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At this moment, we are following developments in the Chinese economy and their actual and potential effects on other economies even more closely than usual."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we will most likely need to proceed cautiously in normalizing the stance of monetary policy."
+   }
+  ],
+  "rationale": "The speech argues that the forces holding down inflation are transitory and that tightening should begin before inflation reaches 2 percent, which leans hawkish. This is offset by its emphasis on low inflation, a cautious and gradual pace, and close attention to China, so the net stance is near neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Yet, because monetary policy influences real activity with a substantial lag, we should not wait until inflation is back to 2 percent to begin tightening.",
+     "start": 12313,
+     "end": 12466
+    },
+    {
+     "quote": "With inflation low, we can probably remove accommodation at a gradual pace.",
+     "start": 12237,
+     "end": 12311
+    },
+    {
+     "quote": "there is good reason to believe that inflation will move higher as the forces holding down inflation dissipate further.",
+     "start": 8071,
+     "end": 8189
+    },
+    {
+     "quote": "the labor market is approaching our maximum employment objective, inflation has been persistently below 2 percent.",
+     "start": 261,
+     "end": 374
+    },
+    {
+     "quote": "At this moment, we are following developments in the Chinese economy and their actual and potential effects on other economies even more closely than usual.",
+     "start": 11334,
+     "end": 11489
+    },
+    {
+     "quote": "we will most likely need to proceed cautiously in normalizing the stance of monetary policy.",
+     "start": 12008,
+     "end": 12099
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

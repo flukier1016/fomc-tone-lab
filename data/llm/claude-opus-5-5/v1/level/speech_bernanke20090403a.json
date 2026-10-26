@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20090403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090403a",
+  "doc_type": "speech",
+  "text_sha256": "b65196819c460f6cd4d502956adcc3ad636c6998fc25a1a8f89dcc6b6da35372"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e9b352a0691c3d9f2344ab3f4731d19fa1b0551c68437fb12a12ef59f5564adb",
+ "message_id": "msg_011CgFugBMsvqCEJSbLSk48m",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7897,
+  "output_tokens": 595,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"And, with inflation expected to remain subdued for some time, the Committee has indicated that short-term interest rates are likely to remain low for an extended period.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Fed's holdings of high-quality securities are set to grow considerably as the FOMC, in an attempt to improve conditions in private credit markets, has announced large-scale open-market purchases of these securities.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The severe disruption of credit markets that began late in the summer of 2007 and the associated tightening in credit conditions and declines in asset prices have weighed heavily on economic activity here and abroad.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve will make responsible use of all its tools to stabilize financial markets and institutions, to promote the extension of credit to creditworthy borrowers, and to help build a foundation for economic recovery.\"},{\"dimension\":\"risk_balance\",\"quote\":\"they could complicate the Fed's task of raising short-term interest rates when the economy begins to recover or if inflation expectations were to begin to move higher.\"}],\"rationale\":\"The speech describes aggressive credit easing, expanding asset purchases, and rates near zero for an extended period amid severe economic weakness and subdued inflation. Discussion of exit tools is a modest, contingent hawkish note that does not offset the strongly accommodative signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "And, with inflation expected to remain subdued for some time, the Committee has indicated that short-term interest rates are likely to remain low for an extended period."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Fed's holdings of high-quality securities are set to grow considerably as the FOMC, in an attempt to improve conditions in private credit markets, has announced large-scale open-market purchases of these securities."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The severe disruption of credit markets that began late in the summer of 2007 and the associated tightening in credit conditions and declines in asset prices have weighed heavily on economic activity here and abroad."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve will make responsible use of all its tools to stabilize financial markets and institutions, to promote the extension of credit to creditworthy borrowers, and to help build a foundation for economic recovery."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "they could complicate the Fed's task of raising short-term interest rates when the economy begins to recover or if inflation expectations were to begin to move higher."
+   }
+  ],
+  "rationale": "The speech describes aggressive credit easing, expanding asset purchases, and rates near zero for an extended period amid severe economic weakness and subdued inflation. Discussion of exit tools is a modest, contingent hawkish note that does not offset the strongly accommodative signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "And, with inflation expected to remain subdued for some time, the Committee has indicated that short-term interest rates are likely to remain low for an extended period.",
+     "start": 4901,
+     "end": 5069
+    },
+    {
+     "quote": "The Fed's holdings of high-quality securities are set to grow considerably as the FOMC, in an attempt to improve conditions in private credit markets, has announced large-scale open-market purchases of these securities.",
+     "start": 19063,
+     "end": 19281
+    },
+    {
+     "quote": "The severe disruption of credit markets that began late in the summer of 2007 and the associated tightening in credit conditions and declines in asset prices have weighed heavily on economic activity here and abroad.",
+     "start": 4218,
+     "end": 4433
+    },
+    {
+     "quote": "the Federal Reserve will make responsible use of all its tools to stabilize financial markets and institutions, to promote the extension of credit to creditworthy borrowers, and to help build a foundation for economic recovery.",
+     "start": 25791,
+     "end": 26017
+    },
+    {
+     "quote": "they could complicate the Fed's task of raising short-term interest rates when the economy begins to recover or if inflation expectations were to begin to move higher.",
+     "start": 23323,
+     "end": 23489
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

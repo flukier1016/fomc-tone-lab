@@ -1,0 +1,164 @@
+{
+ "key": "statement_20100921",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100921",
+  "previous_doc_id": "statement_20100810",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "de858890c6dd2aed85ed77778a2a3442e096afce669af978bf33171a42aa5683",
+ "message_id": "msg_011CgFudyFoq2ZZcPbYqywcY",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1795,
+  "output_tokens": 824,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.\",\"after\":\"The Committee will continue to monitor the economic outlook and financial developments and is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.\",\"direction\":\"dovish\"},{\"before\":\"Measures of underlying inflation have trended lower in recent quarters and, with substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.\",\"after\":\"Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"inflation is likely to remain subdued for some time before rising to levels the Committee considers consistent with its mandate.\",\"direction\":\"dovish\"},{\"before\":\"Business spending on equipment and software is rising; however, investment in nonresidential structures continues to be weak and employers remain reluctant to add to payrolls.\",\"after\":\"Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.\",\"direction\":\"dovish\"},{\"before\":\"Bank lending has continued to contract.\",\"after\":\"Bank lending has continued to contract, but at a reduced rate in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"although the pace of economic recovery is likely to be more modest in the near term than had been anticipated.\",\"after\":\"although the pace of economic recovery is likely to be modest in the near term.\",\"direction\":\"neutral\"},{\"before\":\"To help support the economic recovery in a context of price stability, the Committee will keep constant the Federal Reserve's holdings of securities at their current level by reinvesting principal payments from agency debt and agency mortgage-backed securities in longer-term Treasury securities.\",\"after\":\"The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement explicitly signals readiness to provide additional accommodation and declares inflation below mandate-consistent levels, a clear shift in guidance toward further easing. Minor improvements in the economic description (bank lending) are outweighed by this new easing bias.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+    "after": "The Committee will continue to monitor the economic outlook and financial developments and is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Measures of underlying inflation have trended lower in recent quarters and, with substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+    "after": "Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "inflation is likely to remain subdued for some time before rising to levels the Committee considers consistent with its mandate.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Business spending on equipment and software is rising; however, investment in nonresidential structures continues to be weak and employers remain reluctant to add to payrolls.",
+    "after": "Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Bank lending has continued to contract.",
+    "after": "Bank lending has continued to contract, but at a reduced rate in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "although the pace of economic recovery is likely to be more modest in the near term than had been anticipated.",
+    "after": "although the pace of economic recovery is likely to be modest in the near term.",
+    "direction": "neutral"
+   },
+   {
+    "before": "To help support the economic recovery in a context of price stability, the Committee will keep constant the Federal Reserve's holdings of securities at their current level by reinvesting principal payments from agency debt and agency mortgage-backed securities in longer-term Treasury securities.",
+    "after": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement explicitly signals readiness to provide additional accommodation and declares inflation below mandate-consistent levels, a clear shift in guidance toward further easing. Minor improvements in the economic description (bank lending) are outweighed by this new easing bias."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+     "start": 1821,
+     "end": 2002
+    },
+    {
+     "quote": "Measures of underlying inflation have trended lower in recent quarters and, with substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+     "start": 817,
+     "end": 1057
+    },
+    {
+     "quote": "Business spending on equipment and software is rising; however, investment in nonresidential structures continues to be weak and employers remain reluctant to add to payrolls.",
+     "start": 315,
+     "end": 489
+    },
+    {
+     "quote": "Bank lending has continued to contract.",
+     "start": 535,
+     "end": 573
+    },
+    {
+     "quote": "although the pace of economic recovery is likely to be more modest in the near term than had been anticipated.",
+     "start": 705,
+     "end": 814
+    },
+    {
+     "quote": "To help support the economic recovery in a context of price stability, the Committee will keep constant the Federal Reserve's holdings of securities at their current level by reinvesting principal payments from agency debt and agency mortgage-backed securities in longer-term Treasury securities.",
+     "start": 1410,
+     "end": 1705
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee will continue to monitor the economic outlook and financial developments and is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.",
+     "start": 1772,
+     "end": 2027
+    },
+    {
+     "quote": "Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability.",
+     "start": 852,
+     "end": 1055
+    },
+    {
+     "quote": "inflation is likely to remain subdued for some time before rising to levels the Committee considers consistent with its mandate.",
+     "start": 1174,
+     "end": 1301
+    },
+    {
+     "quote": "Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.",
+     "start": 317,
+     "end": 484
+    },
+    {
+     "quote": "Bank lending has continued to contract, but at a reduced rate in recent months.",
+     "start": 574,
+     "end": 652
+    },
+    {
+     "quote": "although the pace of economic recovery is likely to be modest in the near term.",
+     "start": 771,
+     "end": 849
+    },
+    {
+     "quote": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+     "start": 1654,
+     "end": 1769
+    }
+   ]
+  }
+ }
+}

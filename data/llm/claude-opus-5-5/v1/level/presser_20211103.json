@@ -1,0 +1,121 @@
+{
+ "key": "presser_20211103",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20211103",
+  "doc_type": "presser",
+  "text_sha256": "30760e9be7715c3e751aa003c20e84969c6fc9e45087dee7b58546a22e4fa16c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "266313850110c7b32f5d518501025996ea618509fcab1bba9a5d8d0a77386dea",
+ "message_id": "msg_011CgFug8YiAEUFyNd4LT7VS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11563,
+  "output_tokens": 522,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the FOMC kept interest rates near zero and, in light of the progress the economy has made toward our goals, decided to begin reducing the pace of asset purchases.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"implying that increases in our securities holdings would cease by the middle of next year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We don’t think it’s time yet to raise interest rates. There is still ground to cover to reach maximum employment, both in terms of employment and in terms of participation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"And in this case, the risk is skewed. For now, it appears to be skewed toward higher inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The level of inflation we have right now is not at all consistent with price stability.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We think we can be patient. If a response is called for, we will not hesitate.\"}],\"rationale\":\"The Fed begins tapering and acknowledges upside inflation risks and that the inflation liftoff test may already be met, a hawkish lean, but rate guidance stresses patience and remaining labor-market slack. The net signal is mildly hawkish while still broadly balanced.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the FOMC kept interest rates near zero and, in light of the progress the economy has made toward our goals, decided to begin reducing the pace of asset purchases."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "implying that increases in our securities holdings would cease by the middle of next year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We don’t think it’s time yet to raise interest rates. There is still ground to cover to reach maximum employment, both in terms of employment and in terms of participation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "And in this case, the risk is skewed. For now, it appears to be skewed toward higher inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The level of inflation we have right now is not at all consistent with price stability."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We think we can be patient. If a response is called for, we will not hesitate."
+   }
+  ],
+  "rationale": "The Fed begins tapering and acknowledges upside inflation risks and that the inflation liftoff test may already be met, a hawkish lean, but rate guidance stresses patience and remaining labor-market slack. The net signal is mildly hawkish while still broadly balanced."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the FOMC kept interest rates near zero and, in light of the progress the economy has made toward our goals, decided to begin reducing the pace of asset purchases.",
+     "start": 173,
+     "end": 341
+    },
+    {
+     "quote": "implying that increases in our securities holdings would cease by the middle of next year.",
+     "start": 6399,
+     "end": 6488
+    },
+    {
+     "quote": "We don’t think it’s time yet to raise interest rates. There is still ground to cover to reach maximum employment, both in terms of employment and in terms of participation.",
+     "start": 7920,
+     "end": 8091
+    },
+    {
+     "quote": "And in this case, the risk is skewed. For now, it appears to be skewed toward higher inflation.",
+     "start": 22431,
+     "end": 22525
+    },
+    {
+     "quote": "The level of inflation we have right now is not at all consistent with price stability.",
+     "start": 13767,
+     "end": 13853
+    },
+    {
+     "quote": "We think we can be patient. If a response is called for, we will not hesitate.",
+     "start": 8671,
+     "end": 8748
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

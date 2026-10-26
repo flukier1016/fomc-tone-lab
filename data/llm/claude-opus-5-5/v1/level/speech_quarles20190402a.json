@@ -1,0 +1,85 @@
+{
+ "key": "speech_quarles20190402a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190402a",
+  "doc_type": "speech",
+  "text_sha256": "37a5b41a955d2d86c7cbc25dc8419477b5785c7967895d9aebef533e660173fb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "575dbedd301c7779d78f23a79b252f35ea7aabb3283ce71217f1e9a41f2462f3",
+ "message_id": "msg_011CgFugBGg6VzA8psU6Z6NS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3605,
+  "output_tokens": 338,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I want to briefly outline three tenets that I believe are essential to preserving the relevance and vitality of the FSB: engagement, vigilance, and analysis.\"},{\"dimension\":\"overall\",\"quote\":\"Nonbank financing has grown since the financial crisis, and it has been a source of systemic risk, often involving high leverage, maturity and liquidity mismatches, opaque structures, and concentrated holdings of risky assets.\"}],\"rationale\":\"The speech concerns FSB governance, financial stability, and regulatory cooperation, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I want to briefly outline three tenets that I believe are essential to preserving the relevance and vitality of the FSB: engagement, vigilance, and analysis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Nonbank financing has grown since the financial crisis, and it has been a source of systemic risk, often involving high leverage, maturity and liquidity mismatches, opaque structures, and concentrated holdings of risky assets."
+   }
+  ],
+  "rationale": "The speech concerns FSB governance, financial stability, and regulatory cooperation, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I want to briefly outline three tenets that I believe are essential to preserving the relevance and vitality of the FSB: engagement, vigilance, and analysis.",
+     "start": 2172,
+     "end": 2335
+    },
+    {
+     "quote": "Nonbank financing has grown since the financial crisis, and it has been a source of systemic risk, often involving high leverage, maturity and liquidity mismatches, opaque structures, and concentrated holdings of risky assets.",
+     "start": 8249,
+     "end": 8474
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

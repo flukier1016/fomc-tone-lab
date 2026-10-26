@@ -1,0 +1,121 @@
+{
+ "key": "presser_20211215",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20211215",
+  "doc_type": "presser",
+  "text_sha256": "025c625727eda2e54cfd4e3c7d19145dccd252490b27b0adbbc97a248689b59f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bba001c066028861346af32513d6d680b61a2fa3e22bb198acd22dafbfe33cf9",
+ "message_id": "msg_011CgFugEZ7mW7VxoTAXCaNx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14174,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"At today’s meeting, the Committee also decided to double the pace of reductions in its asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I don’t think that’s at all likely in this cycle. We’re in a very, very different place with high inflation, strong growth, a really strong economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"There’s a real risk now, we believe, I believe, that inflation may be more persistent and that may be putting inflation expectations under pressure, and that the risk of higher inflation becoming entrenched has increased.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"overall inflation is running well above our 2 percent longer-run goal and will likely continue to do so well into next year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market is, by so many measures, hotter than it ever ran in the last—in the last expansion\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So this is a strong economy, one in which it’s appropriate for, for interest rate hikes.\"}],\"rationale\":\"The Chair announces a doubled taper pace, expresses forceful concern about persistent inflation and entrenchment risk, and signals that rate hikes will follow soon after the taper ends with no long delay. The policy rate is held near zero, but the strong labor market assessment and the hiking outlook point clearly toward tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "At today’s meeting, the Committee also decided to double the pace of reductions in its asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I don’t think that’s at all likely in this cycle. We’re in a very, very different place with high inflation, strong growth, a really strong economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "There’s a real risk now, we believe, I believe, that inflation may be more persistent and that may be putting inflation expectations under pressure, and that the risk of higher inflation becoming entrenched has increased."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "overall inflation is running well above our 2 percent longer-run goal and will likely continue to do so well into next year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market is, by so many measures, hotter than it ever ran in the last—in the last expansion"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So this is a strong economy, one in which it’s appropriate for, for interest rate hikes."
+   }
+  ],
+  "rationale": "The Chair announces a doubled taper pace, expresses forceful concern about persistent inflation and entrenchment risk, and signals that rate hikes will follow soon after the taper ends with no long delay. The policy rate is held near zero, but the strong labor market assessment and the hiking outlook point clearly toward tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee also decided to double the pace of reductions in its asset purchases.",
+     "start": 5951,
+     "end": 6053
+    },
+    {
+     "quote": "I don’t think that’s at all likely in this cycle. We’re in a very, very different place with high inflation, strong growth, a really strong economy.",
+     "start": 39404,
+     "end": 39551
+    },
+    {
+     "quote": "There’s a real risk now, we believe, I believe, that inflation may be more persistent and that may be putting inflation expectations under pressure, and that the risk of higher inflation becoming entrenched has increased.",
+     "start": 32585,
+     "end": 32805
+    },
+    {
+     "quote": "overall inflation is running well above our 2 percent longer-run goal and will likely continue to do so well into next year.",
+     "start": 3379,
+     "end": 3502
+    },
+    {
+     "quote": "the labor market is, by so many measures, hotter than it ever ran in the last—in the last expansion",
+     "start": 25884,
+     "end": 25983
+    },
+    {
+     "quote": "So this is a strong economy, one in which it’s appropriate for, for interest rate hikes.",
+     "start": 39777,
+     "end": 39864
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

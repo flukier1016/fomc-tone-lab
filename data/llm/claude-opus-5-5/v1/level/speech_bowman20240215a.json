@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240215a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240215a",
+  "doc_type": "speech",
+  "text_sha256": "2b24b877bf7323085a847c83ddc4f543c2534aa324463014c9d6a4a4854897a6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "68745f1d297e5ebbc7418c12d4c49ed5780a0a8b143f33977d595851e7ef9f18",
+ "message_id": "msg_011CgFugADfqybtNTRvkTo7x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4839,
+  "output_tokens": 307,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am delighted to speak with you about advancing cross-border payments and financial inclusion.\"},{\"dimension\":\"overall\",\"quote\":\"The recent introduction of the FedNow® Service, our new interbank system for instant payments\"},{\"dimension\":\"overall\",\"quote\":\"Our progress will likely be incremental and slow, requiring a longer-term view.\"}],\"rationale\":\"The speech covers cross-border payments, financial inclusion and payment infrastructure, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am delighted to speak with you about advancing cross-border payments and financial inclusion."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The recent introduction of the FedNow® Service, our new interbank system for instant payments"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our progress will likely be incremental and slow, requiring a longer-term view."
+   }
+  ],
+  "rationale": "The speech covers cross-border payments, financial inclusion and payment infrastructure, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am delighted to speak with you about advancing cross-border payments and financial inclusion.",
+     "start": 336,
+     "end": 430
+    },
+    {
+     "quote": "The recent introduction of the FedNow® Service, our new interbank system for instant payments",
+     "start": 14717,
+     "end": 14810
+    },
+    {
+     "quote": "Our progress will likely be incremental and slow, requiring a longer-term view.",
+     "start": 16635,
+     "end": 16713
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

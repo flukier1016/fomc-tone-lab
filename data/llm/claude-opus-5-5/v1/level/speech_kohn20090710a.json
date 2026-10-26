@@ -1,0 +1,94 @@
+{
+ "key": "speech_kohn20090710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090710a",
+  "doc_type": "speech",
+  "text_sha256": "47da0f861c4a7ffbc08359f12ae730dbfc21483a94fa324088e9c9fb7022d1a4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "066bceae70fbbf295a3873a8bc83642150e915015da7824c5a49b9b4d92543cf",
+ "message_id": "msg_011CgFugAZFpBZ7K3AMNYTp9",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2799,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my opinion, the root cause of the problems was the underpricing of risk as the financial sector interacted with nonfinancial sectors.\"},{\"dimension\":\"overall\",\"quote\":\"Because of their systemic importance, they must be held to higher capital, liquidity, and risk-management standards.\"},{\"dimension\":\"overall\",\"quote\":\"This reasoning suggests that policy actions to treat underlying causes should address the causes of risk mispricing and should attempt to reduce uncertainty.\"}],\"rationale\":\"The speech is a discussion of financial-crisis causes and regulatory reform (transparency, capital standards, resolution authority) with no view on monetary policy, inflation, or the outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my opinion, the root cause of the problems was the underpricing of risk as the financial sector interacted with nonfinancial sectors."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Because of their systemic importance, they must be held to higher capital, liquidity, and risk-management standards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This reasoning suggests that policy actions to treat underlying causes should address the causes of risk mispricing and should attempt to reduce uncertainty."
+   }
+  ],
+  "rationale": "The speech is a discussion of financial-crisis causes and regulatory reform (transparency, capital standards, resolution authority) with no view on monetary policy, inflation, or the outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my opinion, the root cause of the problems was the underpricing of risk as the financial sector interacted with nonfinancial sectors.",
+     "start": 1559,
+     "end": 1694
+    },
+    {
+     "quote": "Because of their systemic importance, they must be held to higher capital, liquidity, and risk-management standards.",
+     "start": 6420,
+     "end": 6535
+    },
+    {
+     "quote": "This reasoning suggests that policy actions to treat underlying causes should address the causes of risk mispricing and should attempt to reduce uncertainty.",
+     "start": 4631,
+     "end": 4787
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

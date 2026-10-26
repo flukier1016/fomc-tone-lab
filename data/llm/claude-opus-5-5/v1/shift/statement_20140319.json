@@ -1,0 +1,174 @@
+{
+ "key": "statement_20140319",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20140319",
+  "previous_doc_id": "statement_20140129",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7b45d29d2e4a9fc08d090f001a9bea5f576df78db3762063724c03db70553d5b",
+ "message_id": "msg_011CgFudURxg4QEif5udu3LH",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3483,
+  "output_tokens": 1609,
+  "output_tokens_details": {
+   "thinking_tokens": 294
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\",\"after\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee also reaffirmed its expectation that the current exceptionally low target range for the federal funds rate of 0 to 1/4 percent will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee's 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.\",\"after\":\"In determining how long to maintain the current 0 to 1/4 percent target range for the federal funds rate, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation.\",\"direction\":\"neutral\"},{\"before\":\"it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\",\"after\":\"it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.\",\"direction\":\"dovish\"},{\"before\":\"Beginning in February, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $30 billion per month rather than $35 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $35 billion per month rather than $40 billion per month.\",\"after\":\"Beginning in April, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $25 billion per month rather than $30 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $30 billion per month rather than $35 billion per month.\",\"direction\":\"neutral\"},{\"before\":\"Information received since the Federal Open Market Committee met in December indicates that growth in economic activity picked up in recent quarters.\",\"after\":\"Information received since the Federal Open Market Committee met in January indicates that growth in economic activity slowed during the winter months, in part reflecting adverse weather conditions.\",\"direction\":\"dovish\"},{\"before\":\"The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced.\",\"after\":\"The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"Voting against the action was Narayana Kocherlakota, who supported the sixth paragraph, but believed the fifth paragraph weakens the credibility of the Committee's commitment to return inflation to the 2 percent target from below and fosters policy uncertainty that hinders economic activity.\",\"direction\":\"hawkish\"}],\"rationale\":\"Replacing the 6.5% unemployment threshold and 'well past' language with qualitative guidance tied to 'a considerable time after the asset purchase program ends' gives a more concrete, potentially earlier liftoff clock, as underscored by a dovish dissent, while the taper continues as scheduled. The new 'below normal for some time' language and weaker growth description partly offset this, leaving a modest hawkish shift.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+    "after": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee also reaffirmed its expectation that the current exceptionally low target range for the federal funds rate of 0 to 1/4 percent will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee's 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.",
+    "after": "In determining how long to maintain the current 0 to 1/4 percent target range for the federal funds rate, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation.",
+    "direction": "neutral"
+   },
+   {
+    "before": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.",
+    "after": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Beginning in February, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $30 billion per month rather than $35 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $35 billion per month rather than $40 billion per month.",
+    "after": "Beginning in April, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $25 billion per month rather than $30 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $30 billion per month rather than $35 billion per month.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in December indicates that growth in economic activity picked up in recent quarters.",
+    "after": "Information received since the Federal Open Market Committee met in January indicates that growth in economic activity slowed during the winter months, in part reflecting adverse weather conditions.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced.",
+    "after": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "Voting against the action was Narayana Kocherlakota, who supported the sixth paragraph, but believed the fifth paragraph weakens the credibility of the Committee's commitment to return inflation to the 2 percent target from below and fosters policy uncertainty that hinders economic activity.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "Replacing the 6.5% unemployment threshold and 'well past' language with qualitative guidance tied to 'a considerable time after the asset purchase program ends' gives a more concrete, potentially earlier liftoff clock, as underscored by a dovish dissent, while the taper continues as scheduled. The new 'below normal for some time' language and weaker growth description partly offset this, leaving a modest hawkish shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+     "start": 3844,
+     "end": 4061
+    },
+    {
+     "quote": "The Committee also reaffirmed its expectation that the current exceptionally low target range for the federal funds rate of 0 to 1/4 percent will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee's 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.",
+     "start": 4063,
+     "end": 4509
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.",
+     "start": 4895,
+     "end": 5163
+    },
+    {
+     "quote": "Beginning in February, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $30 billion per month rather than $35 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $35 billion per month rather than $40 billion per month.",
+     "start": 1911,
+     "end": 2212
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December indicates that growth in economic activity picked up in recent quarters.",
+     "start": 0,
+     "end": 148
+    },
+    {
+     "quote": "The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced.",
+     "start": 999,
+     "end": 1117
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.",
+     "start": 3780,
+     "end": 3893
+    },
+    {
+     "quote": "In determining how long to maintain the current 0 to 1/4 percent target range for the federal funds rate, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation.",
+     "start": 3895,
+     "end": 4132
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.",
+     "start": 4437,
+     "end": 4767
+    },
+    {
+     "quote": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+     "start": 4958,
+     "end": 5218
+    },
+    {
+     "quote": "Beginning in April, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $25 billion per month rather than $30 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $30 billion per month rather than $35 billion per month.",
+     "start": 1850,
+     "end": 2148
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January indicates that growth in economic activity slowed during the winter months, in part reflecting adverse weather conditions.",
+     "start": 0,
+     "end": 197
+    },
+    {
+     "quote": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
+     "start": 1046,
+     "end": 1145
+    },
+    {
+     "quote": "Voting against the action was Narayana Kocherlakota, who supported the sixth paragraph, but believed the fifth paragraph weakens the credibility of the Committee's commitment to return inflation to the 2 percent target from below and fosters policy uncertainty that hinders economic activity.",
+     "start": 5686,
+     "end": 5977
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "key": "statement_20140618",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20140618",
+  "release_date": "2014-06-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b8717261144627ffffe2d6ad4837407fa51dd7612a20b52ff8c940006573e252",
+ "message_id": "msg_011CgFudVcQ8oBB3xR3iAhz1",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2039,
+  "output_tokens": 311,
+  "output_tokens_details": {
+   "thinking_tokens": 109
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":6,\"confidence\":0.93,\"cues\":[\"Taper step: MBS from $20B to $15B and Treasuries from $25B to $20B per month, matching the June 2014 decision\",\"Lael Brainard and Stanley Fischer listed as voters; both joined the Board in mid-2014\",\"Activity 'has rebounded' after the weak Q1 2014\",\"'Considerable time after the asset purchase program ends' forward guidance from the 2014 statements\",\"Inflation persistently below the 2 percent objective\",\"Narayana Kocherlakota a voter (2014 rotation)\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 6,
+  "confidence": 0.93,
+  "cues": [
+   "Taper step: MBS from $20B to $15B and Treasuries from $25B to $20B per month, matching the June 2014 decision",
+   "Lael Brainard and Stanley Fischer listed as voters; both joined the Board in mid-2014",
+   "Activity 'has rebounded' after the weak Q1 2014",
+   "'Considerable time after the asset purchase program ends' forward guidance from the 2014 statements",
+   "Inflation persistently below the 2 percent objective",
+   "Narayana Kocherlakota a voter (2014 rotation)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

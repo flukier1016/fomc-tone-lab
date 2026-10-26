@@ -1,0 +1,112 @@
+{
+ "key": "statement_20091104",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20091104",
+  "doc_type": "statement",
+  "text_sha256": "bacb06e70beae958dc4adc82153fc657ac0ecb6b2b4a97757439c13f5af4870d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "faf2bba01635d630a6f02f46d7a3079c045a75fe5617ef6f13447995423629a3",
+ "message_id": "msg_011CgFugBejprfk8NfpPWfG6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 980,
+  "output_tokens": 450,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee expects that inflation will remain subdued for some time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although economic activity is likely to remain weak for a time\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will gradually slow the pace of its purchases of both agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The statement holds rates near zero with 'extended period' guidance, subdued inflation, and continued large asset purchases. Dovishness is tempered by improving activity, the trimmed agency debt total, and the planned taper of purchases.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee expects that inflation will remain subdued for some time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although economic activity is likely to remain weak for a time"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will gradually slow the pace of its purchases of both agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The statement holds rates near zero with 'extended period' guidance, subdued inflation, and continued large asset purchases. Dovishness is tempered by improving activity, the trimmed agency debt total, and the planned taper of purchases."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 1596,
+     "end": 1691
+    },
+    {
+     "quote": "the Committee expects that inflation will remain subdued for some time",
+     "start": 1119,
+     "end": 1189
+    },
+    {
+     "quote": "Although economic activity is likely to remain weak for a time",
+     "start": 640,
+     "end": 702
+    },
+    {
+     "quote": "the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt",
+     "start": 1813,
+     "end": 1947
+    },
+    {
+     "quote": "the Committee will gradually slow the pace of its purchases of both agency debt and agency mortgage-backed securities",
+     "start": 2215,
+     "end": 2332
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

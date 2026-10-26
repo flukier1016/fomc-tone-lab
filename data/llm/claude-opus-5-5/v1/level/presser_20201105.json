@@ -1,0 +1,121 @@
+{
+ "key": "presser_20201105",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20201105",
+  "doc_type": "presser",
+  "text_sha256": "a5ab6df450a3959cf174c585a503ba3628a5ee40f75ef1e1728231152c679d02"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6772a8007d63adbf74ac2a0d4dbfce25e2073805999acc2b39f91968599b0f56",
+ "message_id": "msg_011CgFugBVpPYtLcirbFbryA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10871,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we continue to expect that it will be appropriate to maintain the current 0 to ¼ percent target range for the federal funds rate until labor market conditions have reached levels consistent with the Committee’s assessments of maximum employment\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we understand the, the ways in which we can adjust the parameters of it to deliver more accommodation if it turns out to be appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Overall, on a 12-month basis, inflation remains below our 2 percent longer-run objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The recent rise in new COVID-19 cases, both here in the United States and abroad, is particularly concerning.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We are a long way from our goals.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"So, so we haven’t looked at reducing purchases.\"}],\"rationale\":\"The Chair reaffirms near-zero rates until maximum employment and above-2 percent inflation are achieved and keeps asset purchases going, with an openness to adding accommodation. He stresses downside risks from the virus and fading fiscal support, and he characterizes inflation as below goal and the recovery as incomplete.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we continue to expect that it will be appropriate to maintain the current 0 to ¼ percent target range for the federal funds rate until labor market conditions have reached levels consistent with the Committee’s assessments of maximum employment"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we understand the, the ways in which we can adjust the parameters of it to deliver more accommodation if it turns out to be appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Overall, on a 12-month basis, inflation remains below our 2 percent longer-run objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The recent rise in new COVID-19 cases, both here in the United States and abroad, is particularly concerning."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We are a long way from our goals."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "So, so we haven’t looked at reducing purchases."
+   }
+  ],
+  "rationale": "The Chair reaffirms near-zero rates until maximum employment and above-2 percent inflation are achieved and keeps asset purchases going, with an openness to adding accommodation. He stresses downside risks from the virus and fading fiscal support, and he characterizes inflation as below goal and the recovery as incomplete."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we continue to expect that it will be appropriate to maintain the current 0 to ¼ percent target range for the federal funds rate until labor market conditions have reached levels consistent with the Committee’s assessments of maximum employment",
+     "start": 4449,
+     "end": 4693
+    },
+    {
+     "quote": "we understand the, the ways in which we can adjust the parameters of it to deliver more accommodation if it turns out to be appropriate.",
+     "start": 15326,
+     "end": 15461
+    },
+    {
+     "quote": "Overall, on a 12-month basis, inflation remains below our 2 percent longer-run objective.",
+     "start": 2727,
+     "end": 2815
+    },
+    {
+     "quote": "The recent rise in new COVID-19 cases, both here in the United States and abroad, is particularly concerning.",
+     "start": 3005,
+     "end": 3113
+    },
+    {
+     "quote": "We are a long way from our goals.",
+     "start": 16807,
+     "end": 16839
+    },
+    {
+     "quote": "So, so we haven’t looked at reducing purchases.",
+     "start": 14128,
+     "end": 14174
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

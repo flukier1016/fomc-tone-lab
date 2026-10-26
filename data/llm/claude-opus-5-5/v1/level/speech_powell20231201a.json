@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20231201a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20231201a",
+  "doc_type": "speech",
+  "text_sha256": "59ac0c5c3b0c91b2e655eb9cdaf0f24d893da2b05dee8e274fe2d099c1dea1da"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "50b5eccfd285a04fba6423afdc20b6c86f66e6ced9f7df0c293f8e95ab62693a",
+ "message_id": "msg_011CgFugJaDVfLrwQGMSibuZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2286,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"It would be premature to conclude with confidence that we have achieved a sufficiently restrictive stance, or to speculate on when policy might ease.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We are prepared to tighten policy further if it becomes appropriate to do so.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"what we call \\\"core\\\" inflation is still 3.5 percent, well above our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the FOMC is moving forward carefully, as the risks of under- and over-tightening are becoming more balanced.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Today, labor market conditions remain very strong, and the economy is returning to a better balance between the demand for and supply of workers.\"}],\"rationale\":\"The speech keeps a tightening bias and pushes back on easing speculation while noting core inflation remains well above target and the labor market is strong. It also acknowledges disinflation progress and more balanced risks, which makes it a mild hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "It would be premature to conclude with confidence that we have achieved a sufficiently restrictive stance, or to speculate on when policy might ease."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are prepared to tighten policy further if it becomes appropriate to do so."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "what we call \"core\" inflation is still 3.5 percent, well above our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the FOMC is moving forward carefully, as the risks of under- and over-tightening are becoming more balanced."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Today, labor market conditions remain very strong, and the economy is returning to a better balance between the demand for and supply of workers."
+   }
+  ],
+  "rationale": "The speech keeps a tightening bias and pushes back on easing speculation while noting core inflation remains well above target and the labor market is strong. It also acknowledges disinflation progress and more balanced risks, which makes it a mild hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It would be premature to conclude with confidence that we have achieved a sufficiently restrictive stance, or to speculate on when policy might ease.",
+     "start": 6014,
+     "end": 6162
+    },
+    {
+     "quote": "We are prepared to tighten policy further if it becomes appropriate to do so.",
+     "start": 6164,
+     "end": 6240
+    },
+    {
+     "quote": "what we call \"core\" inflation is still 3.5 percent, well above our 2 percent objective.",
+     "start": 4131,
+     "end": 4217
+    },
+    {
+     "quote": "the FOMC is moving forward carefully, as the risks of under- and over-tightening are becoming more balanced.",
+     "start": 5331,
+     "end": 5438
+    },
+    {
+     "quote": "Today, labor market conditions remain very strong, and the economy is returning to a better balance between the demand for and supply of workers.",
+     "start": 2194,
+     "end": 2338
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

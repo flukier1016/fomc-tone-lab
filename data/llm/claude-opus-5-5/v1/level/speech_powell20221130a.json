@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20221130a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20221130a",
+  "doc_type": "speech",
+  "text_sha256": "1762245c47c1c537660ed4ad4a30d370300e5c4fca48c568f5c793f5983c89ad"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "17fb0cf3890de5a3e64e6e14ecc5c6a7b81ddf710a6adf080030059c683a86cb",
+ "message_id": "msg_011CgFugHUEX4ETZzQ5iuHJ3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4376,
+  "output_tokens": 482,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"The report must begin by acknowledging the reality that inflation remains far too high.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"It seems to me likely that the ultimate level of rates will need to be somewhat higher than thought at the time of the September meeting and Summary of Economic Projections.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The time for moderating the pace of rate increases may come as soon as the December meeting.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So far, we have seen only tentative signs of moderation of labor demand.\"},{\"dimension\":\"overall\",\"quote\":\"History cautions strongly against prematurely loosening policy. We will stay the course until the job is done.\"},{\"dimension\":\"risk_balance\",\"quote\":\"It will take substantially more evidence to give comfort that inflation is actually declining.\"}],\"rationale\":\"The speaker signals a higher terminal rate, rates held restrictive for some time, and forceful concern about inflation and a tight labor market. The hawkish lean is tempered by signaling a slower pace of hikes as soon as December.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The report must begin by acknowledging the reality that inflation remains far too high."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "It seems to me likely that the ultimate level of rates will need to be somewhat higher than thought at the time of the September meeting and Summary of Economic Projections."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The time for moderating the pace of rate increases may come as soon as the December meeting."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So far, we have seen only tentative signs of moderation of labor demand."
+   },
+   {
+    "dimension": "overall",
+    "quote": "History cautions strongly against prematurely loosening policy. We will stay the course until the job is done."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It will take substantially more evidence to give comfort that inflation is actually declining."
+   }
+  ],
+  "rationale": "The speaker signals a higher terminal rate, rates held restrictive for some time, and forceful concern about inflation and a tight labor market. The hawkish lean is tempered by signaling a slower pace of hikes as soon as December."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The report must begin by acknowledging the reality that inflation remains far too high.",
+     "start": 178,
+     "end": 264
+    },
+    {
+     "quote": "It seems to me likely that the ultimate level of rates will need to be somewhat higher than thought at the time of the September meeting and Summary of Economic Projections.",
+     "start": 3131,
+     "end": 3303
+    },
+    {
+     "quote": "The time for moderating the pace of rate increases may come as soon as the December meeting.",
+     "start": 13979,
+     "end": 14070
+    },
+    {
+     "quote": "So far, we have seen only tentative signs of moderation of labor demand.",
+     "start": 11499,
+     "end": 11570
+    },
+    {
+     "quote": "History cautions strongly against prematurely loosening policy. We will stay the course until the job is done.",
+     "start": 14449,
+     "end": 14558
+    },
+    {
+     "quote": "It will take substantially more evidence to give comfort that inflation is actually declining.",
+     "start": 1256,
+     "end": 1349
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

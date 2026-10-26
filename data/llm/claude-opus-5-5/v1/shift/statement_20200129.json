@@ -1,0 +1,109 @@
+{
+ "key": "statement_20200129",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200129",
+  "previous_doc_id": "statement_20191211",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "19d0b267fdcb8d587463f71c04d07e7197d7fa29d2a23dee96561e7e457bccd4",
+ "message_id": "msg_011CgFue1dgL1xdFAshaAYHT",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1310,
+  "output_tokens": 349,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Although household spending has been rising at a strong pace, business fixed investment and exports remain weak.\",\"after\":\"Although household spending has been rising at a moderate pace, business fixed investment and exports remain weak.\",\"direction\":\"dovish\"},{\"before\":\"and inflation near the Committee's symmetric 2 percent objective.\",\"after\":\"and inflation returning to the Committee's symmetric 2 percent objective.\",\"direction\":\"dovish\"},{\"before\":\"Information received since the Federal Open Market Committee met in October indicates\",\"after\":\"Information received since the Federal Open Market Committee met in December indicates\",\"direction\":\"neutral\"}],\"rationale\":\"The downgrade of household spending from 'strong' to 'moderate' and the shift from inflation 'near' to 'returning to' 2 percent acknowledge an inflation shortfall and signal greater tolerance for an overshoot, a mildly dovish tilt. The policy rate and forward guidance are otherwise unchanged, and the voter rotation is routine.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Although household spending has been rising at a strong pace, business fixed investment and exports remain weak.",
+    "after": "Although household spending has been rising at a moderate pace, business fixed investment and exports remain weak.",
+    "direction": "dovish"
+   },
+   {
+    "before": "and inflation near the Committee's symmetric 2 percent objective.",
+    "after": "and inflation returning to the Committee's symmetric 2 percent objective.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in October indicates",
+    "after": "Information received since the Federal Open Market Committee met in December indicates",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The downgrade of household spending from 'strong' to 'moderate' and the shift from inflation 'near' to 'returning to' 2 percent acknowledge an inflation shortfall and signal greater tolerance for an overshoot, a mildly dovish tilt. The policy rate and forward guidance are otherwise unchanged, and the voter rotation is routine."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Although household spending has been rising at a strong pace, business fixed investment and exports remain weak.",
+     "start": 287,
+     "end": 398
+    },
+    {
+     "quote": "and inflation near the Committee's symmetric 2 percent objective.",
+     "start": 1038,
+     "end": 1102
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in October indicates",
+     "start": 0,
+     "end": 85
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Although household spending has been rising at a moderate pace, business fixed investment and exports remain weak.",
+     "start": 288,
+     "end": 401
+    },
+    {
+     "quote": "and inflation returning to the Committee's symmetric 2 percent objective.",
+     "start": 1041,
+     "end": 1113
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December indicates",
+     "start": 0,
+     "end": 86
+    }
+   ]
+  }
+ }
+}

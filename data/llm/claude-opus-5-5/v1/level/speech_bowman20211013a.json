@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20211013a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20211013a",
+  "doc_type": "speech",
+  "text_sha256": "ca61b8ef1677baa5c48b7674298d41f302d97ba266bf64da75c06203375e2ff9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f102d079fbf7921d5c2d91ddf2eaf05806103e3d644869ee904c967e7220484a",
+ "message_id": "msg_011CgFugGWC7KWzSAFML4NXG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6374,
+  "output_tokens": 568,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":2,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I am very comfortable at this point with a decision to start to taper our asset purchases before the end of the year and, preferably, as early as at our next meeting in November.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"If the expansion continues as I expect, I will support a pace of tapering that would end our asset purchases by the middle of next year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Nevertheless, I still see a material risk that supply-related pricing pressures could last longer than expected.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"If elevated inflation readings continue into and through the next year, we may begin to see an imprint on longer-run inflation expectations.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"maintaining a highly accommodative monetary policy stance at this stage of the economic expansion may pose risks to the stability of longer-term inflation expectations.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I don't expect that we will see employment fully return to pre-pandemic levels any time soon.\"}],\"rationale\":\"Bowman advocates starting taper as early as November and ending purchases by mid-2022, citing upside inflation risks, valuation pressures, and risks to inflation expectations. Her cautious employment outlook is attributed to supply factors not addressable by policy, so the net signal leans hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 2,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I am very comfortable at this point with a decision to start to taper our asset purchases before the end of the year and, preferably, as early as at our next meeting in November."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "If the expansion continues as I expect, I will support a pace of tapering that would end our asset purchases by the middle of next year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Nevertheless, I still see a material risk that supply-related pricing pressures could last longer than expected."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "If elevated inflation readings continue into and through the next year, we may begin to see an imprint on longer-run inflation expectations."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "maintaining a highly accommodative monetary policy stance at this stage of the economic expansion may pose risks to the stability of longer-term inflation expectations."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I don't expect that we will see employment fully return to pre-pandemic levels any time soon."
+   }
+  ],
+  "rationale": "Bowman advocates starting taper as early as November and ending purchases by mid-2022, citing upside inflation risks, valuation pressures, and risks to inflation expectations. Her cautious employment outlook is attributed to supply factors not addressable by policy, so the net signal leans hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am very comfortable at this point with a decision to start to taper our asset purchases before the end of the year and, preferably, as early as at our next meeting in November.",
+     "start": 20439,
+     "end": 20616
+    },
+    {
+     "quote": "If the expansion continues as I expect, I will support a pace of tapering that would end our asset purchases by the middle of next year.",
+     "start": 21234,
+     "end": 21369
+    },
+    {
+     "quote": "Nevertheless, I still see a material risk that supply-related pricing pressures could last longer than expected.",
+     "start": 15830,
+     "end": 15941
+    },
+    {
+     "quote": "If elevated inflation readings continue into and through the next year, we may begin to see an imprint on longer-run inflation expectations.",
+     "start": 18499,
+     "end": 18638
+    },
+    {
+     "quote": "maintaining a highly accommodative monetary policy stance at this stage of the economic expansion may pose risks to the stability of longer-term inflation expectations.",
+     "start": 21065,
+     "end": 21232
+    },
+    {
+     "quote": "I don't expect that we will see employment fully return to pre-pandemic levels any time soon.",
+     "start": 10227,
+     "end": 10319
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "statement_20141029",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20141029",
+  "doc_type": "statement",
+  "text_sha256": "64e29c48adda5a461fb8076b9480a221abe827ea1de95b71826a338794b6239e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "49e4329b6379ebcbc4de79267ec0749e446d8d5da1b0960b3968826e1e74f4a3",
+ "message_id": "msg_011CgFug9AAkiu3iqZmQjzyX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1463,
+  "output_tokens": 584,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Accordingly, the Committee decided to conclude its asset purchase program this month.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced.\"}],\"rationale\":\"The statement ends asset purchases and upgrades the labor market outlook while reducing concern about persistently low inflation, a modest hawkish shift. That shift is tempered by retained 'considerable time' guidance, continued reinvestment, and a symmetric two-way rate path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Accordingly, the Committee decided to conclude its asset purchase program this month."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced."
+   }
+  ],
+  "rationale": "The statement ends asset purchases and upgrades the labor market outlook while reducing concern about persistently low inflation, a modest hawkish shift. That shift is tempered by retained 'considerable time' guidance, continued reinvestment, and a symmetric two-way rate path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Accordingly, the Committee decided to conclude its asset purchase program this month.",
+     "start": 1776,
+     "end": 1860
+    },
+    {
+     "quote": "The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.",
+     "start": 1432,
+     "end": 1592
+    },
+    {
+     "quote": "the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+     "start": 1293,
+     "end": 1429
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month",
+     "start": 2948,
+     "end": 3133
+    },
+    {
+     "quote": "if incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated.",
+     "start": 3319,
+     "end": 3575
+    },
+    {
+     "quote": "The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1083,
+     "end": 1188
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

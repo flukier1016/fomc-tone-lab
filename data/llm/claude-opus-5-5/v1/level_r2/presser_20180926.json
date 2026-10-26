@@ -1,0 +1,112 @@
+{
+ "key": "presser_20180926",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20180926",
+  "doc_type": "presser",
+  "text_sha256": "5f8069f54664ea3a288c37595cea5deb44b207c4f0e3fb9ebe57d9b8d437d230"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "736d54cc4531870a5e544c01669befec611476cf111252a4009638e182434026",
+ "message_id": "msg_011CgG2Ay1jdpsrRAJxC1bhY",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11206,
+  "output_tokens": 474,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the federal funds rate, even after today's move, is below the longer-run neutral estimate of every single participant\"},{\"dimension\":\"forward_guidance\",\"quote\":\"maybe we'll keep our neutral rate here and then go one or two rate increases beyond it. I think it's very possible\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economy has come in stronger than we expected, and that's a really good thing.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We're seeing a sort of modest increase in wages, inflation right around 2 percent, no sense of it moving up really, so we're not seeing it yet.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we think that gradually, you know, raising interest rates is the way that we kind of take both of those risks seriously.\"}],\"rationale\":\"Chair describes a strong economy, a rate increase, policy still accommodative, and possible modest overshoot of neutral, implying continued gradual hikes. Inflation is described as near 2 percent with balanced two-sided risks, tempering the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the federal funds rate, even after today's move, is below the longer-run neutral estimate of every single participant"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "maybe we'll keep our neutral rate here and then go one or two rate increases beyond it. I think it's very possible"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economy has come in stronger than we expected, and that's a really good thing."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We're seeing a sort of modest increase in wages, inflation right around 2 percent, no sense of it moving up really, so we're not seeing it yet."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we think that gradually, you know, raising interest rates is the way that we kind of take both of those risks seriously."
+   }
+  ],
+  "rationale": "Chair describes a strong economy, a rate increase, policy still accommodative, and possible modest overshoot of neutral, implying continued gradual hikes. Inflation is described as near 2 percent with balanced two-sided risks, tempering the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the federal funds rate, even after today's move, is below the longer-run neutral estimate of every single participant",
+     "start": 18735,
+     "end": 18852
+    },
+    {
+     "quote": "maybe we'll keep our neutral rate here and then go one or two rate increases beyond it. I think it's very possible",
+     "start": 20541,
+     "end": 20655
+    },
+    {
+     "quote": "the economy has come in stronger than we expected, and that's a really good thing.",
+     "start": 9567,
+     "end": 9648
+    },
+    {
+     "quote": "We're seeing a sort of modest increase in wages, inflation right around 2 percent, no sense of it moving up really, so we're not seeing it yet.",
+     "start": 14924,
+     "end": 15066
+    },
+    {
+     "quote": "we think that gradually, you know, raising interest rates is the way that we kind of take both of those risks seriously.",
+     "start": 4759,
+     "end": 4878
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

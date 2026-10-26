@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20190731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20190731",
+  "doc_type": "minutes",
+  "text_sha256": "88ca05b5b90eaa27a624c058c7ecdcccac3874b91bc30bd4900cfcdafa513ece"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4fbc2c6d5294f7458c6692c49430aa2e1f4ee8330e9237fa8605cd323b1ec600",
+ "message_id": "msg_011CgG2B4uwXX6AxZxMjq3kh",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15654,
+  "output_tokens": 636,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants viewed a proposed quarter-point policy easing at this meeting as part of a recalibration of the stance of policy, or mid-cycle adjustment, in response to the evolution of the economic outlook over recent months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Continued weakness in global economic growth remained a significant downside risk, and some participants noted that the likelihood of a no-deal Brexit had increased.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Most participants judged that long-term inflation expectations either were already below the Committee's 2 percent goal or could decline below the level consistent with that goal\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally noted that incoming data over the intermeeting period had been largely positive and that the economy had been resilient in the face of ongoing global developments.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Members generally agreed that it was important to maintain optionality in setting the future target range for the federal funds rate\"}],\"rationale\":\"The minutes explain a rate cut and early end to runoff driven by downside global/trade risks and below-target inflation, but frame it as a mid-cycle adjustment with optionality, several participants favoring no change, and a strong labor market. Net signal is moderately dovish rather than signaling an extended easing cycle.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants viewed a proposed quarter-point policy easing at this meeting as part of a recalibration of the stance of policy, or mid-cycle adjustment, in response to the evolution of the economic outlook over recent months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Continued weakness in global economic growth remained a significant downside risk, and some participants noted that the likelihood of a no-deal Brexit had increased."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Most participants judged that long-term inflation expectations either were already below the Committee's 2 percent goal or could decline below the level consistent with that goal"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally noted that incoming data over the intermeeting period had been largely positive and that the economy had been resilient in the face of ongoing global developments."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members generally agreed that it was important to maintain optionality in setting the future target range for the federal funds rate"
+   }
+  ],
+  "rationale": "The minutes explain a rate cut and early end to runoff driven by downside global/trade risks and below-target inflation, but frame it as a mid-cycle adjustment with optionality, several participants favoring no change, and a strong labor market. Net signal is moderately dovish rather than signaling an extended easing cycle."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants viewed a proposed quarter-point policy easing at this meeting as part of a recalibration of the stance of policy, or mid-cycle adjustment, in response to the evolution of the economic outlook over recent months.",
+     "start": 40776,
+     "end": 41004
+    },
+    {
+     "quote": "Continued weakness in global economic growth remained a significant downside risk, and some participants noted that the likelihood of a no-deal Brexit had increased.",
+     "start": 32328,
+     "end": 32492
+    },
+    {
+     "quote": "Most participants judged that long-term inflation expectations either were already below the Committee's 2 percent goal or could decline below the level consistent with that goal",
+     "start": 37786,
+     "end": 37964
+    },
+    {
+     "quote": "Participants generally noted that incoming data over the intermeeting period had been largely positive and that the economy had been resilient in the face of ongoing global developments.",
+     "start": 24617,
+     "end": 24802
+    },
+    {
+     "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+     "start": 50160,
+     "end": 50328
+    },
+    {
+     "quote": "Members generally agreed that it was important to maintain optionality in setting the future target range for the federal funds rate",
+     "start": 44306,
+     "end": 44438
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_cook20240617a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240617a",
+  "doc_type": "speech",
+  "text_sha256": "f1e8070a7e1168cc0eb3a34fd83d9e7cad4b23bda39d5849811c262e06f2f11c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5ee01fca2f470474d81970c5a60f4c6d020ace4c2875fe354cee96ddeacda218",
+ "message_id": "msg_011CgFugCJw2Pt38CSQnY4vC",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2945,
+  "output_tokens": 304,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thank you, John. And thank you to the Marshall Aid Commemoration Commission and the commissioners for this most extraordinary honor.\"},{\"dimension\":\"overall\",\"quote\":\"Given our similar economic structures and banking systems, there is always much to learn from each other to help ensure a resilient financial system.\"}],\"rationale\":\"This is a personal award acceptance speech about the Marshall Scholarship and U.S.-U.K. ties with no discussion of monetary policy, inflation, or the outlook. All policy dimensions are null and the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thank you, John. And thank you to the Marshall Aid Commemoration Commission and the commissioners for this most extraordinary honor."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given our similar economic structures and banking systems, there is always much to learn from each other to help ensure a resilient financial system."
+   }
+  ],
+  "rationale": "This is a personal award acceptance speech about the Marshall Scholarship and U.S.-U.K. ties with no discussion of monetary policy, inflation, or the outlook. All policy dimensions are null and the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thank you, John. And thank you to the Marshall Aid Commemoration Commission and the commissioners for this most extraordinary honor.",
+     "start": 0,
+     "end": 131
+    },
+    {
+     "quote": "Given our similar economic structures and banking systems, there is always much to learn from each other to help ensure a resilient financial system.",
+     "start": 8054,
+     "end": 8202
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

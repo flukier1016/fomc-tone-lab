@@ -1,0 +1,112 @@
+{
+ "key": "statement_20121212",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20121212",
+  "doc_type": "statement",
+  "text_sha256": "8a1612e409cdb60672a5f7e36b2f44048a38dbc0c2d383eac08771455825597f"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e845bfd9ccc51d291378e6620496bcadea125307515a2541ea4be96da1196879",
+ "message_id": "msg_011CgG27jzKMcVtZvheFiuzD",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1421,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has been running somewhat below the Committee’s longer-run objective\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although the unemployment rate has declined somewhat since the summer, it remains elevated.\"}],\"rationale\":\"The statement expands asset purchases with new $45 billion monthly Treasury buys and adopts threshold guidance that keeps rates near zero until unemployment falls below 6.5 percent. It also emphasizes downside risks and below-target inflation, making it strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has been running somewhat below the Committee’s longer-run objective"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although the unemployment rate has declined somewhat since the summer, it remains elevated."
+   }
+  ],
+  "rationale": "The statement expands asset purchases with new $45 billion monthly Treasury buys and adopts threshold guidance that keeps rates near zero until unemployment falls below 6.5 percent. It also emphasizes downside risks and below-target inflation, making it strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month.",
+     "start": 1491,
+     "end": 1725
+    },
+    {
+     "quote": "currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent",
+     "start": 3152,
+     "end": 3324
+    },
+    {
+     "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 1005,
+     "end": 1108
+    },
+    {
+     "quote": "Inflation has been running somewhat below the Committee’s longer-run objective",
+     "start": 477,
+     "end": 555
+    },
+    {
+     "quote": "Although the unemployment rate has declined somewhat since the summer, it remains elevated.",
+     "start": 225,
+     "end": 315
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20240520a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20240520a",
+  "doc_type": "speech",
+  "text_sha256": "b816f5a3bcf9d6463b98fa54760127a1089c0fecd341ef87a1878b28fe674802"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "71ef9ac61c88dac60e019fea0b6e31ed35c68973b479bf47556e4379a4230f51",
+ "message_id": "msg_011CgFugDRtyiEjWzSkZrWvT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3519,
+  "output_tokens": 596,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The FOMC noted that it does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Even so, Federal Reserve staff estimate that core PCE prices rose at an annual rate of 4.1 percent over the first four months of the year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"It is too early to tell whether the recent slowdown in the disinflationary process will be long lasting. The better reading for April is encouraging.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The U.S. economy continues to grow at a solid pace.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"At its last meeting, the FOMC also decided to continue the process of reducing our balance sheet, but at a slower pace.\"},{\"dimension\":\"overall\",\"quote\":\"I believe that our policy rate is in restrictive territory as we continue to see the labor market come into better balance, and inflation decline although nowhere near as quickly as I would have liked.\"}],\"rationale\":\"The speaker stresses that inflation is still elevated, that disinflation has slowed, and that growth remains solid, and repeats the guidance against cutting rates until there is greater confidence. That makes for a mild hawkish lean, partly offset by the encouraging April reading and the slower pace of balance-sheet runoff.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The FOMC noted that it does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Even so, Federal Reserve staff estimate that core PCE prices rose at an annual rate of 4.1 percent over the first four months of the year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "It is too early to tell whether the recent slowdown in the disinflationary process will be long lasting. The better reading for April is encouraging."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The U.S. economy continues to grow at a solid pace."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "At its last meeting, the FOMC also decided to continue the process of reducing our balance sheet, but at a slower pace."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe that our policy rate is in restrictive territory as we continue to see the labor market come into better balance, and inflation decline although nowhere near as quickly as I would have liked."
+   }
+  ],
+  "rationale": "The speaker stresses that inflation is still elevated, that disinflation has slowed, and that growth remains solid, and repeats the guidance against cutting rates until there is greater confidence. That makes for a mild hawkish lean, partly offset by the encouraging April reading and the slower pace of balance-sheet runoff."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The FOMC noted that it does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.",
+     "start": 5269,
+     "end": 5450
+    },
+    {
+     "quote": "Even so, Federal Reserve staff estimate that core PCE prices rose at an annual rate of 4.1 percent over the first four months of the year.",
+     "start": 3658,
+     "end": 3795
+    },
+    {
+     "quote": "It is too early to tell whether the recent slowdown in the disinflationary process will be long lasting. The better reading for April is encouraging.",
+     "start": 3872,
+     "end": 4020
+    },
+    {
+     "quote": "The U.S. economy continues to grow at a solid pace.",
+     "start": 1265,
+     "end": 1315
+    },
+    {
+     "quote": "At its last meeting, the FOMC also decided to continue the process of reducing our balance sheet, but at a slower pace.",
+     "start": 5626,
+     "end": 5744
+    },
+    {
+     "quote": "I believe that our policy rate is in restrictive territory as we continue to see the labor market come into better balance, and inflation decline although nowhere near as quickly as I would have liked.",
+     "start": 5067,
+     "end": 5267
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

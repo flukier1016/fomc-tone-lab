@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20110603a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20110603a",
+  "doc_type": "speech",
+  "text_sha256": "dd7bfc63f90088090cb8ef64eea6374abdc239de439f8d36f955bbb41b05d6d6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fa4b7889954ad1b8a526251b301a399e40cae5e1c0c614a59b75631f70230c44",
+ "message_id": "msg_011CgFug9YjqzouD1CjU2eAi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7508,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"My focus will be on the requirement for more stringent capital standards, which has generated particular interest.\"},{\"dimension\":\"overall\",\"quote\":\"Just as monetary policy must at times induce higher credit costs in order to forestall the wider problems that high inflation would bring, so some checks on the scale of SIFIs are warranted to avoid a repeat of the financial crisis.\"},{\"dimension\":\"overall\",\"quote\":\"capital requirements are integral to both microprudential and macroprudential regulation.\"}],\"rationale\":\"The speech is about SIFI capital regulation under Dodd-Frank and Basel III, not monetary policy. Its only mention of monetary policy is an analogy, so it carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "My focus will be on the requirement for more stringent capital standards, which has generated particular interest."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Just as monetary policy must at times induce higher credit costs in order to forestall the wider problems that high inflation would bring, so some checks on the scale of SIFIs are warranted to avoid a repeat of the financial crisis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "capital requirements are integral to both microprudential and macroprudential regulation."
+   }
+  ],
+  "rationale": "The speech is about SIFI capital regulation under Dodd-Frank and Basel III, not monetary policy. Its only mention of monetary policy is an analogy, so it carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My focus will be on the requirement for more stringent capital standards, which has generated particular interest.",
+     "start": 430,
+     "end": 543
+    },
+    {
+     "quote": "Just as monetary policy must at times induce higher credit costs in order to forestall the wider problems that high inflation would bring, so some checks on the scale of SIFIs are warranted to avoid a repeat of the financial crisis.",
+     "start": 21965,
+     "end": 22196
+    },
+    {
+     "quote": "capital requirements are integral to both microprudential and macroprudential regulation.",
+     "start": 25514,
+     "end": 25602
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

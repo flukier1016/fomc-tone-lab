@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20221014a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20221014a",
+  "doc_type": "speech",
+  "text_sha256": "85695aa7e085796d80320ad4593379d8a3c4c580be15c3834542342bdab5a0ea"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "45939aed4208170fcdad9abf92eb3b1a0ce8b3314a8321afec72e6509898a5c1",
+ "message_id": "msg_011CgFugDswRgww8z9Ed8kCY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4433,
+  "output_tokens": 341,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am highly skeptical of whether there is a compelling need for the Fed to create a digital currency.\"},{\"dimension\":\"overall\",\"quote\":\"the underlying reasons for why the dollar is the dominant currency have little to do with technology\"},{\"dimension\":\"overall\",\"quote\":\"It has often been suggested by commentators that private money-like instruments such as stablecoins threaten the effectiveness of monetary policy. I don't believe that to be the case\"}],\"rationale\":\"The speech addresses CBDCs, stablecoins and the dollar's international role, not the stance of monetary policy or the economic outlook. It offers no signal on rates, inflation, activity or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am highly skeptical of whether there is a compelling need for the Fed to create a digital currency."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the underlying reasons for why the dollar is the dominant currency have little to do with technology"
+   },
+   {
+    "dimension": "overall",
+    "quote": "It has often been suggested by commentators that private money-like instruments such as stablecoins threaten the effectiveness of monetary policy. I don't believe that to be the case"
+   }
+  ],
+  "rationale": "The speech addresses CBDCs, stablecoins and the dollar's international role, not the stance of monetary policy or the economic outlook. It offers no signal on rates, inflation, activity or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am highly skeptical of whether there is a compelling need for the Fed to create a digital currency.",
+     "start": 1051,
+     "end": 1151
+    },
+    {
+     "quote": "the underlying reasons for why the dollar is the dominant currency have little to do with technology",
+     "start": 1482,
+     "end": 1582
+    },
+    {
+     "quote": "It has often been suggested by commentators that private money-like instruments such as stablecoins threaten the effectiveness of monetary policy. I don't believe that to be the case",
+     "start": 13086,
+     "end": 13268
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

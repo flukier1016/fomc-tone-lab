@@ -1,0 +1,121 @@
+{
+ "key": "presser_20240501",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20240501",
+  "doc_type": "presser",
+  "text_sha256": "7b197666e6754895bfa9abaa0c7179809a93a3fcaba5128fbda674067b301d10"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b87d3ae900bf959065973e8f7c838a00998bd7521e2fb48a572ade7f8c0e3265",
+ "message_id": "msg_011CgFugC3ociJafPGLrgbWL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10952,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"It is likely that gaining such greater confidence will take longer than previously expected.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So I think it's unlikely that the next policy rate move will be a hike. I'd say it's unlikely.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, in recent months, inflation has shown a lack of further progress toward our 2 percent objective, and we remain highly attentive to inflation risks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has continued to expand at a solid pace.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Specifically, the cap on Treasury redemptions will be lowered from the current $60 billion per month to $25 billion per month as of June 1.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We're also prepared to respond to an unexpected weakening in the labor market.\"}],\"rationale\":\"The Committee held rates, and the Chair signaled that cuts would come later than previously expected because inflation stalled and the economy stayed strong, a moderately hawkish shift. He also explicitly downplayed the chance of a hike, and the slower balance-sheet runoff adds a mild dovish offset.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "It is likely that gaining such greater confidence will take longer than previously expected."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So I think it's unlikely that the next policy rate move will be a hike. I'd say it's unlikely."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, in recent months, inflation has shown a lack of further progress toward our 2 percent objective, and we remain highly attentive to inflation risks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has continued to expand at a solid pace."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Specifically, the cap on Treasury redemptions will be lowered from the current $60 billion per month to $25 billion per month as of June 1."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We're also prepared to respond to an unexpected weakening in the labor market."
+   }
+  ],
+  "rationale": "The Committee held rates, and the Chair signaled that cuts would come later than previously expected because inflation stalled and the economy stayed strong, a moderately hawkish shift. He also explicitly downplayed the chance of a hike, and the slower balance-sheet runoff adds a mild dovish offset."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is likely that gaining such greater confidence will take longer than previously expected.",
+     "start": 4528,
+     "end": 4619
+    },
+    {
+     "quote": "So I think it's unlikely that the next policy rate move will be a hike. I'd say it's unlikely.",
+     "start": 8846,
+     "end": 8939
+    },
+    {
+     "quote": "However, in recent months, inflation has shown a lack of further progress toward our 2 percent objective, and we remain highly attentive to inflation risks.",
+     "start": 1022,
+     "end": 1177
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+     "start": 1270,
+     "end": 1358
+    },
+    {
+     "quote": "Specifically, the cap on Treasury redemptions will be lowered from the current $60 billion per month to $25 billion per month as of June 1.",
+     "start": 5591,
+     "end": 5729
+    },
+    {
+     "quote": "We're also prepared to respond to an unexpected weakening in the labor market.",
+     "start": 4729,
+     "end": 4806
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

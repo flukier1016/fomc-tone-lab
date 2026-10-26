@@ -1,0 +1,53 @@
+{
+ "key": "statement_20150729",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20150729",
+  "release_date": "2015-07-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bf6c5aa4ed6167561001142ae83346e0189f377b459f4099fc8181476be9f909",
+ "message_id": "msg_011CgFudVTyEwKccUnG825oS",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1522,
+  "output_tokens": 631,
+  "output_tokens_details": {
+   "thinking_tokens": 338
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2015,\"month\":7,\"confidence\":0.85,\"cues\":[\"Economic activity described as 'expanding moderately in recent months' after a soft patch, matching the language used in mid-2015.\",\"'Underutilization of labor resources has diminished since early this year' places it mid-to-late 2015.\",\"'Solid job gains and declining unemployment' alongside soft business fixed investment and net exports fits the July 2015 statement.\",\"Inflation held down by earlier energy price declines and falling non-energy import prices, consistent with 2015.\",\"Liftoff is conditioned on 'some further improvement in the labor market', wording that first appeared in July 2015.\",\"The voting list includes Brainard and Fischer with no dissent, consistent with 2015 committee membership.\",\"Rates are still at the zero lower bound and reinvestment is ongoing, so it predates the December 2015 liftoff.\"]}",
+ "parsed": {
+  "year": 2015,
+  "month": 7,
+  "confidence": 0.85,
+  "cues": [
+   "Economic activity described as 'expanding moderately in recent months' after a soft patch, matching the language used in mid-2015.",
+   "'Underutilization of labor resources has diminished since early this year' places it mid-to-late 2015.",
+   "'Solid job gains and declining unemployment' alongside soft business fixed investment and net exports fits the July 2015 statement.",
+   "Inflation held down by earlier energy price declines and falling non-energy import prices, consistent with 2015.",
+   "Liftoff is conditioned on 'some further improvement in the labor market', wording that first appeared in July 2015.",
+   "The voting list includes Brainard and Fischer with no dissent, consistent with 2015 committee membership.",
+   "Rates are still at the zero lower bound and reinvestment is ongoing, so it predates the December 2015 liftoff."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20150601a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150601a",
+  "doc_type": "speech",
+  "text_sha256": "babf22943cb445430ad7c7f4000e9a4b3e607de58141e267b3a15ed01986f6ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "68a5c92fe184a94cad527cfef3911fcc92cd7f17e1a18d893352dead0393516d",
+ "message_id": "msg_011CgFugCJw4HtXyMy8WqPuf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6026,
+  "output_tokens": 492,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.35,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"where we are engaged in managing the expected exit from the policies adopted by the Fed to deal with the Great Recession.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We are in the seventh year of dealing with the consequences of that crisis, and the world economy is still growing very slowly.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"are still struggling to return to sustained growth, two percent inflation rates, and positive real central bank interest rates\"},{\"dimension\":\"risk_balance\",\"quote\":\"it would make sense not to rule out the possible use of the interest rate for this purpose, particularly when other tools appear to be lacking.\"},{\"dimension\":\"overall\",\"quote\":\"there is now growing evidence that recessions lead not only to a lower level of future output, but also to a persistently lower growth rate.\"}],\"rationale\":\"A retrospective speech on crisis lessons that mentions the expected exit from accommodation and openness to rate hikes for financial stability, balanced against descriptions of slow growth and below-target inflation. The net near-term policy signal is roughly neutral and only slightly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.35,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "where we are engaged in managing the expected exit from the policies adopted by the Fed to deal with the Great Recession."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We are in the seventh year of dealing with the consequences of that crisis, and the world economy is still growing very slowly."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "are still struggling to return to sustained growth, two percent inflation rates, and positive real central bank interest rates"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it would make sense not to rule out the possible use of the interest rate for this purpose, particularly when other tools appear to be lacking."
+   },
+   {
+    "dimension": "overall",
+    "quote": "there is now growing evidence that recessions lead not only to a lower level of future output, but also to a persistently lower growth rate."
+   }
+  ],
+  "rationale": "A retrospective speech on crisis lessons that mentions the expected exit from accommodation and openness to rate hikes for financial stability, balanced against descriptions of slow growth and below-target inflation. The net near-term policy signal is roughly neutral and only slightly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "where we are engaged in managing the expected exit from the policies adopted by the Fed to deal with the Great Recession.",
+     "start": 3330,
+     "end": 3450
+    },
+    {
+     "quote": "We are in the seventh year of dealing with the consequences of that crisis, and the world economy is still growing very slowly.",
+     "start": 17647,
+     "end": 17773
+    },
+    {
+     "quote": "are still struggling to return to sustained growth, two percent inflation rates, and positive real central bank interest rates",
+     "start": 2126,
+     "end": 2252
+    },
+    {
+     "quote": "it would make sense not to rule out the possible use of the interest rate for this purpose, particularly when other tools appear to be lacking.",
+     "start": 9752,
+     "end": 9894
+    },
+    {
+     "quote": "there is now growing evidence that recessions lead not only to a lower level of future output, but also to a persistently lower growth rate.",
+     "start": 18384,
+     "end": 18523
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

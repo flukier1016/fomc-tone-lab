@@ -1,0 +1,52 @@
+{
+ "key": "statement_20220504",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20220504",
+  "release_date": "2022-05-04"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7dcddffd6b38a2c2958f2e47064acc19718a2874115b6541984b051a903170c1",
+ "message_id": "msg_011CgFueJNWA2xTkHyni8dBu",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1194,
+  "output_tokens": 216,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2022,\"month\":5,\"confidence\":0.97,\"cues\":[\"Economic activity edged down in first quarter (Q1 2022 GDP decline)\",\"Russia's invasion of Ukraine referenced as ongoing\",\"COVID lockdowns in China (spring 2022)\",\"Balance sheet reduction beginning June 1 announced with Plans for Reducing the Size of the Balance Sheet (May 2022 meeting)\",\"Rate hike with ongoing increases anticipated (50bp hike to 0.75-1.00)\",\"Patrick Harker voting as alternate (Mester absent) at May 3-4, 2022 meeting\"]}",
+ "parsed": {
+  "year": 2022,
+  "month": 5,
+  "confidence": 0.97,
+  "cues": [
+   "Economic activity edged down in first quarter (Q1 2022 GDP decline)",
+   "Russia's invasion of Ukraine referenced as ongoing",
+   "COVID lockdowns in China (spring 2022)",
+   "Balance sheet reduction beginning June 1 announced with Plans for Reducing the Size of the Balance Sheet (May 2022 meeting)",
+   "Rate hike with ongoing increases anticipated (50bp hike to 0.75-1.00)",
+   "Patrick Harker voting as alternate (Mester absent) at May 3-4, 2022 meeting"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

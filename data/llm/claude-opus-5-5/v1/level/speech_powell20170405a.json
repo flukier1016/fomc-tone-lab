@@ -1,0 +1,85 @@
+{
+ "key": "speech_powell20170405a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170405a",
+  "doc_type": "speech",
+  "text_sha256": "8fe4f85e053c70a5b2e7c8436db7625c53cf0d93040fc257914f8cca5991e72c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6cb243b6a7ac68a9e84a01577a7d623ac05044433b55a6fb9849926661cab224",
+ "message_id": "msg_011CgFugEeKY693Frg1EdqP1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1457,
+  "output_tokens": 293,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"First, half of our monetary policy mandate is maximum sustainable employment.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve seeks to support MDIs in a number of ways, including our Partnership for Progress, our program for outreach and technical assistance to MDIs.\"}],\"rationale\":\"This is a welcoming address about supporting minority depository institutions and community development, and it offers no view on the policy path, inflation or the outlook. The mention of the employment mandate concerns distributional awareness, not policy direction.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "First, half of our monetary policy mandate is maximum sustainable employment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve seeks to support MDIs in a number of ways, including our Partnership for Progress, our program for outreach and technical assistance to MDIs."
+   }
+  ],
+  "rationale": "This is a welcoming address about supporting minority depository institutions and community development, and it offers no view on the policy path, inflation or the outlook. The mention of the employment mandate concerns distributional awareness, not policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "First, half of our monetary policy mandate is maximum sustainable employment.",
+     "start": 1623,
+     "end": 1699
+    },
+    {
+     "quote": "The Federal Reserve seeks to support MDIs in a number of ways, including our Partnership for Progress, our program for outreach and technical assistance to MDIs.",
+     "start": 864,
+     "end": 1024
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

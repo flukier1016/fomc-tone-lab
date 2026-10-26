@@ -1,0 +1,113 @@
+{
+ "key": "statement_20101103",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20101103",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "ad87d3d0782615b23364b4b23ae66a6d05da41653bab6e332a93155d509b4b79"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c63bacec2da0aca6603ad5369bc36abd0c75d634f1e691033a921bfa83b99971",
+ "message_id": "msg_011CgFudRW6R4oqCcM4UpMSb",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 993,
+  "output_tokens": 450,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of [YEAR], a pace of about $75 billion per month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"measures of underlying inflation have trended lower in recent quarters.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"progress toward its objectives has been disappointingly slow.\"},{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided today to expand its holdings of securities.\"}],\"rationale\":\"The statement announces a large new asset-purchase program and repeats the guidance for exceptionally low rates for an extended period, citing slow recovery, high unemployment and low underlying inflation. One hawkish dissent only slightly tempers a forcefully dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of [YEAR], a pace of about $75 billion per month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "measures of underlying inflation have trended lower in recent quarters."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "progress toward its objectives has been disappointingly slow."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided today to expand its holdings of securities."
+   }
+  ],
+  "rationale": "The statement announces a large new asset-purchase program and repeats the guidance for exceptionally low rates for an extended period, citing slow recovery, high unemployment and low underlying inflation. One hawkish dissent only slightly tempers a forcefully dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of [YEAR], a pace of about $75 billion per month.",
+     "start": 1534,
+     "end": 1707
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 2211,
+     "end": 2307
+    },
+    {
+     "quote": "measures of underlying inflation have trended lower in recent quarters.",
+     "start": 628,
+     "end": 698
+    },
+    {
+     "quote": "progress toward its objectives has been disappointingly slow.",
+     "start": 1144,
+     "end": 1204
+    },
+    {
+     "quote": "the Committee decided today to expand its holdings of securities.",
+     "start": 1343,
+     "end": 1407
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "key": "statement_20141217",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20141217",
+  "previous_doc_id": "statement_20141029",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "57bd5b5efcb351ee04100199c9a39e479d3be8344050b5ac2316b6bdea995343",
+ "message_id": "msg_011CgFudUtFFzdALxHi2XjMx",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2954,
+  "output_tokens": 896,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"The Committee anticipates, based on its current assessment, that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month\",\"after\":\"Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy. The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program in October\",\"direction\":\"hawkish\"},{\"before\":\"Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate.\",\"after\":\"Labor market conditions improved further, with solid job gains and a lower unemployment rate.\",\"direction\":\"hawkish\"},{\"before\":\"suggests that underutilization of labor resources is gradually diminishing.\",\"after\":\"suggests that underutilization of labor resources continues to diminish.\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation have declined somewhat;\",\"after\":\"Market-based measures of inflation compensation have declined somewhat further;\",\"direction\":\"dovish\"},{\"before\":\"Although inflation in the near term will likely be held down by lower energy prices and other factors, the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.\",\"after\":\"The Committee expects inflation to rise gradually toward 2 percent as the labor market improves further and the transitory effects of lower energy prices and other factors dissipate. The Committee continues to monitor inflation developments closely.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action was Narayana Kocherlakota\",\"after\":\"Voting against the action were Richard W. Fisher, who believed that, while the Committee should be patient in beginning to normalize monetary policy, improvement in the U.S. economic performance since October has moved forward, further than the majority of the Committee envisions, the date when it will likely be appropriate to increase the federal funds rate\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"and Charles I. Plosser, who believed that the statement should not stress the importance of the passage of time as a key element of its forward guidance\",\"direction\":\"hawkish\"}],\"rationale\":\"Replacing the calendar-based \\\"considerable time\\\" with \\\"patient in beginning to normalize\\\" signals a step toward liftoff, reinforced by firmer labor-market language and two new hawkish dissents. This is only partly offset by further declines in inflation compensation and the explicit claim of consistency with prior guidance.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "The Committee anticipates, based on its current assessment, that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month",
+    "after": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy. The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program in October",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate.",
+    "after": "Labor market conditions improved further, with solid job gains and a lower unemployment rate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "suggests that underutilization of labor resources is gradually diminishing.",
+    "after": "suggests that underutilization of labor resources continues to diminish.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation have declined somewhat;",
+    "after": "Market-based measures of inflation compensation have declined somewhat further;",
+    "direction": "dovish"
+   },
+   {
+    "before": "Although inflation in the near term will likely be held down by lower energy prices and other factors, the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+    "after": "The Committee expects inflation to rise gradually toward 2 percent as the labor market improves further and the transitory effects of lower energy prices and other factors dissipate. The Committee continues to monitor inflation developments closely.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action was Narayana Kocherlakota",
+    "after": "Voting against the action were Richard W. Fisher, who believed that, while the Committee should be patient in beginning to normalize monetary policy, improvement in the U.S. economic performance since October has moved forward, further than the majority of the Committee envisions, the date when it will likely be appropriate to increase the federal funds rate",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "and Charles I. Plosser, who believed that the statement should not stress the importance of the passage of time as a key element of its forward guidance",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "Replacing the calendar-based \"considerable time\" with \"patient in beginning to normalize\" signals a step toward liftoff, reinforced by firmer labor-market language and two new hawkish dissents. This is only partly offset by further declines in inflation compensation and the explicit claim of consistency with prior guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates, based on its current assessment, that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program this month",
+     "start": 2883,
+     "end": 3133
+    },
+    {
+     "quote": "Labor market conditions improved somewhat further, with solid job gains and a lower unemployment rate.",
+     "start": 143,
+     "end": 244
+    },
+    {
+     "quote": "suggests that underutilization of labor resources is gradually diminishing.",
+     "start": 293,
+     "end": 367
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined somewhat;",
+     "start": 583,
+     "end": 653
+    },
+    {
+     "quote": "Although inflation in the near term will likely be held down by lower energy prices and other factors, the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+     "start": 1190,
+     "end": 1429
+    },
+    {
+     "quote": "Voting against the action was Narayana Kocherlakota",
+     "start": 4409,
+     "end": 4460
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy. The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program in October",
+     "start": 2083,
+     "end": 2482
+    },
+    {
+     "quote": "Labor market conditions improved further, with solid job gains and a lower unemployment rate.",
+     "start": 141,
+     "end": 233
+    },
+    {
+     "quote": "suggests that underutilization of labor resources continues to diminish.",
+     "start": 282,
+     "end": 353
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined somewhat further;",
+     "start": 614,
+     "end": 692
+    },
+    {
+     "quote": "The Committee expects inflation to rise gradually toward 2 percent as the labor market improves further and the transitory effects of lower energy prices and other factors dissipate. The Committee continues to monitor inflation developments closely.",
+     "start": 1215,
+     "end": 1463
+    },
+    {
+     "quote": "Voting against the action were Richard W. Fisher, who believed that, while the Committee should be patient in beginning to normalize monetary policy, improvement in the U.S. economic performance since October has moved forward, further than the majority of the Committee envisions, the date when it will likely be appropriate to increase the federal funds rate",
+     "start": 4124,
+     "end": 4484
+    },
+    {
+     "quote": "and Charles I. Plosser, who believed that the statement should not stress the importance of the passage of time as a key element of its forward guidance",
+     "start": 4748,
+     "end": 4900
+    }
+   ]
+  }
+ }
+}

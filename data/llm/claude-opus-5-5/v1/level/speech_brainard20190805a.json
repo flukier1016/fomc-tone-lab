@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20190805a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190805a",
+  "doc_type": "speech",
+  "text_sha256": "5089af37583cdc658a39b5ecb7727313c982a471699d1ac576ca31899474b6bf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bf012cb2b7226c81b7742f21efb1bd50474489af8a1e9d8fe99503cfccaab617",
+ "message_id": "msg_011CgFug8efGULAf8xsznRCk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4677,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I am excited to announce the Federal Reserve will invest in a new service to help ensure that real-time payments are available to everyone.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve will develop the FedNow Service SM , a real-time payment and settlement service for the future.\"},{\"dimension\":\"overall\",\"quote\":\"Safety is also vital. If the Federal Reserve does not establish the FedNow Service, there will be a single provider of real-time retail payment services.\"}],\"rationale\":\"The speech is entirely about payment system infrastructure, specifically the FedNow announcement, and says nothing about monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I am excited to announce the Federal Reserve will invest in a new service to help ensure that real-time payments are available to everyone."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve will develop the FedNow Service SM , a real-time payment and settlement service for the future."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Safety is also vital. If the Federal Reserve does not establish the FedNow Service, there will be a single provider of real-time retail payment services."
+   }
+  ],
+  "rationale": "The speech is entirely about payment system infrastructure, specifically the FedNow announcement, and says nothing about monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I am excited to announce the Federal Reserve will invest in a new service to help ensure that real-time payments are available to everyone.",
+     "start": 349,
+     "end": 493
+    },
+    {
+     "quote": "The Federal Reserve will develop the FedNow Service SM , a real-time payment and settlement service for the future.",
+     "start": 495,
+     "end": 609
+    },
+    {
+     "quote": "Safety is also vital. If the Federal Reserve does not establish the FedNow Service, there will be a single provider of real-time retail payment services.",
+     "start": 11471,
+     "end": 11623
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

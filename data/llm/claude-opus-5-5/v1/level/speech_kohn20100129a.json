@@ -1,0 +1,112 @@
+{
+ "key": "speech_kohn20100129a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20100129a",
+  "doc_type": "speech",
+  "text_sha256": "12c483b34713c3ddac035b23fc2782b056a28356b619b568fcf9db1025a81083"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a80c0adf82d6ed1c14107987dac73b576a201181ebbec9523f787ecd9c8ec64",
+ "message_id": "msg_011CgFugApPRo1S77CAD7mbx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5195,
+  "output_tokens": 500,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it is obvious that as the economic recovery gains traction, it will be appropriate at some point for the FOMC to raise rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if the economy follows the trajectory expected by the Federal Reserve, are likely to stay there for an \\\"extended period.\\\"\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Most economists expect only moderate growth and a slow decline in the unemployment rate over the next few years\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We are now winding down those purchases. The effects on rates of the cessation of our purchases are likely to be modest, but that judgment is subject to considerable uncertainty.\"},{\"dimension\":\"overall\",\"quote\":\"Short-term rates will rise at some point, but when, how quickly, and by how much will depend on the outlook for economic activity and inflation\"}],\"rationale\":\"The speech is mainly about bank interest rate risk management. It reaffirms the 'extended period' of low rates while noting that eventual tightening and reserve draining will come, so the net policy signal is roughly neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it is obvious that as the economic recovery gains traction, it will be appropriate at some point for the FOMC to raise rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if the economy follows the trajectory expected by the Federal Reserve, are likely to stay there for an \"extended period.\""
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Most economists expect only moderate growth and a slow decline in the unemployment rate over the next few years"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We are now winding down those purchases. The effects on rates of the cessation of our purchases are likely to be modest, but that judgment is subject to considerable uncertainty."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Short-term rates will rise at some point, but when, how quickly, and by how much will depend on the outlook for economic activity and inflation"
+   }
+  ],
+  "rationale": "The speech is mainly about bank interest rate risk management. It reaffirms the 'extended period' of low rates while noting that eventual tightening and reserve draining will come, so the net policy signal is roughly neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it is obvious that as the economic recovery gains traction, it will be appropriate at some point for the FOMC to raise rates.",
+     "start": 480,
+     "end": 604
+    },
+    {
+     "quote": "if the economy follows the trajectory expected by the Federal Reserve, are likely to stay there for an \"extended period.\"",
+     "start": 5433,
+     "end": 5552
+    },
+    {
+     "quote": "Most economists expect only moderate growth and a slow decline in the unemployment rate over the next few years",
+     "start": 3430,
+     "end": 3541
+    },
+    {
+     "quote": "We are now winding down those purchases. The effects on rates of the cessation of our purchases are likely to be modest, but that judgment is subject to considerable uncertainty.",
+     "start": 6155,
+     "end": 6332
+    },
+    {
+     "quote": "Short-term rates will rise at some point, but when, how quickly, and by how much will depend on the outlook for economic activity and inflation",
+     "start": 2675,
+     "end": 2818
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

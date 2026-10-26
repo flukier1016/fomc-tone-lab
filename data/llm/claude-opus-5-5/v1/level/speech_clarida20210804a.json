@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20210804a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20210804a",
+  "doc_type": "speech",
+  "text_sha256": "dae65a0feb44eba46136cfeeff1ec6c22e54e0c61b180bad6e83b0783f10d995"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "561f4a7e4b1fdd60aa74eede1588efe5975bc8c3c27634075dfe4cabc67989a3",
+ "message_id": "msg_011CgFug9voqDdQqtThU3UKd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4125,
+  "output_tokens": 547,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"commencing policy normalization in 2023 would, under these conditions, be entirely consistent with our new flexible average inflation targeting framework.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I will consider that much more than a \\\"moderate\\\" overshoot of our 2 percent longer-run inflation objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I believe that the risks to my outlook for inflation are to the upside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants expect that the economy will continue to move toward our standard of \\\"substantial further progress.\\\"\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we remain in the recovery phase of the cycle in terms of aggregate employment.\"}],\"rationale\":\"The speaker signals that liftoff conditions could be met by end-2022, with normalization starting in 2023, and flags upside inflation risks and a more-than-moderate overshoot, which leans hawkish. This is tempered by his view that inflation is mostly transitory, an employment gap that remains, and his endorsement that a rate hike is not on the radar now.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "commencing policy normalization in 2023 would, under these conditions, be entirely consistent with our new flexible average inflation targeting framework."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I will consider that much more than a \"moderate\" overshoot of our 2 percent longer-run inflation objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I believe that the risks to my outlook for inflation are to the upside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants expect that the economy will continue to move toward our standard of \"substantial further progress.\""
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we remain in the recovery phase of the cycle in terms of aggregate employment."
+   }
+  ],
+  "rationale": "The speaker signals that liftoff conditions could be met by end-2022, with normalization starting in 2023, and flags upside inflation risks and a more-than-moderate overshoot, which leans hawkish. This is tempered by his view that inflation is mostly transitory, an employment gap that remains, and his endorsement that a rate hike is not on the radar now."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "then I believe that these three necessary conditions for raising the target range for the federal funds rate will have been met by year-end 2022.",
+     "start": 8118,
+     "end": 8262
+    },
+    {
+     "quote": "commencing policy normalization in 2023 would, under these conditions, be entirely consistent with our new flexible average inflation targeting framework.",
+     "start": 9849,
+     "end": 10002
+    },
+    {
+     "quote": "I will consider that much more than a \"moderate\" overshoot of our 2 percent longer-run inflation objective.",
+     "start": 6725,
+     "end": 6831
+    },
+    {
+     "quote": "I believe that the risks to my outlook for inflation are to the upside.",
+     "start": 6888,
+     "end": 6958
+    },
+    {
+     "quote": "Participants expect that the economy will continue to move toward our standard of \"substantial further progress.\"",
+     "start": 11890,
+     "end": 12001
+    },
+    {
+     "quote": "we remain in the recovery phase of the cycle in terms of aggregate employment.",
+     "start": 2649,
+     "end": 2726
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

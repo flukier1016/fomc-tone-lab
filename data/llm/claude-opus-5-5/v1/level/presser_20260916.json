@@ -1,0 +1,135 @@
+{
+ "key": "presser_20260916",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260916",
+  "doc_type": "presser",
+  "text_sha256": "971a262f1ad76653197c4423a2004095d47fe90cba073d99a3cdef6f408fb6f8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b1274d8b58a760366b7f493664cf00afcaea7e1b8d525346b285d1567131541c",
+ "message_id": "msg_011CgFuUEgyGKM6qrVgdNByc",
+ "request_id": "req_011CgFuUEKepdame2QDWaauW",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5880,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2241,
+    "input_tokens": 5880,
+    "model": null,
+    "output_tokens": 499,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:06:19+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the FOMC decided to raise the target range for the federal funds rate by a ¼ percentage point to 3¾ to 4 percent\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The plain fact is that inflation is too high and has been for too long.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So the labor side of the Fed’s congressional remit is in good shape.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Inflation risks are to the upside while labor risks are roughly balanced.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Today’s action starts to show we’re serious about this.\"},{\"dimension\":\"overall\",\"quote\":\"I would be hard pressed to describe broad financial conditions as restrictive. This view was widely shared by the Committee. So we removed a dose of accommodation.\"}],\"rationale\":\"The Chair announces a unanimous rate hike, stresses inflation is too high, describes a strong economy at full employment and upside inflation risks, and frames the move as a start (\\\"starts to show we're serious\\\"), though he avoids explicit forward guidance and the median dot implies little further tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the FOMC decided to raise the target range for the federal funds rate by a ¼ percentage point to 3¾ to 4 percent"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The plain fact is that inflation is too high and has been for too long."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So the labor side of the Fed’s congressional remit is in good shape."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Inflation risks are to the upside while labor risks are roughly balanced."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Today’s action starts to show we’re serious about this."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I would be hard pressed to describe broad financial conditions as restrictive. This view was widely shared by the Committee. So we removed a dose of accommodation."
+   }
+  ],
+  "rationale": "The Chair announces a unanimous rate hike, stresses inflation is too high, describes a strong economy at full employment and upside inflation risks, and frames the move as a start (\"starts to show we're serious\"), though he avoids explicit forward guidance and the median dot implies little further tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the FOMC decided to raise the target range for the federal funds rate by a ¼ percentage point to 3¾ to 4 percent",
+     "start": 41,
+     "end": 153
+    },
+    {
+     "quote": "The plain fact is that inflation is too high and has been for too long.",
+     "start": 2201,
+     "end": 2271
+    },
+    {
+     "quote": "So the labor side of the Fed’s congressional remit is in good shape.",
+     "start": 1988,
+     "end": 2055
+    },
+    {
+     "quote": "Inflation risks are to the upside while labor risks are roughly balanced.",
+     "start": 4652,
+     "end": 4724
+    },
+    {
+     "quote": "Today’s action starts to show we’re serious about this.",
+     "start": 16663,
+     "end": 16717
+    },
+    {
+     "quote": "I would be hard pressed to describe broad financial conditions as restrictive. This view was widely shared by the Committee. So we removed a dose of accommodation.",
+     "start": 1241,
+     "end": 1403
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

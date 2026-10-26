@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20240403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20240403a",
+  "doc_type": "speech",
+  "text_sha256": "31532837f398a268e54b9fe99a2b31f12b7f4b86d370998bc4672c7e726e1938"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dcc353042d34063f423612fb6d247b18d61f1db960839179791305d27a7b0fe2",
+ "message_id": "msg_011CgFugFKkcU3WcerPX9uW5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2416,
+  "output_tokens": 483,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If the economy evolves broadly as we expect, most FOMC participants see it as likely to be appropriate to begin lowering the policy rate at some point this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We do not expect that it will be appropriate to lower our policy rate until we have greater confidence that inflation is moving sustainably down toward 2 percent.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"While this progress is welcome, the job of sustainably restoring 2 percent inflation is not yet done.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent readings on both job gains and inflation have come in higher than expected.\"},{\"dimension\":\"risk_balance\",\"quote\":\"As progress on inflation continues and labor market tightness eases, these risks continue to move into better balance.\"}],\"rationale\":\"The speech signals that rate cuts are likely this year, though it conditions them on greater confidence about inflation and notes strong data that buy time. Risks are described as two-sided and moving into balance, so the net stance is near neutral with a slight dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the economy evolves broadly as we expect, most FOMC participants see it as likely to be appropriate to begin lowering the policy rate at some point this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We do not expect that it will be appropriate to lower our policy rate until we have greater confidence that inflation is moving sustainably down toward 2 percent."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "While this progress is welcome, the job of sustainably restoring 2 percent inflation is not yet done."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent readings on both job gains and inflation have come in higher than expected."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "As progress on inflation continues and labor market tightness eases, these risks continue to move into better balance."
+   }
+  ],
+  "rationale": "The speech signals that rate cuts are likely this year, though it conditions them on greater confidence about inflation and notes strong data that buy time. Risks are described as two-sided and moving into balance, so the net stance is near neutral with a slight dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the economy evolves broadly as we expect, most FOMC participants see it as likely to be appropriate to begin lowering the policy rate at some point this year.",
+     "start": 2865,
+     "end": 3025
+    },
+    {
+     "quote": "We do not expect that it will be appropriate to lower our policy rate until we have greater confidence that inflation is moving sustainably down toward 2 percent.",
+     "start": 2315,
+     "end": 2476
+    },
+    {
+     "quote": "While this progress is welcome, the job of sustainably restoring 2 percent inflation is not yet done.",
+     "start": 621,
+     "end": 721
+    },
+    {
+     "quote": "Recent readings on both job gains and inflation have come in higher than expected.",
+     "start": 1499,
+     "end": 1580
+    },
+    {
+     "quote": "As progress on inflation continues and labor market tightness eases, these risks continue to move into better balance.",
+     "start": 3389,
+     "end": 3506
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

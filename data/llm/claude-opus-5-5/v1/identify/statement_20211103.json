@@ -1,0 +1,52 @@
+{
+ "key": "statement_20211103",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20211103",
+  "release_date": "2021-11-03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e39832cfd67bc382696a61ab325810ae46d4f788c2f2490f279290093729d46e",
+ "message_id": "msg_011CgFudVZvbgdWPQetq6bdy",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1642,
+  "output_tokens": 204,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2021,\"month\":11,\"confidence\":0.97,\"cues\":[\"Announcement to begin tapering net asset purchases by $10 billion Treasuries and $5 billion MBS per month (November 3, 2021 decision)\",\"'Beginning later this month' purchases of $70B/$35B, then $60B/$30B in December\",\"'Substantial further progress... since last December' language\",\"'Summer's rise in COVID-19 cases has slowed their recovery'\",\"Inflation elevated, attributed to transitory factors and supply-demand imbalances\",\"Flexible average inflation targeting language (post-2020 framework)\"]}",
+ "parsed": {
+  "year": 2021,
+  "month": 11,
+  "confidence": 0.97,
+  "cues": [
+   "Announcement to begin tapering net asset purchases by $10 billion Treasuries and $5 billion MBS per month (November 3, 2021 decision)",
+   "'Beginning later this month' purchases of $70B/$35B, then $60B/$30B in December",
+   "'Substantial further progress... since last December' language",
+   "'Summer's rise in COVID-19 cases has slowed their recovery'",
+   "Inflation elevated, attributed to transitory factors and supply-demand imbalances",
+   "Flexible average inflation targeting language (post-2020 framework)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

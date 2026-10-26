@@ -1,0 +1,94 @@
+{
+ "key": "statement_20210317",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20210317",
+  "previous_doc_id": "statement_20210127",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b7c5581b412d3a80ce282b29288b2d8330b413295c39c6c05b6922ca28b2d295",
+ "message_id": "msg_011CgFudUTT5hbtXB9q9t5cJ",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1988,
+  "output_tokens": 286,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic.\",\"after\":\"Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.\",\"direction\":\"hawkish\"},{\"before\":\"Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.\",\"after\":\"Inflation continues to run below 2 percent.\",\"direction\":\"neutral\"}],\"rationale\":\"The economic assessment is modestly more upbeat, saying activity has turned up, and the inflation description is simplified. Policy guidance on rates and asset purchases is unchanged, so there is no material shift in the policy signal.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic.",
+    "after": "Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+    "after": "Inflation continues to run below 2 percent.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The economic assessment is modestly more upbeat, saying activity has turned up, and the inflation description is simplified. Policy guidance on rates and asset purchases is unchanged, so there is no material shift in the policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic.",
+     "start": 308,
+     "end": 482
+    },
+    {
+     "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+     "start": 484,
+     "end": 580
+    }
+   ]
+  },
+  "after": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.",
+     "start": 308,
+     "end": 504
+    },
+    {
+     "quote": "Inflation continues to run below 2 percent.",
+     "start": 506,
+     "end": 548
+    }
+   ]
+  }
+ }
+}

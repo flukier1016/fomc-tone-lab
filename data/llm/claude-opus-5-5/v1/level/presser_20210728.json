@@ -1,0 +1,121 @@
+{
+ "key": "presser_20210728",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20210728",
+  "doc_type": "presser",
+  "text_sha256": "72150734571ec62456b75e04b517aa42d6c94fda7bf126531827a69f06d12aac"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a16158232cba00a41745790ad111f82ab178103981d5222675b3c0dcfd0f6278",
+ "message_id": "msg_011CgFugCAzXKesRctBJwx6a",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12560,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee kept interest rates near zero and maintained our asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We're clearly a ways away from considering raising interest rates. It's not something that, that is on our radar screen right now.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants expect that the economy will continue to move toward our standard of \\\"substantial further progress.\\\"\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has increased notably and will likely remain elevated in coming months before moderating.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I would say, in the near term, that the, the, the risks to inflation are probably to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I think we're, we're some way away from, from having had substantial further progress with, with max—toward the maximum-employment goal.\"}],\"rationale\":\"Policy stays highly accommodative and rate hikes are said to be far off, but the Chair acknowledges taper discussions and upside inflation risks, along with readiness to respond. These offsetting signals leave the net stance roughly neutral, with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee kept interest rates near zero and maintained our asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We're clearly a ways away from considering raising interest rates. It's not something that, that is on our radar screen right now."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants expect that the economy will continue to move toward our standard of \"substantial further progress.\""
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has increased notably and will likely remain elevated in coming months before moderating."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I would say, in the near term, that the, the, the risks to inflation are probably to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I think we're, we're some way away from, from having had substantial further progress with, with max—toward the maximum-employment goal."
+   }
+  ],
+  "rationale": "Policy stays highly accommodative and rate hikes are said to be far off, but the Chair acknowledges taper discussions and upside inflation risks, along with readiness to respond. These offsetting signals leave the net stance roughly neutral, with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee kept interest rates near zero and maintained our asset purchases.",
+     "start": 173,
+     "end": 277
+    },
+    {
+     "quote": "We're clearly a ways away from considering raising interest rates. It's not something that, that is on our radar screen right now.",
+     "start": 11844,
+     "end": 11973
+    },
+    {
+     "quote": "Participants expect that the economy will continue to move toward our standard of \"substantial further progress.\"",
+     "start": 6426,
+     "end": 6537
+    },
+    {
+     "quote": "Inflation has increased notably and will likely remain elevated in coming months before moderating.",
+     "start": 2509,
+     "end": 2607
+    },
+    {
+     "quote": "I would say, in the near term, that the, the, the risks to inflation are probably to the upside.",
+     "start": 14981,
+     "end": 15076
+    },
+    {
+     "quote": "I think we're, we're some way away from, from having had substantial further progress with, with max—toward the maximum-employment goal.",
+     "start": 8702,
+     "end": 8837
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

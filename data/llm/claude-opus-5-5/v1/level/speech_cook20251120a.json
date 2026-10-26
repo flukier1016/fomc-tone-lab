@@ -1,0 +1,103 @@
+{
+ "key": "speech_cook20251120a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20251120a",
+  "doc_type": "speech",
+  "text_sha256": "4db77b3398933dd81a1ee82614a4245944d52db956d3939e5765b99cdac8dd20"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "108b58b66306c8532677cc08065f1954fde85c26dfbc9c7578299350806a7913",
+ "message_id": "msg_011CgFugFWAPxA9fTGZbnTb7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6327,
+  "output_tokens": 422,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Allow me to start by saying that the financial system remains resilient, supported by strong balance sheets among households and businesses and high capital levels across the banking system.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Currently, my impression is that there is an increased likelihood of outsized asset price declines.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I do not assess the current risks from private credit to be a threat to financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"Yet, vulnerabilities from elevated asset values, growth and complexity in private credit markets, and the potential for hedge fund activity to contribute to Treasury market dislocation warrant attention.\"}],\"rationale\":\"The speech is about financial stability vulnerabilities (asset valuations, private credit, hedge funds in Treasuries, and AI) and offers no view on rates, inflation, or the policy path. The net policy signal is therefore neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Allow me to start by saying that the financial system remains resilient, supported by strong balance sheets among households and businesses and high capital levels across the banking system."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Currently, my impression is that there is an increased likelihood of outsized asset price declines."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I do not assess the current risks from private credit to be a threat to financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Yet, vulnerabilities from elevated asset values, growth and complexity in private credit markets, and the potential for hedge fund activity to contribute to Treasury market dislocation warrant attention."
+   }
+  ],
+  "rationale": "The speech is about financial stability vulnerabilities (asset valuations, private credit, hedge funds in Treasuries, and AI) and offers no view on rates, inflation, or the policy path. The net policy signal is therefore neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Allow me to start by saying that the financial system remains resilient, supported by strong balance sheets among households and businesses and high capital levels across the banking system.",
+     "start": 548,
+     "end": 737
+    },
+    {
+     "quote": "Currently, my impression is that there is an increased likelihood of outsized asset price declines.",
+     "start": 5430,
+     "end": 5528
+    },
+    {
+     "quote": "I do not assess the current risks from private credit to be a threat to financial stability.",
+     "start": 9044,
+     "end": 9135
+    },
+    {
+     "quote": "Yet, vulnerabilities from elevated asset values, growth and complexity in private credit markets, and the potential for hedge fund activity to contribute to Treasury market dislocation warrant attention.",
+     "start": 20510,
+     "end": 20712
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

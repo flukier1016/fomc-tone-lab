@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20180525a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20180525a",
+  "doc_type": "speech",
+  "text_sha256": "d25577adbfc5a0c6d016e45ee7e8cd82a1a8a9c9c0bb7bd45ae5e66139f07262"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a40ff0ac281c23ef4aae8d98d4782bbd31eade97e0d63ff815e1ffe5e0f50186",
+ "message_id": "msg_011CgFugBLPjJmgacZVDQXJQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3244,
+  "output_tokens": 313,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I will focus on the less-often emphasized but critically important role transparency and accountability play in regulatory and financial stability policies.\"},{\"dimension\":\"overall\",\"quote\":\"But for a quarter century, inflation has been low and inflation expectations anchored.\"},{\"dimension\":\"overall\",\"quote\":\"We will continue to strive to find better ways to enhance transparency around our approach to preserving financial stability.\"}],\"rationale\":\"The speech addresses central bank transparency, accountability and financial stability frameworks, with no view on the economic outlook or the policy path. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I will focus on the less-often emphasized but critically important role transparency and accountability play in regulatory and financial stability policies."
+   },
+   {
+    "dimension": "overall",
+    "quote": "But for a quarter century, inflation has been low and inflation expectations anchored."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We will continue to strive to find better ways to enhance transparency around our approach to preserving financial stability."
+   }
+  ],
+  "rationale": "The speech addresses central bank transparency, accountability and financial stability frameworks, with no view on the economic outlook or the policy path. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I will focus on the less-often emphasized but critically important role transparency and accountability play in regulatory and financial stability policies.",
+     "start": 1268,
+     "end": 1429
+    },
+    {
+     "quote": "But for a quarter century, inflation has been low and inflation expectations anchored.",
+     "start": 2879,
+     "end": 2964
+    },
+    {
+     "quote": "We will continue to strive to find better ways to enhance transparency around our approach to preserving financial stability.",
+     "start": 10121,
+     "end": 10245
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20110622",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20110622",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "8e75ac6e6f6416187268486f36a497bae468c2b56cd0001c12c3d0535ec55168"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fa902e22a50b9323d15507b0cfff565f7b0cfa618cc3c867860b40a80109dc54",
+ "message_id": "msg_011CgFudZNsEkC96iPrBPQ83",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13341,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In that case, the withdrawal of monetary accommodation may need to begin sooner than currently anticipated in financial markets.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee might have to consider providing additional monetary policy stimulus, especially if economic growth remained too slow to meaningfully reduce the unemployment rate in the medium run.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economic recovery was continuing at a moderate pace, though somewhat more slowly than the Committee had expected, and that the labor market was weaker than anticipated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, the recovery remained subject to some downside risks\"}],\"rationale\":\"The minutes balance a weaker growth and labor outlook and two-sided policy views (some open to more stimulus, others to earlier withdrawal) against firmer inflation concerns and detailed exit principles. The net signal is roughly neutral, tilting slightly hawkish because of the normalization planning and the upside inflation risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In that case, the withdrawal of monetary accommodation may need to begin sooner than currently anticipated in financial markets."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee might have to consider providing additional monetary policy stimulus, especially if economic growth remained too slow to meaningfully reduce the unemployment rate in the medium run."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economic recovery was continuing at a moderate pace, though somewhat more slowly than the Committee had expected, and that the labor market was weaker than anticipated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, the recovery remained subject to some downside risks"
+   }
+  ],
+  "rationale": "The minutes balance a weaker growth and labor outlook and two-sided policy views (some open to more stimulus, others to earlier withdrawal) against firmer inflation concerns and detailed exit principles. The net signal is roughly neutral, tilting slightly hawkish because of the normalization planning and the upside inflation risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA.",
+     "start": 4722,
+     "end": 4890
+    },
+    {
+     "quote": "In that case, the withdrawal of monetary accommodation may need to begin sooner than currently anticipated in financial markets.",
+     "start": 36036,
+     "end": 36163
+    },
+    {
+     "quote": "the Committee might have to consider providing additional monetary policy stimulus, especially if economic growth remained too slow to meaningfully reduce the unemployment rate in the medium run.",
+     "start": 37915,
+     "end": 38109
+    },
+    {
+     "quote": "the economic recovery was continuing at a moderate pace, though somewhat more slowly than the Committee had expected, and that the labor market was weaker than anticipated.",
+     "start": 36688,
+     "end": 36859
+    },
+    {
+     "quote": "Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside.",
+     "start": 33926,
+     "end": 34034
+    },
+    {
+     "quote": "Moreover, the recovery remained subject to some downside risks",
+     "start": 26693,
+     "end": 26755
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

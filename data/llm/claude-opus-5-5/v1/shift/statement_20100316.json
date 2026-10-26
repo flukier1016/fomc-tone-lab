@@ -1,0 +1,139 @@
+{
+ "key": "statement_20100316",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100316",
+  "previous_doc_id": "statement_20100127",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "602c11aff1d5a1090e7fc73bbc0d8a466610f160d10e92cd695b1629d099a048",
+ "message_id": "msg_011CgFudV4R2hbKscMmyd8oP",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2081,
+  "output_tokens": 701,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"the deterioration in the labor market is abating\",\"after\":\"the labor market is stabilizing\",\"direction\":\"hawkish\"},{\"before\":\"Business spending on equipment and software appears to be picking up, but investment in structures is still contracting\",\"after\":\"Business spending on equipment and software has risen significantly. However, investment in nonresidential structures is declining, housing starts have been flat at a depressed level\",\"direction\":\"neutral\"},{\"before\":\"The Committee will continue to evaluate its purchases of securities in light of the evolving economic outlook and conditions in financial markets.\",\"after\":\"The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.\",\"direction\":\"neutral\"},{\"before\":\"the Federal Reserve is in the process of purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt.\",\"after\":\"the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the policy action was Thomas M. Hoenig, who believed that economic and financial conditions had changed sufficiently that the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted.\",\"after\":\"Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.\",\"direction\":\"hawkish\"}],\"rationale\":\"The rate guidance ('extended period') and asset purchase plans are unchanged, with only modestly better labor market language and a more elaborated Hoenig dissent. The removal of evaluating purchases language and the mixed economic description leave the overall signal essentially unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "the deterioration in the labor market is abating",
+    "after": "the labor market is stabilizing",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Business spending on equipment and software appears to be picking up, but investment in structures is still contracting",
+    "after": "Business spending on equipment and software has risen significantly. However, investment in nonresidential structures is declining, housing starts have been flat at a depressed level",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee will continue to evaluate its purchases of securities in light of the evolving economic outlook and conditions in financial markets.",
+    "after": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Federal Reserve is in the process of purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt.",
+    "after": "the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the policy action was Thomas M. Hoenig, who believed that economic and financial conditions had changed sufficiently that the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted.",
+    "after": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The rate guidance ('extended period') and asset purchase plans are unchanged, with only modestly better labor market language and a more elaborated Hoenig dissent. The removal of evaluating purchases language and the mixed economic description leave the overall signal essentially unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the deterioration in the labor market is abating",
+     "start": 146,
+     "end": 194
+    },
+    {
+     "quote": "Business spending on equipment and software appears to be picking up, but investment in structures is still contracting",
+     "start": 357,
+     "end": 476
+    },
+    {
+     "quote": "The Committee will continue to evaluate its purchases of securities in light of the evolving economic outlook and conditions in financial markets.",
+     "start": 1893,
+     "end": 2038
+    },
+    {
+     "quote": "the Federal Reserve is in the process of purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt.",
+     "start": 1541,
+     "end": 1682
+    },
+    {
+     "quote": "Voting against the policy action was Thomas M. Hoenig, who believed that economic and financial conditions had changed sufficiently that the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted.",
+     "start": 3316,
+     "end": 3569
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the labor market is stabilizing",
+     "start": 145,
+     "end": 176
+    },
+    {
+     "quote": "Business spending on equipment and software has risen significantly. However, investment in nonresidential structures is declining, housing starts have been flat at a depressed level",
+     "start": 337,
+     "end": 519
+    },
+    {
+     "quote": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+     "start": 1755,
+     "end": 1936
+    },
+    {
+     "quote": "the Federal Reserve has been purchasing $1.25 trillion of agency mortgage-backed securities and about $175 billion of agency debt; those purchases are nearing completion, and the remaining transactions will be executed by the end of this month.",
+     "start": 1510,
+     "end": 1753
+    },
+    {
+     "quote": "Voting against the policy action was Thomas M. Hoenig, who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted because it could lead to the buildup of financial imbalances and increase risks to longer-run macroeconomic and financial stability.",
+     "start": 2603,
+     "end": 2946
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "key": "statement_20100316",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20100316",
+  "release_date": "2010-03-16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "15bda26cfdb9ce3f9f21dda52f45bd81ac09b1fbeba305d0c80967ca44376383",
+ "message_id": "msg_011CgFudVVDCgsCnYPGnjj6R",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1335,
+  "output_tokens": 238,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2010,\"month\":3,\"confidence\":0.93,\"cues\":[\"MBS ($1.25 trillion) and agency debt (~$175 billion) purchases 'nearing completion' with remaining transactions executed 'by the end of this month' points to March 2010\",\"TALF scheduled to close June 30 (new-issue CMBS) and March 31 (other collateral), which matches the March 16, 2010 statement\",\"Dissent by Hoenig over 'extended period' language (2010 voting rotation includes Bullard and Pianalto)\",\"Labor market described as 'stabilizing' and bank lending still contracting, consistent with early 2010\",\"Special liquidity facilities have been closed, with only TALF remaining\"]}",
+ "parsed": {
+  "year": 2010,
+  "month": 3,
+  "confidence": 0.93,
+  "cues": [
+   "MBS ($1.25 trillion) and agency debt (~$175 billion) purchases 'nearing completion' with remaining transactions executed 'by the end of this month' points to March 2010",
+   "TALF scheduled to close June 30 (new-issue CMBS) and March 31 (other collateral), which matches the March 16, 2010 statement",
+   "Dissent by Hoenig over 'extended period' language (2010 voting rotation includes Bullard and Pianalto)",
+   "Labor market described as 'stabilizing' and bank lending still contracting, consistent with early 2010",
+   "Special liquidity facilities have been closed, with only TALF remaining"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20170419a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170419a",
+  "doc_type": "speech",
+  "text_sha256": "21da55cdb3a89388296957a3cfe40d8d6e13581c2ff6beba0aa1aa6b79545b44"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c3fe89bead8d0f80d8ee7b700f1f379bd59bb47e4f3d9869eb6f9ed94a847fc3",
+ "message_id": "msg_011CgFugHbvaAUhznV4gyLTH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2268,
+  "output_tokens": 543,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Finally, I expect that U.S. policy normalization will be gradual under likely scenarios for the evolution of output and inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"First, I expect that the Fed's removal of accommodation will be driven by a continued expansion of the U.S. economy; thus, foreign economies are likely to benefit from the developments that induce the FOMC to tighten.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A strong U.S. economy is a major plus for the global economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But the main reason for the positive market reaction is that foreign output expansions appear more entrenched, and downside risks to those economies noticeably smaller than in recent years.\"},{\"dimension\":\"overall\",\"quote\":\"A gradual and ongoing removal of accommodation seems likely both to maximize the prospects of a continued expansion in the U.S. economy and to mitigate the risk of undesirable spillovers abroad.\"}],\"rationale\":\"The speech centers on international spillovers but endorses an ongoing, gradual removal of accommodation backed by a strong U.S. economy and reduced foreign downside risks. That gives it a mild hawkish lean, tempered by the emphasis on gradualism.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Finally, I expect that U.S. policy normalization will be gradual under likely scenarios for the evolution of output and inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "First, I expect that the Fed's removal of accommodation will be driven by a continued expansion of the U.S. economy; thus, foreign economies are likely to benefit from the developments that induce the FOMC to tighten."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A strong U.S. economy is a major plus for the global economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But the main reason for the positive market reaction is that foreign output expansions appear more entrenched, and downside risks to those economies noticeably smaller than in recent years."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A gradual and ongoing removal of accommodation seems likely both to maximize the prospects of a continued expansion in the U.S. economy and to mitigate the risk of undesirable spillovers abroad."
+   }
+  ],
+  "rationale": "The speech centers on international spillovers but endorses an ongoing, gradual removal of accommodation backed by a strong U.S. economy and reduced foreign downside risks. That gives it a mild hawkish lean, tempered by the emphasis on gradualism."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Finally, I expect that U.S. policy normalization will be gradual under likely scenarios for the evolution of output and inflation.",
+     "start": 6814,
+     "end": 6943
+    },
+    {
+     "quote": "First, I expect that the Fed's removal of accommodation will be driven by a continued expansion of the U.S. economy; thus, foreign economies are likely to benefit from the developments that induce the FOMC to tighten.",
+     "start": 5879,
+     "end": 6095
+    },
+    {
+     "quote": "A strong U.S. economy is a major plus for the global economy.",
+     "start": 4148,
+     "end": 4208
+    },
+    {
+     "quote": "But the main reason for the positive market reaction is that foreign output expansions appear more entrenched, and downside risks to those economies noticeably smaller than in recent years.",
+     "start": 4210,
+     "end": 4398
+    },
+    {
+     "quote": "A gradual and ongoing removal of accommodation seems likely both to maximize the prospects of a continued expansion in the U.S. economy and to mitigate the risk of undesirable spillovers abroad.",
+     "start": 6945,
+     "end": 7138
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

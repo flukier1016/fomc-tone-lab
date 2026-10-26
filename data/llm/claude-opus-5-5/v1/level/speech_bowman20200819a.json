@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20200819a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20200819a",
+  "doc_type": "speech",
+  "text_sha256": "bd56df8df8a8c86c63ca915f4145ce0f4128c17000e86bedb5485b2734f23450"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "06e5e376bfc067c202504abadf3479144d09cb971b978a61e8bd61dee46329e2",
+ "message_id": "msg_011CgFugFEJEftKj57XM5wA3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1132,
+  "output_tokens": 253,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I approach our monetary policy deliberations in a similar way.\"},{\"dimension\":\"overall\",\"quote\":\"The passage of the 19th Amendment in 1920 enabled women to directly participate in selecting our country's leaders.\"}],\"rationale\":\"This is a ceremonial speech about women's suffrage and diversity in policymaking. It offers no views on inflation, growth, rates, or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I approach our monetary policy deliberations in a similar way."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The passage of the 19th Amendment in 1920 enabled women to directly participate in selecting our country's leaders."
+   }
+  ],
+  "rationale": "This is a ceremonial speech about women's suffrage and diversity in policymaking. It offers no views on inflation, growth, rates, or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I approach our monetary policy deliberations in a similar way.",
+     "start": 2934,
+     "end": 2995
+    },
+    {
+     "quote": "The passage of the 19th Amendment in 1920 enabled women to directly participate in selecting our country's leaders.",
+     "start": 594,
+     "end": 708
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

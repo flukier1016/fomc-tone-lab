@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20260318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20260318",
+  "doc_type": "minutes",
+  "text_sha256": "d5422218895c928cd6bbdffbc4fb40671bc72c54ecd9973e25118716dab7e8a4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "05694f238e06f5b8419a88e96fdb3521d0f56d5354ab293b174005b0545b60e8",
+ "message_id": "msg_011CgFugEBYNpMHdToDDpijB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10049,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"the vast majority of participants noted that progress toward the Committee's 2 percent objective could be slower than previously expected and judged that the risk of inflation running persistently above the Committee's objective had increased.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants judged that there was a strong case for a two-sided description of the Committee's future interest rate decisions in the postmeeting statement\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants judged that, in time, it would likely become appropriate to lower the target range for the federal funds rate if inflation were to decline in line with their expectations.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the vast majority of participants judged that upside risks to inflation and downside risks to employment were elevated\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants observed that economic activity appeared to be expanding at a solid pace.\"}],\"rationale\":\"The minutes show rising concern about persistent inflation from oil and tariffs, with some participants pushing cuts later and others urging two-sided guidance that allows for hikes. Downside employment risks are also noted, and easing is still expected eventually, so the net lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the vast majority of participants noted that progress toward the Committee's 2 percent objective could be slower than previously expected and judged that the risk of inflation running persistently above the Committee's objective had increased."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants judged that there was a strong case for a two-sided description of the Committee's future interest rate decisions in the postmeeting statement"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants judged that, in time, it would likely become appropriate to lower the target range for the federal funds rate if inflation were to decline in line with their expectations."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the vast majority of participants judged that upside risks to inflation and downside risks to employment were elevated"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants observed that economic activity appeared to be expanding at a solid pace."
+   }
+  ],
+  "rationale": "The minutes show rising concern about persistent inflation from oil and tariffs, with some participants pushing cuts later and others urging two-sided guidance that allows for hikes. Downside employment risks are also noted, and easing is still expected eventually, so the net lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the vast majority of participants noted that progress toward the Committee's 2 percent objective could be slower than previously expected and judged that the risk of inflation running persistently above the Committee's objective had increased.",
+     "start": 19393,
+     "end": 19635
+    },
+    {
+     "quote": "Some participants judged that there was a strong case for a two-sided description of the Committee's future interest rate decisions in the postmeeting statement",
+     "start": 25607,
+     "end": 25767
+    },
+    {
+     "quote": "Many participants judged that, in time, it would likely become appropriate to lower the target range for the federal funds rate if inflation were to decline in line with their expectations.",
+     "start": 25165,
+     "end": 25353
+    },
+    {
+     "quote": "the vast majority of participants judged that upside risks to inflation and downside risks to employment were elevated",
+     "start": 26165,
+     "end": 26283
+    },
+    {
+     "quote": "Participants observed that economic activity appeared to be expanding at a solid pace.",
+     "start": 22253,
+     "end": 22338
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

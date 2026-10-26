@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20101119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20101119a",
+  "doc_type": "speech",
+  "text_sha256": "50c718ac4ac2e991067ce479a045d55acf225f841994adae2f89399ca8f9ec8c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "34fc69337c491923b43fe3e5e0048b4d6c193b58759a503bf6f96c3aff2bdb34",
+ "message_id": "msg_011CgFugK5yQvZuyCZnUvV8E",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8097,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Following up on this earlier success, the Committee announced this month that it would purchase additional Treasury securities.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Low rates of resource utilization in the United States are creating disinflationary pressures.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the U.S. unemployment rate is high and, given the slow pace of economic growth, likely to remain so for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we cannot rule out the possibility that unemployment might rise further in the near term, creating added risks for the recovery.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"most advanced economies still need accommodative policies to continue to lay the groundwork for a strong, durable recovery.\"},{\"dimension\":\"overall\",\"quote\":\"In sum, on its current economic trajectory the United States runs the risk of seeing millions of workers unemployed or underemployed for many years. As a society, we should find that outcome unacceptable.\"}],\"rationale\":\"The speech defends newly announced Treasury purchases, stresses high unemployment, disinflation below 2 percent and downside risks, and argues advanced economies need continued accommodation. Exit-tool reassurances are a minor hawkish caveat against a clearly dovish message.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Following up on this earlier success, the Committee announced this month that it would purchase additional Treasury securities."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Low rates of resource utilization in the United States are creating disinflationary pressures."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the U.S. unemployment rate is high and, given the slow pace of economic growth, likely to remain so for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we cannot rule out the possibility that unemployment might rise further in the near term, creating added risks for the recovery."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "most advanced economies still need accommodative policies to continue to lay the groundwork for a strong, durable recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In sum, on its current economic trajectory the United States runs the risk of seeing millions of workers unemployed or underemployed for many years. As a society, we should find that outcome unacceptable."
+   }
+  ],
+  "rationale": "The speech defends newly announced Treasury purchases, stresses high unemployment, disinflation below 2 percent and downside risks, and argues advanced economies need continued accommodation. Exit-tool reassurances are a minor hawkish caveat against a clearly dovish message."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Following up on this earlier success, the Committee announced this month that it would purchase additional Treasury securities.",
+     "start": 8308,
+     "end": 8434
+    },
+    {
+     "quote": "Low rates of resource utilization in the United States are creating disinflationary pressures.",
+     "start": 5240,
+     "end": 5333
+    },
+    {
+     "quote": "the U.S. unemployment rate is high and, given the slow pace of economic growth, likely to remain so for some time.",
+     "start": 7002,
+     "end": 7115
+    },
+    {
+     "quote": "we cannot rule out the possibility that unemployment might rise further in the near term, creating added risks for the recovery.",
+     "start": 7218,
+     "end": 7345
+    },
+    {
+     "quote": "most advanced economies still need accommodative policies to continue to lay the groundwork for a strong, durable recovery.",
+     "start": 6449,
+     "end": 6571
+    },
+    {
+     "quote": "In sum, on its current economic trajectory the United States runs the risk of seeing millions of workers unemployed or underemployed for many years. As a society, we should find that outcome unacceptable.",
+     "start": 12263,
+     "end": 12466
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20170328a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20170328a",
+  "doc_type": "speech",
+  "text_sha256": "c2ab502ed368c5cc329e8bb318d5de6f03ec443fb338407ada7ebc3e34925a7b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1dc42c0060e46584cd6d3ffbf6f715e6dea586b3280cfdaa34a648086dc13261",
+ "message_id": "msg_011CgFugEbr5gCEdTEFvijGB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4629,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"while the economy overall is recovering and the job market has improved substantially since the recession, pockets of persistently high unemployment, as well as other challenges, remain.\"},{\"dimension\":\"overall\",\"quote\":\"programs such as the ones I have highlighted today can help address these challenges in more targeted ways than the Federal Reserve is equipped to do through monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While the job market for the United States as a whole has improved markedly since the depths of the financial crisis, the persistently higher unemployment rates in lower-income and minority communities show why workforce development is so essential.\"}],\"rationale\":\"The speech is about CRA and workforce development, not monetary policy; it notes an improved aggregate job market alongside pockets of high unemployment without drawing policy implications. Stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "while the economy overall is recovering and the job market has improved substantially since the recession, pockets of persistently high unemployment, as well as other challenges, remain."
+   },
+   {
+    "dimension": "overall",
+    "quote": "programs such as the ones I have highlighted today can help address these challenges in more targeted ways than the Federal Reserve is equipped to do through monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While the job market for the United States as a whole has improved markedly since the depths of the financial crisis, the persistently higher unemployment rates in lower-income and minority communities show why workforce development is so essential."
+   }
+  ],
+  "rationale": "The speech is about CRA and workforce development, not monetary policy; it notes an improved aggregate job market alongside pockets of high unemployment without drawing policy implications. Stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "while the economy overall is recovering and the job market has improved substantially since the recession, pockets of persistently high unemployment, as well as other challenges, remain.",
+     "start": 15234,
+     "end": 15419
+    },
+    {
+     "quote": "programs such as the ones I have highlighted today can help address these challenges in more targeted ways than the Federal Reserve is equipped to do through monetary policy.",
+     "start": 15434,
+     "end": 15607
+    },
+    {
+     "quote": "While the job market for the United States as a whole has improved markedly since the depths of the financial crisis, the persistently higher unemployment rates in lower-income and minority communities show why workforce development is so essential.",
+     "start": 2737,
+     "end": 2985
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

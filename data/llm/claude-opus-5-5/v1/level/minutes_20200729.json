@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20200729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20200729",
+  "doc_type": "minutes",
+  "text_sha256": "14159c82aee73af452cfdce893b437bbbc273dcc59ce4148dc153df101362e65"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9918e4b4f3f513a34658123e3c195eb9bc9d36f9e7230c34c7881adf8f9a3858",
+ "message_id": "msg_011CgFugBZn79PqJvC62FQks",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15741,
+  "output_tokens": 598,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants emphasized that the labor market was a long way from a full recovery even after the positive May and June employment reports\"},{\"dimension\":\"risk_balance\",\"quote\":\"the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency residential mortgage-backed securities (RMBS) and CMBS at least at the current pace.\"}],\"rationale\":\"The minutes stress weak activity, disinflation, and downside risks, with rates held at zero for an extended period, continued asset purchases, and discussion of additional accommodation and stronger forward guidance. The net signal is clearly and strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants emphasized that the labor market was a long way from a full recovery even after the positive May and June employment reports"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency residential mortgage-backed securities (RMBS) and CMBS at least at the current pace."
+   }
+  ],
+  "rationale": "The minutes stress weak activity, disinflation, and downside risks, with rates held at zero for an extended period, continued asset purchases, and discussion of additional accommodation and stronger forward guidance. The net signal is clearly and strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run.",
+     "start": 35461,
+     "end": 35655
+    },
+    {
+     "quote": "several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective.",
+     "start": 41364,
+     "end": 41531
+    },
+    {
+     "quote": "a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective.",
+     "start": 35302,
+     "end": 35459
+    },
+    {
+     "quote": "participants emphasized that the labor market was a long way from a full recovery even after the positive May and June employment reports",
+     "start": 33148,
+     "end": 33285
+    },
+    {
+     "quote": "the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast.",
+     "start": 28327,
+     "end": 28433
+    },
+    {
+     "quote": "it would be appropriate over coming months for the Federal Reserve to increase its holdings of Treasury securities and agency residential mortgage-backed securities (RMBS) and CMBS at least at the current pace.",
+     "start": 40038,
+     "end": 40247
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

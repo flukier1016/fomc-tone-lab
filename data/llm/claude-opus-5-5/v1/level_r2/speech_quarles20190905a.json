@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20190905a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190905a",
+  "doc_type": "speech",
+  "text_sha256": "bdd777dc95ec81975ad27ec7b8f8c4fd660e23c7b8b4a18a85e4bcd0b4d93733"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "47e2457a795c8d547e3b3e747c2b03662e17588cff362398f05bdcabaca920d1",
+ "message_id": "msg_011CgG2T8NFNpWocwyHbdY7R",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5959,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"our goals remain to simplify our capital framework while maintaining the overall amount of capital in the U.S. banking system.\"},{\"dimension\":\"overall\",\"quote\":\"The first element of the SCB proposal that I believe should be removed is the stress leverage buffer requirement.\"},{\"dimension\":\"overall\",\"quote\":\"Right now, our policy is to maintain a 0 percent CCyB when vulnerabilities are within the normal range, as they happen to be now.\"}],\"rationale\":\"The speech concerns bank capital regulation and stress testing (SCB, CCyB), not monetary policy. It offers no view on rates, inflation, activity, or the Fed's balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "our goals remain to simplify our capital framework while maintaining the overall amount of capital in the U.S. banking system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The first element of the SCB proposal that I believe should be removed is the stress leverage buffer requirement."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Right now, our policy is to maintain a 0 percent CCyB when vulnerabilities are within the normal range, as they happen to be now."
+   }
+  ],
+  "rationale": "The speech concerns bank capital regulation and stress testing (SCB, CCyB), not monetary policy. It offers no view on rates, inflation, activity, or the Fed's balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "our goals remain to simplify our capital framework while maintaining the overall amount of capital in the U.S. banking system.",
+     "start": 19049,
+     "end": 19174
+    },
+    {
+     "quote": "The first element of the SCB proposal that I believe should be removed is the stress leverage buffer requirement.",
+     "start": 8050,
+     "end": 8162
+    },
+    {
+     "quote": "Right now, our policy is to maintain a 0 percent CCyB when vulnerabilities are within the normal range, as they happen to be now.",
+     "start": 12412,
+     "end": 12540
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

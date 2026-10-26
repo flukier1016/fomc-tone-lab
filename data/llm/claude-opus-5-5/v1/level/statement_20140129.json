@@ -1,0 +1,112 @@
+{
+ "key": "statement_20140129",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20140129",
+  "doc_type": "statement",
+  "text_sha256": "581c5eb642cccfe4a2a69f60e0f8b91c96ab0a03a0e5b4a2b30d37319568f0ea"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ddd3616dda7155f0e039ff662c606e856cf232d186e898b777e9b7f3bcbd4c9e",
+ "message_id": "msg_011CgFug8qL27m7avSpq8YYA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1701,
+  "output_tokens": 482,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to make a further measured reduction in the pace of its asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"growth in economic activity picked up in recent quarters.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced.\"}],\"rationale\":\"The Committee continues tapering purchases and describes improving activity, a modest hawkish step, but it strongly reaffirms near-zero rates well past the 6.5 percent unemployment threshold. It also flags concern about below-target inflation, leaving the net signal roughly neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to make a further measured reduction in the pace of its asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "growth in economic activity picked up in recent quarters."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced."
+   }
+  ],
+  "rationale": "The Committee continues tapering purchases and describes improving activity, a modest hawkish step, but it strongly reaffirms near-zero rates well past the 6.5 percent unemployment threshold. It also flags concern about below-target inflation, leaving the net signal roughly neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to make a further measured reduction in the pace of its asset purchases.",
+     "start": 1816,
+     "end": 1909
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent",
+     "start": 4895,
+     "end": 5063
+    },
+    {
+     "quote": "Inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.",
+     "start": 523,
+     "end": 653
+    },
+    {
+     "quote": "growth in economic activity picked up in recent quarters.",
+     "start": 92,
+     "end": 148
+    },
+    {
+     "quote": "The Committee sees the risks to the outlook for the economy and the labor market as having become more nearly balanced.",
+     "start": 999,
+     "end": 1117
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

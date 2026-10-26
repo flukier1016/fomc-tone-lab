@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20150120a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20150120a",
+  "doc_type": "speech",
+  "text_sha256": "5f72655ae757140f8b42e932d287cda17d7b7149d87206e4e313c70de5e173ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a71f0fa6ce88a1e80fb1286881669be61fd14df80041dee7914cca0362a17bf",
+ "message_id": "msg_011CgFugAdiqjUUX5ssu6YiH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3034,
+  "output_tokens": 357,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The Review looks to identify further steps that should be taken to restore public confidence in FICC markets in the wake of the depressingly numerous instances of serious misconduct in these markets in recent years.\"},{\"dimension\":\"overall\",\"quote\":\"For these reasons, the Federal Reserve has convened a group of the largest global dealers to form the Alternative Reference Rates Committee.\"},{\"dimension\":\"overall\",\"quote\":\"These changes will affect market liquidity and functioning in ways that are difficult to foresee.\"}],\"rationale\":\"The speech addresses market conduct, LIBOR benchmark reform, and FICC market structure rather than monetary policy. It contains no signal about rates, inflation, activity, or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The Review looks to identify further steps that should be taken to restore public confidence in FICC markets in the wake of the depressingly numerous instances of serious misconduct in these markets in recent years."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For these reasons, the Federal Reserve has convened a group of the largest global dealers to form the Alternative Reference Rates Committee."
+   },
+   {
+    "dimension": "overall",
+    "quote": "These changes will affect market liquidity and functioning in ways that are difficult to foresee."
+   }
+  ],
+  "rationale": "The speech addresses market conduct, LIBOR benchmark reform, and FICC market structure rather than monetary policy. It contains no signal about rates, inflation, activity, or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Review looks to identify further steps that should be taken to restore public confidence in FICC markets in the wake of the depressingly numerous instances of serious misconduct in these markets in recent years.",
+     "start": 490,
+     "end": 704
+    },
+    {
+     "quote": "For these reasons, the Federal Reserve has convened a group of the largest global dealers to form the Alternative Reference Rates Committee.",
+     "start": 8090,
+     "end": 8229
+    },
+    {
+     "quote": "These changes will affect market liquidity and functioning in ways that are difficult to foresee.",
+     "start": 9434,
+     "end": 9530
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

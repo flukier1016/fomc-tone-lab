@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20131003a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20131003a",
+  "doc_type": "speech",
+  "text_sha256": "28540c53aec0bf97c90ad188c3af27aab169ced046c3cc7444e11fa9280c1a55"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "58bfbdc43959ecd4c184a933032b79c43766b57e104de3aa8e24e1874c4be3cf",
+ "message_id": "msg_011CgFugAQaVHTvZ9QKtjE95",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5885,
+  "output_tokens": 392,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Community banks have faced significant challenges in recent years, as our nation has endured a major financial crisis and recession, followed by a painfully slow recovery.\"},{\"dimension\":\"overall\",\"quote\":\"A thriving community banking sector is essential to sustaining our ongoing economic recovery.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve will continue to be alert to the possible unintended consequences of regulatory policies, and we welcome input from community bankers as we develop and implement those policies.\"}],\"rationale\":\"The speech is about community bank research, supervision and regulatory burden, with no discussion of monetary policy, inflation or the balance sheet. Its only macro remark is a passing reference to a \\\"painfully slow recovery,\\\" which gives a slight dovish tint to the activity assessment.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Community banks have faced significant challenges in recent years, as our nation has endured a major financial crisis and recession, followed by a painfully slow recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A thriving community banking sector is essential to sustaining our ongoing economic recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve will continue to be alert to the possible unintended consequences of regulatory policies, and we welcome input from community bankers as we develop and implement those policies."
+   }
+  ],
+  "rationale": "The speech is about community bank research, supervision and regulatory burden, with no discussion of monetary policy, inflation or the balance sheet. Its only macro remark is a passing reference to a \"painfully slow recovery,\" which gives a slight dovish tint to the activity assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Community banks have faced significant challenges in recent years, as our nation has endured a major financial crisis and recession, followed by a painfully slow recovery.",
+     "start": 1145,
+     "end": 1315
+    },
+    {
+     "quote": "A thriving community banking sector is essential to sustaining our ongoing economic recovery.",
+     "start": 1050,
+     "end": 1142
+    },
+    {
+     "quote": "The Federal Reserve will continue to be alert to the possible unintended consequences of regulatory policies, and we welcome input from community bankers as we develop and implement those policies.",
+     "start": 1613,
+     "end": 1809
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

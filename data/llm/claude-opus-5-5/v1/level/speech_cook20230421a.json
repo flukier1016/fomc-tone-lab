@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20230421a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20230421a",
+  "doc_type": "speech",
+  "text_sha256": "c5f7810868a5a18be90d326023e6f51b0fb674cdb459ca977d27149ddcdd6e66"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f08dd8bdb2b677624499300c583e1324f976652b60b41a42e7f45cbb09e3f0b5",
+ "message_id": "msg_011CgFugF6rpN2pe97GUWMce",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3953,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"All of these measures have come off their peaks but remain elevated, suggesting that inflation has become broad based in the economy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"there is evidence that the path back to our low and stable inflation goal could be long and is likely to be uneven and bumpy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Nonetheless, there are some signs that this strong labor market is softening at the margin.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If tighter financing conditions are a significant headwind on the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But if data show continued strength in the economy and slower disinflation, we may have more work to do.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am weighing the implications of stronger momentum in the economy apparent in economic indicators over the past few months against potential headwinds from recent banking developments.\"}],\"rationale\":\"The speaker stresses that inflation remains elevated and broad based with a long, bumpy path back to 2 percent, while noting a strong but softening labor market. Her policy guidance is two-sided, weighing banking headwinds against stronger momentum, for a roughly balanced stance with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "All of these measures have come off their peaks but remain elevated, suggesting that inflation has become broad based in the economy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "there is evidence that the path back to our low and stable inflation goal could be long and is likely to be uneven and bumpy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Nonetheless, there are some signs that this strong labor market is softening at the margin."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If tighter financing conditions are a significant headwind on the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But if data show continued strength in the economy and slower disinflation, we may have more work to do."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am weighing the implications of stronger momentum in the economy apparent in economic indicators over the past few months against potential headwinds from recent banking developments."
+   }
+  ],
+  "rationale": "The speaker stresses that inflation remains elevated and broad based with a long, bumpy path back to 2 percent, while noting a strong but softening labor market. Her policy guidance is two-sided, weighing banking headwinds against stronger momentum, for a roughly balanced stance with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "All of these measures have come off their peaks but remain elevated, suggesting that inflation has become broad based in the economy.",
+     "start": 3898,
+     "end": 4030
+    },
+    {
+     "quote": "there is evidence that the path back to our low and stable inflation goal could be long and is likely to be uneven and bumpy.",
+     "start": 3154,
+     "end": 3278
+    },
+    {
+     "quote": "Nonetheless, there are some signs that this strong labor market is softening at the margin.",
+     "start": 7482,
+     "end": 7572
+    },
+    {
+     "quote": "If tighter financing conditions are a significant headwind on the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence.",
+     "start": 13044,
+     "end": 13212
+    },
+    {
+     "quote": "But if data show continued strength in the economy and slower disinflation, we may have more work to do.",
+     "start": 13214,
+     "end": 13317
+    },
+    {
+     "quote": "I am weighing the implications of stronger momentum in the economy apparent in economic indicators over the past few months against potential headwinds from recent banking developments.",
+     "start": 12858,
+     "end": 13042
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

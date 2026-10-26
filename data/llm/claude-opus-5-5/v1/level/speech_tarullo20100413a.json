@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20100413a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20100413a",
+  "doc_type": "speech",
+  "text_sha256": "4a1b2b18022087433c067766e763a430948f3be3df34e1a2df6969704fec592e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d12b5a0b6d2f8909fca8e426a78f6f0256fcde51a31712b25b1f2fd0e67b9d35",
+ "message_id": "msg_011CgFugFA5ZkALTjvsMxhn7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5453,
+  "output_tokens": 370,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like this morning to discuss the importance of more thoroughly involving markets and the public in the financial regulatory system.\"},{\"dimension\":\"overall\",\"quote\":\"Most importantly, there should be a clear expectation that the shareholders and creditors of the failing firm will bear losses to the fullest extent consistent with preserving financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"I think that regularizing both stress tests and the release of information relevant to them deserves serious consideration for at least two reasons.\"}],\"rationale\":\"The speech addresses financial regulatory reform, market discipline, resolution regimes and stress-test transparency, with no discussion of monetary policy, inflation or the macro outlook. It carries no monetary policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like this morning to discuss the importance of more thoroughly involving markets and the public in the financial regulatory system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Most importantly, there should be a clear expectation that the shareholders and creditors of the failing firm will bear losses to the fullest extent consistent with preserving financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I think that regularizing both stress tests and the release of information relevant to them deserves serious consideration for at least two reasons."
+   }
+  ],
+  "rationale": "The speech addresses financial regulatory reform, market discipline, resolution regimes and stress-test transparency, with no discussion of monetary policy, inflation or the macro outlook. It carries no monetary policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like this morning to discuss the importance of more thoroughly involving markets and the public in the financial regulatory system.",
+     "start": 430,
+     "end": 568
+    },
+    {
+     "quote": "Most importantly, there should be a clear expectation that the shareholders and creditors of the failing firm will bear losses to the fullest extent consistent with preserving financial stability.",
+     "start": 7315,
+     "end": 7510
+    },
+    {
+     "quote": "I think that regularizing both stress tests and the release of information relevant to them deserves serious consideration for at least two reasons.",
+     "start": 14351,
+     "end": 14498
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

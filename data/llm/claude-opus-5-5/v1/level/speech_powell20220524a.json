@@ -1,0 +1,85 @@
+{
+ "key": "speech_powell20220524a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20220524a",
+  "doc_type": "speech",
+  "text_sha256": "251fc1fc37625ae1509e1f56205a13adda006f2be45879ebc641a9b04dfdb1ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "89414e9db50c8a9e13789fbd85ff1b4c5fa738f5d451d4ac4c33983acf04fb48",
+ "message_id": "msg_011CgFug8h95S6KL2JD1ibiB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1424,
+  "output_tokens": 297,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Tribal leaders nationwide have also joined recent listening sessions to discuss the impacts of inflation.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve works for all of us, and our research and analysis must reflect the specific needs and circumstances of all of our communities.\"}],\"rationale\":\"These are welcoming remarks about community development and partnerships with Indian Country, and they offer no view on monetary policy, inflation or the economic outlook. The only mention of inflation refers to listening sessions, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Tribal leaders nationwide have also joined recent listening sessions to discuss the impacts of inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve works for all of us, and our research and analysis must reflect the specific needs and circumstances of all of our communities."
+   }
+  ],
+  "rationale": "These are welcoming remarks about community development and partnerships with Indian Country, and they offer no view on monetary policy, inflation or the economic outlook. The only mention of inflation refers to listening sessions, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Tribal leaders nationwide have also joined recent listening sessions to discuss the impacts of inflation.",
+     "start": 3033,
+     "end": 3137
+    },
+    {
+     "quote": "The Federal Reserve works for all of us, and our research and analysis must reflect the specific needs and circumstances of all of our communities.",
+     "start": 4059,
+     "end": 4205
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

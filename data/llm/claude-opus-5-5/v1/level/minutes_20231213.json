@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20231213",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20231213",
+  "doc_type": "minutes",
+  "text_sha256": "50fdf8fad36280d8370180e71ba06ff74a52478c7726754243d2c94ee7be1957"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "66efcaa78f882d154c75577ad72b00ae15cb510e35a96cbd1f4e845d45083126",
+ "message_id": "msg_011CgFugEY87ndhatAMWV9gt",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11870,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"almost all participants indicated that, reflecting the improvements in their inflation outlooks, their baseline projections implied that a lower target range for the federal funds rate would be appropriate by the end of 2024.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"participants viewed the policy rate as likely at or near its peak for this tightening cycle\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"all participants observed that clear progress had been made in 2023 toward the Committee's 2 percent inflation objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants generally viewed risks to inflation and employment as moving toward greater balance. However, participants remained highly attentive to inflation risks.\"},{\"dimension\":\"risk_balance\",\"quote\":\"pointed to the downside risks to the economy that would be associated with an overly restrictive stance.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants assessed that while the labor market remained tight, it continued to come into better balance.\"}],\"rationale\":\"The minutes signal the policy rate is at or near its peak, with most participants projecting cuts by end-2024 and noting downside risks of overly restrictive policy. These are tempered by continued attentiveness to inflation risks and openness to further hikes, so the dovish lean is moderate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "almost all participants indicated that, reflecting the improvements in their inflation outlooks, their baseline projections implied that a lower target range for the federal funds rate would be appropriate by the end of 2024."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "participants viewed the policy rate as likely at or near its peak for this tightening cycle"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "all participants observed that clear progress had been made in 2023 toward the Committee's 2 percent inflation objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants generally viewed risks to inflation and employment as moving toward greater balance. However, participants remained highly attentive to inflation risks."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "pointed to the downside risks to the economy that would be associated with an overly restrictive stance."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants assessed that while the labor market remained tight, it continued to come into better balance."
+   }
+  ],
+  "rationale": "The minutes signal the policy rate is at or near its peak, with most participants projecting cuts by end-2024 and noting downside risks of overly restrictive policy. These are tempered by continued attentiveness to inflation risks and openness to further hikes, so the dovish lean is moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "almost all participants indicated that, reflecting the improvements in their inflation outlooks, their baseline projections implied that a lower target range for the federal funds rate would be appropriate by the end of 2024.",
+     "start": 29558,
+     "end": 29782
+    },
+    {
+     "quote": "participants viewed the policy rate as likely at or near its peak for this tightening cycle",
+     "start": 28473,
+     "end": 28564
+    },
+    {
+     "quote": "all participants observed that clear progress had been made in 2023 toward the Committee's 2 percent inflation objective.",
+     "start": 19535,
+     "end": 19655
+    },
+    {
+     "quote": "participants generally viewed risks to inflation and employment as moving toward greater balance. However, participants remained highly attentive to inflation risks.",
+     "start": 19334,
+     "end": 19498
+    },
+    {
+     "quote": "pointed to the downside risks to the economy that would be associated with an overly restrictive stance.",
+     "start": 30979,
+     "end": 31082
+    },
+    {
+     "quote": "Participants assessed that while the labor market remained tight, it continued to come into better balance.",
+     "start": 23653,
+     "end": 23759
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

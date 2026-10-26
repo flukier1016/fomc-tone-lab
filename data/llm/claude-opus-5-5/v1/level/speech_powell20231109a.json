@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20231109a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20231109a",
+  "doc_type": "speech",
+  "text_sha256": "801a8b292f717492586c0dd4a3c832e561d4ca7453e28a51564d2edd2049ecb9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "00f68f306b279a2bddc008334eaa61d2aaa3d1d6befa243f781bad196914e47d",
+ "message_id": "msg_011CgFugG2RNp9C5jVd88FsN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3173,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If it becomes appropriate to tighten policy further, we will not hesitate to do so.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we are not confident that we have achieved such a stance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"expect that the process of getting inflation sustainably down to 2 percent has a long way to go.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we are attentive to the risk that stronger growth could undermine further progress in restoring balance to the labor market and in bringing inflation down, which could warrant a response from monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market remains tight, although improvements in labor supply and a gradual easing in demand continue to move it into better balance.\"},{\"dimension\":\"overall\",\"quote\":\"We will continue to move carefully, however, allowing us to address both the risk of being misled by a few good months of data, and the risk of overtightening.\"}],\"rationale\":\"The speaker keeps a tightening bias, doubting policy is sufficiently restrictive and emphasizing upside risks from strong growth and inflation head fakes. This is tempered by a commitment to move carefully and an acknowledgment of the risk of overtightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If it becomes appropriate to tighten policy further, we will not hesitate to do so."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we are not confident that we have achieved such a stance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "expect that the process of getting inflation sustainably down to 2 percent has a long way to go."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we are attentive to the risk that stronger growth could undermine further progress in restoring balance to the labor market and in bringing inflation down, which could warrant a response from monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market remains tight, although improvements in labor supply and a gradual easing in demand continue to move it into better balance."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We will continue to move carefully, however, allowing us to address both the risk of being misled by a few good months of data, and the risk of overtightening."
+   }
+  ],
+  "rationale": "The speaker keeps a tightening bias, doubting policy is sufficiently restrictive and emphasizing upside risks from strong growth and inflation head fakes. This is tempered by a commitment to move carefully and an acknowledgment of the risk of overtightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If it becomes appropriate to tighten policy further, we will not hesitate to do so.",
+     "start": 1619,
+     "end": 1701
+    },
+    {
+     "quote": "we are not confident that we have achieved such a stance.",
+     "start": 1448,
+     "end": 1504
+    },
+    {
+     "quote": "expect that the process of getting inflation sustainably down to 2 percent has a long way to go.",
+     "start": 636,
+     "end": 731
+    },
+    {
+     "quote": "we are attentive to the risk that stronger growth could undermine further progress in restoring balance to the labor market and in bringing inflation down, which could warrant a response from monetary policy.",
+     "start": 1063,
+     "end": 1270
+    },
+    {
+     "quote": "The labor market remains tight, although improvements in labor supply and a gradual easing in demand continue to move it into better balance.",
+     "start": 733,
+     "end": 873
+    },
+    {
+     "quote": "We will continue to move carefully, however, allowing us to address both the risk of being misled by a few good months of data, and the risk of overtightening.",
+     "start": 1703,
+     "end": 1861
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

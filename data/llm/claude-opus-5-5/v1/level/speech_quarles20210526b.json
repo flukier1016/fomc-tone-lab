@@ -1,0 +1,121 @@
+{
+ "key": "speech_quarles20210526b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20210526b",
+  "doc_type": "speech",
+  "text_sha256": "19726ac7e8ddd2e46848191d7d6a881f56ce3a92c9804c84897450a92ac29368"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "11610d1f3b9d62fa402cc06f7cb9190464754044dd410014b1a0c925048a6bb4",
+ "message_id": "msg_011CgFugDZqN3MBUWB7fXxhD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5900,
+  "output_tokens": 531,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"it will become important for the FOMC to begin discussing our plans to adjust the pace of asset purchases at upcoming meetings\"},{\"dimension\":\"risk_balance\",\"quote\":\"my optimistic outlook for growth and employment places me among those who see the risks to inflation over the medium term as weighted to the upside, relative to my baseline forecast.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Thus, I expect that monetary policy will remain highly accommodative for some time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"These upside surprises cannot be attributed to base effects.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With the service sector reopening while other household and business spending remains strong, I expect rapid growth to continue for some time before slowing to a still robust pace next year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Therefore, we need to remain patient in the face of what seem to be transitory shocks to prices and wages\"}],\"rationale\":\"Quarles views inflation as mostly transitory and rates as staying highly accommodative, but he flags upside inflation risks, strong growth, and an approaching need to discuss tapering asset purchases. On net this is a moderately hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "it will become important for the FOMC to begin discussing our plans to adjust the pace of asset purchases at upcoming meetings"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "my optimistic outlook for growth and employment places me among those who see the risks to inflation over the medium term as weighted to the upside, relative to my baseline forecast."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Thus, I expect that monetary policy will remain highly accommodative for some time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "These upside surprises cannot be attributed to base effects."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With the service sector reopening while other household and business spending remains strong, I expect rapid growth to continue for some time before slowing to a still robust pace next year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Therefore, we need to remain patient in the face of what seem to be transitory shocks to prices and wages"
+   }
+  ],
+  "rationale": "Quarles views inflation as mostly transitory and rates as staying highly accommodative, but he flags upside inflation risks, strong growth, and an approaching need to discuss tapering asset purchases. On net this is a moderately hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it will become important for the FOMC to begin discussing our plans to adjust the pace of asset purchases at upcoming meetings",
+     "start": 15550,
+     "end": 15676
+    },
+    {
+     "quote": "my optimistic outlook for growth and employment places me among those who see the risks to inflation over the medium term as weighted to the upside, relative to my baseline forecast.",
+     "start": 8601,
+     "end": 8782
+    },
+    {
+     "quote": "Thus, I expect that monetary policy will remain highly accommodative for some time.",
+     "start": 16936,
+     "end": 17018
+    },
+    {
+     "quote": "These upside surprises cannot be attributed to base effects.",
+     "start": 11745,
+     "end": 11804
+    },
+    {
+     "quote": "With the service sector reopening while other household and business spending remains strong, I expect rapid growth to continue for some time before slowing to a still robust pace next year.",
+     "start": 999,
+     "end": 1188
+    },
+    {
+     "quote": "Therefore, we need to remain patient in the face of what seem to be transitory shocks to prices and wages",
+     "start": 14266,
+     "end": 14371
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

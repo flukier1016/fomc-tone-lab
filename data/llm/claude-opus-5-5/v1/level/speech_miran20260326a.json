@@ -1,0 +1,112 @@
+{
+ "key": "speech_miran20260326a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_miran20260326a",
+  "doc_type": "speech",
+  "text_sha256": "682a945e80960f230954e72c1bdc155faed3e89e4bfd9b35e74e689802f81429"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aa4aed0af306848dc2fce689c185a3a6e7cd6527ab22b1ac64bffbfac4829875",
+ "message_id": "msg_011CgFugG7sjhFzt5jZNMoz7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3928,
+  "output_tokens": 775,
+  "output_tokens_details": {
+   "thinking_tokens": 291
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"My topline assessment is that shrinking the balance sheet is a solvable challenge.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Loosely speaking, this range could reflect $1 trillion to $2 trillion of balance sheet reduction\"},{\"dimension\":\"forward_guidance\",\"quote\":\"It is therefore likely that a resumption of balance sheet reduction warrants additional reductions in the federal funds rate relative to baseline projections.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"this process is likely to take well over a year once the decision is taken to proceed. It could take several years.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The most important thing we can do will be to go slowly. It is hard to overemphasize how important this is.\"}],\"rationale\":\"The speaker advocates a substantially smaller balance sheet (hawkish) but stresses a slow pace years away, and says the contractionary effects should be offset with additional fed funds rate cuts (dovish). The net policy signal is roughly balanced, a mix of a tighter balance sheet and lower policy rates.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "My topline assessment is that shrinking the balance sheet is a solvable challenge."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Loosely speaking, this range could reflect $1 trillion to $2 trillion of balance sheet reduction"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "It is therefore likely that a resumption of balance sheet reduction warrants additional reductions in the federal funds rate relative to baseline projections."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "this process is likely to take well over a year once the decision is taken to proceed. It could take several years."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The most important thing we can do will be to go slowly. It is hard to overemphasize how important this is."
+   }
+  ],
+  "rationale": "The speaker advocates a substantially smaller balance sheet (hawkish) but stresses a slow pace years away, and says the contractionary effects should be offset with additional fed funds rate cuts (dovish). The net policy signal is roughly balanced, a mix of a tighter balance sheet and lower policy rates."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My topline assessment is that shrinking the balance sheet is a solvable challenge.",
+     "start": 3484,
+     "end": 3565
+    },
+    {
+     "quote": "Loosely speaking, this range could reflect $1 trillion to $2 trillion of balance sheet reduction",
+     "start": 8518,
+     "end": 8614
+    },
+    {
+     "quote": "It is therefore likely that a resumption of balance sheet reduction warrants additional reductions in the federal funds rate relative to baseline projections.",
+     "start": 10995,
+     "end": 11152
+    },
+    {
+     "quote": "this process is likely to take well over a year once the decision is taken to proceed. It could take several years.",
+     "start": 11892,
+     "end": 12006
+    },
+    {
+     "quote": "The most important thing we can do will be to go slowly. It is hard to overemphasize how important this is.",
+     "start": 9314,
+     "end": 9420
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

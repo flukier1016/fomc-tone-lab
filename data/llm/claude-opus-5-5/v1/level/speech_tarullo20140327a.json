@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20140327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20140327a",
+  "doc_type": "speech",
+  "text_sha256": "693ccd71856702d72fa5cd35d45dfff855400b60992803f976df8773bd3523d6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9608a7e507e3fd1ec96a76af852a7618e80525b4112e4ca6196797dab6dfed4e",
+ "message_id": "msg_011CgFugFb8TiHRhqGdEM8mv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11213,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This evening I would like to focus on these vulnerabilities and on how best we should address them.\"},{\"dimension\":\"overall\",\"quote\":\"we need to redouble efforts at genuine supervisory cooperation if we are to manage effectively the vulnerabilities and challenges posed by the perennial home-host issue.\"},{\"dimension\":\"overall\",\"quote\":\"The most important contribution the United States can make to global financial stability is to ensure the stability of our own financial system.\"}],\"rationale\":\"The speech concerns home-host supervision and prudential regulation of foreign banking organizations. It contains no discussion of monetary policy, inflation, or the economic outlook.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This evening I would like to focus on these vulnerabilities and on how best we should address them."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we need to redouble efforts at genuine supervisory cooperation if we are to manage effectively the vulnerabilities and challenges posed by the perennial home-host issue."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The most important contribution the United States can make to global financial stability is to ensure the stability of our own financial system."
+   }
+  ],
+  "rationale": "The speech concerns home-host supervision and prudential regulation of foreign banking organizations. It contains no discussion of monetary policy, inflation, or the economic outlook."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This evening I would like to focus on these vulnerabilities and on how best we should address them.",
+     "start": 439,
+     "end": 537
+    },
+    {
+     "quote": "we need to redouble efforts at genuine supervisory cooperation if we are to manage effectively the vulnerabilities and challenges posed by the perennial home-host issue.",
+     "start": 3623,
+     "end": 3791
+    },
+    {
+     "quote": "The most important contribution the United States can make to global financial stability is to ensure the stability of our own financial system.",
+     "start": 36457,
+     "end": 36600
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

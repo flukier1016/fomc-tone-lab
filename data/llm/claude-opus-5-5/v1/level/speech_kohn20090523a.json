@@ -1,0 +1,112 @@
+{
+ "key": "speech_kohn20090523a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090523a",
+  "doc_type": "speech",
+  "text_sha256": "8706912452ff570b381e25feaa96ab63641b245c7f529e12a3565d3e4255156d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cebbbf678c40835aae6da8f46c792a0b9de3313c4ec8be5700e22c68b5f59d34",
+ "message_id": "msg_011CgFugFPxqqMG8pw7eyWWZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5542,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As a consequence, it probably will be some time before the FOMC will need to begin to raise its target for the federal funds rate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In my view, the economy is only now beginning to show signs that it might be stabilizing, and the upturn, when it begins, is likely to be gradual\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"with many analysts forecasting lower-than-desired inflation and a persistent, large output gap\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we have announced our intention to purchase up to $1.75 trillion in longer-term Treasury notes and bonds, agency debt, and agency MBS during this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Nonetheless, to ensure confidence in our ability to sustain price stability, we need to have a framework for managing our balance sheet when it is time to move to contain inflation pressures.\"}],\"rationale\":\"The speaker defends large-scale asset purchases, describes a weak, only-stabilizing economy with low inflation, and says rate hikes are likely some time away. Discussion of exit tools and eventual inflation containment adds a mild offset but is framed as distant.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As a consequence, it probably will be some time before the FOMC will need to begin to raise its target for the federal funds rate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In my view, the economy is only now beginning to show signs that it might be stabilizing, and the upturn, when it begins, is likely to be gradual"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "with many analysts forecasting lower-than-desired inflation and a persistent, large output gap"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we have announced our intention to purchase up to $1.75 trillion in longer-term Treasury notes and bonds, agency debt, and agency MBS during this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Nonetheless, to ensure confidence in our ability to sustain price stability, we need to have a framework for managing our balance sheet when it is time to move to contain inflation pressures."
+   }
+  ],
+  "rationale": "The speaker defends large-scale asset purchases, describes a weak, only-stabilizing economy with low inflation, and says rate hikes are likely some time away. Discussion of exit tools and eventual inflation containment adds a mild offset but is framed as distant."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As a consequence, it probably will be some time before the FOMC will need to begin to raise its target for the federal funds rate.",
+     "start": 16027,
+     "end": 16156
+    },
+    {
+     "quote": "In my view, the economy is only now beginning to show signs that it might be stabilizing, and the upturn, when it begins, is likely to be gradual",
+     "start": 15807,
+     "end": 15952
+    },
+    {
+     "quote": "with many analysts forecasting lower-than-desired inflation and a persistent, large output gap",
+     "start": 3112,
+     "end": 3206
+    },
+    {
+     "quote": "we have announced our intention to purchase up to $1.75 trillion in longer-term Treasury notes and bonds, agency debt, and agency MBS during this year.",
+     "start": 7261,
+     "end": 7411
+    },
+    {
+     "quote": "Nonetheless, to ensure confidence in our ability to sustain price stability, we need to have a framework for managing our balance sheet when it is time to move to contain inflation pressures.",
+     "start": 16158,
+     "end": 16348
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20121128a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20121128a",
+  "doc_type": "speech",
+  "text_sha256": "a72e1cec58ba333cddf6848ef72bd22983158c238ab73e71b02a8600828c2890"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a07efba2fb3a39690b94e60f22f929b495fd90d6d321d820afaba3e8e06ef08",
+ "message_id": "msg_011CgFugJ8frvbGzD5opVXF1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8668,
+  "output_tokens": 332,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"My subject today pertains to an area in which reforms have yet to be made--the regulation of the U.S. operations of large foreign banks.\"},{\"dimension\":\"overall\",\"quote\":\"Third , there should be liquidity standards for large U.S. operations of foreign banks.\"},{\"dimension\":\"overall\",\"quote\":\"For the foreseeable future, then, our regulatory system must recognize that while internationally active banks live globally, they may well die locally.\"}],\"rationale\":\"The speech concerns prudential regulation of foreign banks' U.S. operations and does not address monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "My subject today pertains to an area in which reforms have yet to be made--the regulation of the U.S. operations of large foreign banks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Third , there should be liquidity standards for large U.S. operations of foreign banks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For the foreseeable future, then, our regulatory system must recognize that while internationally active banks live globally, they may well die locally."
+   }
+  ],
+  "rationale": "The speech concerns prudential regulation of foreign banks' U.S. operations and does not address monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My subject today pertains to an area in which reforms have yet to be made--the regulation of the U.S. operations of large foreign banks.",
+     "start": 163,
+     "end": 298
+    },
+    {
+     "quote": "Third , there should be liquidity standards for large U.S. operations of foreign banks.",
+     "start": 22270,
+     "end": 22356
+    },
+    {
+     "quote": "For the foreseeable future, then, our regulatory system must recognize that while internationally active banks live globally, they may well die locally.",
+     "start": 16384,
+     "end": 16535
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

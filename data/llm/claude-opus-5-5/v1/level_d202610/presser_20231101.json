@@ -1,0 +1,135 @@
+{
+ "key": "presser_20231101",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20231101",
+  "doc_type": "presser",
+  "text_sha256": "161e26ee3b59680d056b1481ce0a21bc1f51fc92f845a4598078c563223b2fa6"
+ },
+ "run_tag": "d202610",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dd4cfdb2b718fa4ab33bf30a0bd58555d92bc4a41054de047de13cfd76716b20",
+ "message_id": "msg_011CgGw8fX9KGQ8GQXdGmovc",
+ "request_id": "req_011CgGw8fAZQi7Cwr5ZD9xH4",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11775,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2241,
+    "input_tokens": 11775,
+    "model": null,
+    "output_tokens": 553,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-22T08:08:50+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, we decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the fact is the Committee is not thinking about rate cuts right now at all. We're not talking about rate cuts.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Evidence of growth persistently above potential, or that tightness in the labor market is no longer easing, could put further progress on inflation at risk and could warrant further tightening of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The process of getting inflation sustainably down to 2 percent has a long way to go.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We think, and I think, that the risks are getting more balanced. I'll just say that they're getting more balanced.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has been expanding at a strong pace and well above earlier expectations.\"}],\"rationale\":\"The Chair holds rates steady while keeping a tightening bias, flagging strong growth and elevated inflation, and ruling out discussion of cuts. This hawkish lean is tempered by 'proceeding carefully', tighter financial conditions doing some of the work, and risks described as more two-sided.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, we decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the fact is the Committee is not thinking about rate cuts right now at all. We're not talking about rate cuts."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Evidence of growth persistently above potential, or that tightness in the labor market is no longer easing, could put further progress on inflation at risk and could warrant further tightening of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The process of getting inflation sustainably down to 2 percent has a long way to go."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We think, and I think, that the risks are getting more balanced. I'll just say that they're getting more balanced."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has been expanding at a strong pace and well above earlier expectations."
+   }
+  ],
+  "rationale": "The Chair holds rates steady while keeping a tightening bias, flagging strong growth and elevated inflation, and ruling out discussion of cuts. This hawkish lean is tempered by 'proceeding carefully', tighter financial conditions doing some of the work, and risks described as more two-sided."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, we decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings.",
+     "start": 986,
+     "end": 1097
+    },
+    {
+     "quote": "the fact is the Committee is not thinking about rate cuts right now at all. We're not talking about rate cuts.",
+     "start": 13821,
+     "end": 13930
+    },
+    {
+     "quote": "Evidence of growth persistently above potential, or that tightness in the labor market is no longer easing, could put further progress on inflation at risk and could warrant further tightening of monetary policy.",
+     "start": 4953,
+     "end": 5164
+    },
+    {
+     "quote": "The process of getting inflation sustainably down to 2 percent has a long way to go.",
+     "start": 3282,
+     "end": 3365
+    },
+    {
+     "quote": "We think, and I think, that the risks are getting more balanced. I'll just say that they're getting more balanced.",
+     "start": 34060,
+     "end": 34173
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a strong pace and well above earlier expectations.",
+     "start": 1510,
+     "end": 1630
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

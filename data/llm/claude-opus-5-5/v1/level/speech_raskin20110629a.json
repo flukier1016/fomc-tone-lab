@@ -1,0 +1,94 @@
+{
+ "key": "speech_raskin20110629a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20110629a",
+  "doc_type": "speech",
+  "text_sha256": "0733b5475360ef8725a50a4487ef5398bc8809d769eddf1b34c0c7679fe6aa21"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3c315915c35629f4bd0116252c968bce29275079c436a3fed0257e032c69a6cd",
+ "message_id": "msg_011CgFugCqRoHvMBoMxpyaAt",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5429,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The latest employment report issued by the Bureau of Labor Statistics was bleak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"One of the tragedies of our current lingering recession is that so many young Americans have not been able to experience the thrilling rite of passage that comes with finding a stable and decent-paying job.\"},{\"dimension\":\"overall\",\"quote\":\"The question of employment is not our focus today, but we should pause to underscore the promotion-of-maximum-employment imperative of the Federal Reserve's dual mandate.\"}],\"rationale\":\"The speech is mainly about financial inclusion and consumer financial services, not monetary policy. It describes the labor market as weak and stresses the maximum-employment mandate, a mild dovish lean, but it gives no policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The latest employment report issued by the Bureau of Labor Statistics was bleak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "One of the tragedies of our current lingering recession is that so many young Americans have not been able to experience the thrilling rite of passage that comes with finding a stable and decent-paying job."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The question of employment is not our focus today, but we should pause to underscore the promotion-of-maximum-employment imperative of the Federal Reserve's dual mandate."
+   }
+  ],
+  "rationale": "The speech is mainly about financial inclusion and consumer financial services, not monetary policy. It describes the labor market as weak and stresses the maximum-employment mandate, a mild dovish lean, but it gives no policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The latest employment report issued by the Bureau of Labor Statistics was bleak.",
+     "start": 3028,
+     "end": 3107
+    },
+    {
+     "quote": "One of the tragedies of our current lingering recession is that so many young Americans have not been able to experience the thrilling rite of passage that comes with finding a stable and decent-paying job.",
+     "start": 1009,
+     "end": 1214
+    },
+    {
+     "quote": "The question of employment is not our focus today, but we should pause to underscore the promotion-of-maximum-employment imperative of the Federal Reserve's dual mandate.",
+     "start": 1374,
+     "end": 1543
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

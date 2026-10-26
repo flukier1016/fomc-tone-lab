@@ -1,0 +1,109 @@
+{
+ "key": "statement_20181108",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20181108",
+  "previous_doc_id": "statement_20180926",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "97b41dbb9619d9ae93dce4cdd126d5f8fa607825b5cba80185225bb1c54b43d4",
+ "message_id": "msg_011CgFudUUSEPiy6YNMnWqWY",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1245,
+  "output_tokens": 294,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"the unemployment rate has stayed low\",\"after\":\"the unemployment rate has declined\",\"direction\":\"hawkish\"},{\"before\":\"Household spending and business fixed investment have grown strongly.\",\"after\":\"Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier in the year.\",\"direction\":\"dovish\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 2 to 2-1/4 percent.\",\"after\":\"the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.\",\"direction\":\"neutral\"}],\"rationale\":\"The hold follows a hike under unchanged guidance for further gradual increases, so the policy path is intact. The modestly softer investment language roughly offsets the stronger unemployment reading.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "the unemployment rate has stayed low",
+    "after": "the unemployment rate has declined",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending and business fixed investment have grown strongly.",
+    "after": "Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier in the year.",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 2 to 2-1/4 percent.",
+    "after": "the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The hold follows a hike under unchanged guidance for further gradual increases, so the policy path is intact. The modestly softer investment language roughly offsets the stronger unemployment reading."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the unemployment rate has stayed low",
+     "start": 258,
+     "end": 294
+    },
+    {
+     "quote": "Household spending and business fixed investment have grown strongly.",
+     "start": 296,
+     "end": 364
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 2 to 2-1/4 percent.",
+     "start": 1088,
+     "end": 1184
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the unemployment rate has declined",
+     "start": 261,
+     "end": 295
+    },
+    {
+     "quote": "Household spending has continued to grow strongly, while growth of business fixed investment has moderated from its rapid pace earlier in the year.",
+     "start": 297,
+     "end": 443
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 2 to 2-1/4 percent.",
+     "start": 1167,
+     "end": 1266
+    }
+   ]
+  }
+ }
+}

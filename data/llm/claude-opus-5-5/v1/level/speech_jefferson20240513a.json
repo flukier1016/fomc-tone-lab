@@ -1,0 +1,94 @@
+{
+ "key": "speech_jefferson20240513a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20240513a",
+  "doc_type": "speech",
+  "text_sha256": "d8ef62d8138062ec7e40fdbb55593ff1e89d29bbe5e367a5e76ac700fd932c8f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9df0e03ff746b1e4d322a889bfb1ffcab95ae3990716d48f554672e31229ed29",
+ "message_id": "msg_011CgFugEyfg8x5BZQiCKVfY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3626,
+  "output_tokens": 323,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, it's widely accepted that clear communication contributes greatly to the effective transmission of monetary policy, especially because clear communication can affect the expected path of interest rates and financial conditions more generally.\"},{\"dimension\":\"overall\",\"quote\":\"That is why policymakers always make sure to stress the data dependence of future policy decisions.\"},{\"dimension\":\"overall\",\"quote\":\"I think we stand to benefit a lot from more research in this area.\"}],\"rationale\":\"The speech covers the history and challenges of central bank communication and offers no view on the economic outlook, inflation, or the policy path. It carries no directional policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, it's widely accepted that clear communication contributes greatly to the effective transmission of monetary policy, especially because clear communication can affect the expected path of interest rates and financial conditions more generally."
+   },
+   {
+    "dimension": "overall",
+    "quote": "That is why policymakers always make sure to stress the data dependence of future policy decisions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I think we stand to benefit a lot from more research in this area."
+   }
+  ],
+  "rationale": "The speech covers the history and challenges of central bank communication and offers no view on the economic outlook, inflation, or the policy path. It carries no directional policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, it's widely accepted that clear communication contributes greatly to the effective transmission of monetary policy, especially because clear communication can affect the expected path of interest rates and financial conditions more generally.",
+     "start": 2397,
+     "end": 2645
+    },
+    {
+     "quote": "That is why policymakers always make sure to stress the data dependence of future policy decisions.",
+     "start": 10787,
+     "end": 10885
+    },
+    {
+     "quote": "I think we stand to benefit a lot from more research in this area.",
+     "start": 11362,
+     "end": 11427
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

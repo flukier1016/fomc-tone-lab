@@ -1,0 +1,121 @@
+{
+ "key": "presser_20230726",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20230726",
+  "doc_type": "presser",
+  "text_sha256": "5972bff1989d3e3c507ffca5d4371e11b06a06f150762bc6bb228a00bfcb26a3"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "76c661a3ddedef9f437acf000aacb0cd2447a229771e315ea768e17527ab8f15",
+ "message_id": "msg_011CgG27zzTufW6nAnxTs3wB",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11409,
+  "output_tokens": 559,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today we took another step by raising our policy interest rate ¼ percentage point, and we are continuing to reduce our securities holdings at a brisk pace.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would say it is certainly possible that we would raise funds again at the September meeting if the data warrant it, and I would also say it’s possible that we would choose to hold steady at that meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we think we’re going to need to hold, certainly, hold policy at a restrictive level for some time. And we need to be prepared to raise further if that—if we think that’s appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Nonetheless, the process of getting inflation back down to 2 percent has a long way to go.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we’re coming to a place where, where there really are risks on both sides.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market remains very tight.\"}],\"rationale\":\"The Chair announces a quarter-point hike with continued runoff, keeps further tightening on the table and stresses holding policy restrictive for some time, while acknowledging two-sided risks and the possibility of holding in September. The net signal is a moderately hawkish, data-dependent lean near the end of the hiking cycle.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today we took another step by raising our policy interest rate ¼ percentage point, and we are continuing to reduce our securities holdings at a brisk pace."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would say it is certainly possible that we would raise funds again at the September meeting if the data warrant it, and I would also say it’s possible that we would choose to hold steady at that meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we think we’re going to need to hold, certainly, hold policy at a restrictive level for some time. And we need to be prepared to raise further if that—if we think that’s appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nonetheless, the process of getting inflation back down to 2 percent has a long way to go."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we’re coming to a place where, where there really are risks on both sides."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market remains very tight."
+   }
+  ],
+  "rationale": "The Chair announces a quarter-point hike with continued runoff, keeps further tightening on the table and stresses holding policy restrictive for some time, while acknowledging two-sided risks and the possibility of holding in September. The net signal is a moderately hawkish, data-dependent lean near the end of the hiking cycle."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today we took another step by raising our policy interest rate ¼ percentage point, and we are continuing to reduce our securities holdings at a brisk pace.",
+     "start": 646,
+     "end": 800
+    },
+    {
+     "quote": "I would say it is certainly possible that we would raise funds again at the September meeting if the data warrant it, and I would also say it’s possible that we would choose to hold steady at that meeting.",
+     "start": 7637,
+     "end": 7841
+    },
+    {
+     "quote": "we think we’re going to need to hold, certainly, hold policy at a restrictive level for some time. And we need to be prepared to raise further if that—if we think that’s appropriate.",
+     "start": 13353,
+     "end": 13534
+    },
+    {
+     "quote": "Nonetheless, the process of getting inflation back down to 2 percent has a long way to go.",
+     "start": 2647,
+     "end": 2736
+    },
+    {
+     "quote": "we’re coming to a place where, where there really are risks on both sides.",
+     "start": 12455,
+     "end": 12528
+    },
+    {
+     "quote": "The labor market remains very tight.",
+     "start": 1553,
+     "end": 1588
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

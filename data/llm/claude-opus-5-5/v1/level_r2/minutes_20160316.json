@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20160316",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20160316",
+  "doc_type": "minutes",
+  "text_sha256": "e2032ac041c8700b5e6a0dbac7182edf6622f00bfcb45157d44916ee81efa6b1"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b699d6abf5f8bf462d0b3db2eed60111b53828781a584f8a0169b35c6580a976",
+ "message_id": "msg_011CgG27oSvkuBSX1nuq918n",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 13709,
+  "output_tokens": 623,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"many participants expressed the view that a somewhat lower path for the federal funds rate than they had projected in December now seemed most likely to be appropriate for achieving the Committee's dual mandate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"many participants indicated that the heightened global risks and the asymmetric ability of monetary policy to respond to them warranted caution in making adjustments to the stance of U.S. monetary policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"this asymmetry made it prudent to wait for additional information regarding the underlying strength of economic activity and prospects for inflation before taking another step to reduce policy accommodation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A range of labor market indicators, including strong employment growth and rising labor force participation, pointed to a further strengthening of the labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Several members expressed concern that longer-run inflation expectations may have declined.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The minutes emphasize global downside risks, risk-management asymmetry near the zero lower bound, and a lower projected rate path than in December, despite a strong labor market and some hawkish dissent. Inflation is still seen as below target with concerns about slipping expectations, giving a net dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "many participants expressed the view that a somewhat lower path for the federal funds rate than they had projected in December now seemed most likely to be appropriate for achieving the Committee's dual mandate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "many participants indicated that the heightened global risks and the asymmetric ability of monetary policy to respond to them warranted caution in making adjustments to the stance of U.S. monetary policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "this asymmetry made it prudent to wait for additional information regarding the underlying strength of economic activity and prospects for inflation before taking another step to reduce policy accommodation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A range of labor market indicators, including strong employment growth and rising labor force participation, pointed to a further strengthening of the labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Several members expressed concern that longer-run inflation expectations may have declined."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The minutes emphasize global downside risks, risk-management asymmetry near the zero lower bound, and a lower projected rate path than in December, despite a strong labor market and some hawkish dissent. Inflation is still seen as below target with concerns about slipping expectations, giving a net dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "many participants expressed the view that a somewhat lower path for the federal funds rate than they had projected in December now seemed most likely to be appropriate for achieving the Committee's dual mandate.",
+     "start": 32241,
+     "end": 32451
+    },
+    {
+     "quote": "many participants indicated that the heightened global risks and the asymmetric ability of monetary policy to respond to them warranted caution in making adjustments to the stance of U.S. monetary policy.",
+     "start": 30843,
+     "end": 31046
+    },
+    {
+     "quote": "this asymmetry made it prudent to wait for additional information regarding the underlying strength of economic activity and prospects for inflation before taking another step to reduce policy accommodation.",
+     "start": 33474,
+     "end": 33680
+    },
+    {
+     "quote": "A range of labor market indicators, including strong employment growth and rising labor force participation, pointed to a further strengthening of the labor market.",
+     "start": 20678,
+     "end": 20841
+    },
+    {
+     "quote": "Several members expressed concern that longer-run inflation expectations may have declined.",
+     "start": 37965,
+     "end": 38055
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 40639,
+     "end": 40788
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

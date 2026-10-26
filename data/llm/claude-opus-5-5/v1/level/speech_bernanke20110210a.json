@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20110210a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110210a",
+  "doc_type": "speech",
+  "text_sha256": "3db02979f8a3278081318fcc084c7c71c11b0456b15c8f8edbbf18d8619ff90c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b64d11c0a9f0cd4be09edb24de6e6eda498c165028d119de593adfbde20975b8",
+ "message_id": "msg_011CgFugAbjfuXs2aPqv9CmL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6297,
+  "output_tokens": 451,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of expansion has been frustratingly slow and the unemployment rate remains very high by historical standards\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In sum, the economic recovery has been disappointing in part because U.S. housing markets remain out of balance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"These inflows will continue to exert downward pressure on home prices.\"},{\"dimension\":\"overall\",\"quote\":\"the strong actions taken by the Federal Reserve to put downward pressure on longer-term rates and to improve financial conditions have had less effect on the housing sector and overall economic activity than they otherwise would have had.\"}],\"rationale\":\"The speech focuses on housing weakness, tight mortgage credit and its drag on a slow recovery with high unemployment, implying a continued need for accommodation, though it gives no explicit policy guidance. Inflation is not discussed, and the main remedies proposed are housing policies rather than monetary actions.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of expansion has been frustratingly slow and the unemployment rate remains very high by historical standards"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In sum, the economic recovery has been disappointing in part because U.S. housing markets remain out of balance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "These inflows will continue to exert downward pressure on home prices."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the strong actions taken by the Federal Reserve to put downward pressure on longer-term rates and to improve financial conditions have had less effect on the housing sector and overall economic activity than they otherwise would have had."
+   }
+  ],
+  "rationale": "The speech focuses on housing weakness, tight mortgage credit and its drag on a slow recovery with high unemployment, implying a continued need for accommodation, though it gives no explicit policy guidance. Inflation is not discussed, and the main remedies proposed are housing policies rather than monetary actions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the pace of expansion has been frustratingly slow and the unemployment rate remains very high by historical standards",
+     "start": 423,
+     "end": 540
+    },
+    {
+     "quote": "In sum, the economic recovery has been disappointing in part because U.S. housing markets remain out of balance.",
+     "start": 20227,
+     "end": 20338
+    },
+    {
+     "quote": "These inflows will continue to exert downward pressure on home prices.",
+     "start": 15620,
+     "end": 15689
+    },
+    {
+     "quote": "the strong actions taken by the Federal Reserve to put downward pressure on longer-term rates and to improve financial conditions have had less effect on the housing sector and overall economic activity than they otherwise would have had.",
+     "start": 13531,
+     "end": 13768
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

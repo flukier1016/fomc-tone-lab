@@ -1,0 +1,121 @@
+{
+ "key": "statement_20251210",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20251210",
+  "doc_type": "statement",
+  "text_sha256": "167d2324c58e88d23ceefc9bf44c4d76b76cf659740a86cc5eddbaeb33e932bf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "440e2d851517953d7166195fedf591d7de95284884efd633f759f5b475b1eefa",
+ "message_id": "msg_011CgFugGCauMT4igaTSYJjY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 812,
+  "output_tokens": 847,
+  "output_tokens_details": {
+   "thinking_tokens": 295
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"risk_balance\",\"quote\":\"judges that downside risks to employment rose in recent months\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has moved up since earlier in the year and remains somewhat elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have slowed this year, and the unemployment rate has edged up through September.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis\"}],\"rationale\":\"The Committee cut 25bp citing rising downside employment risks and will begin reserve-management Treasury purchases, a dovish action. However, the 'extent and timing' language and two dissents favoring no change suggest a more cautious pace of further easing, while inflation is still described as elevated.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "judges that downside risks to employment rose in recent months"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has moved up since earlier in the year and remains somewhat elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have slowed this year, and the unemployment rate has edged up through September."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis"
+   }
+  ],
+  "rationale": "The Committee cut 25bp citing rising downside employment risks and will begin reserve-management Treasury purchases, a dovish action. However, the 'extent and timing' language and two dissents favoring no change suggest a more cautious pace of further easing, while inflation is still described as elevated."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent",
+     "start": 711,
+     "end": 835
+    },
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 837,
+     "end": 1045
+    },
+    {
+     "quote": "judges that downside risks to employment rose in recent months",
+     "start": 571,
+     "end": 633
+    },
+    {
+     "quote": "Inflation has moved up since earlier in the year and remains somewhat elevated.",
+     "start": 245,
+     "end": 323
+    },
+    {
+     "quote": "Job gains have slowed this year, and the unemployment rate has edged up through September.",
+     "start": 91,
+     "end": 180
+    },
+    {
+     "quote": "will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis",
+     "start": 1792,
+     "end": 1921
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

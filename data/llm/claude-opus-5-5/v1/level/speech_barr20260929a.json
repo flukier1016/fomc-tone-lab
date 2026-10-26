@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20260929a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260929a",
+  "doc_type": "speech",
+  "text_sha256": "610bd208ee81e2dccb7b498111be9fa7be215102f43ec802ee9aa37943413852"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3da6b7536a18e0fb90af2e9f640fe1ceb90c89d6ce8e2cc19d419d7b54229253",
+ "message_id": "msg_011CgFug9qbspp1SYKQCLPTQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4322,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Risks to achieving our inflation target have increased, while risks to the labor market have receded, so we need to recalibrate policy\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"What is clear right now is that inflation is too high.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"And I don't yet see a clear trend toward a timely return to 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity in the United States has grown at a solid pace in 2026 and has recently gained momentum.\"}],\"rationale\":\"The speaker endorses the recent rate increase, says further tightening is likely needed, and stresses persistently high inflation alongside a solid labor market and receding labor risks. The signal is clearly hawkish, with only modest dovish caveats about medium-term AI labor disruptions.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Risks to achieving our inflation target have increased, while risks to the labor market have receded, so we need to recalibrate policy"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "What is clear right now is that inflation is too high."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "And I don't yet see a clear trend toward a timely return to 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity in the United States has grown at a solid pace in 2026 and has recently gained momentum."
+   }
+  ],
+  "rationale": "The speaker endorses the recent rate increase, says further tightening is likely needed, and stresses persistently high inflation alongside a solid labor market and receding labor risks. The signal is clearly hawkish, with only modest dovish caveats about medium-term AI labor disruptions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.",
+     "start": 14012,
+     "end": 14140
+    },
+    {
+     "quote": "Risks to achieving our inflation target have increased, while risks to the labor market have receded, so we need to recalibrate policy",
+     "start": 13773,
+     "end": 13907
+    },
+    {
+     "quote": "What is clear right now is that inflation is too high.",
+     "start": 13353,
+     "end": 13406
+    },
+    {
+     "quote": "And I don't yet see a clear trend toward a timely return to 2 percent.",
+     "start": 5340,
+     "end": 5409
+    },
+    {
+     "quote": "Economic activity in the United States has grown at a solid pace in 2026 and has recently gained momentum.",
+     "start": 2732,
+     "end": 2837
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

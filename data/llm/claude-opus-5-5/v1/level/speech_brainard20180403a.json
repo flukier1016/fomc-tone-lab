@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20180403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20180403a",
+  "doc_type": "speech",
+  "text_sha256": "4ae89067cbf1ad4b5e731e4e9964f8f804a6729a5c2b244b460f276d7c0b56d9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8964bbae706e4454e9594c6aa31acba23c946894e7e3bffac774a6afd34cfca",
+ "message_id": "msg_011CgFug9xYWUB3jZDvnECy8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6981,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the recently enacted fiscal stimulus should boost the economy at a time when it is close to full employment and growing above trend.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Historically, such episodes tended to see a risk of accelerating inflation in earlier decades or a risk of financial imbalances in more recent decades.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Valuations in a broad set of markets appear elevated relative to historical norms, even after taking into account recent movements.\"},{\"dimension\":\"overall\",\"quote\":\"It is important to be attentive to the emergence of any imbalances, because we do not have much experience with pro-cyclical fiscal stimulus at a time when resource constraints are tightening and growth is above trend.\"},{\"dimension\":\"risk_balance\",\"quote\":\"This poses the risk that term premiums could rise sharply--for instance, if investor perceptions of inflation risks increased.\"}],\"rationale\":\"The speech is mainly about financial stability, but it characterizes the economy as near full employment with above-trend growth, fiscal stimulus and building cyclical pressures, flagging risks of accelerating inflation and financial imbalances. It gives no explicit rate guidance, so it earns only a mild hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the recently enacted fiscal stimulus should boost the economy at a time when it is close to full employment and growing above trend."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Historically, such episodes tended to see a risk of accelerating inflation in earlier decades or a risk of financial imbalances in more recent decades."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Valuations in a broad set of markets appear elevated relative to historical norms, even after taking into account recent movements."
+   },
+   {
+    "dimension": "overall",
+    "quote": "It is important to be attentive to the emergence of any imbalances, because we do not have much experience with pro-cyclical fiscal stimulus at a time when resource constraints are tightening and growth is above trend."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "This poses the risk that term premiums could rise sharply--for instance, if investor perceptions of inflation risks increased."
+   }
+  ],
+  "rationale": "The speech is mainly about financial stability, but it characterizes the economy as near full employment with above-trend growth, fiscal stimulus and building cyclical pressures, flagging risks of accelerating inflation and financial imbalances. It gives no explicit rate guidance, so it earns only a mild hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the recently enacted fiscal stimulus should boost the economy at a time when it is close to full employment and growing above trend.",
+     "start": 19295,
+     "end": 19426
+    },
+    {
+     "quote": "Historically, such episodes tended to see a risk of accelerating inflation in earlier decades or a risk of financial imbalances in more recent decades.",
+     "start": 19618,
+     "end": 19768
+    },
+    {
+     "quote": "Valuations in a broad set of markets appear elevated relative to historical norms, even after taking into account recent movements.",
+     "start": 2259,
+     "end": 2389
+    },
+    {
+     "quote": "It is important to be attentive to the emergence of any imbalances, because we do not have much experience with pro-cyclical fiscal stimulus at a time when resource constraints are tightening and growth is above trend.",
+     "start": 19770,
+     "end": 19987
+    },
+    {
+     "quote": "This poses the risk that term premiums could rise sharply--for instance, if investor perceptions of inflation risks increased.",
+     "start": 4918,
+     "end": 5043
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20100901a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100901a",
+  "doc_type": "speech",
+  "text_sha256": "b9036eb4a646be683b61dcd8cd8d8462c26a187d3bf5be3caf0af22eda774585"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "24aa20c73331537020b3c066965eb7b785feddc84c93afdb2e683b6716eb9080",
+ "message_id": "msg_011CgFug9Uma6hkdDywu3rrG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6198,
+  "output_tokens": 363,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"What began as a problem rooted in poorly underwritten loans has been exacerbated by high unemployment and slow economic growth.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This \\\"shadow inventory\\\" threatens to continue the downward pressure on housing prices and further destabilizes communities.\"},{\"dimension\":\"overall\",\"quote\":\"Neighborhood stabilization is not just sound economic policy, it is rooted in a vision of our shared future, our sense of community.\"}],\"rationale\":\"This is a community development speech on foreclosures and REO properties and takes no monetary policy view. It does make passing references to high unemployment and slow growth, which gives a mild dovish tilt to the activity assessment.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "What began as a problem rooted in poorly underwritten loans has been exacerbated by high unemployment and slow economic growth."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This \"shadow inventory\" threatens to continue the downward pressure on housing prices and further destabilizes communities."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Neighborhood stabilization is not just sound economic policy, it is rooted in a vision of our shared future, our sense of community."
+   }
+  ],
+  "rationale": "This is a community development speech on foreclosures and REO properties and takes no monetary policy view. It does make passing references to high unemployment and slow growth, which gives a mild dovish tilt to the activity assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "What began as a problem rooted in poorly underwritten loans has been exacerbated by high unemployment and slow economic growth.",
+     "start": 9751,
+     "end": 9877
+    },
+    {
+     "quote": "This \"shadow inventory\" threatens to continue the downward pressure on housing prices and further destabilizes communities.",
+     "start": 8813,
+     "end": 8935
+    },
+    {
+     "quote": "Neighborhood stabilization is not just sound economic policy, it is rooted in a vision of our shared future, our sense of community.",
+     "start": 19778,
+     "end": 19909
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

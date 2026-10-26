@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20201001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20201001a",
+  "doc_type": "speech",
+  "text_sha256": "8b4c5630a7fcc3f0af6b230cb2f4015f10d93488a671cd42b7157951088cc168"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9583c77ea812177bd5d139a75b44528ef195d7fd9b37d90fd6862622bf7661f5",
+ "message_id": "msg_011CgFugERBLk2GnEZdApFad",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1993,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"As you know, last week, the Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) on the Community Reinvestment Act (CRA).\"},{\"dimension\":\"overall\",\"quote\":\"Our second major goal for the ANPR was to provide greater certainty, tailor regulations, and minimize burden.\"},{\"dimension\":\"overall\",\"quote\":\"Importantly, the ANPR proposes to tailor CRA to bank size and business model.\"}],\"rationale\":\"The speech concerns Community Reinvestment Act regulatory reform and community banking and contains no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "As you know, last week, the Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) on the Community Reinvestment Act (CRA)."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our second major goal for the ANPR was to provide greater certainty, tailor regulations, and minimize burden."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Importantly, the ANPR proposes to tailor CRA to bank size and business model."
+   }
+  ],
+  "rationale": "The speech concerns Community Reinvestment Act regulatory reform and community banking and contains no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As you know, last week, the Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) on the Community Reinvestment Act (CRA).",
+     "start": 957,
+     "end": 1123
+    },
+    {
+     "quote": "Our second major goal for the ANPR was to provide greater certainty, tailor regulations, and minimize burden.",
+     "start": 2941,
+     "end": 3049
+    },
+    {
+     "quote": "Importantly, the ANPR proposes to tailor CRA to bank size and business model.",
+     "start": 3710,
+     "end": 3786
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

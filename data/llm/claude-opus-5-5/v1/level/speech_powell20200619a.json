@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20200619a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20200619a",
+  "doc_type": "speech",
+  "text_sha256": "4937a863c9989f847df184f232c24cab4e63082a3a148fa2fa4b9f380a7409d6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ee76e5c7dd0fe3d512a00ef8f104e37ebe5b60c5d268f747fbb381332829a74c",
+ "message_id": "msg_011CgFugFBpEVoVoJfyUPJeU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 954,
+  "output_tokens": 369,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We meet today amid the immense hardship and suffering the coronavirus has caused. Lives and livelihoods have been lost, and uncertainty looms large.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The path ahead is likely to be challenging.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We will make our way back from this, but it will take time and work.\"},{\"dimension\":\"overall\",\"quote\":\"My job today is to listen, so I will keep my remarks short.\"}],\"rationale\":\"These are brief community-outreach remarks that take no position on monetary policy, though they describe pandemic hardship and a challenging path ahead. The weak-economy tone leans slightly dovish, but the overall stance stays neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We meet today amid the immense hardship and suffering the coronavirus has caused. Lives and livelihoods have been lost, and uncertainty looms large."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The path ahead is likely to be challenging."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We will make our way back from this, but it will take time and work."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My job today is to listen, so I will keep my remarks short."
+   }
+  ],
+  "rationale": "These are brief community-outreach remarks that take no position on monetary policy, though they describe pandemic hardship and a challenging path ahead. The weak-economy tone leans slightly dovish, but the overall stance stays neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We meet today amid the immense hardship and suffering the coronavirus has caused. Lives and livelihoods have been lost, and uncertainty looms large.",
+     "start": 1359,
+     "end": 1506
+    },
+    {
+     "quote": "The path ahead is likely to be challenging.",
+     "start": 2810,
+     "end": 2852
+    },
+    {
+     "quote": "We will make our way back from this, but it will take time and work.",
+     "start": 2226,
+     "end": 2293
+    },
+    {
+     "quote": "My job today is to listen, so I will keep my remarks short.",
+     "start": 86,
+     "end": 144
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

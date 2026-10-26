@@ -1,0 +1,51 @@
+{
+ "key": "statement_20141029",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20141029",
+  "release_date": "2014-10-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "62eaeb3173d3450c038cec163bceebb13983c123c99572f544597ccde8af6bc6",
+ "message_id": "msg_011CgFudVC6mzxrhtVguwT5p",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1858,
+  "output_tokens": 151,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":10,\"confidence\":0.97,\"cues\":[\"Committee decided to conclude its asset purchase program this month (QE3 ended October 2014)\",\"Kocherlakota dissent citing slide in market-based inflation expectations\",\"Lael Brainard and Stanley Fischer voting (joined mid-2014)\",\"'considerable time' forward guidance language\",\"lower energy prices holding down inflation (late 2014 oil decline)\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 10,
+  "confidence": 0.97,
+  "cues": [
+   "Committee decided to conclude its asset purchase program this month (QE3 ended October 2014)",
+   "Kocherlakota dissent citing slide in market-based inflation expectations",
+   "Lael Brainard and Stanley Fischer voting (joined mid-2014)",
+   "'considerable time' forward guidance language",
+   "lower energy prices holding down inflation (late 2014 oil decline)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

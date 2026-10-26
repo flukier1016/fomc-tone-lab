@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20210805a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20210805a",
+  "doc_type": "speech",
+  "text_sha256": "4abe0d3302c6fd6e4eda207a13d8d45812c586c0abe9b92e8281e385b4ef7572"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e1aec79944480f23025ecdb42c9c1c8b3c204b0bb1a2513e27de06f621728361",
+ "message_id": "msg_011CgFugBFS5fpZr9YJwRk7x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5535,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"After exploring many possible problems that a CBDC could solve, I am left with the conclusion that a CBDC remains a solution in search of a problem.\"},{\"dimension\":\"overall\",\"quote\":\"I remain skeptical that a Federal Reserve CBDC would solve any major problem confronting the U.S. payment system.\"},{\"dimension\":\"overall\",\"quote\":\"So, if anything, private stablecoins pegged to the dollar broaden the reach of U.S. monetary policy rather than diminish it.\"}],\"rationale\":\"The speech is about payments and central bank digital currency, not the monetary policy stance or the economic outlook. It offers no signal on rates, inflation, activity or the balance sheet, so it is scored neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "After exploring many possible problems that a CBDC could solve, I am left with the conclusion that a CBDC remains a solution in search of a problem."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I remain skeptical that a Federal Reserve CBDC would solve any major problem confronting the U.S. payment system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So, if anything, private stablecoins pegged to the dollar broaden the reach of U.S. monetary policy rather than diminish it."
+   }
+  ],
+  "rationale": "The speech is about payments and central bank digital currency, not the monetary policy stance or the economic outlook. It offers no signal on rates, inflation, activity or the balance sheet, so it is scored neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "After exploring many possible problems that a CBDC could solve, I am left with the conclusion that a CBDC remains a solution in search of a problem.",
+     "start": 16025,
+     "end": 16172
+    },
+    {
+     "quote": "I remain skeptical that a Federal Reserve CBDC would solve any major problem confronting the U.S. payment system.",
+     "start": 17497,
+     "end": 17609
+    },
+    {
+     "quote": "So, if anything, private stablecoins pegged to the dollar broaden the reach of U.S. monetary policy rather than diminish it.",
+     "start": 15899,
+     "end": 16022
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20211103",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20211103",
+  "doc_type": "minutes",
+  "text_sha256": "e0ef01825b96740840c9559e3adab0b7147783795c8185aa49834de39a5f46f4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "12f948f5376d5b8b98fa9d6fcfc30317186ce65106828e9108ef7786ca374476",
+ "message_id": "msg_011CgFug8TkiRV59G4hKsovn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13206,
+  "output_tokens": 518,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Various participants noted that the Committee should be prepared to adjust the pace of asset purchases and raise the target range for the federal funds rate sooner than participants currently anticipated\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Some participants preferred a somewhat faster pace of reductions that would result in an earlier conclusion to net purchases.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many participants pointed to considerations that might suggest that elevated inflation could prove more persistent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants cited upside risks to inflation, including those associated with strong demand for goods and a tight labor market.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"some participants cited a number of signs that the U.S. labor market was very tight\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a number of participants stressed that a patient attitude toward incoming data remained appropriate\"}],\"rationale\":\"The minutes describe the start of tapering with notable support for faster reduction and earlier rate hikes amid growing concern that inflation is more persistent and the labor market tight. This is tempered by the transitory framing and the calls for patience.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Various participants noted that the Committee should be prepared to adjust the pace of asset purchases and raise the target range for the federal funds rate sooner than participants currently anticipated"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Some participants preferred a somewhat faster pace of reductions that would result in an earlier conclusion to net purchases."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many participants pointed to considerations that might suggest that elevated inflation could prove more persistent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants cited upside risks to inflation, including those associated with strong demand for goods and a tight labor market."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "some participants cited a number of signs that the U.S. labor market was very tight"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a number of participants stressed that a patient attitude toward incoming data remained appropriate"
+   }
+  ],
+  "rationale": "The minutes describe the start of tapering with notable support for faster reduction and earlier rate hikes amid growing concern that inflation is more persistent and the labor market tight. This is tempered by the transitory framing and the calls for patience."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Various participants noted that the Committee should be prepared to adjust the pace of asset purchases and raise the target range for the federal funds rate sooner than participants currently anticipated",
+     "start": 30482,
+     "end": 30685
+    },
+    {
+     "quote": "Some participants preferred a somewhat faster pace of reductions that would result in an earlier conclusion to net purchases.",
+     "start": 29460,
+     "end": 29584
+    },
+    {
+     "quote": "Many participants pointed to considerations that might suggest that elevated inflation could prove more persistent.",
+     "start": 23136,
+     "end": 23250
+    },
+    {
+     "quote": "Participants cited upside risks to inflation, including those associated with strong demand for goods and a tight labor market.",
+     "start": 26058,
+     "end": 26184
+    },
+    {
+     "quote": "some participants cited a number of signs that the U.S. labor market was very tight",
+     "start": 21129,
+     "end": 21212
+    },
+    {
+     "quote": "a number of participants stressed that a patient attitude toward incoming data remained appropriate",
+     "start": 30936,
+     "end": 31035
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

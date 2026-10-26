@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240718a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240718a",
+  "doc_type": "speech",
+  "text_sha256": "23c6f35992cad40c3179dea813fe55241ae64fc7497067f259077bce0a6fde4e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4227d26685635e63eca4a74ec0ef17e8fa6e5ec702832b1fc0f87a108eeaef70",
+ "message_id": "msg_011CgFugEhYjgHcuhFyq37ZF",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7314,
+  "output_tokens": 372,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my remarks this evening, I will reflect on these elements, as I share my views on the Fed's lender of last resort function, payments infrastructure, supervision, and regulation.\"},{\"dimension\":\"overall\",\"quote\":\"As part of the reform agenda, we must consider how to operationally enhance and optimize tools like the discount window to meet banking system liquidity needs more effectively.\"},{\"dimension\":\"overall\",\"quote\":\"It seems prudent to address this known leverage rule constraint before future stresses emerge that would likely disrupt market functioning.\"}],\"rationale\":\"The speech focuses on bank regulation, supervision, discount window operations and liquidity rules, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my remarks this evening, I will reflect on these elements, as I share my views on the Fed's lender of last resort function, payments infrastructure, supervision, and regulation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As part of the reform agenda, we must consider how to operationally enhance and optimize tools like the discount window to meet banking system liquidity needs more effectively."
+   },
+   {
+    "dimension": "overall",
+    "quote": "It seems prudent to address this known leverage rule constraint before future stresses emerge that would likely disrupt market functioning."
+   }
+  ],
+  "rationale": "The speech focuses on bank regulation, supervision, discount window operations and liquidity rules, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my remarks this evening, I will reflect on these elements, as I share my views on the Fed's lender of last resort function, payments infrastructure, supervision, and regulation.",
+     "start": 5152,
+     "end": 5331
+    },
+    {
+     "quote": "As part of the reform agenda, we must consider how to operationally enhance and optimize tools like the discount window to meet banking system liquidity needs more effectively.",
+     "start": 5384,
+     "end": 5559
+    },
+    {
+     "quote": "It seems prudent to address this known leverage rule constraint before future stresses emerge that would likely disrupt market functioning.",
+     "start": 22402,
+     "end": 22540
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

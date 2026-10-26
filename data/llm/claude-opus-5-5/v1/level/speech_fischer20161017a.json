@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20161017a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20161017a",
+  "doc_type": "speech",
+  "text_sha256": "32ffb75f8d72929d9274aee481ca51797b75dffdaeef2b841d14374b127fe2e6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "713076c2b3f62b88f9144fde454d12ce26edbded4bb77c215975d9df261a6d9b",
+ "message_id": "msg_011CgFugEPCb9fQ71io4G8Z6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4546,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In summary, a variety of factors have been holding down interest rates and may continue to do so for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Lower trend increases in productivity and slower labor force growth imply lower overall economic growth in the years ahead.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The limitation on monetary policy imposed by low trend interest rates could therefore lead to longer and deeper recessions when the economy is hit by negative shocks.\"},{\"dimension\":\"overall\",\"quote\":\"Fed interest rates are kept very low at the moment because of the need to maintain aggregate demand at levels that will support the attainment of our dual policy goals\"},{\"dimension\":\"risk_balance\",\"quote\":\"the evidence so far does not suggest a heightened threat of financial instability in the post-financial-crisis United States stemming from ultralow interest rates.\"}],\"rationale\":\"The speech argues that structural forces have pushed the equilibrium rate down and that the Fed cannot simply raise rates, implying a persistently low policy path. It also emphasizes downside risks from the effective lower bound and plays down financial-stability concerns, giving a moderately dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In summary, a variety of factors have been holding down interest rates and may continue to do so for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Lower trend increases in productivity and slower labor force growth imply lower overall economic growth in the years ahead."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The limitation on monetary policy imposed by low trend interest rates could therefore lead to longer and deeper recessions when the economy is hit by negative shocks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Fed interest rates are kept very low at the moment because of the need to maintain aggregate demand at levels that will support the attainment of our dual policy goals"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the evidence so far does not suggest a heightened threat of financial instability in the post-financial-crisis United States stemming from ultralow interest rates."
+   }
+  ],
+  "rationale": "The speech argues that structural forces have pushed the equilibrium rate down and that the Fed cannot simply raise rates, implying a persistently low policy path. It also emphasizes downside risks from the effective lower bound and plays down financial-stability concerns, giving a moderately dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In summary, a variety of factors have been holding down interest rates and may continue to do so for some time.",
+     "start": 15259,
+     "end": 15369
+    },
+    {
+     "quote": "Lower trend increases in productivity and slower labor force growth imply lower overall economic growth in the years ahead.",
+     "start": 8598,
+     "end": 8720
+    },
+    {
+     "quote": "The limitation on monetary policy imposed by low trend interest rates could therefore lead to longer and deeper recessions when the economy is hit by negative shocks.",
+     "start": 2991,
+     "end": 3156
+    },
+    {
+     "quote": "Fed interest rates are kept very low at the moment because of the need to maintain aggregate demand at levels that will support the attainment of our dual policy goals",
+     "start": 4007,
+     "end": 4174
+    },
+    {
+     "quote": "the evidence so far does not suggest a heightened threat of financial instability in the post-financial-crisis United States stemming from ultralow interest rates.",
+     "start": 3477,
+     "end": 3639
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240212a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240212a",
+  "doc_type": "speech",
+  "text_sha256": "3c852ff85d8842bee4e5e29bcf6d977fd395fdb8717738653557645497e674e9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2af2774da4b07b8019ebd62cc88dddf07b56a34863484e515219e00cc1cc6b99",
+ "message_id": "msg_011CgFugDxtrpDsnnPVPEmaP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5729,
+  "output_tokens": 377,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In considering this ongoing evolution of the banking system, I think it is useful to go back to first principles: What is a community bank, and why does it matter?\"},{\"dimension\":\"overall\",\"quote\":\"Over-calibration occurs when the resulting requirements are disproportionate to the underlying risks, and over-calibration can pose a threat to the viability of the community banking model.\"},{\"dimension\":\"overall\",\"quote\":\"Finally, one of the core principles for effective regulation and supervision—to reduce the incremental burden, especially for the smaller regional and community banks—is tailoring.\"}],\"rationale\":\"The speech concerns bank regulation, supervision, and community bank burden, with no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored as low relevance and neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In considering this ongoing evolution of the banking system, I think it is useful to go back to first principles: What is a community bank, and why does it matter?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Over-calibration occurs when the resulting requirements are disproportionate to the underlying risks, and over-calibration can pose a threat to the viability of the community banking model."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Finally, one of the core principles for effective regulation and supervision—to reduce the incremental burden, especially for the smaller regional and community banks—is tailoring."
+   }
+  ],
+  "rationale": "The speech concerns bank regulation, supervision, and community bank burden, with no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored as low relevance and neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In considering this ongoing evolution of the banking system, I think it is useful to go back to first principles: What is a community bank, and why does it matter?",
+     "start": 2463,
+     "end": 2626
+    },
+    {
+     "quote": "Over-calibration occurs when the resulting requirements are disproportionate to the underlying risks, and over-calibration can pose a threat to the viability of the community banking model.",
+     "start": 7263,
+     "end": 7451
+    },
+    {
+     "quote": "Finally, one of the core principles for effective regulation and supervision—to reduce the incremental burden, especially for the smaller regional and community banks—is tailoring.",
+     "start": 16495,
+     "end": 16674
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_powell20251201a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20251201a",
+  "doc_type": "speech",
+  "text_sha256": "7c42793d97ab0d45ab19198667a2693d4b232bb123be5dcb894a71bf2b00a9bd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9769cdb7a63fcf29a5db63f4dabee31344e35d9082fd138a64755ad58d1189a2",
+ "message_id": "msg_011CgFugBDSja8kPdY3my5ND",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1138,
+  "output_tokens": 237,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Just to be clear, I will not address current economic conditions or monetary policy.\"},{\"dimension\":\"overall\",\"quote\":\"Today, our focus is on George's extraordinarily broad economic accomplishments.\"}],\"rationale\":\"This is a tribute to George Shultz that explicitly declines to address economic conditions or monetary policy. No policy signal is present.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Just to be clear, I will not address current economic conditions or monetary policy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, our focus is on George's extraordinarily broad economic accomplishments."
+   }
+  ],
+  "rationale": "This is a tribute to George Shultz that explicitly declines to address economic conditions or monetary policy. No policy signal is present."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Just to be clear, I will not address current economic conditions or monetary policy.",
+     "start": 105,
+     "end": 188
+    },
+    {
+     "quote": "Today, our focus is on George's extraordinarily broad economic accomplishments.",
+     "start": 1473,
+     "end": 1551
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

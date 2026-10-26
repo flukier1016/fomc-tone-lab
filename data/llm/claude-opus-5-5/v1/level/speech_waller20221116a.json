@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20221116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20221116a",
+  "doc_type": "speech",
+  "text_sha256": "7ebee4c4407d8e19765b47aaffb5a6b4e193e0ed9722b4849c1c7b5907fb58b8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "203abe2392223b1bf173d61d1e07eae20d30f9f01ecf1241b52cbeccb521a7bd",
+ "message_id": "msg_011CgFugDpU3XPjWpnaRt5yk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5352,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that policy is barely in restrictive territory today, so more interest rate hikes are needed to get inflation down.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the data of the past few weeks have made me more comfortable considering stepping down to a 50-basis-point hike.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I will not be head-faked by one report and will continue to watch the data between now and the December FOMC meeting before deciding on the next step for policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even as economic output has slowed, the labor market remains very tight.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Achieving the FOMC's dual mandate of maximum employment and price stability is still a one-sided campaign.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I support continued rate increases and ongoing reductions in the Fed's balance sheet to restrain aggregate demand.\"}],\"rationale\":\"The speech is clearly hawkish: it calls for continued hikes into next year, treats the fight against inflation as one-sided, and dismisses one soft CPI report. That is tempered by openness to slowing to 50bp increments and by noting tentative labor cooling.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that policy is barely in restrictive territory today, so more interest rate hikes are needed to get inflation down."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the data of the past few weeks have made me more comfortable considering stepping down to a 50-basis-point hike."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I will not be head-faked by one report and will continue to watch the data between now and the December FOMC meeting before deciding on the next step for policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even as economic output has slowed, the labor market remains very tight."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Achieving the FOMC's dual mandate of maximum employment and price stability is still a one-sided campaign."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I support continued rate increases and ongoing reductions in the Fed's balance sheet to restrain aggregate demand."
+   }
+  ],
+  "rationale": "The speech is clearly hawkish: it calls for continued hikes into next year, treats the fight against inflation as one-sided, and dismisses one soft CPI report. That is tempered by openness to slowing to 50bp increments and by noting tentative labor cooling."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that policy is barely in restrictive territory today, so more interest rate hikes are needed to get inflation down.",
+     "start": 12101,
+     "end": 12225
+    },
+    {
+     "quote": "the data of the past few weeks have made me more comfortable considering stepping down to a 50-basis-point hike.",
+     "start": 16351,
+     "end": 16462
+    },
+    {
+     "quote": "I will not be head-faked by one report and will continue to watch the data between now and the December FOMC meeting before deciding on the next step for policy.",
+     "start": 10736,
+     "end": 10896
+    },
+    {
+     "quote": "Even as economic output has slowed, the labor market remains very tight.",
+     "start": 4035,
+     "end": 4106
+    },
+    {
+     "quote": "Achieving the FOMC's dual mandate of maximum employment and price stability is still a one-sided campaign.",
+     "start": 11290,
+     "end": 11395
+    },
+    {
+     "quote": "I support continued rate increases and ongoing reductions in the Fed's balance sheet to restrain aggregate demand.",
+     "start": 17411,
+     "end": 17524
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

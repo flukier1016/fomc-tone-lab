@@ -1,0 +1,121 @@
+{
+ "key": "presser_20250917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20250917",
+  "doc_type": "presser",
+  "text_sha256": "e2c8d4ddd1ae996d4a85e5106e903588466d3f309b3d0f8066c59fba9c4d71b2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cdae0da613435273ee218b350ce4dcb846ebc2acd7c40f034a958d3610549564",
+ "message_id": "msg_011CgFug8kccLpQsUsUb2aGW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11279,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"today the Federal Open Market Committee decided to lower our policy interest rate by ¼ percentage point.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This path is ¼ percentage point lower than projected in June.\"},{\"dimension\":\"risk_balance\",\"quote\":\"With downside risks to employment having increased, the balance of risks has shifted.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we see that the labor market is softening, and we don't need it to soften any more, don't want it to.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Our obligation is to ensure that a one-time increase in the price level does not become an ongoing inflation problem.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We also decided to continue to reduce our securities holdings.\"}],\"rationale\":\"The Chair announces a 25bp risk-management cut and a lower SEP rate path, citing a softening labor market and rising downside employment risks, while noting elevated tariff-driven inflation. He frames further moves as heading toward neutral on a meeting-by-meeting basis, rejecting the idea of larger cuts.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "today the Federal Open Market Committee decided to lower our policy interest rate by ¼ percentage point."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This path is ¼ percentage point lower than projected in June."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With downside risks to employment having increased, the balance of risks has shifted."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we see that the labor market is softening, and we don't need it to soften any more, don't want it to."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Our obligation is to ensure that a one-time increase in the price level does not become an ongoing inflation problem."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We also decided to continue to reduce our securities holdings."
+   }
+  ],
+  "rationale": "The Chair announces a 25bp risk-management cut and a lower SEP rate path, citing a softening labor market and rising downside employment risks, while noting elevated tariff-driven inflation. He frames further moves as heading toward neutral on a meeting-by-meeting basis, rejecting the idea of larger cuts."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "today the Federal Open Market Committee decided to lower our policy interest rate by ¼ percentage point.",
+     "start": 456,
+     "end": 559
+    },
+    {
+     "quote": "This path is ¼ percentage point lower than projected in June.",
+     "start": 5302,
+     "end": 5362
+    },
+    {
+     "quote": "With downside risks to employment having increased, the balance of risks has shifted.",
+     "start": 4439,
+     "end": 4523
+    },
+    {
+     "quote": "we see that the labor market is softening, and we don't need it to soften any more, don't want it to.",
+     "start": 21686,
+     "end": 21786
+    },
+    {
+     "quote": "Our obligation is to ensure that a one-time increase in the price level does not become an ongoing inflation problem.",
+     "start": 4083,
+     "end": 4199
+    },
+    {
+     "quote": "We also decided to continue to reduce our securities holdings.",
+     "start": 561,
+     "end": 622
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

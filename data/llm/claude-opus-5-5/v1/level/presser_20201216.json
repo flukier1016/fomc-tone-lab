@@ -1,0 +1,121 @@
+{
+ "key": "presser_20201216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20201216",
+  "doc_type": "presser",
+  "text_sha256": "ed1f4ae552078c8bea2dff7111fa8441c501c71b85e2c4568f4138ac33c73158"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9cb6466c33d4c2e950a8ab3c30e3f83928317d0d03bc90e6c766a3ae4e0990f2",
+ "message_id": "msg_011CgFugBovGTaNtFLWae882",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13732,
+  "output_tokens": 617,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we're going to keep policy highly accommodative until the expansion is well down the tracks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"There are significant disinflationary pressures around the world, and there have been for a while, and they persist today.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even so, overall economic activity remains well below its level before the pandemic, and the path ahead remains highly uncertain.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The ongoing surge in new COVID-19 cases, both here in the United States and abroad, is particularly concerning, and the next few months are likely to be very challenging.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And we're not going to preemptively raise rates until we see inflation actually reaching 2 percent and being on track to exceed 2 percent.\"}],\"rationale\":\"The Chair announces strengthened outcome-based guidance for asset purchases tied to \\\"substantial further progress\\\" and reaffirms near-zero rates until inflation exceeds 2 percent, with readiness to add accommodation. Inflation is described as facing persistent disinflationary pressures and the labor market as still far from recovered, though growth upgrades and vaccine optimism temper the dovishness slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we're going to keep policy highly accommodative until the expansion is well down the tracks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There are significant disinflationary pressures around the world, and there have been for a while, and they persist today."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even so, overall economic activity remains well below its level before the pandemic, and the path ahead remains highly uncertain."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The ongoing surge in new COVID-19 cases, both here in the United States and abroad, is particularly concerning, and the next few months are likely to be very challenging."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And we're not going to preemptively raise rates until we see inflation actually reaching 2 percent and being on track to exceed 2 percent."
+   }
+  ],
+  "rationale": "The Chair announces strengthened outcome-based guidance for asset purchases tied to \"substantial further progress\" and reaffirms near-zero rates until inflation exceeds 2 percent, with readiness to add accommodation. Inflation is described as facing persistent disinflationary pressures and the labor market as still far from recovered, though growth upgrades and vaccine optimism temper the dovishness slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we're going to keep policy highly accommodative until the expansion is well down the tracks.",
+     "start": 25927,
+     "end": 26018
+    },
+    {
+     "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month",
+     "start": 6740,
+     "end": 6913
+    },
+    {
+     "quote": "There are significant disinflationary pressures around the world, and there have been for a while, and they persist today.",
+     "start": 24240,
+     "end": 24361
+    },
+    {
+     "quote": "Even so, overall economic activity remains well below its level before the pandemic, and the path ahead remains highly uncertain.",
+     "start": 1790,
+     "end": 1918
+    },
+    {
+     "quote": "The ongoing surge in new COVID-19 cases, both here in the United States and abroad, is particularly concerning, and the next few months are likely to be very challenging.",
+     "start": 4117,
+     "end": 4286
+    },
+    {
+     "quote": "And we're not going to preemptively raise rates until we see inflation actually reaching 2 percent and being on track to exceed 2 percent.",
+     "start": 26020,
+     "end": 26157
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

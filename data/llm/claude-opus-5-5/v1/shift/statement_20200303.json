@@ -1,0 +1,129 @@
+{
+ "key": "statement_20200303",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200303",
+  "previous_doc_id": "statement_20200129",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e704067afad69a1b7aab1fbb5842bba71fa8307c5b1fd1ff4347ae47f224c974",
+ "message_id": "msg_011CgFudUb8xSq3ZGuaU9hY1",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 961,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"The Committee decided to maintain the target range for the federal funds rate at 1‑1/2 to 1-3/4 percent.\",\"after\":\"the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"The Committee judges that the current stance of monetary policy is appropriate to support sustained expansion of economic activity, strong labor market conditions, and inflation returning to the Committee's symmetric 2 percent objective.\",\"after\":\"\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"However, the coronavirus poses evolving risks to economic activity.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate.\",\"after\":\"The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy.\",\"direction\":\"dovish\"},{\"before\":\"Information received since the Federal Open Market Committee met in December indicates that the labor market remains strong and that economic activity has been rising at a moderate rate.\",\"after\":\"The fundamentals of the U.S. economy remain strong.\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee moved from holding rates with a stance judged appropriate to a 50 basis point cut, citing coronavirus risks. It also signaled readiness to act further ('act as appropriate to support the economy'), a clear dovish change in policy direction.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "The Committee decided to maintain the target range for the federal funds rate at 1‑1/2 to 1-3/4 percent.",
+    "after": "the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee judges that the current stance of monetary policy is appropriate to support sustained expansion of economic activity, strong labor market conditions, and inflation returning to the Committee's symmetric 2 percent objective.",
+    "after": "",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "However, the coronavirus poses evolving risks to economic activity.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate.",
+    "after": "The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in December indicates that the labor market remains strong and that economic activity has been rising at a moderate rate.",
+    "after": "The fundamentals of the U.S. economy remain strong.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee moved from holding rates with a stance judged appropriate to a 50 basis point cut, citing coronavirus risks. It also signaled readiness to act further ('act as appropriate to support the economy'), a clear dovish change in policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to maintain the target range for the federal funds rate at 1‑1/2 to 1-3/4 percent.",
+     "start": 772,
+     "end": 875
+    },
+    {
+     "quote": "The Committee judges that the current stance of monetary policy is appropriate to support sustained expansion of economic activity, strong labor market conditions, and inflation returning to the Committee's symmetric 2 percent objective.",
+     "start": 877,
+     "end": 1113
+    },
+    {
+     "quote": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate.",
+     "start": 1115,
+     "end": 1364
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December indicates that the labor market remains strong and that economic activity has been rising at a moderate rate.",
+     "start": 0,
+     "end": 185
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.",
+     "start": 222,
+     "end": 369
+    },
+    {
+     "quote": "However, the coronavirus poses evolving risks to economic activity.",
+     "start": 52,
+     "end": 118
+    },
+    {
+     "quote": "The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy.",
+     "start": 371,
+     "end": 536
+    },
+    {
+     "quote": "The fundamentals of the U.S. economy remain strong.",
+     "start": 0,
+     "end": 50
+    }
+   ]
+  }
+ }
+}

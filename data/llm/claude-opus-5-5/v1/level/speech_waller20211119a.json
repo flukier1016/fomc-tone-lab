@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20211119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20211119a",
+  "doc_type": "speech",
+  "text_sha256": "6f4107a2964f805ae5715b0dadeab7dac224566c919440439502db56484f6589"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cdd27cd287aa1ad592aa2163cc6181f38620e038244c8036cb81b40eec2f7c52",
+ "message_id": "msg_011CgFugC6n1FjE6y9ApNWHQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5119,
+  "output_tokens": 552,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the rapid improvement in the labor market and the deteriorating inflation data have pushed me towards favoring a faster pace of tapering and a more rapid removal of accommodation in 2022.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"To me, the inflation data are starting to look a lot more like a big snowfall that will stay on the ground for a while\"},{\"dimension\":\"risk_balance\",\"quote\":\"It is very concerning to me that households and markets are no longer expecting us to keep inflation near our 2 percent target over the next three to five years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In light of these data, in my view, the labor market is rapidly approaching maximum employment.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"That said, clearly today's balance sheet is elevated, and we can decrease our holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I believe the condition for inflation has been met and we are making great strides towards achieving the employment leg of our mandate.\"}],\"rationale\":\"The speaker explicitly favors a faster taper and more rapid removal of accommodation in 2022, citing broadening inflation and unanchoring expectations, and supports eventual balance sheet runoff. Labor market strength and inflation concerns point clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the rapid improvement in the labor market and the deteriorating inflation data have pushed me towards favoring a faster pace of tapering and a more rapid removal of accommodation in 2022."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "To me, the inflation data are starting to look a lot more like a big snowfall that will stay on the ground for a while"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It is very concerning to me that households and markets are no longer expecting us to keep inflation near our 2 percent target over the next three to five years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In light of these data, in my view, the labor market is rapidly approaching maximum employment."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "That said, clearly today's balance sheet is elevated, and we can decrease our holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe the condition for inflation has been met and we are making great strides towards achieving the employment leg of our mandate."
+   }
+  ],
+  "rationale": "The speaker explicitly favors a faster taper and more rapid removal of accommodation in 2022, citing broadening inflation and unanchoring expectations, and supports eventual balance sheet runoff. Labor market strength and inflation concerns point clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the rapid improvement in the labor market and the deteriorating inflation data have pushed me towards favoring a faster pace of tapering and a more rapid removal of accommodation in 2022.",
+     "start": 10542,
+     "end": 10728
+    },
+    {
+     "quote": "To me, the inflation data are starting to look a lot more like a big snowfall that will stay on the ground for a while",
+     "start": 7460,
+     "end": 7578
+    },
+    {
+     "quote": "It is very concerning to me that households and markets are no longer expecting us to keep inflation near our 2 percent target over the next three to five years.",
+     "start": 8039,
+     "end": 8199
+    },
+    {
+     "quote": "In light of these data, in my view, the labor market is rapidly approaching maximum employment.",
+     "start": 3940,
+     "end": 4034
+    },
+    {
+     "quote": "That said, clearly today's balance sheet is elevated, and we can decrease our holdings.",
+     "start": 15864,
+     "end": 15950
+    },
+    {
+     "quote": "I believe the condition for inflation has been met and we are making great strides towards achieving the employment leg of our mandate.",
+     "start": 11290,
+     "end": 11424
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

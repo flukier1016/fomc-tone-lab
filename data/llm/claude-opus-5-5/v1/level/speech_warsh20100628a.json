@@ -1,0 +1,121 @@
+{
+ "key": "speech_warsh20100628a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20100628a",
+  "doc_type": "speech",
+  "text_sha256": "2ba8d252766c7f82766b1d7a99e1e58fae8a0875159259f1e6334571750f9262"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e2791daa0fd47430219c380cd396d8458656eda681dab02f6ddfcf6cccc4a226",
+ "message_id": "msg_011CgFug8kcSN2tmfvyfh1qk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4770,
+  "output_tokens": 569,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"In my view, any judgment to expand the balance sheet further should be subject to strict scrutiny.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we should consider a gradual, prospective exit--communicated well-in-advance--from our portfolio of mortgage-backed securities.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Any sale of assets need not signal that policy rates are soon moving higher.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Meanwhile, most broad measures of inflation remain subdued. And long-term inflation expectations appear stable.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If volatility in financial markets persists at elevated levels, the expected pickup of business fixed investment may disappoint.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Owing to a less-than-assured economic outlook and broad uncertainty about public policy, employers appear quite reluctant to add to payrolls.\"}],\"rationale\":\"Warsh acknowledges subdued inflation, a gradual recovery and downside financial risks, but his policy prescriptions lean hawkish: he resists further balance-sheet expansion and favors a gradual, pre-announced exit from MBS holdings. He decouples those asset sales from rate hikes, so the net signal is a mild hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "In my view, any judgment to expand the balance sheet further should be subject to strict scrutiny."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we should consider a gradual, prospective exit--communicated well-in-advance--from our portfolio of mortgage-backed securities."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Any sale of assets need not signal that policy rates are soon moving higher."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Meanwhile, most broad measures of inflation remain subdued. And long-term inflation expectations appear stable."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If volatility in financial markets persists at elevated levels, the expected pickup of business fixed investment may disappoint."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Owing to a less-than-assured economic outlook and broad uncertainty about public policy, employers appear quite reluctant to add to payrolls."
+   }
+  ],
+  "rationale": "Warsh acknowledges subdued inflation, a gradual recovery and downside financial risks, but his policy prescriptions lean hawkish: he resists further balance-sheet expansion and favors a gradual, pre-announced exit from MBS holdings. He decouples those asset sales from rate hikes, so the net signal is a mild hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, any judgment to expand the balance sheet further should be subject to strict scrutiny.",
+     "start": 13189,
+     "end": 13286
+    },
+    {
+     "quote": "we should consider a gradual, prospective exit--communicated well-in-advance--from our portfolio of mortgage-backed securities.",
+     "start": 14119,
+     "end": 14245
+    },
+    {
+     "quote": "Any sale of assets need not signal that policy rates are soon moving higher.",
+     "start": 14478,
+     "end": 14553
+    },
+    {
+     "quote": "Meanwhile, most broad measures of inflation remain subdued. And long-term inflation expectations appear stable.",
+     "start": 3860,
+     "end": 3970
+    },
+    {
+     "quote": "If volatility in financial markets persists at elevated levels, the expected pickup of business fixed investment may disappoint.",
+     "start": 5888,
+     "end": 6015
+    },
+    {
+     "quote": "Owing to a less-than-assured economic outlook and broad uncertainty about public policy, employers appear quite reluctant to add to payrolls.",
+     "start": 3346,
+     "end": 3486
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

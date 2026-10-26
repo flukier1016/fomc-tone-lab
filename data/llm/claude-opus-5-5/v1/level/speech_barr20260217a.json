@@ -1,0 +1,121 @@
+{
+ "key": "speech_barr20260217a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260217a",
+  "doc_type": "speech",
+  "text_sha256": "ffac24a6817ee283543df1b7ca6b862f837216832a14cad1e1526b9a4412ae5f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "91fcd27eaa61eb448a61ed2b9933e5893bd7444837583513bf4e27873727dbd3",
+ "message_id": "msg_011CgFugGwjRjDecjcJd3ZAQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7480,
+  "output_tokens": 571,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Based on current conditions and the data in hand, it will likely be appropriate to hold rates steady for some time as we assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I see the risk of persistent inflation above our 2 percent target as significant, which means we need to remain vigilant.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would like to see evidence that goods price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But it is a delicate balance, and that means that the labor market could be especially vulnerable to negative shocks.\"},{\"dimension\":\"overall\",\"quote\":\"For all of these reasons, I expect that the AI boom is unlikely to be a reason for lowering policy rates.\"},{\"dimension\":\"overall\",\"quote\":\"Indeed, last year I raised my long-term estimate of r* modestly because of higher productivity.\"}],\"rationale\":\"The speaker signals holding rates steady for some time, conditions further cuts on evidence that goods inflation is retreating, and calls the risk of persistent above-target inflation significant. She also argues AI implies a higher r* rather than lower rates, though her note that the labor market is fragile tempers the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Based on current conditions and the data in hand, it will likely be appropriate to hold rates steady for some time as we assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I see the risk of persistent inflation above our 2 percent target as significant, which means we need to remain vigilant."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would like to see evidence that goods price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But it is a delicate balance, and that means that the labor market could be especially vulnerable to negative shocks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For all of these reasons, I expect that the AI boom is unlikely to be a reason for lowering policy rates."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Indeed, last year I raised my long-term estimate of r* modestly because of higher productivity."
+   }
+  ],
+  "rationale": "The speaker signals holding rates steady for some time, conditions further cuts on evidence that goods inflation is retreating, and calls the risk of persistent above-target inflation significant. She also argues AI implies a higher r* rather than lower rates, though her note that the labor market is fragile tempers the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Based on current conditions and the data in hand, it will likely be appropriate to hold rates steady for some time as we assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 1820,
+     "end": 2009
+    },
+    {
+     "quote": "I see the risk of persistent inflation above our 2 percent target as significant, which means we need to remain vigilant.",
+     "start": 1398,
+     "end": 1518
+    },
+    {
+     "quote": "I would like to see evidence that goods price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable.",
+     "start": 1637,
+     "end": 1818
+    },
+    {
+     "quote": "But it is a delicate balance, and that means that the labor market could be especially vulnerable to negative shocks.",
+     "start": 722,
+     "end": 838
+    },
+    {
+     "quote": "For all of these reasons, I expect that the AI boom is unlikely to be a reason for lowering policy rates.",
+     "start": 24475,
+     "end": 24579
+    },
+    {
+     "quote": "Indeed, last year I raised my long-term estimate of r* modestly because of higher productivity.",
+     "start": 24157,
+     "end": 24251
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20131104a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20131104a",
+  "doc_type": "speech",
+  "text_sha256": "b6b1034a018e6204e5435182daf7bddbed6d34718ddbc8da518d53b867df9983"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7eeaa5bd04b8551f9f0e5b9b7ee701d59a3a4dd7fca2bd24a7a75c33e1c11688",
+ "message_id": "msg_011CgFugAqP6jFFCtv5b7ajE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6786,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Monetary policy in the United States is likely to remain highly accommodative for some time, as our economy fights to overcome the remaining headwinds from the global financial crisis.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"As our economic recovery continues, however, the time will come to gradually reduce the pace of asset purchases and eventually bring those purchases to a stop.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"policymakers should move gradually to restore normal policies only as their economic recoveries are more firmly established, consistent with their mandates.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The timing of this moderation in the pace of purchases is necessarily uncertain, as it depends on the evolution of the economy.\"},{\"dimension\":\"overall\",\"quote\":\"expansionary monetary policies in the advanced economies have supported global growth to the benefit of advanced and emerging economies alike.\"}],\"rationale\":\"The speech, mainly about EME spillovers, signals policy will remain highly accommodative for some time, with tapering eventual and data-dependent and normalization gradual. This is a mild dovish lean, partly offset by acknowledgment that purchases will eventually be reduced.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Monetary policy in the United States is likely to remain highly accommodative for some time, as our economy fights to overcome the remaining headwinds from the global financial crisis."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "As our economic recovery continues, however, the time will come to gradually reduce the pace of asset purchases and eventually bring those purchases to a stop."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "policymakers should move gradually to restore normal policies only as their economic recoveries are more firmly established, consistent with their mandates."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The timing of this moderation in the pace of purchases is necessarily uncertain, as it depends on the evolution of the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "expansionary monetary policies in the advanced economies have supported global growth to the benefit of advanced and emerging economies alike."
+   }
+  ],
+  "rationale": "The speech, mainly about EME spillovers, signals policy will remain highly accommodative for some time, with tapering eventual and data-dependent and normalization gradual. This is a mild dovish lean, partly offset by acknowledgment that purchases will eventually be reduced."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Monetary policy in the United States is likely to remain highly accommodative for some time, as our economy fights to overcome the remaining headwinds from the global financial crisis.",
+     "start": 19253,
+     "end": 19436
+    },
+    {
+     "quote": "As our economic recovery continues, however, the time will come to gradually reduce the pace of asset purchases and eventually bring those purchases to a stop.",
+     "start": 19438,
+     "end": 19596
+    },
+    {
+     "quote": "policymakers should move gradually to restore normal policies only as their economic recoveries are more firmly established, consistent with their mandates.",
+     "start": 21218,
+     "end": 21373
+    },
+    {
+     "quote": "The timing of this moderation in the pace of purchases is necessarily uncertain, as it depends on the evolution of the economy.",
+     "start": 19598,
+     "end": 19724
+    },
+    {
+     "quote": "expansionary monetary policies in the advanced economies have supported global growth to the benefit of advanced and emerging economies alike.",
+     "start": 16058,
+     "end": 16199
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

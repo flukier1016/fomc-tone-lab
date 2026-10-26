@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20260324a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260324a",
+  "doc_type": "speech",
+  "text_sha256": "55000f03b53e32b08ac593ec36aed2aece6d619c3f2b9537d929e81194753076"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "84a9d64e5d9bd7f70f33403a334f690db562e7954af702606b0a9cdf687baa64",
+ "message_id": "msg_011CgFugGxUm4U8dQ8sMjtMv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5281,
+  "output_tokens": 502,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it is my view that we may need to keep rates steady for some time as we assess economic conditions\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We continue to contend with inflation notably above the FOMC's 2 percent goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would like to see evidence that goods and services price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"After cooling last year, the labor market appears to be stabilizing with low levels of job creation, and also low levels of people entering our workforce.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, the conflict in the Middle East raises additional risks. Higher oil prices tend to pass through pretty quickly to gasoline prices\"}],\"rationale\":\"The speech is mostly about community development, but its monetary policy section signals an extended hold and conditions any further cuts on evidence of sustained disinflation. It also emphasizes elevated inflation and oil-price risks, a moderately hawkish lean relative to an easing cycle.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it is my view that we may need to keep rates steady for some time as we assess economic conditions"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We continue to contend with inflation notably above the FOMC's 2 percent goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would like to see evidence that goods and services price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "After cooling last year, the labor market appears to be stabilizing with low levels of job creation, and also low levels of people entering our workforce."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, the conflict in the Middle East raises additional risks. Higher oil prices tend to pass through pretty quickly to gasoline prices"
+   }
+  ],
+  "rationale": "The speech is mostly about community development, but its monetary policy section signals an extended hold and conditions any further cuts on evidence of sustained disinflation. It also emphasizes elevated inflation and oil-price risks, a moderately hawkish lean relative to an easing cycle."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it is my view that we may need to keep rates steady for some time as we assess economic conditions",
+     "start": 3594,
+     "end": 3692
+    },
+    {
+     "quote": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
+     "start": 3849,
+     "end": 3926
+    },
+    {
+     "quote": "I would like to see evidence that goods and services price inflation is sustainably retreating before considering reducing the policy rate further, provided labor market conditions remain stable.",
+     "start": 4134,
+     "end": 4328
+    },
+    {
+     "quote": "After cooling last year, the labor market appears to be stabilizing with low levels of job creation, and also low levels of people entering our workforce.",
+     "start": 3694,
+     "end": 3847
+    },
+    {
+     "quote": "Moreover, the conflict in the Middle East raises additional risks. Higher oil prices tend to pass through pretty quickly to gasoline prices",
+     "start": 4330,
+     "end": 4469
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

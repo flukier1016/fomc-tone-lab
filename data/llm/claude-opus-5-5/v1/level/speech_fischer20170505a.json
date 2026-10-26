@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20170505a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170505a",
+  "doc_type": "speech",
+  "text_sha256": "bd7a065a75d3cc83015b64c43db84f50036999c66d54e24e77ed87e9b8d8f9ef"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5454a4f025e1a7a4c716df4eb4300de9db43ea16ac6e534e1f38e88bf2e0f6c4",
+ "message_id": "msg_011CgFugBx6hfYVsDUrSpc9p",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5059,
+  "output_tokens": 436,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"policymakers should consult the prescriptions of policy rules, but--almost needless to say--they should avoid applying them mechanically.\"},{\"dimension\":\"overall\",\"quote\":\"structural changes in the U.S. economy have apparently lowered the value of the interest rate--that is, r *--consistent with neutral policy.\"},{\"dimension\":\"overall\",\"quote\":\"adherence to a simple policy rule is not the most appropriate means of achieving macroeconomic goals\"},{\"dimension\":\"overall\",\"quote\":\"In the wake of the financial crisis, policymakers found it necessary to follow a more accommodative monetary policy that was appropriate for the new economic conditions.\"}],\"rationale\":\"The speech is a conceptual discussion of policy rules versus committee decisionmaking with no view on the current outlook or policy path. Its references to a lower neutral rate and to justified departures from rule prescriptions lean very slightly dovish, but the net signal is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "policymakers should consult the prescriptions of policy rules, but--almost needless to say--they should avoid applying them mechanically."
+   },
+   {
+    "dimension": "overall",
+    "quote": "structural changes in the U.S. economy have apparently lowered the value of the interest rate--that is, r *--consistent with neutral policy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "adherence to a simple policy rule is not the most appropriate means of achieving macroeconomic goals"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In the wake of the financial crisis, policymakers found it necessary to follow a more accommodative monetary policy that was appropriate for the new economic conditions."
+   }
+  ],
+  "rationale": "The speech is a conceptual discussion of policy rules versus committee decisionmaking with no view on the current outlook or policy path. Its references to a lower neutral rate and to justified departures from rule prescriptions lean very slightly dovish, but the net signal is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "policymakers should consult the prescriptions of policy rules, but--almost needless to say--they should avoid applying them mechanically.",
+     "start": 801,
+     "end": 937
+    },
+    {
+     "quote": "structural changes in the U.S. economy have apparently lowered the value of the interest rate--that is, r *--consistent with neutral policy.",
+     "start": 6992,
+     "end": 7131
+    },
+    {
+     "quote": "adherence to a simple policy rule is not the most appropriate means of achieving macroeconomic goals",
+     "start": 16491,
+     "end": 16591
+    },
+    {
+     "quote": "In the wake of the financial crisis, policymakers found it necessary to follow a more accommodative monetary policy that was appropriate for the new economic conditions.",
+     "start": 6806,
+     "end": 6974
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "key": "statement_20121024",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20121024",
+  "release_date": "2012-10-24"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "272f615fcc11547b91c9edf4af419fd83c157e84139d6ca12396e92a693287b1",
+ "message_id": "msg_011CgFudxVAuu5311pXpdq3X",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1537,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2012,\"month\":10,\"confidence\":0.9,\"cues\":[\"MBS purchases at $40 billion per month (QE3 begun September 2012) described as continuing\",\"Operation Twist continuing through end of year, total about $85 billion per month\",\"Forward guidance 'at least through mid-2015' adopted in September 2012\",\"Lacker dissent opposing additional asset purchases and the description of the time period (2012 voter)\",\"'Inflation recently picked up somewhat, reflecting higher energy prices' and 'growth in business fixed investment has slowed' matches October 2012 statement\",\"Sandra Pianalto and Sarah Bloom Raskin as voters in 2012\"]}",
+ "parsed": {
+  "year": 2012,
+  "month": 10,
+  "confidence": 0.9,
+  "cues": [
+   "MBS purchases at $40 billion per month (QE3 begun September 2012) described as continuing",
+   "Operation Twist continuing through end of year, total about $85 billion per month",
+   "Forward guidance 'at least through mid-2015' adopted in September 2012",
+   "Lacker dissent opposing additional asset purchases and the description of the time period (2012 voter)",
+   "'Inflation recently picked up somewhat, reflecting higher energy prices' and 'growth in business fixed investment has slowed' matches October 2012 statement",
+   "Sandra Pianalto and Sarah Bloom Raskin as voters in 2012"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

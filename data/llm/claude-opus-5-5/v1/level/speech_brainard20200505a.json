@@ -1,0 +1,85 @@
+{
+ "key": "speech_brainard20200505a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200505a",
+  "doc_type": "speech",
+  "text_sha256": "2f4ebab50db4c7468a9d8b9e27b3a74a9e1fcca8c4a93124d53bc06184cc22a5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3a53e96af9f75904cec9e832b565b2cae30e154f371447e2372cff3d2b47442e",
+ "message_id": "msg_011CgFugH2h4r2hekmu8eWQ6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 604,
+  "output_tokens": 314,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The COVID-19 pandemic has created an economic and public health crisis, which has caused tremendous hardship, in particular for our most vulnerable communities.\"},{\"dimension\":\"overall\",\"quote\":\"The Community Reinvestment Act (CRA) is a powerful tool to bring stakeholders together to find solutions that serve the needs of low- and moderate-income communities.\"}],\"rationale\":\"This is a community development and CRA speech with no monetary policy content. Its only economic signal is a brief acknowledgment of pandemic hardship, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The COVID-19 pandemic has created an economic and public health crisis, which has caused tremendous hardship, in particular for our most vulnerable communities."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Community Reinvestment Act (CRA) is a powerful tool to bring stakeholders together to find solutions that serve the needs of low- and moderate-income communities."
+   }
+  ],
+  "rationale": "This is a community development and CRA speech with no monetary policy content. Its only economic signal is a brief acknowledgment of pandemic hardship, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The COVID-19 pandemic has created an economic and public health crisis, which has caused tremendous hardship, in particular for our most vulnerable communities.",
+     "start": 746,
+     "end": 905
+    },
+    {
+     "quote": "The Community Reinvestment Act (CRA) is a powerful tool to bring stakeholders together to find solutions that serve the needs of low- and moderate-income communities.",
+     "start": 1095,
+     "end": 1260
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

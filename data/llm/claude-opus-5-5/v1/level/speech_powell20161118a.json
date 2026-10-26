@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20161118a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20161118a",
+  "doc_type": "speech",
+  "text_sha256": "6ac067dcd9f3eb34193b414c51844937f51f415040bb2b5858b16c38d03fc2e4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "13ef37091e5bfa1806959fe5c13326968b41069f79086a3a5b3f3c1c3cbbc220",
+ "message_id": "msg_011CgFugFVB6GzUseb5UKp8p",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6486,
+  "output_tokens": 432,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.3,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"global gross domestic product (GDP) is set to grow at only 3.1 percent this year, the lowest rate of growth since the Global Financial Crisis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Many observers are raising the possibility of a \\\"new normal\\\" for the global economy, in which moderate global demand, low productivity growth, and slow trade may persist for some time, keeping interest rates in the advanced economies \\\"low for long.\\\"\"},{\"dimension\":\"overall\",\"quote\":\"Normally, we would worry about volatility of these flows and how they might exacerbate risks of financial instability, particularly as U.S. monetary policy normalizes.\"}],\"rationale\":\"The speech focuses on the global trade slowdown and Asian growth models, offering no direct view on U.S. monetary policy. Its emphasis on weak global growth and a low-for-long environment leans slightly dovish, but the policy signal is minimal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.3,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "global gross domestic product (GDP) is set to grow at only 3.1 percent this year, the lowest rate of growth since the Global Financial Crisis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Many observers are raising the possibility of a \"new normal\" for the global economy, in which moderate global demand, low productivity growth, and slow trade may persist for some time, keeping interest rates in the advanced economies \"low for long.\""
+   },
+   {
+    "dimension": "overall",
+    "quote": "Normally, we would worry about volatility of these flows and how they might exacerbate risks of financial instability, particularly as U.S. monetary policy normalizes."
+   }
+  ],
+  "rationale": "The speech focuses on the global trade slowdown and Asian growth models, offering no direct view on U.S. monetary policy. Its emphasis on weak global growth and a low-for-long environment leans slightly dovish, but the policy signal is minimal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "global gross domestic product (GDP) is set to grow at only 3.1 percent this year, the lowest rate of growth since the Global Financial Crisis.",
+     "start": 409,
+     "end": 550
+    },
+    {
+     "quote": "Many observers are raising the possibility of a \"new normal\" for the global economy, in which moderate global demand, low productivity growth, and slow trade may persist for some time, keeping interest rates in the advanced economies \"low for long.\"",
+     "start": 19035,
+     "end": 19282
+    },
+    {
+     "quote": "Normally, we would worry about volatility of these flows and how they might exacerbate risks of financial instability, particularly as U.S. monetary policy normalizes.",
+     "start": 19528,
+     "end": 19694
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "statement_20240612",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20240612",
+  "doc_type": "statement",
+  "text_sha256": "b19bff9003eb888dce43926598ed54a1d3492c13dcc8a8517735957473bde166"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f53a53351df0768f20414bcfe46369964031713df903248a293ae6065b4ef519",
+ "message_id": "msg_011CgFugBd16RYxz2ECeqqmf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 744,
+  "output_tokens": 533,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has eased over the past year but remains elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has continued to expand at a solid pace.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the risks to achieving its employment and inflation goals have moved toward better balance over the past year\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities\"}],\"rationale\":\"The statement holds rates at a restrictive level and frames the next move as a cut, but conditions it on greater confidence about inflation, which remains elevated amid solid growth. Risks are described as moving toward balance and runoff continues, leaving a roughly neutral stance with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has eased over the past year but remains elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has continued to expand at a solid pace."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the risks to achieving its employment and inflation goals have moved toward better balance over the past year"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities"
+   }
+  ],
+  "rationale": "The statement holds rates at a restrictive level and frames the next move as a cut, but conditions it on greater confidence about inflation, which remains elevated amid solid growth. Risks are described as moving toward balance and runoff continues, leaving a roughly neutral stance with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent",
+     "start": 710,
+     "end": 813
+    },
+    {
+     "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.",
+     "start": 993,
+     "end": 1165
+    },
+    {
+     "quote": "Inflation has eased over the past year but remains elevated.",
+     "start": 166,
+     "end": 225
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has continued to expand at a solid pace.",
+     "start": 0,
+     "end": 88
+    },
+    {
+     "quote": "the risks to achieving its employment and inflation goals have moved toward better balance over the past year",
+     "start": 475,
+     "end": 584
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities",
+     "start": 1180,
+     "end": 1306
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

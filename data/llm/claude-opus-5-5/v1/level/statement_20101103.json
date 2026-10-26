@@ -1,0 +1,112 @@
+{
+ "key": "statement_20101103",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20101103",
+  "doc_type": "statement",
+  "text_sha256": "e0f5a0e2e88af8d5fc0617ef5269ac59be3e83470430e0beca0f0345e22acfcd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "decad14e1681f1dfa515cebfad1175766aece8e0a7368b3d61d8150a425de37f",
+ "message_id": "msg_011CgFug8kroBGh4VBx3nRBg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1031,
+  "output_tokens": 442,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"measures of underlying inflation have trended lower in recent quarters\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of recovery in output and employment continues to be slow\"},{\"dimension\":\"risk_balance\",\"quote\":\"progress toward its objectives has been disappointingly slow\"}],\"rationale\":\"The Committee announces a $600 billion expansion of Treasury purchases, reaffirms extended-period near-zero rate guidance and cites slow recovery and low inflation. Hoenig's dissent is a minor hawkish counterweight.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "measures of underlying inflation have trended lower in recent quarters"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of recovery in output and employment continues to be slow"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "progress toward its objectives has been disappointingly slow"
+   }
+  ],
+  "rationale": "The Committee announces a $600 billion expansion of Treasury purchases, reaffirms extended-period near-zero rate guidance and cites slow recovery and low inflation. Hoenig's dissent is a minor hawkish counterweight."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month",
+     "start": 1536,
+     "end": 1707
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period",
+     "start": 2212,
+     "end": 2308
+    },
+    {
+     "quote": "measures of underlying inflation have trended lower in recent quarters",
+     "start": 630,
+     "end": 700
+    },
+    {
+     "quote": "the pace of recovery in output and employment continues to be slow",
+     "start": 92,
+     "end": 158
+    },
+    {
+     "quote": "progress toward its objectives has been disappointingly slow",
+     "start": 1146,
+     "end": 1206
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

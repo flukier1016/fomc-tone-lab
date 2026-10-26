@@ -1,0 +1,129 @@
+{
+ "key": "statement_20200429",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200429",
+  "previous_doc_id": "statement_20200331",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4d7e1f5a7cb2246f6a8e535371b8b28a765782a24add3afeec8b9e44e5000b39",
+ "message_id": "msg_011CgFudUUSG85CpKnyN7ECf",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1438,
+  "output_tokens": 868,
+  "output_tokens_details": {
+   "thinking_tokens": 311
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"\",\"after\":\"In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning\",\"direction\":\"dovish\"},{\"before\":\"The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.\",\"after\":\"In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.\",\"direction\":\"neutral\"}],\"rationale\":\"The previous document was a technical liquidity-facility announcement with no rate guidance, while the current statement holds rates at zero with explicit outcome-based forward guidance and open-ended asset purchases. It also offers a bleak outlook with subdued inflation, which adds a modestly more dovish policy signal.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "",
+    "after": "In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning",
+    "direction": "dovish"
+   },
+   {
+    "before": "The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.",
+    "after": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The previous document was a technical liquidity-facility announcement with no rate guidance, while the current statement holds rates at zero with explicit outcome-based forward guidance and open-ended asset purchases. It also offers a bleak outlook with subdued inflation, which adds a modestly more dovish policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.",
+     "start": 1590,
+     "end": 1755
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+     "start": 905,
+     "end": 1034
+    },
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1036,
+     "end": 1230
+    },
+    {
+     "quote": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+     "start": 712,
+     "end": 903
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 445,
+     "end": 535
+    },
+    {
+     "quote": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning",
+     "start": 2068,
+     "end": 2257
+    },
+    {
+     "quote": "In addition, the Open Market Desk will continue to offer large-scale overnight and term repurchase agreement operations.",
+     "start": 2352,
+     "end": 2471
+    }
+   ]
+  }
+ }
+}

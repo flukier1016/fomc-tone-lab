@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20200521a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20200521a",
+  "doc_type": "speech",
+  "text_sha256": "80324957b1f08e948511ec0bf3a92423f734840d146d808548bfabc467529b3c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8148d62aa91d5dfde8e262d42068c9843766561f57fa5ffd92fb32254d621309",
+ "message_id": "msg_011CgFugAkB4PnJm4sdFyReT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3333,
+  "output_tokens": 489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May.\"},{\"dimension\":\"risk_balance\",\"quote\":\"additional support from both monetary and fiscal policies may be called for.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"they are continuing but at a reduced pace, reflecting the substantial improvement in market functioning\"}],\"rationale\":\"Clarida describes a severe downturn and disinflationary shock, reaffirms near-zero rates until goals are on track, and signals readiness for additional forceful support. Asset purchases continue at a reduced pace, a slight moderation within a strongly accommodative stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "additional support from both monetary and fiscal policies may be called for."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "they are continuing but at a reduced pace, reflecting the substantial improvement in market functioning"
+   }
+  ],
+  "rationale": "Clarida describes a severe downturn and disinflationary shock, reaffirms near-zero rates until goals are on track, and signals readiness for additional forceful support. Asset purchases continue at a reduced pace, a slight moderation within a strongly accommodative stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve will continue to act forcefully, proactively, and aggressively as we deploy our toolkit",
+     "start": 10445,
+     "end": 10552
+    },
+    {
+     "quote": "my projection is for the COVID-19 contagion shock to be disinflationary, not inflationary, and the data we are seeing so far are consistent with this projection.",
+     "start": 4158,
+     "end": 4318
+    },
+    {
+     "quote": "surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May.",
+     "start": 1989,
+     "end": 2112
+    },
+    {
+     "quote": "additional support from both monetary and fiscal policies may be called for.",
+     "start": 9978,
+     "end": 10053
+    },
+    {
+     "quote": "they are continuing but at a reduced pace, reflecting the substantial improvement in market functioning",
+     "start": 6159,
+     "end": 6262
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

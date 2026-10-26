@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20221006a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20221006a",
+  "doc_type": "speech",
+  "text_sha256": "5f10472ff4f9758da48c293c5f59ad2159ce8ffeb4046daaf840e211bf0b4b2d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3381980d5242a213d5ae2673f456cd3c4fb7480f148ea0f2bdf69ec9532bdcf4",
+ "message_id": "msg_011CgFugE4r5sn4WvzWziog3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4327,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"restoring price stability likely will require ongoing rate hikes and then keeping policy restrictive for some time until we are confident that inflation is firmly on the path toward our 2 percent goal.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation remains stubbornly and unacceptably high, and data over the past few months show that inflationary pressures remain broad based.\"},{\"dimension\":\"risk_balance\",\"quote\":\"with risks to inflation forecasts skewed to the upside, I believe policy judgments must be based on whether and when we see inflation actually falling in the data, rather than just in forecasts.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The Labor Market I will begin with the labor market, which is very strong.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"At some point, as we continue to tighten monetary policy, it will become appropriate to slow the pace of increases while we assess the effects of our cumulative tightening on the economy and inflation.\"},{\"dimension\":\"overall\",\"quote\":\"In sum, inflation is too high, it must come down, and we will keep at it until the job is done.\"}],\"rationale\":\"Governor Cook emphasizes stubbornly high inflation, upside inflation risks, and the need for ongoing rate hikes and a period of restrictive policy, with only a mild nod to eventually slowing the pace. The labor market is described as very strong, reinforcing the hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "restoring price stability likely will require ongoing rate hikes and then keeping policy restrictive for some time until we are confident that inflation is firmly on the path toward our 2 percent goal."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation remains stubbornly and unacceptably high, and data over the past few months show that inflationary pressures remain broad based."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "with risks to inflation forecasts skewed to the upside, I believe policy judgments must be based on whether and when we see inflation actually falling in the data, rather than just in forecasts."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The Labor Market I will begin with the labor market, which is very strong."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "At some point, as we continue to tighten monetary policy, it will become appropriate to slow the pace of increases while we assess the effects of our cumulative tightening on the economy and inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In sum, inflation is too high, it must come down, and we will keep at it until the job is done."
+   }
+  ],
+  "rationale": "Governor Cook emphasizes stubbornly high inflation, upside inflation risks, and the need for ongoing rate hikes and a period of restrictive policy, with only a mild nod to eventually slowing the pace. The labor market is described as very strong, reinforcing the hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "restoring price stability likely will require ongoing rate hikes and then keeping policy restrictive for some time until we are confident that inflation is firmly on the path toward our 2 percent goal.",
+     "start": 13865,
+     "end": 14065
+    },
+    {
+     "quote": "inflation remains stubbornly and unacceptably high, and data over the past few months show that inflationary pressures remain broad based.",
+     "start": 2012,
+     "end": 2149
+    },
+    {
+     "quote": "with risks to inflation forecasts skewed to the upside, I believe policy judgments must be based on whether and when we see inflation actually falling in the data, rather than just in forecasts.",
+     "start": 10481,
+     "end": 10674
+    },
+    {
+     "quote": "The Labor Market I will begin with the labor market, which is very strong.",
+     "start": 482,
+     "end": 555
+    },
+    {
+     "quote": "At some point, as we continue to tighten monetary policy, it will become appropriate to slow the pace of increases while we assess the effects of our cumulative tightening on the economy and inflation.",
+     "start": 14068,
+     "end": 14268
+    },
+    {
+     "quote": "In sum, inflation is too high, it must come down, and we will keep at it until the job is done.",
+     "start": 14376,
+     "end": 14470
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

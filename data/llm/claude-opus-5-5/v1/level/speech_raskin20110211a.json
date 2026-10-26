@@ -1,0 +1,103 @@
+{
+ "key": "speech_raskin20110211a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20110211a",
+  "doc_type": "speech",
+  "text_sha256": "fe9d4dc33c4d74ce8704e38731ee4db6ba2a589aa29bb85687e9fceb6794331a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "520ae7b3de8862708a2aef005588348da227a546502ae8cd73ab803655cc3401",
+ "message_id": "msg_011CgFug9fvwgP8kRtKCQwEs",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6093,
+  "output_tokens": 452,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Our economy is growing, but the pace of recovery is agonizingly slow, well behind the pace of recovery in prior recessions.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the persistent high rate of unemployment is further depressing housing demand, creating uncertainty about housing prices\"},{\"dimension\":\"risk_balance\",\"quote\":\"With a pipeline full of distressed properties, the unfortunate consensus is that we should expect even more downward pressure on house prices.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve Board has acted to provide unprecedented levels of liquidity to the market since the crisis began through the development of an accommodative monetary policy\"}],\"rationale\":\"The speech focuses mainly on mortgage servicing reform but paints a bleak picture of a slow recovery, high unemployment and housing drag, with no mention of inflation. That emphasis implies a dovish lean, though it offers no explicit policy guidance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Our economy is growing, but the pace of recovery is agonizingly slow, well behind the pace of recovery in prior recessions."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the persistent high rate of unemployment is further depressing housing demand, creating uncertainty about housing prices"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With a pipeline full of distressed properties, the unfortunate consensus is that we should expect even more downward pressure on house prices."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve Board has acted to provide unprecedented levels of liquidity to the market since the crisis began through the development of an accommodative monetary policy"
+   }
+  ],
+  "rationale": "The speech focuses mainly on mortgage servicing reform but paints a bleak picture of a slow recovery, high unemployment and housing drag, with no mention of inflation. That emphasis implies a dovish lean, though it offers no explicit policy guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Our economy is growing, but the pace of recovery is agonizingly slow, well behind the pace of recovery in prior recessions.",
+     "start": 770,
+     "end": 892
+    },
+    {
+     "quote": "the persistent high rate of unemployment is further depressing housing demand, creating uncertainty about housing prices",
+     "start": 1568,
+     "end": 1688
+    },
+    {
+     "quote": "With a pipeline full of distressed properties, the unfortunate consensus is that we should expect even more downward pressure on house prices.",
+     "start": 1769,
+     "end": 1910
+    },
+    {
+     "quote": "The Federal Reserve Board has acted to provide unprecedented levels of liquidity to the market since the crisis began through the development of an accommodative monetary policy",
+     "start": 16891,
+     "end": 17068
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

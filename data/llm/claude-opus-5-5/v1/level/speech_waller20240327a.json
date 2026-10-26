@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20240327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240327a",
+  "doc_type": "speech",
+  "text_sha256": "32a1a78274f5734883359a8ce80ec337cc7f68d017d51af31d3d00abb594290e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "810f406336f5d303c6eba989e0f60be313a8ee7ca121df44d95b519da2ca325e",
+ "message_id": "msg_011CgFugE94gkmjFuoMbfRzt",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4874,
+  "output_tokens": 489,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In my view, it is appropriate to reduce the overall number of rate cuts or push them further into the future in response to the recent data.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it is prudent to hold this rate at its current restrictive stance perhaps for longer than previously thought to help keep inflation on a sustainable trajectory toward 2 percent.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"These shorter-term inflation measures are now telling me that progress has slowed and may have stalled.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Cutting the policy rate too soon and risking a sustained rebound in inflation is something I want to avoid.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I see economic output and the labor market showing continued strength, while progress in reducing inflation has slowed.\"}],\"rationale\":\"Governor Waller signals fewer or later cuts than previously expected, citing hot inflation data, strong growth and jobs, and greater risk from cutting too soon. He still expects cuts this year, so the stance is moderately rather than strongly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my view, it is appropriate to reduce the overall number of rate cuts or push them further into the future in response to the recent data."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it is prudent to hold this rate at its current restrictive stance perhaps for longer than previously thought to help keep inflation on a sustainable trajectory toward 2 percent."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "These shorter-term inflation measures are now telling me that progress has slowed and may have stalled."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Cutting the policy rate too soon and risking a sustained rebound in inflation is something I want to avoid."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I see economic output and the labor market showing continued strength, while progress in reducing inflation has slowed."
+   }
+  ],
+  "rationale": "Governor Waller signals fewer or later cuts than previously expected, citing hot inflation data, strong growth and jobs, and greater risk from cutting too soon. He still expects cuts this year, so the stance is moderately rather than strongly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, it is appropriate to reduce the overall number of rate cuts or push them further into the future in response to the recent data.",
+     "start": 13937,
+     "end": 14076
+    },
+    {
+     "quote": "it is prudent to hold this rate at its current restrictive stance perhaps for longer than previously thought to help keep inflation on a sustainable trajectory toward 2 percent.",
+     "start": 1853,
+     "end": 2029
+    },
+    {
+     "quote": "These shorter-term inflation measures are now telling me that progress has slowed and may have stalled.",
+     "start": 11721,
+     "end": 11823
+    },
+    {
+     "quote": "Cutting the policy rate too soon and risking a sustained rebound in inflation is something I want to avoid.",
+     "start": 15458,
+     "end": 15564
+    },
+    {
+     "quote": "I see economic output and the labor market showing continued strength, while progress in reducing inflation has slowed.",
+     "start": 14331,
+     "end": 14449
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_raskin20120106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20120106a",
+  "doc_type": "speech",
+  "text_sha256": "a2f3686a575798c77c3d1739ff254a469c2c1bf2aa75783f95ff5cb42b130160"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4312d84857ce3b5f5a7c73dd261a5ccd739bf16a6e1456b54c710bc9101591a6",
+ "message_id": "msg_011CgFugFkYojGNDWLbZAVF7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7838,
+  "output_tokens": 488,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"although the pace of employment growth has picked up in recent months and the unemployment rate has fallen some, the labor market remains quite weak.\"},{\"dimension\":\"overall\",\"quote\":\"These circumstances have called for forceful policy measures.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In my judgment, our deployment of unconventional policy tools has been completely appropriate to help promote the Federal Reserve's statutory mandate of maximum employment and price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, certain factors could be constraining the channels through which monetary policy accommodation affects the economy. In particular, many small businesses appear to be facing unusual obstacles in obtaining credit.\"}],\"rationale\":\"The speech is partly about monetary policy, stressing a very weak labor market, defending forceful accommodation including balance sheet operations, and flagging impaired transmission of policy through constrained small-business credit. It gives no explicit forward signal and says nothing about inflation, and much of the text concerns bank supervision, so the stance is a moderate dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "although the pace of employment growth has picked up in recent months and the unemployment rate has fallen some, the labor market remains quite weak."
+   },
+   {
+    "dimension": "overall",
+    "quote": "These circumstances have called for forceful policy measures."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In my judgment, our deployment of unconventional policy tools has been completely appropriate to help promote the Federal Reserve's statutory mandate of maximum employment and price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, certain factors could be constraining the channels through which monetary policy accommodation affects the economy. In particular, many small businesses appear to be facing unusual obstacles in obtaining credit."
+   }
+  ],
+  "rationale": "The speech is partly about monetary policy, stressing a very weak labor market, defending forceful accommodation including balance sheet operations, and flagging impaired transmission of policy through constrained small-business credit. It gives no explicit forward signal and says nothing about inflation, and much of the text concerns bank supervision, so the stance is a moderate dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "although the pace of employment growth has picked up in recent months and the unemployment rate has fallen some, the labor market remains quite weak.",
+     "start": 8047,
+     "end": 8195
+    },
+    {
+     "quote": "These circumstances have called for forceful policy measures.",
+     "start": 9481,
+     "end": 9541
+    },
+    {
+     "quote": "In my judgment, our deployment of unconventional policy tools has been completely appropriate to help promote the Federal Reserve's statutory mandate of maximum employment and price stability.",
+     "start": 12013,
+     "end": 12204
+    },
+    {
+     "quote": "However, certain factors could be constraining the channels through which monetary policy accommodation affects the economy. In particular, many small businesses appear to be facing unusual obstacles in obtaining credit.",
+     "start": 12877,
+     "end": 13096
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20170706a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170706a",
+  "doc_type": "speech",
+  "text_sha256": "4426c44b176f3beeb0fa40e87702089f0784f4de6ff44f01dfa4fb30bbb90915"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7348d99ae747bfb2151ca68047d7960cd0085449c012cf09e7356195fbbc0f30",
+ "message_id": "msg_011CgFug9Mq5hgjapavx287r",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5661,
+  "output_tokens": 423,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The global financial crisis ended in 2009, and the economy has just completed its eighth consecutive year of expansion. We are near full employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The housing market is generally strong, although it is still recovering in some regions.\"},{\"dimension\":\"overall\",\"quote\":\"My topic today is the urgent need for fundamental reform of our system of housing finance--the great unfinished business of post-financial crisis reform.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve is not charged with designing or evaluating proposals for housing finance reform.\"}],\"rationale\":\"The speech is about housing finance and GSE reform, not monetary policy, and offers no view on rates, inflation or the Fed's balance sheet. Its only macro content is a brief positive description of the economy as near full employment, a slight hawkish tilt that does not change the neutral overall stance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The global financial crisis ended in 2009, and the economy has just completed its eighth consecutive year of expansion. We are near full employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The housing market is generally strong, although it is still recovering in some regions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My topic today is the urgent need for fundamental reform of our system of housing finance--the great unfinished business of post-financial crisis reform."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve is not charged with designing or evaluating proposals for housing finance reform."
+   }
+  ],
+  "rationale": "The speech is about housing finance and GSE reform, not monetary policy, and offers no view on rates, inflation or the Fed's balance sheet. Its only macro content is a brief positive description of the economy as near full employment, a slight hawkish tilt that does not change the neutral overall stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The global financial crisis ended in 2009, and the economy has just completed its eighth consecutive year of expansion. We are near full employment.",
+     "start": 1677,
+     "end": 1824
+    },
+    {
+     "quote": "The housing market is generally strong, although it is still recovering in some regions.",
+     "start": 1826,
+     "end": 1913
+    },
+    {
+     "quote": "My topic today is the urgent need for fundamental reform of our system of housing finance--the great unfinished business of post-financial crisis reform.",
+     "start": 109,
+     "end": 261
+    },
+    {
+     "quote": "The Federal Reserve is not charged with designing or evaluating proposals for housing finance reform.",
+     "start": 266,
+     "end": 366
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_quarles20180222a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20180222a",
+  "doc_type": "speech",
+  "text_sha256": "c621d99ab8d6f6ed4d679e406150f0d457023dc34e07a86d389497cb96fd1ce7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "70fc32e4cff8e84fc4fb2d9893b996e384745cb457c3dded1d507866fce17e4e",
+ "message_id": "msg_011CgFug9bDkpqAAvdM1FUcm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2189,
+  "output_tokens": 469,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":2,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I anticipate further gradual increases in the policy rate will be appropriate to both sustain a healthy labor market and stabilize inflation around our 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the U.S. economy appears to be performing very well and, certainly, is in the best shape that it has been in since the crisis\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"a deviation from our target of a few tenths of 1 percentage point, especially one I expect to fade, does not cause me great concern.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"With the balance sheet normalization plan set to remain on autopilot, barring a material deterioration in the economic outlook\"},{\"dimension\":\"overall\",\"quote\":\"In this range, monetary policy remains accommodative.\"}],\"rationale\":\"The speaker describes a strong economy, views below-target inflation as transitory, and anticipates further gradual rate increases with balance sheet runoff continuing. This is a moderately hawkish signal for continued gradual tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 2,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I anticipate further gradual increases in the policy rate will be appropriate to both sustain a healthy labor market and stabilize inflation around our 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the U.S. economy appears to be performing very well and, certainly, is in the best shape that it has been in since the crisis"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "a deviation from our target of a few tenths of 1 percentage point, especially one I expect to fade, does not cause me great concern."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "With the balance sheet normalization plan set to remain on autopilot, barring a material deterioration in the economic outlook"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In this range, monetary policy remains accommodative."
+   }
+  ],
+  "rationale": "The speaker describes a strong economy, views below-target inflation as transitory, and anticipates further gradual rate increases with balance sheet runoff continuing. This is a moderately hawkish signal for continued gradual tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I anticipate further gradual increases in the policy rate will be appropriate to both sustain a healthy labor market and stabilize inflation around our 2 percent objective.",
+     "start": 6121,
+     "end": 6292
+    },
+    {
+     "quote": "the U.S. economy appears to be performing very well and, certainly, is in the best shape that it has been in since the crisis",
+     "start": 710,
+     "end": 835
+    },
+    {
+     "quote": "a deviation from our target of a few tenths of 1 percentage point, especially one I expect to fade, does not cause me great concern.",
+     "start": 5127,
+     "end": 5258
+    },
+    {
+     "quote": "With the balance sheet normalization plan set to remain on autopilot, barring a material deterioration in the economic outlook",
+     "start": 5681,
+     "end": 5807
+    },
+    {
+     "quote": "In this range, monetary policy remains accommodative.",
+     "start": 6067,
+     "end": 6119
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

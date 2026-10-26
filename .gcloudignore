@@ -1,0 +1,12 @@
+# `gcloud builds submit` uploads only what deploy/Dockerfile needs: no local data, keys or caches
+*
+!config/
+!config/**
+!src/
+!src/**
+!deploy/
+!deploy/**
+!requirements-serve.txt
+!requirements.lock
+config/local.yaml
+**/__pycache__/

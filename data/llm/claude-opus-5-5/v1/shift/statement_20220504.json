@@ -1,0 +1,154 @@
+{
+ "key": "statement_20220504",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20220504",
+  "previous_doc_id": "statement_20220316",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a4d305740dc016b74398a82bcde327f7f2d68eb20178e293261b3754aa0335e",
+ "message_id": "msg_011CgFue3YmjTqjVVqK2aBW6",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1511,
+  "output_tokens": 741,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent\",\"after\":\"the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent\",\"direction\":\"hawkish\"},{\"before\":\"In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.\",\"after\":\"In addition, the Committee decided to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities on June 1, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in conjunction with this statement.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee is highly attentive to inflation risks.\",\"direction\":\"hawkish\"},{\"before\":\"but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.\",\"after\":\"The invasion and related events are creating additional upward pressure on inflation and are likely to weigh on economic activity.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.\",\"direction\":\"hawkish\"},{\"before\":\"Indicators of economic activity and employment have continued to strengthen. Job gains have been strong in recent months\",\"after\":\"Although overall economic activity edged down in the first quarter, household spending and business fixed investment remained strong. Job gains have been robust in recent months\",\"direction\":\"neutral\"},{\"before\":\"Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee accelerated to a 50 bp hike and formally launched balance-sheet runoff on a set date, while adding explicit language that it is highly attentive to inflation risks. These mark a clear step-up in the pace of tightening; the hawkish dissent disappeared because the majority moved to the dissenter's position.\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent",
+    "after": "the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.",
+    "after": "In addition, the Committee decided to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities on June 1, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in conjunction with this statement.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee is highly attentive to inflation risks.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.",
+    "after": "The invasion and related events are creating additional upward pressure on inflation and are likely to weigh on economic activity.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Indicators of economic activity and employment have continued to strengthen. Job gains have been strong in recent months",
+    "after": "Although overall economic activity edged down in the first quarter, household spending and business fixed investment remained strong. Job gains have been robust in recent months",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee accelerated to a 50 bp hike and formally launched balance-sheet runoff on a set date, while adding explicit language that it is highly attentive to inflation risks. These mark a clear step-up in the pace of tightening; the hawkish dissent disappeared because the majority moved to the dissenter's position."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent",
+     "start": 917,
+     "end": 1013
+    },
+    {
+     "quote": "In addition, the Committee expects to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities at a coming meeting.",
+     "start": 1094,
+     "end": 1256
+    },
+    {
+     "quote": "but in the near term the invasion and related events are likely to create additional upward pressure on inflation and weigh on economic activity.",
+     "start": 466,
+     "end": 610
+    },
+    {
+     "quote": "Indicators of economic activity and employment have continued to strengthen. Job gains have been strong in recent months",
+     "start": 0,
+     "end": 120
+    },
+    {
+     "quote": "Voting against this action was James Bullard, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1/2 to 3/4 percent.",
+     "start": 2033,
+     "end": 2207
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent",
+     "start": 1110,
+     "end": 1204
+    },
+    {
+     "quote": "In addition, the Committee decided to begin reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities on June 1, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in conjunction with this statement.",
+     "start": 1285,
+     "end": 1577
+    },
+    {
+     "quote": "The Committee is highly attentive to inflation risks.",
+     "start": 751,
+     "end": 803
+    },
+    {
+     "quote": "The invasion and related events are creating additional upward pressure on inflation and are likely to weigh on economic activity.",
+     "start": 523,
+     "end": 652
+    },
+    {
+     "quote": "In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.",
+     "start": 654,
+     "end": 749
+    },
+    {
+     "quote": "Although overall economic activity edged down in the first quarter, household spending and business fixed investment remained strong. Job gains have been robust in recent months",
+     "start": 0,
+     "end": 177
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20230201",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20230201",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "7f32d5b3aadd59103193aaea4962639fc02289d07512125d0671539785b05e41"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b2a1f73f358f4c000de2d763b6d223c20cb8f117869ff2ee4ebee4cd01caa64b",
+ "message_id": "msg_011CgFudzsYHdPiDcv2jPwfW",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13826,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"all participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants agreed that the labor market remained very tight and assessed that labor demand substantially exceeded the supply of available workers.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants generally noted that upside risks to the inflation outlook remained a key factor shaping the policy outlook\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A number of participants observed that financial conditions had eased in recent months, which some noted could necessitate a tighter stance of monetary policy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings\"}],\"rationale\":\"The minutes describe a slowed pace of hikes but continued anticipation of ongoing increases, unacceptably high inflation, a very tight labor market, upside inflation risks, and some participants favoring 50 bp. Offsetting signs of moderating inflation and downside activity risks keep the lean moderately rather than strongly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "all participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants agreed that the labor market remained very tight and assessed that labor demand substantially exceeded the supply of available workers."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants generally noted that upside risks to the inflation outlook remained a key factor shaping the policy outlook"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A number of participants observed that financial conditions had eased in recent months, which some noted could necessitate a tighter stance of monetary policy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings"
+   }
+  ],
+  "rationale": "The minutes describe a slowed pace of hikes but continued anticipation of ongoing increases, unacceptably high inflation, a very tight labor market, upside inflation risks, and some participants favoring 50 bp. Offsetting signs of moderating inflation and downside activity risks keep the lean moderately rather than strongly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "all participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives.",
+     "start": 36351,
+     "end": 36520
+    },
+    {
+     "quote": "With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high.",
+     "start": 27673,
+     "end": 27807
+    },
+    {
+     "quote": "Participants agreed that the labor market remained very tight and assessed that labor demand substantially exceeded the supply of available workers.",
+     "start": 25728,
+     "end": 25875
+    },
+    {
+     "quote": "participants generally noted that upside risks to the inflation outlook remained a key factor shaping the policy outlook",
+     "start": 38211,
+     "end": 38331
+    },
+    {
+     "quote": "A number of participants observed that financial conditions had eased in recent months, which some noted could necessitate a tighter stance of monetary policy.",
+     "start": 37530,
+     "end": 37688
+    },
+    {
+     "quote": "All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings",
+     "start": 35974,
+     "end": 36099
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

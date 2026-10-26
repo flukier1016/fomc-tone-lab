@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20130710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20130710a",
+  "doc_type": "speech",
+  "text_sha256": "6b0e27cdc1558974c0f28e97fd7d9d2508c4691d1aa9705d04210b8e47d56a40"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a834e95e901c72a9606f7e05bc8a0ce10c3b38b975be5120ada7f7f5bcbba889",
+ "message_id": "msg_011CgFugDYMEnqJ4VYvvLyxi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7938,
+  "output_tokens": 421,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will leave discussion of current policy to today's question-and-answer session and, of course, to my congressional testimony next week.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we are still working to achieve a full recovery from its effects.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"by offering guidance about how policy will respond to economic developments, the Committee has been able to increase policy accommodation, even when the short-term interest rate is near zero\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee has also sought to influence interest rates further out on the yield curve, notably through its securities purchases.\"}],\"rationale\":\"This is a historical speech that explicitly defers discussion of current policy; it describes frameworks such as forward guidance and asset purchases without signaling a future path. The only current-economy content is a mild note that the recovery remains incomplete, so the net stance is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will leave discussion of current policy to today's question-and-answer session and, of course, to my congressional testimony next week."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we are still working to achieve a full recovery from its effects."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "by offering guidance about how policy will respond to economic developments, the Committee has been able to increase policy accommodation, even when the short-term interest rate is near zero"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee has also sought to influence interest rates further out on the yield curve, notably through its securities purchases."
+   }
+  ],
+  "rationale": "This is a historical speech that explicitly defers discussion of current policy; it describes frameworks such as forward guidance and asset purchases without signaling a future path. The only current-economy content is a mild note that the recovery remains incomplete, so the net stance is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will leave discussion of current policy to today's question-and-answer session and, of course, to my congressional testimony next week.",
+     "start": 507,
+     "end": 643
+    },
+    {
+     "quote": "we are still working to achieve a full recovery from its effects.",
+     "start": 20329,
+     "end": 20393
+    },
+    {
+     "quote": "by offering guidance about how policy will respond to economic developments, the Committee has been able to increase policy accommodation, even when the short-term interest rate is near zero",
+     "start": 25194,
+     "end": 25384
+    },
+    {
+     "quote": "The Committee has also sought to influence interest rates further out on the yield curve, notably through its securities purchases.",
+     "start": 25432,
+     "end": 25562
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

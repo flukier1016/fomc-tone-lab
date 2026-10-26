@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20100827a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100827a",
+  "doc_type": "speech",
+  "text_sha256": "33074b322e249ee28e959497ec508da957513e60938d823cc5cf7257dacd22fd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "39d0a27b10ae76825b6f514bf92439963e2eb7eddf8b13b64b69dd550cd69cf9",
+ "message_id": "msg_011CgFug9oN66p6LFvGFxVgJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9741,
+  "output_tokens": 543,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In particular, the Committee is prepared to provide additional monetary accommodation through unconventional measures if it proves necessary, especially if the outlook were to deteriorate significantly.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I believe that additional purchases of longer-term securities, should the FOMC choose to undertake them, would be effective in further easing financial conditions.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Incoming data on the labor market have remained disappointing.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Recently, inflation has declined to a level that is slightly below that which FOMC participants view as most conducive to a healthy economy in the long run.\"},{\"dimension\":\"risk_balance\",\"quote\":\"First, the FOMC will strongly resist deviations from price stability in the downward direction.\"},{\"dimension\":\"overall\",\"quote\":\"Second, regardless of the risks of deflation, the FOMC will do all that it can to ensure continuation of the economic recovery.\"}],\"rationale\":\"The speech describes slowing growth, a disappointing labor market and below-target inflation. It lays out further easing options, especially additional asset purchases, while committing to resist disinflation and support the recovery, which is a clear dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In particular, the Committee is prepared to provide additional monetary accommodation through unconventional measures if it proves necessary, especially if the outlook were to deteriorate significantly."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I believe that additional purchases of longer-term securities, should the FOMC choose to undertake them, would be effective in further easing financial conditions."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Incoming data on the labor market have remained disappointing."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Recently, inflation has declined to a level that is slightly below that which FOMC participants view as most conducive to a healthy economy in the long run."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "First, the FOMC will strongly resist deviations from price stability in the downward direction."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Second, regardless of the risks of deflation, the FOMC will do all that it can to ensure continuation of the economic recovery."
+   }
+  ],
+  "rationale": "The speech describes slowing growth, a disappointing labor market and below-target inflation. It lays out further easing options, especially additional asset purchases, while committing to resist disinflation and support the recovery, which is a clear dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In particular, the Committee is prepared to provide additional monetary accommodation through unconventional measures if it proves necessary, especially if the outlook were to deteriorate significantly.",
+     "start": 19811,
+     "end": 20012
+    },
+    {
+     "quote": "I believe that additional purchases of longer-term securities, should the FOMC choose to undertake them, would be effective in further easing financial conditions.",
+     "start": 21637,
+     "end": 21799
+    },
+    {
+     "quote": "Incoming data on the labor market have remained disappointing.",
+     "start": 8212,
+     "end": 8273
+    },
+    {
+     "quote": "Recently, inflation has declined to a level that is slightly below that which FOMC participants view as most conducive to a healthy economy in the long run.",
+     "start": 12318,
+     "end": 12473
+    },
+    {
+     "quote": "First, the FOMC will strongly resist deviations from price stability in the downward direction.",
+     "start": 30131,
+     "end": 30225
+    },
+    {
+     "quote": "Second, regardless of the risks of deflation, the FOMC will do all that it can to ensure continuation of the economic recovery.",
+     "start": 30639,
+     "end": 30765
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

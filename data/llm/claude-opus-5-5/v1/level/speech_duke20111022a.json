@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20111022a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20111022a",
+  "doc_type": "speech",
+  "text_sha256": "aeb08878277d0fc8b6201599f0eaf0cdc0dbc5a15fcdb4f8c6acf30ca2cf2269"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e88fd586ff241047e36073062bf8cae6a5bd9d22b3b199ba67141954eb4d107d",
+ "message_id": "msg_011CgFugFRhsSKSPK5FXcBo7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5122,
+  "output_tokens": 358,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Indeed, the condition of household finances is a key factor in the sluggish pace of recovery that we are seeing today.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Going forward, as income and asset values recover, these improvements in the aggregate household position should be felt by more and more U.S. households.\"},{\"dimension\":\"overall\",\"quote\":\"To that end, the Federal Reserve System has made financial literacy a top priority.\"}],\"rationale\":\"This is a financial literacy speech with no discussion of monetary policy, inflation, or the balance sheet. It mentions only briefly a sluggish recovery and household deleveraging, a mild dovish read on activity that does not amount to a policy view.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Indeed, the condition of household finances is a key factor in the sluggish pace of recovery that we are seeing today."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Going forward, as income and asset values recover, these improvements in the aggregate household position should be felt by more and more U.S. households."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To that end, the Federal Reserve System has made financial literacy a top priority."
+   }
+  ],
+  "rationale": "This is a financial literacy speech with no discussion of monetary policy, inflation, or the balance sheet. It mentions only briefly a sluggish recovery and household deleveraging, a mild dovish read on activity that does not amount to a policy view."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Indeed, the condition of household finances is a key factor in the sluggish pace of recovery that we are seeing today.",
+     "start": 1918,
+     "end": 2035
+    },
+    {
+     "quote": "Going forward, as income and asset values recover, these improvements in the aggregate household position should be felt by more and more U.S. households.",
+     "start": 3483,
+     "end": 3636
+    },
+    {
+     "quote": "To that end, the Federal Reserve System has made financial literacy a top priority.",
+     "start": 4854,
+     "end": 4936
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

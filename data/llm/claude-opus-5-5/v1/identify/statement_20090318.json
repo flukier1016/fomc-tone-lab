@@ -1,0 +1,52 @@
+{
+ "key": "statement_20090318",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20090318",
+  "release_date": "2009-03-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a6d1e088ed6d2ec6cf91d8a32e9eb97bf6417a6439dbf7d72d5b1658a5b2435a",
+ "message_id": "msg_011CgFudVTyCKz28BFqEWcFk",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1274,
+  "output_tokens": 171,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2009,\"month\":3,\"confidence\":0.97,\"cues\":[\"Additional $750 billion agency MBS purchases bringing total to $1.25 trillion (QE1 expansion)\",\"Purchase of up to $300 billion of longer-term Treasury securities over the next six months\",\"Agency debt purchases increased to $200 billion\",\"TALF just launched (launched March 2009)\",\"Economy continues to contract; trading partners in recession\",\"'Exceptionally low levels... for an extended period' language first appeared then\"]}",
+ "parsed": {
+  "year": 2009,
+  "month": 3,
+  "confidence": 0.97,
+  "cues": [
+   "Additional $750 billion agency MBS purchases bringing total to $1.25 trillion (QE1 expansion)",
+   "Purchase of up to $300 billion of longer-term Treasury securities over the next six months",
+   "Agency debt purchases increased to $200 billion",
+   "TALF just launched (launched March 2009)",
+   "Economy continues to contract; trading partners in recession",
+   "'Exceptionally low levels... for an extended period' language first appeared then"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

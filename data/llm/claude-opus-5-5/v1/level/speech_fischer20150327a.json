@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20150327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150327a",
+  "doc_type": "speech",
+  "text_sha256": "f3807bd33c253aab4a077c497edf21be1a012983e20a286e2a18865580e5010b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e43945e18ebed3fb023baea2b228665cbe5d8826ea3f134893c9606a8722de1c",
+ "message_id": "msg_011CgFug8nbRrcCDYFdLrpq8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5949,
+  "output_tokens": 324,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"My subject is the important role the nonbank financial sector plays in the United States financial system.\"},{\"dimension\":\"overall\",\"quote\":\"The available data paint a picture of a nonbank sector that has generally reduced its vulnerability to the types of shocks that we saw during the crisis.\"},{\"dimension\":\"overall\",\"quote\":\"This maturity transformation remains a key vulnerability.\"}],\"rationale\":\"The speech addresses financial stability and nonbank regulation and gives no view on interest rates, inflation, or the economic outlook. With no monetary policy signal in the text, all policy dimensions are null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "My subject is the important role the nonbank financial sector plays in the United States financial system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The available data paint a picture of a nonbank sector that has generally reduced its vulnerability to the types of shocks that we saw during the crisis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This maturity transformation remains a key vulnerability."
+   }
+  ],
+  "rationale": "The speech addresses financial stability and nonbank regulation and gives no view on interest rates, inflation, or the economic outlook. With no monetary policy signal in the text, all policy dimensions are null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My subject is the important role the nonbank financial sector plays in the United States financial system.",
+     "start": 29,
+     "end": 134
+    },
+    {
+     "quote": "The available data paint a picture of a nonbank sector that has generally reduced its vulnerability to the types of shocks that we saw during the crisis.",
+     "start": 15962,
+     "end": 16114
+    },
+    {
+     "quote": "This maturity transformation remains a key vulnerability.",
+     "start": 17291,
+     "end": 17347
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

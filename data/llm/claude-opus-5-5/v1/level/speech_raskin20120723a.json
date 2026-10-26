@@ -1,0 +1,94 @@
+{
+ "key": "speech_raskin20120723a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20120723a",
+  "doc_type": "speech",
+  "text_sha256": "caf52cd5aef6cb2b29e2ed2b9722744acbfe6f5aadd5580a47665513c049fced"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d9b8e951712fc4ff1ab282fcf26f6860073198c79ad22978ed729a36de7504d4",
+ "message_id": "msg_011CgFug9ZjC4HGEX3xkLize",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6283,
+  "output_tokens": 337,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I dissented in the vote for approval of the proposed implementation of the Volcker Rule.\"},{\"dimension\":\"overall\",\"quote\":\"I view proprietary trading as an activity of low or no real economic value that should not be part of any banking model that has an implicit government backstop.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve attempted to provide the containment through the use of both traditional and innovative macroeconomic tools.\"}],\"rationale\":\"The speech addresses bank regulation, the Volcker Rule, and community banking business models, with no discussion of the monetary policy path, inflation, or the economic outlook. It carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I dissented in the vote for approval of the proposed implementation of the Volcker Rule."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I view proprietary trading as an activity of low or no real economic value that should not be part of any banking model that has an implicit government backstop."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve attempted to provide the containment through the use of both traditional and innovative macroeconomic tools."
+   }
+  ],
+  "rationale": "The speech addresses bank regulation, the Volcker Rule, and community banking business models, with no discussion of the monetary policy path, inflation, or the economic outlook. It carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I dissented in the vote for approval of the proposed implementation of the Volcker Rule.",
+     "start": 13477,
+     "end": 13564
+    },
+    {
+     "quote": "I view proprietary trading as an activity of low or no real economic value that should not be part of any banking model that has an implicit government backstop.",
+     "start": 12099,
+     "end": 12259
+    },
+    {
+     "quote": "the Federal Reserve attempted to provide the containment through the use of both traditional and innovative macroeconomic tools.",
+     "start": 4258,
+     "end": 4385
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

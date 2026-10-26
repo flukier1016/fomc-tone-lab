@@ -1,0 +1,121 @@
+{
+ "key": "statement_20150729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20150729",
+  "doc_type": "statement",
+  "text_sha256": "512b8858d47fd925ec5134919db3def13e15707c29f5c9c5f2b8866adf4d8729"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3081fdf4607c8502c5c4141e5b8d9ad8763ae960d484cecab67434425fff376b",
+ "message_id": "msg_011CgFugMxMrNUPiWAZ2huNy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1130,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market continued to improve, with solid job gains and declining unemployment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities\"}],\"rationale\":\"Rates are held at zero and reinvestment continues, but the statement says labor underutilization has diminished and requires only \\\"some further improvement\\\" before raising rates, signaling liftoff is approaching. Below-target inflation and the note that rates may stay below normal for some time temper the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market continued to improve, with solid job gains and declining unemployment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "Rates are held at zero and reinvestment continues, but the statement says labor underutilization has diminished and requires only \"some further improvement\" before raising rates, signaling liftoff is approaching. Below-target inflation and the note that rates may stay below normal for some time temper the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market",
+     "start": 2315,
+     "end": 2483
+    },
+    {
+     "quote": "The labor market continued to improve, with solid job gains and declining unemployment.",
+     "start": 322,
+     "end": 408
+    },
+    {
+     "quote": "a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year",
+     "start": 422,
+     "end": 543
+    },
+    {
+     "quote": "Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports.",
+     "start": 545,
+     "end": 711
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1199,
+     "end": 1316
+    },
+    {
+     "quote": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities",
+     "start": 2592,
+     "end": 2745
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

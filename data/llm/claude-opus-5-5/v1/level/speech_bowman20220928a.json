@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20220928a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220928a",
+  "doc_type": "speech",
+  "text_sha256": "fc6bf140f8f3728c52ac26611b80382bfb579ce1ff3d8187dc5cab5dfc91913e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e7e46ab17909d79f5c0206cd9f20f5486a77580947540866d60995768f566e94",
+ "message_id": "msg_011CgFugGfcUqeTwGEoYpxKJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6798,
+  "output_tokens": 268,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is this topic of competition that I will focus on for the remainder of my remarks today.\"},{\"dimension\":\"overall\",\"quote\":\"it's imperative that we modernize our evaluation of competition to more consistently and comprehensively factor in all competitors in a market\"}],\"rationale\":\"The speech addresses bank merger competitive analysis and community banking, with no discussion of monetary policy, inflation, or the economic outlook. No policy stance can be inferred.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is this topic of competition that I will focus on for the remainder of my remarks today."
+   },
+   {
+    "dimension": "overall",
+    "quote": "it's imperative that we modernize our evaluation of competition to more consistently and comprehensively factor in all competitors in a market"
+   }
+  ],
+  "rationale": "The speech addresses bank merger competitive analysis and community banking, with no discussion of monetary policy, inflation, or the economic outlook. No policy stance can be inferred."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is this topic of competition that I will focus on for the remainder of my remarks today.",
+     "start": 3267,
+     "end": 3357
+    },
+    {
+     "quote": "it's imperative that we modernize our evaluation of competition to more consistently and comprehensively factor in all competitors in a market",
+     "start": 15026,
+     "end": 15168
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

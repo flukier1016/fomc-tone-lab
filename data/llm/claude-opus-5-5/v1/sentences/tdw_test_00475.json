@@ -1,0 +1,151 @@
+{
+ "key": "tdw_test_00475",
+ "mode": "sentences",
+ "meta": {
+  "ids": [
+   475,
+   476,
+   477,
+   478,
+   479,
+   480,
+   481,
+   482,
+   483,
+   484,
+   485,
+   486,
+   487,
+   488,
+   489,
+   490,
+   491,
+   492,
+   493,
+   494,
+   495
+  ]
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6f11d3b8565bee197b3fc90fedc0438c04992feef4cd718fd59e852469f37467",
+ "message_id": "msg_011CgFudUFYXLuthLkJAHknX",
+ "request_id": null,
+ "batch_id": "msgbatch_01H2LDjoZzZ3MeVEcG2bRwMF",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 527
+  },
+  "cache_creation_input_tokens": 527,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1419,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:13+00:00",
+ "raw_text": "{\"labels\":[{\"id\":475,\"label\":\"dovish\"},{\"id\":476,\"label\":\"neutral\"},{\"id\":477,\"label\":\"neutral\"},{\"id\":478,\"label\":\"hawkish\"},{\"id\":479,\"label\":\"neutral\"},{\"id\":480,\"label\":\"neutral\"},{\"id\":481,\"label\":\"dovish\"},{\"id\":482,\"label\":\"hawkish\"},{\"id\":483,\"label\":\"dovish\"},{\"id\":484,\"label\":\"neutral\"},{\"id\":485,\"label\":\"dovish\"},{\"id\":486,\"label\":\"hawkish\"},{\"id\":487,\"label\":\"neutral\"},{\"id\":488,\"label\":\"neutral\"},{\"id\":489,\"label\":\"neutral\"},{\"id\":490,\"label\":\"hawkish\"},{\"id\":491,\"label\":\"hawkish\"},{\"id\":492,\"label\":\"neutral\"},{\"id\":493,\"label\":\"dovish\"},{\"id\":494,\"label\":\"neutral\"},{\"id\":495,\"label\":\"dovish\"}]}",
+ "parsed": {
+  "labels": [
+   {
+    "id": 475,
+    "label": "dovish"
+   },
+   {
+    "id": 476,
+    "label": "neutral"
+   },
+   {
+    "id": 477,
+    "label": "neutral"
+   },
+   {
+    "id": 478,
+    "label": "hawkish"
+   },
+   {
+    "id": 479,
+    "label": "neutral"
+   },
+   {
+    "id": 480,
+    "label": "neutral"
+   },
+   {
+    "id": 481,
+    "label": "dovish"
+   },
+   {
+    "id": 482,
+    "label": "hawkish"
+   },
+   {
+    "id": 483,
+    "label": "dovish"
+   },
+   {
+    "id": 484,
+    "label": "neutral"
+   },
+   {
+    "id": 485,
+    "label": "dovish"
+   },
+   {
+    "id": 486,
+    "label": "hawkish"
+   },
+   {
+    "id": 487,
+    "label": "neutral"
+   },
+   {
+    "id": 488,
+    "label": "neutral"
+   },
+   {
+    "id": 489,
+    "label": "neutral"
+   },
+   {
+    "id": 490,
+    "label": "hawkish"
+   },
+   {
+    "id": 491,
+    "label": "hawkish"
+   },
+   {
+    "id": 492,
+    "label": "neutral"
+   },
+   {
+    "id": 493,
+    "label": "dovish"
+   },
+   {
+    "id": 494,
+    "label": "neutral"
+   },
+   {
+    "id": 495,
+    "label": "dovish"
+   }
+  ]
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "complete": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20231108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20231108a",
+  "doc_type": "speech",
+  "text_sha256": "c20468fc56f207e36f799592d799043a4ac9a4d991d70035b5964d61a2524f12"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "283224ae46a9cdf5378982737b0f9d59442655d42a6486ceb14766f4e733288b",
+ "message_id": "msg_011CgFugGUhpuWNaxHKGjMPT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1641,
+  "output_tokens": 342,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I want to focus in more detail on the forecast, perhaps the most important of R&S's roles.\"},{\"dimension\":\"overall\",\"quote\":\"Of course, even with state-of-the-art models and even in relatively calm times, the economy frequently surprises us.\"},{\"dimension\":\"overall\",\"quote\":\"On behalf of the Board and the FOMC, thank you for that, and hearty congratulations on your first 100 years of service to the public.\"}],\"rationale\":\"This is a ceremonial speech celebrating the Division of Research and Statistics and contains no views on the economy, inflation or the policy path. It carries no monetary policy signal, so every dimension is null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I want to focus in more detail on the forecast, perhaps the most important of R&S's roles."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Of course, even with state-of-the-art models and even in relatively calm times, the economy frequently surprises us."
+   },
+   {
+    "dimension": "overall",
+    "quote": "On behalf of the Board and the FOMC, thank you for that, and hearty congratulations on your first 100 years of service to the public."
+   }
+  ],
+  "rationale": "This is a ceremonial speech celebrating the Division of Research and Statistics and contains no views on the economy, inflation or the policy path. It carries no monetary policy signal, so every dimension is null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I want to focus in more detail on the forecast, perhaps the most important of R&S's roles.",
+     "start": 3048,
+     "end": 3137
+    },
+    {
+     "quote": "Of course, even with state-of-the-art models and even in relatively calm times, the economy frequently surprises us.",
+     "start": 4482,
+     "end": 4597
+    },
+    {
+     "quote": "On behalf of the Board and the FOMC, thank you for that, and hearty congratulations on your first 100 years of service to the public.",
+     "start": 5262,
+     "end": 5394
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

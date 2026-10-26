@@ -1,0 +1,121 @@
+{
+ "key": "presser_20250730",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20250730",
+  "doc_type": "presser",
+  "text_sha256": "5a1f0efb9764f7249a28eb5e937d2e2a08b822cc932f613755a7a8b9bb2d15c7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "82f55a89e9a7b9bda31934ff61d9ab83d7a1386a4497fd75da807a2f0ef6e65c",
+ "message_id": "msg_011CgFugAmuNpYBft7NYoVN8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10184,
+  "output_tokens": 577,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent and to continue reducing the size of our balance sheet.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We have made no decisions about September—we don’t do that in advance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But it is also possible that the inflationary effects could instead be more persistent, and that is a risk to be assessed and managed.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economy is not performing as though restrictive policy were holding it back inappropriately\"},{\"dimension\":\"risk_balance\",\"quote\":\"But, as I mentioned, you know, downside risks to the labor market are certainly apparent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So as the two targets get back into balance, you would—you would think you’d move in, in, in a way closer to neutral and that the next—the next steps that we take are likely to be in that direction.\"}],\"rationale\":\"The Chair defends holding a modestly restrictive stance, stressing above-target inflation and tariff persistence risks while refusing to commit to a September cut, though he acknowledges downside labor risks and that the next move is likely toward neutral. Net, the message is a slightly hawkish hold, with pushback against near-term cuts balanced by eventual easing bias.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent and to continue reducing the size of our balance sheet."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We have made no decisions about September—we don’t do that in advance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But it is also possible that the inflationary effects could instead be more persistent, and that is a risk to be assessed and managed."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economy is not performing as though restrictive policy were holding it back inappropriately"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But, as I mentioned, you know, downside risks to the labor market are certainly apparent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So as the two targets get back into balance, you would—you would think you’d move in, in, in a way closer to neutral and that the next—the next steps that we take are likely to be in that direction."
+   }
+  ],
+  "rationale": "The Chair defends holding a modestly restrictive stance, stressing above-target inflation and tariff persistence risks while refusing to commit to a September cut, though he acknowledges downside labor risks and that the next move is likely toward neutral. Net, the message is a slightly hawkish hold, with pushback against near-term cuts balanced by eventual easing bias."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent and to continue reducing the size of our balance sheet.",
+     "start": 2877,
+     "end": 3049
+    },
+    {
+     "quote": "We have made no decisions about September—we don’t do that in advance.",
+     "start": 6359,
+     "end": 6428
+    },
+    {
+     "quote": "But it is also possible that the inflationary effects could instead be more persistent, and that is a risk to be assessed and managed.",
+     "start": 3586,
+     "end": 3719
+    },
+    {
+     "quote": "the economy is not performing as though restrictive policy were holding it back inappropriately",
+     "start": 5648,
+     "end": 5743
+    },
+    {
+     "quote": "But, as I mentioned, you know, downside risks to the labor market are certainly apparent.",
+     "start": 9372,
+     "end": 9460
+    },
+    {
+     "quote": "So as the two targets get back into balance, you would—you would think you’d move in, in, in a way closer to neutral and that the next—the next steps that we take are likely to be in that direction.",
+     "start": 22010,
+     "end": 22207
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_tarullo20140225a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20140225a",
+  "doc_type": "speech",
+  "text_sha256": "e7c14d26f3230493ce440314502e016269c1179daf65564ea8d017eed83dbaa1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "92af455a65e7c5b93bee79f0a351a238e3b07373c0d2b53b67b081d1acd7a52a",
+ "message_id": "msg_011CgFugFccSEx8UbuuGZTsj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8326,
+  "output_tokens": 561,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I do not think that at present we are confronted with a situation that would warrant a change in the monetary policy we have been pursuing.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"while the recovery has been frustratingly slow and remains incomplete, there has been real progress\"},{\"dimension\":\"risk_balance\",\"quote\":\"Yet removal of accommodation could choke off the recovery just as it seems poised to gain at least a bit more momentum.\"},{\"dimension\":\"risk_balance\",\"quote\":\"At present, our monitoring does find some evidence of increased duration and credit risk, but the increases appear relatively moderate to date\"},{\"dimension\":\"balance_sheet\",\"quote\":\"With evidence accumulating that the labor market is improving materially, the Committee has begun to scale back the rate of these purchases.\"},{\"dimension\":\"overall\",\"quote\":\"monetary policy action cannot be taken off the table as a response to the build-up of broad and sustained systemic risk.\"}],\"rationale\":\"The speech mainly concerns financial stability, but it supports maintaining accommodation, describes the recovery as slow and incomplete, and prefers supervisory and macroprudential tools over rate hikes to address reach-for-yield risks. This gives a mild dovish lean, tempered by keeping monetary policy on the table for systemic risk.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I do not think that at present we are confronted with a situation that would warrant a change in the monetary policy we have been pursuing."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "while the recovery has been frustratingly slow and remains incomplete, there has been real progress"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Yet removal of accommodation could choke off the recovery just as it seems poised to gain at least a bit more momentum."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At present, our monitoring does find some evidence of increased duration and credit risk, but the increases appear relatively moderate to date"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "With evidence accumulating that the labor market is improving materially, the Committee has begun to scale back the rate of these purchases."
+   },
+   {
+    "dimension": "overall",
+    "quote": "monetary policy action cannot be taken off the table as a response to the build-up of broad and sustained systemic risk."
+   }
+  ],
+  "rationale": "The speech mainly concerns financial stability, but it supports maintaining accommodation, describes the recovery as slow and incomplete, and prefers supervisory and macroprudential tools over rate hikes to address reach-for-yield risks. This gives a mild dovish lean, tempered by keeping monetary policy on the table for systemic risk."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I do not think that at present we are confronted with a situation that would warrant a change in the monetary policy we have been pursuing.",
+     "start": 23196,
+     "end": 23334
+    },
+    {
+     "quote": "while the recovery has been frustratingly slow and remains incomplete, there has been real progress",
+     "start": 6112,
+     "end": 6211
+    },
+    {
+     "quote": "Yet removal of accommodation could choke off the recovery just as it seems poised to gain at least a bit more momentum.",
+     "start": 10028,
+     "end": 10146
+    },
+    {
+     "quote": "At present, our monitoring does find some evidence of increased duration and credit risk, but the increases appear relatively moderate to date",
+     "start": 13488,
+     "end": 13630
+    },
+    {
+     "quote": "With evidence accumulating that the labor market is improving materially, the Committee has begun to scale back the rate of these purchases.",
+     "start": 4504,
+     "end": 4643
+    },
+    {
+     "quote": "monetary policy action cannot be taken off the table as a response to the build-up of broad and sustained systemic risk.",
+     "start": 28260,
+     "end": 28379
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

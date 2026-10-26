@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20190307a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190307a",
+  "doc_type": "speech",
+  "text_sha256": "535a010cd0d0786e59a80e37172f77ad9c1d83a42f3b578a4d2efd4b0ce29316"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "25087c8fc2294ebfdb931f7892ae2a39c9c000594b51dc5a1642ecfd1c2c0baf",
+ "message_id": "msg_011CgFugF3PHrpfFakKSJyoV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6482,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Prudence counsels a period of watchful waiting--especially with no signs that inflation is picking up.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So heightened downside risks to output and employment would argue for a softer federal funds rate path even if the modal outlook for the economy were unchanged.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"As I have observed for some time, underlying trend inflation may be running slightly below the Committee's 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While the economy performed very well last year, I have revised down my modal outlook for this year, in part reflecting some softening in the recent spending and sentiment data.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In my view, asset redemptions should come to an end later in the year, which would provide a sufficient buffer of reserves to meet demand and avoid volatility.\"}],\"rationale\":\"Brainard says the modal outlook has softened and downside risks have risen, which in her view warrants a modestly lower rate path and watchful waiting. She also points to soft underlying inflation and calls for ending balance sheet runoff later in the year, a clearly dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Prudence counsels a period of watchful waiting--especially with no signs that inflation is picking up."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So heightened downside risks to output and employment would argue for a softer federal funds rate path even if the modal outlook for the economy were unchanged."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "As I have observed for some time, underlying trend inflation may be running slightly below the Committee's 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While the economy performed very well last year, I have revised down my modal outlook for this year, in part reflecting some softening in the recent spending and sentiment data."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In my view, asset redemptions should come to an end later in the year, which would provide a sufficient buffer of reserves to meet demand and avoid volatility."
+   }
+  ],
+  "rationale": "Brainard says the modal outlook has softened and downside risks have risen, which in her view warrants a modestly lower rate path and watchful waiting. She also points to soft underlying inflation and calls for ending balance sheet runoff later in the year, a clearly dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Prudence counsels a period of watchful waiting--especially with no signs that inflation is picking up.",
+     "start": 337,
+     "end": 438
+    },
+    {
+     "quote": "So heightened downside risks to output and employment would argue for a softer federal funds rate path even if the modal outlook for the economy were unchanged.",
+     "start": 13348,
+     "end": 13507
+    },
+    {
+     "quote": "As I have observed for some time, underlying trend inflation may be running slightly below the Committee's 2 percent objective.",
+     "start": 9501,
+     "end": 9627
+    },
+    {
+     "quote": "While the economy performed very well last year, I have revised down my modal outlook for this year, in part reflecting some softening in the recent spending and sentiment data.",
+     "start": 1100,
+     "end": 1276
+    },
+    {
+     "quote": "In my view, asset redemptions should come to an end later in the year, which would provide a sufficient buffer of reserves to meet demand and avoid volatility.",
+     "start": 19388,
+     "end": 19546
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

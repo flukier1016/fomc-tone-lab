@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20120113a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20120113a",
+  "doc_type": "speech",
+  "text_sha256": "8d1131d6109b4748d7cebba2315a1c476073dc875bb188a5b2a2171671002fce"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ca1b9e6278068026d6e6332e8316ad561caa09be2cd57d0eb8b149e5e9061df7",
+ "message_id": "msg_011CgFugAVnrZGGCADQSHXDP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7752,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I plan to discuss with you some ideas and initiatives that are on our subcommittee agenda as we strive for balance between our supervisory responsibilities and the effect supervisory practices have on the cost of compliance and credit availability.\"},{\"dimension\":\"overall\",\"quote\":\"We are just now starting to reap the benefits of those efforts and are seeing some improvement in community banks in California and across the country.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve makes every effort to identify opportunities to reduce burden or improve credit availability.\"}],\"rationale\":\"The speech concerns community bank supervision and regulatory burden and takes no position on monetary policy, inflation, or the policy rate path. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I plan to discuss with you some ideas and initiatives that are on our subcommittee agenda as we strive for balance between our supervisory responsibilities and the effect supervisory practices have on the cost of compliance and credit availability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are just now starting to reap the benefits of those efforts and are seeing some improvement in community banks in California and across the country."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve makes every effort to identify opportunities to reduce burden or improve credit availability."
+   }
+  ],
+  "rationale": "The speech concerns community bank supervision and regulatory burden and takes no position on monetary policy, inflation, or the policy rate path. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I plan to discuss with you some ideas and initiatives that are on our subcommittee agenda as we strive for balance between our supervisory responsibilities and the effect supervisory practices have on the cost of compliance and credit availability.",
+     "start": 3845,
+     "end": 4099
+    },
+    {
+     "quote": "We are just now starting to reap the benefits of those efforts and are seeing some improvement in community banks in California and across the country.",
+     "start": 1671,
+     "end": 1821
+    },
+    {
+     "quote": "The Federal Reserve makes every effort to identify opportunities to reduce burden or improve credit availability.",
+     "start": 26213,
+     "end": 26325
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

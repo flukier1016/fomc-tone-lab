@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20120606a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20120606a",
+  "doc_type": "speech",
+  "text_sha256": "d99295c5639ea257fbdf36436bf0e3bfe9a9764dfcac5039808efc8a0d54c760"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3d3d14180e5fec91ec8b27bd273232a366b1c1a461275264b769dfbefc47dba8",
+ "message_id": "msg_011CgFugDy9CpG2iN7Xn1XHv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9785,
+  "output_tokens": 583,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This policy involves keeping the federal funds rate close to zero until late 2015, four quarters longer than the balanced-approach rule prescription and several years longer than the Taylor rule.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I consider the balance of risks to be tilted toward a weaker economy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect it to remain at or below the Federal Open Market Committee's (the FOMC's) 2 percent objective for the foreseeable future.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Such modest growth would imply little additional progress in the near term in improving labor market conditions, which remain very weak.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I am convinced that scope remains for the FOMC to provide further policy accommodation either through its forward guidance or through additional balance-sheet actions.\"},{\"dimension\":\"overall\",\"quote\":\"risk management considerations arising from today's unusual circumstances strengthen the case for additional accommodation beyond that called for by simple policy rules and optimal control under the modal outlook.\"}],\"rationale\":\"The speaker argues for highly accommodative policy for an extended period, favors liftoff later than current guidance under optimal control, and sees downside risks justifying further accommodation. She also describes inflation as at or below 2 percent and the labor market as very weak.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This policy involves keeping the federal funds rate close to zero until late 2015, four quarters longer than the balanced-approach rule prescription and several years longer than the Taylor rule."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I consider the balance of risks to be tilted toward a weaker economy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect it to remain at or below the Federal Open Market Committee's (the FOMC's) 2 percent objective for the foreseeable future."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Such modest growth would imply little additional progress in the near term in improving labor market conditions, which remain very weak."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I am convinced that scope remains for the FOMC to provide further policy accommodation either through its forward guidance or through additional balance-sheet actions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "risk management considerations arising from today's unusual circumstances strengthen the case for additional accommodation beyond that called for by simple policy rules and optimal control under the modal outlook."
+   }
+  ],
+  "rationale": "The speaker argues for highly accommodative policy for an extended period, favors liftoff later than current guidance under optimal control, and sees downside risks justifying further accommodation. She also describes inflation as at or below 2 percent and the labor market as very weak."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This policy involves keeping the federal funds rate close to zero until late 2015, four quarters longer than the balanced-approach rule prescription and several years longer than the Taylor rule.",
+     "start": 25261,
+     "end": 25455
+    },
+    {
+     "quote": "I consider the balance of risks to be tilted toward a weaker economy.",
+     "start": 2388,
+     "end": 2456
+    },
+    {
+     "quote": "I expect it to remain at or below the Federal Open Market Committee's (the FOMC's) 2 percent objective for the foreseeable future.",
+     "start": 2044,
+     "end": 2173
+    },
+    {
+     "quote": "Such modest growth would imply little additional progress in the near term in improving labor market conditions, which remain very weak.",
+     "start": 3391,
+     "end": 3526
+    },
+    {
+     "quote": "I am convinced that scope remains for the FOMC to provide further policy accommodation either through its forward guidance or through additional balance-sheet actions.",
+     "start": 29010,
+     "end": 29176
+    },
+    {
+     "quote": "risk management considerations arising from today's unusual circumstances strengthen the case for additional accommodation beyond that called for by simple policy rules and optimal control under the modal outlook.",
+     "start": 30324,
+     "end": 30536
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

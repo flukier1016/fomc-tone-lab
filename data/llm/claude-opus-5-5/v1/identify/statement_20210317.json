@@ -1,0 +1,52 @@
+{
+ "key": "statement_20210317",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20210317",
+  "release_date": "2021-03-17"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "15fc8aee20f141f11b1a6626db1ec9384ecac0b6b3216c92b9613ea1ee833d6f",
+ "message_id": "msg_011CgFudkfWyywJ6W5Xw4EW8",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1379,
+  "output_tokens": 480,
+  "output_tokens_details": {
+   "thinking_tokens": 200
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2021,\"month\":3,\"confidence\":0.85,\"cues\":[\"The wording 'Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently' matches the March 2021 statement.\",\"'Progress on vaccinations' places it after the vaccine rollout began in early 2021.\",\"'Inflation continues to run below 2 percent' points to before the spring 2021 inflation pickup; the April 2021 statement said inflation had risen.\",\"Asset purchases of at least $80B in Treasuries and $40B in MBS per month, with the 'substantial further progress' guidance, fit the December 2020 to mid-2021 period.\",\"The average inflation targeting language reflects the framework adopted in 2020.\",\"The January 2021 statement said instead that the pace of the recovery had moderated, so this text comes after it.\"]}",
+ "parsed": {
+  "year": 2021,
+  "month": 3,
+  "confidence": 0.85,
+  "cues": [
+   "The wording 'Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently' matches the March 2021 statement.",
+   "'Progress on vaccinations' places it after the vaccine rollout began in early 2021.",
+   "'Inflation continues to run below 2 percent' points to before the spring 2021 inflation pickup; the April 2021 statement said inflation had risen.",
+   "Asset purchases of at least $80B in Treasuries and $40B in MBS per month, with the 'substantial further progress' guidance, fit the December 2020 to mid-2021 period.",
+   "The average inflation targeting language reflects the framework adopted in 2020.",
+   "The January 2021 statement said instead that the pace of the recovery had moderated, so this text comes after it."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

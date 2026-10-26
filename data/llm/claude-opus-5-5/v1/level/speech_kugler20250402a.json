@@ -1,0 +1,112 @@
+{
+ "key": "speech_kugler20250402a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kugler20250402a",
+  "doc_type": "speech",
+  "text_sha256": "fd280f36c6bdd364ae6b973f500a57d283f3e3b01e38a8684bd9e84247989b30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb8a75496cc9599f7888253383336d8f0d26e67b1029df5ead73e8742ef43094",
+ "message_id": "msg_011CgFugCMfF84WHsToF2xrn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6722,
+  "output_tokens": 525,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the latest data indicate that progress toward the Federal Open Market Committee's (FOMC) 2 percent goal may have stalled.\"},{\"dimension\":\"risk_balance\",\"quote\":\"For instance, last Friday's release of longer-term inflation expectations from the Michigan survey was the highest since February 1993.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Other labor market indicators suggest continued moderation in the labor market but not significant weakening.\"},{\"dimension\":\"overall\",\"quote\":\"Given the recent lack of progress on inflation, recent increases in inflation expectations, and upside risks associated with announced and prospective policy changes, I strongly supported the FOMC's decision\"}],\"rationale\":\"The speaker emphasizes stalled disinflation, rising inflation expectations tied to tariffs, and upside inflation risks, and signals holding rates for as long as those risks persist with a resilient labor market. This is a hawkish hold, signaling no near-term cuts, though it stops short of signaling hikes.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the latest data indicate that progress toward the Federal Open Market Committee's (FOMC) 2 percent goal may have stalled."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "For instance, last Friday's release of longer-term inflation expectations from the Michigan survey was the highest since February 1993."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Other labor market indicators suggest continued moderation in the labor market but not significant weakening."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given the recent lack of progress on inflation, recent increases in inflation expectations, and upside risks associated with announced and prospective policy changes, I strongly supported the FOMC's decision"
+   }
+  ],
+  "rationale": "The speaker emphasizes stalled disinflation, rising inflation expectations tied to tariffs, and upside inflation risks, and signals holding rates for as long as those risks persist with a resilient labor market. This is a hawkish hold, signaling no near-term cuts, though it stops short of signaling hikes."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable.",
+     "start": 22519,
+     "end": 22679
+    },
+    {
+     "quote": "the latest data indicate that progress toward the Federal Open Market Committee's (FOMC) 2 percent goal may have stalled.",
+     "start": 20654,
+     "end": 20774
+    },
+    {
+     "quote": "For instance, last Friday's release of longer-term inflation expectations from the Michigan survey was the highest since February 1993.",
+     "start": 18462,
+     "end": 18596
+    },
+    {
+     "quote": "Other labor market indicators suggest continued moderation in the labor market but not significant weakening.",
+     "start": 22096,
+     "end": 22204
+    },
+    {
+     "quote": "Given the recent lack of progress on inflation, recent increases in inflation expectations, and upside risks associated with announced and prospective policy changes, I strongly supported the FOMC's decision",
+     "start": 22207,
+     "end": 22414
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

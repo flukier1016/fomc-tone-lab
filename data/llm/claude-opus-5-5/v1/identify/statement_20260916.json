@@ -1,0 +1,53 @@
+{
+ "key": "statement_20260916",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20260916",
+  "release_date": "2026-09-16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d8f42ac8971d017137b7bcccb459a6fcca8fd96f92b61630ac9a3ade44c85ba3",
+ "message_id": "msg_011CgFudVSj8i6QXR8oCv3Mx",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 721,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 251
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2026,\"month\":9,\"confidence\":0.15,\"cues\":[\"The statement does not match any actual FOMC statement I know of, so it is likely recent (post-2025) or hypothetical.\",\"A 1/4-point rate increase after the 2024–2025 easing cycle implies a renewed tightening phase.\",\"'Maintaining ample reserves' language points to the post-QT, ample-reserves regime of late 2025 onward.\",\"'Productivity growth is strong, and capital investment is robust' suggests an AI-driven investment boom.\",\"The very short, assertive style ('The Committee will deliver price stability') suggests a new chair (possibly Warsh, from 2026) who prefers terse communication.\",\"Elevated uncertainty attributed to geopolitical developments.\",\"A 12–0 unanimous vote.\"]}",
+ "parsed": {
+  "year": 2026,
+  "month": 9,
+  "confidence": 0.15,
+  "cues": [
+   "The statement does not match any actual FOMC statement I know of, so it is likely recent (post-2025) or hypothetical.",
+   "A 1/4-point rate increase after the 2024–2025 easing cycle implies a renewed tightening phase.",
+   "'Maintaining ample reserves' language points to the post-QT, ample-reserves regime of late 2025 onward.",
+   "'Productivity growth is strong, and capital investment is robust' suggests an AI-driven investment boom.",
+   "The very short, assertive style ('The Committee will deliver price stability') suggests a new chair (possibly Warsh, from 2026) who prefers terse communication.",
+   "Elevated uncertainty attributed to geopolitical developments.",
+   "A 12–0 unanimous vote."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

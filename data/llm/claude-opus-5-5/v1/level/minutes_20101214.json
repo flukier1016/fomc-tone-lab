@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20101214",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20101214",
+  "doc_type": "minutes",
+  "text_sha256": "5281c04b81051f16b784d3fa5e6d9ef8ecb72ea1bf3895eec0db88d677efca8a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a73711a0fa238bdf9e6a0e9b0ccbe7dc58e7d0b08b7a7ceccebb94ac2112b90",
+ "message_id": "msg_011CgFugFUgXH4xXRVBTah79",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12211,
+  "output_tokens": 519,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Measures of underlying inflation continued to trend downward over the intermeeting period\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook\"},{\"dimension\":\"risk_balance\",\"quote\":\"progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow\"},{\"dimension\":\"overall\",\"quote\":\"some indicated that they had a fairly high threshold for making changes to the program\"}],\"rationale\":\"The Committee continued its $600 billion asset purchases and kept its extended-period low-rate guidance, citing disappointingly slow progress and falling underlying inflation. Improved near-term activity, receding deflation risk and Hoenig's dissent temper but do not offset the accommodative signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Measures of underlying inflation continued to trend downward over the intermeeting period"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow"
+   },
+   {
+    "dimension": "overall",
+    "quote": "some indicated that they had a fairly high threshold for making changes to the program"
+   }
+  ],
+  "rationale": "The Committee continued its $600 billion asset purchases and kept its extended-period low-rate guidance, citing disappointingly slow progress and falling underlying inflation. Improved near-term activity, receding deflation risk and Hoenig's dissent temper but do not offset the accommodative signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period",
+     "start": 34918,
+     "end": 35014
+    },
+    {
+     "quote": "nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November",
+     "start": 33545,
+     "end": 33684
+    },
+    {
+     "quote": "Measures of underlying inflation continued to trend downward over the intermeeting period",
+     "start": 29358,
+     "end": 29447
+    },
+    {
+     "quote": "meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook",
+     "start": 24713,
+     "end": 24850
+    },
+    {
+     "quote": "progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow",
+     "start": 33171,
+     "end": 33285
+    },
+    {
+     "quote": "some indicated that they had a fairly high threshold for making changes to the program",
+     "start": 34669,
+     "end": 34755
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_stein20121217a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_stein20121217a",
+  "doc_type": "speech",
+  "text_sha256": "0373c5bd61eeecfbfdee94b9eef8932f807904ef36de944ca5604abd501a17eb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fd7b69107c14a6f0a6bed921784b46767245dc5f4161f1002d994e53f2a7a70d",
+ "message_id": "msg_011CgFugHzF4QanKMjgU8Aoo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2931,
+  "output_tokens": 386,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will focus my remarks on one important aspect of this issue--namely, the growing use of wholesale dollar funding by global financial institutions.\"},{\"dimension\":\"overall\",\"quote\":\"Last week, the FOMC approved the extension of these swap lines through February 1, 2014.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve Board proposed new rules for foreign banking organizations that would address some of the concerns that I've discussed and thereby mitigate the attendant risks to U.S. financial stability.\"}],\"rationale\":\"The speech is about dollar funding stress, central bank swap lines and the regulation of foreign banks and money market funds, with no view on rates, inflation or growth. The swap-line extension is a liquidity backstop, not a monetary-policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will focus my remarks on one important aspect of this issue--namely, the growing use of wholesale dollar funding by global financial institutions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Last week, the FOMC approved the extension of these swap lines through February 1, 2014."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve Board proposed new rules for foreign banking organizations that would address some of the concerns that I've discussed and thereby mitigate the attendant risks to U.S. financial stability."
+   }
+  ],
+  "rationale": "The speech is about dollar funding stress, central bank swap lines and the regulation of foreign banks and money market funds, with no view on rates, inflation or growth. The swap-line extension is a liquidity backstop, not a monetary-policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will focus my remarks on one important aspect of this issue--namely, the growing use of wholesale dollar funding by global financial institutions.",
+     "start": 101,
+     "end": 248
+    },
+    {
+     "quote": "Last week, the FOMC approved the extension of these swap lines through February 1, 2014.",
+     "start": 5983,
+     "end": 6070
+    },
+    {
+     "quote": "the Federal Reserve Board proposed new rules for foreign banking organizations that would address some of the concerns that I've discussed and thereby mitigate the attendant risks to U.S. financial stability.",
+     "start": 7330,
+     "end": 7537
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

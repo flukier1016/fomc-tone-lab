@@ -1,0 +1,113 @@
+{
+ "key": "statement_20200729",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20200729",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "8ae532692a9364a0b3683c6ab5e15bafe3ee6217c594508b5b8129615570c78f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e4131e326fafa694df914e544c41228fdea74105006e1a0dda60bb1ae360692e",
+ "message_id": "msg_011CgFudRf2SpwjWyr2ZQECk",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 857,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year\"}],\"rationale\":\"The statement holds rates at the effective lower bound with open-ended guidance to keep them there and commits to continued asset purchases. It also highlights weak activity, muted inflation and considerable downside risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year"
+   }
+  ],
+  "rationale": "The statement holds rates at the effective lower bound with open-ended guidance to keep them there and commits to continued asset purchases. It also highlights weak activity, muted inflation and considerable downside risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1147,
+     "end": 1341
+    },
+    {
+     "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace",
+     "start": 2179,
+     "end": 2361
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 476,
+     "end": 566
+    },
+    {
+     "quote": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+     "start": 824,
+     "end": 1015
+    },
+    {
+     "quote": "economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year",
+     "start": 337,
+     "end": 474
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

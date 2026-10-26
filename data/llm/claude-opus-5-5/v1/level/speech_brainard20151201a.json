@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20151201a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20151201a",
+  "doc_type": "speech",
+  "text_sha256": "473eef748e049fdf9beb22471b6aec13607f8eb2cca5fcd2409dfbe0c0d8fd05"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b9246c81e718e59dc46319b79e55ca3b7cee6125d5f5f9f922e3c14f3ff826d2",
+ "message_id": "msg_011CgFugAbzBCR8toHiQ9vgv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6366,
+  "output_tokens": 544,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.88,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In short, \\\"gradual and low\\\" is likely to be the new normal.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The persistent weakness in core price inflation deserves continued vigilance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we should be cautious about raising rates, do so gradually, and carefully assess the effects on economic and financial conditions as we go.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it would be prudent to maintain reinvestments until the normalization of the federal funds rate is sufficiently far along to allow room to cut nominal rates if economic conditions deteriorate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the U.S. economy is growing at a pace only modestly above potential while core inflation remains restrained\"},{\"dimension\":\"overall\",\"quote\":\"the asymmetry in risk-management considerations counsels a cautious and gradual approach.\"}],\"rationale\":\"The speaker argues that a low neutral rate, stubbornly low inflation, and zero-lower-bound asymmetry warrant a slow, shallow normalization path and continued reinvestment. Risks emphasized are downside: foreign weakness, falling inflation expectations, and the constraint of the zero lower bound.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.88,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In short, \"gradual and low\" is likely to be the new normal."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The persistent weakness in core price inflation deserves continued vigilance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we should be cautious about raising rates, do so gradually, and carefully assess the effects on economic and financial conditions as we go."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it would be prudent to maintain reinvestments until the normalization of the federal funds rate is sufficiently far along to allow room to cut nominal rates if economic conditions deteriorate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the U.S. economy is growing at a pace only modestly above potential while core inflation remains restrained"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the asymmetry in risk-management considerations counsels a cautious and gradual approach."
+   }
+  ],
+  "rationale": "The speaker argues that a low neutral rate, stubbornly low inflation, and zero-lower-bound asymmetry warrant a slow, shallow normalization path and continued reinvestment. Risks emphasized are downside: foreign weakness, falling inflation expectations, and the constraint of the zero lower bound."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In short, \"gradual and low\" is likely to be the new normal.",
+     "start": 15893,
+     "end": 15951
+    },
+    {
+     "quote": "The persistent weakness in core price inflation deserves continued vigilance.",
+     "start": 14058,
+     "end": 14134
+    },
+    {
+     "quote": "we should be cautious about raising rates, do so gradually, and carefully assess the effects on economic and financial conditions as we go.",
+     "start": 17365,
+     "end": 17503
+    },
+    {
+     "quote": "it would be prudent to maintain reinvestments until the normalization of the federal funds rate is sufficiently far along to allow room to cut nominal rates if economic conditions deteriorate.",
+     "start": 17610,
+     "end": 17801
+    },
+    {
+     "quote": "the U.S. economy is growing at a pace only modestly above potential while core inflation remains restrained",
+     "start": 3465,
+     "end": 3572
+    },
+    {
+     "quote": "the asymmetry in risk-management considerations counsels a cautious and gradual approach.",
+     "start": 20964,
+     "end": 21052
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150128",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150128",
+  "doc_type": "minutes",
+  "text_sha256": "4a3c488f722b81969e572f45e36d57f2609e992881a1afe6370857e84425e54c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a640caee999c1b792a517405f77bfbfba759aa5b66200242141e2e214eda769",
+ "message_id": "msg_011CgFugD8noHsfxC3ektweK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 17036,
+  "output_tokens": 628,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants indicated that their assessment of the balance of risks associated with the timing of the beginning of policy normalization had inclined them toward keeping the federal funds rate at its effective lower bound for a longer time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Nonetheless, several participants saw the continuing weakness of core inflation measures as a concern.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions improved further, with strong job gains and a lower unemployment rate; participants judged that the underutilization of labor resources was continuing to diminish.\"},{\"dimension\":\"risk_balance\",\"quote\":\"many participants observed that a premature increase in rates might damp the apparent solid recovery in real activity and labor market conditions\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some observed that, even with these risks taken into consideration, the federal funds rate may have already been kept at its lower bound for a sufficient length of time, and that it might be appropriate to begin policy firming in the near term.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"Despite solid growth and labor gains, the minutes emphasize falling inflation, declining inflation compensation, and many participants leaning toward a later liftoff, with concerns about premature tightening. Some hawkish voices favoring near-term firming temper the dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants indicated that their assessment of the balance of risks associated with the timing of the beginning of policy normalization had inclined them toward keeping the federal funds rate at its effective lower bound for a longer time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nonetheless, several participants saw the continuing weakness of core inflation measures as a concern."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions improved further, with strong job gains and a lower unemployment rate; participants judged that the underutilization of labor resources was continuing to diminish."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "many participants observed that a premature increase in rates might damp the apparent solid recovery in real activity and labor market conditions"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some observed that, even with these risks taken into consideration, the federal funds rate may have already been kept at its lower bound for a sufficient length of time, and that it might be appropriate to begin policy firming in the near term."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "Despite solid growth and labor gains, the minutes emphasize falling inflation, declining inflation compensation, and many participants leaning toward a later liftoff, with concerns about premature tightening. Some hawkish voices favoring near-term firming temper the dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many participants indicated that their assessment of the balance of risks associated with the timing of the beginning of policy normalization had inclined them toward keeping the federal funds rate at its effective lower bound for a longer time.",
+     "start": 44281,
+     "end": 44525
+    },
+    {
+     "quote": "Nonetheless, several participants saw the continuing weakness of core inflation measures as a concern.",
+     "start": 36698,
+     "end": 36799
+    },
+    {
+     "quote": "Labor market conditions improved further, with strong job gains and a lower unemployment rate; participants judged that the underutilization of labor resources was continuing to diminish.",
+     "start": 31183,
+     "end": 31369
+    },
+    {
+     "quote": "many participants observed that a premature increase in rates might damp the apparent solid recovery in real activity and labor market conditions",
+     "start": 43352,
+     "end": 43497
+    },
+    {
+     "quote": "Some observed that, even with these risks taken into consideration, the federal funds rate may have already been kept at its lower bound for a sufficient length of time, and that it might be appropriate to begin policy firming in the near term.",
+     "start": 44527,
+     "end": 44770
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 52472,
+     "end": 52621
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

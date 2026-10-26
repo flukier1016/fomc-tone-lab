@@ -1,0 +1,112 @@
+{
+ "key": "statement_20090318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20090318",
+  "doc_type": "statement",
+  "text_sha256": "f31c745cf497e70b73bac3bbfc673ab2e4427a715c1488f9ad3fe8622dc97d27"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a2d21e183a9693456435755b317296101ef003f2b7e1f696300d8b2fda0220e2",
+ "message_id": "msg_011CgFugGVT5miwL8JmoeHtV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 897,
+  "output_tokens": 471,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.95,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability.\"}],\"rationale\":\"The statement announces a massive expansion of asset purchases, including Treasuries, alongside extended near-zero rate guidance. It also describes a contracting economy and downside inflation risks, making it an explicitly and forcefully dovish document.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.95,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability."
+   }
+  ],
+  "rationale": "The statement announces a massive expansion of asset purchases, including Treasuries, alongside extended near-zero rate guidance. It also describes a contracting economy and downside inflation risks, making it an explicitly and forcefully dovish document."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January indicates that the economy continues to contract.",
+     "start": 0,
+     "end": 124
+    },
+    {
+     "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.",
+     "start": 862,
+     "end": 1014
+    },
+    {
+     "quote": "anticipates that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1251,
+     "end": 1383
+    },
+    {
+     "quote": "the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.",
+     "start": 1893,
+     "end": 2005
+    },
+    {
+     "quote": "the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability.",
+     "start": 1041,
+     "end": 1153
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

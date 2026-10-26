@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20210511a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210511a",
+  "doc_type": "speech",
+  "text_sha256": "8c3b948fb336261830f3ab24b783eec31ae9bf23799c8f1b11479855e5dbac28"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d954e9167b3312d6b8eddaa59e0342873cff61df7e57a9a9d7929673ad27a3c9",
+ "message_id": "msg_011CgFugGAMNsqjbaFUafptw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4047,
+  "output_tokens": 503,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Remaining patient through the transitory surge associated with reopening will help ensure that the underlying economic momentum that will be needed to reach our goals as some current tailwinds shift to headwinds is not curtailed by a premature tightening of financial conditions.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"there are a variety of reasons to expect an increase in inflation associated with reopening that is largely transitory.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But today, by any measure, employment remains far from our goals.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But recent experience suggests we should not lightly dismiss the risk on the other side.\"},{\"dimension\":\"overall\",\"quote\":\"The latest employment report reminds us that realized outcomes can diverge from forward projections and underscores the value of patience.\"}],\"rationale\":\"Brainard stresses that employment is far from goals, inflation is transitory, and patience is needed to avoid premature tightening, despite acknowledging strong growth and upside inflation risk. The net signal is clearly dovish, favoring continued accommodation based on outcomes rather than outlook.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Remaining patient through the transitory surge associated with reopening will help ensure that the underlying economic momentum that will be needed to reach our goals as some current tailwinds shift to headwinds is not curtailed by a premature tightening of financial conditions."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "there are a variety of reasons to expect an increase in inflation associated with reopening that is largely transitory."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But today, by any measure, employment remains far from our goals."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But recent experience suggests we should not lightly dismiss the risk on the other side."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The latest employment report reminds us that realized outcomes can diverge from forward projections and underscores the value of patience."
+   }
+  ],
+  "rationale": "Brainard stresses that employment is far from goals, inflation is transitory, and patience is needed to avoid premature tightening, despite acknowledging strong growth and upside inflation risk. The net signal is clearly dovish, favoring continued accommodation based on outcomes rather than outlook."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Remaining patient through the transitory surge associated with reopening will help ensure that the underlying economic momentum that will be needed to reach our goals as some current tailwinds shift to headwinds is not curtailed by a premature tightening of financial conditions.",
+     "start": 12699,
+     "end": 12977
+    },
+    {
+     "quote": "there are a variety of reasons to expect an increase in inflation associated with reopening that is largely transitory.",
+     "start": 8112,
+     "end": 8230
+    },
+    {
+     "quote": "But today, by any measure, employment remains far from our goals.",
+     "start": 7456,
+     "end": 7520
+    },
+    {
+     "quote": "But recent experience suggests we should not lightly dismiss the risk on the other side.",
+     "start": 12397,
+     "end": 12484
+    },
+    {
+     "quote": "The latest employment report reminds us that realized outcomes can diverge from forward projections and underscores the value of patience.",
+     "start": 13052,
+     "end": 13189
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

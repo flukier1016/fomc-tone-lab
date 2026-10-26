@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20210323a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210323a",
+  "doc_type": "speech",
+  "text_sha256": "b543503d138487b093c4b191d171e739b41c4de3783318927dde3dfc6425eaaa"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3e7cb88981da4dc31a453f28e955f84f39bedc3edb242bb1430c4557eb5f67b6",
+ "message_id": "msg_011CgFugAdEMfVT2z6jRs3w7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4581,
+  "output_tokens": 411,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve Board is establishing a Financial Stability Climate Committee (FSCC) to identify, assess, and address climate-related risks to financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"Given the importance of consistent, comparable, and reliable disclosures to financial stability and prudential objectives, mandatory disclosures are ultimately likely to be important.\"},{\"dimension\":\"overall\",\"quote\":\"In light of the high uncertainty inherent in estimating climate-related shocks, scenario analysis may be a helpful tool to assess the effects on the financial system under a wide range of assumptions.\"}],\"rationale\":\"The speech addresses climate-related financial stability and supervisory frameworks and does not discuss monetary policy, inflation, or the near-term economic outlook. It carries no policy-stance signal, so all dimensions are null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve Board is establishing a Financial Stability Climate Committee (FSCC) to identify, assess, and address climate-related risks to financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given the importance of consistent, comparable, and reliable disclosures to financial stability and prudential objectives, mandatory disclosures are ultimately likely to be important."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In light of the high uncertainty inherent in estimating climate-related shocks, scenario analysis may be a helpful tool to assess the effects on the financial system under a wide range of assumptions."
+   }
+  ],
+  "rationale": "The speech addresses climate-related financial stability and supervisory frameworks and does not discuss monetary policy, inflation, or the near-term economic outlook. It carries no policy-stance signal, so all dimensions are null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Reserve Board is establishing a Financial Stability Climate Committee (FSCC) to identify, assess, and address climate-related risks to financial stability.",
+     "start": 2225,
+     "end": 2391
+    },
+    {
+     "quote": "Given the importance of consistent, comparable, and reliable disclosures to financial stability and prudential objectives, mandatory disclosures are ultimately likely to be important.",
+     "start": 3423,
+     "end": 3605
+    },
+    {
+     "quote": "In light of the high uncertainty inherent in estimating climate-related shocks, scenario analysis may be a helpful tool to assess the effects on the financial system under a wide range of assumptions.",
+     "start": 11807,
+     "end": 12006
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

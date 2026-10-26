@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200429",
+  "doc_type": "presser",
+  "text_sha256": "8b7e61cd469f3c629fc34fc45c2a39c98fa2bddebe5142a7e60eef07e70dcece"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4ff08b5ec467dc655b5f829b220ec96d1668dd724dfa3c3a4f08f3b8bb725a96",
+ "message_id": "msg_011CgFugEFWiVjMC1pxQGMBd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10750,
+  "output_tokens": 546,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we're going to not be in any hurry to withdraw these measures or to lift off.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, economic activity will likely drop at an unprecedented rate in the second quarter.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is also being held down, reflecting weaker demand as well as significantly lower energy prices.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Will there be a need to do more, though? I think the answer to that—that will be “yes.”\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In light of this improvement, we have slowed our pace of purchases. We will continue our purchases of Treasury and agency mortgage-backed securities as needed.\"},{\"dimension\":\"overall\",\"quote\":\"We will continue to use these powers forcefully, proactively, and aggressively until we’re confident that we are solidly on the road to recovery.\"}],\"rationale\":\"The Chair holds rates at the lower bound with patient, open-ended guidance and promises to keep using all tools aggressively. He describes a severe economic collapse with low inflation and downside risks, so the overall signal is strongly dovish, tempered only slightly by the slower pace of asset purchases and no new action today.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we're going to not be in any hurry to withdraw these measures or to lift off."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, economic activity will likely drop at an unprecedented rate in the second quarter."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is also being held down, reflecting weaker demand as well as significantly lower energy prices."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Will there be a need to do more, though? I think the answer to that—that will be “yes.”"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In light of this improvement, we have slowed our pace of purchases. We will continue our purchases of Treasury and agency mortgage-backed securities as needed."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We will continue to use these powers forcefully, proactively, and aggressively until we’re confident that we are solidly on the road to recovery."
+   }
+  ],
+  "rationale": "The Chair holds rates at the lower bound with patient, open-ended guidance and promises to keep using all tools aggressively. He describes a severe economic collapse with low inflation and downside risks, so the overall signal is strongly dovish, tempered only slightly by the slower pace of asset purchases and no new action today."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we're going to not be in any hurry to withdraw these measures or to lift off.",
+     "start": 16901,
+     "end": 16977
+    },
+    {
+     "quote": "Overall, economic activity will likely drop at an unprecedented rate in the second quarter.",
+     "start": 2004,
+     "end": 2094
+    },
+    {
+     "quote": "Inflation is also being held down, reflecting weaker demand as well as significantly lower energy prices.",
+     "start": 2096,
+     "end": 2200
+    },
+    {
+     "quote": "Will there be a need to do more, though? I think the answer to that—that will be “yes.”",
+     "start": 7864,
+     "end": 7949
+    },
+    {
+     "quote": "In light of this improvement, we have slowed our pace of purchases. We will continue our purchases of Treasury and agency mortgage-backed securities as needed.",
+     "start": 4628,
+     "end": 4786
+    },
+    {
+     "quote": "We will continue to use these powers forcefully, proactively, and aggressively until we’re confident that we are solidly on the road to recovery.",
+     "start": 5803,
+     "end": 5947
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

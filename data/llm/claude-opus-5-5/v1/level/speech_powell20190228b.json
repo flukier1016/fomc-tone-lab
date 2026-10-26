@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20190228b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20190228b",
+  "doc_type": "speech",
+  "text_sha256": "71b0a38284d273913ee8f00708b1d65aeb1448a04c077c65a58f2526a51c8213"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9ab36c092a3985dfe6595b014d9f85e0ec6e4a56a2c9069b7fca745658281ae1",
+ "message_id": "msg_011CgFugD8HicazKXCibF8Tq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4288,
+  "output_tokens": 476,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Federal Open Market Committee (FOMC) will be patient as we determine what future adjustments to the target range for the federal funds rate may be appropriate to support our dual-mandate objectives.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Signs of upward pressure on inflation appear muted despite the strong labor market.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This long period of growth has pushed the unemployment rate down near historic lows\"},{\"dimension\":\"risk_balance\",\"quote\":\"Unexpectedly weak retail sales data for December also give reason for caution.\"},{\"dimension\":\"risk_balance\",\"quote\":\"And financial conditions have tightened since last fall.\"}],\"rationale\":\"The speaker signals patience on rate adjustments, citing muted inflation and downside crosscurrents such as global slowing, tighter financial conditions and weak retail sales. This outweighs the strong labor market, giving a moderately dovish lean; much of the speech covers long-run labor-supply and productivity issues rather than policy.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Federal Open Market Committee (FOMC) will be patient as we determine what future adjustments to the target range for the federal funds rate may be appropriate to support our dual-mandate objectives."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Signs of upward pressure on inflation appear muted despite the strong labor market."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This long period of growth has pushed the unemployment rate down near historic lows"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Unexpectedly weak retail sales data for December also give reason for caution."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "And financial conditions have tightened since last fall."
+   }
+  ],
+  "rationale": "The speaker signals patience on rate adjustments, citing muted inflation and downside crosscurrents such as global slowing, tighter financial conditions and weak retail sales. This outweighs the strong labor market, giving a moderately dovish lean; much of the speech covers long-run labor-supply and productivity issues rather than policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Open Market Committee (FOMC) will be patient as we determine what future adjustments to the target range for the federal funds rate may be appropriate to support our dual-mandate objectives.",
+     "start": 4295,
+     "end": 4496
+    },
+    {
+     "quote": "Signs of upward pressure on inflation appear muted despite the strong labor market.",
+     "start": 3242,
+     "end": 3324
+    },
+    {
+     "quote": "This long period of growth has pushed the unemployment rate down near historic lows",
+     "start": 1190,
+     "end": 1273
+    },
+    {
+     "quote": "Unexpectedly weak retail sales data for December also give reason for caution.",
+     "start": 4113,
+     "end": 4190
+    },
+    {
+     "quote": "And financial conditions have tightened since last fall.",
+     "start": 3923,
+     "end": 3978
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

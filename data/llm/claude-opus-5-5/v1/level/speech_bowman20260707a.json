@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20260707a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260707a",
+  "doc_type": "speech",
+  "text_sha256": "b30c8f989ab64443850636b98cc6ab56473dcd4fdd354a302e0a288b41890741"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "745bc1116bb954c4ff7f693c01d5201991a1aa081cebab03db9e5883580114db",
+ "message_id": "msg_011CgFugMCU6RwjnpDK37qqj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1386,
+  "output_tokens": 312,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thank you for the opportunity to join you today to discuss the Financial Stability Board's (FSB) consultation report on Sound Practices for Responsible Adoption of Artificial Intelligence.\"},{\"dimension\":\"overall\",\"quote\":\"In the report, we emphasized that lower-risk uses of AI should receive a lighter supervisory and regulatory touch.\"}],\"rationale\":\"The speech concerns FSB sound practices for AI adoption by financial institutions, a supervisory and regulatory topic. It contains no discussion of monetary policy, inflation, or economic activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thank you for the opportunity to join you today to discuss the Financial Stability Board's (FSB) consultation report on Sound Practices for Responsible Adoption of Artificial Intelligence."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In the report, we emphasized that lower-risk uses of AI should receive a lighter supervisory and regulatory touch."
+   }
+  ],
+  "rationale": "The speech concerns FSB sound practices for AI adoption by financial institutions, a supervisory and regulatory topic. It contains no discussion of monetary policy, inflation, or economic activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thank you for the opportunity to join you today to discuss the Financial Stability Board's (FSB) consultation report on Sound Practices for Responsible Adoption of Artificial Intelligence.",
+     "start": 0,
+     "end": 187
+    },
+    {
+     "quote": "In the report, we emphasized that lower-risk uses of AI should receive a lighter supervisory and regulatory touch.",
+     "start": 2896,
+     "end": 3009
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

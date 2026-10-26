@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20170626a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170626a",
+  "doc_type": "speech",
+  "text_sha256": "79e4574067b02ea680bd759bc10694b35aed55d4cd65da7ce63a42674f8ba8a8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "07241bc34c576aa8449ba4909105c5e98fd53dfe679d9e53d9d4a648b823b4da",
+ "message_id": "msg_011CgFugCGhRDK8Y2hfZ8SV5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1744,
+  "output_tokens": 322,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I will discuss our current regulatory regime, and areas where we may be able to make adjustments.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve is taking a fresh look at the enhanced supplementary leverage ratio.\"},{\"dimension\":\"overall\",\"quote\":\"With this choice, the ARRC has taken another step in addressing the risks involved with the LIBOR.\"}],\"rationale\":\"The speech addresses bank regulation, resolution planning, stress testing and reference rate reform, with no discussion of monetary policy, inflation or the economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I will discuss our current regulatory regime, and areas where we may be able to make adjustments."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve is taking a fresh look at the enhanced supplementary leverage ratio."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With this choice, the ARRC has taken another step in addressing the risks involved with the LIBOR."
+   }
+  ],
+  "rationale": "The speech addresses bank regulation, resolution planning, stress testing and reference rate reform, with no discussion of monetary policy, inflation or the economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I will discuss our current regulatory regime, and areas where we may be able to make adjustments.",
+     "start": 70,
+     "end": 172
+    },
+    {
+     "quote": "the Federal Reserve is taking a fresh look at the enhanced supplementary leverage ratio.",
+     "start": 4240,
+     "end": 4327
+    },
+    {
+     "quote": "With this choice, the ARRC has taken another step in addressing the risks involved with the LIBOR.",
+     "start": 5678,
+     "end": 5775
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

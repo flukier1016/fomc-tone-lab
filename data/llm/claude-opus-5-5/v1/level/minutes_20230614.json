@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230614",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230614",
+  "doc_type": "minutes",
+  "text_sha256": "d4b43dfad369cb8d2937c24a7667b9f417a60d5996d4c0f66c06731433eb13f0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2695763959e7ca37f3fa3f983daeb0f888daba10cdbb94a6d94f7779ca7344be",
+ "message_id": "msg_011CgFugSpZCoc4rJg5KAMST",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12119,
+  "output_tokens": 609,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.65,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Almost all participants noted that in their economic projections that they judged that additional increases in the target federal funds rate during 2023 would be appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that inflation was unacceptably high and noted that the data, including the CPI for May, indicated that declines in inflation had been slower than they had expected.\"},{\"dimension\":\"risk_balance\",\"quote\":\"upside risks to the inflation outlook or the possibility that persistently high inflation might cause inflation expectations to become unanchored remained key factors shaping the policy outlook.\"},{\"dimension\":\"overall\",\"quote\":\"Some participants indicated that they favored raising the target range for the federal funds rate 25 basis points at this meeting or that they could have supported such a proposal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants noted that labor market conditions remained very tight, with robust payroll gains and the unemployment rate still near historically low levels.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings\"}],\"rationale\":\"The minutes describe a skip rather than an end to tightening: almost all participants expect further hikes in 2023, inflation is called unacceptably high, and some participants favored a hike at this meeting. Upside inflation risks dominate, partly offset by the emphasis on slowing the pace of firming and on policy lags.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.65,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Almost all participants noted that in their economic projections that they judged that additional increases in the target federal funds rate during 2023 would be appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that inflation was unacceptably high and noted that the data, including the CPI for May, indicated that declines in inflation had been slower than they had expected."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "upside risks to the inflation outlook or the possibility that persistently high inflation might cause inflation expectations to become unanchored remained key factors shaping the policy outlook."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Some participants indicated that they favored raising the target range for the federal funds rate 25 basis points at this meeting or that they could have supported such a proposal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants noted that labor market conditions remained very tight, with robust payroll gains and the unemployment rate still near historically low levels."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings"
+   }
+  ],
+  "rationale": "The minutes describe a skip rather than an end to tightening: almost all participants expect further hikes in 2023, inflation is called unacceptably high, and some participants favored a hike at this meeting. Upside inflation risks dominate, partly offset by the emphasis on slowing the pace of firming and on policy lags."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Almost all participants noted that in their economic projections that they judged that additional increases in the target federal funds rate during 2023 would be appropriate.",
+     "start": 31323,
+     "end": 31496
+    },
+    {
+     "quote": "Participants agreed that inflation was unacceptably high and noted that the data, including the CPI for May, indicated that declines in inflation had been slower than they had expected.",
+     "start": 26305,
+     "end": 26489
+    },
+    {
+     "quote": "upside risks to the inflation outlook or the possibility that persistently high inflation might cause inflation expectations to become unanchored remained key factors shaping the policy outlook.",
+     "start": 32851,
+     "end": 33044
+    },
+    {
+     "quote": "Some participants indicated that they favored raising the target range for the federal funds rate 25 basis points at this meeting or that they could have supported such a proposal.",
+     "start": 30310,
+     "end": 30489
+    },
+    {
+     "quote": "Participants noted that labor market conditions remained very tight, with robust payroll gains and the unemployment rate still near historically low levels.",
+     "start": 24467,
+     "end": 24622
+    },
+    {
+     "quote": "All participants agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings",
+     "start": 30786,
+     "end": 30911
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20201020a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20201020a",
+  "doc_type": "speech",
+  "text_sha256": "7cc95bf2d089a9d62bafc010302ef036c99a50a449a2636f4f28440765db3b79"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "84035b0e4bfc32d5c001659d59b60c51ab32a86780ebb88baadf83abffcdf0e9",
+ "message_id": "msg_011CgFug8ZCoWKvz53AyBBYz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4054,
+  "output_tokens": 428,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) about CRA modernization on September 21, 2020.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The current crisis is hitting LMI households with limited financial resources the hardest, and this is especially true for Black and Latinx households.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"There is growing concern about what will happen to individuals who may be behind on their rent or mortgage payments as a result of job loss or reduced hours when eviction moratoriums and mortgage forbearance programs come to an end\"}],\"rationale\":\"The speech is about CRA modernization and affordable housing, not monetary policy, so most dimensions are null. Its only economic content is concern about pandemic-related hardship for LMI households, a mild dovish lean on activity that does not amount to a policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) about CRA modernization on September 21, 2020."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The current crisis is hitting LMI households with limited financial resources the hardest, and this is especially true for Black and Latinx households."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "There is growing concern about what will happen to individuals who may be behind on their rent or mortgage payments as a result of job loss or reduced hours when eviction moratoriums and mortgage forbearance programs come to an end"
+   }
+  ],
+  "rationale": "The speech is about CRA modernization and affordable housing, not monetary policy, so most dimensions are null. Its only economic content is concern about pandemic-related hardship for LMI households, a mild dovish lean on activity that does not amount to a policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve Board unanimously voted to approve an Advance Notice of Proposed Rulemaking (ANPR) about CRA modernization on September 21, 2020.",
+     "start": 4709,
+     "end": 4857
+    },
+    {
+     "quote": "The current crisis is hitting LMI households with limited financial resources the hardest, and this is especially true for Black and Latinx households.",
+     "start": 803,
+     "end": 953
+    },
+    {
+     "quote": "There is growing concern about what will happen to individuals who may be behind on their rent or mortgage payments as a result of job loss or reduced hours when eviction moratoriums and mortgage forbearance programs come to an end",
+     "start": 1784,
+     "end": 2015
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

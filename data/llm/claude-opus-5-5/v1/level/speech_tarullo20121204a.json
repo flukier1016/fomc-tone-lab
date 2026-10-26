@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20121204a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20121204a",
+  "doc_type": "speech",
+  "text_sha256": "ff4ae157ddfd91b6dc8a4db92bdef7eaece097f3bf400ae08c68814246d21d16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d5867b1e257c5ec630cc059436863dd2a59e0c07f0f25c98c03fd4154d811b44",
+ "message_id": "msg_011CgFugCXpthZrqoc9akMW8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6762,
+  "output_tokens": 332,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I want to turn to three proposals currently being debated in policy circles\"},{\"dimension\":\"overall\",\"quote\":\"determining the most effective and efficient ways to deal with short-term funding markets, often characterized as the shadow banking system, that are inherently subject to runs.\"},{\"dimension\":\"overall\",\"quote\":\"For the proposal to reenact Glass-Steagall, that perspective suggested the potential for considerable social costs.\"}],\"rationale\":\"The speech addresses financial industry structure, too-big-to-fail and regulatory proposals, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I want to turn to three proposals currently being debated in policy circles"
+   },
+   {
+    "dimension": "overall",
+    "quote": "determining the most effective and efficient ways to deal with short-term funding markets, often characterized as the shadow banking system, that are inherently subject to runs."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For the proposal to reenact Glass-Steagall, that perspective suggested the potential for considerable social costs."
+   }
+  ],
+  "rationale": "The speech addresses financial industry structure, too-big-to-fail and regulatory proposals, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I want to turn to three proposals currently being debated in policy circles",
+     "start": 11718,
+     "end": 11793
+    },
+    {
+     "quote": "determining the most effective and efficient ways to deal with short-term funding markets, often characterized as the shadow banking system, that are inherently subject to runs.",
+     "start": 18630,
+     "end": 18806
+    },
+    {
+     "quote": "For the proposal to reenact Glass-Steagall, that perspective suggested the potential for considerable social costs.",
+     "start": 22248,
+     "end": 22362
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

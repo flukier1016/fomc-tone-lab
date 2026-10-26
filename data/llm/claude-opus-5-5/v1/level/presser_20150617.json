@@ -1,0 +1,121 @@
+{
+ "key": "presser_20150617",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20150617",
+  "doc_type": "presser",
+  "text_sha256": "2c773a4f105b0da4236d4ba3a3adb3ef56683e9cd86dd6131a350a40c5f29f8a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c00e4c79cb7f63afa08bb855ecad7c994b56fdd12ef6bace6d911bce04d772c6",
+ "message_id": "msg_011CgFugGvFCBQc63x9YL4Ki",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9715,
+  "output_tokens": 545,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee reaffirmed the current 0 to ¼ percent target range for the federal funds rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions are currently anticipated to evolve in a manner that will warrant only gradual increases in the target federal funds rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"It’s not an ironclad guarantee, but we anticipate that that’s something that will be appropriate later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run below our longer-run objective, in part reflecting lower energy prices.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So, although progress clearly has been achieved, room for further improvement remains.\"},{\"dimension\":\"risk_balance\",\"quote\":\"On the one hand, waiting too long to begin normalization can risk significantly overshooting our inflation objective given the lags in the operation of monetary policy.\"}],\"rationale\":\"The Chair holds rates at zero and signals a likely first hike later this year, but stresses gradual increases, a lowered dot path, below-target inflation and remaining slack. Risks are presented as two-sided, so the net signal is roughly balanced with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee reaffirmed the current 0 to ¼ percent target range for the federal funds rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions are currently anticipated to evolve in a manner that will warrant only gradual increases in the target federal funds rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "It’s not an ironclad guarantee, but we anticipate that that’s something that will be appropriate later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run below our longer-run objective, in part reflecting lower energy prices."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So, although progress clearly has been achieved, room for further improvement remains."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "On the one hand, waiting too long to begin normalization can risk significantly overshooting our inflation objective given the lags in the operation of monetary policy."
+   }
+  ],
+  "rationale": "The Chair holds rates at zero and signals a likely first hike later this year, but stresses gradual increases, a lowered dot path, below-target inflation and remaining slack. Risks are presented as two-sided, so the net signal is roughly balanced with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee reaffirmed the current 0 to ¼ percent target range for the federal funds rate.",
+     "start": 16,
+     "end": 133
+    },
+    {
+     "quote": "economic conditions are currently anticipated to evolve in a manner that will warrant only gradual increases in the target federal funds rate.",
+     "start": 7245,
+     "end": 7386
+    },
+    {
+     "quote": "It’s not an ironclad guarantee, but we anticipate that that’s something that will be appropriate later this year.",
+     "start": 30417,
+     "end": 30529
+    },
+    {
+     "quote": "Inflation has continued to run below our longer-run objective, in part reflecting lower energy prices.",
+     "start": 3306,
+     "end": 3407
+    },
+    {
+     "quote": "So, although progress clearly has been achieved, room for further improvement remains.",
+     "start": 3219,
+     "end": 3304
+    },
+    {
+     "quote": "On the one hand, waiting too long to begin normalization can risk significantly overshooting our inflation objective given the lags in the operation of monetary policy.",
+     "start": 10513,
+     "end": 10680
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

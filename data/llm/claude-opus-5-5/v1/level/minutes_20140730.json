@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20140730",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20140730",
+  "doc_type": "minutes",
+  "text_sha256": "3325613c1db8aa2a82c2e11890de1766a776b6832f87c5086169c747b75d8d35"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ea2a972a1b624cf76f6e82c7e67baed795db39af7f3ae6aa5edc08e83cccc64a",
+ "message_id": "msg_011CgFugA2214inZtvR6tNpv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13804,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"many participants noted that if convergence toward the Committee's objectives occurred more quickly than expected, it might become appropriate to begin removing monetary policy accommodation sooner than they currently anticipated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally agreed that both the recent improvement in labor market conditions and the cumulative progress over the past year had been greater than anticipated\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Most now judged that the downside risks to inflation had diminished, but a few participants continued to see inflation as likely to persist below the Committee's objective over the medium term.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"members generally agreed that a further measured reduction in the pace of asset purchases was appropriate at this meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"These participants were increasingly uncomfortable with the Committee's forward guidance.\"},{\"dimension\":\"overall\",\"quote\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.\"}],\"rationale\":\"The minutes show faster-than-expected labor-market progress, diminished downside inflation risk, continued tapering, and a notable faction pushing for earlier liftoff, which gives a hawkish lean. This is tempered by the reaffirmed 'considerable time' guidance and a still highly accommodative stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "many participants noted that if convergence toward the Committee's objectives occurred more quickly than expected, it might become appropriate to begin removing monetary policy accommodation sooner than they currently anticipated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally agreed that both the recent improvement in labor market conditions and the cumulative progress over the past year had been greater than anticipated"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Most now judged that the downside risks to inflation had diminished, but a few participants continued to see inflation as likely to persist below the Committee's objective over the medium term."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "members generally agreed that a further measured reduction in the pace of asset purchases was appropriate at this meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "These participants were increasingly uncomfortable with the Committee's forward guidance."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate."
+   }
+  ],
+  "rationale": "The minutes show faster-than-expected labor-market progress, diminished downside inflation risk, continued tapering, and a notable faction pushing for earlier liftoff, which gives a hawkish lean. This is tempered by the reaffirmed 'considerable time' guidance and a still highly accommodative stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "many participants noted that if convergence toward the Committee's objectives occurred more quickly than expected, it might become appropriate to begin removing monetary policy accommodation sooner than they currently anticipated.",
+     "start": 33135,
+     "end": 33364
+    },
+    {
+     "quote": "Participants generally agreed that both the recent improvement in labor market conditions and the cumulative progress over the past year had been greater than anticipated",
+     "start": 29068,
+     "end": 29238
+    },
+    {
+     "quote": "Most now judged that the downside risks to inflation had diminished, but a few participants continued to see inflation as likely to persist below the Committee's objective over the medium term.",
+     "start": 31590,
+     "end": 31782
+    },
+    {
+     "quote": "members generally agreed that a further measured reduction in the pace of asset purchases was appropriate at this meeting.",
+     "start": 35928,
+     "end": 36049
+    },
+    {
+     "quote": "These participants were increasingly uncomfortable with the Committee's forward guidance.",
+     "start": 33647,
+     "end": 33735
+    },
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate.",
+     "start": 45149,
+     "end": 45262
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

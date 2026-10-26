@@ -1,0 +1,174 @@
+{
+ "key": "statement_20121212",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20121212",
+  "previous_doc_id": "statement_20121024",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d9d100627831c96d9a2b1ef77c450216624ce86e7138a951c2d592cbbfd73785",
+ "message_id": "msg_011CgFudUhapnraYEB5h8SDq",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2560,
+  "output_tokens": 953,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"The Committee also will continue through the end of the year its program to extend the average maturity of its holdings of Treasury securities\",\"after\":\"The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month.\",\"direction\":\"dovish\"},{\"before\":\"currently anticipates that exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.\",\"after\":\"currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee’s 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"The Committee views these thresholds as consistent with its earlier date-based guidance.\",\"direction\":\"neutral\"},{\"before\":\"will remain appropriate for a considerable time after the economic recovery strengthens.\",\"after\":\"will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\",\"direction\":\"dovish\"},{\"before\":\"Inflation recently picked up somewhat, reflecting higher energy prices.\",\"after\":\"Inflation has been running somewhat below the Committee’s longer-run objective, apart from temporary variations that largely reflect fluctuations in energy prices.\",\"direction\":\"dovish\"},{\"before\":\"Growth in employment has been slow, and the unemployment rate remains elevated.\",\"after\":\"Although the unemployment rate has declined somewhat since the summer, it remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate\",\"after\":\"the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate,\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"When the Committee decides to begin to remove policy accommodation, it will take a balanced approach consistent with its longer-run goals of maximum employment and inflation of 2 percent.\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee replaced the expiring Treasury extension with outright Treasury purchases of $45 billion per month and tied rate liftoff to the end of asset purchases, materially expanding accommodation and balance-sheet growth. The switch to unemployment and inflation thresholds is framed as consistent with the date guidance, and the 2.5% inflation tolerance plus the description of inflation running below objective lean dovish, outweighing a modestly better labor-market description.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "The Committee also will continue through the end of the year its program to extend the average maturity of its holdings of Treasury securities",
+    "after": "The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month.",
+    "direction": "dovish"
+   },
+   {
+    "before": "currently anticipates that exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.",
+    "after": "currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee’s 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "The Committee views these thresholds as consistent with its earlier date-based guidance.",
+    "direction": "neutral"
+   },
+   {
+    "before": "will remain appropriate for a considerable time after the economic recovery strengthens.",
+    "after": "will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation recently picked up somewhat, reflecting higher energy prices.",
+    "after": "Inflation has been running somewhat below the Committee’s longer-run objective, apart from temporary variations that largely reflect fluctuations in energy prices.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Growth in employment has been slow, and the unemployment rate remains elevated.",
+    "after": "Although the unemployment rate has declined somewhat since the summer, it remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate",
+    "after": "the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate,",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "When the Committee decides to begin to remove policy accommodation, it will take a balanced approach consistent with its longer-run goals of maximum employment and inflation of 2 percent.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee replaced the expiring Treasury extension with outright Treasury purchases of $45 billion per month and tied rate liftoff to the end of asset purchases, materially expanding accommodation and balance-sheet growth. The switch to unemployment and inflation thresholds is framed as consistent with the date guidance, and the 2.5% inflation tolerance plus the description of inflation running below objective lean dovish, outweighing a modestly better labor-market description."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee also will continue through the end of the year its program to extend the average maturity of its holdings of Treasury securities",
+     "start": 1373,
+     "end": 1515
+    },
+    {
+     "quote": "currently anticipates that exceptionally low levels for the federal funds rate are likely to be warranted at least through mid-2015.",
+     "start": 2973,
+     "end": 3104
+    },
+    {
+     "quote": "will remain appropriate for a considerable time after the economic recovery strengthens.",
+     "start": 2760,
+     "end": 2847
+    },
+    {
+     "quote": "Inflation recently picked up somewhat, reflecting higher energy prices.",
+     "start": 450,
+     "end": 520
+    },
+    {
+     "quote": "Growth in employment has been slow, and the unemployment rate remains elevated.",
+     "start": 171,
+     "end": 249
+    },
+    {
+     "quote": "the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate",
+     "start": 2192,
+     "end": 2358
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee also will purchase longer-term Treasury securities after its program to extend the average maturity of its holdings of Treasury securities is completed at the end of the year, initially at a pace of $45 billion per month.",
+     "start": 1491,
+     "end": 1725
+    },
+    {
+     "quote": "currently anticipates that this exceptionally low range for the federal funds rate will be appropriate at least as long as the unemployment rate remains above 6-1/2 percent, inflation between one and two years ahead is projected to be no more than a half percentage point above the Committee’s 2 percent longer-run goal, and longer-term inflation expectations continue to be well anchored.",
+     "start": 3152,
+     "end": 3540
+    },
+    {
+     "quote": "The Committee views these thresholds as consistent with its earlier date-based guidance.",
+     "start": 3542,
+     "end": 3629
+    },
+    {
+     "quote": "will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+     "start": 2914,
+     "end": 3037
+    },
+    {
+     "quote": "Inflation has been running somewhat below the Committee’s longer-run objective, apart from temporary variations that largely reflect fluctuations in energy prices.",
+     "start": 477,
+     "end": 639
+    },
+    {
+     "quote": "Although the unemployment rate has declined somewhat since the summer, it remains elevated.",
+     "start": 225,
+     "end": 315
+    },
+    {
+     "quote": "the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate,",
+     "start": 2370,
+     "end": 2511
+    },
+    {
+     "quote": "When the Committee decides to begin to remove policy accommodation, it will take a balanced approach consistent with its longer-run goals of maximum employment and inflation of 2 percent.",
+     "start": 3929,
+     "end": 4115
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20201020a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20201020a",
+  "doc_type": "speech",
+  "text_sha256": "837bb18e716fd5d2c5484ccdeef18c169a38322af72af2a5f1b5bee44f373799"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "95c91168f2f0ec0446658abc096a029d44d1aab7bd7c424b0d2cb175c8ebdf48",
+ "message_id": "msg_011CgFug9yY3RYG6XJvWY4Ca",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5047,
+  "output_tokens": 378,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we ultimately wound up with the deepest and broadest global recession since the Great Depression.\"},{\"dimension\":\"overall\",\"quote\":\"The COVID Event revealed a banking system that withstood this shock quite well with limited official sector support, and a nonbank system that was significantly more fragile.\"},{\"dimension\":\"overall\",\"quote\":\"We know already that work needs to be done to improve the resiliency of money market funds before the vulnerabilities in these funds amplify another shock.\"}],\"rationale\":\"This is a financial stability speech focused on FSB work on nonbank financial intermediation vulnerabilities exposed by COVID, and it offers no view on the monetary policy path. Its only macro content is a backward-looking reference to a deep recession, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we ultimately wound up with the deepest and broadest global recession since the Great Depression."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The COVID Event revealed a banking system that withstood this shock quite well with limited official sector support, and a nonbank system that was significantly more fragile."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We know already that work needs to be done to improve the resiliency of money market funds before the vulnerabilities in these funds amplify another shock."
+   }
+  ],
+  "rationale": "This is a financial stability speech focused on FSB work on nonbank financial intermediation vulnerabilities exposed by COVID, and it offers no view on the monetary policy path. Its only macro content is a backward-looking reference to a deep recession, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we ultimately wound up with the deepest and broadest global recession since the Great Depression.",
+     "start": 6175,
+     "end": 6271
+    },
+    {
+     "quote": "The COVID Event revealed a banking system that withstood this shock quite well with limited official sector support, and a nonbank system that was significantly more fragile.",
+     "start": 13152,
+     "end": 13325
+    },
+    {
+     "quote": "We know already that work needs to be done to improve the resiliency of money market funds before the vulnerabilities in these funds amplify another shock.",
+     "start": 14756,
+     "end": 14910
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

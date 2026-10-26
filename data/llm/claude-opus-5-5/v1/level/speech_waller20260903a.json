@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20260903a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20260903a",
+  "doc_type": "speech",
+  "text_sha256": "95346570f642a2eb83d1e2d9c467f0cf3509d10282f14e3a25eb1c3db3a0d389"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1f82eb8e5fa7dba6087561ca14dac9b83ddc5dc1aa5d27564567ca361cc6e888",
+ "message_id": "msg_011CgFugGFos9Askw5BMbGsw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4088,
+  "output_tokens": 518,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If the incoming data for August show this improvement has been fleeting, then it may be appropriate to raise the policy rate when the FOMC meets on September 15 and 16.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But if inflation comes in hot, I would consider a rate hike.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is elevated significantly above the FOMC's 2 percent goal and has exceeded that target for five and a half years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Three-month inflation has fallen steadily from 4.76 percent in February. That is a considerable improvement, and the speed of this downward trajectory is encouraging.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Turning to the labor market, it is also in satisfactory shape.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I do see some upside risks to inflation.\"}],\"rationale\":\"The speaker leans toward holding but explicitly considers a hike if August inflation runs hot, and sees policy as only slightly restrictive, with solid growth and upside inflation risks. Acknowledged disinflation progress tempers the hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the incoming data for August show this improvement has been fleeting, then it may be appropriate to raise the policy rate when the FOMC meets on September 15 and 16."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But if inflation comes in hot, I would consider a rate hike."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is elevated significantly above the FOMC's 2 percent goal and has exceeded that target for five and a half years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Three-month inflation has fallen steadily from 4.76 percent in February. That is a considerable improvement, and the speed of this downward trajectory is encouraging."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Turning to the labor market, it is also in satisfactory shape."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I do see some upside risks to inflation."
+   }
+  ],
+  "rationale": "The speaker leans toward holding but explicitly considers a hike if August inflation runs hot, and sees policy as only slightly restrictive, with solid growth and upside inflation risks. Acknowledged disinflation progress tempers the hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the incoming data for August show this improvement has been fleeting, then it may be appropriate to raise the policy rate when the FOMC meets on September 15 and 16.",
+     "start": 705,
+     "end": 872
+    },
+    {
+     "quote": "But if inflation comes in hot, I would consider a rate hike.",
+     "start": 9245,
+     "end": 9304
+    },
+    {
+     "quote": "Inflation is elevated significantly above the FOMC's 2 percent goal and has exceeded that target for five and a half years.",
+     "start": 4747,
+     "end": 4869
+    },
+    {
+     "quote": "Three-month inflation has fallen steadily from 4.76 percent in February. That is a considerable improvement, and the speed of this downward trajectory is encouraging.",
+     "start": 6970,
+     "end": 7135
+    },
+    {
+     "quote": "Turning to the labor market, it is also in satisfactory shape.",
+     "start": 3493,
+     "end": 3554
+    },
+    {
+     "quote": "I do see some upside risks to inflation.",
+     "start": 7577,
+     "end": 7616
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

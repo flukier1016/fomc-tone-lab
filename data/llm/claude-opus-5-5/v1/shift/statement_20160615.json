@@ -1,0 +1,159 @@
+{
+ "key": "statement_20160615",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20160615",
+  "previous_doc_id": "statement_20160427",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e07a7139c9a88acf2808aca3a12aa3278568aad94707540d0a11b15a8d2734ea",
+ "message_id": "msg_011CgFudV8P4svwWpHsvbRat",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2257,
+  "output_tokens": 636,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.\",\"after\":\"indicates that the pace of improvement in the labor market has slowed while growth in economic activity appears to have picked up. Although the unemployment rate has declined, job gains have diminished.\",\"direction\":\"dovish\"},{\"before\":\"A range of recent indicators, including strong job gains, points to additional strengthening of the labor market.\",\"after\":\"\",\"direction\":\"dovish\"},{\"before\":\"Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.\",\"after\":\"Growth in household spending has strengthened.\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed\",\"after\":\"Market-based measures of inflation compensation declined; most survey-based measures of longer-term inflation expectations are little changed\",\"direction\":\"dovish\"},{\"before\":\"labor market indicators will continue to strengthen\",\"after\":\"labor market indicators will strengthen\",\"direction\":\"dovish\"},{\"before\":\"Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\",\"after\":\"\",\"direction\":\"dovish\"},{\"before\":\"the housing sector has improved further but business fixed investment and net exports have been soft.\",\"after\":\"the housing sector has continued to improve and the drag from net exports appears to have lessened, but business fixed investment has been soft.\",\"direction\":\"hawkish\"}],\"rationale\":\"Policy and forward guidance are unchanged, but the statement highlights a slowing labor market, diminished job gains, and declining inflation compensation, and the hawkish dissent disappeared. Firmer spending and growth partially offset this, leaving a modestly dovish tilt.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.",
+    "after": "indicates that the pace of improvement in the labor market has slowed while growth in economic activity appears to have picked up. Although the unemployment rate has declined, job gains have diminished.",
+    "direction": "dovish"
+   },
+   {
+    "before": "A range of recent indicators, including strong job gains, points to additional strengthening of the labor market.",
+    "after": "",
+    "direction": "dovish"
+   },
+   {
+    "before": "Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.",
+    "after": "Growth in household spending has strengthened.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed",
+    "after": "Market-based measures of inflation compensation declined; most survey-based measures of longer-term inflation expectations are little changed",
+    "direction": "dovish"
+   },
+   {
+    "before": "labor market indicators will continue to strengthen",
+    "after": "labor market indicators will strengthen",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+    "after": "",
+    "direction": "dovish"
+   },
+   {
+    "before": "the housing sector has improved further but business fixed investment and net exports have been soft.",
+    "after": "the housing sector has continued to improve and the drag from net exports appears to have lessened, but business fixed investment has been soft.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "Policy and forward guidance are unchanged, but the statement highlights a slowing labor market, diminished job gains, and declining inflation compensation, and the hawkish dissent disappeared. Firmer spending and growth partially offset this, leaving a modestly dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.",
+     "start": 74,
+     "end": 193
+    },
+    {
+     "quote": "A range of recent indicators, including strong job gains, points to additional strengthening of the labor market.",
+     "start": 470,
+     "end": 582
+    },
+    {
+     "quote": "Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.",
+     "start": 195,
+     "end": 333
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed",
+     "start": 763,
+     "end": 901
+    },
+    {
+     "quote": "labor market indicators will continue to strengthen",
+     "start": 1193,
+     "end": 1244
+    },
+    {
+     "quote": "Voting against the action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 3667,
+     "end": 3819
+    },
+    {
+     "quote": "the housing sector has improved further but business fixed investment and net exports have been soft.",
+     "start": 368,
+     "end": 468
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the pace of improvement in the labor market has slowed while growth in economic activity appears to have picked up. Although the unemployment rate has declined, job gains have diminished.",
+     "start": 74,
+     "end": 275
+    },
+    {
+     "quote": "Growth in household spending has strengthened.",
+     "start": 277,
+     "end": 322
+    },
+    {
+     "quote": "Market-based measures of inflation compensation declined; most survey-based measures of longer-term inflation expectations are little changed",
+     "start": 676,
+     "end": 817
+    },
+    {
+     "quote": "labor market indicators will strengthen",
+     "start": 1109,
+     "end": 1148
+    },
+    {
+     "quote": "the housing sector has continued to improve and the drag from net exports appears to have lessened, but business fixed investment has been soft.",
+     "start": 357,
+     "end": 500
+    }
+   ]
+  }
+ }
+}

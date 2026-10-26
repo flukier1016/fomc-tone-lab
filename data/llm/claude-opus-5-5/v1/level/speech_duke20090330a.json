@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20090330a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20090330a",
+  "doc_type": "speech",
+  "text_sha256": "8b417037291d2d047c121357830f547e349a96d8ead6fc044f13cb1b26713299"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "be9093f61d9993a48f5ba4a2f1d8ff70612e3318bcd617c05cf4b8a0a82dbab8",
+ "message_id": "msg_011CgFugDhmYfrm4MAeg7Dev",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9123,
+  "output_tokens": 546,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The current financial turbulence, like several similar events in the past, has placed severe strains on the U.S. banking system with serious repercussions for the economy as a whole.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"through our purchases of agency debt and mortgage-backed securities, the Federal Reserve is lowering the cost of borrowing for mortgages\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Federal Reserve is committed to employing all available tools to promote economic recovery and to preserve price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"history suggests that consumer credit growth will likely slow further in the near term; in addition, many banks have tightened terms and standards for nonmortgage consumer loans.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The recent decline in mortgage debt was likely partly driven by weaker demand for housing amid rising unemployment and rapidly falling home prices.\"}],\"rationale\":\"The speech focuses on credit conditions during a severe financial crisis, describing weak activity and contracting credit, and endorses expanded Fed liquidity and asset purchases. It pledges to use all available tools to promote recovery, a moderately dovish signal without explicit rate guidance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The current financial turbulence, like several similar events in the past, has placed severe strains on the U.S. banking system with serious repercussions for the economy as a whole."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "through our purchases of agency debt and mortgage-backed securities, the Federal Reserve is lowering the cost of borrowing for mortgages"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Federal Reserve is committed to employing all available tools to promote economic recovery and to preserve price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "history suggests that consumer credit growth will likely slow further in the near term; in addition, many banks have tightened terms and standards for nonmortgage consumer loans."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The recent decline in mortgage debt was likely partly driven by weaker demand for housing amid rising unemployment and rapidly falling home prices."
+   }
+  ],
+  "rationale": "The speech focuses on credit conditions during a severe financial crisis, describing weak activity and contracting credit, and endorses expanded Fed liquidity and asset purchases. It pledges to use all available tools to promote recovery, a moderately dovish signal without explicit rate guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The current financial turbulence, like several similar events in the past, has placed severe strains on the U.S. banking system with serious repercussions for the economy as a whole.",
+     "start": 5465,
+     "end": 5646
+    },
+    {
+     "quote": "through our purchases of agency debt and mortgage-backed securities, the Federal Reserve is lowering the cost of borrowing for mortgages",
+     "start": 3916,
+     "end": 4052
+    },
+    {
+     "quote": "the Federal Reserve is committed to employing all available tools to promote economic recovery and to preserve price stability.",
+     "start": 29795,
+     "end": 29921
+    },
+    {
+     "quote": "history suggests that consumer credit growth will likely slow further in the near term; in addition, many banks have tightened terms and standards for nonmortgage consumer loans.",
+     "start": 10896,
+     "end": 11073
+    },
+    {
+     "quote": "The recent decline in mortgage debt was likely partly driven by weaker demand for housing amid rising unemployment and rapidly falling home prices.",
+     "start": 7439,
+     "end": 7585
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

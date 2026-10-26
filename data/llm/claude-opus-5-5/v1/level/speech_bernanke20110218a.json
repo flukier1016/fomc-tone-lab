@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20110218a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110218a",
+  "doc_type": "speech",
+  "text_sha256": "e1161cd1b6de2bfd4b2ac77201406406d9f524428e1a4be2ee3274ef9181017d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fd82d80cadd038e865458493fac52dc7f27c4e4452a51afcb0a356e3821b8601",
+ "message_id": "msg_011CgFug9XkAD7brcuLdpw84",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3738,
+  "output_tokens": 475,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In light of the relatively muted recoveries to date in the advanced economies, the central banks of those economies have generally continued accommodative monetary policies.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"These capital flows reflect in part the continued two-speed nature of the global recovery, as economic growth in the emerging markets is far outstripping growth in the advanced economies.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"emerging market economies have a strong interest in a continued economic recovery in the advanced economies, which accommodative monetary policies in the advanced economies are intended to promote.\"},{\"dimension\":\"overall\",\"quote\":\"Our collective challenge is to reshape the international monetary system to foster strong, sustainable growth and improve economic outcomes for all nations.\"}],\"rationale\":\"The speech focuses mainly on international capital flows and the global saving glut, but it defends continued accommodative policy in advanced economies by pointing to muted recoveries. That gives a mild dovish lean, though there is little direct signal about the future path of US policy.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In light of the relatively muted recoveries to date in the advanced economies, the central banks of those economies have generally continued accommodative monetary policies."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "These capital flows reflect in part the continued two-speed nature of the global recovery, as economic growth in the emerging markets is far outstripping growth in the advanced economies."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "emerging market economies have a strong interest in a continued economic recovery in the advanced economies, which accommodative monetary policies in the advanced economies are intended to promote."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our collective challenge is to reshape the international monetary system to foster strong, sustainable growth and improve economic outcomes for all nations."
+   }
+  ],
+  "rationale": "The speech focuses mainly on international capital flows and the global saving glut, but it defends continued accommodative policy in advanced economies by pointing to muted recoveries. That gives a mild dovish lean, though there is little direct signal about the future path of US policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of the relatively muted recoveries to date in the advanced economies, the central banks of those economies have generally continued accommodative monetary policies.",
+     "start": 8738,
+     "end": 8910
+    },
+    {
+     "quote": "These capital flows reflect in part the continued two-speed nature of the global recovery, as economic growth in the emerging markets is far outstripping growth in the advanced economies.",
+     "start": 8547,
+     "end": 8733
+    },
+    {
+     "quote": "emerging market economies have a strong interest in a continued economic recovery in the advanced economies, which accommodative monetary policies in the advanced economies are intended to promote.",
+     "start": 9896,
+     "end": 10092
+    },
+    {
+     "quote": "Our collective challenge is to reshape the international monetary system to foster strong, sustainable growth and improve economic outcomes for all nations.",
+     "start": 11113,
+     "end": 11268
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

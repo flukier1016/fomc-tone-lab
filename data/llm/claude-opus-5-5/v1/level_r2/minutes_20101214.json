@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20101214",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20101214",
+  "doc_type": "minutes",
+  "text_sha256": "5281c04b81051f16b784d3fa5e6d9ef8ecb72ea1bf3895eec0db88d677efca8a"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a73711a0fa238bdf9e6a0e9b0ccbe7dc58e7d0b08b7a7ceccebb94ac2112b90",
+ "message_id": "msg_011CgG27rr5Jp7mnJhr3SebV",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12211,
+  "output_tokens": 548,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"participants generally anticipated that inflation would remain for some time below levels judged to be most consistent, over the longer run, with maximum employment and price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, the recovery remained subject to some downside risks\"},{\"dimension\":\"overall\",\"quote\":\"progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow.\"}],\"rationale\":\"The minutes reaffirm continued QE2 purchases and extended-period near-zero rate guidance amid below-target inflation and slow progress, though an improved near-term outlook, receding deflation risk, and a high threshold for changes temper the dovishness. One hawkish dissent and some exit-planning remarks add modest balance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "participants generally anticipated that inflation would remain for some time below levels judged to be most consistent, over the longer run, with maximum employment and price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, the recovery remained subject to some downside risks"
+   },
+   {
+    "dimension": "overall",
+    "quote": "progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow."
+   }
+  ],
+  "rationale": "The minutes reaffirm continued QE2 purchases and extended-period near-zero rate guidance amid below-target inflation and slow progress, though an improved near-term outlook, receding deflation risk, and a high threshold for changes temper the dovishness. One hawkish dissent and some exit-planning remarks add modest balance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "nearly all Committee members agreed to continue expanding the Federal Reserve's holdings of longer-term securities as announced in November",
+     "start": 33545,
+     "end": 33684
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 34918,
+     "end": 35014
+    },
+    {
+     "quote": "participants generally anticipated that inflation would remain for some time below levels judged to be most consistent, over the longer run, with maximum employment and price stability.",
+     "start": 31932,
+     "end": 32116
+    },
+    {
+     "quote": "meeting participants saw the information received during the intermeeting period as pointing to some improvement in the near-term outlook",
+     "start": 24713,
+     "end": 24850
+    },
+    {
+     "quote": "Moreover, the recovery remained subject to some downside risks",
+     "start": 25414,
+     "end": 25476
+    },
+    {
+     "quote": "progress toward the Committee's dual objectives of maximum employment and price stability was disappointingly slow.",
+     "start": 33171,
+     "end": 33285
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

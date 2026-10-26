@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20151216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20151216",
+  "doc_type": "minutes",
+  "text_sha256": "08e9e2a235c289a1456fa67e3d2a471b41b564cd1c39fca0647f36f041185d17"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6657961c4043cffc758efbd926edd45cfd2950394f0bba6602517e857a77f50f",
+ "message_id": "msg_011CgFugGDagxV2d6Rd52goe",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13147,
+  "output_tokens": 541,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"members expected economic conditions would evolve in a manner that would warrant only gradual increases in the federal funds rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"because of their significant concern about still-low readings on actual inflation and the uncertainty and risks present in the inflation outlook\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"confirming that underutilization of labor resources had diminished appreciably since early in the year\"},{\"dimension\":\"risk_balance\",\"quote\":\"many viewed the persistent weakness in those prices as adding uncertainty or posing important downside risks to the inflation outlook.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee anticipated retaining this policy until normalization of the level of the federal funds rate was well under way.\"},{\"dimension\":\"overall\",\"quote\":\"some members said that their decision to raise the target range was a close call, particularly given the uncertainty about inflation dynamics\"}],\"rationale\":\"The minutes describe the start of normalization with a firm labor market, implying a further, though gradual, tightening path. That lean is offset by strong emphasis on below-target inflation, downside inflation risks, a 'close call' decision, and continued reinvestment, leaving a roughly neutral net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "members expected economic conditions would evolve in a manner that would warrant only gradual increases in the federal funds rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "because of their significant concern about still-low readings on actual inflation and the uncertainty and risks present in the inflation outlook"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "confirming that underutilization of labor resources had diminished appreciably since early in the year"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "many viewed the persistent weakness in those prices as adding uncertainty or posing important downside risks to the inflation outlook."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee anticipated retaining this policy until normalization of the level of the federal funds rate was well under way."
+   },
+   {
+    "dimension": "overall",
+    "quote": "some members said that their decision to raise the target range was a close call, particularly given the uncertainty about inflation dynamics"
+   }
+  ],
+  "rationale": "The minutes describe the start of normalization with a firm labor market, implying a further, though gradual, tightening path. That lean is offset by strong emphasis on below-target inflation, downside inflation risks, a 'close call' decision, and continued reinvestment, leaving a roughly neutral net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "members expected economic conditions would evolve in a manner that would warrant only gradual increases in the federal funds rate.",
+     "start": 36798,
+     "end": 36927
+    },
+    {
+     "quote": "because of their significant concern about still-low readings on actual inflation and the uncertainty and risks present in the inflation outlook",
+     "start": 37222,
+     "end": 37366
+    },
+    {
+     "quote": "confirming that underutilization of labor resources had diminished appreciably since early in the year",
+     "start": 17213,
+     "end": 17315
+    },
+    {
+     "quote": "many viewed the persistent weakness in those prices as adding uncertainty or posing important downside risks to the inflation outlook.",
+     "start": 25251,
+     "end": 25384
+    },
+    {
+     "quote": "the Committee anticipated retaining this policy until normalization of the level of the federal funds rate was well under way.",
+     "start": 38411,
+     "end": 38536
+    },
+    {
+     "quote": "some members said that their decision to raise the target range was a close call, particularly given the uncertainty about inflation dynamics",
+     "start": 36234,
+     "end": 36375
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

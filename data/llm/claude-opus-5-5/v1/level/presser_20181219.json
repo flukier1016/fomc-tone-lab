@@ -1,0 +1,121 @@
+{
+ "key": "presser_20181219",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20181219",
+  "doc_type": "presser",
+  "text_sha256": "46d5e9cf91eee8ba2aaee7365db3ab98c7b904a5451bc3fcbbeb316dcb408f2a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4488c554381540e83476e870dc690fdc7e5d2e848b473a084cb0d57da6dea998",
+ "message_id": "msg_011CgFugCQsrxFe1qKLxpAXB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9809,
+  "output_tokens": 1001,
+  "output_tokens_details": {
+   "thinking_tokens": 472
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today we raised our target range for the short-term interest rates by another ¼ percentage point.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So I do think that gives the Committee the ability to be patient in moving forward.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has remained low and stable and is ending the year a bit more subdued than most had expected.\"},{\"dimension\":\"risk_balance\",\"quote\":\"financial market volatility has increased over the past couple of months, and overall financial conditions have tightened—that is, they have become less supportive of growth.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I think that the runoff of the balance sheet has been smooth and has served its purpose. And I don’t see us changing that.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Since September, the U.S. economy has continued to perform well, roughly in line with our expectations.\"}],\"rationale\":\"The Chair announces a rate hike and continued runoff amid a strong economy, but lowers the projected 2019 path, stresses patience, subdued inflation, and tightening financial conditions. The hawkish action is roughly offset by dovish-leaning guidance and risks, yielding a near-neutral net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today we raised our target range for the short-term interest rates by another ¼ percentage point."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So I do think that gives the Committee the ability to be patient in moving forward."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has remained low and stable and is ending the year a bit more subdued than most had expected."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "financial market volatility has increased over the past couple of months, and overall financial conditions have tightened—that is, they have become less supportive of growth."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I think that the runoff of the balance sheet has been smooth and has served its purpose. And I don’t see us changing that."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Since September, the U.S. economy has continued to perform well, roughly in line with our expectations."
+   }
+  ],
+  "rationale": "The Chair announces a rate hike and continued runoff amid a strong economy, but lowers the projected 2019 path, stresses patience, subdued inflation, and tightening financial conditions. The hawkish action is roughly offset by dovish-leaning guidance and risks, yielding a near-neutral net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today we raised our target range for the short-term interest rates by another ¼ percentage point.",
+     "start": 2546,
+     "end": 2642
+    },
+    {
+     "quote": "So I do think that gives the Committee the ability to be patient in moving forward.",
+     "start": 9053,
+     "end": 9135
+    },
+    {
+     "quote": "Inflation has remained low and stable and is ending the year a bit more subdued than most had expected.",
+     "start": 816,
+     "end": 918
+    },
+    {
+     "quote": "financial market volatility has increased over the past couple of months, and overall financial conditions have tightened—that is, they have become less supportive of growth.",
+     "start": 1413,
+     "end": 1586
+    },
+    {
+     "quote": "I think that the runoff of the balance sheet has been smooth and has served its purpose. And I don’t see us changing that.",
+     "start": 9814,
+     "end": 9935
+    },
+    {
+     "quote": "Since September, the U.S. economy has continued to perform well, roughly in line with our expectations.",
+     "start": 512,
+     "end": 614
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

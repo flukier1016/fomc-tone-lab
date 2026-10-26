@@ -1,0 +1,51 @@
+{
+ "key": "statement_20140129",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20140129",
+  "release_date": "2014-01-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "af7f2bdd6dbc8ce6ae0050e6594f918cf28f64d5120d29b40426e916f4c0a9fb",
+ "message_id": "msg_011CgFudVTDuujd6WLQ5UcDu",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2094,
+  "output_tokens": 402,
+  "output_tokens_details": {
+   "thinking_tokens": 210
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":1,\"confidence\":0.9,\"cues\":[\"Purchases cut from $35B MBS/$40B Treasuries to $30B/$35B, total $75B to $65B, the second taper step\",\"'Further measured reduction' implies a taper had already started in December 2013\",\"Unemployment-threshold forward guidance is still present; it was dropped in March 2014\",\"Kocherlakota and Pianalto are listed as voters, consistent with the 2014 voting rotation\",\"'Growth in economic activity picked up in recent quarters' matches the late-2013 data\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 1,
+  "confidence": 0.9,
+  "cues": [
+   "Purchases cut from $35B MBS/$40B Treasuries to $30B/$35B, total $75B to $65B, the second taper step",
+   "'Further measured reduction' implies a taper had already started in December 2013",
+   "Unemployment-threshold forward guidance is still present; it was dropped in March 2014",
+   "Kocherlakota and Pianalto are listed as voters, consistent with the 2014 voting rotation",
+   "'Growth in economic activity picked up in recent quarters' matches the late-2013 data"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

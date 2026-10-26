@@ -1,0 +1,121 @@
+{
+ "key": "presser_20260429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260429",
+  "doc_type": "presser",
+  "text_sha256": "ebcabfd6176629a54b2f23c51da29feb9572666ef482475be7fae678e054da8e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "03dd7526c8420697922f86fe5e2127b934e906d36242002faf331d117fb7a5bc",
+ "message_id": "msg_011CgFugDGE7kBK4U7ghjw3x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12604,
+  "output_tokens": 572,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And I think we’d want to see the back side of that and progress on tariffs before we even thought about, about reducing rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And, of course, we will move to a hiking bias if we want to hike, and we’ll move to a neutral bias before that.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The labor market shows more and more signs of stability, whereas inflation is kind of misbehaving.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yeah, you know, growth is really solid across our economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it’s a close—it’s a much closer thing on the Committee than it was in March.\"}],\"rationale\":\"The Fed held rates, but the Chair described inflation as elevated and misbehaving, pushed any cuts well into the future, and disclosed growing Committee support for neutral guidance in which a hike is as likely as a cut, possibly as soon as the next meeting. Solid growth and a stable labor market reinforce the hawkish lean, tempered by the remark that nobody is calling for a hike now and by acknowledged downside risks to spending from energy prices.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And I think we’d want to see the back side of that and progress on tariffs before we even thought about, about reducing rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And, of course, we will move to a hiking bias if we want to hike, and we’ll move to a neutral bias before that."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The labor market shows more and more signs of stability, whereas inflation is kind of misbehaving."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yeah, you know, growth is really solid across our economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it’s a close—it’s a much closer thing on the Committee than it was in March."
+   }
+  ],
+  "rationale": "The Fed held rates, but the Chair described inflation as elevated and misbehaving, pushed any cuts well into the future, and disclosed growing Committee support for neutral guidance in which a hike is as likely as a cut, possibly as soon as the next meeting. Solid growth and a stable labor market reinforce the hawkish lean, tempered by the remark that nobody is calling for a hike now and by acknowledged downside risks to spending from energy prices."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.",
+     "start": 2573,
+     "end": 2690
+    },
+    {
+     "quote": "And I think we’d want to see the back side of that and progress on tariffs before we even thought about, about reducing rates.",
+     "start": 10318,
+     "end": 10443
+    },
+    {
+     "quote": "And, of course, we will move to a hiking bias if we want to hike, and we’ll move to a neutral bias before that.",
+     "start": 34693,
+     "end": 34803
+    },
+    {
+     "quote": "The labor market shows more and more signs of stability, whereas inflation is kind of misbehaving.",
+     "start": 19712,
+     "end": 19809
+    },
+    {
+     "quote": "Yeah, you know, growth is really solid across our economy.",
+     "start": 32302,
+     "end": 32359
+    },
+    {
+     "quote": "it’s a close—it’s a much closer thing on the Committee than it was in March.",
+     "start": 12131,
+     "end": 12206
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20101015a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20101015a",
+  "doc_type": "speech",
+  "text_sha256": "0f0c34c621ad671ea00626ac972579042c6e4c3395e64975f7a3b0e0d202e792"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4e91d2570faf4322f0272a1e691fe7c71a637eb803c9c9c3e03fd5c9e800c184",
+ "message_id": "msg_011CgFugFnHUMTFqWMJjR7r7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7650,
+  "output_tokens": 597,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Given the Committee's objectives, there would appear--all else being equal--to be a case for further action.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Thus, in effect, inflation is running at rates that are too low relative to the levels that the Committee judges to be most consistent with the Federal Reserve's dual mandate in the longer run.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Nonetheless, with an actual unemployment rate of nearly 10 percent, unemployment is clearly too high relative to estimates of its sustainable rate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"For example, a means of providing additional monetary stimulus, if warranted, would be to expand the Federal Reserve's holdings of longer-term securities.\"},{\"dimension\":\"overall\",\"quote\":\"In particular, the FOMC is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation over time to levels consistent with our mandate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"More broadly, prolonged high unemployment would pose a risk to consumer spending and hence to the sustainability of the recovery.\"}],\"rationale\":\"The speaker states that inflation is too low and unemployment too high, concluding there is a case for further action through asset purchases or stronger forward guidance. The dovish signal is tempered only slightly by caveats about the costs of nonconventional tools.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given the Committee's objectives, there would appear--all else being equal--to be a case for further action."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Thus, in effect, inflation is running at rates that are too low relative to the levels that the Committee judges to be most consistent with the Federal Reserve's dual mandate in the longer run."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Nonetheless, with an actual unemployment rate of nearly 10 percent, unemployment is clearly too high relative to estimates of its sustainable rate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "For example, a means of providing additional monetary stimulus, if warranted, would be to expand the Federal Reserve's holdings of longer-term securities."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In particular, the FOMC is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation over time to levels consistent with our mandate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "More broadly, prolonged high unemployment would pose a risk to consumer spending and hence to the sustainability of the recovery."
+   }
+  ],
+  "rationale": "The speaker states that inflation is too low and unemployment too high, concluding there is a case for further action through asset purchases or stronger forward guidance. The dovish signal is tempered only slightly by caveats about the costs of nonconventional tools."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given the Committee's objectives, there would appear--all else being equal--to be a case for further action.",
+     "start": 21538,
+     "end": 21645
+    },
+    {
+     "quote": "Thus, in effect, inflation is running at rates that are too low relative to the levels that the Committee judges to be most consistent with the Federal Reserve's dual mandate in the longer run.",
+     "start": 19631,
+     "end": 19823
+    },
+    {
+     "quote": "Nonetheless, with an actual unemployment rate of nearly 10 percent, unemployment is clearly too high relative to estimates of its sustainable rate.",
+     "start": 21175,
+     "end": 21321
+    },
+    {
+     "quote": "For example, a means of providing additional monetary stimulus, if warranted, would be to expand the Federal Reserve's holdings of longer-term securities.",
+     "start": 22250,
+     "end": 22403
+    },
+    {
+     "quote": "In particular, the FOMC is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation over time to levels consistent with our mandate.",
+     "start": 25689,
+     "end": 25875
+    },
+    {
+     "quote": "More broadly, prolonged high unemployment would pose a risk to consumer spending and hence to the sustainability of the recovery.",
+     "start": 9116,
+     "end": 9244
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20260107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260107a",
+  "doc_type": "speech",
+  "text_sha256": "1cd3520a915a7419db442aac22605fd07f87a5203a07767f0f37607538f8393b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a8ac94025f145f00017b887b539e217ed0543d01789c6f31e5f16c5ade53c12b",
+ "message_id": "msg_011CgFugAiBhkLrHnnPwe6Cu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6541,
+  "output_tokens": 357,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Over the past seven months, I have implemented a comprehensive approach to pragmatic supervision and regulation.\"},{\"dimension\":\"overall\",\"quote\":\"We have proposed re-calibrating the community bank leverage ratio (CBLR) to the statutory minimum to provide greater flexibility to eligible community banks.\"},{\"dimension\":\"overall\",\"quote\":\"A simple solution would be to adjust thresholds by nominal GDP, which includes both economic growth and inflation.\"}],\"rationale\":\"The speech is about bank supervision and regulatory reform, with no discussion of monetary policy, inflation, the labor market or the Fed's balance sheet. All policy dimensions are therefore null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Over the past seven months, I have implemented a comprehensive approach to pragmatic supervision and regulation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have proposed re-calibrating the community bank leverage ratio (CBLR) to the statutory minimum to provide greater flexibility to eligible community banks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A simple solution would be to adjust thresholds by nominal GDP, which includes both economic growth and inflation."
+   }
+  ],
+  "rationale": "The speech is about bank supervision and regulatory reform, with no discussion of monetary policy, inflation, the labor market or the Fed's balance sheet. All policy dimensions are therefore null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Over the past seven months, I have implemented a comprehensive approach to pragmatic supervision and regulation.",
+     "start": 963,
+     "end": 1074
+    },
+    {
+     "quote": "We have proposed re-calibrating the community bank leverage ratio (CBLR) to the statutory minimum to provide greater flexibility to eligible community banks.",
+     "start": 7921,
+     "end": 8077
+    },
+    {
+     "quote": "A simple solution would be to adjust thresholds by nominal GDP, which includes both economic growth and inflation.",
+     "start": 11652,
+     "end": 11765
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

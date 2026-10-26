@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20111104a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20111104a",
+  "doc_type": "speech",
+  "text_sha256": "ed303d462729eecd35a11aebee3d7434e1ecb93bc0f0b7181cbfc1d7776cba26"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fe9790e1e9ac33b8743648e6ad7c61d360a358d20bce438a20ea901929540abe",
+ "message_id": "msg_011CgFugEhYtxVCLoLg7oK5U",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7444,
+  "output_tokens": 345,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I will discuss three subjects germane to the increasingly significant international regulatory agenda.\"},{\"dimension\":\"overall\",\"quote\":\"Strong capital and liquidity standards are central to these goals and to the overall reform agenda for financial regulation.\"},{\"dimension\":\"overall\",\"quote\":\"A third priority is the area of OTC derivatives, where strong capital standards alone are not enough to contain systemic risks.\"}],\"rationale\":\"The speech addresses international bank regulation, Basel III capital and liquidity standards, resolution, and OTC derivatives, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I will discuss three subjects germane to the increasingly significant international regulatory agenda."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Strong capital and liquidity standards are central to these goals and to the overall reform agenda for financial regulation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A third priority is the area of OTC derivatives, where strong capital standards alone are not enough to contain systemic risks."
+   }
+  ],
+  "rationale": "The speech addresses international bank regulation, Basel III capital and liquidity standards, resolution, and OTC derivatives, with no discussion of monetary policy, inflation, or the economic outlook. It therefore carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I will discuss three subjects germane to the increasingly significant international regulatory agenda.",
+     "start": 308,
+     "end": 415
+    },
+    {
+     "quote": "Strong capital and liquidity standards are central to these goals and to the overall reform agenda for financial regulation.",
+     "start": 1641,
+     "end": 1764
+    },
+    {
+     "quote": "A third priority is the area of OTC derivatives, where strong capital standards alone are not enough to contain systemic risks.",
+     "start": 18776,
+     "end": 18902
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

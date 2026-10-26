@@ -1,0 +1,85 @@
+{
+ "key": "speech_barr20260331a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260331a",
+  "doc_type": "speech",
+  "text_sha256": "0973a70316639a3f68f907297ba9a21e7811c83ac76a9f7404a02a737a840361"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "27de9bd7e74e8eaceb078bd0de2908ca1258618defb5578d38432351f468eb21",
+ "message_id": "msg_011CgFugFcNNqjpSQbzw7f9i",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1314,
+  "output_tokens": 274,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"A second key area of concern is financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"While the GENIUS Act made important progress in creating a regulatory framework for stablecoins, a great deal will depend on how federal and state regulators implement the statute.\"}],\"rationale\":\"The speech addresses stablecoin regulation and financial stability under the GENIUS Act and does not discuss monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "A second key area of concern is financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While the GENIUS Act made important progress in creating a regulatory framework for stablecoins, a great deal will depend on how federal and state regulators implement the statute."
+   }
+  ],
+  "rationale": "The speech addresses stablecoin regulation and financial stability under the GENIUS Act and does not discuss monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A second key area of concern is financial stability.",
+     "start": 1273,
+     "end": 1324
+    },
+    {
+     "quote": "While the GENIUS Act made important progress in creating a regulatory framework for stablecoins, a great deal will depend on how federal and state regulators implement the statute.",
+     "start": 3997,
+     "end": 4176
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

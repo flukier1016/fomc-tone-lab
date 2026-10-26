@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20101011a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20101011a",
+  "doc_type": "speech",
+  "text_sha256": "477b9079062fed94daaf02e4d5a6a5b5ee05f2ebbae0f7fb35f32074be7fcfa9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "88f700fbf2fec87b997868501d4ad266859cb92a8e3ad03ddad6d725e201ffdf",
+ "message_id": "msg_011CgFugCA1EEHwCMEqUJXgP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11224,
+  "output_tokens": 531,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"And the recovery has been agonizingly slow, held back, in part, by the ongoing efforts of overleveraged households and financial institutions to repair their balance sheets.\"},{\"dimension\":\"overall\",\"quote\":\"Monetary policy cannot be a primary instrument for systemic risk management.\"},{\"dimension\":\"risk_balance\",\"quote\":\"It is conceivable that accommodative monetary policy could provide tinder for a buildup of leverage and excessive risk-taking in the financial system.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But, with high unemployment in so many economies, the new Basel III agreement recognizes the desirability of a phase in period for these standards.\"},{\"dimension\":\"overall\",\"quote\":\"My hope is that such situations will remain largely theoretical and, in practice, be exceedingly rare.\"}],\"rationale\":\"The speech is mainly about macroprudential supervision and argues that monetary policy should stay focused on its macroeconomic goals rather than lean against financial risks, while noting a slow recovery and high unemployment. It acknowledges that accommodative policy can fuel risk-taking but does not signal a change in the policy path, so the net stance is near neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "And the recovery has been agonizingly slow, held back, in part, by the ongoing efforts of overleveraged households and financial institutions to repair their balance sheets."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Monetary policy cannot be a primary instrument for systemic risk management."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It is conceivable that accommodative monetary policy could provide tinder for a buildup of leverage and excessive risk-taking in the financial system."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But, with high unemployment in so many economies, the new Basel III agreement recognizes the desirability of a phase in period for these standards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My hope is that such situations will remain largely theoretical and, in practice, be exceedingly rare."
+   }
+  ],
+  "rationale": "The speech is mainly about macroprudential supervision and argues that monetary policy should stay focused on its macroeconomic goals rather than lean against financial risks, while noting a slow recovery and high unemployment. It acknowledges that accommodative policy can fuel risk-taking but does not signal a change in the policy path, so the net stance is near neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "And the recovery has been agonizingly slow, held back, in part, by the ongoing efforts of overleveraged households and financial institutions to repair their balance sheets.",
+     "start": 5244,
+     "end": 5416
+    },
+    {
+     "quote": "Monetary policy cannot be a primary instrument for systemic risk management.",
+     "start": 9103,
+     "end": 9178
+    },
+    {
+     "quote": "It is conceivable that accommodative monetary policy could provide tinder for a buildup of leverage and excessive risk-taking in the financial system.",
+     "start": 31686,
+     "end": 31835
+    },
+    {
+     "quote": "But, with high unemployment in so many economies, the new Basel III agreement recognizes the desirability of a phase in period for these standards.",
+     "start": 32242,
+     "end": 32388
+    },
+    {
+     "quote": "My hope is that such situations will remain largely theoretical and, in practice, be exceedingly rare.",
+     "start": 36104,
+     "end": 36205
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

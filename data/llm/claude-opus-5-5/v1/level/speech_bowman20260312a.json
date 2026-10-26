@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20260312a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260312a",
+  "doc_type": "speech",
+  "text_sha256": "401fae58430d57c07498e4401ff03beb54889d9735ec6f6cf38a034ce9635917"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3ac03d3fa9b3b168f0d1fc8838030aea261b3bd63bb9a6fc6fb471b2930c235d",
+ "message_id": "msg_011CgFugF1Q8R4LfPiCrRrrV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4710,
+  "output_tokens": 341,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Capital requirements form the foundation of our prudential regulatory framework, and in the coming weeks we will propose rules to implement the final phase of Basel III in the United States.\"},{\"dimension\":\"overall\",\"quote\":\"Together, these proposals would decrease the requirements by a small amount.\"},{\"dimension\":\"overall\",\"quote\":\"The price is paid in forgone economic growth, reduced job creation, and lower standards of living.\"}],\"rationale\":\"The speech concerns bank capital regulation (Basel III, G-SIB surcharge, stress testing) and takes no view on interest rates, inflation, or the Fed's balance sheet. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Capital requirements form the foundation of our prudential regulatory framework, and in the coming weeks we will propose rules to implement the final phase of Basel III in the United States."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Together, these proposals would decrease the requirements by a small amount."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The price is paid in forgone economic growth, reduced job creation, and lower standards of living."
+   }
+  ],
+  "rationale": "The speech concerns bank capital regulation (Basel III, G-SIB surcharge, stress testing) and takes no view on interest rates, inflation, or the Fed's balance sheet. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Capital requirements form the foundation of our prudential regulatory framework, and in the coming weeks we will propose rules to implement the final phase of Basel III in the United States.",
+     "start": 122,
+     "end": 311
+    },
+    {
+     "quote": "Together, these proposals would decrease the requirements by a small amount.",
+     "start": 13743,
+     "end": 13818
+    },
+    {
+     "quote": "The price is paid in forgone economic growth, reduced job creation, and lower standards of living.",
+     "start": 1559,
+     "end": 1656
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

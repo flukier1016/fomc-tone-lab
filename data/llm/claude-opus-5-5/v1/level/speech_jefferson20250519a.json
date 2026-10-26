@@ -1,0 +1,103 @@
+{
+ "key": "speech_jefferson20250519a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250519a",
+  "doc_type": "speech",
+  "text_sha256": "36dfdc6de701a83e16a1da501cf00af95722b247f81b52037e7ffe8d7f0e2d0f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1ed51c999550ab7be3877b7d598e44fbebe19df1a660d7e67b7a523cbe21c6bf",
+ "message_id": "msg_011CgFug9NKTTTrk2nJuiCE1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4942,
+  "output_tokens": 397,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The provision of liquidity by central banks is a foundational element of financial intermediation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Fed has stated that it will continue to operate in an ample-reserves regime.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Over the past few years, as central banks have shrunk their balance sheets, liquidity has been gradually reduced, which has made the existing liquidity provision tools more relevant.\"},{\"dimension\":\"overall\",\"quote\":\"The Fed is continually assessing and striving to improve the operational aspects of discount window and intraday credit.\"}],\"rationale\":\"The speech is a technical overview of discount window and intraday credit facilities across jurisdictions and offers no view on rates, inflation, or the economic outlook. Balance sheet references are descriptive only, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The provision of liquidity by central banks is a foundational element of financial intermediation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Fed has stated that it will continue to operate in an ample-reserves regime."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Over the past few years, as central banks have shrunk their balance sheets, liquidity has been gradually reduced, which has made the existing liquidity provision tools more relevant."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Fed is continually assessing and striving to improve the operational aspects of discount window and intraday credit."
+   }
+  ],
+  "rationale": "The speech is a technical overview of discount window and intraday credit facilities across jurisdictions and offers no view on rates, inflation, or the economic outlook. Balance sheet references are descriptive only, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The provision of liquidity by central banks is a foundational element of financial intermediation.",
+     "start": 662,
+     "end": 759
+    },
+    {
+     "quote": "The Fed has stated that it will continue to operate in an ample-reserves regime.",
+     "start": 12593,
+     "end": 12672
+    },
+    {
+     "quote": "Over the past few years, as central banks have shrunk their balance sheets, liquidity has been gradually reduced, which has made the existing liquidity provision tools more relevant.",
+     "start": 12244,
+     "end": 12425
+    },
+    {
+     "quote": "The Fed is continually assessing and striving to improve the operational aspects of discount window and intraday credit.",
+     "start": 15391,
+     "end": 15510
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

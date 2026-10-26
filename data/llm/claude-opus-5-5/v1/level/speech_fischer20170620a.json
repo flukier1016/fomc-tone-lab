@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20170620a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170620a",
+  "doc_type": "speech",
+  "text_sha256": "48524d14786ea98a4ea68c40366bacc56ea2bf90e30e0f1064877d1db19eb3a5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e2689dd4cf11552ee5ccf7fdf608c5ca990ea025d77e081592584f6afbf41f5d",
+ "message_id": "msg_011CgFugE7aHVe5TydyQFZ7p",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4834,
+  "output_tokens": 339,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I would like to focus on where we now stand on the role of housing and real estate in financial crises, and what we should be doing about that situation.\"},{\"dimension\":\"overall\",\"quote\":\"House prices are now high and rising in several countries, perhaps as a result of extended periods of low interest rates.\"},{\"dimension\":\"overall\",\"quote\":\"First, macroprudential policies can help reduce the incidence and severity of housing crises.\"}],\"rationale\":\"The speech is about housing finance, financial stability and macroprudential policy, not the monetary policy outlook. Its mention of high house prices after prolonged low rates is not tied to any view on the path of rates, so the stance is scored neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I would like to focus on where we now stand on the role of housing and real estate in financial crises, and what we should be doing about that situation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "House prices are now high and rising in several countries, perhaps as a result of extended periods of low interest rates."
+   },
+   {
+    "dimension": "overall",
+    "quote": "First, macroprudential policies can help reduce the incidence and severity of housing crises."
+   }
+  ],
+  "rationale": "The speech is about housing finance, financial stability and macroprudential policy, not the monetary policy outlook. Its mention of high house prices after prolonged low rates is not tied to any view on the path of rates, so the stance is scored neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I would like to focus on where we now stand on the role of housing and real estate in financial crises, and what we should be doing about that situation.",
+     "start": 1158,
+     "end": 1316
+    },
+    {
+     "quote": "House prices are now high and rising in several countries, perhaps as a result of extended periods of low interest rates.",
+     "start": 13410,
+     "end": 13530
+    },
+    {
+     "quote": "First, macroprudential policies can help reduce the incidence and severity of housing crises.",
+     "start": 13572,
+     "end": 13664
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

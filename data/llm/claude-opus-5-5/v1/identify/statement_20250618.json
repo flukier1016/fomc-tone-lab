@@ -1,0 +1,52 @@
+{
+ "key": "statement_20250618",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20250618",
+  "release_date": "2025-06-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dc153e8fcfcd5b54a20506741c2d6bf589550ca252f3e62ec66deed1743b5785",
+ "message_id": "msg_011CgFudVYvgUpfcJA3ieqGa",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1031,
+  "output_tokens": 462,
+  "output_tokens_details": {
+   "thinking_tokens": 215
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2025,\"month\":6,\"confidence\":0.85,\"cues\":[\"'Swings in net exports have affected the data' points to the early-2025 import surge ahead of tariffs.\",\"'Uncertainty about the economic outlook has diminished but remains elevated' follows the May 2025 language that uncertainty had 'increased further'.\",\"The rate was held steady, and the statement says 'additional adjustments', implying earlier cuts in late 2024.\",\"The Committee is still reducing its securities holdings, so balance-sheet runoff is ongoing.\",\"The vote was unanimous with 12 voters; the July 2025 meeting had dissents.\",\"Economic activity is described as expanding 'at a solid pace'; the July statement said growth had moderated.\"]}",
+ "parsed": {
+  "year": 2025,
+  "month": 6,
+  "confidence": 0.85,
+  "cues": [
+   "'Swings in net exports have affected the data' points to the early-2025 import surge ahead of tariffs.",
+   "'Uncertainty about the economic outlook has diminished but remains elevated' follows the May 2025 language that uncertainty had 'increased further'.",
+   "The rate was held steady, and the statement says 'additional adjustments', implying earlier cuts in late 2024.",
+   "The Committee is still reducing its securities holdings, so balance-sheet runoff is ongoing.",
+   "The vote was unanimous with 12 voters; the July 2025 meeting had dissents.",
+   "Economic activity is described as expanding 'at a solid pace'; the July statement said growth had moderated."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

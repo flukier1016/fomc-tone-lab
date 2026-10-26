@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20110622",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20110622",
+  "doc_type": "minutes",
+  "text_sha256": "64b193bc34e168fe1740e7c46be4f2c2bc706a93b0f21049271dce01a186d3c3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "24a16bc472ca14d5b36c6db0e3b58a3274133121aaa3e69b6b6b19c6e44ee978",
+ "message_id": "msg_011CgFugEzf2J7Rtu7mGEt7X",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13127,
+  "output_tokens": 607,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Meeting participants generally noted that the most recent data on employment had been disappointing, and new claims for unemployment insurance remained elevated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a few members viewed the increase in inflation risks as suggesting that economic conditions might well evolve in a way that would warrant the Committee taking steps to begin removing policy accommodation sooner than currently anticipated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation had increased in recent months as a result of higher prices for some commodities, as well as supply chain disruptions related to the tragic events in Japan.\"}],\"rationale\":\"The minutes balance a weaker growth and labor picture and some openness to more stimulus against upside inflation concerns, exit-strategy planning, and the end of QE2 purchases. The net signal is roughly neutral with a slight hawkish tilt from the exit principles and the upside inflation risk discussion.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Meeting participants generally noted that the most recent data on employment had been disappointing, and new claims for unemployment insurance remained elevated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a few members viewed the increase in inflation risks as suggesting that economic conditions might well evolve in a way that would warrant the Committee taking steps to begin removing policy accommodation sooner than currently anticipated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation had increased in recent months as a result of higher prices for some commodities, as well as supply chain disruptions related to the tragic events in Japan."
+   }
+  ],
+  "rationale": "The minutes balance a weaker growth and labor picture and some openness to more stimulus against upside inflation concerns, exit-strategy planning, and the end of QE2 purchases. The net signal is roughly neutral with a slight hawkish tilt from the exit principles and the upside inflation risk discussion."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period",
+     "start": 42901,
+     "end": 42997
+    },
+    {
+     "quote": "To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA.",
+     "start": 4760,
+     "end": 4928
+    },
+    {
+     "quote": "Meeting participants generally noted that the most recent data on employment had been disappointing, and new claims for unemployment insurance remained elevated.",
+     "start": 29234,
+     "end": 29394
+    },
+    {
+     "quote": "Nevertheless, a number of participants judged the risks to the outlook for inflation as tilted to the upside.",
+     "start": 33853,
+     "end": 33961
+    },
+    {
+     "quote": "a few members viewed the increase in inflation risks as suggesting that economic conditions might well evolve in a way that would warrant the Committee taking steps to begin removing policy accommodation sooner than currently anticipated.",
+     "start": 38057,
+     "end": 38294
+    },
+    {
+     "quote": "Inflation had increased in recent months as a result of higher prices for some commodities, as well as supply chain disruptions related to the tragic events in Japan.",
+     "start": 36788,
+     "end": 36953
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

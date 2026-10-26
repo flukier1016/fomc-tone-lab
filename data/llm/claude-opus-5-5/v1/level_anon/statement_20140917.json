@@ -1,0 +1,122 @@
+{
+ "key": "statement_20140917",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20140917",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "4ba9906dada49f9d45da589ceedcf27246d8a13998f52a699d23510aba074153"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "feba0e31f16fc53284ccb6e3babc692003554f34014a72a4c51f7dd859d54031",
+ "message_id": "msg_011CgFudUxTo3MMf9R1xsmNv",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1783,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to make a further measured reduction in the pace of its asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will end its current program of asset purchases at its next meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has been running below the Committee's longer-run objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"a range of labor market indicators suggests that there remains significant underutilization of labor resources.\"}],\"rationale\":\"The Committee continued tapering and signaled an end to purchases next meeting (hawkish), but retained the 'considerable time' rate guidance, noted below-target inflation, and pointed to labor underutilization (dovish). Two hawkish dissents underscore that the statement is roughly balanced with a slight tightening tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to make a further measured reduction in the pace of its asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will end its current program of asset purchases at its next meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has been running below the Committee's longer-run objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "a range of labor market indicators suggests that there remains significant underutilization of labor resources."
+   }
+  ],
+  "rationale": "The Committee continued tapering and signaled an end to purchases next meeting (hawkish), but retained the 'considerable time' rate guidance, noted below-target inflation, and pointed to labor underutilization (dovish). Two hawkish dissents underscore that the statement is roughly balanced with a slight tightening tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to make a further measured reduction in the pace of its asset purchases.",
+     "start": 1665,
+     "end": 1758
+    },
+    {
+     "quote": "the Committee will end its current program of asset purchases at its next meeting.",
+     "start": 3243,
+     "end": 3324
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends",
+     "start": 4323,
+     "end": 4478
+    },
+    {
+     "quote": "Inflation has been running below the Committee's longer-run objective.",
+     "start": 614,
+     "end": 683
+    },
+    {
+     "quote": "The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced",
+     "start": 1088,
+     "end": 1193
+    },
+    {
+     "quote": "a range of labor market indicators suggests that there remains significant underutilization of labor resources.",
+     "start": 257,
+     "end": 367
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

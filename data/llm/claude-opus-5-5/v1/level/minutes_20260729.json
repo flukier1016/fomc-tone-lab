@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20260729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20260729",
+  "doc_type": "minutes",
+  "text_sha256": "c782a4686a2afa5e15dfd45e495426df552994f1ca9b11a7b36e888f0cada9ee"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "69112de2918da80ef6713d28589e825b6b2a165d7d39c0b7b75f4c630f773236",
+ "message_id": "msg_011CgFugD5KQrr1mNVBJD1XK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9519,
+  "output_tokens": 593,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":0,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants assessed that policy tightening would likely be necessary if inflation did not decline.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants commented that financial conditions might not currently be sufficiently restrictive to facilitate a return of inflation to 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants judged that their inflation outlooks were highly uncertain and that inflation risks were skewed to the upside.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Some participants noted that, even after excluding prices of items most directly affected by tariffs and energy prices, underlying inflation appeared to be elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending.\"},{\"dimension\":\"overall\",\"quote\":\"Three members voted against the decision to maintain the target range for the federal funds rate, preferring an increase of 25 basis points in the target range at this meeting.\"}],\"rationale\":\"The minutes record a hold with three hawkish dissents, upside inflation risks, and many participants seeing tightening as likely necessary if inflation does not decline, all against solid growth and a stable labor market. Balance sheet discussion is procedural, and the explicit tightening bias makes the overall tone clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 0,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants assessed that policy tightening would likely be necessary if inflation did not decline."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants commented that financial conditions might not currently be sufficiently restrictive to facilitate a return of inflation to 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants judged that their inflation outlooks were highly uncertain and that inflation risks were skewed to the upside."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Some participants noted that, even after excluding prices of items most directly affected by tariffs and energy prices, underlying inflation appeared to be elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Three members voted against the decision to maintain the target range for the federal funds rate, preferring an increase of 25 basis points in the target range at this meeting."
+   }
+  ],
+  "rationale": "The minutes record a hold with three hawkish dissents, upside inflation risks, and many participants seeing tightening as likely necessary if inflation does not decline, all against solid growth and a stable labor market. Balance sheet discussion is procedural, and the explicit tightening bias makes the overall tone clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many participants assessed that policy tightening would likely be necessary if inflation did not decline.",
+     "start": 25790,
+     "end": 25894
+    },
+    {
+     "quote": "Some participants commented that financial conditions might not currently be sufficiently restrictive to facilitate a return of inflation to 2 percent.",
+     "start": 25896,
+     "end": 26046
+    },
+    {
+     "quote": "Participants judged that their inflation outlooks were highly uncertain and that inflation risks were skewed to the upside.",
+     "start": 17716,
+     "end": 17838
+    },
+    {
+     "quote": "Some participants noted that, even after excluding prices of items most directly affected by tariffs and energy prices, underlying inflation appeared to be elevated.",
+     "start": 15164,
+     "end": 15328
+    },
+    {
+     "quote": "Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending.",
+     "start": 20795,
+     "end": 20992
+    },
+    {
+     "quote": "Three members voted against the decision to maintain the target range for the federal funds rate, preferring an increase of 25 basis points in the target range at this meeting.",
+     "start": 28907,
+     "end": 29082
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

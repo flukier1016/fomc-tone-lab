@@ -1,0 +1,103 @@
+{
+ "key": "speech_clarida20190328a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190328a",
+  "doc_type": "speech",
+  "text_sha256": "2834bd94d20a62446017a212830db534d60d42578621144832fc632546a57e31"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f8746b32f1960a413e137c5023b2cc2bfa5316826ee6c1c2b4c29c0612a685a2",
+ "message_id": "msg_011CgFugDCkuRnGNPoqRH1kU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2508,
+  "output_tokens": 417,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"U.S. and other financial markets are attuned to a number of prominent downside global risks, which include Brexit, a sharp slowdown in global growth prospects, and trade tensions.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"in the presence of these risks and with inflation pressures muted, we can afford to be patient and data dependent as we assess in future meetings what adjustments in our policy rate might be necessary\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"with inflation pressures muted\"},{\"dimension\":\"overall\",\"quote\":\"accommodative policy responses in the United States helped ward off actual contractions of U.S. activity.\"}],\"rationale\":\"The speech emphasizes downside global risks and muted inflation, endorsing patience and citing past easing responses to foreign shocks as successful. The net lean is moderately dovish, with no explicit signal of a cut.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "U.S. and other financial markets are attuned to a number of prominent downside global risks, which include Brexit, a sharp slowdown in global growth prospects, and trade tensions."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "in the presence of these risks and with inflation pressures muted, we can afford to be patient and data dependent as we assess in future meetings what adjustments in our policy rate might be necessary"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "with inflation pressures muted"
+   },
+   {
+    "dimension": "overall",
+    "quote": "accommodative policy responses in the United States helped ward off actual contractions of U.S. activity."
+   }
+  ],
+  "rationale": "The speech emphasizes downside global risks and muted inflation, endorsing patience and citing past easing responses to foreign shocks as successful. The net lean is moderately dovish, with no explicit signal of a cut."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "U.S. and other financial markets are attuned to a number of prominent downside global risks, which include Brexit, a sharp slowdown in global growth prospects, and trade tensions.",
+     "start": 7054,
+     "end": 7232
+    },
+    {
+     "quote": "in the presence of these risks and with inflation pressures muted, we can afford to be patient and data dependent as we assess in future meetings what adjustments in our policy rate might be necessary",
+     "start": 7637,
+     "end": 7837
+    },
+    {
+     "quote": "with inflation pressures muted",
+     "start": 7672,
+     "end": 7702
+    },
+    {
+     "quote": "accommodative policy responses in the United States helped ward off actual contractions of U.S. activity.",
+     "start": 5823,
+     "end": 5927
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

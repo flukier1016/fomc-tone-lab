@@ -1,0 +1,94 @@
+{
+ "key": "speech_clarida20190517a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190517a",
+  "doc_type": "speech",
+  "text_sha256": "eab8fb8d2447289739886d0fad9c90bc29cd952b74c21d27fe5fb1047befaa1c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f3f4d7355c23e92a7cdfdb31f3df3f7aa1776e39ee161beaf0fbbaf01d97ea48",
+ "message_id": "msg_011CgFugK5iufJ2uRJ7r3Cr4",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 947,
+  "output_tokens": 312,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective.\"},{\"dimension\":\"overall\",\"quote\":\"our review is more likely to produce evolution, not a revolution, in the way we conduct monetary policy.\"},{\"dimension\":\"overall\",\"quote\":\"my colleagues and I do not want to preempt or to predict our ultimate findings.\"}],\"rationale\":\"The speech is about the framework review process and gives no signal on the policy path. It describes a strong labor market and inflation near 2 percent, so the net stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective."
+   },
+   {
+    "dimension": "overall",
+    "quote": "our review is more likely to produce evolution, not a revolution, in the way we conduct monetary policy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "my colleagues and I do not want to preempt or to predict our ultimate findings."
+   }
+  ],
+  "rationale": "The speech is about the framework review process and gives no signal on the policy path. It describes a strong labor market and inflation near 2 percent, so the net stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective.",
+     "start": 1425,
+     "end": 1525
+    },
+    {
+     "quote": "our review is more likely to produce evolution, not a revolution, in the way we conduct monetary policy.",
+     "start": 1169,
+     "end": 1272
+    },
+    {
+     "quote": "my colleagues and I do not want to preempt or to predict our ultimate findings.",
+     "start": 2821,
+     "end": 2899
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

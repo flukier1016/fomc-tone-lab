@@ -1,0 +1,94 @@
+{
+ "key": "speech_kugler20250520a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kugler20250520a",
+  "doc_type": "speech",
+  "text_sha256": "7b502173f0163b99b0c9c8eab030da824e0bed54ef84916749512ee8c789ad33"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "30ee8286e361301ddbf230cd6e5984294b69679f438fc5d0c61396ffff8d5694",
+ "message_id": "msg_011CgFugF7MRS8xoMVDXAT23",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3340,
+  "output_tokens": 281,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"congratulations to the Class of 2025!\"},{\"dimension\":\"overall\",\"quote\":\"I speak of economics as a tool because that is all that it is.\"},{\"dimension\":\"overall\",\"quote\":\"I hope you will make use of what you have learned at Berkeley to be an active part of that marketplace of ideas.\"}],\"rationale\":\"This is a commencement address about economics as a profession and public service, with no discussion of monetary policy, inflation, or the economic outlook. No policy signal is conveyed.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "congratulations to the Class of 2025!"
+   },
+   {
+    "dimension": "overall",
+    "quote": "I speak of economics as a tool because that is all that it is."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I hope you will make use of what you have learned at Berkeley to be an active part of that marketplace of ideas."
+   }
+  ],
+  "rationale": "This is a commencement address about economics as a profession and public service, with no discussion of monetary policy, inflation, or the economic outlook. No policy signal is conveyed."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "congratulations to the Class of 2025!",
+     "start": 52,
+     "end": 89
+    },
+    {
+     "quote": "I speak of economics as a tool because that is all that it is.",
+     "start": 3630,
+     "end": 3691
+    },
+    {
+     "quote": "I hope you will make use of what you have learned at Berkeley to be an active part of that marketplace of ideas.",
+     "start": 10944,
+     "end": 11055
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

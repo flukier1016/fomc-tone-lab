@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20170503",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20170503",
+  "doc_type": "minutes",
+  "text_sha256": "78b2b11c771c2fd5fe0561f178227ae93166371f2500df679139bbd869e8c84f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9aada8d5bed06b59c796905deeb13ef8e931c1be5d3bb1dde5d9a75c320765c9",
+ "message_id": "msg_011CgFugBZnCEi848HpitFVM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15345,
+  "output_tokens": 642,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants judged that if economic information came in about in line with their expectations, it would soon be appropriate for the Committee to take another step in removing some policy accommodation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Nearly all policymakers indicated that as long as the economy and the path of the federal funds rate evolved as currently expected, it likely would be appropriate to begin reducing the Federal Reserve's securities holdings this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Overall, most participants viewed the recent softer inflation data as primarily reflecting transitory factors, but a few expressed concern that progress toward the Committee's objective may have slowed.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"At 4.5 percent, the unemployment rate had reached or fallen below levels that participants judged likely to be normal over the longer run.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Members generally judged that it would be prudent to await additional evidence indicating that the recent slowing in the pace of economic activity had been transitory before taking another step in removing accommodation.\"}],\"rationale\":\"The minutes signal a rate hike \\\"soon\\\" if data cooperate and broad support for beginning balance sheet runoff this year, with soft first-quarter growth and inflation treated as transitory. Some caution, including a wish to await more data, and roughly balanced risks temper the hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants judged that if economic information came in about in line with their expectations, it would soon be appropriate for the Committee to take another step in removing some policy accommodation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Nearly all policymakers indicated that as long as the economy and the path of the federal funds rate evolved as currently expected, it likely would be appropriate to begin reducing the Federal Reserve's securities holdings this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Overall, most participants viewed the recent softer inflation data as primarily reflecting transitory factors, but a few expressed concern that progress toward the Committee's objective may have slowed."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "At 4.5 percent, the unemployment rate had reached or fallen below levels that participants judged likely to be normal over the longer run."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members generally judged that it would be prudent to await additional evidence indicating that the recent slowing in the pace of economic activity had been transitory before taking another step in removing accommodation."
+   }
+  ],
+  "rationale": "The minutes signal a rate hike \"soon\" if data cooperate and broad support for beginning balance sheet runoff this year, with soft first-quarter growth and inflation treated as transitory. Some caution, including a wish to await more data, and roughly balanced risks temper the hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants judged that if economic information came in about in line with their expectations, it would soon be appropriate for the Committee to take another step in removing some policy accommodation.",
+     "start": 36749,
+     "end": 36955
+    },
+    {
+     "quote": "Nearly all policymakers indicated that as long as the economy and the path of the federal funds rate evolved as currently expected, it likely would be appropriate to begin reducing the Federal Reserve's securities holdings this year.",
+     "start": 51140,
+     "end": 51372
+    },
+    {
+     "quote": "Overall, most participants viewed the recent softer inflation data as primarily reflecting transitory factors, but a few expressed concern that progress toward the Committee's objective may have slowed.",
+     "start": 33017,
+     "end": 33218
+    },
+    {
+     "quote": "At 4.5 percent, the unemployment rate had reached or fallen below levels that participants judged likely to be normal over the longer run.",
+     "start": 30666,
+     "end": 30803
+    },
+    {
+     "quote": "Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced.",
+     "start": 26445,
+     "end": 26547
+    },
+    {
+     "quote": "Members generally judged that it would be prudent to await additional evidence indicating that the recent slowing in the pace of economic activity had been transitory before taking another step in removing accommodation.",
+     "start": 41520,
+     "end": 41739
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

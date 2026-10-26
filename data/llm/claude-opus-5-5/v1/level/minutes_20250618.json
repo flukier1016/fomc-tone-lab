@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20250618",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20250618",
+  "doc_type": "minutes",
+  "text_sha256": "4b4525e46292f6f98b8c0a61a81d69d242fd96f3359e2a2457b9bda6459b5600"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "23c47a703a757435ffa59b63e5ea9084345e563a6eb277f2e89d480320fc47ba",
+ "message_id": "msg_011CgFugCeXJ9GrkgoTM1Z4j",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10806,
+  "output_tokens": 535,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants assessed that some reduction in the target range for the federal funds rate this year would likely be appropriate\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants saw the most likely appropriate path of monetary policy as involving no reductions in the target range for the federal funds rate this year\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"most participants noted the risk that tariffs could have more persistent effects on inflation\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants judged that conditions remained solid and that the labor market was at, or near, estimates of maximum employment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants agreed that the risks of higher inflation and weaker labor market conditions had diminished but remained elevated\"},{\"dimension\":\"overall\",\"quote\":\"the Committee was well positioned to wait for more clarity on the outlook for inflation and economic activity.\"}],\"rationale\":\"Most participants anticipate cuts this year, and a couple are open to cutting as soon as July, which leans dovish. This is offset by persistent tariff-inflation concerns, a solid labor market, and a patient wait-and-see stance, leaving the net signal near neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants assessed that some reduction in the target range for the federal funds rate this year would likely be appropriate"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants saw the most likely appropriate path of monetary policy as involving no reductions in the target range for the federal funds rate this year"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "most participants noted the risk that tariffs could have more persistent effects on inflation"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants judged that conditions remained solid and that the labor market was at, or near, estimates of maximum employment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants agreed that the risks of higher inflation and weaker labor market conditions had diminished but remained elevated"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Committee was well positioned to wait for more clarity on the outlook for inflation and economic activity."
+   }
+  ],
+  "rationale": "Most participants anticipate cuts this year, and a couple are open to cutting as soon as July, which leans dovish. This is offset by persistent tariff-inflation concerns, a solid labor market, and a patient wait-and-see stance, leaving the net signal near neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants assessed that some reduction in the target range for the federal funds rate this year would likely be appropriate",
+     "start": 26460,
+     "end": 26591
+    },
+    {
+     "quote": "Some participants saw the most likely appropriate path of monetary policy as involving no reductions in the target range for the federal funds rate this year",
+     "start": 27047,
+     "end": 27204
+    },
+    {
+     "quote": "most participants noted the risk that tariffs could have more persistent effects on inflation",
+     "start": 21448,
+     "end": 21541
+    },
+    {
+     "quote": "participants judged that conditions remained solid and that the labor market was at, or near, estimates of maximum employment.",
+     "start": 21894,
+     "end": 22019
+    },
+    {
+     "quote": "participants agreed that the risks of higher inflation and weaker labor market conditions had diminished but remained elevated",
+     "start": 29029,
+     "end": 29155
+    },
+    {
+     "quote": "the Committee was well positioned to wait for more clarity on the outlook for inflation and economic activity.",
+     "start": 26209,
+     "end": 26318
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20250403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250403a",
+  "doc_type": "speech",
+  "text_sha256": "e86a8300664e81feff7db8642affcc0a1fa4aee1e7193bd3e19707f923e1dd03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9e5ffa30f1bf2c07a09a8d07ba3f5f9752bc0e45b406f2e3608f39d00197a120",
+ "message_id": "msg_011CgFugDQfN2EDFzLMx8Fe7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5369,
+  "output_tokens": 526,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In my view, there is no need to be in a hurry to make further policy rate adjustments.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If the labor market were to weaken unexpectedly or inflation were to fall more quickly than anticipated, policy could be eased accordingly.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"While inflation is well down from its recent peak, the latest data have largely shown it moving sideways.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Growth has remained solid so far but has started to show some signs of slowing.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If uncertainty persists or worsens, economic activity may be constrained.\"},{\"dimension\":\"overall\",\"quote\":\"The current policy stance is well positioned to deal with the risks and uncertainties that we face in pursuing both sides of our dual mandate.\"}],\"rationale\":\"The speaker favors holding a moderately restrictive rate with no hurry to cut, noting stalled inflation progress and tariff-driven inflation expectations. She balances this against signs of slowing growth and possible labor softening, with easing contingent on data, yielding a roughly neutral, slightly hawkish-leaning stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my view, there is no need to be in a hurry to make further policy rate adjustments."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the labor market were to weaken unexpectedly or inflation were to fall more quickly than anticipated, policy could be eased accordingly."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "While inflation is well down from its recent peak, the latest data have largely shown it moving sideways."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Growth has remained solid so far but has started to show some signs of slowing."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If uncertainty persists or worsens, economic activity may be constrained."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The current policy stance is well positioned to deal with the risks and uncertainties that we face in pursuing both sides of our dual mandate."
+   }
+  ],
+  "rationale": "The speaker favors holding a moderately restrictive rate with no hurry to cut, noting stalled inflation progress and tariff-driven inflation expectations. She balances this against signs of slowing growth and possible labor softening, with easing contingent on data, yielding a roughly neutral, slightly hawkish-leaning stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, there is no need to be in a hurry to make further policy rate adjustments.",
+     "start": 16740,
+     "end": 16825
+    },
+    {
+     "quote": "If the labor market were to weaken unexpectedly or inflation were to fall more quickly than anticipated, policy could be eased accordingly.",
+     "start": 16600,
+     "end": 16738
+    },
+    {
+     "quote": "While inflation is well down from its recent peak, the latest data have largely shown it moving sideways.",
+     "start": 13024,
+     "end": 13128
+    },
+    {
+     "quote": "Growth has remained solid so far but has started to show some signs of slowing.",
+     "start": 15345,
+     "end": 15423
+    },
+    {
+     "quote": "If uncertainty persists or worsens, economic activity may be constrained.",
+     "start": 10139,
+     "end": 10211
+    },
+    {
+     "quote": "The current policy stance is well positioned to deal with the risks and uncertainties that we face in pursuing both sides of our dual mandate.",
+     "start": 16827,
+     "end": 16968
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

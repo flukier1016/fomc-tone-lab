@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20260617",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20260617",
+  "doc_type": "minutes",
+  "text_sha256": "5802abc3008452bcb123c29896fc33b46778b907efce2562d4fce8d7aa0a436b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4acd91a549565e9a42f1fc9db0d1772daa68ccff19be4bef90e79bdd4e073578",
+ "message_id": "msg_011CgFug9dwcWZDdK8DbF1vE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8765,
+  "output_tokens": 611,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Members also agreed that the statement would not repeat the language that had suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Many other participants, however, assessed that the appropriate level of the federal funds rate would be above the current target range at the end of this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally assessed that information received over the intermeeting period suggested that upside risks to price stability remained elevated while downside risks to achieving maximum employment had moderated a bit.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants generally noted that inflation had increased further and remained well above the Committee's 2 percent longer-run objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending.\"},{\"dimension\":\"overall\",\"quote\":\"A few participants commented that, in light of these developments, there was a case for raising the target range for the federal funds rate\"}],\"rationale\":\"The minutes describe rising, broadening inflation with upside risks, solid growth, removal of the easing bias, and many participants seeing rates above the current range by year-end, with a few favoring a hike. Offsetting this, many participants still saw rates at or below the current range, so the lean is clearly hawkish but not an explicit tightening signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members also agreed that the statement would not repeat the language that had suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many other participants, however, assessed that the appropriate level of the federal funds rate would be above the current target range at the end of this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally assessed that information received over the intermeeting period suggested that upside risks to price stability remained elevated while downside risks to achieving maximum employment had moderated a bit."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants generally noted that inflation had increased further and remained well above the Committee's 2 percent longer-run objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A few participants commented that, in light of these developments, there was a case for raising the target range for the federal funds rate"
+   }
+  ],
+  "rationale": "The minutes describe rising, broadening inflation with upside risks, solid growth, removal of the easing bias, and many participants seeing rates above the current range by year-end, with a few favoring a hike. Offsetting this, many participants still saw rates at or below the current range, so the lean is clearly hawkish but not an explicit tightening signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members also agreed that the statement would not repeat the language that had suggested an easing bias regarding the likely direction of the Committee's future interest rate decisions.",
+     "start": 26179,
+     "end": 26362
+    },
+    {
+     "quote": "Many other participants, however, assessed that the appropriate level of the federal funds rate would be above the current target range at the end of this year.",
+     "start": 24846,
+     "end": 25005
+    },
+    {
+     "quote": "Participants generally assessed that information received over the intermeeting period suggested that upside risks to price stability remained elevated while downside risks to achieving maximum employment had moderated a bit.",
+     "start": 22940,
+     "end": 23164
+    },
+    {
+     "quote": "Participants generally noted that inflation had increased further and remained well above the Committee's 2 percent longer-run objective.",
+     "start": 15374,
+     "end": 15510
+    },
+    {
+     "quote": "Participants generally observed that economic activity had continued to expand at a solid pace, despite elevated uncertainty, supported by strong business investment and resilient consumer spending.",
+     "start": 20469,
+     "end": 20666
+    },
+    {
+     "quote": "A few participants commented that, in light of these developments, there was a case for raising the target range for the federal funds rate",
+     "start": 23166,
+     "end": 23305
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

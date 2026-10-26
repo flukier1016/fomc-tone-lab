@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20190325a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20190325a",
+  "doc_type": "speech",
+  "text_sha256": "1acea5fdb489d09ba4a1e449ec854799a0107890627ba2f675ceb642730bd14d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "593f41bdcdf72b02fd328301702d2c3d2515d2e45bbe2f57246e8d32ec7eb6a2",
+ "message_id": "msg_011CgFugC62v6up5uo9NCUxx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2642,
+  "output_tokens": 368,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"rural unemployment has recovered and is now 1 percentage point below pre-recession levels.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Current conditions in agriculture appear to be stable, though at a low level of income, following sharp declines for several years from the peak in 2013.\"},{\"dimension\":\"overall\",\"quote\":\"Although the increase in problem loans associated with lower incomes has been modest, the Federal Reserve is monitoring the risk that has emerged in recent years.\"}],\"rationale\":\"This welcome speech at an agricultural credit conference focuses on rural communities and farm finance and takes no view on monetary policy. Its mixed description of rural and farm conditions is balanced, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "rural unemployment has recovered and is now 1 percentage point below pre-recession levels."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Current conditions in agriculture appear to be stable, though at a low level of income, following sharp declines for several years from the peak in 2013."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Although the increase in problem loans associated with lower incomes has been modest, the Federal Reserve is monitoring the risk that has emerged in recent years."
+   }
+  ],
+  "rationale": "This welcome speech at an agricultural credit conference focuses on rural communities and farm finance and takes no view on monetary policy. Its mixed description of rural and farm conditions is balanced, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "rural unemployment has recovered and is now 1 percentage point below pre-recession levels.",
+     "start": 5080,
+     "end": 5169
+    },
+    {
+     "quote": "Current conditions in agriculture appear to be stable, though at a low level of income, following sharp declines for several years from the peak in 2013.",
+     "start": 6255,
+     "end": 6407
+    },
+    {
+     "quote": "Although the increase in problem loans associated with lower incomes has been modest, the Federal Reserve is monitoring the risk that has emerged in recent years.",
+     "start": 7002,
+     "end": 7163
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

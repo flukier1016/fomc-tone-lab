@@ -1,0 +1,112 @@
+{
+ "key": "statement_20231213",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20231213",
+  "doc_type": "statement",
+  "text_sha256": "cb3c2936c31a2865e4e7158ec2c5a111c635452560af8816ac18c2076baff268"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "039a55f87160ee01a8f8b70a669dee38087e86db04d34c1bd5a0521bfbb2eadc",
+ "message_id": "msg_011CgFugFAL5o9n6GAeEM17K",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 769,
+  "output_tokens": 472,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has eased over the past year but remains elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The statement holds rates steady and keeps a mild tightening bias. That bias is softened by the slowing growth language, the acknowledgment that inflation has eased, and the phrase 'the extent of any additional policy firming', making the net signal roughly neutral with a slight hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has eased over the past year but remains elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The statement holds rates steady and keeps a mild tightening bias. That bias is softened by the slowing growth language, the acknowledgment that inflation has eased, and the phrase 'the extent of any additional policy firming', making the net signal roughly neutral with a slight hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent",
+     "start": 716,
+     "end": 819
+    },
+    {
+     "quote": "In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time",
+     "start": 924,
+     "end": 1049
+    },
+    {
+     "quote": "Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter.",
+     "start": 0,
+     "end": 111
+    },
+    {
+     "quote": "Inflation has eased over the past year but remains elevated.",
+     "start": 227,
+     "end": 286
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+     "start": 1265,
+     "end": 1391
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20170303a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20170303a",
+  "doc_type": "speech",
+  "text_sha256": "21222e0d1cf74df35415cf279111f49a8febafab65aa3de5a30092be67cddf10"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "280bc3d16c5a3729c9bdcf64a5401f7f709933efe85eaf10f522ba5a08fe0760",
+ "message_id": "msg_011CgFugAUJR6SsoRgEdYM5c",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7422,
+  "output_tokens": 612,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"at our meeting later this month, the Committee will evaluate whether employment and inflation are continuing to evolve in line with our expectations, in which case a further adjustment of the federal funds rate would likely be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the process of scaling back accommodation likely will not be as slow as it was in 2015 and 2016.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy has essentially met the employment portion of our mandate and inflation is moving closer to our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee currently assesses that the risks to the outlook are roughly balanced.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Core PCE inflation--which excludes volatile energy and food prices and, therefore, tends to be a better indicator of future inflation--has been running near 1-3/4 percent.\"},{\"dimension\":\"overall\",\"quote\":\"I currently see no evidence that the Federal Reserve has fallen behind the curve, and I therefore continue to have confidence in our judgment that a gradual removal of accommodation is likely to be appropriate.\"}],\"rationale\":\"The speech signals a likely rate hike at the upcoming meeting and a faster pace of removing accommodation than in 2015-16, citing a labor market at maximum employment. It tempers this with gradualism, balanced risks, and an assessment that inflation is still somewhat below target and not behind the curve.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "at our meeting later this month, the Committee will evaluate whether employment and inflation are continuing to evolve in line with our expectations, in which case a further adjustment of the federal funds rate would likely be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the process of scaling back accommodation likely will not be as slow as it was in 2015 and 2016."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy has essentially met the employment portion of our mandate and inflation is moving closer to our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee currently assesses that the risks to the outlook are roughly balanced."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Core PCE inflation--which excludes volatile energy and food prices and, therefore, tends to be a better indicator of future inflation--has been running near 1-3/4 percent."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I currently see no evidence that the Federal Reserve has fallen behind the curve, and I therefore continue to have confidence in our judgment that a gradual removal of accommodation is likely to be appropriate."
+   }
+  ],
+  "rationale": "The speech signals a likely rate hike at the upcoming meeting and a faster pace of removing accommodation than in 2015-16, citing a labor market at maximum employment. It tempers this with gradualism, balanced risks, and an assessment that inflation is still somewhat below target and not behind the curve."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "at our meeting later this month, the Committee will evaluate whether employment and inflation are continuing to evolve in line with our expectations, in which case a further adjustment of the federal funds rate would likely be appropriate.",
+     "start": 20608,
+     "end": 20846
+    },
+    {
+     "quote": "the process of scaling back accommodation likely will not be as slow as it was in 2015 and 2016.",
+     "start": 1685,
+     "end": 1780
+    },
+    {
+     "quote": "The economy has essentially met the employment portion of our mandate and inflation is moving closer to our 2 percent objective.",
+     "start": 23215,
+     "end": 23342
+    },
+    {
+     "quote": "The Committee currently assesses that the risks to the outlook are roughly balanced.",
+     "start": 18578,
+     "end": 18661
+    },
+    {
+     "quote": "Core PCE inflation--which excludes volatile energy and food prices and, therefore, tends to be a better indicator of future inflation--has been running near 1-3/4 percent.",
+     "start": 19054,
+     "end": 19224
+    },
+    {
+     "quote": "I currently see no evidence that the Federal Reserve has fallen behind the curve, and I therefore continue to have confidence in our judgment that a gradual removal of accommodation is likely to be appropriate.",
+     "start": 24077,
+     "end": 24286
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

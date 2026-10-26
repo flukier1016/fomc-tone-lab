@@ -1,0 +1,121 @@
+{
+ "key": "statement_20221102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20221102",
+  "doc_type": "statement",
+  "text_sha256": "7bbc0604d0692f0d716bc21f9681d4eb114b0df724a6eccd17f2a62ffe347542"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b51b8074108486d0347fa459c6f43aca6baedac56a782b5ad853974c634d661a",
+ "message_id": "msg_011CgFugDeJJjpibeCWqAZDS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 797,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee is highly attentive to inflation risks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The statement announces a large rate increase and signals ongoing increases, with forceful concern about inflation and continued balance sheet runoff. The new reference to cumulative tightening and policy lags slightly tempers the pace guidance, so forward guidance is moderately rather than maximally hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee is highly attentive to inflation risks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The statement announces a large rate increase and signals ongoing increases, with forceful concern about inflation and continued balance sheet runoff. The new reference to cumulative tightening and policy lags slightly tempers the pace guidance, so forward guidance is moderately rather than maximally hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent",
+     "start": 710,
+     "end": 806
+    },
+    {
+     "quote": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+     "start": 808,
+     "end": 1019
+    },
+    {
+     "quote": "the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments",
+     "start": 1086,
+     "end": 1285
+    },
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+     "start": 158,
+     "end": 309
+    },
+    {
+     "quote": "The Committee is highly attentive to inflation risks.",
+     "start": 518,
+     "end": 570
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+     "start": 1300,
+     "end": 1426
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

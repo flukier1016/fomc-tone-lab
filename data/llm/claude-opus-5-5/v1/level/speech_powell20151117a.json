@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20151117a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20151117a",
+  "doc_type": "speech",
+  "text_sha256": "6377ae17638f186d7d6a98e0dafdcb2e3d28c61353a324c586177a60a856d1c6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4ed4535107221308c2aa2da184694d235b444a9cc11814878c1bfd038e2eebf4",
+ "message_id": "msg_011CgFugAHtEoT6Jidd4y4xu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5122,
+  "output_tokens": 388,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I'll start by reviewing the progress made in strengthening central counterparty (or CCP) clearing, and then offer some thoughts on expanded central clearing for repurchase agreement (or repo) markets--an area of significant current interest.\"},{\"dimension\":\"overall\",\"quote\":\"I am a believer in the potential benefits of central clearing under the right circumstances. But central clearing is not a panacea.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, clearing should be limited to those assets that are highly liquid and expected to remain so even in severely stressed market conditions.\"}],\"rationale\":\"The speech addresses financial market infrastructure, CCP regulation, and repo clearing, with no discussion of the monetary policy stance, inflation, or economic activity. It carries no policy signal, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I'll start by reviewing the progress made in strengthening central counterparty (or CCP) clearing, and then offer some thoughts on expanded central clearing for repurchase agreement (or repo) markets--an area of significant current interest."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I am a believer in the potential benefits of central clearing under the right circumstances. But central clearing is not a panacea."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, clearing should be limited to those assets that are highly liquid and expected to remain so even in severely stressed market conditions."
+   }
+  ],
+  "rationale": "The speech addresses financial market infrastructure, CCP regulation, and repo clearing, with no discussion of the monetary policy stance, inflation, or economic activity. It carries no policy signal, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I'll start by reviewing the progress made in strengthening central counterparty (or CCP) clearing, and then offer some thoughts on expanded central clearing for repurchase agreement (or repo) markets--an area of significant current interest.",
+     "start": 222,
+     "end": 462
+    },
+    {
+     "quote": "I am a believer in the potential benefits of central clearing under the right circumstances. But central clearing is not a panacea.",
+     "start": 1090,
+     "end": 1220
+    },
+    {
+     "quote": "In my view, clearing should be limited to those assets that are highly liquid and expected to remain so even in severely stressed market conditions.",
+     "start": 16343,
+     "end": 16490
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

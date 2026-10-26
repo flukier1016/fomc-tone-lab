@@ -1,0 +1,52 @@
+{
+ "key": "statement_20221102",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20221102",
+  "release_date": "2022-11-02"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d77de10baea83de5b734d321ad77ca4f794d0089e19486004a2e4fc12c8402f9",
+ "message_id": "msg_011CgFudVTDvX7cdSek3eaeG",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1181,
+  "output_tokens": 789,
+  "output_tokens_details": {
+   "thinking_tokens": 512
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2022,\"month\":11,\"confidence\":0.5,\"cues\":[\"The language on 'cumulative tightening of monetary policy' and 'the lags with which monetary policy affects economic activity' first appeared in November 2022.\",\"The phrase 'ongoing increases in the target range' and the 'sufficiently restrictive' wording match the late-2022 statements, before the shift to 'pace of future increases' in 2023.\",\"The reference to the balance-sheet reduction plans 'issued in May' points to 2022.\",\"The paragraph on Russia's war against Ukraine fits 2022.\",\"Lael Brainard appears as a voter, so the meeting is before her February 2023 departure.\",\"'Modest growth in spending and production' and 'job gains have been robust' fit both the November and December 2022 statements; I chose November with moderate confidence.\"]}",
+ "parsed": {
+  "year": 2022,
+  "month": 11,
+  "confidence": 0.5,
+  "cues": [
+   "The language on 'cumulative tightening of monetary policy' and 'the lags with which monetary policy affects economic activity' first appeared in November 2022.",
+   "The phrase 'ongoing increases in the target range' and the 'sufficiently restrictive' wording match the late-2022 statements, before the shift to 'pace of future increases' in 2023.",
+   "The reference to the balance-sheet reduction plans 'issued in May' points to 2022.",
+   "The paragraph on Russia's war against Ukraine fits 2022.",
+   "Lael Brainard appears as a voter, so the meeting is before her February 2023 departure.",
+   "'Modest growth in spending and production' and 'job gains have been robust' fit both the November and December 2022 statements; I chose November with moderate confidence."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

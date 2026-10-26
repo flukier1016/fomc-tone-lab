@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20240521a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240521a",
+  "doc_type": "speech",
+  "text_sha256": "b2b9d477053a42159525e23d055f6c1d18213e3edeaa2e1181fa5ef0b7ddd75f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "efe9c484c8e17597515da1d2e68495b7c2f71dd1b68b85021dcbe38e74ee3738",
+ "message_id": "msg_011CgFugAeiKeMimFFG37iRC",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4189,
+  "output_tokens": 496,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that further increases in the policy rate are probably unnecessary.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"in the absence of a significant weakening in the labor market, I need to see several more months of good inflation data before I would be comfortable supporting an easing in the stance of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"If I were still a professor and had to assign a grade to this inflation report, it would be a C+—far from failing but not stellar either.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"One month does not constitute a trend, but this data suggests that policy is doing its job to moderate aggregate demand, which will support renewed progress in lowering inflation.\"},{\"dimension\":\"overall\",\"quote\":\"With the labor market as strong as it is, my focus remains bringing inflation down toward the FOMC's 2 percent goal.\"}],\"rationale\":\"The speaker rules out hikes but insists on several more months of good inflation data before any easing, judging April's progress as small, a moderately hawkish hold. Activity and labor are described as moderating but still strong, a roughly balanced assessment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that further increases in the policy rate are probably unnecessary."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "in the absence of a significant weakening in the labor market, I need to see several more months of good inflation data before I would be comfortable supporting an easing in the stance of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "If I were still a professor and had to assign a grade to this inflation report, it would be a C+—far from failing but not stellar either."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "One month does not constitute a trend, but this data suggests that policy is doing its job to moderate aggregate demand, which will support renewed progress in lowering inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With the labor market as strong as it is, my focus remains bringing inflation down toward the FOMC's 2 percent goal."
+   }
+  ],
+  "rationale": "The speaker rules out hikes but insists on several more months of good inflation data before any easing, judging April's progress as small, a moderately hawkish hold. Activity and labor are described as moderating but still strong, a roughly balanced assessment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that further increases in the policy rate are probably unnecessary.",
+     "start": 1748,
+     "end": 1824
+    },
+    {
+     "quote": "in the absence of a significant weakening in the labor market, I need to see several more months of good inflation data before I would be comfortable supporting an easing in the stance of monetary policy.",
+     "start": 13204,
+     "end": 13407
+    },
+    {
+     "quote": "If I were still a professor and had to assign a grade to this inflation report, it would be a C+—far from failing but not stellar either.",
+     "start": 7103,
+     "end": 7239
+    },
+    {
+     "quote": "One month does not constitute a trend, but this data suggests that policy is doing its job to moderate aggregate demand, which will support renewed progress in lowering inflation.",
+     "start": 4475,
+     "end": 4653
+    },
+    {
+     "quote": "With the labor market as strong as it is, my focus remains bringing inflation down toward the FOMC's 2 percent goal.",
+     "start": 12581,
+     "end": 12696
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

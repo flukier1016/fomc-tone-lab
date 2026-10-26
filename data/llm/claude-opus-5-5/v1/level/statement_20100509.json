@@ -1,0 +1,103 @@
+{
+ "key": "statement_20100509",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20100509",
+  "doc_type": "statement",
+  "text_sha256": "bb24804c936f8c48cb50a04e3ae7ecefc1fce233ebae2e0a2c79b329ccc713fc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b84620ca609b6d12cbe6635534888919456fc2a84c67ed4cdaaba0c09d812e9b",
+ "message_id": "msg_011CgFugBeVNydE4ne48X75Q",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 693,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":-1,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities\"},{\"dimension\":\"risk_balance\",\"quote\":\"In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe\"},{\"dimension\":\"balance_sheet\",\"quote\":\"capacity to conduct tenders of U.S. dollars in their local markets at fixed rates for full allotment\"},{\"dimension\":\"risk_balance\",\"quote\":\"to prevent the spread of strains to other markets and financial centers\"}],\"rationale\":\"The reestablished dollar swap lines are a liquidity-easing action that can expand the balance sheet, taken in response to financial strains, which gives a mild dovish lean. The statement says nothing about rates, inflation, or economic activity.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": -1,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "capacity to conduct tenders of U.S. dollars in their local markets at fixed rates for full allotment"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "to prevent the spread of strains to other markets and financial centers"
+   }
+  ],
+  "rationale": "The reestablished dollar swap lines are a liquidity-easing action that can expand the balance sheet, taken in response to financial strains, which gives a mild dovish lean. The statement says nothing about rates, inflation, or economic activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities",
+     "start": 432,
+     "end": 517
+    },
+    {
+     "quote": "In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe",
+     "start": 220,
+     "end": 313
+    },
+    {
+     "quote": "capacity to conduct tenders of U.S. dollars in their local markets at fixed rates for full allotment",
+     "start": 1219,
+     "end": 1319
+    },
+    {
+     "quote": "to prevent the spread of strains to other markets and financial centers",
+     "start": 621,
+     "end": 692
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

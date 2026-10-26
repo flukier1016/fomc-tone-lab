@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20200714a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200714a",
+  "doc_type": "speech",
+  "text_sha256": "8335db08c5d2e4c189efe63e2f2a33e9c34817ee0c233967da4d5f98fdd46671"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "927704d8039f62466e9986ab2a37fc7ed3255da67a8893f50700073da8d3bce9",
+ "message_id": "msg_011CgFugCCyhcvN1Jp9aJ7QD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4260,
+  "output_tokens": 584,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"A thick fog of uncertainty still surrounds us, and downside risks predominate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"research suggests that refraining from liftoff until inflation reaches 2 percent could lead to some modest temporary overshooting, which would help offset the previous underperformance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation has receded further below its 2 percent objective—reflecting weaker demand along with lower oil prices in recent months.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"policy should not preemptively withdraw support based on a historically steeper Phillips curve that is not currently in evidence.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Balance sheet policies can help extend accommodation by more directly influencing the interest rates that are relevant for household and business borrowing and investment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"It is unclear whether the rapid pace of labor market recovery will be sustained going forward, and risks are to the downside.\"}],\"rationale\":\"The speaker calls for pivoting to accommodation, delaying liftoff until inflation reaches 2 percent with tolerance for overshooting, and possibly adding yield curve targets, while stressing predominant downside risks. Inflation is described as well below target with risk of falling expectations, and labor gains are framed as fragile.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "A thick fog of uncertainty still surrounds us, and downside risks predominate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "research suggests that refraining from liftoff until inflation reaches 2 percent could lead to some modest temporary overshooting, which would help offset the previous underperformance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation has receded further below its 2 percent objective—reflecting weaker demand along with lower oil prices in recent months."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "policy should not preemptively withdraw support based on a historically steeper Phillips curve that is not currently in evidence."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Balance sheet policies can help extend accommodation by more directly influencing the interest rates that are relevant for household and business borrowing and investment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "It is unclear whether the rapid pace of labor market recovery will be sustained going forward, and risks are to the downside."
+   }
+  ],
+  "rationale": "The speaker calls for pivoting to accommodation, delaying liftoff until inflation reaches 2 percent with tolerance for overshooting, and possibly adding yield curve targets, while stressing predominant downside risks. Inflation is described as well below target with risk of falling expectations, and labor gains are framed as fragile."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A thick fog of uncertainty still surrounds us, and downside risks predominate.",
+     "start": 346,
+     "end": 423
+    },
+    {
+     "quote": "research suggests that refraining from liftoff until inflation reaches 2 percent could lead to some modest temporary overshooting, which would help offset the previous underperformance.",
+     "start": 12800,
+     "end": 12984
+    },
+    {
+     "quote": "inflation has receded further below its 2 percent objective—reflecting weaker demand along with lower oil prices in recent months.",
+     "start": 5265,
+     "end": 5394
+    },
+    {
+     "quote": "policy should not preemptively withdraw support based on a historically steeper Phillips curve that is not currently in evidence.",
+     "start": 12359,
+     "end": 12487
+    },
+    {
+     "quote": "Balance sheet policies can help extend accommodation by more directly influencing the interest rates that are relevant for household and business borrowing and investment.",
+     "start": 12989,
+     "end": 13159
+    },
+    {
+     "quote": "It is unclear whether the rapid pace of labor market recovery will be sustained going forward, and risks are to the downside.",
+     "start": 3651,
+     "end": 3775
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

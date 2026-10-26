@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20190308a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20190308a",
+  "doc_type": "speech",
+  "text_sha256": "b86a2f30410c8a9b2aec3bd6c7d34394362aeb6c9f1a7cb3dc516f242efab406"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "efc380ee4ebedee852c9fb2b88afb1f51a99073a4e12b020588c75f2266171b7",
+ "message_id": "msg_011CgFug9THDDbXX2bdkaS3h",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6263,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee has adopted a patient, wait-and-see approach to considering any alteration in the stance of policy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is now well along in our discussions of a plan to conclude balance sheet runoff later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation will probably run a bit below our objective for a time due to declines in energy prices, but those effects are likely to prove transitory.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Right now, most measures of the health and strength of the labor market look as favorable as they have in many decades.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Despite this favorable picture, we have seen some cross-currents in recent months.\"},{\"dimension\":\"overall\",\"quote\":\"With nothing in the outlook demanding an immediate policy response and particularly given muted inflation pressures\"}],\"rationale\":\"The Chair signals patience on rates, muted inflation pressures, cross-currents, and an earlier end to balance sheet runoff, all leaning dovish despite a strong labor market. The discussion of makeup strategies to counter low inflation adds a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee has adopted a patient, wait-and-see approach to considering any alteration in the stance of policy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is now well along in our discussions of a plan to conclude balance sheet runoff later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation will probably run a bit below our objective for a time due to declines in energy prices, but those effects are likely to prove transitory."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Right now, most measures of the health and strength of the labor market look as favorable as they have in many decades."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Despite this favorable picture, we have seen some cross-currents in recent months."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With nothing in the outlook demanding an immediate policy response and particularly given muted inflation pressures"
+   }
+  ],
+  "rationale": "The Chair signals patience on rates, muted inflation pressures, cross-currents, and an earlier end to balance sheet runoff, all leaning dovish despite a strong labor market. The discussion of makeup strategies to counter low inflation adds a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee has adopted a patient, wait-and-see approach to considering any alteration in the stance of policy.",
+     "start": 20536,
+     "end": 20648
+    },
+    {
+     "quote": "The Committee is now well along in our discussions of a plan to conclude balance sheet runoff later this year.",
+     "start": 7591,
+     "end": 7700
+    },
+    {
+     "quote": "Inflation will probably run a bit below our objective for a time due to declines in energy prices, but those effects are likely to prove transitory.",
+     "start": 20066,
+     "end": 20213
+    },
+    {
+     "quote": "Right now, most measures of the health and strength of the labor market look as favorable as they have in many decades.",
+     "start": 19946,
+     "end": 20064
+    },
+    {
+     "quote": "Despite this favorable picture, we have seen some cross-currents in recent months.",
+     "start": 20336,
+     "end": 20417
+    },
+    {
+     "quote": "With nothing in the outlook demanding an immediate policy response and particularly given muted inflation pressures",
+     "start": 20419,
+     "end": 20534
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

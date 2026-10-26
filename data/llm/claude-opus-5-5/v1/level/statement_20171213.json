@@ -1,0 +1,112 @@
+{
+ "key": "statement_20171213",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20171213",
+  "doc_type": "statement",
+  "text_sha256": "ddcfbcb72b22dce40e61216b80afa23263c13e415bf913a5d3bb134fd022d3bf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7dbc4c33fd88eb577e12cdd01d52617b5ab8602a9ab78172ac41cd2c060db333",
+ "message_id": "msg_011CgFug8oqbV1oUPQM4aWME",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1003,
+  "output_tokens": 456,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"both overall inflation and inflation for items other than food and energy have declined this year and are running below 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and that economic activity has been rising at a solid rate\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely.\"}],\"rationale\":\"The Committee raised rates and signaled further gradual increases, citing a strengthening labor market and solid growth. Below-target inflation and two dissents favoring no change temper the hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "both overall inflation and inflation for items other than food and energy have declined this year and are running below 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely."
+   }
+  ],
+  "rationale": "The Committee raised rates and signaled further gradual increases, citing a strengthening labor market and solid growth. Below-target inflation and two dissents favoring no change temper the hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent",
+     "start": 1643,
+     "end": 1743
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate",
+     "start": 2500,
+     "end": 2632
+    },
+    {
+     "quote": "both overall inflation and inflation for items other than food and energy have declined this year and are running below 2 percent",
+     "start": 471,
+     "end": 600
+    },
+    {
+     "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate",
+     "start": 92,
+     "end": 195
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely.",
+     "start": 1441,
+     "end": 1568
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

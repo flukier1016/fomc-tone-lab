@@ -1,0 +1,159 @@
+{
+ "key": "statement_20260617",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20260617",
+  "previous_doc_id": "statement_20260429",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "038bb4982391ed3ec094bd41273157336b99717a51e4266c85d6e7682efe1e15",
+ "message_id": "msg_011CgFudUZtpnFMMFM8ziXGU",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1003,
+  "output_tokens": 766,
+  "output_tokens_details": {
+   "thinking_tokens": 150
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\",\"after\":\"\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee will deliver price stability.\",\"direction\":\"hawkish\"},{\"before\":\"Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.\",\"after\":\"Job gains have kept pace with the workforce, and the unemployment rate has changed little.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Productivity growth and capital investment are strong.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation is elevated, in part reflecting the recent increase in global energy prices.\",\"after\":\"Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.\",\"direction\":\"neutral\"},{\"before\":\"The Committee is attentive to the risks to both sides of its dual mandate.\",\"after\":\"\",\"direction\":\"hawkish\"},{\"before\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.\",\"after\":\"The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee reaffirmed its policy of maintaining ample reserves in the banking system.\",\"direction\":\"neutral\"}],\"rationale\":\"x\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+    "after": "",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will deliver price stability.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.",
+    "after": "Job gains have kept pace with the workforce, and the unemployment rate has changed little.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Productivity growth and capital investment are strong.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation is elevated, in part reflecting the recent increase in global energy prices.",
+    "after": "Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee is attentive to the risks to both sides of its dual mandate.",
+    "after": "",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.",
+    "after": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee reaffirmed its policy of maintaining ample reserves in the banking system.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "x"
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 706,
+     "end": 914
+    },
+    {
+     "quote": "Job gains have remained low, on average, and the unemployment rate has been little changed in recent months.",
+     "start": 85,
+     "end": 192
+    },
+    {
+     "quote": "Inflation is elevated, in part reflecting the recent increase in global energy prices.",
+     "start": 194,
+     "end": 279
+    },
+    {
+     "quote": "The Committee is attentive to the risks to both sides of its dual mandate.",
+     "start": 500,
+     "end": 573
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting; and Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.",
+     "start": 1795,
+     "end": 2156
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee will deliver price stability.",
+     "start": 797,
+     "end": 839
+    },
+    {
+     "quote": "Job gains have kept pace with the workforce, and the unemployment rate has changed little.",
+     "start": 530,
+     "end": 619
+    },
+    {
+     "quote": "Productivity growth and capital investment are strong.",
+     "start": 475,
+     "end": 528
+    },
+    {
+     "quote": "Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.",
+     "start": 622,
+     "end": 795
+    },
+    {
+     "quote": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:",
+     "start": 0,
+     "end": 95
+    },
+    {
+     "quote": "The Committee reaffirmed its policy of maintaining ample reserves in the banking system.",
+     "start": 253,
+     "end": 340
+    }
+   ]
+  }
+ }
+}

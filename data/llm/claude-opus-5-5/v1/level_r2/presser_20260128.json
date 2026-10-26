@@ -1,0 +1,121 @@
+{
+ "key": "presser_20260128",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20260128",
+  "doc_type": "presser",
+  "text_sha256": "dbaf799960c3976894e087824f80d9204c60b063aa7f768cddb6182ba242a7b8"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a94464ac5f16c9ececa2de8f8bf09c709fbc1433c769e90d2c95570653013815",
+ "message_id": "msg_011CgG27kmCZcGWwLUoNiC2Q",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 9879,
+  "output_tokens": 584,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we do think we’re well positioned after those three cuts to let the data speak to us.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it isn’t anybody’s base case right now—anybody’s base case—that the next move will be a rate hike.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In addition, the outlook for economic activity has improved—clearly improved—since the last meeting, and that should matter for labor demand and for employment over time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I think that the upside risks to inflation and the downside risks to employment have probably both diminished a bit, so we’ll be looking at that.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"which is one of the reasons why we need to keep our eye on inflation and not declare victory prematurely.\"}],\"rationale\":\"The Fed paused after 75 bp of cuts, citing improved growth and stabilizing labor markets, removed language on rising downside employment risks, and signaled patience, while still describing possible future loosening as tariff inflation peaks. Risks are framed as balanced, and inflation as elevated but largely tariff-driven, so the net signal is a neutral pause with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we do think we’re well positioned after those three cuts to let the data speak to us."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it isn’t anybody’s base case right now—anybody’s base case—that the next move will be a rate hike."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In addition, the outlook for economic activity has improved—clearly improved—since the last meeting, and that should matter for labor demand and for employment over time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I think that the upside risks to inflation and the downside risks to employment have probably both diminished a bit, so we’ll be looking at that."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "which is one of the reasons why we need to keep our eye on inflation and not declare victory prematurely."
+   }
+  ],
+  "rationale": "The Fed paused after 75 bp of cuts, citing improved growth and stabilizing labor markets, removed language on rising downside employment risks, and signaled patience, while still describing possible future loosening as tariff inflation peaks. Risks are framed as balanced, and inflation as elevated but largely tariff-driven, so the net signal is a neutral pause with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 3½ to 3¾ percent.",
+     "start": 2970,
+     "end": 3087
+    },
+    {
+     "quote": "we do think we’re well positioned after those three cuts to let the data speak to us.",
+     "start": 9461,
+     "end": 9545
+    },
+    {
+     "quote": "it isn’t anybody’s base case right now—anybody’s base case—that the next move will be a rate hike.",
+     "start": 14237,
+     "end": 14334
+    },
+    {
+     "quote": "In addition, the outlook for economic activity has improved—clearly improved—since the last meeting, and that should matter for labor demand and for employment over time.",
+     "start": 5497,
+     "end": 5666
+    },
+    {
+     "quote": "I think that the upside risks to inflation and the downside risks to employment have probably both diminished a bit, so we’ll be looking at that.",
+     "start": 10186,
+     "end": 10330
+    },
+    {
+     "quote": "which is one of the reasons why we need to keep our eye on inflation and not declare victory prematurely.",
+     "start": 31613,
+     "end": 31717
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

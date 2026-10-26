@@ -1,0 +1,52 @@
+{
+ "key": "statement_20211215",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20211215",
+  "release_date": "2021-12-15"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "554ed2ee3c54f5c259f3f2f4f2912462d5e4b8d9aba97ce144a1dd7fcbeac6ee",
+ "message_id": "msg_011CgFue3y5E11XY59xdHe9M",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1448,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 129
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2021,\"month\":12,\"confidence\":0.93,\"cues\":[\"Taper pace doubled to $20B Treasury and $10B MBS per month reductions\",\"Purchases of at least $40B Treasuries and $20B MBS per month starting next month, matching the January 2022 schedule\",\"Statement that inflation has exceeded 2 percent for some time, so the rate is held until maximum employment is reached\",\"The phrase 'unemployment rate has declined substantially'\",\"Risks from new variants, consistent with Omicron's emergence\",\"Lael Brainard listed as a voter without a Vice Chair title\"]}",
+ "parsed": {
+  "year": 2021,
+  "month": 12,
+  "confidence": 0.93,
+  "cues": [
+   "Taper pace doubled to $20B Treasury and $10B MBS per month reductions",
+   "Purchases of at least $40B Treasuries and $20B MBS per month starting next month, matching the January 2022 schedule",
+   "Statement that inflation has exceeded 2 percent for some time, so the rate is held until maximum employment is reached",
+   "The phrase 'unemployment rate has declined substantially'",
+   "Risks from new variants, consistent with Omicron's emergence",
+   "Lael Brainard listed as a voter without a Vice Chair title"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

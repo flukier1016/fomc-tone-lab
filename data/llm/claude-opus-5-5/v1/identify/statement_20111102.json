@@ -1,0 +1,53 @@
+{
+ "key": "statement_20111102",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20111102",
+  "release_date": "2011-11-02"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2609517235c4ad3ac8a00a00acb2e4ad2f08f02fd333e84a9b157977ce3da46d",
+ "message_id": "msg_011CgFue4seWFMT5MbUmmUyB",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1418,
+  "output_tokens": 275,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2011,\"month\":11,\"confidence\":0.93,\"cues\":[\"Economic growth strengthened somewhat in the third quarter, with temporary factors reversing, so the meeting came after Q3 2011.\",\"The statement continues the maturity extension program (Operation Twist) announced in September 2011, so this is a later meeting.\",\"Forward guidance of exceptionally low rates at least through mid-2013 was the August 2011 language, still in use in November 2011.\",\"A dissent in favor of more accommodation fits Evans in November 2011.\",\"Kocherlakota is listed as a voter, consistent with the 2011 voting rotation.\",\"The reference to strains in global financial markets fits the euro area crisis in late 2011.\",\"Inflation is said to have moderated as energy prices declined from their peaks, matching late-2011 conditions.\"]}",
+ "parsed": {
+  "year": 2011,
+  "month": 11,
+  "confidence": 0.93,
+  "cues": [
+   "Economic growth strengthened somewhat in the third quarter, with temporary factors reversing, so the meeting came after Q3 2011.",
+   "The statement continues the maturity extension program (Operation Twist) announced in September 2011, so this is a later meeting.",
+   "Forward guidance of exceptionally low rates at least through mid-2013 was the August 2011 language, still in use in November 2011.",
+   "A dissent in favor of more accommodation fits Evans in November 2011.",
+   "Kocherlakota is listed as a voter, consistent with the 2011 voting rotation.",
+   "The reference to strains in global financial markets fits the euro area crisis in late 2011.",
+   "Inflation is said to have moderated as energy prices declined from their peaks, matching late-2011 conditions."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

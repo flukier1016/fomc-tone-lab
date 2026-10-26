@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20091207a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20091207a",
+  "doc_type": "speech",
+  "text_sha256": "656493669ad8a2a4ad73044047015ceaf5e211c32bcdf4d3a2742a6cf492f77b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f9e997e20a797a6b217877b8350f94999bd225165e7ef8a4b1a9f72c37da0dba",
+ "message_id": "msg_011CgFugF6c8uJmBW2rRc3ve",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7260,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"In the near term, elevated unemployment and stable inflation expectations should keep inflation subdued, and indeed, inflation could move lower from here.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"my best guess at this point is that we will continue to see modest economic growth next year--sufficient to bring down the unemployment rate, but at a pace slower than we would like.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"However, as the recovery strengthens, the time will come when it is appropriate to begin withdrawing the unprecedented monetary stimulus that is helping to support economic activity.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, significant headwinds remain, including tight credit conditions and a weak job market.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The balance sheet will also shrink over time as the mortgage-backed securities and other assets we hold mature or are prepaid.\"}],\"rationale\":\"The speaker emphasizes a weak labor market, significant headwinds, and subdued inflation that could move lower, implying accommodation will persist for some time. Exit-strategy discussion is framed as eventual and contingent, giving a moderately dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In the near term, elevated unemployment and stable inflation expectations should keep inflation subdued, and indeed, inflation could move lower from here."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "my best guess at this point is that we will continue to see modest economic growth next year--sufficient to bring down the unemployment rate, but at a pace slower than we would like."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, as the recovery strengthens, the time will come when it is appropriate to begin withdrawing the unprecedented monetary stimulus that is helping to support economic activity."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, significant headwinds remain, including tight credit conditions and a weak job market."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The balance sheet will also shrink over time as the mortgage-backed securities and other assets we hold mature or are prepaid."
+   }
+  ],
+  "rationale": "The speaker emphasizes a weak labor market, significant headwinds, and subdued inflation that could move lower, implying accommodation will persist for some time. Exit-strategy discussion is framed as eventual and contingent, giving a moderately dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In the near term, elevated unemployment and stable inflation expectations should keep inflation subdued, and indeed, inflation could move lower from here.",
+     "start": 13462,
+     "end": 13615
+    },
+    {
+     "quote": "my best guess at this point is that we will continue to see modest economic growth next year--sufficient to bring down the unemployment rate, but at a pace slower than we would like.",
+     "start": 4365,
+     "end": 4546
+    },
+    {
+     "quote": "However, as the recovery strengthens, the time will come when it is appropriate to begin withdrawing the unprecedented monetary stimulus that is helping to support economic activity.",
+     "start": 13617,
+     "end": 13798
+    },
+    {
+     "quote": "However, significant headwinds remain, including tight credit conditions and a weak job market.",
+     "start": 23175,
+     "end": 23269
+    },
+    {
+     "quote": "The balance sheet will also shrink over time as the mortgage-backed securities and other assets we hold mature or are prepaid.",
+     "start": 14158,
+     "end": 14283
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_powell20240926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20240926a",
+  "doc_type": "speech",
+  "text_sha256": "10a7b692798d80e39e33b8524e8fa422bc355b2298d3281786c2034d6be57514"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "19ab907a9cba3cc5e352d8bef0d68330e4d03390869c83d2318a3ce3b5350fa7",
+ "message_id": "msg_011CgFug8sZJb9k26nj7yB1t",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 950,
+  "output_tokens": 270,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is essential that our Treasury markets are able to efficiently transform Treasury securities into cash, even at times of elevated stress.\"},{\"dimension\":\"overall\",\"quote\":\"In addition to meeting the financing needs of the federal government, it plays a critical role in the implementation of monetary policy.\"}],\"rationale\":\"Welcoming remarks about Treasury market functioning that take no position on rates, inflation, activity, or the balance sheet. No policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is essential that our Treasury markets are able to efficiently transform Treasury securities into cash, even at times of elevated stress."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In addition to meeting the financing needs of the federal government, it plays a critical role in the implementation of monetary policy."
+   }
+  ],
+  "rationale": "Welcoming remarks about Treasury market functioning that take no position on rates, inflation, activity, or the balance sheet. No policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is essential that our Treasury markets are able to efficiently transform Treasury securities into cash, even at times of elevated stress.",
+     "start": 2468,
+     "end": 2607
+    },
+    {
+     "quote": "In addition to meeting the financing needs of the federal government, it plays a critical role in the implementation of monetary policy.",
+     "start": 1226,
+     "end": 1361
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20221130a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20221130a",
+  "doc_type": "speech",
+  "text_sha256": "ffbd9852a409992dae3345d815f795531e3b77e839c0b8aa7f7645a26ca2a529"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c1b2c223ab12d7d1d05edc2b0ef0444d897244b636287d37e13f5a8e3d84b100",
+ "message_id": "msg_011CgFugSAcsHfYKz8JHU5r2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4631,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Altogether, inflation is still unacceptably high and must be our primary focus.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Thus, as we get closer to that uncertain destination, it would be prudent to move in smaller steps.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But rest assured, we will keep at it until the job is done.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But wage growth remains above what would be consistent with 2 percent inflation, given prevailing trends in productivity growth.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Consumer spending has remained resilient, however, supported by labor income growth and still-elevated savings.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Services prices more broadly have accelerated sharply this year and may prove to be a persistent factor keeping inflation elevated.\"}],\"rationale\":\"The speaker stresses that inflation is unacceptably high and endorses ongoing rate increases with a firm commitment to finish the job. The hawkish lean is tempered by support for moving in smaller steps and by mindfulness of long policy lags.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Altogether, inflation is still unacceptably high and must be our primary focus."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Thus, as we get closer to that uncertain destination, it would be prudent to move in smaller steps."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But rest assured, we will keep at it until the job is done."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But wage growth remains above what would be consistent with 2 percent inflation, given prevailing trends in productivity growth."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Consumer spending has remained resilient, however, supported by labor income growth and still-elevated savings."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Services prices more broadly have accelerated sharply this year and may prove to be a persistent factor keeping inflation elevated."
+   }
+  ],
+  "rationale": "The speaker stresses that inflation is unacceptably high and endorses ongoing rate increases with a firm commitment to finish the job. The hawkish lean is tempered by support for moving in smaller steps and by mindfulness of long policy lags."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Altogether, inflation is still unacceptably high and must be our primary focus.",
+     "start": 13794,
+     "end": 13872
+    },
+    {
+     "quote": "Thus, as we get closer to that uncertain destination, it would be prudent to move in smaller steps.",
+     "start": 14876,
+     "end": 14974
+    },
+    {
+     "quote": "But rest assured, we will keep at it until the job is done.",
+     "start": 15092,
+     "end": 15150
+    },
+    {
+     "quote": "But wage growth remains above what would be consistent with 2 percent inflation, given prevailing trends in productivity growth.",
+     "start": 3103,
+     "end": 3230
+    },
+    {
+     "quote": "Consumer spending has remained resilient, however, supported by labor income growth and still-elevated savings.",
+     "start": 14303,
+     "end": 14413
+    },
+    {
+     "quote": "Services prices more broadly have accelerated sharply this year and may prove to be a persistent factor keeping inflation elevated.",
+     "start": 2533,
+     "end": 2663
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

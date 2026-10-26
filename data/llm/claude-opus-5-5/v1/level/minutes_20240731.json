@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20240731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20240731",
+  "doc_type": "minutes",
+  "text_sha256": "4c9bd776c3d7ac8af3c060d6514259f7630b10a3e3015982c3d20250b5265e8b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c2edbab4dfc88e857dd44fb3ffd9f835ecaab504ae1082b07bdf71572e8502cd",
+ "message_id": "msg_011CgFugGLGd8xc5hCEtRhRX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11440,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The vast majority observed that, if the data continued to come in about as expected, it would likely be appropriate to ease policy at the next meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"several observed that the recent progress on inflation and increases in the unemployment rate had provided a plausible case for reducing the target range 25 basis points at this meeting\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"participants judged that recent data had increased their confidence that inflation was moving sustainably toward 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A majority of participants remarked that the risks to the employment goal had increased, and many participants noted that the risks to the inflation goal had decreased.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Some participants noted that as conditions in the labor market have eased, the risk had increased that continued easing could transition to a more serious deterioration.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.\"}],\"rationale\":\"The minutes signal that a rate cut at the next meeting is likely, with several participants open to cutting immediately, growing confidence on disinflation, and risks shifting toward employment. Continued balance sheet runoff is a minor hawkish offset.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The vast majority observed that, if the data continued to come in about as expected, it would likely be appropriate to ease policy at the next meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "several observed that the recent progress on inflation and increases in the unemployment rate had provided a plausible case for reducing the target range 25 basis points at this meeting"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "participants judged that recent data had increased their confidence that inflation was moving sustainably toward 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A majority of participants remarked that the risks to the employment goal had increased, and many participants noted that the risks to the inflation goal had decreased."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Some participants noted that as conditions in the labor market have eased, the risk had increased that continued easing could transition to a more serious deterioration."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings."
+   }
+  ],
+  "rationale": "The minutes signal that a rate cut at the next meeting is likely, with several participants open to cutting immediately, growing confidence on disinflation, and risks shifting toward employment. Continued balance sheet runoff is a minor hawkish offset."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The vast majority observed that, if the data continued to come in about as expected, it would likely be appropriate to ease policy at the next meeting.",
+     "start": 28465,
+     "end": 28615
+    },
+    {
+     "quote": "several observed that the recent progress on inflation and increases in the unemployment rate had provided a plausible case for reducing the target range 25 basis points at this meeting",
+     "start": 27408,
+     "end": 27593
+    },
+    {
+     "quote": "participants judged that recent data had increased their confidence that inflation was moving sustainably toward 2 percent.",
+     "start": 17608,
+     "end": 17730
+    },
+    {
+     "quote": "A majority of participants remarked that the risks to the employment goal had increased, and many participants noted that the risks to the inflation goal had decreased.",
+     "start": 29937,
+     "end": 30104
+    },
+    {
+     "quote": "Some participants noted that as conditions in the labor market have eased, the risk had increased that continued easing could transition to a more serious deterioration.",
+     "start": 24093,
+     "end": 24261
+    },
+    {
+     "quote": "Participants furthermore judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.",
+     "start": 27645,
+     "end": 27778
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

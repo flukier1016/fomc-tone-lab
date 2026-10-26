@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20250809a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250809a",
+  "doc_type": "speech",
+  "text_sha256": "3f8261b15aedd10e6f130da717ef7adfc16988e896f438c795ab7feec8aad0e4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c900671e8adeef0ab1c1a38f9bf7a667685189804a9c6f5769cee663bb939d98",
+ "message_id": "msg_011CgFugAWXxhjvHhSCCyeoL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6442,
+  "output_tokens": 554,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I see it as appropriate to begin gradually moving our moderately restrictive policy stance toward a neutral setting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"My Summary of Economic Projections includes three cuts for this year, which has been consistent with my forecast since last December, and the latest labor market data reinforce my view.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The underlying trend in core PCE inflation appears to be moving much closer to our 2 percent target than is currently shown in the data.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see that upside risks to price stability have diminished.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Payroll employment growth slowed sharply to only 35,000 jobs per month over the three months ending in July.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see the risk that a delay in taking action could result in a deterioration in labor market conditions and a further slowing in economic growth.\"}],\"rationale\":\"The speaker explains her dissent in favor of a rate cut and advocates moving policy toward neutral, with three cuts this year. She frames tariff inflation as transitory and emphasizes downside labor market risks; the remainder of the speech covers community bank regulation, which is why relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I see it as appropriate to begin gradually moving our moderately restrictive policy stance toward a neutral setting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "My Summary of Economic Projections includes three cuts for this year, which has been consistent with my forecast since last December, and the latest labor market data reinforce my view."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The underlying trend in core PCE inflation appears to be moving much closer to our 2 percent target than is currently shown in the data."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see that upside risks to price stability have diminished."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Payroll employment growth slowed sharply to only 35,000 jobs per month over the three months ending in July."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see the risk that a delay in taking action could result in a deterioration in labor market conditions and a further slowing in economic growth."
+   }
+  ],
+  "rationale": "The speaker explains her dissent in favor of a rate cut and advocates moving policy toward neutral, with three cuts this year. She frames tariff inflation as transitory and emphasizes downside labor market risks; the remainder of the speech covers community bank regulation, which is why relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I see it as appropriate to begin gradually moving our moderately restrictive policy stance toward a neutral setting.",
+     "start": 2461,
+     "end": 2576
+    },
+    {
+     "quote": "My Summary of Economic Projections includes three cuts for this year, which has been consistent with my forecast since last December, and the latest labor market data reinforce my view.",
+     "start": 10381,
+     "end": 10565
+    },
+    {
+     "quote": "The underlying trend in core PCE inflation appears to be moving much closer to our 2 percent target than is currently shown in the data.",
+     "start": 5779,
+     "end": 5914
+    },
+    {
+     "quote": "I see that upside risks to price stability have diminished.",
+     "start": 6304,
+     "end": 6362
+    },
+    {
+     "quote": "Payroll employment growth slowed sharply to only 35,000 jobs per month over the three months ending in July.",
+     "start": 4372,
+     "end": 4479
+    },
+    {
+     "quote": "I see the risk that a delay in taking action could result in a deterioration in labor market conditions and a further slowing in economic growth.",
+     "start": 8343,
+     "end": 8487
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

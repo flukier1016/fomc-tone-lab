@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20210322a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20210322a",
+  "doc_type": "speech",
+  "text_sha256": "6aad85d688bda5063c9ab61ce591a97a4b7bae0c05582326d58ff84b08aa571b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb11dcb3444859112a03877f392d815a807e14ab511a8cf8ef20d3afaab620ff",
+ "message_id": "msg_011CgFugFAaHHEDbFg1T44e7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4822,
+  "output_tokens": 498,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe the Federal Reserve is likely to continue supporting the economy for some time through accommodative monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But I expect that these pricing pressures will be temporary, easing over the course of this year as supply bottlenecks are gradually resolved.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the potential for a wave of small business failures is one of the main risks to my expectation that our economy will make further substantial progress toward our goal of full employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"At this point, the economy is still a long way from those goals. We are making progress, but I think it will take some time for us to get there.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"if my outlook for inflation were to change materially, my assessment of the appropriate stance of monetary policy would change as well.\"}],\"rationale\":\"The speaker expects strong growth but stresses the remaining employment shortfall and small-business failure risks, and calls inflation pressures temporary. She signals continued accommodation for some time, with only a mild caveat about inflation uncertainty.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe the Federal Reserve is likely to continue supporting the economy for some time through accommodative monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But I expect that these pricing pressures will be temporary, easing over the course of this year as supply bottlenecks are gradually resolved."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the potential for a wave of small business failures is one of the main risks to my expectation that our economy will make further substantial progress toward our goal of full employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "At this point, the economy is still a long way from those goals. We are making progress, but I think it will take some time for us to get there."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "if my outlook for inflation were to change materially, my assessment of the appropriate stance of monetary policy would change as well."
+   }
+  ],
+  "rationale": "The speaker expects strong growth but stresses the remaining employment shortfall and small-business failure risks, and calls inflation pressures temporary. She signals continued accommodation for some time, with only a mild caveat about inflation uncertainty."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe the Federal Reserve is likely to continue supporting the economy for some time through accommodative monetary policy.",
+     "start": 13701,
+     "end": 13827
+    },
+    {
+     "quote": "But I expect that these pricing pressures will be temporary, easing over the course of this year as supply bottlenecks are gradually resolved.",
+     "start": 13200,
+     "end": 13341
+    },
+    {
+     "quote": "the potential for a wave of small business failures is one of the main risks to my expectation that our economy will make further substantial progress toward our goal of full employment.",
+     "start": 11407,
+     "end": 11592
+    },
+    {
+     "quote": "At this point, the economy is still a long way from those goals. We are making progress, but I think it will take some time for us to get there.",
+     "start": 16266,
+     "end": 16409
+    },
+    {
+     "quote": "if my outlook for inflation were to change materially, my assessment of the appropriate stance of monetary policy would change as well.",
+     "start": 15292,
+     "end": 15426
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

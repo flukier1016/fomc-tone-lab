@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20150130a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20150130a",
+  "doc_type": "speech",
+  "text_sha256": "94c82be00e159230c5e9fb640f926002a30ca0a5ab56fd8fae60962e037878c5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7c9920454ba9a863cb94fad89acdbe0c921545592145a6bc863d97514e9ce894",
+ "message_id": "msg_011CgFugH5RK5Dv888T7BMws",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8098,
+  "output_tokens": 381,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I would like to suggest some specific macroprudential objectives that I regard as both realistic and important to incorporate into a near- to medium-term policy agenda\"},{\"dimension\":\"overall\",\"quote\":\"But as a realistic matter, the role of time-varying macroprudential tools is probably limited for the immediate future.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve has proposed for domestic implementation a range of surcharges higher, and somewhat differently calibrated, than the Basel framework.\"}],\"rationale\":\"The speech addresses macroprudential regulation: capital surcharges, short-term wholesale funding, asset management and central counterparties. It offers no view on interest rates, inflation, growth or the Fed's balance sheet, so the monetary policy stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I would like to suggest some specific macroprudential objectives that I regard as both realistic and important to incorporate into a near- to medium-term policy agenda"
+   },
+   {
+    "dimension": "overall",
+    "quote": "But as a realistic matter, the role of time-varying macroprudential tools is probably limited for the immediate future."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve has proposed for domestic implementation a range of surcharges higher, and somewhat differently calibrated, than the Basel framework."
+   }
+  ],
+  "rationale": "The speech addresses macroprudential regulation: capital surcharges, short-term wholesale funding, asset management and central counterparties. It offers no view on interest rates, inflation, growth or the Fed's balance sheet, so the monetary policy stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I would like to suggest some specific macroprudential objectives that I regard as both realistic and important to incorporate into a near- to medium-term policy agenda",
+     "start": 1501,
+     "end": 1674
+    },
+    {
+     "quote": "But as a realistic matter, the role of time-varying macroprudential tools is probably limited for the immediate future.",
+     "start": 5344,
+     "end": 5462
+    },
+    {
+     "quote": "the Federal Reserve has proposed for domestic implementation a range of surcharges higher, and somewhat differently calibrated, than the Basel framework.",
+     "start": 9502,
+     "end": 9654
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

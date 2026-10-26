@@ -1,0 +1,112 @@
+{
+ "key": "speech_quarles20190222a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190222a",
+  "doc_type": "speech",
+  "text_sha256": "a3a1a5e622932ae041fb579f1c4fee23cb13c0556826ba81a516b3fcc0e19363"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1acad496fce104d012b319855d6ee10be50781c9d6a91cc499b4d82c557e2662",
+ "message_id": "msg_011CgFugFWfRFF8brbR2Q5th",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2791,
+  "output_tokens": 567,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee has discussed ending the reduction in the Fed's aggregate asset holdings sometime in the latter half of this year, with still-ample reserves in the system.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"With so much uncertainty over the level and slope of the reserve demand curve, a degree of caution is warranted.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Fed will maintain a larger balance sheet and reserve supply relative to the pre-crisis period, with the goal of remaining on the flat portion of the reserve demand curve.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If ever it appears that our plans for the balance sheet are running counter to the achievement of our dual-mandate objectives, we would quickly reassess our approach to the balance sheet.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I favor a return to a balance sheet with all Treasury securities, allowing our mortgage-backed securities (MBS) holdings to run to zero.\"}],\"rationale\":\"The speech focuses on balance sheet operations, signaling an earlier end to runoff, caution, and a larger-than-pre-crisis balance sheet, which leans dovish relative to continued runoff. It offers no assessment of inflation or activity, and the MBS-to-zero preference is mainly a composition point.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee has discussed ending the reduction in the Fed's aggregate asset holdings sometime in the latter half of this year, with still-ample reserves in the system."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "With so much uncertainty over the level and slope of the reserve demand curve, a degree of caution is warranted."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Fed will maintain a larger balance sheet and reserve supply relative to the pre-crisis period, with the goal of remaining on the flat portion of the reserve demand curve."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If ever it appears that our plans for the balance sheet are running counter to the achievement of our dual-mandate objectives, we would quickly reassess our approach to the balance sheet."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I favor a return to a balance sheet with all Treasury securities, allowing our mortgage-backed securities (MBS) holdings to run to zero."
+   }
+  ],
+  "rationale": "The speech focuses on balance sheet operations, signaling an earlier end to runoff, caution, and a larger-than-pre-crisis balance sheet, which leans dovish relative to continued runoff. It offers no assessment of inflation or activity, and the MBS-to-zero preference is mainly a composition point."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee has discussed ending the reduction in the Fed's aggregate asset holdings sometime in the latter half of this year, with still-ample reserves in the system.",
+     "start": 6540,
+     "end": 6708
+    },
+    {
+     "quote": "With so much uncertainty over the level and slope of the reserve demand curve, a degree of caution is warranted.",
+     "start": 6371,
+     "end": 6482
+    },
+    {
+     "quote": "the Fed will maintain a larger balance sheet and reserve supply relative to the pre-crisis period, with the goal of remaining on the flat portion of the reserve demand curve.",
+     "start": 2686,
+     "end": 2859
+    },
+    {
+     "quote": "If ever it appears that our plans for the balance sheet are running counter to the achievement of our dual-mandate objectives, we would quickly reassess our approach to the balance sheet.",
+     "start": 9089,
+     "end": 9275
+    },
+    {
+     "quote": "I favor a return to a balance sheet with all Treasury securities, allowing our mortgage-backed securities (MBS) holdings to run to zero.",
+     "start": 7952,
+     "end": 8087
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

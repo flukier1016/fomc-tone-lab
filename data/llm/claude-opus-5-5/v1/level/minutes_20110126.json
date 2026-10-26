@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20110126",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20110126",
+  "doc_type": "minutes",
+  "text_sha256": "2e7b0652629aace33cf6398837c039a405b0887c5cd15f63df215eafc0456e58"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3f12485c9095940d6c0ba3a712df933483080a47d235da2ab2ba97a991fb090b",
+ "message_id": "msg_011CgFugAdiyZT2QxwQcsXQ7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13338,
+  "output_tokens": 618,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee reiterated its expectation that economic conditions were likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee agreed to continue to expand its holdings of longer-term Treasury securities as announced in November in order to promote a stronger pace of economic recovery\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"unemployment was expected to remain above, and inflation to remain somewhat below, levels consistent with the Committee's objectives for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally saw the risks to their outlook for economic growth and employment as having become broadly balanced, but they continued to see significant risks to both sides of the outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the participants generally expressed greater confidence that the economic recovery would be sustained and would gradually strengthen over coming quarters.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A few members noted that additional data pointing to a sufficiently strong recovery could make it appropriate to consider reducing the pace or overall size of the purchase program.\"}],\"rationale\":\"The Committee continued its $600 billion asset purchases and its extended-period guidance, citing low underlying inflation and elevated unemployment, which keeps the stance accommodative. Improved growth confidence, diminished downside risks and a few members floating reductions to purchases temper the dovishness.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee reiterated its expectation that economic conditions were likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee agreed to continue to expand its holdings of longer-term Treasury securities as announced in November in order to promote a stronger pace of economic recovery"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "unemployment was expected to remain above, and inflation to remain somewhat below, levels consistent with the Committee's objectives for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally saw the risks to their outlook for economic growth and employment as having become broadly balanced, but they continued to see significant risks to both sides of the outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the participants generally expressed greater confidence that the economic recovery would be sustained and would gradually strengthen over coming quarters."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few members noted that additional data pointing to a sufficiently strong recovery could make it appropriate to consider reducing the pace or overall size of the purchase program."
+   }
+  ],
+  "rationale": "The Committee continued its $600 billion asset purchases and its extended-period guidance, citing low underlying inflation and elevated unemployment, which keeps the stance accommodative. Improved growth confidence, diminished downside risks and a few members floating reductions to purchases temper the dovishness."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee reiterated its expectation that economic conditions were likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 39835,
+     "end": 39998
+    },
+    {
+     "quote": "the Committee agreed to continue to expand its holdings of longer-term Treasury securities as announced in November in order to promote a stronger pace of economic recovery",
+     "start": 38310,
+     "end": 38482
+    },
+    {
+     "quote": "unemployment was expected to remain above, and inflation to remain somewhat below, levels consistent with the Committee's objectives for some time.",
+     "start": 38149,
+     "end": 38295
+    },
+    {
+     "quote": "Participants generally saw the risks to their outlook for economic growth and employment as having become broadly balanced, but they continued to see significant risks to both sides of the outlook.",
+     "start": 35176,
+     "end": 35372
+    },
+    {
+     "quote": "the participants generally expressed greater confidence that the economic recovery would be sustained and would gradually strengthen over coming quarters.",
+     "start": 26673,
+     "end": 26826
+    },
+    {
+     "quote": "A few members noted that additional data pointing to a sufficiently strong recovery could make it appropriate to consider reducing the pace or overall size of the purchase program.",
+     "start": 39482,
+     "end": 39661
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

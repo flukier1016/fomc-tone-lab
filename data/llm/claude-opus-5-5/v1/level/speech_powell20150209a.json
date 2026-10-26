@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20150209a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20150209a",
+  "doc_type": "speech",
+  "text_sha256": "4a6e953592e238ba5fa5895b5d3ae5c8a835a6f8ed2540c36f7d4567f1836379"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ba58025b2098c3b93daa3ceb1d6703f38fcaa57c9f2b9fcb7146117e143818e9",
+ "message_id": "msg_011CgFugFHmTVe2ZsPah7dhR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6382,
+  "output_tokens": 443,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run well below the Committee's 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But the economy has improved considerably over the past two years, and I am optimistic that that this improvement will continue.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Last September, the FOMC published its Normalization Principles, which set forth its plans to reduce the balance sheet to a more normal level over time.\"},{\"dimension\":\"overall\",\"quote\":\"I am concerned about several troubling proposals that would subject monetary policy to undue political pressure and place new limits on the Fed's ability to respond to future crises.\"}],\"rationale\":\"The speech is mainly a defense of Fed independence and crisis-era actions against congressional proposals, with no signal on the future policy path. Its brief outlook remarks note an improving economy (mildly hawkish) and inflation well below 2 percent (mildly dovish), so the net stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run well below the Committee's 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But the economy has improved considerably over the past two years, and I am optimistic that that this improvement will continue."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Last September, the FOMC published its Normalization Principles, which set forth its plans to reduce the balance sheet to a more normal level over time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I am concerned about several troubling proposals that would subject monetary policy to undue political pressure and place new limits on the Fed's ability to respond to future crises."
+   }
+  ],
+  "rationale": "The speech is mainly a defense of Fed independence and crisis-era actions against congressional proposals, with no signal on the future policy path. Its brief outlook remarks note an improving economy (mildly hawkish) and inflation well below 2 percent (mildly dovish), so the net stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation has continued to run well below the Committee's 2 percent objective.",
+     "start": 6803,
+     "end": 6880
+    },
+    {
+     "quote": "But the economy has improved considerably over the past two years, and I am optimistic that that this improvement will continue.",
+     "start": 734,
+     "end": 861
+    },
+    {
+     "quote": "Last September, the FOMC published its Normalization Principles, which set forth its plans to reduce the balance sheet to a more normal level over time.",
+     "start": 10296,
+     "end": 10447
+    },
+    {
+     "quote": "I am concerned about several troubling proposals that would subject monetary policy to undue political pressure and place new limits on the Fed's ability to respond to future crises.",
+     "start": 1677,
+     "end": 1858
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

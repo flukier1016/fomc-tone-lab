@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20170713a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170713a",
+  "doc_type": "speech",
+  "text_sha256": "348917d7a4019ee267e8411f8c7221c62b19304edf2e9044855cd46f2dd2b8f2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "230244c4dea1937f006afda72488bdc03ea2ec78cce3d319afa50e3cf880ed5a",
+ "message_id": "msg_011CgFug9UXFpPQgdxk85ws5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7962,
+  "output_tokens": 513,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"If the data continue to confirm a strong labor market and firming economic activity, I believe it would be appropriate relatively soon to commence the gradual and predictable process of allowing the balance sheet to run off.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I will want to assess the inflation process closely before making a determination on further adjustments to the federal funds rate in light of the recent softness in core PCE (personal consumption expenditures) inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If that is the case, we would not have much more additional work to do on moving to a neutral stance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"to move cautiously on further increases in the federal funds rate, so as to help guide inflation back up around our symmetric target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"for the first time in many years, the global economy is experiencing synchronous growth\"}],\"rationale\":\"The speaker supports starting balance sheet runoff soon, which is hawkish. However, she cites soft core PCE inflation, a near-zero neutral rate and caution on further rate hikes, so on net she signals a slower, more limited rate path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "If the data continue to confirm a strong labor market and firming economic activity, I believe it would be appropriate relatively soon to commence the gradual and predictable process of allowing the balance sheet to run off."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I will want to assess the inflation process closely before making a determination on further adjustments to the federal funds rate in light of the recent softness in core PCE (personal consumption expenditures) inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If that is the case, we would not have much more additional work to do on moving to a neutral stance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "to move cautiously on further increases in the federal funds rate, so as to help guide inflation back up around our symmetric target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "for the first time in many years, the global economy is experiencing synchronous growth"
+   }
+  ],
+  "rationale": "The speaker supports starting balance sheet runoff soon, which is hawkish. However, she cites soft core PCE inflation, a near-zero neutral rate and caution on further rate hikes, so on net she signals a slower, more limited rate path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the data continue to confirm a strong labor market and firming economic activity, I believe it would be appropriate relatively soon to commence the gradual and predictable process of allowing the balance sheet to run off.",
+     "start": 16803,
+     "end": 17026
+    },
+    {
+     "quote": "I will want to assess the inflation process closely before making a determination on further adjustments to the federal funds rate in light of the recent softness in core PCE (personal consumption expenditures) inflation.",
+     "start": 17055,
+     "end": 17275
+    },
+    {
+     "quote": "If that is the case, we would not have much more additional work to do on moving to a neutral stance.",
+     "start": 17403,
+     "end": 17503
+    },
+    {
+     "quote": "to move cautiously on further increases in the federal funds rate, so as to help guide inflation back up around our symmetric target.",
+     "start": 17566,
+     "end": 17698
+    },
+    {
+     "quote": "for the first time in many years, the global economy is experiencing synchronous growth",
+     "start": 729,
+     "end": 816
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

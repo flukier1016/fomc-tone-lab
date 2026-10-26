@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20201216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20201216",
+  "doc_type": "minutes",
+  "text_sha256": "c55f5655fdaa8bfe1d505cfa39b93848b22106823936ecb3c47e674cf995bc2b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb90048dd8e5bb9e4e2e6d195c2bf09dfbacddee962354b89dab03fc3262faea",
+ "message_id": "msg_011CgG27wUdYuSv6ScqaYDn1",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14630,
+  "output_tokens": 650,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"they would aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants supported enhancing the Committee's guidance on asset purchases at this meeting and, in particular, adopting qualitative, outcome-based guidance indicating that increases in asset holdings would continue\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants remarked that labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In addition, the staff continued to judge the risks to the economic outlook as being tilted to the downside.\"},{\"dimension\":\"overall\",\"quote\":\"all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time.\"}],\"rationale\":\"The minutes describe strengthened outcome-based guidance committing to continued asset purchases and near-zero rates until substantial further progress, with inflation below goal and downside risks still emphasized. Some improvement from vaccine news and more balanced risks tempers but does not offset the strongly accommodative signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "they would aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants supported enhancing the Committee's guidance on asset purchases at this meeting and, in particular, adopting qualitative, outcome-based guidance indicating that increases in asset holdings would continue"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants remarked that labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In addition, the staff continued to judge the risks to the economic outlook as being tilted to the downside."
+   },
+   {
+    "dimension": "overall",
+    "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time."
+   }
+  ],
+  "rationale": "The minutes describe strengthened outcome-based guidance committing to continued asset purchases and near-zero rates until substantial further progress, with inflation below goal and downside risks still emphasized. Some improvement from vaccine news and more balanced risks tempers but does not offset the strongly accommodative signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "they would aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+     "start": 42472,
+     "end": 42668
+    },
+    {
+     "quote": "All participants supported enhancing the Committee's guidance on asset purchases at this meeting and, in particular, adopting qualitative, outcome-based guidance indicating that increases in asset holdings would continue",
+     "start": 37274,
+     "end": 37494
+    },
+    {
+     "quote": "Regarding inflation, participants generally viewed the risks as having become more balanced than they were earlier in the year, though most still viewed the risks as being weighted to the downside.",
+     "start": 35721,
+     "end": 35917
+    },
+    {
+     "quote": "Participants remarked that labor market conditions generally had continued to improve, but they were still a long way from those consistent with the Committee's maximum employment goal.",
+     "start": 29417,
+     "end": 29601
+    },
+    {
+     "quote": "In addition, the staff continued to judge the risks to the economic outlook as being tilted to the downside.",
+     "start": 23593,
+     "end": 23700
+    },
+    {
+     "quote": "all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time.",
+     "start": 37082,
+     "end": 37271
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

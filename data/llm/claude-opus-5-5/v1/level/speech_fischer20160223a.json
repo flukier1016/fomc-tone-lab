@@ -1,0 +1,121 @@
+{
+ "key": "speech_fischer20160223a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160223a",
+  "doc_type": "speech",
+  "text_sha256": "f9c1043c32c0ce24eacbd120ffb711cacda5f91f5f508d9d775dcdaf1068b076"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "25f3e268f18b5087bf8768e20ee77815e25beb698eb0dd0f5fea55af11928839",
+ "message_id": "msg_011CgFug8pamC7kLFBo2wY9D",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3181,
+  "output_tokens": 590,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"my colleagues and I anticipated that economic conditions would evolve in a manner warranting only gradual increases in the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"further declines in oil prices suggest that total inflation will likely remain low for somewhat longer than had been previously expected before moving back to 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economic data that have come in since our December interest rate decision suggest that the labor market has continued to improve.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"With the federal funds rate still quite low and expected to rise only gradually, there is some benefit to maintaining a larger balance sheet for a time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If the recent financial market developments lead to a sustained tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States.\"}],\"rationale\":\"Despite a solid labor market, the speaker stresses gradual hikes, inflation staying low longer, global financial risks, tolerance of an unemployment overshoot, and keeping a large balance sheet. Net lean is moderately dovish, tempered by noting risks of a persistent large overshoot.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "my colleagues and I anticipated that economic conditions would evolve in a manner warranting only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "further declines in oil prices suggest that total inflation will likely remain low for somewhat longer than had been previously expected before moving back to 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economic data that have come in since our December interest rate decision suggest that the labor market has continued to improve."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "With the federal funds rate still quite low and expected to rise only gradually, there is some benefit to maintaining a larger balance sheet for a time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If the recent financial market developments lead to a sustained tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States."
+   }
+  ],
+  "rationale": "Despite a solid labor market, the speaker stresses gradual hikes, inflation staying low longer, global financial risks, tolerance of an unemployment overshoot, and keeping a large balance sheet. Net lean is moderately dovish, tempered by noting risks of a persistent large overshoot."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my colleagues and I anticipated that economic conditions would evolve in a manner warranting only gradual increases in the federal funds rate",
+     "start": 2682,
+     "end": 2823
+    },
+    {
+     "quote": "further declines in oil prices suggest that total inflation will likely remain low for somewhat longer than had been previously expected before moving back to 2 percent.",
+     "start": 5001,
+     "end": 5169
+    },
+    {
+     "quote": "The economic data that have come in since our December interest rate decision suggest that the labor market has continued to improve.",
+     "start": 4169,
+     "end": 4301
+    },
+    {
+     "quote": "In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons.",
+     "start": 8349,
+     "end": 8454
+    },
+    {
+     "quote": "With the federal funds rate still quite low and expected to rise only gradually, there is some benefit to maintaining a larger balance sheet for a time.",
+     "start": 10026,
+     "end": 10177
+    },
+    {
+     "quote": "If the recent financial market developments lead to a sustained tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States.",
+     "start": 5975,
+     "end": 6184
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

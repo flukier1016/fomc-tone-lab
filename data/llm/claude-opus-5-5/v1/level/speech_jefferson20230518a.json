@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20230518a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20230518a",
+  "doc_type": "speech",
+  "text_sha256": "d7ddcad6d404445ce7f8f44ca1c6cab9173c123662a3f5c76b1bcc58b89e175e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bd1f57632bdc4651231a0af1bf846adf288165f48d3666ee639d469425dfb6b3",
+ "message_id": "msg_011CgFug9iA4CZdai9Mx2PUs",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2782,
+  "output_tokens": 570,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"While inflation has come down substantially since last summer, it is still too high, and by some measures progress has been slowing.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation in nonhousing services, the largest component of services, has been stubbornly high at around 4.5 percent and shows no signs of significant decline yet.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the current labor market is one of the strongest that U.S. workers have experienced in decades.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I acknowledge that there are downside risks, among them the possibility that the degree of bank lending restraint and uncertainty could weigh on economic activity more than I expect.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"History shows that monetary policy works with long and variable lags, and that a year is not a long enough period for demand to feel the full effect of higher interest rates.\"},{\"dimension\":\"overall\",\"quote\":\"I intend to consider all these factors in the coming weeks as I contemplate the appropriate stance of monetary policy going forward.\"}],\"rationale\":\"The speech balances still-too-high core inflation and a strong labor market against slowing GDP, lagged effects of policy, and credit-tightening downside risks. It gives no signal of further hikes, which leaves a balanced-to-slightly-dovish lean toward a pause.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "While inflation has come down substantially since last summer, it is still too high, and by some measures progress has been slowing."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation in nonhousing services, the largest component of services, has been stubbornly high at around 4.5 percent and shows no signs of significant decline yet."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the current labor market is one of the strongest that U.S. workers have experienced in decades."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I acknowledge that there are downside risks, among them the possibility that the degree of bank lending restraint and uncertainty could weigh on economic activity more than I expect."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "History shows that monetary policy works with long and variable lags, and that a year is not a long enough period for demand to feel the full effect of higher interest rates."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I intend to consider all these factors in the coming weeks as I contemplate the appropriate stance of monetary policy going forward."
+   }
+  ],
+  "rationale": "The speech balances still-too-high core inflation and a strong labor market against slowing GDP, lagged effects of policy, and credit-tightening downside risks. It gives no signal of further hikes, which leaves a balanced-to-slightly-dovish lean toward a pause."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While inflation has come down substantially since last summer, it is still too high, and by some measures progress has been slowing.",
+     "start": 3076,
+     "end": 3207
+    },
+    {
+     "quote": "inflation in nonhousing services, the largest component of services, has been stubbornly high at around 4.5 percent and shows no signs of significant decline yet.",
+     "start": 4916,
+     "end": 5077
+    },
+    {
+     "quote": "the current labor market is one of the strongest that U.S. workers have experienced in decades.",
+     "start": 1597,
+     "end": 1691
+    },
+    {
+     "quote": "I acknowledge that there are downside risks, among them the possibility that the degree of bank lending restraint and uncertainty could weigh on economic activity more than I expect.",
+     "start": 1323,
+     "end": 1504
+    },
+    {
+     "quote": "History shows that monetary policy works with long and variable lags, and that a year is not a long enough period for demand to feel the full effect of higher interest rates.",
+     "start": 8635,
+     "end": 8808
+    },
+    {
+     "quote": "I intend to consider all these factors in the coming weeks as I contemplate the appropriate stance of monetary policy going forward.",
+     "start": 8926,
+     "end": 9057
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

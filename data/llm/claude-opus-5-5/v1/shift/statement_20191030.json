@@ -1,0 +1,138 @@
+{
+ "key": "statement_20191030",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20191030",
+  "previous_doc_id": "statement_20190918",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d781b60309134f9ab49a943dca819d3fa1fe6922bd5099e0592c50af49720c9b",
+ "message_id": "msg_011CgG4emZBevdjsoXPQVJdu",
+ "request_id": "req_011CgG4emB7GVBbzKwLfKxZR",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1499,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 810,
+    "input_tokens": 1499,
+    "model": null,
+    "output_tokens": 615,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 615,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T21:06:49+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.\",\"after\":\"The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.\",\"after\":\"the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"business fixed investment and exports have weakened.\",\"after\":\"business fixed investment and exports remain weak.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.\",\"after\":\"Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.\",\"direction\":\"hawkish\"}],\"rationale\":\"Although the Committee cut rates again, it dropped the easing-bias phrase \\\"will act as appropriate to sustain the expansion,\\\" signaling a pause in further cuts. The only remaining dissents favored no cut, after the previous dovish dissent for a larger cut was gone, so the net forward-looking signal is modestly hawkish.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+    "after": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.",
+    "after": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "business fixed investment and exports have weakened.",
+    "after": "business fixed investment and exports remain weak.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.",
+    "after": "Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "Although the Committee cut rates again, it dropped the easing-bias phrase \"will act as appropriate to sustain the expansion,\" signaling a pause in further cuts. The only remaining dissents favored no cut, after the previous dovish dissent for a larger cut was gone, so the net forward-looking signal is modestly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+     "start": 1242,
+     "end": 1563
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.",
+     "start": 883,
+     "end": 979
+    },
+    {
+     "quote": "business fixed investment and exports have weakened.",
+     "start": 346,
+     "end": 397
+    },
+    {
+     "quote": "Voting against the action were James Bullard, who preferred at this meeting to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent; and Esther L. George and Eric S. Rosengren, who preferred to maintain the target range at 2 percent to 2-1/4 percent.",
+     "start": 2263,
+     "end": 2535
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.",
+     "start": 1249,
+     "end": 1436
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent.",
+     "start": 886,
+     "end": 986
+    },
+    {
+     "quote": "business fixed investment and exports remain weak.",
+     "start": 351,
+     "end": 400
+    },
+    {
+     "quote": "Voting against this action were: Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range at 1-3/4 percent to 2 percent.",
+     "start": 2151,
+     "end": 2312
+    }
+   ]
+  }
+ }
+}

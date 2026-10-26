@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230920",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230920",
+  "doc_type": "minutes",
+  "text_sha256": "e600cae6d6594c8a35258a73f61333f5f7ae1406cae5d6a220a83a17a3f4115b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bb1ee2886d85b2226df15f6725410bb50bd09494b659b384a164c214db7e4ca1",
+ "message_id": "msg_011CgFugFsFKvALFUr2Z4F7X",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11247,
+  "output_tokens": 603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A majority of participants judged that one more increase in the target federal funds rate at a future meeting would likely be appropriate, while some judged it likely that no further increases would be warranted.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"All participants agreed that policy should remain restrictive for some time until the Committee is confident that inflation is moving down sustainably toward its objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants stressed that current inflation remained unacceptably high while acknowledging that it had moderated somewhat over the past year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants assessed that real GDP had been expanding at a solid pace and had been more resilient than expected.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Several participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.\"}],\"rationale\":\"The minutes lean hawkish: a majority expected one more hike, policy is to stay restrictive for some time, inflation is called unacceptably high with upside risks, and growth is resilient. This is tempered by risks being seen as more two-sided and by talk of shifting focus from how high to raise rates to how long to hold them.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A majority of participants judged that one more increase in the target federal funds rate at a future meeting would likely be appropriate, while some judged it likely that no further increases would be warranted."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "All participants agreed that policy should remain restrictive for some time until the Committee is confident that inflation is moving down sustainably toward its objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants stressed that current inflation remained unacceptably high while acknowledging that it had moderated somewhat over the past year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants assessed that real GDP had been expanding at a solid pace and had been more resilient than expected."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Several participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate."
+   }
+  ],
+  "rationale": "The minutes lean hawkish: a majority expected one more hike, policy is to stay restrictive for some time, inflation is called unacceptably high with upside risks, and growth is resilient. This is tempered by risks being seen as more two-sided and by talk of shifting focus from how high to raise rates to how long to hold them."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A majority of participants judged that one more increase in the target federal funds rate at a future meeting would likely be appropriate, while some judged it likely that no further increases would be warranted.",
+     "start": 26998,
+     "end": 27209
+    },
+    {
+     "quote": "All participants agreed that policy should remain restrictive for some time until the Committee is confident that inflation is moving down sustainably toward its objective.",
+     "start": 28076,
+     "end": 28247
+    },
+    {
+     "quote": "Participants stressed that current inflation remained unacceptably high while acknowledging that it had moderated somewhat over the past year.",
+     "start": 17485,
+     "end": 17626
+    },
+    {
+     "quote": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation.",
+     "start": 30085,
+     "end": 30251
+    },
+    {
+     "quote": "participants assessed that real GDP had been expanding at a solid pace and had been more resilient than expected.",
+     "start": 17113,
+     "end": 17225
+    },
+    {
+     "quote": "Several participants noted that the process of balance sheet runoff could continue for some time, even after the Committee begins to reduce the target range for the federal funds rate.",
+     "start": 29273,
+     "end": 29456
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

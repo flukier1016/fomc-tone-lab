@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20241218",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20241218",
+  "doc_type": "minutes",
+  "text_sha256": "60f49d440c8c2ff0238a98c0454171c60d834421e8a4acae5e1ce22954b639b1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1dd3796d9cc5f12f5615981bd09650caf7b5aa32d2954a9588b201ad2355eaa0",
+ "message_id": "msg_011CgFugLDSNjZqfu3jsjsju",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11628,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"participants indicated that the Committee was at or near the point at which it would be appropriate to slow the pace of policy easing.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Almost all participants judged that upside risks to the inflation outlook had increased.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants noted that the Committee could hold the policy rate at a restrictive level, or ease policy more slowly, if inflation remained elevated\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the likelihood that elevated inflation could be more persistent had increased.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent data on economic activity and consumer spending in particular were, on balance, stronger than anticipated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.\"}],\"rationale\":\"Although the minutes describe a 25 bp cut, the discussion emphasizes slowing the pace of easing, increased upside inflation risks, and strong activity, with some participants favoring a hold. Runoff continues, so the net signal is a hawkish lean relative to the easing path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "participants indicated that the Committee was at or near the point at which it would be appropriate to slow the pace of policy easing."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Almost all participants judged that upside risks to the inflation outlook had increased."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants noted that the Committee could hold the policy rate at a restrictive level, or ease policy more slowly, if inflation remained elevated"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the likelihood that elevated inflation could be more persistent had increased."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent data on economic activity and consumer spending in particular were, on balance, stronger than anticipated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings."
+   }
+  ],
+  "rationale": "Although the minutes describe a 25 bp cut, the discussion emphasizes slowing the pace of easing, increased upside inflation risks, and strong activity, with some participants favoring a hold. Runoff continues, so the net signal is a hawkish lean relative to the easing path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "participants indicated that the Committee was at or near the point at which it would be appropriate to slow the pace of policy easing.",
+     "start": 28174,
+     "end": 28307
+    },
+    {
+     "quote": "Almost all participants judged that upside risks to the inflation outlook had increased.",
+     "start": 25289,
+     "end": 25376
+    },
+    {
+     "quote": "Many participants noted that the Committee could hold the policy rate at a restrictive level, or ease policy more slowly, if inflation remained elevated",
+     "start": 30679,
+     "end": 30831
+    },
+    {
+     "quote": "the likelihood that elevated inflation could be more persistent had increased.",
+     "start": 30391,
+     "end": 30468
+    },
+    {
+     "quote": "recent data on economic activity and consumer spending in particular were, on balance, stronger than anticipated.",
+     "start": 23507,
+     "end": 23619
+    },
+    {
+     "quote": "Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.",
+     "start": 28003,
+     "end": 28124
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

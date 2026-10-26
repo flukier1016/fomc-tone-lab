@@ -1,0 +1,85 @@
+{
+ "key": "speech_barr20251022b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251022b",
+  "doc_type": "speech",
+  "text_sha256": "00f9244aed63f7b653f2b629ce2ed237e99003c48151ea3c9824cd6fbe1c7401"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aa9c33a529fd53100622984ebe75cd6a561e532eff8434d5e022081f9721d8bb",
+ "message_id": "msg_011CgFugAp8ra4Z44Gnh9jYP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1554,
+  "output_tokens": 315,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Financial inclusion and access to credit have been a long-standing focus of my work and a key component of the Federal Reserve's mission.\"},{\"dimension\":\"overall\",\"quote\":\"Today, I will share my perspective on the critical role that bank accounts, faster payments, and small-dollar loans can play in serving the needs of low- and moderate-income communities.\"}],\"rationale\":\"The remarks focus on financial inclusion, bank accounts, payments, and small-dollar lending, with no discussion of monetary policy, inflation, or the economic outlook. No policy signal is present, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Financial inclusion and access to credit have been a long-standing focus of my work and a key component of the Federal Reserve's mission."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, I will share my perspective on the critical role that bank accounts, faster payments, and small-dollar loans can play in serving the needs of low- and moderate-income communities."
+   }
+  ],
+  "rationale": "The remarks focus on financial inclusion, bank accounts, payments, and small-dollar lending, with no discussion of monetary policy, inflation, or the economic outlook. No policy signal is present, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Financial inclusion and access to credit have been a long-standing focus of my work and a key component of the Federal Reserve's mission.",
+     "start": 860,
+     "end": 996
+    },
+    {
+     "quote": "Today, I will share my perspective on the critical role that bank accounts, faster payments, and small-dollar loans can play in serving the needs of low- and moderate-income communities.",
+     "start": 1151,
+     "end": 1336
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

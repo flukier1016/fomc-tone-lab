@@ -1,0 +1,85 @@
+{
+ "key": "speech_yellen20171107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20171107a",
+  "doc_type": "speech",
+  "text_sha256": "14c034a53969192ef489546fe1da7278ab2e01a94b1639a4c16e328a85495d1c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "27b037535957e050af1da8902df05b6502f1c5ac96da05d63031fb7017219812",
+ "message_id": "msg_011CgFug9j9prsAnVJHwU2TZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1550,
+  "output_tokens": 284,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve's very effectiveness in setting monetary policy depends on the public's assured confidence that we act only in its interest.\"},{\"dimension\":\"overall\",\"quote\":\"We must act ethically, and we must demonstrate our ethical standards in ways that leave little room for doubt.\"}],\"rationale\":\"This award acceptance speech covers Paul Douglas's legacy and ethics in government. It offers no view on rates, inflation, the economy or the balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve's very effectiveness in setting monetary policy depends on the public's assured confidence that we act only in its interest."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We must act ethically, and we must demonstrate our ethical standards in ways that leave little room for doubt."
+   }
+  ],
+  "rationale": "This award acceptance speech covers Paul Douglas's legacy and ethics in government. It offers no view on rates, inflation, the economy or the balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve's very effectiveness in setting monetary policy depends on the public's assured confidence that we act only in its interest.",
+     "start": 4545,
+     "end": 4688
+    },
+    {
+     "quote": "We must act ethically, and we must demonstrate our ethical standards in ways that leave little room for doubt.",
+     "start": 4690,
+     "end": 4799
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "statement_20150617",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20150617",
+  "doc_type": "statement",
+  "text_sha256": "7bdceaa30cbc4fcd72d773446ec99e5f5e812c3950de3b42963a8dd11f781c91"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9550a1ef703fcafb3719b1664b5ffb985f1e31ca9c3ec0d0ec1c8d7061fb3932",
+ "message_id": "msg_011CgG27vWqPSMiuGmiuhQHh",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1145,
+  "output_tokens": 577,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity has been expanding moderately after having changed little during the first quarter. The pace of job gains picked up while the unemployment rate remained steady.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation continued to run below the Committee's longer-run objective\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The statement holds rates at zero and keeps conditional liftoff guidance, with an improved activity and labor assessment offset by below-target inflation and low inflation compensation. Risks are described as nearly balanced and reinvestment continues, so the net signal is roughly neutral with a slight hawkish tilt from the stronger labor market.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity has been expanding moderately after having changed little during the first quarter. The pace of job gains picked up while the unemployment rate remained steady."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation continued to run below the Committee's longer-run objective"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The statement holds rates at zero and keeps conditional liftoff guidance, with an improved activity and labor assessment offset by below-target inflation and low inflation compensation. Risks are described as nearly balanced and reinvestment continues, so the net signal is roughly neutral with a slight hawkish tilt from the stronger labor market."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee today reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate",
+     "start": 1800,
+     "end": 1933
+    },
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market",
+     "start": 2358,
+     "end": 2521
+    },
+    {
+     "quote": "economic activity has been expanding moderately after having changed little during the first quarter. The pace of job gains picked up while the unemployment rate remained steady.",
+     "start": 88,
+     "end": 265
+    },
+    {
+     "quote": "Inflation continued to run below the Committee's longer-run objective",
+     "start": 547,
+     "end": 616
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1242,
+     "end": 1359
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 2882,
+     "end": 3031
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

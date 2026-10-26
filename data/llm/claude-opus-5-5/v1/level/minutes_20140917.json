@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20140917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20140917",
+  "doc_type": "minutes",
+  "text_sha256": "e1f072972d54565eee455aa37f22c06300999c2f92f04f8e6ac80ad7515803b9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8671f2105541042aedf7df2fc69fade4fe0f171da7307553924606cf3150861e",
+ "message_id": "msg_011CgFug91EyyAcDEWTTVwAo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15638,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"several participants thought that the current forward guidance regarding the federal funds rate suggested a longer period before liftoff, and perhaps also a more gradual increase in the federal funds rate thereafter\"},{\"dimension\":\"forward_guidance\",\"quote\":\"some participants saw the current forward guidance as appropriate in light of risk-management considerations, which suggested that it would be prudent to err on the side of patience\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"several expressing concern that inflation might persist below the Committee's objective for quite some time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally agreed that the accumulated progress in labor market conditions since the Committee's current asset purchase program began in September 2012 had been substantial\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it would end its current program of asset purchases at its October meeting\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most viewed the risks to the outlook for economic activity and the labor market as broadly balanced.\"}],\"rationale\":\"The minutes show continued tapering toward an end of purchases, normalization principles, and several participants pushing for earlier liftoff, offset by retained 'considerable time' guidance, significant slack, and below-target inflation concerns. On net the signal leans slightly hawkish but is roughly balanced.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "several participants thought that the current forward guidance regarding the federal funds rate suggested a longer period before liftoff, and perhaps also a more gradual increase in the federal funds rate thereafter"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "some participants saw the current forward guidance as appropriate in light of risk-management considerations, which suggested that it would be prudent to err on the side of patience"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "several expressing concern that inflation might persist below the Committee's objective for quite some time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally agreed that the accumulated progress in labor market conditions since the Committee's current asset purchase program began in September 2012 had been substantial"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it would end its current program of asset purchases at its October meeting"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most viewed the risks to the outlook for economic activity and the labor market as broadly balanced."
+   }
+  ],
+  "rationale": "The minutes show continued tapering toward an end of purchases, normalization principles, and several participants pushing for earlier liftoff, offset by retained 'considerable time' guidance, significant slack, and below-target inflation concerns. On net the signal leans slightly hawkish but is roughly balanced."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "several participants thought that the current forward guidance regarding the federal funds rate suggested a longer period before liftoff, and perhaps also a more gradual increase in the federal funds rate thereafter",
+     "start": 36609,
+     "end": 36824
+    },
+    {
+     "quote": "some participants saw the current forward guidance as appropriate in light of risk-management considerations, which suggested that it would be prudent to err on the side of patience",
+     "start": 38307,
+     "end": 38488
+    },
+    {
+     "quote": "several expressing concern that inflation might persist below the Committee's objective for quite some time",
+     "start": 24885,
+     "end": 24992
+    },
+    {
+     "quote": "Participants generally agreed that the accumulated progress in labor market conditions since the Committee's current asset purchase program began in September 2012 had been substantial",
+     "start": 32557,
+     "end": 32741
+    },
+    {
+     "quote": "it would end its current program of asset purchases at its October meeting",
+     "start": 42441,
+     "end": 42515
+    },
+    {
+     "quote": "Most viewed the risks to the outlook for economic activity and the labor market as broadly balanced.",
+     "start": 24994,
+     "end": 25093
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

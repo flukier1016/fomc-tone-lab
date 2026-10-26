@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20170119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20170119a",
+  "doc_type": "speech",
+  "text_sha256": "2cee016c6c35f61cc0c6ae33a3445806ab6cb24f4978ac0ba5ba191fea1343ab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f12ca82c5570e7309def2256753ecc630b83426c9888959eec30d08508a5ff35",
+ "message_id": "msg_011CgFugAsrahNeDPM64hWep",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7690,
+  "output_tokens": 497,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I consider it prudent to adjust the stance of monetary policy gradually over time\"},{\"dimension\":\"risk_balance\",\"quote\":\"I think that allowing the economy to run markedly and persistently \\\"hot\\\" would be risky and unwise.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Again, these data do not seem consistent with an overheated labor market.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I judge labor utilization to be reasonably close to its normal longer-run level\"},{\"dimension\":\"risk_balance\",\"quote\":\"Such asymmetric risks arguably call for a more gradual path of rate increases than indicated by the prescriptions of a simple policy rule.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Other things being equal, this factor argues for a more gradual approach to raising short-term rates.\"}],\"rationale\":\"The speech endorses continued but gradual removal of accommodation. It argues against being behind the curve, stresses a low neutral rate and asymmetric downside risks, and cautions against running the economy hot, leaving a roughly balanced, slightly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I consider it prudent to adjust the stance of monetary policy gradually over time"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I think that allowing the economy to run markedly and persistently \"hot\" would be risky and unwise."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Again, these data do not seem consistent with an overheated labor market."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I judge labor utilization to be reasonably close to its normal longer-run level"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Such asymmetric risks arguably call for a more gradual path of rate increases than indicated by the prescriptions of a simple policy rule."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Other things being equal, this factor argues for a more gradual approach to raising short-term rates."
+   }
+  ],
+  "rationale": "The speech endorses continued but gradual removal of accommodation. It argues against being behind the curve, stresses a low neutral rate and asymmetric downside risks, and cautions against running the economy hot, leaving a roughly balanced, slightly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I consider it prudent to adjust the stance of monetary policy gradually over time",
+     "start": 9726,
+     "end": 9807
+    },
+    {
+     "quote": "I think that allowing the economy to run markedly and persistently \"hot\" would be risky and unwise.",
+     "start": 9023,
+     "end": 9121
+    },
+    {
+     "quote": "Again, these data do not seem consistent with an overheated labor market.",
+     "start": 7210,
+     "end": 7282
+    },
+    {
+     "quote": "I judge labor utilization to be reasonably close to its normal longer-run level",
+     "start": 3281,
+     "end": 3360
+    },
+    {
+     "quote": "Such asymmetric risks arguably call for a more gradual path of rate increases than indicated by the prescriptions of a simple policy rule.",
+     "start": 19374,
+     "end": 19511
+    },
+    {
+     "quote": "Other things being equal, this factor argues for a more gradual approach to raising short-term rates.",
+     "start": 18731,
+     "end": 18831
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

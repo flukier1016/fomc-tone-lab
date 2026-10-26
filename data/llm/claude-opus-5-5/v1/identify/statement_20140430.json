@@ -1,0 +1,51 @@
+{
+ "key": "statement_20140430",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20140430",
+  "release_date": "2014-04-30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "010878f71e157843204cc8f1a62e9075589d87d755e6cb405db21ce51067a731",
+ "message_id": "msg_011CgFudVUTkfGfXXE5ufquW",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2053,
+  "output_tokens": 159,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":4,\"confidence\":0.95,\"cues\":[\"Taper from $25B/$30B to $20B/$25B beginning in May matches April 29-30, 2014 FOMC\",\"Growth picked up after slowing sharply during winter due to adverse weather\",\"Kocherlakota and Pianalto as voters (2014 rotation)\",\"Considerable time after asset purchase program ends language (2014 forward guidance)\",\"Fiscal restraint diminishing\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 4,
+  "confidence": 0.95,
+  "cues": [
+   "Taper from $25B/$30B to $20B/$25B beginning in May matches April 29-30, 2014 FOMC",
+   "Growth picked up after slowing sharply during winter due to adverse weather",
+   "Kocherlakota and Pianalto as voters (2014 rotation)",
+   "Considerable time after asset purchase program ends language (2014 forward guidance)",
+   "Fiscal restraint diminishing"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

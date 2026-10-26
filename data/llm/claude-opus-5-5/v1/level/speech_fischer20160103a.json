@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20160103a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160103a",
+  "doc_type": "speech",
+  "text_sha256": "16b65a4a3516c759220a3c603329d9481ba1354875842deda68ca3be826c5444"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8fc1ad6b8925989e79c9807b10ed4d6d19a1097308367760d2b950d7d972be64",
+ "message_id": "msg_011CgFugDiWhh3xXuUDyCS5q",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5638,
+  "output_tokens": 453,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"At present, it looks likely that r* will remain low for the policy-relevant future\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A variety of models and statistical approaches suggest that the current level of short-run r* may be close to zero.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve's normalization tools proved effective in raising the federal funds rate following our December meeting.\"},{\"dimension\":\"risk_balance\",\"quote\":\"if asset prices across the economy--that is, taking all financial markets into account--are thought to be excessively high, raising the interest rate may be the appropriate step.\"},{\"dimension\":\"overall\",\"quote\":\"Negative policy rates have generally not been associated with the problems that likely were anticipated.\"}],\"rationale\":\"A largely academic speech on low r*, ZLB tools and financial stability. Emphasis on persistently low r* implies a lower rate path (mildly dovish), balanced by openness to leaning against asset-price excesses and satisfaction with normalization.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "At present, it looks likely that r* will remain low for the policy-relevant future"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A variety of models and statistical approaches suggest that the current level of short-run r* may be close to zero."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve's normalization tools proved effective in raising the federal funds rate following our December meeting."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "if asset prices across the economy--that is, taking all financial markets into account--are thought to be excessively high, raising the interest rate may be the appropriate step."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Negative policy rates have generally not been associated with the problems that likely were anticipated."
+   }
+  ],
+  "rationale": "A largely academic speech on low r*, ZLB tools and financial stability. Emphasis on persistently low r* implies a lower rate path (mildly dovish), balanced by openness to leaning against asset-price excesses and satisfaction with normalization."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At present, it looks likely that r* will remain low for the policy-relevant future",
+     "start": 5918,
+     "end": 6000
+    },
+    {
+     "quote": "A variety of models and statistical approaches suggest that the current level of short-run r* may be close to zero.",
+     "start": 2519,
+     "end": 2633
+    },
+    {
+     "quote": "the Federal Reserve's normalization tools proved effective in raising the federal funds rate following our December meeting.",
+     "start": 5449,
+     "end": 5572
+    },
+    {
+     "quote": "if asset prices across the economy--that is, taking all financial markets into account--are thought to be excessively high, raising the interest rate may be the appropriate step.",
+     "start": 18408,
+     "end": 18585
+    },
+    {
+     "quote": "Negative policy rates have generally not been associated with the problems that likely were anticipated.",
+     "start": 8372,
+     "end": 8475
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

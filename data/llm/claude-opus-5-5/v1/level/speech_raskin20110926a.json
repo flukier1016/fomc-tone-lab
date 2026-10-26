@@ -1,0 +1,112 @@
+{
+ "key": "speech_raskin20110926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20110926a",
+  "doc_type": "speech",
+  "text_sha256": "031de0981d11a22e5e884502f3ec316d424bc5c2fde393dfed4414da6442cf03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ab749c82373a8b312987cefe93503a7075fbf4788168f8162e1eda24a5f8786c",
+ "message_id": "msg_011CgFugFaP3X2Q2SFDxnNRx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6596,
+  "output_tokens": 541,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The latest employment report issued by the Bureau of Labor Statistics was bleak.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Indeed, the opposite conclusion might well be the case--namely, that additional policy accommodation is warranted under present circumstances.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This maturity extension program--referred to by some as Operation Twist--should exert downward pressure on longer-term interest rates and help make broader financial conditions more accommodative, thereby supporting a stronger economic recovery.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve is fully committed to doing everything we can to promote maximum employment in the context of price stability.\"}],\"rationale\":\"The speech stresses a bleak labor market and a weak recovery, endorses Operation Twist and MBS reinvestment, and suggests that additional accommodation may be warranted. Inflation is described only as subdued, so the net signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The latest employment report issued by the Bureau of Labor Statistics was bleak."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Indeed, the opposite conclusion might well be the case--namely, that additional policy accommodation is warranted under present circumstances."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This maturity extension program--referred to by some as Operation Twist--should exert downward pressure on longer-term interest rates and help make broader financial conditions more accommodative, thereby supporting a stronger economic recovery."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve is fully committed to doing everything we can to promote maximum employment in the context of price stability."
+   }
+  ],
+  "rationale": "The speech stresses a bleak labor market and a weak recovery, endorses Operation Twist and MBS reinvestment, and suggests that additional accommodation may be warranted. Inflation is described only as subdued, so the net signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The latest employment report issued by the Bureau of Labor Statistics was bleak.",
+     "start": 2610,
+     "end": 2689
+    },
+    {
+     "quote": "Indeed, the opposite conclusion might well be the case--namely, that additional policy accommodation is warranted under present circumstances.",
+     "start": 19691,
+     "end": 19832
+    },
+    {
+     "quote": "This maturity extension program--referred to by some as Operation Twist--should exert downward pressure on longer-term interest rates and help make broader financial conditions more accommodative, thereby supporting a stronger economic recovery.",
+     "start": 13291,
+     "end": 13535
+    },
+    {
+     "quote": "economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013.",
+     "start": 11330,
+     "end": 11551
+    },
+    {
+     "quote": "the Federal Reserve is fully committed to doing everything we can to promote maximum employment in the context of price stability.",
+     "start": 21832,
+     "end": 21961
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

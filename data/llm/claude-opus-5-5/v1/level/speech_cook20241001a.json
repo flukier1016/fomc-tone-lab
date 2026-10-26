@@ -1,0 +1,103 @@
+{
+ "key": "speech_cook20241001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20241001a",
+  "doc_type": "speech",
+  "text_sha256": "530221ffcaee50a95c397635f96710daab4b4952e35e528b1d644af8b89c0416"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "40e83734d633f007b5c4631e7129c7dcb03941095c5ceb766afadf371eb8ed45",
+ "message_id": "msg_011CgFugAWHUSdCwigmy4WRc",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4233,
+  "output_tokens": 364,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"My hope is that rising productivity gains will serve as a counterweight to inflation going forward.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"if it does meaningfully lift productivity, it could help constrain unit labor costs and inflation in the long run.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it grew 2.7 percent over the year ending in the second quarter.\"},{\"dimension\":\"overall\",\"quote\":\"Let me say from the outset that there is tremendous uncertainty about AI's implications.\"}],\"rationale\":\"The speech focuses on AI and productivity, with no near-term policy guidance. It mildly suggests productivity gains could restrain inflation, a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "My hope is that rising productivity gains will serve as a counterweight to inflation going forward."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "if it does meaningfully lift productivity, it could help constrain unit labor costs and inflation in the long run."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it grew 2.7 percent over the year ending in the second quarter."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Let me say from the outset that there is tremendous uncertainty about AI's implications."
+   }
+  ],
+  "rationale": "The speech focuses on AI and productivity, with no near-term policy guidance. It mildly suggests productivity gains could restrain inflation, a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My hope is that rising productivity gains will serve as a counterweight to inflation going forward.",
+     "start": 13752,
+     "end": 13850
+    },
+    {
+     "quote": "if it does meaningfully lift productivity, it could help constrain unit labor costs and inflation in the long run.",
+     "start": 6862,
+     "end": 6975
+    },
+    {
+     "quote": "it grew 2.7 percent over the year ending in the second quarter.",
+     "start": 5469,
+     "end": 5531
+    },
+    {
+     "quote": "Let me say from the outset that there is tremendous uncertainty about AI's implications.",
+     "start": 3127,
+     "end": 3214
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

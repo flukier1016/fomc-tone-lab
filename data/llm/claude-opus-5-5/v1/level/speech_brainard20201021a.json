@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20201021a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20201021a",
+  "doc_type": "speech",
+  "text_sha256": "7137eb834a39ce82a9416a298587abaa408352b4aa05c7d65f6cc27000be6c98"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "15804c695266c5e0d7a035ba16f6bbae6d08d3b6bc31ca318ce19c4d6abbe982",
+ "message_id": "msg_011CgFugG6dgBB6zJXfwFJeK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5868,
+  "output_tokens": 572,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This implies there likely will be a period after liftoff when the policy rate remains below neutral to support the inflation makeup strategy and maximum employment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"my baseline forecast for inflation over the medium term is for it to remain short of 2 percent over the next few years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The pace of labor market improvement is decelerating at a time when employment is still far short of its maximum level.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Apart from the course of the virus itself, the most significant downside risk to my outlook would be the failure of additional fiscal support to materialize.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Continued asset purchases will help achieve these outcomes by keeping borrowing costs low for households and businesses along the yield curve.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve is committed to providing sustained accommodation to achieve a broad-based recovery.\"}],\"rationale\":\"The speech strongly emphasizes sustained accommodation under FAIT, expects inflation below 2 percent, highlights decelerating and uneven labor recovery and downside risks, and supports continued asset purchases. It signals a prolonged period at the lower bound and gradual liftoff, a clearly dovish stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This implies there likely will be a period after liftoff when the policy rate remains below neutral to support the inflation makeup strategy and maximum employment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "my baseline forecast for inflation over the medium term is for it to remain short of 2 percent over the next few years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The pace of labor market improvement is decelerating at a time when employment is still far short of its maximum level."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Apart from the course of the virus itself, the most significant downside risk to my outlook would be the failure of additional fiscal support to materialize."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Continued asset purchases will help achieve these outcomes by keeping borrowing costs low for households and businesses along the yield curve."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve is committed to providing sustained accommodation to achieve a broad-based recovery."
+   }
+  ],
+  "rationale": "The speech strongly emphasizes sustained accommodation under FAIT, expects inflation below 2 percent, highlights decelerating and uneven labor recovery and downside risks, and supports continued asset purchases. It signals a prolonged period at the lower bound and gradual liftoff, a clearly dovish stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This implies there likely will be a period after liftoff when the policy rate remains below neutral to support the inflation makeup strategy and maximum employment.",
+     "start": 14575,
+     "end": 14738
+    },
+    {
+     "quote": "my baseline forecast for inflation over the medium term is for it to remain short of 2 percent over the next few years.",
+     "start": 8355,
+     "end": 8473
+    },
+    {
+     "quote": "The pace of labor market improvement is decelerating at a time when employment is still far short of its maximum level.",
+     "start": 4832,
+     "end": 4950
+    },
+    {
+     "quote": "Apart from the course of the virus itself, the most significant downside risk to my outlook would be the failure of additional fiscal support to materialize.",
+     "start": 10321,
+     "end": 10477
+    },
+    {
+     "quote": "Continued asset purchases will help achieve these outcomes by keeping borrowing costs low for households and businesses along the yield curve.",
+     "start": 18959,
+     "end": 19100
+    },
+    {
+     "quote": "The Federal Reserve is committed to providing sustained accommodation to achieve a broad-based recovery.",
+     "start": 328,
+     "end": 431
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

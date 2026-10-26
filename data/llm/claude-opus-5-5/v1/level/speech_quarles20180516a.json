@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20180516a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20180516a",
+  "doc_type": "speech",
+  "text_sha256": "351ec092caf62e0e9bd00097303c35450a068819f0746a87380cecc558fb27a4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6a68c11592b614b31281b3d9d3c74c3af51f147dc7685ea05bed9cdce7534cf5",
+ "message_id": "msg_011CgFugBNNt1nNP3TVjqUX8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5118,
+  "output_tokens": 377,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thank you to Professor Scott for inviting me to join this discussion on cross-border resolution and risks of fragmentation.\"},{\"dimension\":\"overall\",\"quote\":\"I believe we should consider whether the internal TLAC calibration for IHCs could be adjusted to reflect the practice of other regulators without adversely affecting resolvability and U.S. financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"We are committed to working with other jurisdictions to continue to build the foundation of the SPOE resolution framework.\"}],\"rationale\":\"The speech addresses cross-border bank resolution, ring-fencing and TLAC calibration, which are regulatory topics with no discussion of monetary policy, inflation, or economic activity. It is therefore scored neutral with null dimensions.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thank you to Professor Scott for inviting me to join this discussion on cross-border resolution and risks of fragmentation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe we should consider whether the internal TLAC calibration for IHCs could be adjusted to reflect the practice of other regulators without adversely affecting resolvability and U.S. financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are committed to working with other jurisdictions to continue to build the foundation of the SPOE resolution framework."
+   }
+  ],
+  "rationale": "The speech addresses cross-border bank resolution, ring-fencing and TLAC calibration, which are regulatory topics with no discussion of monetary policy, inflation, or economic activity. It is therefore scored neutral with null dimensions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thank you to Professor Scott for inviting me to join this discussion on cross-border resolution and risks of fragmentation.",
+     "start": 230,
+     "end": 352
+    },
+    {
+     "quote": "I believe we should consider whether the internal TLAC calibration for IHCs could be adjusted to reflect the practice of other regulators without adversely affecting resolvability and U.S. financial stability.",
+     "start": 15203,
+     "end": 15411
+    },
+    {
+     "quote": "We are committed to working with other jurisdictions to continue to build the foundation of the SPOE resolution framework.",
+     "start": 16092,
+     "end": 16213
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

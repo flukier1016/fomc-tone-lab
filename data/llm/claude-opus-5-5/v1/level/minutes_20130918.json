@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20130918",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20130918",
+  "doc_type": "minutes",
+  "text_sha256": "40c9ba77d3de6dfb53114b9960ac9bb0ecb81bd1b10937dcd0ed1773b955ebd9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b0d8461167f2b0151d56e0ad062f3b3a608d53cd1b6dcf74cdf6e003b98d4ab8",
+ "message_id": "msg_011CgFugCDy2VdFu685QBQdi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14780,
+  "output_tokens": 620,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"all members but one judged that it would be appropriate for the Committee to await more evidence that progress would be sustained before adjusting the pace of asset purchases.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Members recognized, however, that inflation persistently below the Committee's 2 percent objective could pose risks to economic performance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A couple of participants also remarked that they viewed their projections of a low federal funds rate in 2016 as reflecting a commitment to support the economy by maintaining a more accommodative policy for longer.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"For several members, the various considerations made the decision to maintain an unchanged pace of asset purchases at this meeting a relatively close call.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"a number of participants indicated that gains in payrolls in the July and August employment reports were disappointing\"}],\"rationale\":\"The minutes describe a decision to delay tapering, concern about tightening financial conditions, fiscal downside risks, below-target inflation, and discussion of strengthening rate forward guidance, all dovish. This is tempered by the close-call nature of the decision, a dissent favoring a reduction, and an acknowledgment that taper was expected in coming meetings.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "all members but one judged that it would be appropriate for the Committee to await more evidence that progress would be sustained before adjusting the pace of asset purchases."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Members recognized, however, that inflation persistently below the Committee's 2 percent objective could pose risks to economic performance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A couple of participants also remarked that they viewed their projections of a low federal funds rate in 2016 as reflecting a commitment to support the economy by maintaining a more accommodative policy for longer."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "For several members, the various considerations made the decision to maintain an unchanged pace of asset purchases at this meeting a relatively close call."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "a number of participants indicated that gains in payrolls in the July and August employment reports were disappointing"
+   }
+  ],
+  "rationale": "The minutes describe a decision to delay tapering, concern about tightening financial conditions, fiscal downside risks, below-target inflation, and discussion of strengthening rate forward guidance, all dovish. This is tempered by the close-call nature of the decision, a dissent favoring a reduction, and an acknowledgment that taper was expected in coming meetings."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "all members but one judged that it would be appropriate for the Committee to await more evidence that progress would be sustained before adjusting the pace of asset purchases.",
+     "start": 39968,
+     "end": 40142
+    },
+    {
+     "quote": "the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and labor market.",
+     "start": 39019,
+     "end": 39165
+    },
+    {
+     "quote": "Members recognized, however, that inflation persistently below the Committee's 2 percent objective could pose risks to economic performance.",
+     "start": 39446,
+     "end": 39585
+    },
+    {
+     "quote": "A couple of participants also remarked that they viewed their projections of a low federal funds rate in 2016 as reflecting a commitment to support the economy by maintaining a more accommodative policy for longer.",
+     "start": 37911,
+     "end": 38124
+    },
+    {
+     "quote": "For several members, the various considerations made the decision to maintain an unchanged pace of asset purchases at this meeting a relatively close call.",
+     "start": 40998,
+     "end": 41152
+    },
+    {
+     "quote": "a number of participants indicated that gains in payrolls in the July and August employment reports were disappointing",
+     "start": 24615,
+     "end": 24733
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

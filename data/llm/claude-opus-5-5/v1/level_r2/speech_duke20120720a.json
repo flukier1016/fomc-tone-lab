@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20120720a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20120720a",
+  "doc_type": "speech",
+  "text_sha256": "8b92745664548f224540a9cbbfe49949c34d14575a35c7e7da65380af302f12b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6e7c48797740073706f52f0ca6be52796f8afec2a8afd2927580fe6e78f9abc7",
+ "message_id": "msg_011CgG28TpG4NAxbJaTtyBaD",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5060,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions are likely to warrant exceptionally low levels of the federal funds rate at least through mid-2013--a date that was later extended to late 2014--which put further downward pressure on longer-term interest rates\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"many advanced economies, with their prolonged soft recoveries, needed to continue to follow expansionary monetary policies\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This maturity extension program created additional downward pressure on long-term rates without expanding the size of the Federal Reserve's balance sheet.\"},{\"dimension\":\"overall\",\"quote\":\"With substantial economic slack remaining, these central banks faced the challenge of finding ways to further ease monetary policy.\"}],\"rationale\":\"The speech is largely a descriptive history of crisis-era central bank cooperation and regulatory reform, but it frames accommodative policy approvingly amid soft advanced-economy recoveries and substantial slack. It offers no new policy signal, giving it a mild dovish lean with modest confidence.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate at least through mid-2013--a date that was later extended to late 2014--which put further downward pressure on longer-term interest rates"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "many advanced economies, with their prolonged soft recoveries, needed to continue to follow expansionary monetary policies"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This maturity extension program created additional downward pressure on long-term rates without expanding the size of the Federal Reserve's balance sheet."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With substantial economic slack remaining, these central banks faced the challenge of finding ways to further ease monetary policy."
+   }
+  ],
+  "rationale": "The speech is largely a descriptive history of crisis-era central bank cooperation and regulatory reform, but it frames accommodative policy approvingly amid soft advanced-economy recoveries and substantial slack. It offers no new policy signal, giving it a mild dovish lean with modest confidence."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate at least through mid-2013--a date that was later extended to late 2014--which put further downward pressure on longer-term interest rates",
+     "start": 7771,
+     "end": 8001
+    },
+    {
+     "quote": "many advanced economies, with their prolonged soft recoveries, needed to continue to follow expansionary monetary policies",
+     "start": 14819,
+     "end": 14941
+    },
+    {
+     "quote": "This maturity extension program created additional downward pressure on long-term rates without expanding the size of the Federal Reserve's balance sheet.",
+     "start": 6895,
+     "end": 7048
+    },
+    {
+     "quote": "With substantial economic slack remaining, these central banks faced the challenge of finding ways to further ease monetary policy.",
+     "start": 6214,
+     "end": 6344
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20100104a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100104a",
+  "doc_type": "speech",
+  "text_sha256": "a40575d32fd6ff365ac53d871a5521f0f68872cec1517b96c7ecd5d322070f0a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4ad7b9eb703251f024af8c56d66efb54b148e2599a58a55fad9d9a5b2f6637a2",
+ "message_id": "msg_011CgFug9De9Vu1LwE2GTbsx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5877,
+  "output_tokens": 477,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I anticipate that the subdued trend in inflation that we have seen for the past two years will continue.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even as the unemployment rate begins to decline later this year, it likely will remain high by historical standards.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Still, access to credit for many households and smaller businesses that largely depend on banks for credit remains difficult.\"},{\"dimension\":\"overall\",\"quote\":\"We have a wide range of tools for removing monetary policy accommodation when that becomes appropriate.\"}],\"rationale\":\"The speaker expects a moderate recovery but stresses high unemployment, substantial slack, subdued inflation and impaired bank credit, endorsing exceptionally low rates for an extended period. The mention of exit tools is generic, so the net signal is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I anticipate that the subdued trend in inflation that we have seen for the past two years will continue."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even as the unemployment rate begins to decline later this year, it likely will remain high by historical standards."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Still, access to credit for many households and smaller businesses that largely depend on banks for credit remains difficult."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have a wide range of tools for removing monetary policy accommodation when that becomes appropriate."
+   }
+  ],
+  "rationale": "The speaker expects a moderate recovery but stresses high unemployment, substantial slack, subdued inflation and impaired bank credit, endorsing exceptionally low rates for an extended period. The mention of exit tools is generic, so the net signal is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the FOMC continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 19277,
+     "end": 19430
+    },
+    {
+     "quote": "I anticipate that the subdued trend in inflation that we have seen for the past two years will continue.",
+     "start": 18373,
+     "end": 18476
+    },
+    {
+     "quote": "Even as the unemployment rate begins to decline later this year, it likely will remain high by historical standards.",
+     "start": 17018,
+     "end": 17133
+    },
+    {
+     "quote": "Still, access to credit for many households and smaller businesses that largely depend on banks for credit remains difficult.",
+     "start": 6372,
+     "end": 6496
+    },
+    {
+     "quote": "We have a wide range of tools for removing monetary policy accommodation when that becomes appropriate.",
+     "start": 19920,
+     "end": 20022
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

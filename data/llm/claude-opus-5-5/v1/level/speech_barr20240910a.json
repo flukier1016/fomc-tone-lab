@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20240910a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20240910a",
+  "doc_type": "speech",
+  "text_sha256": "3394d4bbaadb2611daf32e44b6e55024f27722b76248edd2184d6b7d3342d62a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fd6ddf0ee77517ba8d6000cec4b638b827dbb25ee7bda62b53fd5d42b4e3547d",
+ "message_id": "msg_011CgFug8wHAPikKrjYMzT37",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5761,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I intend to recommend that the Board re-propose the Basel endgame and G-SIB surcharge rules.\"},{\"dimension\":\"overall\",\"quote\":\"Taken together, the re-proposals would increase aggregate common equity tier 1 capital requirements for the G-SIBs, which are the largest and most complex banks, by 9 percent.\"},{\"dimension\":\"overall\",\"quote\":\"That's why it is important to get the balance between resiliency and efficiency right.\"}],\"rationale\":\"The speech concerns bank capital regulation (Basel III endgame and G-SIB surcharge re-proposals) and takes no view on monetary policy, inflation, or the economic outlook. All monetary dimensions are null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I intend to recommend that the Board re-propose the Basel endgame and G-SIB surcharge rules."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Taken together, the re-proposals would increase aggregate common equity tier 1 capital requirements for the G-SIBs, which are the largest and most complex banks, by 9 percent."
+   },
+   {
+    "dimension": "overall",
+    "quote": "That's why it is important to get the balance between resiliency and efficiency right."
+   }
+  ],
+  "rationale": "The speech concerns bank capital regulation (Basel III endgame and G-SIB surcharge re-proposals) and takes no view on monetary policy, inflation, or the economic outlook. All monetary dimensions are null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I intend to recommend that the Board re-propose the Basel endgame and G-SIB surcharge rules.",
+     "start": 2643,
+     "end": 2734
+    },
+    {
+     "quote": "Taken together, the re-proposals would increase aggregate common equity tier 1 capital requirements for the G-SIBs, which are the largest and most complex banks, by 9 percent.",
+     "start": 3601,
+     "end": 3775
+    },
+    {
+     "quote": "That's why it is important to get the balance between resiliency and efficiency right.",
+     "start": 996,
+     "end": 1081
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

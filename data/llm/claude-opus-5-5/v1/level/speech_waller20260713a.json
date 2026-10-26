@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20260713a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20260713a",
+  "doc_type": "speech",
+  "text_sha256": "5500a1f22df4e297b728a8f2fa70fafe5fcf6e8188fa3465c28e08ef33f28fe5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "54992aaa27c45977a68b63f6539dc4a1d5ba86eef12ee13e1cc1bec0fb54c89b",
+ "message_id": "msg_011CgFugP55ktMPaXjmHA8WA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4767,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I am concerned about the elevated pace of core inflation this year\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I believe employment is close to its maximum sustainable level, neither a source of concern for the strength of the six-year economic expansion nor a source of inflationary pressure.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The FOMC has to be ready to tighten monetary policy to prevent a repeat of the 2021-to-2022 inflation episode.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I think that is still a reasonable outcome, and I would then continue to hold the policy rate at its current target range.\"},{\"dimension\":\"overall\",\"quote\":\"Unless I see evidence of a significantly weakening labor market, my focus will be on inflation.\"}],\"rationale\":\"The speaker voices strong concern about rising, broad-based core inflation against a solid economy and stable labor market, and signals conditional near-term tightening. Anchored expectations, a less-tight labor market and recession-risk caution temper the lean, with holding still the baseline.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I am concerned about the elevated pace of core inflation this year"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I believe employment is close to its maximum sustainable level, neither a source of concern for the strength of the six-year economic expansion nor a source of inflationary pressure."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The FOMC has to be ready to tighten monetary policy to prevent a repeat of the 2021-to-2022 inflation episode."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I think that is still a reasonable outcome, and I would then continue to hold the policy rate at its current target range."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Unless I see evidence of a significantly weakening labor market, my focus will be on inflation."
+   }
+  ],
+  "rationale": "The speaker voices strong concern about rising, broad-based core inflation against a solid economy and stable labor market, and signals conditional near-term tightening. Anchored expectations, a less-tight labor market and recession-risk caution temper the lean, with holding still the baseline."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.",
+     "start": 15318,
+     "end": 15456
+    },
+    {
+     "quote": "I am concerned about the elevated pace of core inflation this year",
+     "start": 943,
+     "end": 1009
+    },
+    {
+     "quote": "I believe employment is close to its maximum sustainable level, neither a source of concern for the strength of the six-year economic expansion nor a source of inflationary pressure.",
+     "start": 6308,
+     "end": 6489
+    },
+    {
+     "quote": "The FOMC has to be ready to tighten monetary policy to prevent a repeat of the 2021-to-2022 inflation episode.",
+     "start": 11345,
+     "end": 11454
+    },
+    {
+     "quote": "I think that is still a reasonable outcome, and I would then continue to hold the policy rate at its current target range.",
+     "start": 15120,
+     "end": 15241
+    },
+    {
+     "quote": "Unless I see evidence of a significantly weakening labor market, my focus will be on inflation.",
+     "start": 6491,
+     "end": 6585
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

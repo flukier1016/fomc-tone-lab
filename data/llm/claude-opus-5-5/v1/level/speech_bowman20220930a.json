@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20220930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220930a",
+  "doc_type": "speech",
+  "text_sha256": "3923e668a80a19c4f8da38df63b2f4838788b6ac5ecb2a18990721724129e39b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bb7b12187198fb0a52408717b5c3da8b9e85713f7b678318e17a8c696da33fc1",
+ "message_id": "msg_011CgFugDpiE4mJSZvkSp4bw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6721,
+  "output_tokens": 388,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I would like to talk about the future of supervision and regulation of the largest banks\"},{\"dimension\":\"overall\",\"quote\":\"In a time of rising interest rates that could constrain credit, it is especially important to ensure that regulation and supervision not add costs and burdens for banks with little or no benefits to safety and soundness.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"While these firms' leverage ratios may become less binding as the Federal Reserve reduces the size of its balance sheet and reserves are drained from the banking system\"}],\"rationale\":\"The speech is about bank supervision and regulation, such as capital, stress tests, mergers and resolution, and takes no view on the monetary policy path. Its mentions of rising rates and balance sheet reduction are only context for regulatory points, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I would like to talk about the future of supervision and regulation of the largest banks"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In a time of rising interest rates that could constrain credit, it is especially important to ensure that regulation and supervision not add costs and burdens for banks with little or no benefits to safety and soundness."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "While these firms' leverage ratios may become less binding as the Federal Reserve reduces the size of its balance sheet and reserves are drained from the banking system"
+   }
+  ],
+  "rationale": "The speech is about bank supervision and regulation, such as capital, stress tests, mergers and resolution, and takes no view on the monetary policy path. Its mentions of rising rates and balance sheet reduction are only context for regulatory points, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I would like to talk about the future of supervision and regulation of the largest banks",
+     "start": 0,
+     "end": 95
+    },
+    {
+     "quote": "In a time of rising interest rates that could constrain credit, it is especially important to ensure that regulation and supervision not add costs and burdens for banks with little or no benefits to safety and soundness.",
+     "start": 4773,
+     "end": 4992
+    },
+    {
+     "quote": "While these firms' leverage ratios may become less binding as the Federal Reserve reduces the size of its balance sheet and reserves are drained from the banking system",
+     "start": 11473,
+     "end": 11641
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

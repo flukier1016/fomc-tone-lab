@@ -1,0 +1,9 @@
+# Runtime for the hosted dashboard only (uvicorn fomc.api:app), installed at the versions in requirements.lock.
+# The research pipeline uses requirements.txt.
+fastapi
+uvicorn[standard]
+pandas
+numpy
+pyyaml
+python-dotenv
+anthropic>=1.0

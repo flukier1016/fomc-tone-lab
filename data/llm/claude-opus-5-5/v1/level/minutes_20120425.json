@@ -1,0 +1,118 @@
+{
+ "key": "minutes_20120425",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120425",
+  "doc_type": "minutes",
+  "text_sha256": "fbca26bd4e3d5abd0af4424e8154a41a80ab564ba5a61300cfa9daa416777734"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "df2aa79d7430a220e7095363445ada706253044be7a6ec679dd12de391d9cb4b",
+ "message_id": "msg_011CgFugKvpn1aQrVeJbynd4",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12397,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Several members indicated that additional monetary policy accommodation could be necessary if the economic recovery lost momentum or the downside risks to the forecast became great enough.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Strains in global financial markets stemming from the sovereign debt and banking situation in Europe continued to pose significant downside risks to economic activity both here and abroad.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"most participants anticipated that the increase in inflation would prove temporary and that subsequently inflation would run at or below the rate that the Committee judges to be most consistent with its mandate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"some participants saw a risk that inflation pressures could increase as the expansion continued\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions had improved in recent months, and the unemployment rate had fallen, but almost all of the members saw the unemployment rate as still elevated\"}],\"rationale\":\"The Committee maintained highly accommodative policy and its late-2014 guidance, emphasized downside risks, and saw inflation as temporary, with several members open to further easing. Some hawkish minority views on inflation risks and the Lacker dissent temper the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Several members indicated that additional monetary policy accommodation could be necessary if the economic recovery lost momentum or the downside risks to the forecast became great enough."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Strains in global financial markets stemming from the sovereign debt and banking situation in Europe continued to pose significant downside risks to economic activity both here and abroad."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "most participants anticipated that the increase in inflation would prove temporary and that subsequently inflation would run at or below the rate that the Committee judges to be most consistent with its mandate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "some participants saw a risk that inflation pressures could increase as the expansion continued"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions had improved in recent months, and the unemployment rate had fallen, but almost all of the members saw the unemployment rate as still elevated"
+   }
+  ],
+  "rationale": "The Committee maintained highly accommodative policy and its late-2014 guidance, emphasized downside risks, and saw inflation as temporary, with several members open to further easing. Some hawkish minority views on inflation risks and the Lacker dissent temper the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 5,
+   "share": 0.8333333333333334,
+   "unverified": [
+    "most participants anticipated that the increase in inflation would prove temporary and that subsequently inflation would run at or below the rate that the Committee judges to be most consistent with its mandate."
+   ],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014",
+     "start": 33302,
+     "end": 33402
+    },
+    {
+     "quote": "Several members indicated that additional monetary policy accommodation could be necessary if the economic recovery lost momentum or the downside risks to the forecast became great enough.",
+     "start": 35749,
+     "end": 35936
+    },
+    {
+     "quote": "Strains in global financial markets stemming from the sovereign debt and banking situation in Europe continued to pose significant downside risks to economic activity both here and abroad.",
+     "start": 31077,
+     "end": 31264
+    },
+    {
+     "quote": "some participants saw a risk that inflation pressures could increase as the expansion continued",
+     "start": 27763,
+     "end": 27858
+    },
+    {
+     "quote": "Labor market conditions had improved in recent months, and the unemployment rate had fallen, but almost all of the members saw the unemployment rate as still elevated",
+     "start": 30682,
+     "end": 30848
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20180620a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20180620a",
+  "doc_type": "speech",
+  "text_sha256": "926bf1a703918cb0ba8ca6dba859b99545c6a0d8088bf2e9afc89f1c89f8e803"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c052922e41e72e7a87d5de0c40a84dc80f17d1cefbe67813d3e920174f47a302",
+ "message_id": "msg_011CgFugEWPcE2YBnTsHG7wy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2603,
+  "output_tokens": 485,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":2,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the case for continued gradual increases in the federal funds rate is strong.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market is particularly robust, with unemployment at its lowest level since April 2000.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has moved up close to our 2 percent objective, although we have yet to see it remain near that objective on a sustained basis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Today, with the economy strong and risks to the outlook balanced, the case for continued gradual increases in the federal funds rate remains strong and broadly supported among FOMC participants.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"So far, we see no signs of this. If anything, some measures of longer-term inflation expectations in the United States have edged lower in recent years.\"}],\"rationale\":\"The speaker describes a very strong labor market and explicitly endorses continued gradual rate increases, a moderate hawkish signal. Inflation and risks are characterized as balanced, and expectations as well anchored, which tempers the hawkishness.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 2,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the case for continued gradual increases in the federal funds rate is strong."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market is particularly robust, with unemployment at its lowest level since April 2000."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has moved up close to our 2 percent objective, although we have yet to see it remain near that objective on a sustained basis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Today, with the economy strong and risks to the outlook balanced, the case for continued gradual increases in the federal funds rate remains strong and broadly supported among FOMC participants."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "So far, we see no signs of this. If anything, some measures of longer-term inflation expectations in the United States have edged lower in recent years."
+   }
+  ],
+  "rationale": "The speaker describes a very strong labor market and explicitly endorses continued gradual rate increases, a moderate hawkish signal. Inflation and risks are characterized as balanced, and expectations as well anchored, which tempers the hawkishness."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the case for continued gradual increases in the federal funds rate is strong.",
+     "start": 1481,
+     "end": 1557
+    },
+    {
+     "quote": "The labor market is particularly robust, with unemployment at its lowest level since April 2000.",
+     "start": 250,
+     "end": 345
+    },
+    {
+     "quote": "Inflation has moved up close to our 2 percent objective, although we have yet to see it remain near that objective on a sustained basis.",
+     "start": 347,
+     "end": 482
+    },
+    {
+     "quote": "Today, with the economy strong and risks to the outlook balanced, the case for continued gradual increases in the federal funds rate remains strong and broadly supported among FOMC participants.",
+     "start": 8540,
+     "end": 8733
+    },
+    {
+     "quote": "So far, we see no signs of this. If anything, some measures of longer-term inflation expectations in the United States have edged lower in recent years.",
+     "start": 6719,
+     "end": 6870
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

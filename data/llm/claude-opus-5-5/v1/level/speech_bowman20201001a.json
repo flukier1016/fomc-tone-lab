@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20201001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20201001a",
+  "doc_type": "speech",
+  "text_sha256": "30c98dc9bebc8c6a74065a8111b160100de13fa881bad7be256e2e5617eae59d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "67589f84827cf72fefd69121e3d4fd7c014ce1662cf0f4d895247e0f3e23b109",
+ "message_id": "msg_011CgFugFNjCMMe7iNb4Rj2v",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1867,
+  "output_tokens": 337,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While a strong recovery has begun, it is clear that there is still a way to go before we are back to the robust economy we experienced at the beginning of the year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Fortunately, the housing market as a whole is a bright spot for the economy.\"},{\"dimension\":\"overall\",\"quote\":\"One of the most significant challenges facing community bankers today is navigating the complex regulatory framework.\"}],\"rationale\":\"The speech focuses on mortgage regulatory burden for community banks, with only a brief, balanced economic overview noting a strong but incomplete recovery. It offers no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While a strong recovery has begun, it is clear that there is still a way to go before we are back to the robust economy we experienced at the beginning of the year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Fortunately, the housing market as a whole is a bright spot for the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One of the most significant challenges facing community bankers today is navigating the complex regulatory framework."
+   }
+  ],
+  "rationale": "The speech focuses on mortgage regulatory burden for community banks, with only a brief, balanced economic overview noting a strong but incomplete recovery. It offers no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While a strong recovery has begun, it is clear that there is still a way to go before we are back to the robust economy we experienced at the beginning of the year.",
+     "start": 1829,
+     "end": 1992
+    },
+    {
+     "quote": "Fortunately, the housing market as a whole is a bright spot for the economy.",
+     "start": 2292,
+     "end": 2367
+    },
+    {
+     "quote": "One of the most significant challenges facing community bankers today is navigating the complex regulatory framework.",
+     "start": 742,
+     "end": 858
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

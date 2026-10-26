@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20120327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20120327a",
+  "doc_type": "speech",
+  "text_sha256": "a786e1ca3d6844d60ce8f1e9bec51f468e0526e943dab0658a22b77205b8d1d0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cd4579e7baf5b1f6989e554fab6846a84191bc7825b31a9c01d159f99bd295ff",
+ "message_id": "msg_011CgFug8cvphefQncecRnEw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4899,
+  "output_tokens": 366,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The recession damaged communities of all types, but particularly lower-income neighborhoods, and economic recovery has been stubbornly slow.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The foreclosure crisis that resulted from unsustainable subprime lending has persisted largely because of high unemployment rates.\"},{\"dimension\":\"overall\",\"quote\":\"I am pleased to participate in the ninth biennial National Interagency Community Reinvestment Conference.\"}],\"rationale\":\"This is a community development and CRA speech with no monetary policy content. Its only macro remarks note weak conditions and a slow recovery, a mild dovish tint, but the speech takes no policy view, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The recession damaged communities of all types, but particularly lower-income neighborhoods, and economic recovery has been stubbornly slow."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The foreclosure crisis that resulted from unsustainable subprime lending has persisted largely because of high unemployment rates."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I am pleased to participate in the ninth biennial National Interagency Community Reinvestment Conference."
+   }
+  ],
+  "rationale": "This is a community development and CRA speech with no monetary policy content. Its only macro remarks note weak conditions and a slow recovery, a mild dovish tint, but the speech takes no policy view, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The recession damaged communities of all types, but particularly lower-income neighborhoods, and economic recovery has been stubbornly slow.",
+     "start": 16772,
+     "end": 16911
+    },
+    {
+     "quote": "The foreclosure crisis that resulted from unsustainable subprime lending has persisted largely because of high unemployment rates.",
+     "start": 7406,
+     "end": 7535
+    },
+    {
+     "quote": "I am pleased to participate in the ninth biennial National Interagency Community Reinvestment Conference.",
+     "start": 0,
+     "end": 104
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

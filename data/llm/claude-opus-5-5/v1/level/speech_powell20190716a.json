@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20190716a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20190716a",
+  "doc_type": "speech",
+  "text_sha256": "722276d4db58bcbcd598dae30b37e64656fa9f23763d7f5eb1cce19ad6d087bb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dd719cc83b3a59f2c71b70778de3e23b7cd403559e2a5acb14b9cdd2d49a3c8d",
+ "message_id": "msg_011CgFugE5LywQNGsA3i1hRp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4205,
+  "output_tokens": 565,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many FOMC participants judged at the time of our most recent meeting in June that the combination of these factors strengthens the case for a somewhat more accommodative stance of policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Despite low unemployment and solid overall growth, inflation pressures remain muted.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Uncertainties about this outlook have increased, however, particularly regarding trade developments and global growth.\"},{\"dimension\":\"risk_balance\",\"quote\":\"FOMC participants have also raised concerns about a more prolonged shortfall in inflation below our 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Moreover, the manufacturing sector has been weak since the beginning of the year, in part weighed down by the softer business spending, weaker growth in the global economy\"},{\"dimension\":\"forward_guidance\",\"quote\":\"will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.\"}],\"rationale\":\"The speaker signals a case for more accommodation, citing muted inflation, falling inflation expectations, and rising downside risks from trade and global growth, despite a strong labor market. The structural discussion of low r* and lower-bound risk reinforces a dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many FOMC participants judged at the time of our most recent meeting in June that the combination of these factors strengthens the case for a somewhat more accommodative stance of policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Despite low unemployment and solid overall growth, inflation pressures remain muted."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Uncertainties about this outlook have increased, however, particularly regarding trade developments and global growth."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "FOMC participants have also raised concerns about a more prolonged shortfall in inflation below our 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Moreover, the manufacturing sector has been weak since the beginning of the year, in part weighed down by the softer business spending, weaker growth in the global economy"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective."
+   }
+  ],
+  "rationale": "The speaker signals a case for more accommodation, citing muted inflation, falling inflation expectations, and rising downside risks from trade and global growth, despite a strong labor market. The structural discussion of low r* and lower-bound risk reinforces a dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many FOMC participants judged at the time of our most recent meeting in June that the combination of these factors strengthens the case for a somewhat more accommodative stance of policy.",
+     "start": 5278,
+     "end": 5464
+    },
+    {
+     "quote": "Despite low unemployment and solid overall growth, inflation pressures remain muted.",
+     "start": 4183,
+     "end": 4266
+    },
+    {
+     "quote": "Uncertainties about this outlook have increased, however, particularly regarding trade developments and global growth.",
+     "start": 4793,
+     "end": 4910
+    },
+    {
+     "quote": "FOMC participants have also raised concerns about a more prolonged shortfall in inflation below our 2 percent target.",
+     "start": 5000,
+     "end": 5116
+    },
+    {
+     "quote": "Moreover, the manufacturing sector has been weak since the beginning of the year, in part weighed down by the softer business spending, weaker growth in the global economy",
+     "start": 3939,
+     "end": 4110
+    },
+    {
+     "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+     "start": 5594,
+     "end": 5723
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

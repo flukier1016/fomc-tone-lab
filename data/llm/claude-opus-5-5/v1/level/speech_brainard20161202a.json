@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20161202a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20161202a",
+  "doc_type": "speech",
+  "text_sha256": "0db712232cacbd72d5028aca5d7d464ec2912b306f3a35055f6c58cac25a0e7e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "953fda58482da23d7bf26d05f5f182acf77cfdf34b21a7f1cdead42de1b945c1",
+ "message_id": "msg_011CgFugEkXBh9jY4DdFyZ3c",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5694,
+  "output_tokens": 327,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my remarks today, I'd like to share a few thoughts about emerging financial technologies and their relevance to our work.\"},{\"dimension\":\"overall\",\"quote\":\"The key challenge for regulatory agencies is to create the right balance.\"},{\"dimension\":\"overall\",\"quote\":\"As policymakers, we want to facilitate innovation where it has the potential to yield broad social benefit, while ensuring that risks are thoroughly managed.\"}],\"rationale\":\"The speech addresses fintech regulation, supervision and consumer protection, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my remarks today, I'd like to share a few thoughts about emerging financial technologies and their relevance to our work."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The key challenge for regulatory agencies is to create the right balance."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As policymakers, we want to facilitate innovation where it has the potential to yield broad social benefit, while ensuring that risks are thoroughly managed."
+   }
+  ],
+  "rationale": "The speech addresses fintech regulation, supervision and consumer protection, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my remarks today, I'd like to share a few thoughts about emerging financial technologies and their relevance to our work.",
+     "start": 974,
+     "end": 1097
+    },
+    {
+     "quote": "The key challenge for regulatory agencies is to create the right balance.",
+     "start": 16262,
+     "end": 16334
+    },
+    {
+     "quote": "As policymakers, we want to facilitate innovation where it has the potential to yield broad social benefit, while ensuring that risks are thoroughly managed.",
+     "start": 18965,
+     "end": 19121
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

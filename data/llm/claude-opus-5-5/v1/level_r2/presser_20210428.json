@@ -1,0 +1,121 @@
+{
+ "key": "presser_20210428",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20210428",
+  "doc_type": "presser",
+  "text_sha256": "df25bf43f20b5bada1cbe880788b344cbb4706eac8a1659c24a8401a74ecb62b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e8c7b1a40592bf6c1304dbb32e28640d6220395e8d364a66e7b810e10692517f",
+ "message_id": "msg_011CgG27mHxLJqNi1GrGGyVh",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 12623,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"So, no, it is not time yet.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, these one-time increases in prices are likely to have only transitory effects on inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We got a really nice job report for March. It doesn’t constitute substantial further progress. It’s not close to substantial further progress.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would note that a transitory rise in inflation above 2 percent this year would not meet this standard.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If, if, contrary to expectations, inflation were to move persistently and materially above 2 percent in a manner that threatened to move longer-term inflation expectations materially above 2 percent, we would use our tools\"}],\"rationale\":\"Powell holds rates at zero and maintains $120 billion per month in purchases. He firmly rejects taper talk, calls the inflation rise transitory and stresses the large employment shortfall, while offering only a conditional pledge to respond if inflation proves persistent.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "So, no, it is not time yet."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, these one-time increases in prices are likely to have only transitory effects on inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We got a really nice job report for March. It doesn’t constitute substantial further progress. It’s not close to substantial further progress."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would note that a transitory rise in inflation above 2 percent this year would not meet this standard."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If, if, contrary to expectations, inflation were to move persistently and materially above 2 percent in a manner that threatened to move longer-term inflation expectations materially above 2 percent, we would use our tools"
+   }
+  ],
+  "rationale": "Powell holds rates at zero and maintains $120 billion per month in purchases. He firmly rejects taper talk, calls the inflation rise transitory and stresses the large employment shortfall, while offering only a conditional pledge to respond if inflation proves persistent."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So, no, it is not time yet.",
+     "start": 6134,
+     "end": 6160
+    },
+    {
+     "quote": "However, these one-time increases in prices are likely to have only transitory effects on inflation.",
+     "start": 3419,
+     "end": 3518
+    },
+    {
+     "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month",
+     "start": 4952,
+     "end": 5125
+    },
+    {
+     "quote": "We got a really nice job report for March. It doesn’t constitute substantial further progress. It’s not close to substantial further progress.",
+     "start": 40378,
+     "end": 40519
+    },
+    {
+     "quote": "I would note that a transitory rise in inflation above 2 percent this year would not meet this standard.",
+     "start": 4834,
+     "end": 4937
+    },
+    {
+     "quote": "If, if, contrary to expectations, inflation were to move persistently and materially above 2 percent in a manner that threatened to move longer-term inflation expectations materially above 2 percent, we would use our tools",
+     "start": 18789,
+     "end": 19011
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

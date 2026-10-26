@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20250509a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20250509a",
+  "doc_type": "speech",
+  "text_sha256": "d7fce5f6079540f085ee74bb7a51d37550e744b8906a0f95d829e2cd32d3652e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2896accaa6e1145a68ed0ff6cb06f44b2bc1dadf18555ea0f31c8eaed626606d",
+ "message_id": "msg_011CgFugCys18JCQq93cEP6H",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6923,
+  "output_tokens": 481,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"In my view, higher tariffs could lead to disruption to global supply chains and create persistent upward pressure on inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am equally concerned that tariffs will lead to higher unemployment as the economy slows.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"monetary policy is in a good position to adjust as conditions unfold.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate has been low and stable, and the disinflationary process has continued on a gradual, albeit uneven, path towards our 2 percent objective.\"},{\"dimension\":\"overall\",\"quote\":\"Thus, the FOMC may be in a difficult position if we were to see both rising inflation and rising unemployment.\"}],\"rationale\":\"The near-term outlook section balances persistent tariff-driven inflation concerns against equal concern about rising unemployment, with neutral 'good position to adjust' guidance. Most of the speech is about AI's long-run labor effects, and its discussion of r* and u* carries no directional policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In my view, higher tariffs could lead to disruption to global supply chains and create persistent upward pressure on inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am equally concerned that tariffs will lead to higher unemployment as the economy slows."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "monetary policy is in a good position to adjust as conditions unfold."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate has been low and stable, and the disinflationary process has continued on a gradual, albeit uneven, path towards our 2 percent objective."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Thus, the FOMC may be in a difficult position if we were to see both rising inflation and rising unemployment."
+   }
+  ],
+  "rationale": "The near-term outlook section balances persistent tariff-driven inflation concerns against equal concern about rising unemployment, with neutral 'good position to adjust' guidance. Most of the speech is about AI's long-run labor effects, and its discussion of r* and u* carries no directional policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, higher tariffs could lead to disruption to global supply chains and create persistent upward pressure on inflation.",
+     "start": 1150,
+     "end": 1276
+    },
+    {
+     "quote": "I am equally concerned that tariffs will lead to higher unemployment as the economy slows.",
+     "start": 2067,
+     "end": 2156
+    },
+    {
+     "quote": "monetary policy is in a good position to adjust as conditions unfold.",
+     "start": 2578,
+     "end": 2646
+    },
+    {
+     "quote": "The unemployment rate has been low and stable, and the disinflationary process has continued on a gradual, albeit uneven, path towards our 2 percent objective.",
+     "start": 563,
+     "end": 721
+    },
+    {
+     "quote": "Thus, the FOMC may be in a difficult position if we were to see both rising inflation and rising unemployment.",
+     "start": 2158,
+     "end": 2267
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

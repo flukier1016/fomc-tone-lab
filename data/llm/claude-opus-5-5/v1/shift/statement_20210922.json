@@ -1,0 +1,109 @@
+{
+ "key": "statement_20210922",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20210922",
+  "previous_doc_id": "statement_20210728",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a1d189b62c908b9e8ad78cf5bfea7ed756c25b2f394747ee05897629a2efe40c",
+ "message_id": "msg_011CgFudV1BhqFCkuiK1Y239",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2027,
+  "output_tokens": 386,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings.\",\"after\":\"Since then, the economy has made progress toward these goals. If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has risen, largely reflecting transitory factors.\",\"after\":\"Inflation is elevated, largely reflecting transitory factors.\",\"direction\":\"hawkish\"},{\"before\":\"The sectors most adversely affected by the pandemic have shown improvement but have not fully recovered.\",\"after\":\"The sectors most adversely affected by the pandemic have improved in recent months, but the rise in COVID-19 cases has slowed their recovery.\",\"direction\":\"dovish\"}],\"rationale\":\"The statement signals that tapering of asset purchases may soon be warranted and describes inflation as elevated, a meaningful hawkish step toward reducing accommodation. This is partly offset by a note that rising COVID cases slowed the recovery, while rate guidance is unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings.",
+    "after": "Since then, the economy has made progress toward these goals. If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has risen, largely reflecting transitory factors.",
+    "after": "Inflation is elevated, largely reflecting transitory factors.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The sectors most adversely affected by the pandemic have shown improvement but have not fully recovered.",
+    "after": "The sectors most adversely affected by the pandemic have improved in recent months, but the rise in COVID-19 cases has slowed their recovery.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The statement signals that tapering of asset purchases may soon be warranted and describes inflation as elevated, a meaningful hawkish step toward reducing accommodation. This is partly offset by a note that rising COVID cases slowed the recovery, while rate guidance is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Since then, the economy has made progress toward these goals, and the Committee will continue to assess progress in coming meetings.",
+     "start": 2077,
+     "end": 2208
+    },
+    {
+     "quote": "Inflation has risen, largely reflecting transitory factors.",
+     "start": 428,
+     "end": 486
+    },
+    {
+     "quote": "The sectors most adversely affected by the pandemic have shown improvement but have not fully recovered.",
+     "start": 323,
+     "end": 426
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Since then, the economy has made progress toward these goals. If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+     "start": 2116,
+     "end": 2312
+    },
+    {
+     "quote": "Inflation is elevated, largely reflecting transitory factors.",
+     "start": 465,
+     "end": 525
+    },
+    {
+     "quote": "The sectors most adversely affected by the pandemic have improved in recent months, but the rise in COVID-19 cases has slowed their recovery.",
+     "start": 323,
+     "end": 463
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "key": "statement_20201216",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20201216",
+  "previous_doc_id": "statement_20201105",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3a31be3e204031b9238e23181c80fa24cc0babdab38d37d1905c94118fd7d3e0",
+ "message_id": "msg_011CgFudUk4RsnP4pJjUL4Px",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1907,
+  "output_tokens": 655,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\",\"after\":\"In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.\",\"direction\":\"neutral\"},{\"before\":\"Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Mary C. Daly; Patrick Harker; Robert S. Kaplan; Loretta J. Mester; and Randal K. Quarles. Ms. Daly voted as an alternate member at this meeting.\",\"after\":\"Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement converts the open-ended 'over coming months' purchase language into outcome-based guidance, committing to at least $80bn/$40bn monthly purchases until 'substantial further progress' toward its goals, which extends the expected duration of QE. Everything else, including the rate guidance, is unchanged, so this is a modest dovish shift.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+    "after": "In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Mary C. Daly; Patrick Harker; Robert S. Kaplan; Loretta J. Mester; and Randal K. Quarles. Ms. Daly voted as an alternate member at this meeting.",
+    "after": "Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement converts the open-ended 'over coming months' purchase language into outcome-based guidance, committing to at least $80bn/$40bn monthly purchases until 'substantial further progress' toward its goals, which extends the expected duration of QE. Everything else, including the rate guidance, is unchanged, so this is a modest dovish shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+     "start": 1840,
+     "end": 2164
+    },
+    {
+     "quote": "Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Mary C. Daly; Patrick Harker; Robert S. Kaplan; Loretta J. Mester; and Randal K. Quarles. Ms. Daly voted as an alternate member at this meeting.",
+     "start": 2771,
+     "end": 3024
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals.",
+     "start": 1840,
+     "end": 2160
+    },
+    {
+     "quote": "These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+     "start": 2162,
+     "end": 2328
+    },
+    {
+     "quote": "Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.",
+     "start": 2935,
+     "end": 3134
+    }
+   ]
+  }
+ }
+}

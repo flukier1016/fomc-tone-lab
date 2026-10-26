@@ -1,0 +1,121 @@
+{
+ "key": "statement_20150917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20150917",
+  "doc_type": "statement",
+  "text_sha256": "68bc863e254ab3d1354deadbeee06993dee77215995e58d0f4cbb2c1b07d02d5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e36cc685f2ae972bfb8e000479e30c8ed2f650d3e954f429028fef346b617ba2",
+ "message_id": "msg_011CgFugAN6t8uPGqi9ZdxXZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1211,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Market-based measures of inflation compensation moved lower; survey-based measures of longer-term inflation expectations have remained stable.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market continued to improve, with solid job gains and declining unemployment.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market and is reasonably confident\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The Committee held rates at zero and added new language flagging global developments that may restrain activity and push inflation lower, which signals a delay to liftoff despite labor market improvement. One dissent favoring a hike provides a modest hawkish offset, but the net message leans dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Market-based measures of inflation compensation moved lower; survey-based measures of longer-term inflation expectations have remained stable."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market continued to improve, with solid job gains and declining unemployment."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market and is reasonably confident"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The Committee held rates at zero and added new language flagging global developments that may restrain activity and push inflation lower, which signals a delay to liftoff despite labor market improvement. One dissent favoring a hike provides a modest hawkish offset, but the net message leans dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+     "start": 919,
+     "end": 1086
+    },
+    {
+     "quote": "Market-based measures of inflation compensation moved lower; survey-based measures of longer-term inflation expectations have remained stable.",
+     "start": 666,
+     "end": 807
+    },
+    {
+     "quote": "The labor market continued to improve, with solid job gains and declining unemployment.",
+     "start": 302,
+     "end": 388
+    },
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market and is reasonably confident",
+     "start": 2480,
+     "end": 2676
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad.",
+     "start": 1335,
+     "end": 1490
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 3009,
+     "end": 3158
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

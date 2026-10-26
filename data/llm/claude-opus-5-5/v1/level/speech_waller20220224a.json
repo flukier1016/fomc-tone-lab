@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20220224a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20220224a",
+  "doc_type": "speech",
+  "text_sha256": "fcf0ac5954bb003d328b437fa7aee39f6ce78ddc1820a238900eb1dd83b9b492"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "63155f11a21196923468c75ed56c8b942edd06ed94d806c1c47d814b2b5f66d0",
+ "message_id": "msg_011CgFugByLrTF7azyJo8RLD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6701,
+  "output_tokens": 533,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":2,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Based on my outlook, my preference is to increase the target range 100 basis points by the middle of this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Consequently, should the data break against us in the coming weeks, we need to be prepared to hike the policy rate by 50-basis points.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In December, some people were a little surprised to hear me say that inflation was \\\"alarmingly high,\\\" but after the latest inflation numbers, I think we all should be alarmed.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I now believe we have achieved the FOMC's objective of maximum employment.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I support starting this process no later than the July FOMC meeting.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Nevertheless, the path of inflation is the biggest risk to my outlook.\"}],\"rationale\":\"The speaker calls for 100 bp of hikes by mid-year, a possible 50 bp move in March, and faster, larger balance sheet runoff, citing alarming inflation and maximum employment. Ukraine-related uncertainty and the possibility of pausing if inflation moderates temper the signal only slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 2,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Based on my outlook, my preference is to increase the target range 100 basis points by the middle of this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Consequently, should the data break against us in the coming weeks, we need to be prepared to hike the policy rate by 50-basis points."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In December, some people were a little surprised to hear me say that inflation was \"alarmingly high,\" but after the latest inflation numbers, I think we all should be alarmed."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I now believe we have achieved the FOMC's objective of maximum employment."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I support starting this process no later than the July FOMC meeting."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Nevertheless, the path of inflation is the biggest risk to my outlook."
+   }
+  ],
+  "rationale": "The speaker calls for 100 bp of hikes by mid-year, a possible 50 bp move in March, and faster, larger balance sheet runoff, citing alarming inflation and maximum employment. Ukraine-related uncertainty and the possibility of pausing if inflation moderates temper the signal only slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Based on my outlook, my preference is to increase the target range 100 basis points by the middle of this year.",
+     "start": 11777,
+     "end": 11887
+    },
+    {
+     "quote": "Consequently, should the data break against us in the coming weeks, we need to be prepared to hike the policy rate by 50-basis points.",
+     "start": 13350,
+     "end": 13483
+    },
+    {
+     "quote": "In December, some people were a little surprised to hear me say that inflation was \"alarmingly high,\" but after the latest inflation numbers, I think we all should be alarmed.",
+     "start": 7005,
+     "end": 7179
+    },
+    {
+     "quote": "I now believe we have achieved the FOMC's objective of maximum employment.",
+     "start": 3897,
+     "end": 3970
+    },
+    {
+     "quote": "I support starting this process no later than the July FOMC meeting.",
+     "start": 14962,
+     "end": 15029
+    },
+    {
+     "quote": "Nevertheless, the path of inflation is the biggest risk to my outlook.",
+     "start": 2564,
+     "end": 2633
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

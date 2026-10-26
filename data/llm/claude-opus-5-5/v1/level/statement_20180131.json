@@ -1,0 +1,112 @@
+{
+ "key": "statement_20180131",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20180131",
+  "doc_type": "statement",
+  "text_sha256": "3f18630b4315564b33e3616156b3c39454bbb58745e883ce98edca17718a30f7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "934d0c776f5530eb72a44d13db41c62588b98686ca1096dab87f0a1b63136ef2",
+ "message_id": "msg_011CgFugEuwwdSzdpxyWSQNT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 868,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and that economic activity has been rising at a solid rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely.\"},{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent\"}],\"rationale\":\"The Committee held rates steady but signaled further gradual increases, citing solid growth and a strengthening labor market. It also expects inflation to move up and is monitoring inflation closely, which adds a mild hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent"
+   }
+  ],
+  "rationale": "The Committee held rates steady but signaled further gradual increases, citing solid growth and a strengthening labor market. It also expects inflation to move up and is monitoring inflation closely, which adds a mild hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate",
+     "start": 2158,
+     "end": 2298
+    },
+    {
+     "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate",
+     "start": 92,
+     "end": 195
+    },
+    {
+     "quote": "Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term.",
+     "start": 951,
+     "end": 1094
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced, but the Committee is monitoring inflation developments closely.",
+     "start": 1096,
+     "end": 1223
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent",
+     "start": 1298,
+     "end": 1401
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_barr20250417a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20250417a",
+  "doc_type": "speech",
+  "text_sha256": "ca40eb1466af40a080de33e9d97d7b0afa1aab1eb82ab645e5a602d56c3683c2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b9035fa1cb46c40628fc969e05c0cafcf7d68ba45b2f60525e854d8459bd1545",
+ "message_id": "msg_011CgFugA6jGtuSfbMQHdKYm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3338,
+  "output_tokens": 322,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I'd like to focus more on the darker side of the technology—specifically how Gen AI has the potential to enable deepfake technology, and what we should be doing now to defend against this risk in finance.\"},{\"dimension\":\"overall\",\"quote\":\"Regulators can help to reinforce the importance of cyber defenses in safe and sound banking through appropriate updates to guidance and regulation.\"}],\"rationale\":\"The speech addresses AI-enabled deepfake fraud and cybersecurity in banking and contains no discussion of monetary policy, inflation, or economic activity. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I'd like to focus more on the darker side of the technology—specifically how Gen AI has the potential to enable deepfake technology, and what we should be doing now to defend against this risk in finance."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Regulators can help to reinforce the importance of cyber defenses in safe and sound banking through appropriate updates to guidance and regulation."
+   }
+  ],
+  "rationale": "The speech addresses AI-enabled deepfake fraud and cybersecurity in banking and contains no discussion of monetary policy, inflation, or economic activity. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I'd like to focus more on the darker side of the technology—specifically how Gen AI has the potential to enable deepfake technology, and what we should be doing now to defend against this risk in finance.",
+     "start": 487,
+     "end": 697
+    },
+    {
+     "quote": "Regulators can help to reinforce the importance of cyber defenses in safe and sound banking through appropriate updates to guidance and regulation.",
+     "start": 8276,
+     "end": 8422
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

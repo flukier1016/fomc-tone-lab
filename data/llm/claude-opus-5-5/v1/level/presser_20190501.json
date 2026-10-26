@@ -1,0 +1,121 @@
+{
+ "key": "presser_20190501",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20190501",
+  "doc_type": "presser",
+  "text_sha256": "0714e23a99f2d1fee224355ece062bd6db72c0c58fadef0b1e96e6a67136d8ec"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8a74fba2d950d66822c6d0652c915936aceb31d195e4c5de1458ea31b3c5dc76",
+ "message_id": "msg_011CgFugFmYEEGmADTf2nAG5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8459,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"decided to leave our policy interest rate unchanged\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we don’t see a strong case for moving in either direction\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"we do see good reasons to think that some or all of the unexpected decrease may wind up being transient\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic growth and job creation have both been a bit stronger than we anticipated, while inflation has been somewhat weaker.\"},{\"dimension\":\"risk_balance\",\"quote\":\"While concerns remain in all of these areas, it appears that risks have moderated somewhat.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In March, we decided to slow the pace of balance sheet runoff, starting this month, and to cease runoff entirely in September.\"}],\"rationale\":\"The Chair holds rates, describes the stance as appropriate with no strong case for moving either way, and calls the soft inflation readings likely transitory. He also cites moderating risks and solid growth, while the slowing of balance-sheet runoff is mildly dovish, leaving a near-neutral, slightly hawkish-leaning signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "decided to leave our policy interest rate unchanged"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we don’t see a strong case for moving in either direction"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "we do see good reasons to think that some or all of the unexpected decrease may wind up being transient"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic growth and job creation have both been a bit stronger than we anticipated, while inflation has been somewhat weaker."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "While concerns remain in all of these areas, it appears that risks have moderated somewhat."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In March, we decided to slow the pace of balance sheet runoff, starting this month, and to cease runoff entirely in September."
+   }
+  ],
+  "rationale": "The Chair holds rates, describes the stance as appropriate with no strong case for moving either way, and calls the soft inflation readings likely transitory. He also cites moderating risks and solid growth, while the slowing of balance-sheet runoff is mildly dovish, leaving a near-neutral, slightly hawkish-leaning signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "decided to leave our policy interest rate unchanged",
+     "start": 165,
+     "end": 216
+    },
+    {
+     "quote": "we don’t see a strong case for moving in either direction",
+     "start": 6367,
+     "end": 6424
+    },
+    {
+     "quote": "we do see good reasons to think that some or all of the unexpected decrease may wind up being transient",
+     "start": 7080,
+     "end": 7183
+    },
+    {
+     "quote": "Economic growth and job creation have both been a bit stronger than we anticipated, while inflation has been somewhat weaker.",
+     "start": 510,
+     "end": 634
+    },
+    {
+     "quote": "While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
+     "start": 2846,
+     "end": 2936
+    },
+    {
+     "quote": "In March, we decided to slow the pace of balance sheet runoff, starting this month, and to cease runoff entirely in September.",
+     "start": 3804,
+     "end": 3929
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

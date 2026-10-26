@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20160821a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160821a",
+  "doc_type": "speech",
+  "text_sha256": "6f18efaa249e3b8f7907e75724466b89a253ce7791962468a74a61cd813eaba4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "75fe02632dae6f946fbeefed2a5dac55c85b2871f9869d565a547868b7e344d0",
+ "message_id": "msg_011CgFugB3Xm7LmtVkF78u8v",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2954,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"So we are close to our targets.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"core PCE inflation, at 1.6 percent, is within hailing distance of 2 percent--and the core consumer price index inflation rate is currently above 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yet, even amid these shocks, the labor market continued to improve: Employment has continued to increase, and the unemployment rate is currently close to most estimates of the natural rate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"even so, GDP growth has been mediocre at best.\"},{\"dimension\":\"risk_balance\",\"quote\":\"monetary policy is not well equipped to address long-term issues like the slowdown in productivity growth.\"}],\"rationale\":\"The speaker stresses that the Fed is close to both its employment and inflation goals and that the labor market has been resilient to repeated shocks, a mildly hawkish framing. This is tempered by attention to weak productivity, low r* and lower-bound concerns, and the speech gives no explicit rate guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "So we are close to our targets."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "core PCE inflation, at 1.6 percent, is within hailing distance of 2 percent--and the core consumer price index inflation rate is currently above 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yet, even amid these shocks, the labor market continued to improve: Employment has continued to increase, and the unemployment rate is currently close to most estimates of the natural rate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "even so, GDP growth has been mediocre at best."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "monetary policy is not well equipped to address long-term issues like the slowdown in productivity growth."
+   }
+  ],
+  "rationale": "The speaker stresses that the Fed is close to both its employment and inflation goals and that the labor market has been resilient to repeated shocks, a mildly hawkish framing. This is tempered by attention to weak productivity, low r* and lower-bound concerns, and the speech gives no explicit rate guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So we are close to our targets.",
+     "start": 741,
+     "end": 771
+    },
+    {
+     "quote": "core PCE inflation, at 1.6 percent, is within hailing distance of 2 percent--and the core consumer price index inflation rate is currently above 2 percent.",
+     "start": 582,
+     "end": 736
+    },
+    {
+     "quote": "Yet, even amid these shocks, the labor market continued to improve: Employment has continued to increase, and the unemployment rate is currently close to most estimates of the natural rate.",
+     "start": 1290,
+     "end": 1478
+    },
+    {
+     "quote": "even so, GDP growth has been mediocre at best.",
+     "start": 4388,
+     "end": 4433
+    },
+    {
+     "quote": "monetary policy is not well equipped to address long-term issues like the slowdown in productivity growth.",
+     "start": 9075,
+     "end": 9180
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230503",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230503",
+  "doc_type": "minutes",
+  "text_sha256": "94e856864f291b5a514a893f844b346dad93076b03025fb763178953e2596ca4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4222a70d8d529fac4b6e5ca17569938d43c01e17fe57b5bb71cec1e92b1fde42",
+ "message_id": "msg_011CgFug9FdQa9eXp7L2wAHQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14232,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the extent to which additional increases in the target range may be appropriate after this meeting had become less certain.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that inflation was unacceptably high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"almost all participants commented that downside risks to growth and upside risks to unemployment had increased\"},{\"dimension\":\"risk_balance\",\"quote\":\"upside risks to the inflation outlook remained a key factor shaping the policy outlook.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants agreed that it was also appropriate to continue the process of reducing the Federal Reserve's securities holdings\"}],\"rationale\":\"The minutes signal a likely pause, saying further hikes are less certain and may not be needed, which balances against strong concern that inflation is unacceptably high and against the warning that cuts this year should not be read into the statement. Downside growth risks and upside inflation risks are both emphasized, so the net stance is roughly neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the extent to which additional increases in the target range may be appropriate after this meeting had become less certain."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that inflation was unacceptably high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "almost all participants commented that downside risks to growth and upside risks to unemployment had increased"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "upside risks to the inflation outlook remained a key factor shaping the policy outlook."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants agreed that it was also appropriate to continue the process of reducing the Federal Reserve's securities holdings"
+   }
+  ],
+  "rationale": "The minutes signal a likely pause, saying further hikes are less certain and may not be needed, which balances against strong concern that inflation is unacceptably high and against the warning that cuts this year should not be read into the statement. Downside growth risks and upside inflation risks are both emphasized, so the net stance is roughly neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the extent to which additional increases in the target range may be appropriate after this meeting had become less certain.",
+     "start": 37192,
+     "end": 37314
+    },
+    {
+     "quote": "Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary.",
+     "start": 39705,
+     "end": 39870
+    },
+    {
+     "quote": "Participants agreed that inflation was unacceptably high.",
+     "start": 30614,
+     "end": 30670
+    },
+    {
+     "quote": "almost all participants commented that downside risks to growth and upside risks to unemployment had increased",
+     "start": 38558,
+     "end": 38668
+    },
+    {
+     "quote": "upside risks to the inflation outlook remained a key factor shaping the policy outlook.",
+     "start": 38954,
+     "end": 39040
+    },
+    {
+     "quote": "All participants agreed that it was also appropriate to continue the process of reducing the Federal Reserve's securities holdings",
+     "start": 36719,
+     "end": 36849
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

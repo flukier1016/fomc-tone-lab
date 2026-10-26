@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20260130a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260130a",
+  "doc_type": "speech",
+  "text_sha256": "ead8978b47bd7f4cdec233996fd0b8d8c17563ce0fd7ae600586fc22d1cdce80"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "431459b594ca06f3963c72bb0641b169c314f8c33f9b07bb8e451debbc44817c",
+ "message_id": "msg_011CgFugENhSk49VPwCpquPA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3103,
+  "output_tokens": 517,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"my Summary of Economic Projections includes three cuts for this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"absent a clear and sustained improvement in labor market conditions, we should be ready to adjust policy to bring it closer to neutral.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I do not consider downside risks to the employment side of our mandate to have diminished, and I see several indications that the labor market remains vulnerable.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"After removing these effects, core PCE inflation would have hovered close to 2 percent in recent months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market has become increasingly fragile over the past year and could continue to deteriorate in the near term.\"},{\"dimension\":\"overall\",\"quote\":\"We should also not imply that we expect to maintain the current stance of policy for an extended period of time\"}],\"rationale\":\"The speaker supported a hold but projects three cuts this year, sees policy as restrictive and inflation near target excluding tariffs, and emphasizes downside labor market risks. The net signal is clearly dovish, tempered only slightly by her support for a pause.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "my Summary of Economic Projections includes three cuts for this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "absent a clear and sustained improvement in labor market conditions, we should be ready to adjust policy to bring it closer to neutral."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I do not consider downside risks to the employment side of our mandate to have diminished, and I see several indications that the labor market remains vulnerable."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "After removing these effects, core PCE inflation would have hovered close to 2 percent in recent months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market has become increasingly fragile over the past year and could continue to deteriorate in the near term."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We should also not imply that we expect to maintain the current stance of policy for an extended period of time"
+   }
+  ],
+  "rationale": "The speaker supported a hold but projects three cuts this year, sees policy as restrictive and inflation near target excluding tariffs, and emphasizes downside labor market risks. The net signal is clearly dovish, tempered only slightly by her support for a pause."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my Summary of Economic Projections includes three cuts for this year.",
+     "start": 1104,
+     "end": 1172
+    },
+    {
+     "quote": "absent a clear and sustained improvement in labor market conditions, we should be ready to adjust policy to bring it closer to neutral.",
+     "start": 9268,
+     "end": 9402
+    },
+    {
+     "quote": "I do not consider downside risks to the employment side of our mandate to have diminished, and I see several indications that the labor market remains vulnerable.",
+     "start": 1470,
+     "end": 1631
+    },
+    {
+     "quote": "After removing these effects, core PCE inflation would have hovered close to 2 percent in recent months.",
+     "start": 6028,
+     "end": 6131
+    },
+    {
+     "quote": "The labor market has become increasingly fragile over the past year and could continue to deteriorate in the near term.",
+     "start": 4725,
+     "end": 4843
+    },
+    {
+     "quote": "We should also not imply that we expect to maintain the current stance of policy for an extended period of time",
+     "start": 9404,
+     "end": 9515
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

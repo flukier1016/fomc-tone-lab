@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20131218",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20131218",
+  "doc_type": "minutes",
+  "text_sha256": "e9f57605be84c9f864ee6ca9ff1d88854eb46008cf6061a54bd97921fab542d1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8f9bca66a80988375be448aa84a532a01ee1849bf812b20990476b1b70c1c2d8",
+ "message_id": "msg_011CgFugDh2Gd9Qa85Ft7EV2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15776,
+  "output_tokens": 535,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"most participants saw a reduction in the pace of purchases as appropriate at this meeting and consistent with the Committee's previous policy communications.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants expressed concern about the deceleration in consumer prices over the past year\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"most expressed greater confidence in the outlook and saw the risks associated with their forecasts of real GDP growth and the unemployment rate as more nearly balanced than earlier in the year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings.\"}],\"rationale\":\"The minutes record the start of tapering, signal further measured reductions and describe an improving labor market, all hawkish relative to ongoing QE. This is offset by strengthened dovish rate guidance ('well past' 6.5 percent unemployment) and concern about low inflation, leaving a roughly neutral, slightly hawkish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "most participants saw a reduction in the pace of purchases as appropriate at this meeting and consistent with the Committee's previous policy communications."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants expressed concern about the deceleration in consumer prices over the past year"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "most expressed greater confidence in the outlook and saw the risks associated with their forecasts of real GDP growth and the unemployment rate as more nearly balanced than earlier in the year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings."
+   }
+  ],
+  "rationale": "The minutes record the start of tapering, signal further measured reductions and describe an improving labor market, all hawkish relative to ongoing QE. This is offset by strengthened dovish rate guidance ('well past' 6.5 percent unemployment) and concern about low inflation, leaving a roughly neutral, slightly hawkish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "most participants saw a reduction in the pace of purchases as appropriate at this meeting and consistent with the Committee's previous policy communications.",
+     "start": 36300,
+     "end": 36456
+    },
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent",
+     "start": 53138,
+     "end": 53306
+    },
+    {
+     "quote": "many participants expressed concern about the deceleration in consumer prices over the past year",
+     "start": 33010,
+     "end": 33106
+    },
+    {
+     "quote": "most expressed greater confidence in the outlook and saw the risks associated with their forecasts of real GDP growth and the unemployment rate as more nearly balanced than earlier in the year.",
+     "start": 25581,
+     "end": 25773
+    },
+    {
+     "quote": "the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings.",
+     "start": 51647,
+     "end": 51752
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

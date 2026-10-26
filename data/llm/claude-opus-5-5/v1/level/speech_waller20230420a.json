@@ -1,0 +1,85 @@
+{
+ "key": "speech_waller20230420a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230420a",
+  "doc_type": "speech",
+  "text_sha256": "449d16f15248d4213d71382620d025491d3281cbd2d00e9b9756621c65e2b519"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "962d33cc7983d2af92e51bd6a9a90faf24a402eb86909d69423f980dc4cc0f3a",
+ "message_id": "msg_011CgFugDaaNX8eYoe9xjGSf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3261,
+  "output_tokens": 288,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am focusing my remarks on two areas of innovation that may have the potential to deliver substantial benefits--tokenization and artificial intelligence, or AI.\"},{\"dimension\":\"overall\",\"quote\":\"The world will change, and we should encourage innovations that show promise for benefitting society, including the financial services sector.\"}],\"rationale\":\"The speech addresses financial innovation, tokenization and AI in banking, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am focusing my remarks on two areas of innovation that may have the potential to deliver substantial benefits--tokenization and artificial intelligence, or AI."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The world will change, and we should encourage innovations that show promise for benefitting society, including the financial services sector."
+   }
+  ],
+  "rationale": "The speech addresses financial innovation, tokenization and AI in banking, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am focusing my remarks on two areas of innovation that may have the potential to deliver substantial benefits--tokenization and artificial intelligence, or AI.",
+     "start": 2002,
+     "end": 2162
+    },
+    {
+     "quote": "The world will change, and we should encourage innovations that show promise for benefitting society, including the financial services sector.",
+     "start": 10950,
+     "end": 11091
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

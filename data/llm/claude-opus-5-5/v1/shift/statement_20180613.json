@@ -1,0 +1,174 @@
+{
+ "key": "statement_20180613",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20180613",
+  "previous_doc_id": "statement_20180502",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "90ec98d9b47a2b8bc045c0b9630ecd902d2d794c8d52cfe708914d0f58656071",
+ "message_id": "msg_011CgFudUVvsJGak5fvn4s3d",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1525,
+  "output_tokens": 742,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"economic activity has been rising at a moderate rate\",\"after\":\"economic activity has been rising at a solid rate\",\"direction\":\"hawkish\"},{\"before\":\"the unemployment rate has stayed low\",\"after\":\"the unemployment rate has declined\",\"direction\":\"hawkish\"},{\"before\":\"Recent data suggest that growth of household spending moderated from its strong fourth-quarter pace\",\"after\":\"Recent data suggest that growth of household spending has picked up\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to maintain the target range for the federal funds rate at 1-1/2 to 1-3/4 percent\",\"after\":\"the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.\",\"after\":\"The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run.\",\"after\":\"\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed, on balance.\",\"after\":\"Indicators of longer-term inflation expectations are little changed, on balance.\",\"direction\":\"neutral\"},{\"before\":\"The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee raised rates, upgraded its assessment of growth, spending and unemployment, and explicitly guided toward further gradual increases. It also dropped the dovish language that rates would remain below longer-run levels for some time.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "economic activity has been rising at a moderate rate",
+    "after": "economic activity has been rising at a solid rate",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the unemployment rate has stayed low",
+    "after": "the unemployment rate has declined",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Recent data suggest that growth of household spending moderated from its strong fourth-quarter pace",
+    "after": "Recent data suggest that growth of household spending has picked up",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to maintain the target range for the federal funds rate at 1-1/2 to 1-3/4 percent",
+    "after": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.",
+    "after": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run.",
+    "after": "",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed, on balance.",
+    "after": "Indicators of longer-term inflation expectations are little changed, on balance.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee raised rates, upgraded its assessment of growth, spending and unemployment, and explicitly guided toward further gradual increases. It also dropped the dovish language that rates would remain below longer-run levels for some time."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity has been rising at a moderate rate",
+     "start": 143,
+     "end": 195
+    },
+    {
+     "quote": "the unemployment rate has stayed low",
+     "start": 259,
+     "end": 295
+    },
+    {
+     "quote": "Recent data suggest that growth of household spending moderated from its strong fourth-quarter pace",
+     "start": 297,
+     "end": 396
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1-1/2 to 1-3/4 percent",
+     "start": 1307,
+     "end": 1410
+    },
+    {
+     "quote": "The Committee expects that, with further gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace in the medium term and labor market conditions will remain strong.",
+     "start": 846,
+     "end": 1055
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run.",
+     "start": 2167,
+     "end": 2427
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low; survey-based measures of longer-term inflation expectations are little changed, on balance.",
+     "start": 584,
+     "end": 734
+    },
+    {
+     "quote": "The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal.",
+     "start": 2045,
+     "end": 2165
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity has been rising at a solid rate",
+     "start": 141,
+     "end": 190
+    },
+    {
+     "quote": "the unemployment rate has declined",
+     "start": 254,
+     "end": 288
+    },
+    {
+     "quote": "Recent data suggest that growth of household spending has picked up",
+     "start": 290,
+     "end": 357
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent",
+     "start": 1153,
+     "end": 1249
+    },
+    {
+     "quote": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity, strong labor market conditions, and inflation near the Committee's symmetric 2 percent objective over the medium term.",
+     "start": 740,
+     "end": 1023
+    },
+    {
+     "quote": "Indicators of longer-term inflation expectations are little changed, on balance.",
+     "start": 549,
+     "end": 628
+    }
+   ]
+  }
+ }
+}

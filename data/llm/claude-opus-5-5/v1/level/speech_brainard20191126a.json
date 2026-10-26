@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20191126a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20191126a",
+  "doc_type": "speech",
+  "text_sha256": "e86d79c8499ade3de16c3e35f00d180b342c7f7efc0014f18c78634ff8d31d25"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0ab0640d22b429318ae3af89f005f0ec2f993729e5caad3f27def4b54b11ab29",
+ "message_id": "msg_011CgFugB7zYou95uDASrjVb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6007,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Employment remains strong.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains below the Federal Reserve's 2 percent symmetric objective, which has been true for most of the past seven years.\"},{\"dimension\":\"risk_balance\",\"quote\":\"More broadly, the balance of risks remains to the downside, although there has been some improvement in risk sentiment in recent weeks.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Given the persistent shortfall of inflation from its target over recent years, this would imply supporting inflation a bit above 2 percent for some time to compensate for the period of underperformance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A better alternative would have been to delay liftoff until we had achieved our targets.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"there may be advantages to an approach that caps interest rates on Treasury securities at the short-to-medium range of the maturity spectrum—yield curve caps\"}],\"rationale\":\"The speaker sees a solid near-term outlook but leans dovish: she notes downside risks and below-target inflation, and favors makeup inflation above 2 percent, delayed liftoff and yield curve caps. Near-term guidance is data-dependent after the cuts, so the dovishness is moderate rather than explicit easing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Employment remains strong."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains below the Federal Reserve's 2 percent symmetric objective, which has been true for most of the past seven years."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "More broadly, the balance of risks remains to the downside, although there has been some improvement in risk sentiment in recent weeks."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given the persistent shortfall of inflation from its target over recent years, this would imply supporting inflation a bit above 2 percent for some time to compensate for the period of underperformance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A better alternative would have been to delay liftoff until we had achieved our targets."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "there may be advantages to an approach that caps interest rates on Treasury securities at the short-to-medium range of the maturity spectrum—yield curve caps"
+   }
+  ],
+  "rationale": "The speaker sees a solid near-term outlook but leans dovish: she notes downside risks and below-target inflation, and favors makeup inflation above 2 percent, delayed liftoff and yield curve caps. Near-term guidance is data-dependent after the cuts, so the dovishness is moderate rather than explicit easing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Employment remains strong.",
+     "start": 1490,
+     "end": 1515
+    },
+    {
+     "quote": "Inflation remains below the Federal Reserve's 2 percent symmetric objective, which has been true for most of the past seven years.",
+     "start": 2045,
+     "end": 2174
+    },
+    {
+     "quote": "More broadly, the balance of risks remains to the downside, although there has been some improvement in risk sentiment in recent weeks.",
+     "start": 2807,
+     "end": 2941
+    },
+    {
+     "quote": "Given the persistent shortfall of inflation from its target over recent years, this would imply supporting inflation a bit above 2 percent for some time to compensate for the period of underperformance.",
+     "start": 8996,
+     "end": 9197
+    },
+    {
+     "quote": "A better alternative would have been to delay liftoff until we had achieved our targets.",
+     "start": 15633,
+     "end": 15720
+    },
+    {
+     "quote": "there may be advantages to an approach that caps interest rates on Treasury securities at the short-to-medium range of the maturity spectrum—yield curve caps",
+     "start": 14013,
+     "end": 14170
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

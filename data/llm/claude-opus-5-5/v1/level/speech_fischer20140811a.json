@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20140811a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20140811a",
+  "doc_type": "speech",
+  "text_sha256": "bb1f0ca49af570aa05bd33448130ac6008ffa716aa5b6d6b4e11dcb70c02472a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "84c3bc27d7e680462515c6441ed66baebc40161c5218f2e5af0306f4b0e0959d",
+ "message_id": "msg_011CgFugAASsAkUEDGkpHLDL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9104,
+  "output_tokens": 487,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But--and this is no small \\\"but\\\"--the global recovery has been disappointing.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many of those who dropped out of the labor force may be discouraged workers.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there are real risks that cyclical slumps can become structural; it may also be possible to reverse or prevent declines from becoming permanent through expansive macroeconomic policies.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"With these and other possible tools, we will be able to raise rates and maintain them near their targeted level at the appropriate time.\"},{\"dimension\":\"overall\",\"quote\":\"I do not think that financial stability concerns warrant deviating from our traditional focus on inflation and employment.\"}],\"rationale\":\"The speech emphasizes a disappointing recovery, cyclical labor weakness, and the risk that slumps become structural, which can be countered with expansive policy. It mentions eventual rate increases only in technical terms and dismisses financial-stability grounds for tightening, so the net lean is mildly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But--and this is no small \"but\"--the global recovery has been disappointing."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many of those who dropped out of the labor force may be discouraged workers."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there are real risks that cyclical slumps can become structural; it may also be possible to reverse or prevent declines from becoming permanent through expansive macroeconomic policies."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "With these and other possible tools, we will be able to raise rates and maintain them near their targeted level at the appropriate time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I do not think that financial stability concerns warrant deviating from our traditional focus on inflation and employment."
+   }
+  ],
+  "rationale": "The speech emphasizes a disappointing recovery, cyclical labor weakness, and the risk that slumps become structural, which can be countered with expansive policy. It mentions eventual rate increases only in technical terms and dismisses financial-stability grounds for tightening, so the net lean is mildly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But--and this is no small \"but\"--the global recovery has been disappointing.",
+     "start": 2677,
+     "end": 2752
+    },
+    {
+     "quote": "Many of those who dropped out of the labor force may be discouraged workers.",
+     "start": 12445,
+     "end": 12520
+    },
+    {
+     "quote": "there are real risks that cyclical slumps can become structural; it may also be possible to reverse or prevent declines from becoming permanent through expansive macroeconomic policies.",
+     "start": 16448,
+     "end": 16632
+    },
+    {
+     "quote": "With these and other possible tools, we will be able to raise rates and maintain them near their targeted level at the appropriate time.",
+     "start": 24971,
+     "end": 25106
+    },
+    {
+     "quote": "I do not think that financial stability concerns warrant deviating from our traditional focus on inflation and employment.",
+     "start": 26207,
+     "end": 26328
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

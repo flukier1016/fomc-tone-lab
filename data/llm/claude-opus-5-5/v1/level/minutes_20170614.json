@@ -1,0 +1,118 @@
+{
+ "key": "minutes_20170614",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20170614",
+  "doc_type": "minutes",
+  "text_sha256": "46302c384343b4b02bec3c2250b482d2702237ea54824c6016b636a730a198ea"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6a591dc7f3f9f820a21301ded608be3c4c9c83ccd1b250fc34e4b9bf400b9fba",
+ "message_id": "msg_011CgFug9NKUaX5PZ8P7uqcb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14916,
+  "output_tokens": 503,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":2,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"They expected that economic conditions would evolve in a manner that would warrant gradual increases in the federal funds rate\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee expected to begin implementing a balance sheet normalization program in 2017, provided that the economy evolves broadly as anticipated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Recent readings on headline and core PCE price inflation had come in lower than participants had expected.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions continued to strengthen in recent months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants preferred to announce a start to the process within a couple of months\"}],\"rationale\":\"The minutes describe continued gradual rate increases and a concrete plan to begin balance sheet runoff this year, against a strengthening labor market, which leans hawkish. This is tempered by softer inflation readings and several participants' concern that the inflation shortfall might persist.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 2,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "They expected that economic conditions would evolve in a manner that would warrant gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee expected to begin implementing a balance sheet normalization program in 2017, provided that the economy evolves broadly as anticipated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Recent readings on headline and core PCE price inflation had come in lower than participants had expected."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions continued to strengthen in recent months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants preferred to announce a start to the process within a couple of months"
+   }
+  ],
+  "rationale": "The minutes describe continued gradual rate increases and a concrete plan to begin balance sheet runoff this year, against a strengthening labor market, which leans hawkish. This is tempered by softer inflation readings and several participants' concern that the inflation shortfall might persist."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 5,
+   "share": 0.8333333333333334,
+   "unverified": [
+    "Several participants preferred to announce a start to the process within a couple of months"
+   ],
+   "spans": [
+    {
+     "quote": "They expected that economic conditions would evolve in a manner that would warrant gradual increases in the federal funds rate",
+     "start": 43274,
+     "end": 43400
+    },
+    {
+     "quote": "The Committee expected to begin implementing a balance sheet normalization program in 2017, provided that the economy evolves broadly as anticipated.",
+     "start": 43925,
+     "end": 44073
+    },
+    {
+     "quote": "Recent readings on headline and core PCE price inflation had come in lower than participants had expected.",
+     "start": 29538,
+     "end": 29643
+    },
+    {
+     "quote": "Labor market conditions continued to strengthen in recent months.",
+     "start": 5879,
+     "end": 5943
+    },
+    {
+     "quote": "Overall, participants continued to see the near-term risks to the economic outlook as roughly balanced.",
+     "start": 31462,
+     "end": 31564
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

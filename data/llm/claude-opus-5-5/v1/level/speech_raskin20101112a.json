@@ -1,0 +1,103 @@
+{
+ "key": "speech_raskin20101112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_raskin20101112a",
+  "doc_type": "speech",
+  "text_sha256": "00b060623bd9b2f5d36f919ee091c03ef154c284d62cc841ccc5c31301c97fd1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "08fbd53b9946decd4e4a9fe7a0fe422cda32fa7ab68e2dcb7ef7831ee8c559dd",
+ "message_id": "msg_011CgFugBBDeSTNfTtX8VBFi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6365,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many households have faced job losses or large reductions in the number of hours worked, events that have reduced family income and well-being.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Our projections remain very grim for the foreseeable future: All told, we expect about two and one-quarter million foreclosure filings this year and again next year, and about two million more in 2012.\"},{\"dimension\":\"overall\",\"quote\":\"Nevertheless, I believe that serious and sustained reform is needed to address the larger problems in mortgage servicing.\"},{\"dimension\":\"overall\",\"quote\":\"Until a better business model is developed that eliminates the business incentives that can potentially harm consumers, there will be a need for close regulatory scrutiny of these issues and for appropriate enforcement action that addresses them.\"}],\"rationale\":\"The speech is about mortgage servicing abuses and supervisory responses, not monetary policy, so most dimensions are null. Its grim description of household and housing conditions gives only a slight dovish lean on activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many households have faced job losses or large reductions in the number of hours worked, events that have reduced family income and well-being."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Our projections remain very grim for the foreseeable future: All told, we expect about two and one-quarter million foreclosure filings this year and again next year, and about two million more in 2012."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Nevertheless, I believe that serious and sustained reform is needed to address the larger problems in mortgage servicing."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Until a better business model is developed that eliminates the business incentives that can potentially harm consumers, there will be a need for close regulatory scrutiny of these issues and for appropriate enforcement action that addresses them."
+   }
+  ],
+  "rationale": "The speech is about mortgage servicing abuses and supervisory responses, not monetary policy, so most dimensions are null. Its grim description of household and housing conditions gives only a slight dovish lean on activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many households have faced job losses or large reductions in the number of hours worked, events that have reduced family income and well-being.",
+     "start": 587,
+     "end": 729
+    },
+    {
+     "quote": "Our projections remain very grim for the foreseeable future: All told, we expect about two and one-quarter million foreclosure filings this year and again next year, and about two million more in 2012.",
+     "start": 2176,
+     "end": 2376
+    },
+    {
+     "quote": "Nevertheless, I believe that serious and sustained reform is needed to address the larger problems in mortgage servicing.",
+     "start": 4418,
+     "end": 4538
+    },
+    {
+     "quote": "Until a better business model is developed that eliminates the business incentives that can potentially harm consumers, there will be a need for close regulatory scrutiny of these issues and for appropriate enforcement action that addresses them.",
+     "start": 21472,
+     "end": 21717
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

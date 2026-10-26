@@ -1,0 +1,112 @@
+{
+ "key": "statement_20260729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20260729",
+  "doc_type": "statement",
+  "text_sha256": "9c83532679a711fbcdcf06781eb0d79522e6a33302433b209fa5cb83f7f1608a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fbbd194c2231eb81c0ce96e5424977c93e31e72201ae53c90828a8b07b9acb67",
+ "message_id": "msg_011CgFugA1XGPuDJ8aDkdnu3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 376,
+  "output_tokens": 824,
+  "output_tokens_details": {
+   "thinking_tokens": 266
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is continuing its policy of maintaining ample reserves in the banking system.\"}],\"rationale\":\"The Committee holds rates, but the statement contains no easing signal, gives a firm commitment to price stability amid elevated inflation and solid growth, and records three dissents favoring a hike. Together these give the statement a clear hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system."
+   }
+  ],
+  "rationale": "The Committee holds rates, but the statement contains no easing signal, gives a firm commitment to price stability amid elevated inflation and solid growth, and records three dissents favoring a hike. Together these give the statement a clear hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent",
+     "start": 97,
+     "end": 200
+    },
+    {
+     "quote": "Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 844,
+     "end": 1049
+    },
+    {
+     "quote": "Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy. The Committee will deliver price stability.",
+     "start": 624,
+     "end": 841
+    },
+    {
+     "quote": "Economic activity is expanding at a solid pace despite elevated uncertainty that owes, in part, to the conflict in the Middle East. Productivity growth and capital investment are strong.",
+     "start": 345,
+     "end": 530
+    },
+    {
+     "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system.",
+     "start": 252,
+     "end": 342
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

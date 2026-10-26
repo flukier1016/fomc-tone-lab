@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20181207a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20181207a",
+  "doc_type": "speech",
+  "text_sha256": "a6840f02098cb51b41509f5b7cdad77897570f4f01a3e9080342051878622fe2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3c61643a2f503df53189645b3d9105909d378bea97145c0077e17861669e5557",
+ "message_id": "msg_011CgFugBtP5jiuL9Dd7bgS7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7059,
+  "output_tokens": 546,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The gradual path of increases in the federal funds rate has served us well by giving us time to assess the effects of policy as we have proceeded. That approach remains appropriate in the near term\"},{\"dimension\":\"forward_guidance\",\"quote\":\"although the policy path increasingly will depend on how the outlook evolves.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Despite this, however, inflation remains muted overall.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"At 3.7 percent, the unemployment rate is at its lowest level in 49 years, and payrolls have been growing well above the pace that is consistent with labor market stabilization.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The risks are two-sided.\"},{\"dimension\":\"overall\",\"quote\":\"it might be prudent to ask large banking organizations to fortify their capital buffers, which could subsequently be released if conditions warrant.\"}],\"rationale\":\"The speaker endorses continued gradual rate increases in the near term amid a strong labor market, while noting muted inflation, two-sided risks, fading tailwinds and a more data-dependent path. The financial-stability focus leans toward using the countercyclical capital buffer rather than monetary tightening, which leaves only a mild hawkish lean overall.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The gradual path of increases in the federal funds rate has served us well by giving us time to assess the effects of policy as we have proceeded. That approach remains appropriate in the near term"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "although the policy path increasingly will depend on how the outlook evolves."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Despite this, however, inflation remains muted overall."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "At 3.7 percent, the unemployment rate is at its lowest level in 49 years, and payrolls have been growing well above the pace that is consistent with labor market stabilization."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The risks are two-sided."
+   },
+   {
+    "dimension": "overall",
+    "quote": "it might be prudent to ask large banking organizations to fortify their capital buffers, which could subsequently be released if conditions warrant."
+   }
+  ],
+  "rationale": "The speaker endorses continued gradual rate increases in the near term amid a strong labor market, while noting muted inflation, two-sided risks, fading tailwinds and a more data-dependent path. The financial-stability focus leans toward using the countercyclical capital buffer rather than monetary tightening, which leaves only a mild hawkish lean overall."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The gradual path of increases in the federal funds rate has served us well by giving us time to assess the effects of policy as we have proceeded. That approach remains appropriate in the near term",
+     "start": 4887,
+     "end": 5084
+    },
+    {
+     "quote": "although the policy path increasingly will depend on how the outlook evolves.",
+     "start": 5086,
+     "end": 5162
+    },
+    {
+     "quote": "Despite this, however, inflation remains muted overall.",
+     "start": 4369,
+     "end": 4423
+    },
+    {
+     "quote": "At 3.7 percent, the unemployment rate is at its lowest level in 49 years, and payrolls have been growing well above the pace that is consistent with labor market stabilization.",
+     "start": 4425,
+     "end": 4600
+    },
+    {
+     "quote": "The risks are two-sided.",
+     "start": 4119,
+     "end": 4142
+    },
+    {
+     "quote": "it might be prudent to ask large banking organizations to fortify their capital buffers, which could subsequently be released if conditions warrant.",
+     "start": 23084,
+     "end": 23231
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

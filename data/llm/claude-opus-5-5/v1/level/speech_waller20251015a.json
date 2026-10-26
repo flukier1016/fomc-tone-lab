@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20251015a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20251015a",
+  "doc_type": "speech",
+  "text_sha256": "3ebfc98497608f2589bcdd90f14020ea47a75e34080652b87fd2aaf553e07a04"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e1f0b1875c6903ec8802ac8e92dccae629bb1afbcb53a6e2dc5ee998de1598b2",
+ "message_id": "msg_011CgFug8toRYbvexU6GgSx5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4164,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.35,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Looking ahead, however, layoffs and reductions in hiring plans due to AI use are expected to increase, especially for workers with a college degree.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Any sustained productivity growth above 2 percent will tend to support rising real incomes and living standards without inflation pressure.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A recent study by Stanford economists found that employment has fallen about 13 percent in occupations most exposed to AI, relative to those less affected.\"},{\"dimension\":\"overall\",\"quote\":\"As a monetary policymaker, I'm hoping that AI delivers.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So far, most say this is being handled through attrition, but a number of retailers say that there is the potential for downsizing next year.\"}],\"rationale\":\"The speech centers on AI's long-run economic effects and gives no explicit policy-path signal, though it mildly highlights labor-market downside risks from AI and productivity gains that would ease inflation pressure. The net lean is slightly dovish with low clarity.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.35,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Looking ahead, however, layoffs and reductions in hiring plans due to AI use are expected to increase, especially for workers with a college degree."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Any sustained productivity growth above 2 percent will tend to support rising real incomes and living standards without inflation pressure."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A recent study by Stanford economists found that employment has fallen about 13 percent in occupations most exposed to AI, relative to those less affected."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As a monetary policymaker, I'm hoping that AI delivers."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So far, most say this is being handled through attrition, but a number of retailers say that there is the potential for downsizing next year."
+   }
+  ],
+  "rationale": "The speech centers on AI's long-run economic effects and gives no explicit policy-path signal, though it mildly highlights labor-market downside risks from AI and productivity gains that would ease inflation pressure. The net lean is slightly dovish with low clarity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Looking ahead, however, layoffs and reductions in hiring plans due to AI use are expected to increase, especially for workers with a college degree.",
+     "start": 7014,
+     "end": 7161
+    },
+    {
+     "quote": "Any sustained productivity growth above 2 percent will tend to support rising real incomes and living standards without inflation pressure.",
+     "start": 9820,
+     "end": 9958
+    },
+    {
+     "quote": "A recent study by Stanford economists found that employment has fallen about 13 percent in occupations most exposed to AI, relative to those less affected.",
+     "start": 6069,
+     "end": 6223
+    },
+    {
+     "quote": "As a monetary policymaker, I'm hoping that AI delivers.",
+     "start": 9960,
+     "end": 10014
+    },
+    {
+     "quote": "So far, most say this is being handled through attrition, but a number of retailers say that there is the potential for downsizing next year.",
+     "start": 6537,
+     "end": 6677
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

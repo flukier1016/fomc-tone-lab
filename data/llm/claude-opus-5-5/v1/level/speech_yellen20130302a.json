@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20130302a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20130302a",
+  "doc_type": "speech",
+  "text_sha256": "957b39c8d3ef705e70d10c24d39f2202f09ffbd63ca678da39f14bdbff71a32a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "31443fb0eb1a448497cd945d15d69830e9fd0a3ce2a2b01d53b3e4e21dc33a49",
+ "message_id": "msg_011CgFugFjJpDf3PCzhm1Smu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9278,
+  "output_tokens": 487,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I view the Committee's current rate guidance as embodying exactly such a \\\"lower for longer\\\" commitment.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"At this stage, I do not see any that would cause me to advocate a curtailment of our purchase program.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee anticipates that inflation will continue to run at or below 2 percent over the medium term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite some welcome improvement, employment remains well below its pre-recession peak, reflecting an economy that is still operating far short of its potential.\"},{\"dimension\":\"risk_balance\",\"quote\":\"At present, I view the balance of risks as still calling for a highly accommodative monetary policy to support a stronger recovery and more-rapid growth in employment.\"}],\"rationale\":\"The speaker forcefully defends lower-for-longer rate guidance and continued asset purchases, citing large labor market slack and below-target inflation. Financial stability costs are acknowledged but judged insufficient to curtail purchases.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I view the Committee's current rate guidance as embodying exactly such a \"lower for longer\" commitment."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "At this stage, I do not see any that would cause me to advocate a curtailment of our purchase program."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee anticipates that inflation will continue to run at or below 2 percent over the medium term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite some welcome improvement, employment remains well below its pre-recession peak, reflecting an economy that is still operating far short of its potential."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At present, I view the balance of risks as still calling for a highly accommodative monetary policy to support a stronger recovery and more-rapid growth in employment."
+   }
+  ],
+  "rationale": "The speaker forcefully defends lower-for-longer rate guidance and continued asset purchases, citing large labor market slack and below-target inflation. Financial stability costs are acknowledged but judged insufficient to curtail purchases."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I view the Committee's current rate guidance as embodying exactly such a \"lower for longer\" commitment.",
+     "start": 10765,
+     "end": 10867
+    },
+    {
+     "quote": "At this stage, I do not see any that would cause me to advocate a curtailment of our purchase program.",
+     "start": 22499,
+     "end": 22600
+    },
+    {
+     "quote": "The Committee anticipates that inflation will continue to run at or below 2 percent over the medium term.",
+     "start": 4338,
+     "end": 4442
+    },
+    {
+     "quote": "Despite some welcome improvement, employment remains well below its pre-recession peak, reflecting an economy that is still operating far short of its potential.",
+     "start": 1839,
+     "end": 1999
+    },
+    {
+     "quote": "At present, I view the balance of risks as still calling for a highly accommodative monetary policy to support a stronger recovery and more-rapid growth in employment.",
+     "start": 30912,
+     "end": 31078
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

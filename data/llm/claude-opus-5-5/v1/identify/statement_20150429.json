@@ -1,0 +1,52 @@
+{
+ "key": "statement_20150429",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20150429",
+  "release_date": "2015-04-29"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1a7bedd996c691e1f52e454ab63617f64e34c8bbec7ef187de81d1b5e455733d",
+ "message_id": "msg_011CgFudX6wWmsGD8pjnGPKc",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1576,
+  "output_tokens": 238,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2015,\"month\":4,\"confidence\":0.93,\"cues\":[\"Economic growth slowed during the winter months due to transitory factors, matching Q1 2015 weakness\",\"Text says growth in output and employment slowed during the first quarter, implying an April meeting\",\"Earlier declines in energy prices and decreasing prices of non-energy imports point to the 2014-15 oil drop and strong dollar\",\"The 'reasonably confident that inflation will move back to its 2 percent objective' language was introduced in March 2015\",\"Lael Brainard and Stanley Fischer are listed among the voters, consistent with 2015\",\"The funds rate range is still near zero and liftoff has not yet happened, placing this before December 2015\"]}",
+ "parsed": {
+  "year": 2015,
+  "month": 4,
+  "confidence": 0.93,
+  "cues": [
+   "Economic growth slowed during the winter months due to transitory factors, matching Q1 2015 weakness",
+   "Text says growth in output and employment slowed during the first quarter, implying an April meeting",
+   "Earlier declines in energy prices and decreasing prices of non-energy imports point to the 2014-15 oil drop and strong dollar",
+   "The 'reasonably confident that inflation will move back to its 2 percent objective' language was introduced in March 2015",
+   "Lael Brainard and Stanley Fischer are listed among the voters, consistent with 2015",
+   "The funds rate range is still near zero and liftoff has not yet happened, placing this before December 2015"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

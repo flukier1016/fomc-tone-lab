@@ -1,0 +1,121 @@
+{
+ "key": "speech_barr20240214a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20240214a",
+  "doc_type": "speech",
+  "text_sha256": "d6237d99d7e6a98ce6c1dd7adda0362db2af8080469bd96d7a844d66c0bc6412"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "948eee823738d803db38c0acfa1ecd86dbdbe5e242052fda4cadd732e5dfac4f",
+ "message_id": "msg_011CgFugECHUcj6n6aCGeev9",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4330,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"my FOMC colleagues and I are confident we are on a path to 2 percent inflation, but we need to see continued good data before we can begin the process of reducing the federal funds rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"January's report on consumer price index inflation is a reminder that the path back to 2 percent inflation may be a bumpy one.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity expanded at a solid pace, the labor market remained strong, and inflation came down significantly.\"},{\"dimension\":\"risk_balance\",\"quote\":\"including the risk of an economic slowdown that could reduce employment, or the risk that inflation does not stay on its path of sustainably returning to 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is planning to begin in-depth discussions of balance sheet issues soon.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"banks now prefer to manage to higher reserve levels than they did pre-COVID\"}],\"rationale\":\"The speaker signals eventual cuts but backs a careful, data-dependent approach, balancing disinflation progress against a bumpy inflation path and strong growth. On the balance sheet, the emphasis on higher bank reserve demand and upcoming discussions hints mildly at slowing runoff.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "my FOMC colleagues and I are confident we are on a path to 2 percent inflation, but we need to see continued good data before we can begin the process of reducing the federal funds rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "January's report on consumer price index inflation is a reminder that the path back to 2 percent inflation may be a bumpy one."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity expanded at a solid pace, the labor market remained strong, and inflation came down significantly."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "including the risk of an economic slowdown that could reduce employment, or the risk that inflation does not stay on its path of sustainably returning to 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is planning to begin in-depth discussions of balance sheet issues soon."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "banks now prefer to manage to higher reserve levels than they did pre-COVID"
+   }
+  ],
+  "rationale": "The speaker signals eventual cuts but backs a careful, data-dependent approach, balancing disinflation progress against a bumpy inflation path and strong growth. On the balance sheet, the emphasis on higher bank reserve demand and upcoming discussions hints mildly at slowing runoff."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my FOMC colleagues and I are confident we are on a path to 2 percent inflation, but we need to see continued good data before we can begin the process of reducing the federal funds rate.",
+     "start": 6267,
+     "end": 6452
+    },
+    {
+     "quote": "January's report on consumer price index inflation is a reminder that the path back to 2 percent inflation may be a bumpy one.",
+     "start": 6566,
+     "end": 6691
+    },
+    {
+     "quote": "Economic activity expanded at a solid pace, the labor market remained strong, and inflation came down significantly.",
+     "start": 1602,
+     "end": 1717
+    },
+    {
+     "quote": "including the risk of an economic slowdown that could reduce employment, or the risk that inflation does not stay on its path of sustainably returning to 2 percent.",
+     "start": 6039,
+     "end": 6202
+    },
+    {
+     "quote": "The Committee is planning to begin in-depth discussions of balance sheet issues soon.",
+     "start": 13787,
+     "end": 13871
+    },
+    {
+     "quote": "banks now prefer to manage to higher reserve levels than they did pre-COVID",
+     "start": 11414,
+     "end": 11489
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

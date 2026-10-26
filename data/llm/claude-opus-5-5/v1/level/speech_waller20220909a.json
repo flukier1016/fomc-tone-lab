@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20220909a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20220909a",
+  "doc_type": "speech",
+  "text_sha256": "13258b68a936a1fb91a8cc343f3e5c1f867ab43b62117dd8b37bd5043e1a9ced"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9accbee2cc60d4cdd6db064284e6c25e0db9511f1703f12805a97e05aa53e22c",
+ "message_id": "msg_011CgFugBzL3C8dRx6xAioNX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5255,
+  "output_tokens": 580,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I support a significant increase at our next meeting on September 20 and 21 to get the policy rate to a setting that is clearly restricting demand.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"First, inflation is far too high, and it is too soon to say whether inflation is moving meaningfully and persistently downward.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"These data confirm that the Fed is hitting its full employment mandate, so all my attention is on bringing inflation down.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The consequences of being fooled by a temporary softening in inflation could be even greater now if another misjudgment damages the Fed's credibility.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The policy rate will have to move meaningfully above this neutral level to further restrain aggregate demand and put more downward pressure on prices.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This action effectively increases the supply of securities in the hands of private investors and will thus put upward pressure on interest rates\"}],\"rationale\":\"The speaker explicitly supports another significant hike, continued tightening into 2023 and a rate well above neutral, citing widespread inflation and a strong labor market that removes any tradeoff. He also emphasizes the risk of being fooled by temporary inflation softening and notes that balance sheet runoff adds to tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I support a significant increase at our next meeting on September 20 and 21 to get the policy rate to a setting that is clearly restricting demand."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "First, inflation is far too high, and it is too soon to say whether inflation is moving meaningfully and persistently downward."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "These data confirm that the Fed is hitting its full employment mandate, so all my attention is on bringing inflation down."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The consequences of being fooled by a temporary softening in inflation could be even greater now if another misjudgment damages the Fed's credibility."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The policy rate will have to move meaningfully above this neutral level to further restrain aggregate demand and put more downward pressure on prices."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This action effectively increases the supply of securities in the hands of private investors and will thus put upward pressure on interest rates"
+   }
+  ],
+  "rationale": "The speaker explicitly supports another significant hike, continued tightening into 2023 and a rate well above neutral, citing widespread inflation and a strong labor market that removes any tradeoff. He also emphasizes the risk of being fooled by temporary inflation softening and notes that balance sheet runoff adds to tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I support a significant increase at our next meeting on September 20 and 21 to get the policy rate to a setting that is clearly restricting demand.",
+     "start": 1838,
+     "end": 1984
+    },
+    {
+     "quote": "First, inflation is far too high, and it is too soon to say whether inflation is moving meaningfully and persistently downward.",
+     "start": 1198,
+     "end": 1324
+    },
+    {
+     "quote": "These data confirm that the Fed is hitting its full employment mandate, so all my attention is on bringing inflation down.",
+     "start": 7684,
+     "end": 7805
+    },
+    {
+     "quote": "The consequences of being fooled by a temporary softening in inflation could be even greater now if another misjudgment damages the Fed's credibility.",
+     "start": 12435,
+     "end": 12584
+    },
+    {
+     "quote": "The policy rate will have to move meaningfully above this neutral level to further restrain aggregate demand and put more downward pressure on prices.",
+     "start": 13515,
+     "end": 13664
+    },
+    {
+     "quote": "This action effectively increases the supply of securities in the hands of private investors and will thus put upward pressure on interest rates",
+     "start": 16852,
+     "end": 16996
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

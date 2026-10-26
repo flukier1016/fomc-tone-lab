@@ -1,0 +1,112 @@
+{
+ "key": "speech_kohn20090403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090403a",
+  "doc_type": "speech",
+  "text_sha256": "62b3f6b2933c582b9aac0edf3b1aedbc5149a6125904f32a9d1a20429fc56857"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9a85b1dce62d99a60000e487ecd563e70610fa3c0bd20f92537497a513c0236f",
+ "message_id": "msg_011CgFugCnhkbc5wALa29wfy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9181,
+  "output_tokens": 544,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"With monetary policy likely to be quite accommodative for an extended period and the margin of unused capacity extraordinarily large, crowding out of private-sector spending by the fiscal expansion should be limited.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy is very weak and is likely to remain so for a while despite strong application of both conventional and unconventional monetary policy actions\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Indeed, if such a process continued for some time, we could fall into deflation, much as Japan did for a time in the 1990s and earlier this decade.\"},{\"dimension\":\"risk_balance\",\"quote\":\"These conditions are not conducive to a substantial and sustained economic rebound, and the Federal Reserve will continue to be alert to ways that monetary policy can contribute to economic recovery.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"To address concerns about its ability to rein in its balance sheet, the Federal Reserve must be prepared to exit from its various programs when the time is right.\"}],\"rationale\":\"The speech stresses very weak activity, deflation risk, extended accommodation and openness to further action, while discussion of exit tools is framed as a long-run consideration. The net signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "With monetary policy likely to be quite accommodative for an extended period and the margin of unused capacity extraordinarily large, crowding out of private-sector spending by the fiscal expansion should be limited."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy is very weak and is likely to remain so for a while despite strong application of both conventional and unconventional monetary policy actions"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Indeed, if such a process continued for some time, we could fall into deflation, much as Japan did for a time in the 1990s and earlier this decade."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "These conditions are not conducive to a substantial and sustained economic rebound, and the Federal Reserve will continue to be alert to ways that monetary policy can contribute to economic recovery."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "To address concerns about its ability to rein in its balance sheet, the Federal Reserve must be prepared to exit from its various programs when the time is right."
+   }
+  ],
+  "rationale": "The speech stresses very weak activity, deflation risk, extended accommodation and openness to further action, while discussion of exit tools is framed as a long-run consideration. The net signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With monetary policy likely to be quite accommodative for an extended period and the margin of unused capacity extraordinarily large, crowding out of private-sector spending by the fiscal expansion should be limited.",
+     "start": 24232,
+     "end": 24447
+    },
+    {
+     "quote": "The economy is very weak and is likely to remain so for a while despite strong application of both conventional and unconventional monetary policy actions",
+     "start": 23980,
+     "end": 24134
+    },
+    {
+     "quote": "Indeed, if such a process continued for some time, we could fall into deflation, much as Japan did for a time in the 1990s and earlier this decade.",
+     "start": 14168,
+     "end": 14314
+    },
+    {
+     "quote": "These conditions are not conducive to a substantial and sustained economic rebound, and the Federal Reserve will continue to be alert to ways that monetary policy can contribute to economic recovery.",
+     "start": 13523,
+     "end": 13721
+    },
+    {
+     "quote": "To address concerns about its ability to rein in its balance sheet, the Federal Reserve must be prepared to exit from its various programs when the time is right.",
+     "start": 15003,
+     "end": 15164
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

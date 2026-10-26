@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20230331a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20230331a",
+  "doc_type": "speech",
+  "text_sha256": "9705637ce349b4114ab18fd4d7fae259c719b5174d23eadf94e45b9bf02150ce"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "62f19c58a0f04a977a112bf55dbe5580516feb4671a1e1ef5fc08fff631b5fbf",
+ "message_id": "msg_011CgFugCaJUwhVHBzWiGpB9",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4029,
+  "output_tokens": 551,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Indeed, the inflation picture is less favorable than it appeared earlier this year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Altogether, the incoming data would suggest a somewhat higher inflation rate for this year and stronger economic growth.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"On the one hand, if tighter financing conditions restrain the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"On the other hand, if data show continued strength in the economy and slower disinflation, we may have more work to do.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, I am closely watching developments in the banking sector, which have the potential to tighten credit conditions and counteract some of that momentum.\"},{\"dimension\":\"overall\",\"quote\":\"We shifted from anticipating \\\"ongoing increases\\\" to saying that \\\"some additional policy firming may be appropriate.\\\"\"}],\"rationale\":\"Inflation and activity are described as persistent and strong, but banking-sector headwinds and endorsement of softened guidance leave the policy path balanced between possibly lower rates and more tightening. The net signal is roughly neutral with a slight hawkish tilt from the inflation discussion.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Indeed, the inflation picture is less favorable than it appeared earlier this year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Altogether, the incoming data would suggest a somewhat higher inflation rate for this year and stronger economic growth."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "On the one hand, if tighter financing conditions restrain the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "On the other hand, if data show continued strength in the economy and slower disinflation, we may have more work to do."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, I am closely watching developments in the banking sector, which have the potential to tighten credit conditions and counteract some of that momentum."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We shifted from anticipating \"ongoing increases\" to saying that \"some additional policy firming may be appropriate.\""
+   }
+  ],
+  "rationale": "Inflation and activity are described as persistent and strong, but banking-sector headwinds and endorsement of softened guidance leave the policy path balanced between possibly lower rates and more tightening. The net signal is roughly neutral with a slight hawkish tilt from the inflation discussion."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Indeed, the inflation picture is less favorable than it appeared earlier this year.",
+     "start": 3334,
+     "end": 3416
+    },
+    {
+     "quote": "Altogether, the incoming data would suggest a somewhat higher inflation rate for this year and stronger economic growth.",
+     "start": 8257,
+     "end": 8376
+    },
+    {
+     "quote": "On the one hand, if tighter financing conditions restrain the economy, the appropriate path of the federal funds rate may be lower than it would be in their absence.",
+     "start": 11833,
+     "end": 11997
+    },
+    {
+     "quote": "On the other hand, if data show continued strength in the economy and slower disinflation, we may have more work to do.",
+     "start": 11999,
+     "end": 12117
+    },
+    {
+     "quote": "However, I am closely watching developments in the banking sector, which have the potential to tighten credit conditions and counteract some of that momentum.",
+     "start": 8378,
+     "end": 8535
+    },
+    {
+     "quote": "We shifted from anticipating \"ongoing increases\" to saying that \"some additional policy firming may be appropriate.\"",
+     "start": 12721,
+     "end": 12835
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

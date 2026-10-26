@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20240325a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240325a",
+  "doc_type": "speech",
+  "text_sha256": "033db5838c611c5babf4c982fcac4ee06279b932910fbf72037b2f40505117e6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a5cacaf3ebdce256084d36aa98ab356f7ddca980df2f53a59b97986934599484",
+ "message_id": "msg_011CgFugEUuJ7Ahk3Nuh955a",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6356,
+  "output_tokens": 474,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Nonetheless, fully restoring price stability may take a cautious approach to easing monetary policy over time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With supply and demand coming into better balance, PCE inflation has retreated, reaching 2.4 percent in January.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Signs that the labor market is normalizing have emerged more recently.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The risk of easing monetary policy too much or too soon is that it could allow above-target inflation to become entrenched and halt the progress that we have seen.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But easing too late could also do unnecessary harm by holding back the economy and depriving people of economic opportunities.\"}],\"rationale\":\"The speech presumes eventual easing but stresses caution, describing inflation as substantially lower yet still above target and the labor market as strong but normalizing. It treats the risks of easing too soon and too late as roughly balanced, so the net signal is only slightly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Nonetheless, fully restoring price stability may take a cautious approach to easing monetary policy over time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With supply and demand coming into better balance, PCE inflation has retreated, reaching 2.4 percent in January."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Signs that the labor market is normalizing have emerged more recently."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The risk of easing monetary policy too much or too soon is that it could allow above-target inflation to become entrenched and halt the progress that we have seen."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But easing too late could also do unnecessary harm by holding back the economy and depriving people of economic opportunities."
+   }
+  ],
+  "rationale": "The speech presumes eventual easing but stresses caution, describing inflation as substantially lower yet still above target and the labor market as strong but normalizing. It treats the risks of easing too soon and too late as roughly balanced, so the net signal is only slightly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nonetheless, fully restoring price stability may take a cautious approach to easing monetary policy over time.",
+     "start": 1425,
+     "end": 1534
+    },
+    {
+     "quote": "With supply and demand coming into better balance, PCE inflation has retreated, reaching 2.4 percent in January.",
+     "start": 11358,
+     "end": 11469
+    },
+    {
+     "quote": "Signs that the labor market is normalizing have emerged more recently.",
+     "start": 18010,
+     "end": 18079
+    },
+    {
+     "quote": "The risk of easing monetary policy too much or too soon is that it could allow above-target inflation to become entrenched and halt the progress that we have seen.",
+     "start": 20322,
+     "end": 20484
+    },
+    {
+     "quote": "But easing too late could also do unnecessary harm by holding back the economy and depriving people of economic opportunities.",
+     "start": 20646,
+     "end": 20771
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

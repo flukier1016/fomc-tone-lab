@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20190604a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20190604a",
+  "doc_type": "speech",
+  "text_sha256": "8f6911cf600e1bfeb0301e9f26cff7d2699673b94436dab8d073e5ad49bfcb1f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6f81ec24dd6437d193b4a07fd2126dfc0b0a6aebf0e2a20197c2c275796ec848",
+ "message_id": "msg_011CgFug9THXHuYWtygeWDaW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3981,
+  "output_tokens": 514,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We are closely monitoring the implications of these developments for the U.S. economic outlook and, as always, we will act as appropriate to sustain the expansion\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Core inflation is currently running a bit below 2 percent on a trailing 12-month basis.\"},{\"dimension\":\"risk_balance\",\"quote\":\"My FOMC colleagues and I must—and do—take seriously the risk that inflation shortfalls that persist even in a robust economy could precipitate a difficult-to-arrest downward drift in inflation expectations.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"And with the economy growing, unemployment low, and inflation low and stable, this is the right time to engage the public broadly on these topics.\"},{\"dimension\":\"overall\",\"quote\":\"the proximity of interest rates to the ELB has become the preeminent monetary policy challenge of our time\"}],\"rationale\":\"The speech focuses on the framework review, but it signals readiness to act against trade risks to sustain the expansion. It also emphasizes concern about persistently low inflation and ELB risks, a moderately dovish lean despite describing a solid economy.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are closely monitoring the implications of these developments for the U.S. economic outlook and, as always, we will act as appropriate to sustain the expansion"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Core inflation is currently running a bit below 2 percent on a trailing 12-month basis."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "My FOMC colleagues and I must—and do—take seriously the risk that inflation shortfalls that persist even in a robust economy could precipitate a difficult-to-arrest downward drift in inflation expectations."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "And with the economy growing, unemployment low, and inflation low and stable, this is the right time to engage the public broadly on these topics."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the proximity of interest rates to the ELB has become the preeminent monetary policy challenge of our time"
+   }
+  ],
+  "rationale": "The speech focuses on the framework review, but it signals readiness to act against trade risks to sustain the expansion. It also emphasizes concern about persistently low inflation and ELB risks, a moderately dovish lean despite describing a solid economy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are closely monitoring the implications of these developments for the U.S. economic outlook and, as always, we will act as appropriate to sustain the expansion",
+     "start": 529,
+     "end": 691
+    },
+    {
+     "quote": "Core inflation is currently running a bit below 2 percent on a trailing 12-month basis.",
+     "start": 5753,
+     "end": 5839
+    },
+    {
+     "quote": "My FOMC colleagues and I must—and do—take seriously the risk that inflation shortfalls that persist even in a robust economy could precipitate a difficult-to-arrest downward drift in inflation expectations.",
+     "start": 5958,
+     "end": 6163
+    },
+    {
+     "quote": "And with the economy growing, unemployment low, and inflation low and stable, this is the right time to engage the public broadly on these topics.",
+     "start": 2476,
+     "end": 2621
+    },
+    {
+     "quote": "the proximity of interest rates to the ELB has become the preeminent monetary policy challenge of our time",
+     "start": 5301,
+     "end": 5407
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

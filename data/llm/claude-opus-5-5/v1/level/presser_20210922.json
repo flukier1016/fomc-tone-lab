@@ -1,0 +1,121 @@
+{
+ "key": "presser_20210922",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20210922",
+  "doc_type": "presser",
+  "text_sha256": "c4196417d87231b1a11e57fedfa547e0e1939d8f862ac54868a858a84d1003c7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "728d6b6759b2353f79d7ec7abe3fbd51c89f723fd476f83e479ff36dea80837a",
+ "message_id": "msg_011CgFugH79uXNbcS59KTmsE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11686,
+  "output_tokens": 572,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"that could come as soon as the next meeting; that’s the purpose of that language, is to put notice out that that could come as soon as the next meeting.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"a gradual tapering process that concludes around the middle of next year is likely to be appropriate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"bottlenecks, hiring difficulties, and other constraints could again prove to be greater and longer lasting than anticipated, posing upside risks to inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is elevated and will likely remain so in coming months before moderating.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Half of FOMC participants forecast that these favorable economic conditions will be fulfilled by the end of next year\"}],\"rationale\":\"Rates and purchases are unchanged, but the Chair signals a taper could start as soon as the next meeting and conclude by mid-next year, with half of participants projecting liftoff in 2022 and inflation risks tilted to the upside. He also stresses that policy stays accommodative and that the bar for liftoff is much higher, which tempers the hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "that could come as soon as the next meeting; that’s the purpose of that language, is to put notice out that that could come as soon as the next meeting."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "a gradual tapering process that concludes around the middle of next year is likely to be appropriate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "bottlenecks, hiring difficulties, and other constraints could again prove to be greater and longer lasting than anticipated, posing upside risks to inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is elevated and will likely remain so in coming months before moderating."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Half of FOMC participants forecast that these favorable economic conditions will be fulfilled by the end of next year"
+   }
+  ],
+  "rationale": "Rates and purchases are unchanged, but the Chair signals a taper could start as soon as the next meeting and conclude by mid-next year, with half of participants projecting liftoff in 2022 and inflation risks tilted to the upside. He also stresses that policy stays accommodative and that the bar for liftoff is much higher, which tempers the hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+     "start": 5652,
+     "end": 5786
+    },
+    {
+     "quote": "that could come as soon as the next meeting; that’s the purpose of that language, is to put notice out that that could come as soon as the next meeting.",
+     "start": 9170,
+     "end": 9321
+    },
+    {
+     "quote": "a gradual tapering process that concludes around the middle of next year is likely to be appropriate.",
+     "start": 6046,
+     "end": 6146
+    },
+    {
+     "quote": "bottlenecks, hiring difficulties, and other constraints could again prove to be greater and longer lasting than anticipated, posing upside risks to inflation.",
+     "start": 3884,
+     "end": 4041
+    },
+    {
+     "quote": "Inflation is elevated and will likely remain so in coming months before moderating.",
+     "start": 3025,
+     "end": 3107
+    },
+    {
+     "quote": "Half of FOMC participants forecast that these favorable economic conditions will be fulfilled by the end of next year",
+     "start": 6883,
+     "end": 7000
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

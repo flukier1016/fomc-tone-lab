@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20250514a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250514a",
+  "doc_type": "speech",
+  "text_sha256": "bf75ced4371f5bd1354287cc4f78cfbd92d6dbfea9d53505dfeba8ed3fb9f983"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a40624d736ee6d95e56cf26d729184b168f5edce343a4f0e69ad94ebbe76c6b5",
+ "message_id": "msg_011CgFugFMjjp59yhVDwTUnB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2689,
+  "output_tokens": 459,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that the current stance of monetary policy is well positioned to respond in a timely way to potential economic developments.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"If the increases in tariffs announced so far are sustained, they are likely to interrupt progress on disinflation and generate at least a temporary rise in inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I have adjusted down my expectations for economic growth this year, but I see the U.S. economy as continuing to expand.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Turning to the labor market, conditions continue to be solid.\"},{\"dimension\":\"risk_balance\",\"quote\":\"With the increased risks to both sides of our mandate\"}],\"rationale\":\"The speaker supports holding rates at a moderately restrictive level, flags tariff-driven inflation risk alongside growth-downside risks, and gives no directional signal on the rate path. Slight hawkish tilt from the inflation concerns, but overall balanced.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that the current stance of monetary policy is well positioned to respond in a timely way to potential economic developments."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "If the increases in tariffs announced so far are sustained, they are likely to interrupt progress on disinflation and generate at least a temporary rise in inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I have adjusted down my expectations for economic growth this year, but I see the U.S. economy as continuing to expand."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Turning to the labor market, conditions continue to be solid."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With the increased risks to both sides of our mandate"
+   }
+  ],
+  "rationale": "The speaker supports holding rates at a moderately restrictive level, flags tariff-driven inflation risk alongside growth-downside risks, and gives no directional signal on the rate path. Slight hawkish tilt from the inflation concerns, but overall balanced."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that the current stance of monetary policy is well positioned to respond in a timely way to potential economic developments.",
+     "start": 8104,
+     "end": 8237
+    },
+    {
+     "quote": "If the increases in tariffs announced so far are sustained, they are likely to interrupt progress on disinflation and generate at least a temporary rise in inflation.",
+     "start": 5890,
+     "end": 6055
+    },
+    {
+     "quote": "I have adjusted down my expectations for economic growth this year, but I see the U.S. economy as continuing to expand.",
+     "start": 3205,
+     "end": 3323
+    },
+    {
+     "quote": "Turning to the labor market, conditions continue to be solid.",
+     "start": 3483,
+     "end": 3543
+    },
+    {
+     "quote": "With the increased risks to both sides of our mandate",
+     "start": 8049,
+     "end": 8102
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

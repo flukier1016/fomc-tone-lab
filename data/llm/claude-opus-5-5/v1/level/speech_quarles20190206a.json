@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20190206a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190206a",
+  "doc_type": "speech",
+  "text_sha256": "207657581e394cd794ccd939bd14046bdefa756ba10c591623b1d6f7acbb37d9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "95bdabbdcfb0be579a1fa80003ea5074a0ebd1f7be653f1b6984e6fdfe61f047",
+ "message_id": "msg_011CgFugBstJJeXakZ2Zq6mR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2411,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Tonight, I want to briefly discuss the role that participation plays in the Federal Reserve's work and outline one effort to solicit broad participation--an upcoming conference on stress tests, intended to make those tests more open, transparent, and effective.\"},{\"dimension\":\"overall\",\"quote\":\"over the course of 2019, we will be reviewing our monetary policy strategy, tools, and communication practices\"},{\"dimension\":\"overall\",\"quote\":\"In July, as a forum for such ideas, we will host a public conference focused on the transparency and effectiveness of stress testing.\"}],\"rationale\":\"The speech is about accountability, transparency, and stress-testing supervision, with only a procedural mention of the monetary policy framework review. It offers no view on rates, inflation, activity, or the balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Tonight, I want to briefly discuss the role that participation plays in the Federal Reserve's work and outline one effort to solicit broad participation--an upcoming conference on stress tests, intended to make those tests more open, transparent, and effective."
+   },
+   {
+    "dimension": "overall",
+    "quote": "over the course of 2019, we will be reviewing our monetary policy strategy, tools, and communication practices"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In July, as a forum for such ideas, we will host a public conference focused on the transparency and effectiveness of stress testing."
+   }
+  ],
+  "rationale": "The speech is about accountability, transparency, and stress-testing supervision, with only a procedural mention of the monetary policy framework review. It offers no view on rates, inflation, activity, or the balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Tonight, I want to briefly discuss the role that participation plays in the Federal Reserve's work and outline one effort to solicit broad participation--an upcoming conference on stress tests, intended to make those tests more open, transparent, and effective.",
+     "start": 896,
+     "end": 1156
+    },
+    {
+     "quote": "over the course of 2019, we will be reviewing our monetary policy strategy, tools, and communication practices",
+     "start": 4253,
+     "end": 4363
+    },
+    {
+     "quote": "In July, as a forum for such ideas, we will host a public conference focused on the transparency and effectiveness of stress testing.",
+     "start": 6882,
+     "end": 7014
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

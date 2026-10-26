@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20120409a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20120409a",
+  "doc_type": "speech",
+  "text_sha256": "6cf53fca9913d09bae502b234cc0178bfec91592d772bd62b4267c0953268c34"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f1b73dca648b8e02490f90a64a0a64f53ce30326d358aaecad20b11510617359",
+ "message_id": "msg_011CgFugEGW1j7keiUibJeNx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6882,
+  "output_tokens": 382,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"About three and a half years have passed since the darkest days of the financial crisis, but our economy is still far from having fully recovered from its effects.\"},{\"dimension\":\"overall\",\"quote\":\"I will also discuss the broad outlines of our evolving approach to monitoring financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"Continuing to develop an effective set of macroprudential policy indicators and tools, while pursuing essential reforms to the financial system, is critical to preserving financial stability and supporting the U.S. economy.\"}],\"rationale\":\"The speech focuses on financial regulation, shadow banking and macroprudential monitoring, with no monetary policy signal. Its only macro remark, that the economy is far from recovered, leans mildly dovish, but overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "About three and a half years have passed since the darkest days of the financial crisis, but our economy is still far from having fully recovered from its effects."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I will also discuss the broad outlines of our evolving approach to monitoring financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Continuing to develop an effective set of macroprudential policy indicators and tools, while pursuing essential reforms to the financial system, is critical to preserving financial stability and supporting the U.S. economy."
+   }
+  ],
+  "rationale": "The speech focuses on financial regulation, shadow banking and macroprudential monitoring, with no monetary policy signal. Its only macro remark, that the economy is far from recovered, leans mildly dovish, but overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "About three and a half years have passed since the darkest days of the financial crisis, but our economy is still far from having fully recovered from its effects.",
+     "start": 361,
+     "end": 523
+    },
+    {
+     "quote": "I will also discuss the broad outlines of our evolving approach to monitoring financial stability.",
+     "start": 1229,
+     "end": 1326
+    },
+    {
+     "quote": "Continuing to develop an effective set of macroprudential policy indicators and tools, while pursuing essential reforms to the financial system, is critical to preserving financial stability and supporting the U.S. economy.",
+     "start": 23098,
+     "end": 23320
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

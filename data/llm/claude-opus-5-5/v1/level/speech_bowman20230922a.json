@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20230922a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230922a",
+  "doc_type": "speech",
+  "text_sha256": "5d9b5be360a60d9668f9751f858932abd7875085fcbd2df48c29f603d4a5380e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "048297414a79b4389993b078c4af6106903fb5edde7e74724c9c53ae32110136",
+ "message_id": "msg_011CgFugAJ8skcGtgA52Rf5T",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2122,
+  "output_tokens": 515,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I expect it will likely be appropriate for the Committee to raise rates further and hold them at a restrictive level for some time to return inflation to our 2 percent goal in a timely way.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see a continued risk that energy prices could rise further and reverse some of the progress we have seen on inflation in recent months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"At the same time, the economy has remained strong as the FOMC has tightened monetary policy. Real gross domestic product has been growing at a solid pace.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"my own expectation that progress on inflation is likely to be slow given the current level of monetary policy restraint, suggests that further policy tightening will be needed\"},{\"dimension\":\"overall\",\"quote\":\"But I continue to expect that further rate hikes will likely be needed to return inflation to 2 percent in a timely way.\"}],\"rationale\":\"The speaker explicitly expects further rate hikes and a prolonged restrictive stance, citing too-high inflation, upside energy risks, and a strong economy. Roughly half the speech covers bank regulation, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect it will likely be appropriate for the Committee to raise rates further and hold them at a restrictive level for some time to return inflation to our 2 percent goal in a timely way."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see a continued risk that energy prices could rise further and reverse some of the progress we have seen on inflation in recent months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "At the same time, the economy has remained strong as the FOMC has tightened monetary policy. Real gross domestic product has been growing at a solid pace."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "my own expectation that progress on inflation is likely to be slow given the current level of monetary policy restraint, suggests that further policy tightening will be needed"
+   },
+   {
+    "dimension": "overall",
+    "quote": "But I continue to expect that further rate hikes will likely be needed to return inflation to 2 percent in a timely way."
+   }
+  ],
+  "rationale": "The speaker explicitly expects further rate hikes and a prolonged restrictive stance, citing too-high inflation, upside energy risks, and a strong economy. Roughly half the speech covers bank regulation, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I expect it will likely be appropriate for the Committee to raise rates further and hold them at a restrictive level for some time to return inflation to our 2 percent goal in a timely way.",
+     "start": 1154,
+     "end": 1342
+    },
+    {
+     "quote": "I see a continued risk that energy prices could rise further and reverse some of the progress we have seen on inflation in recent months.",
+     "start": 1500,
+     "end": 1636
+    },
+    {
+     "quote": "At the same time, the economy has remained strong as the FOMC has tightened monetary policy. Real gross domestic product has been growing at a solid pace.",
+     "start": 1639,
+     "end": 1792
+    },
+    {
+     "quote": "my own expectation that progress on inflation is likely to be slow given the current level of monetary policy restraint, suggests that further policy tightening will be needed",
+     "start": 3412,
+     "end": 3587
+    },
+    {
+     "quote": "But I continue to expect that further rate hikes will likely be needed to return inflation to 2 percent in a timely way.",
+     "start": 3074,
+     "end": 3193
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

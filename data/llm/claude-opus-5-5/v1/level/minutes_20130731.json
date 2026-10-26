@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20130731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20130731",
+  "doc_type": "minutes",
+  "text_sha256": "71798ce546d345b48b5af2fa46759d5148fa0770860e5a2fc436662836a21321"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "78d58716a04f3a809a6ebac8c922b412610b022490a7044d374fa356fa6ed098",
+ "message_id": "msg_011CgFugLyL73eExG4MGA3Af",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12663,
+  "output_tokens": 627,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Under that outlook, if economic conditions improved broadly as expected, the Committee would moderate the pace of its securities purchases later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term.\"},{\"dimension\":\"risk_balance\",\"quote\":\"they expressed concern that the higher level of longer-term interest rates could be a significant factor holding back spending and economic growth.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"almost all Committee members agreed that a change in the purchase program was not yet appropriate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.\"}],\"rationale\":\"The minutes stress continued high accommodation, a strengthened 'reaffirmed' rate guidance, concern about inflation running below 2 percent, and worries that higher long-term rates are restraining growth. These dovish signals are partly offset by broad comfort with a plan to taper purchases later in the year and one hawkish dissent, leaving a moderately dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Under that outlook, if economic conditions improved broadly as expected, the Committee would moderate the pace of its securities purchases later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "they expressed concern that the higher level of longer-term interest rates could be a significant factor holding back spending and economic growth."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "almost all Committee members agreed that a change in the purchase program was not yet appropriate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall."
+   }
+  ],
+  "rationale": "The minutes stress continued high accommodation, a strengthened 'reaffirmed' rate guidance, concern about inflation running below 2 percent, and worries that higher long-term rates are restraining growth. These dovish signals are partly offset by broad comfort with a plan to taper purchases later in the year and one hawkish dissent, leaving a moderately dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+     "start": 41326,
+     "end": 41543
+    },
+    {
+     "quote": "Under that outlook, if economic conditions improved broadly as expected, the Committee would moderate the pace of its securities purchases later this year.",
+     "start": 27260,
+     "end": 27414
+    },
+    {
+     "quote": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term.",
+     "start": 39477,
+     "end": 39692
+    },
+    {
+     "quote": "they expressed concern that the higher level of longer-term interest rates could be a significant factor holding back spending and economic growth.",
+     "start": 26154,
+     "end": 26300
+    },
+    {
+     "quote": "almost all Committee members agreed that a change in the purchase program was not yet appropriate.",
+     "start": 33939,
+     "end": 34036
+    },
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished since the fall.",
+     "start": 39350,
+     "end": 39475
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

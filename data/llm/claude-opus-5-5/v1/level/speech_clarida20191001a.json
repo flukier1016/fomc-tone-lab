@@ -1,0 +1,85 @@
+{
+ "key": "speech_clarida20191001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20191001a",
+  "doc_type": "speech",
+  "text_sha256": "9403ef3c62be63ba67b80b13235bb0708e0d1b78a98a4cd97a6ef7b6f82e86e6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c75af15cb8bfca50639b54c67f2f42d77399d6f6ba0188ccb277aaa7e4196876",
+ "message_id": "msg_011CgFug8cgDVczCGpwHU66j",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 966,
+  "output_tokens": 274,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Welcome to the Federal Reserve, and I wish you a successful two days.\"},{\"dimension\":\"overall\",\"quote\":\"To a large extent, the use of nontraditional data, machine learning, and natural language processing in macroeconomics and for policy is only just in its infancy.\"}],\"rationale\":\"These are welcoming remarks at a research conference on nontraditional data and machine learning. They take no view on the economy, inflation, or the path of policy, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Welcome to the Federal Reserve, and I wish you a successful two days."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To a large extent, the use of nontraditional data, machine learning, and natural language processing in macroeconomics and for policy is only just in its infancy."
+   }
+  ],
+  "rationale": "These are welcoming remarks at a research conference on nontraditional data and machine learning. They take no view on the economy, inflation, or the path of policy, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Welcome to the Federal Reserve, and I wish you a successful two days.",
+     "start": 3207,
+     "end": 3275
+    },
+    {
+     "quote": "To a large extent, the use of nontraditional data, machine learning, and natural language processing in macroeconomics and for policy is only just in its infancy.",
+     "start": 2253,
+     "end": 2414
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_jefferson20260206a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20260206a",
+  "doc_type": "speech",
+  "text_sha256": "6e1f935566f959c71367109f3386d06ddb1a25112f0a92d89f73af00ab158098"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "04cde02756449c88dc6f42452fa760881c9d46016508f9bccedd7cd0e24805d6",
+ "message_id": "msg_011CgFugECHR3Du7xT6iLuYB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4324,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The current policy stance is well positioned to address the risks to both sides of our dual mandate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"For 2026, I have revised up my growth forecast modestly in recent weeks, informed by signs of the economy's continued resilience.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Progress on disinflation has stalled over the past year, and inflation remains elevated relative to our 2 percent target.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Certainly, some upside risks remain, but I expect the disinflationary process to resume this year once increased tariffs pass through more fully to prices.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In this less dynamic labor market, the downside risks to employment remain, but my baseline is for the unemployment rate to hold approximately steady throughout this year.\"},{\"dimension\":\"overall\",\"quote\":\"This implies that there is more leeway for the supply side of the economy to evolve without the need for precautionary monetary policy restraint.\"}],\"rationale\":\"The speaker supports holding rates near neutral with data-dependent guidance, citing resilient growth and a stabilizing labor market alongside stalled but expected-to-resume disinflation. Risks are presented as two-sided, yielding a neutral stance with a slight hawkish tilt from the upgraded growth outlook and the signal of no near-term urgency to cut.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The current policy stance is well positioned to address the risks to both sides of our dual mandate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "For 2026, I have revised up my growth forecast modestly in recent weeks, informed by signs of the economy's continued resilience."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Progress on disinflation has stalled over the past year, and inflation remains elevated relative to our 2 percent target."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Certainly, some upside risks remain, but I expect the disinflationary process to resume this year once increased tariffs pass through more fully to prices."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In this less dynamic labor market, the downside risks to employment remain, but my baseline is for the unemployment rate to hold approximately steady throughout this year."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This implies that there is more leeway for the supply side of the economy to evolve without the need for precautionary monetary policy restraint."
+   }
+  ],
+  "rationale": "The speaker supports holding rates near neutral with data-dependent guidance, citing resilient growth and a stabilizing labor market alongside stalled but expected-to-resume disinflation. Risks are presented as two-sided, yielding a neutral stance with a slight hawkish tilt from the upgraded growth outlook and the signal of no near-term urgency to cut."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The current policy stance is well positioned to address the risks to both sides of our dual mandate.",
+     "start": 4974,
+     "end": 5073
+    },
+    {
+     "quote": "For 2026, I have revised up my growth forecast modestly in recent weeks, informed by signs of the economy's continued resilience.",
+     "start": 1639,
+     "end": 1767
+    },
+    {
+     "quote": "Progress on disinflation has stalled over the past year, and inflation remains elevated relative to our 2 percent target.",
+     "start": 3051,
+     "end": 3171
+    },
+    {
+     "quote": "Certainly, some upside risks remain, but I expect the disinflationary process to resume this year once increased tariffs pass through more fully to prices.",
+     "start": 3799,
+     "end": 3953
+    },
+    {
+     "quote": "In this less dynamic labor market, the downside risks to employment remain, but my baseline is for the unemployment rate to hold approximately steady throughout this year.",
+     "start": 2823,
+     "end": 2993
+    },
+    {
+     "quote": "This implies that there is more leeway for the supply side of the economy to evolve without the need for precautionary monetary policy restraint.",
+     "start": 13421,
+     "end": 13565
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

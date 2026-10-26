@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20130308a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20130308a",
+  "doc_type": "speech",
+  "text_sha256": "dc83f524533144d7da4aef747994f4a4b45f084ae8e9fe0cbd8b368a004a431e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5f5cd78cde3ebd9b411bb9d4ba561a95ed84b386d320ab7fc575d115dfe89dca",
+ "message_id": "msg_011CgFug96wnzqazEDTcASNj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10575,
+  "output_tokens": 559,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I think the additional impetus to housing from MBS purchases is appropriate for at least three reasons.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In either case, I think we should consider alternatives, such as holding the securities for longer or allowing them to roll off more gradually.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I think the evidence is pretty clear that a recovery in the housing market is finally under way.\"},{\"dimension\":\"risk_balance\",\"quote\":\"My main hesitation with this forecast is that mortgage credit conditions remain quite tight for many would-be borrowers, and I suspect that the easing of these conditions will be a slow and gradual process.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So it is entirely possible that it might be appropriate at some point to adjust the pace of MBS purchases in response to developments in primary or secondary mortgage markets.\"}],\"rationale\":\"The speech, mainly about housing and mortgage credit, endorses continued MBS purchases as appropriate and suggests holding MBS longer rather than selling them at exit, though it notes that market-functioning concerns could warrant adjusting the purchase pace. It is optimistic about the housing recovery but emphasizes tight credit and slow labor improvement, giving a modestly dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I think the additional impetus to housing from MBS purchases is appropriate for at least three reasons."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In either case, I think we should consider alternatives, such as holding the securities for longer or allowing them to roll off more gradually."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I think the evidence is pretty clear that a recovery in the housing market is finally under way."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "My main hesitation with this forecast is that mortgage credit conditions remain quite tight for many would-be borrowers, and I suspect that the easing of these conditions will be a slow and gradual process."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So it is entirely possible that it might be appropriate at some point to adjust the pace of MBS purchases in response to developments in primary or secondary mortgage markets."
+   }
+  ],
+  "rationale": "The speech, mainly about housing and mortgage credit, endorses continued MBS purchases as appropriate and suggests holding MBS longer rather than selling them at exit, though it notes that market-functioning concerns could warrant adjusting the purchase pace. It is optimistic about the housing recovery but emphasizes tight credit and slow labor improvement, giving a modestly dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I think the additional impetus to housing from MBS purchases is appropriate for at least three reasons.",
+     "start": 32527,
+     "end": 32629
+    },
+    {
+     "quote": "In either case, I think we should consider alternatives, such as holding the securities for longer or allowing them to roll off more gradually.",
+     "start": 34622,
+     "end": 34764
+    },
+    {
+     "quote": "I think the evidence is pretty clear that a recovery in the housing market is finally under way.",
+     "start": 482,
+     "end": 577
+    },
+    {
+     "quote": "My main hesitation with this forecast is that mortgage credit conditions remain quite tight for many would-be borrowers, and I suspect that the easing of these conditions will be a slow and gradual process.",
+     "start": 1509,
+     "end": 1714
+    },
+    {
+     "quote": "So it is entirely possible that it might be appropriate at some point to adjust the pace of MBS purchases in response to developments in primary or secondary mortgage markets.",
+     "start": 33521,
+     "end": 33695
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

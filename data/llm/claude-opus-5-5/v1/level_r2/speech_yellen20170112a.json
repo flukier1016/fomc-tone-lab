@@ -1,0 +1,85 @@
+{
+ "key": "speech_yellen20170112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20170112a",
+  "doc_type": "speech",
+  "text_sha256": "b674c7d26497b7decc9c2c1f5ad64bb51d21d1940603b73872e14332b5a4a362"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "baed33d01d30ea4df8305fabe59c251561a0bc709d37cae755d1a4bdb589457d",
+ "message_id": "msg_011CgG28WWyXK6vpwD3Kkzjc",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2131,
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Whenever I am asked what policies and initiatives could do the most to spur economic growth and raise living standards, improving education is at the top of my list.\"},{\"dimension\":\"overall\",\"quote\":\"Stabilizing the economy and mitigating a downturn, of course, also happen to be among the Federal Reserve's primary responsibilities.\"}],\"rationale\":\"These welcoming remarks to teachers focus on economic education and Fed outreach programs. They contain no signal about the policy path, inflation, or economic conditions.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Whenever I am asked what policies and initiatives could do the most to spur economic growth and raise living standards, improving education is at the top of my list."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Stabilizing the economy and mitigating a downturn, of course, also happen to be among the Federal Reserve's primary responsibilities."
+   }
+  ],
+  "rationale": "These welcoming remarks to teachers focus on economic education and Fed outreach programs. They contain no signal about the policy path, inflation, or economic conditions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Whenever I am asked what policies and initiatives could do the most to spur economic growth and raise living standards, improving education is at the top of my list.",
+     "start": 2288,
+     "end": 2452
+    },
+    {
+     "quote": "Stabilizing the economy and mitigating a downturn, of course, also happen to be among the Federal Reserve's primary responsibilities.",
+     "start": 3010,
+     "end": 3142
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20171213",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20171213",
+  "doc_type": "presser",
+  "text_sha256": "cd0d9ae266604abbfff3bf47e11b751edee5f3cd40a2f090d85dd413c9eb4902"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2c353e6c80340ada7bc26fbe33084038eb56d22ebada806b259a20a1efbf1758",
+ "message_id": "msg_011CgFugDhGePfiP5avHfT2S",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11814,
+  "output_tokens": 567,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1¼ to 1½ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"additional gradual rate hikes are likely to be appropriate over the next few years to sustain a strong labor market and stabilize inflation around our 2 percent longer-run objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Even with a firming of economic growth and a stronger labor market, inflation has continued to run below the FOMC’s 2 percent longer-run objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We expect that the job market will remain strong in the years ahead.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So I think the risks are balanced, and there’s less to lose sleep about now than has been true for quite some time\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee’s balance sheet normalization program, initiated in October, is proceeding.\"}],\"rationale\":\"The Chair announces a rate hike, signals continued gradual increases, and confirms ongoing balance sheet runoff amid a strong labor market, while below-target inflation and balanced risks temper the hawkish lean. The net signal is moderately hawkish, with gradualism emphasized.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1¼ to 1½ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain a strong labor market and stabilize inflation around our 2 percent longer-run objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Even with a firming of economic growth and a stronger labor market, inflation has continued to run below the FOMC’s 2 percent longer-run objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We expect that the job market will remain strong in the years ahead."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So I think the risks are balanced, and there’s less to lose sleep about now than has been true for quite some time"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee’s balance sheet normalization program, initiated in October, is proceeding."
+   }
+  ],
+  "rationale": "The Chair announces a rate hike, signals continued gradual increases, and confirms ongoing balance sheet runoff amid a strong labor market, while below-target inflation and balanced risks temper the hawkish lean. The net signal is moderately hawkish, with gradualism emphasized."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1¼ to 1½ percent.",
+     "start": 16,
+     "end": 171
+    },
+    {
+     "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain a strong labor market and stabilize inflation around our 2 percent longer-run objective.",
+     "start": 5918,
+     "end": 6099
+    },
+    {
+     "quote": "Even with a firming of economic growth and a stronger labor market, inflation has continued to run below the FOMC’s 2 percent longer-run objective.",
+     "start": 2602,
+     "end": 2748
+    },
+    {
+     "quote": "We expect that the job market will remain strong in the years ahead.",
+     "start": 1890,
+     "end": 1957
+    },
+    {
+     "quote": "So I think the risks are balanced, and there’s less to lose sleep about now than has been true for quite some time",
+     "start": 29928,
+     "end": 30042
+    },
+    {
+     "quote": "the Committee’s balance sheet normalization program, initiated in October, is proceeding.",
+     "start": 6936,
+     "end": 7024
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

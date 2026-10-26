@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20220817b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220817b",
+  "doc_type": "speech",
+  "text_sha256": "d29f27a80b30fdaa483d1b8f940f2278d4e9b14bf5c8d7f4c6e8ec85b9e920c7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c9126065b4d7b30ae4c192ad9d1c1e4844df78a37a96b358b0206a92b7b44278",
+ "message_id": "msg_011CgFug8nbZrAsQtHiJSew8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4498,
+  "output_tokens": 428,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"On the demand side, the labor market continues to be strong and there are abundant job opportunities for workers of all education and skill levels.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we continue to see strong employment gains and low unemployment rates—the kind of labor market that historically has pulled in more workers.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Today's high inflation and strong employment will likely create some pressure on labor and employment.\"},{\"dimension\":\"overall\",\"quote\":\"With about four million fewer people participating in the workforce today, there are still plenty of jobs available even if we see the number of job openings reduced.\"}],\"rationale\":\"The speech is mainly about women's labor force participation, describing a strong labor market and mentioning high inflation, but offers no explicit policy guidance. The tone leans slightly hawkish through its emphasis on labor-market strength and tolerance for fewer job openings.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "On the demand side, the labor market continues to be strong and there are abundant job opportunities for workers of all education and skill levels."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we continue to see strong employment gains and low unemployment rates—the kind of labor market that historically has pulled in more workers."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Today's high inflation and strong employment will likely create some pressure on labor and employment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With about four million fewer people participating in the workforce today, there are still plenty of jobs available even if we see the number of job openings reduced."
+   }
+  ],
+  "rationale": "The speech is mainly about women's labor force participation, describing a strong labor market and mentioning high inflation, but offers no explicit policy guidance. The tone leans slightly hawkish through its emphasis on labor-market strength and tolerance for fewer job openings."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On the demand side, the labor market continues to be strong and there are abundant job opportunities for workers of all education and skill levels.",
+     "start": 11295,
+     "end": 11441
+    },
+    {
+     "quote": "we continue to see strong employment gains and low unemployment rates—the kind of labor market that historically has pulled in more workers.",
+     "start": 15526,
+     "end": 15665
+    },
+    {
+     "quote": "Today's high inflation and strong employment will likely create some pressure on labor and employment.",
+     "start": 15928,
+     "end": 16029
+    },
+    {
+     "quote": "With about four million fewer people participating in the workforce today, there are still plenty of jobs available even if we see the number of job openings reduced.",
+     "start": 11443,
+     "end": 11608
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

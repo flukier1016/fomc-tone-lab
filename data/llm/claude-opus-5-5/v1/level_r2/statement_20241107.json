@@ -1,0 +1,121 @@
+{
+ "key": "statement_20241107",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20241107",
+  "doc_type": "statement",
+  "text_sha256": "e801bed399af067bdc41ecccc32db48d3091710c4cf6d29f581bd92fe8d5973d"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2b75f841dd111413f2ec291d44d825f26e9955eb5a0bcdd8d873152132027bb2",
+ "message_id": "msg_011CgG2AiDjjftDF3Z7o8WSX",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 708,
+  "output_tokens": 559,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"labor market conditions have generally eased, and the unemployment rate has moved up but remains low\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.\"}],\"rationale\":\"The statement announces a 25 bp cut, and its reference to \\\"additional adjustments\\\" implies further easing, while risks are described as balanced and the economy as solid. Continued balance sheet runoff provides a modest hawkish offset, leaving a moderately dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "labor market conditions have generally eased, and the unemployment rate has moved up but remains low"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities."
+   }
+  ],
+  "rationale": "The statement announces a 25 bp cut, and its reference to \"additional adjustments\" implies further easing, while risks are described as balanced and the economy as solid. Continued balance sheet runoff provides a modest hawkish offset, leaving a moderately dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4-1/2 to 4-3/4 percent",
+     "start": 680,
+     "end": 804
+    },
+    {
+     "quote": "In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 806,
+     "end": 989
+    },
+    {
+     "quote": "Inflation has made progress toward the Committee's 2 percent objective but remains somewhat elevated.",
+     "start": 219,
+     "end": 319
+    },
+    {
+     "quote": "labor market conditions have generally eased, and the unemployment rate has moved up but remains low",
+     "start": 117,
+     "end": 217
+    },
+    {
+     "quote": "The Committee judges that the risks to achieving its employment and inflation goals are roughly in balance.",
+     "start": 432,
+     "end": 538
+    },
+    {
+     "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+     "start": 991,
+     "end": 1117
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

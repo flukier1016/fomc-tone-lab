@@ -1,0 +1,121 @@
+{
+ "key": "speech_quarles20200923a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20200923a",
+  "doc_type": "speech",
+  "text_sha256": "08ede950fa92223701d1b00e1075b9ce69c143a0a7bcb953ea228b2695e9ab0e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1fc782e39d572bfdcf9582374758fbec34094d36b9ee9a4424a8e2cc04901796",
+ "message_id": "msg_011CgFugCc3N3ZZy9NP5Sct4",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6019,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the prescription is for a sustained aggressive use of monetary policy to support the economy\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In fact, I likely will be even more patient in reacting to small upward deviations\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"PCE inflation was still only 1 percent for the 12 months ended in July and is likely to end 2020 well below our 2 percent longer-run target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, the economy has rebounded more strongly than almost any forecaster expected.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A full recovery is still a good way off, however, and risks remain weighted to the downside.\"},{\"dimension\":\"overall\",\"quote\":\"By providing additional monetary policy accommodation through stronger, outcomes-based forward guidance, the Committee hopes to quicken the pace of the recovery.\"}],\"rationale\":\"Quarles is optimistic about the rebound but supports sustained aggressive accommodation, average inflation targeting, and patience on upward inflation deviations, with risks weighted to the downside. The optimism on growth tempers the dovish signal somewhat.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the prescription is for a sustained aggressive use of monetary policy to support the economy"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In fact, I likely will be even more patient in reacting to small upward deviations"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "PCE inflation was still only 1 percent for the 12 months ended in July and is likely to end 2020 well below our 2 percent longer-run target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, the economy has rebounded more strongly than almost any forecaster expected."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A full recovery is still a good way off, however, and risks remain weighted to the downside."
+   },
+   {
+    "dimension": "overall",
+    "quote": "By providing additional monetary policy accommodation through stronger, outcomes-based forward guidance, the Committee hopes to quicken the pace of the recovery."
+   }
+  ],
+  "rationale": "Quarles is optimistic about the rebound but supports sustained aggressive accommodation, average inflation targeting, and patience on upward inflation deviations, with risks weighted to the downside. The optimism on growth tempers the dovish signal somewhat."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the prescription is for a sustained aggressive use of monetary policy to support the economy",
+     "start": 11376,
+     "end": 11468
+    },
+    {
+     "quote": "In fact, I likely will be even more patient in reacting to small upward deviations",
+     "start": 17719,
+     "end": 17801
+    },
+    {
+     "quote": "PCE inflation was still only 1 percent for the 12 months ended in July and is likely to end 2020 well below our 2 percent longer-run target.",
+     "start": 10635,
+     "end": 10774
+    },
+    {
+     "quote": "However, the economy has rebounded more strongly than almost any forecaster expected.",
+     "start": 3893,
+     "end": 3977
+    },
+    {
+     "quote": "A full recovery is still a good way off, however, and risks remain weighted to the downside.",
+     "start": 20350,
+     "end": 20441
+    },
+    {
+     "quote": "By providing additional monetary policy accommodation through stronger, outcomes-based forward guidance, the Committee hopes to quicken the pace of the recovery.",
+     "start": 18362,
+     "end": 18522
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

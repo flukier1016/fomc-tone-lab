@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20180926",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20180926",
+  "doc_type": "minutes",
+  "text_sha256": "47bfd48c5c284a204dd561462ca3e399dab2a282537309ec2a8138e64db1b310"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "963cf36e5c945bd0570af50a73abbe4aa4341f3735cf29b6776993727ce55782",
+ "message_id": "msg_011CgFugDD1M6xntBvyf6FQV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12319,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"participants generally anticipated that further gradual increases in the target range for the federal funds rate would most likely be consistent with a sustained economic expansion\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a number judged that it would be necessary to temporarily raise the federal funds rate above their assessments of its longer-run level\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"information received since the FOMC met in August indicated that the labor market continued to strengthen and that economic activity rose at a strong rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Several participants commented that inflation may modestly exceed 2 percent for a period of time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally agreed that risks to the outlook appeared roughly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"With the increase in the caps on redemptions to be implemented beginning in October\"}],\"rationale\":\"The minutes describe strong activity, inflation near target, and continued gradual hikes, with a number of participants favoring moving above neutral or into restrictive territory. Risks are seen as balanced and inflation is not alarming, so the lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "participants generally anticipated that further gradual increases in the target range for the federal funds rate would most likely be consistent with a sustained economic expansion"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a number judged that it would be necessary to temporarily raise the federal funds rate above their assessments of its longer-run level"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "information received since the FOMC met in August indicated that the labor market continued to strengthen and that economic activity rose at a strong rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Several participants commented that inflation may modestly exceed 2 percent for a period of time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally agreed that risks to the outlook appeared roughly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "With the increase in the caps on redemptions to be implemented beginning in October"
+   }
+  ],
+  "rationale": "The minutes describe strong activity, inflation near target, and continued gradual hikes, with a number of participants favoring moving above neutral or into restrictive territory. Risks are seen as balanced and inflation is not alarming, so the lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "participants generally anticipated that further gradual increases in the target range for the federal funds rate would most likely be consistent with a sustained economic expansion",
+     "start": 31349,
+     "end": 31529
+    },
+    {
+     "quote": "a number judged that it would be necessary to temporarily raise the federal funds rate above their assessments of its longer-run level",
+     "start": 32274,
+     "end": 32408
+    },
+    {
+     "quote": "information received since the FOMC met in August indicated that the labor market continued to strengthen and that economic activity rose at a strong rate.",
+     "start": 20701,
+     "end": 20855
+    },
+    {
+     "quote": "Several participants commented that inflation may modestly exceed 2 percent for a period of time.",
+     "start": 26110,
+     "end": 26206
+    },
+    {
+     "quote": "Participants generally agreed that risks to the outlook appeared roughly balanced.",
+     "start": 27869,
+     "end": 27950
+    },
+    {
+     "quote": "With the increase in the caps on redemptions to be implemented beginning in October",
+     "start": 3033,
+     "end": 3116
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20090923",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20090923",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "25a08288d76a3b92618edecfc62256472338aff22bd6bff34d6caf66a52c1534"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4eefe435dc1d5b143857a7115e68190901ae71f665a0fbb5e2ec42348df8a5dc",
+ "message_id": "msg_011CgFudzkMRUfpkTJiEBrAR",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13912,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants emphasized that labor market conditions remained weak.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high\"},{\"dimension\":\"balance_sheet\",\"quote\":\"all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS\"},{\"dimension\":\"overall\",\"quote\":\"Although the economic outlook had improved further in recent weeks and the risks to the forecast had become more balanced, the level of economic activity was likely to be quite weak and resource utilization low.\"}],\"rationale\":\"The minutes reaffirm extended exceptionally low rates and commit to the full MBS purchases, emphasizing weak labor markets, subdued inflation and the high cost of weaker growth. Some hawkish elements, such as tapering purchases, exit-tool planning and an improved outlook, temper the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants emphasized that labor market conditions remained weak."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Although the economic outlook had improved further in recent weeks and the risks to the forecast had become more balanced, the level of economic activity was likely to be quite weak and resource utilization low."
+   }
+  ],
+  "rationale": "The minutes reaffirm extended exceptionally low rates and commit to the full MBS purchases, emphasizing weak labor markets, subdued inflation and the high cost of weaker growth. Some hawkish elements, such as tapering purchases, exit-tool planning and an improved outlook, temper the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions were likely to warrant an exceptionally low level of the federal funds rate for an extended period",
+     "start": 39998,
+     "end": 40116
+    },
+    {
+     "quote": "most participants anticipated that slack in both labor and product markets would be substantial over the next few years, leading to subdued and potentially declining wage and price inflation",
+     "start": 30818,
+     "end": 31008
+    },
+    {
+     "quote": "Participants emphasized that labor market conditions remained weak.",
+     "start": 34440,
+     "end": 34506
+    },
+    {
+     "quote": "the Committee judged that the costs of growth turning out to be weaker than anticipated could be relatively high",
+     "start": 39720,
+     "end": 39832
+    },
+    {
+     "quote": "all members were able to support an indication by the Committee of its intention at this time to purchase the full $1.25 trillion of agency MBS",
+     "start": 40506,
+     "end": 40649
+    },
+    {
+     "quote": "Although the economic outlook had improved further in recent weeks and the risks to the forecast had become more balanced, the level of economic activity was likely to be quite weak and resource utilization low.",
+     "start": 39307,
+     "end": 39517
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

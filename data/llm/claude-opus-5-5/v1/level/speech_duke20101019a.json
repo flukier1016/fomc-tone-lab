@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20101019a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20101019a",
+  "doc_type": "speech",
+  "text_sha256": "f5421166d8f889133001460cb7549951574f41c51ef6e4a1a1ff915796094337"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "61818ca300a23cae1bdad2b76af94e9c96680535075598cd8356202cdeb27aa4",
+ "message_id": "msg_011CgFug8g9VekFP5uXSR5HB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7295,
+  "output_tokens": 416,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As we contemplate the possible need for additional monetary accommodation and the tools we have remaining, staff memos are quite helpful in assessing the potential costs and benefits of various approaches.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In recent months, as interest in our policies has risen in light of the continued slow recovery\"},{\"dimension\":\"balance_sheet\",\"quote\":\"use of large-scale asset purchases, ways the Federal Reserve might exit from nonstandard programs when the time comes\"},{\"dimension\":\"overall\",\"quote\":\"I would caution against reading too much into any individual speech, news story, or public appearance.\"}],\"rationale\":\"The speech is mainly a procedural description of the FOMC process and communications. Its few policy-relevant remarks, a mention of contemplating possible additional accommodation amid a slow recovery, lean mildly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As we contemplate the possible need for additional monetary accommodation and the tools we have remaining, staff memos are quite helpful in assessing the potential costs and benefits of various approaches."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In recent months, as interest in our policies has risen in light of the continued slow recovery"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "use of large-scale asset purchases, ways the Federal Reserve might exit from nonstandard programs when the time comes"
+   },
+   {
+    "dimension": "overall",
+    "quote": "I would caution against reading too much into any individual speech, news story, or public appearance."
+   }
+  ],
+  "rationale": "The speech is mainly a procedural description of the FOMC process and communications. Its few policy-relevant remarks, a mention of contemplating possible additional accommodation amid a slow recovery, lean mildly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As we contemplate the possible need for additional monetary accommodation and the tools we have remaining, staff memos are quite helpful in assessing the potential costs and benefits of various approaches.",
+     "start": 13102,
+     "end": 13306
+    },
+    {
+     "quote": "In recent months, as interest in our policies has risen in light of the continued slow recovery",
+     "start": 14141,
+     "end": 14236
+    },
+    {
+     "quote": "use of large-scale asset purchases, ways the Federal Reserve might exit from nonstandard programs when the time comes",
+     "start": 12948,
+     "end": 13065
+    },
+    {
+     "quote": "I would caution against reading too much into any individual speech, news story, or public appearance.",
+     "start": 14543,
+     "end": 14644
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

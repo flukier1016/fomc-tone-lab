@@ -1,0 +1,119 @@
+{
+ "key": "statement_20200827",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200827",
+  "previous_doc_id": "statement_20200729",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2ad0ee7ac70a902c702c1578e1a3feb629e18ca20f7bb243d830a130737fe9c7",
+ "message_id": "msg_011CgFudzVDsnhud5ccUSyoe",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2237,
+  "output_tokens": 617,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective.\",\"after\":\"On price stability, the FOMC adjusted its strategy for achieving its longer-run inflation goal of 2 percent by noting that it \\\"seeks to achieve inflation that averages 2 percent over time.\\\"\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"To this end, the revised statement states that \\\"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\\\"\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"On maximum employment, the FOMC emphasized that maximum employment is a broad-based and inclusive goal and reports that its policy decision will be informed by its \\\"assessments of the shortfalls of employment from its maximum level.\\\"\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"\\\"Our revised statement reflects our appreciation for the benefits of a strong labor market, particularly for many in low- and moderate-income communities, and that a robust job market can be sustained without causing an unwelcome increase in inflation.\\\"\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The updates to the strategy statement explicitly acknowledge the challenges for monetary policy posed by a persistently low interest rate environment.\",\"direction\":\"dovish\"}],\"rationale\":\"The framework revision replaces a symmetric 2 percent objective with flexible average inflation targeting that tolerates overshoots and responds only to employment shortfalls, a structural shift implying rates stay low longer. This is a clear dovish change in policy strategy and guidance relative to the prior statement.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective.",
+    "after": "On price stability, the FOMC adjusted its strategy for achieving its longer-run inflation goal of 2 percent by noting that it \"seeks to achieve inflation that averages 2 percent over time.\"",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "To this end, the revised statement states that \"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "On maximum employment, the FOMC emphasized that maximum employment is a broad-based and inclusive goal and reports that its policy decision will be informed by its \"assessments of the shortfalls of employment from its maximum level.\"",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "\"Our revised statement reflects our appreciation for the benefits of a strong labor market, particularly for many in low- and moderate-income communities, and that a robust job market can be sustained without causing an unwelcome increase in inflation.\"",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The updates to the strategy statement explicitly acknowledge the challenges for monetary policy posed by a persistently low interest rate environment.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The framework revision replaces a symmetric 2 percent objective with flexible average inflation targeting that tolerates overshoots and responds only to employment shortfalls, a structural shift implying rates stay low longer. This is a clear dovish change in policy strategy and guidance relative to the prior statement."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In determining the timing and size of future adjustments to the stance of monetary policy, the Committee will assess realized and expected economic conditions relative to its maximum employment objective and its symmetric 2 percent inflation objective.",
+     "start": 1631,
+     "end": 1882
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On price stability, the FOMC adjusted its strategy for achieving its longer-run inflation goal of 2 percent by noting that it \"seeks to achieve inflation that averages 2 percent over time.\"",
+     "start": 1594,
+     "end": 1781
+    },
+    {
+     "quote": "To this end, the revised statement states that \"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"",
+     "start": 1784,
+     "end": 2017
+    },
+    {
+     "quote": "On maximum employment, the FOMC emphasized that maximum employment is a broad-based and inclusive goal and reports that its policy decision will be informed by its \"assessments of the shortfalls of employment from its maximum level.\"",
+     "start": 1287,
+     "end": 1518
+    },
+    {
+     "quote": "\"Our revised statement reflects our appreciation for the benefits of a strong labor market, particularly for many in low- and moderate-income communities, and that a robust job market can be sustained without causing an unwelcome increase in inflation.\"",
+     "start": 966,
+     "end": 1216
+    },
+    {
+     "quote": "The updates to the strategy statement explicitly acknowledge the challenges for monetary policy posed by a persistently low interest rate environment.",
+     "start": 2021,
+     "end": 2170
+    }
+   ]
+  }
+ }
+}

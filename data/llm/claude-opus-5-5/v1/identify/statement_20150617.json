@@ -1,0 +1,53 @@
+{
+ "key": "statement_20150617",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20150617",
+  "release_date": "2015-06-17"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1077795f8855ba5c26c2e6d772a2c35ece293b567a29004aabbdae2d64b80170",
+ "message_id": "msg_011CgFudVTimhKG4A4f6tWEC",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1537,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 271
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2015,\"month\":6,\"confidence\":0.88,\"cues\":[\"'expanding moderately after having changed little during the first quarter' matches the mid-2015 rebound after a weak Q1 2015\",\"'pace of job gains picked up while the unemployment rate remained steady' matches the June 2015 statement\",\"'earlier declines in energy prices' and 'energy prices appear to have stabilized' fit spring 2015, after the 2014-15 oil price collapse\",\"'decreasing prices of non-energy imports' reflects the strong dollar in 2015\",\"The rate is held with explicit liftoff criteria ('further improvement in the labor market and reasonably confident'), so this predates the December 2015 liftoff\",\"Lael Brainard and Stanley Fischer are among the voters, consistent with the 2014-2015 Committee\",\"No dissents, consistent with the 2015 voting rotation\"]}",
+ "parsed": {
+  "year": 2015,
+  "month": 6,
+  "confidence": 0.88,
+  "cues": [
+   "'expanding moderately after having changed little during the first quarter' matches the mid-2015 rebound after a weak Q1 2015",
+   "'pace of job gains picked up while the unemployment rate remained steady' matches the June 2015 statement",
+   "'earlier declines in energy prices' and 'energy prices appear to have stabilized' fit spring 2015, after the 2014-15 oil price collapse",
+   "'decreasing prices of non-energy imports' reflects the strong dollar in 2015",
+   "The rate is held with explicit liftoff criteria ('further improvement in the labor market and reasonably confident'), so this predates the December 2015 liftoff",
+   "Lael Brainard and Stanley Fischer are among the voters, consistent with the 2014-2015 Committee",
+   "No dissents, consistent with the 2015 voting rotation"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

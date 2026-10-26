@@ -1,0 +1,121 @@
+{
+ "key": "presser_20220126",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20220126",
+  "doc_type": "presser",
+  "text_sha256": "1b956aa18500658e14b88d2085715380619a4f4259b8684f3d2316f2cf675fad"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6f49b623360d71a5b28d58c4fa31a56841a590ca23e97c6233e96f2135ea3d20",
+ "message_id": "msg_011CgFugB8EqdD7y4wuxFp6E",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12493,
+  "output_tokens": 558,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I would say that the Committee is, is of a mind to, to raise the federal funds rate at the March meeting, assuming that conditions are appropriate for doing so.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I think there’s quite a bit of room to raise interest rates without threatening the labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I'd be inclined to raise my own estimate of 2022 core PCE inflation—let’s just go with that—by a few tenths today.\"},{\"dimension\":\"risk_balance\",\"quote\":\"inflation risks are still to the upside in the views of most FOMC participants and, certainly, in my view as well.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Now, the balance sheet is, is substantially larger than it needs to be.\"},{\"dimension\":\"policy_action\",\"quote\":\"The Committee also agreed to continue reducing its net asset purchases on the schedule we announced in December—bringing them to an end in early March.\"}],\"rationale\":\"The Chair signals a March liftoff, possibly faster and sooner tightening than last cycle, upside inflation risks, and a very tight labor market, alongside principles for balance sheet shrinkage. Acknowledged two-sided risks from Omicron and supply chains only modestly temper a clearly hawkish message.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would say that the Committee is, is of a mind to, to raise the federal funds rate at the March meeting, assuming that conditions are appropriate for doing so."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I think there’s quite a bit of room to raise interest rates without threatening the labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I'd be inclined to raise my own estimate of 2022 core PCE inflation—let’s just go with that—by a few tenths today."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "inflation risks are still to the upside in the views of most FOMC participants and, certainly, in my view as well."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Now, the balance sheet is, is substantially larger than it needs to be."
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee also agreed to continue reducing its net asset purchases on the schedule we announced in December—bringing them to an end in early March."
+   }
+  ],
+  "rationale": "The Chair signals a March liftoff, possibly faster and sooner tightening than last cycle, upside inflation risks, and a very tight labor market, alongside principles for balance sheet shrinkage. Acknowledged two-sided risks from Omicron and supply chains only modestly temper a clearly hawkish message."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would say that the Committee is, is of a mind to, to raise the federal funds rate at the March meeting, assuming that conditions are appropriate for doing so.",
+     "start": 16658,
+     "end": 16817
+    },
+    {
+     "quote": "I think there’s quite a bit of room to raise interest rates without threatening the labor market.",
+     "start": 10141,
+     "end": 10237
+    },
+    {
+     "quote": "I'd be inclined to raise my own estimate of 2022 core PCE inflation—let’s just go with that—by a few tenths today.",
+     "start": 24420,
+     "end": 24533
+    },
+    {
+     "quote": "inflation risks are still to the upside in the views of most FOMC participants and, certainly, in my view as well.",
+     "start": 21612,
+     "end": 21725
+    },
+    {
+     "quote": "Now, the balance sheet is, is substantially larger than it needs to be.",
+     "start": 20336,
+     "end": 20406
+    },
+    {
+     "quote": "The Committee also agreed to continue reducing its net asset purchases on the schedule we announced in December—bringing them to an end in early March.",
+     "start": 365,
+     "end": 515
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

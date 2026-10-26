@@ -1,0 +1,121 @@
+{
+ "key": "presser_20190731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20190731",
+  "doc_type": "presser",
+  "text_sha256": "0cf65fabc86062c40c33f9e67f2e28e3e3614f5e35ffe7785afad0d61d0c8a37"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b75029a1bbc388032dbd615f5bd61d2b0b0178f4a4d1fff6087a1bbfa992bea4",
+ "message_id": "msg_011CgG2T88cNnpNknTVTqBTN",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9894,
+  "output_tokens": 958,
+  "output_tokens_details": {
+   "thinking_tokens": 383
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"We decided today to lower the target for the federal funds rate by ¼ percentage point to a range of 2 percent to 2¼ percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We also decided to conclude the runoff of our securities portfolio in August rather than in September, as previously planned.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"What I said was, it's not—it's not the beginning of a long series of rate cuts. I didn't—I didn't say it's just one or anything like that.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We are mindful that inflation's return to 2 percent may be further delayed, and that continued below-target inflation could lead to a worrisome and difficult-to-reverse downward slide in longer-term expectations.\"},{\"dimension\":\"risk_balance\",\"quote\":\"It is intended to insure against downside risks from weak global growth and trade policy uncertainty\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The position of the economy is as close to our objectives as it's been in a long time, and the outlook is also good.\"}],\"rationale\":\"The Chair announces a rate cut and early end to runoff, emphasizing downside global/trade risks and muted inflation, while leaving the door open to further cuts. The 'midcycle adjustment' framing and a favorable domestic outlook temper the dovishness.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "We decided today to lower the target for the federal funds rate by ¼ percentage point to a range of 2 percent to 2¼ percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We also decided to conclude the runoff of our securities portfolio in August rather than in September, as previously planned."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "What I said was, it's not—it's not the beginning of a long series of rate cuts. I didn't—I didn't say it's just one or anything like that."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We are mindful that inflation's return to 2 percent may be further delayed, and that continued below-target inflation could lead to a worrisome and difficult-to-reverse downward slide in longer-term expectations."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "It is intended to insure against downside risks from weak global growth and trade policy uncertainty"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The position of the economy is as close to our objectives as it's been in a long time, and the outlook is also good."
+   }
+  ],
+  "rationale": "The Chair announces a rate cut and early end to runoff, emphasizing downside global/trade risks and muted inflation, while leaving the door open to further cuts. The 'midcycle adjustment' framing and a favorable domestic outlook temper the dovishness."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We decided today to lower the target for the federal funds rate by ¼ percentage point to a range of 2 percent to 2¼ percent.",
+     "start": 29,
+     "end": 152
+    },
+    {
+     "quote": "We also decided to conclude the runoff of our securities portfolio in August rather than in September, as previously planned.",
+     "start": 724,
+     "end": 848
+    },
+    {
+     "quote": "What I said was, it's not—it's not the beginning of a long series of rate cuts. I didn't—I didn't say it's just one or anything like that.",
+     "start": 22892,
+     "end": 23029
+    },
+    {
+     "quote": "We are mindful that inflation's return to 2 percent may be further delayed, and that continued below-target inflation could lead to a worrisome and difficult-to-reverse downward slide in longer-term expectations.",
+     "start": 4215,
+     "end": 4426
+    },
+    {
+     "quote": "It is intended to insure against downside risks from weak global growth and trade policy uncertainty",
+     "start": 259,
+     "end": 359
+    },
+    {
+     "quote": "The position of the economy is as close to our objectives as it's been in a long time, and the outlook is also good.",
+     "start": 6463,
+     "end": 6578
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

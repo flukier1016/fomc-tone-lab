@@ -1,0 +1,121 @@
+{
+ "key": "presser_20130918",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20130918",
+  "doc_type": "presser",
+  "text_sha256": "56baf9d29fa2e71db5dbe1770376b74ead88048395248a3f04adbc3fc4e3acc3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f9a9e39b966183d73cff3213e900c623190640ec941c5944bbc3365362e52e56",
+ "message_id": "msg_011CgFug8nr7mqtQVQxrpnvu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12608,
+  "output_tokens": 556,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"In light of these uncertainties, the Committee decided to await more evidence that the recovery’s progress will be sustained before adjusting the pace of asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Thus, the first increases in short-term rates might not occur until the unemployment rate is considerably below 6½ percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and the labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee recognizes that inflation persistently below its objective could pose risks to economic performance, and we will continue to monitor inflation developments closely.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Notably, at 7.3 percent, the unemployment rate remains well above acceptable levels.\"},{\"dimension\":\"overall\",\"quote\":\"So this was a step—it was a step, a precautionary step if you will.\"}],\"rationale\":\"The Chair explains the surprise decision not to taper. He cites insufficient data confirmation, tighter financial conditions, fiscal risks and below-target inflation, and stresses patient, highly accommodative rate guidance, while still holding open a possible taper later in the year.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "In light of these uncertainties, the Committee decided to await more evidence that the recovery’s progress will be sustained before adjusting the pace of asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Thus, the first increases in short-term rates might not occur until the unemployment rate is considerably below 6½ percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and the labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee recognizes that inflation persistently below its objective could pose risks to economic performance, and we will continue to monitor inflation developments closely."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Notably, at 7.3 percent, the unemployment rate remains well above acceptable levels."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So this was a step—it was a step, a precautionary step if you will."
+   }
+  ],
+  "rationale": "The Chair explains the surprise decision not to taper. He cites insufficient data confirmation, tighter financial conditions, fiscal risks and below-target inflation, and stresses patient, highly accommodative rate guidance, while still holding open a possible taper later in the year."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of these uncertainties, the Committee decided to await more evidence that the recovery’s progress will be sustained before adjusting the pace of asset purchases.",
+     "start": 8602,
+     "end": 8771
+    },
+    {
+     "quote": "Thus, the first increases in short-term rates might not occur until the unemployment rate is considerably below 6½ percent.",
+     "start": 10582,
+     "end": 10704
+    },
+    {
+     "quote": "However, the tightening of financial conditions observed in recent months, if sustained, could slow the pace of improvement in the economy and the labor market.",
+     "start": 1329,
+     "end": 1488
+    },
+    {
+     "quote": "The Committee recognizes that inflation persistently below its objective could pose risks to economic performance, and we will continue to monitor inflation developments closely.",
+     "start": 1760,
+     "end": 1937
+    },
+    {
+     "quote": "Notably, at 7.3 percent, the unemployment rate remains well above acceptable levels.",
+     "start": 675,
+     "end": 758
+    },
+    {
+     "quote": "So this was a step—it was a step, a precautionary step if you will.",
+     "start": 35857,
+     "end": 35923
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

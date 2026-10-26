@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20210224a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210224a",
+  "doc_type": "speech",
+  "text_sha256": "8cf6c14d2bfba72f62ed02cf699df5f3e55c728bb4ef82df5c2b7fb31b7b21f4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9ee6205fc225f332ac7d9db454a52f39d80a255e7286de00e04fee28d6c5ba23",
+ "message_id": "msg_011CgFugAjgDudtvetzLPqyH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7601,
+  "output_tokens": 555,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the unemployment rate is close to 10 percent currently—much higher than the headline unemployment rate of 6.3 percent—and similar to the peak unemployment rate following the financial crisis.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"removing accommodation preemptively as headline unemployment reaches low levels in anticipation of inflationary pressures that may not materialize may result in an unwarranted loss of opportunity for many Americans.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains very low, and although various measures of inflation expectations have picked up recently, they remain within their recent historical ranges.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"It has noted that asset purchases will continue at least at the current pace until substantial further progress has been made toward the maximum-employment and inflation goals.\"},{\"dimension\":\"overall\",\"quote\":\"Today the economy remains far from our goals in terms of both employment and inflation, and it will take some time to achieve substantial further progress.\"}],\"rationale\":\"The speaker stresses deep, broad labor market slack well beyond the headline unemployment rate, characterizes inflation as low with any rise transitory, and argues against preemptive removal of accommodation. This signals continued accommodation and asset purchases for a long time.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the unemployment rate is close to 10 percent currently—much higher than the headline unemployment rate of 6.3 percent—and similar to the peak unemployment rate following the financial crisis."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "removing accommodation preemptively as headline unemployment reaches low levels in anticipation of inflationary pressures that may not materialize may result in an unwarranted loss of opportunity for many Americans."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains very low, and although various measures of inflation expectations have picked up recently, they remain within their recent historical ranges."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "It has noted that asset purchases will continue at least at the current pace until substantial further progress has been made toward the maximum-employment and inflation goals."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today the economy remains far from our goals in terms of both employment and inflation, and it will take some time to achieve substantial further progress."
+   }
+  ],
+  "rationale": "The speaker stresses deep, broad labor market slack well beyond the headline unemployment rate, characterizes inflation as low with any rise transitory, and argues against preemptive removal of accommodation. This signals continued accommodation and asset purchases for a long time."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the unemployment rate is close to 10 percent currently—much higher than the headline unemployment rate of 6.3 percent—and similar to the peak unemployment rate following the financial crisis.",
+     "start": 10164,
+     "end": 10354
+    },
+    {
+     "quote": "removing accommodation preemptively as headline unemployment reaches low levels in anticipation of inflationary pressures that may not materialize may result in an unwarranted loss of opportunity for many Americans.",
+     "start": 22718,
+     "end": 22932
+    },
+    {
+     "quote": "Inflation remains very low, and although various measures of inflation expectations have picked up recently, they remain within their recent historical ranges.",
+     "start": 23483,
+     "end": 23641
+    },
+    {
+     "quote": "It has noted that asset purchases will continue at least at the current pace until substantial further progress has been made toward the maximum-employment and inflation goals.",
+     "start": 21494,
+     "end": 21669
+    },
+    {
+     "quote": "Today the economy remains far from our goals in terms of both employment and inflation, and it will take some time to achieve substantial further progress.",
+     "start": 24209,
+     "end": 24363
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

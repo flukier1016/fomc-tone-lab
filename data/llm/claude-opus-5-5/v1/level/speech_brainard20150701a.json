@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20150701a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20150701a",
+  "doc_type": "speech",
+  "text_sha256": "6546102ca82895fcb7155f317bbf7f54c12b160e66b48a27898d7121779bcb87"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c95f7aa0b2a2525326ea73676626b4c89a492a3efbacc310ea87f21ff403a7c1",
+ "message_id": "msg_011CgFugABgvUuTpH8rnMPrA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3205,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Recent events and commentary raise concerns about a possible deterioration in liquidity at times of market stress, particularly in fixed income markets.\"},{\"dimension\":\"overall\",\"quote\":\"Indeed, there is relatively little evidence of any deterioration in day-to-day liquidity.\"},{\"dimension\":\"overall\",\"quote\":\"we will closely monitor and investigate the extent of changes in the resilience of liquidity in important markets, while deepening our understanding of different contributors and how market participants are adapting.\"}],\"rationale\":\"The speech focuses on market liquidity resilience and financial stability and contains no discussion of rates, inflation, growth, or the policy path. The policy signal is therefore neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Recent events and commentary raise concerns about a possible deterioration in liquidity at times of market stress, particularly in fixed income markets."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Indeed, there is relatively little evidence of any deterioration in day-to-day liquidity."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we will closely monitor and investigate the extent of changes in the resilience of liquidity in important markets, while deepening our understanding of different contributors and how market participants are adapting."
+   }
+  ],
+  "rationale": "The speech focuses on market liquidity resilience and financial stability and contains no discussion of rates, inflation, growth, or the policy path. The policy signal is therefore neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent events and commentary raise concerns about a possible deterioration in liquidity at times of market stress, particularly in fixed income markets.",
+     "start": 246,
+     "end": 397
+    },
+    {
+     "quote": "Indeed, there is relatively little evidence of any deterioration in day-to-day liquidity.",
+     "start": 2589,
+     "end": 2677
+    },
+    {
+     "quote": "we will closely monitor and investigate the extent of changes in the resilience of liquidity in important markets, while deepening our understanding of different contributors and how market participants are adapting.",
+     "start": 10241,
+     "end": 10456
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

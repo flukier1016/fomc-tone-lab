@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200129",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200129",
+  "doc_type": "presser",
+  "text_sha256": "794ff43a37d6f382954de71533680225b5eacf077b515f1fde0279649e36f145"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "39b41e54f5609080d27b7e6bc278973054c0bd9dba96bb89dea21789fa483ddd",
+ "message_id": "msg_011CgFugF19ppg3zKREo8287",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12332,
+  "output_tokens": 568,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, my colleagues and I decided to leave our policy rate unchanged.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"we're not satisfied with inflation running below 2 percent, particularly at a time such as now where we're a long way into an expansion\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market continues to be strong. We see strong job creation. We see low unemployment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Nonetheless, uncertainties about the outlook remain, including those posed by the new coronavirus.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"At that point, as in the pre-crisis period, our balance sheet will be expanding gradually over time, reflecting the trend growth in the demand for currency and other Federal Reserve liabilities.\"}],\"rationale\":\"The Chair holds rates steady with a patient stance but emphasizes dissatisfaction with below-target inflation and changes statement language to signal that, alongside downside risks from the coronavirus and trade. A strong labor market offsets this only partly, so the net signal is a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, my colleagues and I decided to leave our policy rate unchanged."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "we're not satisfied with inflation running below 2 percent, particularly at a time such as now where we're a long way into an expansion"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market continues to be strong. We see strong job creation. We see low unemployment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Nonetheless, uncertainties about the outlook remain, including those posed by the new coronavirus."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "At that point, as in the pre-crisis period, our balance sheet will be expanding gradually over time, reflecting the trend growth in the demand for currency and other Federal Reserve liabilities."
+   }
+  ],
+  "rationale": "The Chair holds rates steady with a patient stance but emphasizes dissatisfaction with below-target inflation and changes statement language to signal that, alongside downside risks from the coronavirus and trade. A strong labor market offsets this only partly, so the net signal is a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, my colleagues and I decided to leave our policy rate unchanged.",
+     "start": 49,
+     "end": 131
+    },
+    {
+     "quote": "As long as incoming information about the economy remains broadly consistent with this outlook, the current stance of monetary policy likely will remain appropriate.",
+     "start": 3301,
+     "end": 3465
+    },
+    {
+     "quote": "we're not satisfied with inflation running below 2 percent, particularly at a time such as now where we're a long way into an expansion",
+     "start": 7049,
+     "end": 7184
+    },
+    {
+     "quote": "The labor market continues to be strong. We see strong job creation. We see low unemployment.",
+     "start": 13065,
+     "end": 13157
+    },
+    {
+     "quote": "Nonetheless, uncertainties about the outlook remain, including those posed by the new coronavirus.",
+     "start": 1117,
+     "end": 1214
+    },
+    {
+     "quote": "At that point, as in the pre-crisis period, our balance sheet will be expanding gradually over time, reflecting the trend growth in the demand for currency and other Federal Reserve liabilities.",
+     "start": 5458,
+     "end": 5651
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

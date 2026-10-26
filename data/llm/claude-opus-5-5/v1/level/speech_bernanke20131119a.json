@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20131119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20131119a",
+  "doc_type": "speech",
+  "text_sha256": "33556f1d2270d7437594cc4a4ef4100f1776b50bdf04d8fab397c3233abd88f8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "322eef12b1aba1d2404d7df890c5e48a1b4797215622aaf2b340d2ff51718f52",
+ "message_id": "msg_011CgFugF77DfwW2rpKyMX5i",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8942,
+  "output_tokens": 587,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the target for the federal funds rate is likely to remain near zero for a considerable time after the asset purchases end, perhaps well after the unemployment threshold is crossed\"},{\"dimension\":\"balance_sheet\",\"quote\":\"If these views are supported by incoming information, the FOMC will likely begin to moderate the pace of purchases.\"},{\"dimension\":\"overall\",\"quote\":\"The FOMC remains committed to maintaining highly accommodative policies for as long as they are needed.\"},{\"dimension\":\"risk_balance\",\"quote\":\"elevated unemployment, below-target inflation, lingering economic fragility, and the harmful effects of long-term unemployment on our society and economic potential also pose significant costs and risks\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We have seen meaningful improvement in the labor market since the latest asset purchase program was announced in September 2012.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"However, we are still far from where we would like to be, and, consequently, it may be some time before monetary policy returns to more normal settings.\"}],\"rationale\":\"Bernanke stresses an extended near-zero rate commitment, possibly well past the unemployment threshold, and pushes back on markets pulling forward hikes, with concern about below-target inflation and economic fragility. The signal of eventually tapering purchases partly offsets this, leaving a moderately dovish net stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the target for the federal funds rate is likely to remain near zero for a considerable time after the asset purchases end, perhaps well after the unemployment threshold is crossed"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "If these views are supported by incoming information, the FOMC will likely begin to moderate the pace of purchases."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The FOMC remains committed to maintaining highly accommodative policies for as long as they are needed."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "elevated unemployment, below-target inflation, lingering economic fragility, and the harmful effects of long-term unemployment on our society and economic potential also pose significant costs and risks"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We have seen meaningful improvement in the labor market since the latest asset purchase program was announced in September 2012."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, we are still far from where we would like to be, and, consequently, it may be some time before monetary policy returns to more normal settings."
+   }
+  ],
+  "rationale": "Bernanke stresses an extended near-zero rate commitment, possibly well past the unemployment threshold, and pushes back on markets pulling forward hikes, with concern about below-target inflation and economic fragility. The signal of eventually tapering purchases partly offsets this, leaving a moderately dovish net stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the target for the federal funds rate is likely to remain near zero for a considerable time after the asset purchases end, perhaps well after the unemployment threshold is crossed",
+     "start": 29133,
+     "end": 29312
+    },
+    {
+     "quote": "If these views are supported by incoming information, the FOMC will likely begin to moderate the pace of purchases.",
+     "start": 28374,
+     "end": 28488
+    },
+    {
+     "quote": "The FOMC remains committed to maintaining highly accommodative policies for as long as they are needed.",
+     "start": 30237,
+     "end": 30339
+    },
+    {
+     "quote": "elevated unemployment, below-target inflation, lingering economic fragility, and the harmful effects of long-term unemployment on our society and economic potential also pose significant costs and risks",
+     "start": 19523,
+     "end": 19725
+    },
+    {
+     "quote": "We have seen meaningful improvement in the labor market since the latest asset purchase program was announced in September 2012.",
+     "start": 27499,
+     "end": 27626
+    },
+    {
+     "quote": "However, we are still far from where we would like to be, and, consequently, it may be some time before monetary policy returns to more normal settings.",
+     "start": 29859,
+     "end": 30010
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

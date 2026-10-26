@@ -1,0 +1,94 @@
+{
+ "key": "speech_kohn20091023a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20091023a",
+  "doc_type": "speech",
+  "text_sha256": "208fc3a5cede86217010ebe41c23a86b04b63781899f2b879357a980e79bf004"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fdc9f8da82d73faba35a90ecf12fcd0398f5cbac547ae2061fa369beadf06e23",
+ "message_id": "msg_011CgFugAfxW2yxwJDa2btuF",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3739,
+  "output_tokens": 324,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am pleased to participate in the conference discussion of the international dimensions of the recent financial crisis.\"},{\"dimension\":\"overall\",\"quote\":\"Now that the crisis seems to be abating, we can better identify the causes of the crisis and work on finding the best solutions.\"},{\"dimension\":\"overall\",\"quote\":\"we must collaborate internationally if we are to build a more resilient financial system for the future.\"}],\"rationale\":\"The speech covers international regulatory and supervisory coordination after the financial crisis and takes no view on the path of monetary policy, inflation, or the balance sheet. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am pleased to participate in the conference discussion of the international dimensions of the recent financial crisis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Now that the crisis seems to be abating, we can better identify the causes of the crisis and work on finding the best solutions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we must collaborate internationally if we are to build a more resilient financial system for the future."
+   }
+  ],
+  "rationale": "The speech covers international regulatory and supervisory coordination after the financial crisis and takes no view on the path of monetary policy, inflation, or the balance sheet. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am pleased to participate in the conference discussion of the international dimensions of the recent financial crisis.",
+     "start": 0,
+     "end": 119
+    },
+    {
+     "quote": "Now that the crisis seems to be abating, we can better identify the causes of the crisis and work on finding the best solutions.",
+     "start": 7749,
+     "end": 7876
+    },
+    {
+     "quote": "we must collaborate internationally if we are to build a more resilient financial system for the future.",
+     "start": 12954,
+     "end": 13057
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

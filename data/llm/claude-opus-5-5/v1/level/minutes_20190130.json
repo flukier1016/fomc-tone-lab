@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20190130",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20190130",
+  "doc_type": "minutes",
+  "text_sha256": "f073d571cdd4c8c9e90cc745f8317ed67d2808107f8f306d5e64125f95810220"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "34cbfd6964ae011fb064752187c5474df9804614c8936a7893876a9197d1013f",
+ "message_id": "msg_011CgFugBjTNkTTSy6TzuBzD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 17362,
+  "output_tokens": 581,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Almost all participants thought that it would be desirable to announce before too long a plan to stop reducing the Federal Reserve's asset holdings later this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Several participants judged that risks that could lead to higher-than-expected inflation had diminished relative to downside risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants commented that upward pressures on inflation appeared to be more muted than they appeared to be last year despite strengthening labor market conditions and rising input costs for some industries.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market had continued to strengthen and that economic activity had been rising at a solid rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"several of these participants argued that rate increases might prove necessary only if inflation outcomes were higher than in their baseline outlook.\"}],\"rationale\":\"The minutes describe dropping guidance for further gradual increases in favor of patience, increased downside risks and muted inflation, and plans to end balance sheet runoff later this year. Solid activity and a minority still favoring hikes keep the stance moderately rather than strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Almost all participants thought that it would be desirable to announce before too long a plan to stop reducing the Federal Reserve's asset holdings later this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Several participants judged that risks that could lead to higher-than-expected inflation had diminished relative to downside risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants commented that upward pressures on inflation appeared to be more muted than they appeared to be last year despite strengthening labor market conditions and rising input costs for some industries."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market had continued to strengthen and that economic activity had been rising at a solid rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "several of these participants argued that rate increases might prove necessary only if inflation outcomes were higher than in their baseline outlook."
+   }
+  ],
+  "rationale": "The minutes describe dropping guidance for further gradual increases in favor of patience, increased downside risks and muted inflation, and plans to end balance sheet runoff later this year. Solid activity and a minority still favoring hikes keep the stance moderately rather than strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes.",
+     "start": 55130,
+     "end": 55292
+    },
+    {
+     "quote": "Almost all participants thought that it would be desirable to announce before too long a plan to stop reducing the Federal Reserve's asset holdings later this year.",
+     "start": 12374,
+     "end": 12537
+    },
+    {
+     "quote": "Several participants judged that risks that could lead to higher-than-expected inflation had diminished relative to downside risks.",
+     "start": 43064,
+     "end": 43194
+    },
+    {
+     "quote": "many participants commented that upward pressures on inflation appeared to be more muted than they appeared to be last year despite strengthening labor market conditions and rising input costs for some industries.",
+     "start": 40332,
+     "end": 40544
+    },
+    {
+     "quote": "the labor market had continued to strengthen and that economic activity had been rising at a solid rate.",
+     "start": 36346,
+     "end": 36449
+    },
+    {
+     "quote": "several of these participants argued that rate increases might prove necessary only if inflation outcomes were higher than in their baseline outlook.",
+     "start": 49425,
+     "end": 49573
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

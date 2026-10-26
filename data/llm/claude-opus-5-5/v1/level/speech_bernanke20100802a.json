@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20100802a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100802a",
+  "doc_type": "speech",
+  "text_sha256": "4aa7cd44b3c989767209df2def208c4d11a967146bc34b8201f37a0f7ea21d79"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8380b48546e31ab81c35df1d34661272a51611a7d246d5a4f8a3487e2c22abb",
+ "message_id": "msg_011CgFugAhC7uUEBkophzVsj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5705,
+  "output_tokens": 532,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has been low, with consumer prices rising at an average annual rate of about 1 percent in the first half of this year, and we anticipate it will remain subdued over the next couple of years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"an improvement but still a pace insufficient to reduce the unemployment rate materially.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Financial conditions--though much improved since the depth of the financial crisis--have become somewhat less supportive of economic growth in recent months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But we have a considerable way to go to achieve a full recovery in our economy, and many Americans are still grappling with unemployment, foreclosure, and lost savings.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Slack in labor and product markets has damped wage and price pressures, and rapid productivity increases have helped firms control their production costs.\"}],\"rationale\":\"The speech, mostly about state fiscal challenges, describes a sluggish recovery, a weak labor market with high long-term unemployment, and low, subdued inflation with slack. These conditions imply continued accommodation, though the speech gives no explicit policy guidance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has been low, with consumer prices rising at an average annual rate of about 1 percent in the first half of this year, and we anticipate it will remain subdued over the next couple of years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "an improvement but still a pace insufficient to reduce the unemployment rate materially."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Financial conditions--though much improved since the depth of the financial crisis--have become somewhat less supportive of economic growth in recent months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But we have a considerable way to go to achieve a full recovery in our economy, and many Americans are still grappling with unemployment, foreclosure, and lost savings."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Slack in labor and product markets has damped wage and price pressures, and rapid productivity increases have helped firms control their production costs."
+   }
+  ],
+  "rationale": "The speech, mostly about state fiscal challenges, describes a sluggish recovery, a weak labor market with high long-term unemployment, and low, subdued inflation with slack. These conditions imply continued accommodation, though the speech gives no explicit policy guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation has been low, with consumer prices rising at an average annual rate of about 1 percent in the first half of this year, and we anticipate it will remain subdued over the next couple of years.",
+     "start": 5474,
+     "end": 5673
+    },
+    {
+     "quote": "an improvement but still a pace insufficient to reduce the unemployment rate materially.",
+     "start": 2952,
+     "end": 3039
+    },
+    {
+     "quote": "Financial conditions--though much improved since the depth of the financial crisis--have become somewhat less supportive of economic growth in recent months.",
+     "start": 3467,
+     "end": 3623
+    },
+    {
+     "quote": "But we have a considerable way to go to achieve a full recovery in our economy, and many Americans are still grappling with unemployment, foreclosure, and lost savings.",
+     "start": 500,
+     "end": 667
+    },
+    {
+     "quote": "Slack in labor and product markets has damped wage and price pressures, and rapid productivity increases have helped firms control their production costs.",
+     "start": 5677,
+     "end": 5830
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

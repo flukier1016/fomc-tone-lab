@@ -1,0 +1,68 @@
+# Single source of settings. Change a value here, not in code.
+
+project:
+  course: "IEOR 4723, AI-Augmented Investment Management, Fall 2026"
+  group: "Final Project Group 2"
+  team: ["Genie Zhang", "Hong-syuan Lin", "Myron Pang", "Weijun Situ"]   # alphabetical by first name
+
+sample:
+  fomc_start_year: 2009        # statements and minutes
+  presser_start_year: 2011     # the first FOMC press conference was 27 April 2011
+  speech_start_year: 2009      # speech entries carry a release time from 2009
+  speakers: ["Chair", "Vice Chair", "Vice Chair for Supervision", "Governor"]
+  min_speech_words: 300
+
+markets:
+  # Treasury par yields are based on quotes near 3:30 p.m. ET; ETFs close at 4:00 p.m. ET.
+  ust_close_et: "15:30"
+  etf_close_et: "16:00"
+  ust_tenors: ["3 Mo", "2 Yr", "5 Yr", "10 Yr", "30 Yr"]
+  # FRED constant-maturity series for the same tenors (H.15, built from the Treasury's par curve)
+  fred_series: {"3 Mo": DGS3MO, "2 Yr": DGS2, "5 Yr": DGS5, "10 Yr": DGS10, "30 Yr": DGS30}
+  etfs: ["SHY", "IEI", "IEF", "TLT", "AGG"]
+  ambiguous_minutes: 60        # a speech (feed timestamp) this close to a market close counts as after it
+
+release_time_defaults_et:
+  statement_pre2013: "14:15"   # used only when the statement text gives no time
+  statement: "14:00"
+  minutes: "14:00"
+  presser_start: "14:30"
+  presser_end: "15:30"
+  speech_no_time: "23:59"      # 2006-2008 entries have a date only: treat as after the close
+
+llm:
+  model: claude-opus-5-5
+  effort: medium
+  max_tokens: 16000
+  rubric_version: v1
+  assumed_output_tokens: 2000  # per document, thinking included; used only for cost estimates
+  prices_per_mtok:             # USD, first-party API list prices (Oct 2026)
+    claude-opus-5-5:   {input: 4.00, output: 20.00}
+    claude-sonnet-5-5: {input: 2.00, output: 10.00}
+    claude-haiku-5-5:  {input: 0.10, output: 0.50}   # prompts up to 100K tokens
+  batch_discount: 0.5
+  monthly_cap_usd: 5.0         # the scheduled scoring (fomc llm-update) stops once a month's direct calls cost this
+  knowledge_cutoff:
+    claude-opus-5-5: "2026-06-30"
+
+backtest:
+  long_etf: IEF                # 7-10 year Treasuries
+  short_etf: SHY               # 1-3 year Treasuries
+  # The overlay applied to a portfolio: AGG (aggregate-bond index) or IEI (a Treasury portfolio) as the
+  # benchmark, the tilt capped at +/- duration_budget_years. Durations are approximate, held constant.
+  portfolio_benchmarks: [AGG, IEI]
+  duration_budget_years: 1.0
+  durations: {SHY: 1.9, IEF: 7.1}
+  holding_days: [5, 20]
+  cost_bp_per_side: 1.0
+  zscore_min_events: 12        # events of the same type needed before a signal is traded
+  placebo_draws: 500
+  seed: 4723
+
+forward:
+  freeze: "2026-10-21"         # the research results as reported; from the next close on, the frozen rules run on new data only
+
+splits:
+  development: ["2009-01-01", "2019-12-31"]
+  holdout: ["2020-01-01", "2026-06-30"]
+  post_cutoff: ["2026-07-01", "2026-12-31"]   # after the scoring model's knowledge cutoff

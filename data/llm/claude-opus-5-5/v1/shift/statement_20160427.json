@@ -1,0 +1,134 @@
+{
+ "key": "statement_20160427",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20160427",
+  "previous_doc_id": "statement_20160316",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "513e6ab4c04b5d0a72ac047a21ab5f91fbd9a5202a7e058861b7e4d0edd994a0",
+ "message_id": "msg_011CgFue5QPq9ThyF6P3MPMF",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2311,
+  "output_tokens": 595,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"However, global economic and financial developments continue to pose risks.\",\"after\":\"\",\"direction\":\"hawkish\"},{\"before\":\"The Committee continues to monitor inflation developments closely.\",\"after\":\"The Committee continues to closely monitor inflation indicators and global economic and financial developments.\",\"direction\":\"neutral\"},{\"before\":\"Information received since the Federal Open Market Committee met in January suggests that economic activity has been expanding at a moderate pace despite the global economic and financial developments of recent months.\",\"after\":\"Information received since the Federal Open Market Committee met in March indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.\",\"direction\":\"dovish\"},{\"before\":\"Household spending has been increasing at a moderate rate, and the housing sector has improved further; however, business fixed investment and net exports have been soft.\",\"after\":\"Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.\",\"direction\":\"dovish\"},{\"before\":\"Inflation picked up in recent months; however, it continued to run below the Committee's 2 percent longer-run objective, partly reflecting declines in energy prices and in prices of non-energy imports.\",\"after\":\"Inflation has continued to run below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and falling prices of non-energy imports.\",\"direction\":\"dovish\"}],\"rationale\":\"Dropping the explicit statement that global developments 'continue to pose risks' removes a key dovish hedge and keeps a near-term hike in play, a modestly hawkish signal. This is only partly offset by a softer read on growth and spending and the removal of 'inflation picked up', while the policy guidance is otherwise unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "However, global economic and financial developments continue to pose risks.",
+    "after": "",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee continues to monitor inflation developments closely.",
+    "after": "The Committee continues to closely monitor inflation indicators and global economic and financial developments.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in January suggests that economic activity has been expanding at a moderate pace despite the global economic and financial developments of recent months.",
+    "after": "Information received since the Federal Open Market Committee met in March indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Household spending has been increasing at a moderate rate, and the housing sector has improved further; however, business fixed investment and net exports have been soft.",
+    "after": "Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation picked up in recent months; however, it continued to run below the Committee's 2 percent longer-run objective, partly reflecting declines in energy prices and in prices of non-energy imports.",
+    "after": "Inflation has continued to run below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and falling prices of non-energy imports.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "Dropping the explicit statement that global developments 'continue to pose risks' removes a key dovish hedge and keeps a near-term hike in play, a modestly hawkish signal. This is only partly offset by a softer read on growth and spending and the removal of 'inflation picked up', while the policy guidance is otherwise unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, global economic and financial developments continue to pose risks.",
+     "start": 1189,
+     "end": 1263
+    },
+    {
+     "quote": "The Committee continues to monitor inflation developments closely.",
+     "start": 1537,
+     "end": 1602
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January suggests that economic activity has been expanding at a moderate pace despite the global economic and financial developments of recent months.",
+     "start": 0,
+     "end": 217
+    },
+    {
+     "quote": "Household spending has been increasing at a moderate rate, and the housing sector has improved further; however, business fixed investment and net exports have been soft.",
+     "start": 219,
+     "end": 388
+    },
+    {
+     "quote": "Inflation picked up in recent months; however, it continued to run below the Committee's 2 percent longer-run objective, partly reflecting declines in energy prices and in prices of non-energy imports.",
+     "start": 504,
+     "end": 704
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continues to closely monitor inflation indicators and global economic and financial developments.",
+     "start": 1518,
+     "end": 1628
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in March indicates that labor market conditions have improved further even as growth in economic activity appears to have slowed.",
+     "start": 0,
+     "end": 193
+    },
+    {
+     "quote": "Growth in household spending has moderated, although households' real income has risen at a solid rate and consumer sentiment remains high.",
+     "start": 195,
+     "end": 333
+    },
+    {
+     "quote": "Inflation has continued to run below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and falling prices of non-energy imports.",
+     "start": 584,
+     "end": 761
+    }
+   ]
+  }
+ }
+}

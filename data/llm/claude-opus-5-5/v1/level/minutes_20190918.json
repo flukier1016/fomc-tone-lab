@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20190918",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20190918",
+  "doc_type": "minutes",
+  "text_sha256": "542d190278dd81013396e4d4f99f9ce5f02f0bbfa766752038b11018b306ced0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7565af74b8a102403a63cc3b3c37bb39b497e349260f28b826b4decd2b0ccb15",
+ "message_id": "msg_011CgFug9biDXAitkAti7b2q",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15903,
+  "output_tokens": 604,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally judged that downside risks to the outlook for economic activity had increased somewhat since their July meeting, particularly those stemming from trade policy uncertainty and conditions abroad.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"some participants continued to view the risks to the outlook for inflation as weighted to the downside.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants suggested that the Committee's postmeeting statement should provide more clarity about when the recalibration of the level of the policy rate in response to trade uncertainty would likely come to an end.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A few participants noted the possibility of resuming trend growth of the balance sheet to help stabilize the level of reserves in the banking system.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants judged that conditions in the labor market remained strong, with the unemployment rate near historical lows and continued solid job gains, on average, in recent months.\"}],\"rationale\":\"The minutes describe a risk-management cut driven by more pronounced downside risks and muted inflation, with an easing bias retained. That bias is tempered by participants wanting to signal an end to the recalibration and by three dissents, two of which favored holding rates.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally judged that downside risks to the outlook for economic activity had increased somewhat since their July meeting, particularly those stemming from trade policy uncertainty and conditions abroad."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "some participants continued to view the risks to the outlook for inflation as weighted to the downside."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants suggested that the Committee's postmeeting statement should provide more clarity about when the recalibration of the level of the policy rate in response to trade uncertainty would likely come to an end."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A few participants noted the possibility of resuming trend growth of the balance sheet to help stabilize the level of reserves in the banking system."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants judged that conditions in the labor market remained strong, with the unemployment rate near historical lows and continued solid job gains, on average, in recent months."
+   }
+  ],
+  "rationale": "The minutes describe a risk-management cut driven by more pronounced downside risks and muted inflation, with an easing bias retained. That bias is tempered by participants wanting to signal an end to the recalibration and by three dissents, two of which favored holding rates."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants generally judged that downside risks to the outlook for economic activity had increased somewhat since their July meeting, particularly those stemming from trade policy uncertainty and conditions abroad.",
+     "start": 32649,
+     "end": 32864
+    },
+    {
+     "quote": "some participants continued to view the risks to the outlook for inflation as weighted to the downside.",
+     "start": 31346,
+     "end": 31448
+    },
+    {
+     "quote": "Several participants suggested that the Committee's postmeeting statement should provide more clarity about when the recalibration of the level of the policy rate in response to trade uncertainty would likely come to an end.",
+     "start": 42621,
+     "end": 42844
+    },
+    {
+     "quote": "will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+     "start": 51915,
+     "end": 52044
+    },
+    {
+     "quote": "A few participants noted the possibility of resuming trend growth of the balance sheet to help stabilize the level of reserves in the banking system.",
+     "start": 44032,
+     "end": 44180
+    },
+    {
+     "quote": "Participants judged that conditions in the labor market remained strong, with the unemployment rate near historical lows and continued solid job gains, on average, in recent months.",
+     "start": 28901,
+     "end": 29081
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20100413a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100413a",
+  "doc_type": "speech",
+  "text_sha256": "0b7c78b906ada2cb60334ae7d36b8f8893b47e3ed9878b4f7d58da6532c25045"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8e94ba08742ea717e8f96c58e5c0201f87cb749e0a288ea103af4413ca67cf97",
+ "message_id": "msg_011CgFugHVyPviZjZXDjtgi6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1067,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"April is Financial Literacy Month, and so it is fitting that you are hosting this event.\"},{\"dimension\":\"overall\",\"quote\":\"We have recently issued rules pertaining to mortgages, credit cards, student loans, and overdraft protection programs, among others.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many American families are struggling in the aftermath of the financial crisis, which reinforces the need for reliable and useful information to facilitate good financial choices.\"}],\"rationale\":\"The speech is about financial literacy and consumer protection and offers no view on monetary policy. The brief mention of families struggling after the crisis serves as context for financial education, not as an economic assessment, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "April is Financial Literacy Month, and so it is fitting that you are hosting this event."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have recently issued rules pertaining to mortgages, credit cards, student loans, and overdraft protection programs, among others."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many American families are struggling in the aftermath of the financial crisis, which reinforces the need for reliable and useful information to facilitate good financial choices."
+   }
+  ],
+  "rationale": "The speech is about financial literacy and consumer protection and offers no view on monetary policy. The brief mention of families struggling after the crisis serves as context for financial education, not as an economic assessment, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "April is Financial Literacy Month, and so it is fitting that you are hosting this event.",
+     "start": 388,
+     "end": 475
+    },
+    {
+     "quote": "We have recently issued rules pertaining to mortgages, credit cards, student loans, and overdraft protection programs, among others.",
+     "start": 2412,
+     "end": 2543
+    },
+    {
+     "quote": "Many American families are struggling in the aftermath of the financial crisis, which reinforces the need for reliable and useful information to facilitate good financial choices.",
+     "start": 743,
+     "end": 921
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

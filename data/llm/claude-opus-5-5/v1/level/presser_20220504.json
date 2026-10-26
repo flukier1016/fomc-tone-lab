@@ -1,0 +1,121 @@
+{
+ "key": "presser_20220504",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20220504",
+  "doc_type": "presser",
+  "text_sha256": "70ff0537388aeca58ebb01cd1263bac4dec2b22826743235e2d00d67189c9310"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7491b0fedc6c27e1641126633860bec91280f2bd455cc6aebc55f2c7d34812c0",
+ "message_id": "msg_011CgFugBXJR9cUCL6Xs97BA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11091,
+  "output_tokens": 560,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":2,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"today the FOMC raised its policy interest rate by ½ percentage point and anticipates that ongoing increases in the target rate for the federal funds rate will be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"there is a broad sense on the Committee that additional 50-basis-point increases should be on the table at the next couple of meetings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So a 75-basis-point increase is not something the Committee is actively considering.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is much too high, and we understand the hardship it is causing, and we’re moving expeditiously to bring it back down.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we intend to significantly reduce the size of our balance sheet over time in a predictable manner\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So it’s a strong economy, and nothing about it suggests that it’s close to, or vulnerable to, a recession.\"}],\"rationale\":\"The Chair announces a 50 bp hike and balance-sheet runoff, signals further 50 bp increases and a willingness to go above neutral, and emphasizes very high inflation and a tight labor market. Ruling out 75 bp tempers the forward guidance slightly, but the net signal is clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 2,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "today the FOMC raised its policy interest rate by ½ percentage point and anticipates that ongoing increases in the target rate for the federal funds rate will be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "there is a broad sense on the Committee that additional 50-basis-point increases should be on the table at the next couple of meetings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So a 75-basis-point increase is not something the Committee is actively considering."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is much too high, and we understand the hardship it is causing, and we’re moving expeditiously to bring it back down."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we intend to significantly reduce the size of our balance sheet over time in a predictable manner"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So it’s a strong economy, and nothing about it suggests that it’s close to, or vulnerable to, a recession."
+   }
+  ],
+  "rationale": "The Chair announces a 50 bp hike and balance-sheet runoff, signals further 50 bp increases and a willingness to go above neutral, and emphasizes very high inflation and a tight labor market. Ruling out 75 bp tempers the forward guidance slightly, but the net signal is clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "today the FOMC raised its policy interest rate by ½ percentage point and anticipates that ongoing increases in the target rate for the federal funds rate will be appropriate.",
+     "start": 948,
+     "end": 1121
+    },
+    {
+     "quote": "there is a broad sense on the Committee that additional 50-basis-point increases should be on the table at the next couple of meetings.",
+     "start": 4735,
+     "end": 4869
+    },
+    {
+     "quote": "So a 75-basis-point increase is not something the Committee is actively considering.",
+     "start": 11072,
+     "end": 11155
+    },
+    {
+     "quote": "Inflation is much too high, and we understand the hardship it is causing, and we’re moving expeditiously to bring it back down.",
+     "start": 215,
+     "end": 341
+    },
+    {
+     "quote": "we intend to significantly reduce the size of our balance sheet over time in a predictable manner",
+     "start": 5315,
+     "end": 5412
+    },
+    {
+     "quote": "So it’s a strong economy, and nothing about it suggests that it’s close to, or vulnerable to, a recession.",
+     "start": 22810,
+     "end": 22915
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

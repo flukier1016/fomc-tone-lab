@@ -1,0 +1,51 @@
+{
+ "key": "statement_20250319",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20250319",
+  "release_date": "2025-03-19"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "60021e8723b787644baa2d80ba2b4cc176db8002a39bfe2435dd3094b212e4bd",
+ "message_id": "msg_011CgFudVdPwKXd67ctxCV7Y",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1167,
+  "output_tokens": 244,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2025,\"month\":3,\"confidence\":0.95,\"cues\":[\"Statement announces slowing the balance sheet runoff, cutting the monthly Treasury redemption cap from $25 billion to $5 billion starting the following month (April 2025), which matches the March 2025 FOMC decision.\",\"'Uncertainty around the economic outlook has increased' fits the tariff-related uncertainty of early 2025.\",\"The dissent by a member who supported holding the rate but preferred to keep the current runoff pace matches Governor Waller's dissent in March 2025.\",\"The rate target range was held steady after the late-2024 cuts.\",\"'Unemployment rate has stabilized at a low level' wording matches the January and March 2025 statements.\"]}",
+ "parsed": {
+  "year": 2025,
+  "month": 3,
+  "confidence": 0.95,
+  "cues": [
+   "Statement announces slowing the balance sheet runoff, cutting the monthly Treasury redemption cap from $25 billion to $5 billion starting the following month (April 2025), which matches the March 2025 FOMC decision.",
+   "'Uncertainty around the economic outlook has increased' fits the tariff-related uncertainty of early 2025.",
+   "The dissent by a member who supported holding the rate but preferred to keep the current runoff pace matches Governor Waller's dissent in March 2025.",
+   "The rate target range was held steady after the late-2024 cuts.",
+   "'Unemployment rate has stabilized at a low level' wording matches the January and March 2025 statements."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

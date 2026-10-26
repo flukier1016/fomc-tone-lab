@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20210428",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20210428",
+  "doc_type": "minutes",
+  "text_sha256": "e12fe31e4924e1e9b28b84cbf6f6f0d65c7bf0bed3996e84bda3f566fb33df61"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "23fe9183e8f355d5bcc9cdb15065063d8c35714fc1cb14a3c80fdb54b045930f",
+ "message_id": "msg_011CgFugA8TrdjATU44rDu9x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15745,
+  "output_tokens": 609,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Members expected to maintain an accommodative stance of monetary policy until those outcomes were achieved.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A number of participants suggested that if the economy continued to make rapid progress toward the Committee's goals, it might be appropriate at some point in upcoming meetings to begin discussing a plan for adjusting the pace of asset purchases.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, members also viewed these increases in prices as likely to have only transitory effects on inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants observed that economic activity had picked up sharply this year, with robust gains in consumer spending, housing-sector activity, business equipment investment, and manufacturing production.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Some participants mentioned upside risks around the inflation outlook that could arise if temporary factors influencing inflation turned out to be more persistent than expected.\"},{\"dimension\":\"overall\",\"quote\":\"Participants agreed that the economy was still far from the Committee's longer-run goals.\"}],\"rationale\":\"The minutes reaffirm near-zero rates and continued $120 billion monthly purchases until substantial further progress is made, and they frame the rise in inflation as transitory, so the stance remains accommodative. Strong activity, a removed 'considerable' risk characterization, and some participants raising possible discussion of tapering soften the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members expected to maintain an accommodative stance of monetary policy until those outcomes were achieved."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A number of participants suggested that if the economy continued to make rapid progress toward the Committee's goals, it might be appropriate at some point in upcoming meetings to begin discussing a plan for adjusting the pace of asset purchases."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, members also viewed these increases in prices as likely to have only transitory effects on inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants observed that economic activity had picked up sharply this year, with robust gains in consumer spending, housing-sector activity, business equipment investment, and manufacturing production."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Some participants mentioned upside risks around the inflation outlook that could arise if temporary factors influencing inflation turned out to be more persistent than expected."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Participants agreed that the economy was still far from the Committee's longer-run goals."
+   }
+  ],
+  "rationale": "The minutes reaffirm near-zero rates and continued $120 billion monthly purchases until substantial further progress is made, and they frame the rise in inflation as transitory, so the stance remains accommodative. Strong activity, a removed 'considerable' risk characterization, and some participants raising possible discussion of tapering soften the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members expected to maintain an accommodative stance of monetary policy until those outcomes were achieved.",
+     "start": 44526,
+     "end": 44632
+    },
+    {
+     "quote": "A number of participants suggested that if the economy continued to make rapid progress toward the Committee's goals, it might be appropriate at some point in upcoming meetings to begin discussing a plan for adjusting the pace of asset purchases.",
+     "start": 42664,
+     "end": 42909
+    },
+    {
+     "quote": "However, members also viewed these increases in prices as likely to have only transitory effects on inflation.",
+     "start": 47523,
+     "end": 47632
+    },
+    {
+     "quote": "Participants observed that economic activity had picked up sharply this year, with robust gains in consumer spending, housing-sector activity, business equipment investment, and manufacturing production.",
+     "start": 31867,
+     "end": 32069
+    },
+    {
+     "quote": "Some participants mentioned upside risks around the inflation outlook that could arise if temporary factors influencing inflation turned out to be more persistent than expected.",
+     "start": 38104,
+     "end": 38280
+    },
+    {
+     "quote": "Participants agreed that the economy was still far from the Committee's longer-run goals.",
+     "start": 40486,
+     "end": 40574
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

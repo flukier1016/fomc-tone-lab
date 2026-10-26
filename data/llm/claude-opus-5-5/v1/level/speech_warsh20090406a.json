@@ -1,0 +1,112 @@
+{
+ "key": "speech_warsh20090406a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20090406a",
+  "doc_type": "speech",
+  "text_sha256": "f314fcb1cdd8e25cc8d5998465dd6557ee7200aa88d34b0ab33bd59aadf8f171"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "689601d4616cfbf257359f8ae70f4052f7c1b64f14752fb7781434ff8b52b3c5",
+ "message_id": "msg_011CgFug9RJMdYJTHSdoQPAK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5931,
+  "output_tokens": 507,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is 8.5 percent and likely, in my view, to increase steadily through the balance of the year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Though the pace of decline is likely to abate, I am decidedly uncomfortable forecasting a sharp and determined resumption of growth in the coming quarters.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The recent data are consistent with the view that this recession will endure longer and be deeper and broader than most.\"},{\"dimension\":\"overall\",\"quote\":\"The encouraging news, I should note, is that panics end. And this panic is showing meaningful signs of abating.\"},{\"dimension\":\"overall\",\"quote\":\"Policymakers should be wary of policies that make the economy still less capable of the growth, productivity, and employment trends that have marked the postwar period.\"}],\"rationale\":\"The speech describes a severe, deep recession and panic with rising unemployment and weak growth prospects, implying dovish conditions, though it focuses on financial architecture rather than monetary policy and offers no rate guidance. Notes of panic abating and long-run policy caution temper the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is 8.5 percent and likely, in my view, to increase steadily through the balance of the year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Though the pace of decline is likely to abate, I am decidedly uncomfortable forecasting a sharp and determined resumption of growth in the coming quarters."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The recent data are consistent with the view that this recession will endure longer and be deeper and broader than most."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The encouraging news, I should note, is that panics end. And this panic is showing meaningful signs of abating."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Policymakers should be wary of policies that make the economy still less capable of the growth, productivity, and employment trends that have marked the postwar period."
+   }
+  ],
+  "rationale": "The speech describes a severe, deep recession and panic with rising unemployment and weak growth prospects, implying dovish conditions, though it focuses on financial architecture rather than monetary policy and offers no rate guidance. Notes of panic abating and long-run policy caution temper the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The unemployment rate is 8.5 percent and likely, in my view, to increase steadily through the balance of the year.",
+     "start": 5272,
+     "end": 5385
+    },
+    {
+     "quote": "Though the pace of decline is likely to abate, I am decidedly uncomfortable forecasting a sharp and determined resumption of growth in the coming quarters.",
+     "start": 5674,
+     "end": 5828
+    },
+    {
+     "quote": "The recent data are consistent with the view that this recession will endure longer and be deeper and broader than most.",
+     "start": 1619,
+     "end": 1738
+    },
+    {
+     "quote": "The encouraging news, I should note, is that panics end. And this panic is showing meaningful signs of abating.",
+     "start": 2243,
+     "end": 2353
+    },
+    {
+     "quote": "Policymakers should be wary of policies that make the economy still less capable of the growth, productivity, and employment trends that have marked the postwar period.",
+     "start": 6065,
+     "end": 6232
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20190228a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190228a",
+  "doc_type": "speech",
+  "text_sha256": "2b9c178f3c7cafed526a8ddc470d232873e024f0b73297e65668ca089ae08608"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "920c1498d8202e012ae18237f6ee31a5cc0f8816f432b01740bd616cd568d60b",
+ "message_id": "msg_011CgFug94xp6us39vtFL4u9",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1714,
+  "output_tokens": 579,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Given muted inflation and stable inflation expectations, I believe we can be patient and allow the data to flow in as we determine what future adjustments to the target range for the federal funds rate may be appropriate to strike this balance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the evidence suggests that measures of expected inflation are at the lower end of a range that I consider to be consistent with our price-stability goal of 2 percent PCE inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is near the lowest level recorded in 50 years\"},{\"dimension\":\"risk_balance\",\"quote\":\"Global growth is slowing, particularly in China and Europe. Global policy uncertainty remains elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee can now decide on the appropriate timing and pace for concluding our balance sheet drawdown.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a decision for preemptive hikes before the surge is evident in actual data would need to be balanced against the considerable cost of the model being wrong.\"}],\"rationale\":\"The speaker endorses patience, cautions against preemptive hikes, notes inflation expectations at the low end, and signals ending balance sheet runoff, despite a strong labor market. Net signal is a moderate dovish lean toward pausing tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given muted inflation and stable inflation expectations, I believe we can be patient and allow the data to flow in as we determine what future adjustments to the target range for the federal funds rate may be appropriate to strike this balance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the evidence suggests that measures of expected inflation are at the lower end of a range that I consider to be consistent with our price-stability goal of 2 percent PCE inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is near the lowest level recorded in 50 years"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Global growth is slowing, particularly in China and Europe. Global policy uncertainty remains elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee can now decide on the appropriate timing and pace for concluding our balance sheet drawdown."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a decision for preemptive hikes before the surge is evident in actual data would need to be balanced against the considerable cost of the model being wrong."
+   }
+  ],
+  "rationale": "The speaker endorses patience, cautions against preemptive hikes, notes inflation expectations at the low end, and signals ending balance sheet runoff, despite a strong labor market. Net signal is a moderate dovish lean toward pausing tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given muted inflation and stable inflation expectations, I believe we can be patient and allow the data to flow in as we determine what future adjustments to the target range for the federal funds rate may be appropriate to strike this balance.",
+     "start": 3764,
+     "end": 4007
+    },
+    {
+     "quote": "the evidence suggests that measures of expected inflation are at the lower end of a range that I consider to be consistent with our price-stability goal of 2 percent PCE inflation.",
+     "start": 2263,
+     "end": 2442
+    },
+    {
+     "quote": "The unemployment rate is near the lowest level recorded in 50 years",
+     "start": 782,
+     "end": 849
+    },
+    {
+     "quote": "Global growth is slowing, particularly in China and Europe. Global policy uncertainty remains elevated.",
+     "start": 2608,
+     "end": 2710
+    },
+    {
+     "quote": "the Committee can now decide on the appropriate timing and pace for concluding our balance sheet drawdown.",
+     "start": 4662,
+     "end": 4767
+    },
+    {
+     "quote": "a decision for preemptive hikes before the surge is evident in actual data would need to be balanced against the considerable cost of the model being wrong.",
+     "start": 3607,
+     "end": 3762
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

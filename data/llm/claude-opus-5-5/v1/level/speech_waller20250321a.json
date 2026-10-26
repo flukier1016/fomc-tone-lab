@@ -1,0 +1,103 @@
+{
+ "key": "speech_waller20250321a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250321a",
+  "doc_type": "speech",
+  "text_sha256": "fac38c9a65bcaaa4ab3fe9cfa288bccd8aa064164c5368702c0d1e6bac60bc21"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b07e90f6cfbb22ec1c0343c52182a2cbf322324c0f6cd864ec8a18d1354f8648",
+ "message_id": "msg_011CgFugCCEj1bBJMzTV6CpR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 587,
+  "output_tokens": 430,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":2,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I supported no change in the federal funds target range but preferred to continue the current pace of decline in securities holdings.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"But in my view we are not there yet because reserve balances stand at over $3 trillion and this level is abundant.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Rather than changing our current pace of balance sheet reduction, the Federal Reserve should rely on those tools and develop a plan for how to respond to short-run strains if they emerge.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I supported no change in the federal funds target range\"}],\"rationale\":\"The governor dissented in favor of keeping the faster pace of runoff, rather than slowing it, and argued that reserves remain abundant, which is a clear hawkish signal on the balance sheet. The statement does not address rates, inflation, or activity, so the overall stance is a moderate hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 2,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I supported no change in the federal funds target range but preferred to continue the current pace of decline in securities holdings."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "But in my view we are not there yet because reserve balances stand at over $3 trillion and this level is abundant."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Rather than changing our current pace of balance sheet reduction, the Federal Reserve should rely on those tools and develop a plan for how to respond to short-run strains if they emerge."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I supported no change in the federal funds target range"
+   }
+  ],
+  "rationale": "The governor dissented in favor of keeping the faster pace of runoff, rather than slowing it, and argued that reserves remain abundant, which is a clear hawkish signal on the balance sheet. The statement does not address rates, inflation, or activity, so the overall stance is a moderate hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I supported no change in the federal funds target range but preferred to continue the current pace of decline in securities holdings.",
+     "start": 65,
+     "end": 197
+    },
+    {
+     "quote": "But in my view we are not there yet because reserve balances stand at over $3 trillion and this level is abundant.",
+     "start": 497,
+     "end": 610
+    },
+    {
+     "quote": "Rather than changing our current pace of balance sheet reduction, the Federal Reserve should rely on those tools and develop a plan for how to respond to short-run strains if they emerge.",
+     "start": 1202,
+     "end": 1388
+    },
+    {
+     "quote": "I supported no change in the federal funds target range",
+     "start": 65,
+     "end": 120
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

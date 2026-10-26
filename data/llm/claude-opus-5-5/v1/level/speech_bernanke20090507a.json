@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20090507a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090507a",
+  "doc_type": "speech",
+  "text_sha256": "877d2ed9de8f50f923b7d2f5e6fd9a9040906bf9878727eec3a272a4ac5ba836"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b2d4bedc7d41d4202c0f79ad199527df2cd5de0b7e608bf6b3953f904374157b",
+ "message_id": "msg_011CgFugAVniD5CjPWo8j24x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6655,
+  "output_tokens": 363,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Increasing the effectiveness of supervision must be a top priority for our institution.\"},{\"dimension\":\"overall\",\"quote\":\"Looking forward, I believe a more macroprudential approach to supervision--one that supplements the supervision of individual institutions to address risks to the financial system as a whole--could help to enhance overall financial stability.\"},{\"dimension\":\"overall\",\"quote\":\"As the past two years have brought home to everyone, the development of a more stable and sound financial system should be of the highest priority.\"}],\"rationale\":\"The speech focuses on bank supervision, capital, liquidity, and macroprudential oversight lessons from the crisis, with no discussion of interest rates, inflation, or the policy outlook. It carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Increasing the effectiveness of supervision must be a top priority for our institution."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Looking forward, I believe a more macroprudential approach to supervision--one that supplements the supervision of individual institutions to address risks to the financial system as a whole--could help to enhance overall financial stability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As the past two years have brought home to everyone, the development of a more stable and sound financial system should be of the highest priority."
+   }
+  ],
+  "rationale": "The speech focuses on bank supervision, capital, liquidity, and macroprudential oversight lessons from the crisis, with no discussion of interest rates, inflation, or the policy outlook. It carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Increasing the effectiveness of supervision must be a top priority for our institution.",
+     "start": 641,
+     "end": 727
+    },
+    {
+     "quote": "Looking forward, I believe a more macroprudential approach to supervision--one that supplements the supervision of individual institutions to address risks to the financial system as a whole--could help to enhance overall financial stability.",
+     "start": 20274,
+     "end": 20515
+    },
+    {
+     "quote": "As the past two years have brought home to everyone, the development of a more stable and sound financial system should be of the highest priority.",
+     "start": 22917,
+     "end": 23063
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

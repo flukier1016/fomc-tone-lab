@@ -1,0 +1,103 @@
+{
+ "key": "statement_20200827",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20200827",
+  "doc_type": "statement",
+  "text_sha256": "2b0c06c7622c59edac6edb8e68ba733b9e734f3a1b58872fc9c67376a6623609"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bef75fbbabe6f6d9800807a7fd4294508f2f790cfa3ce309a8318b80e8ed0171",
+ "message_id": "msg_011CgFugEhJGJxTFUoszy5vn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1363,
+  "output_tokens": 420,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"a robust job market can be sustained without causing an unwelcome increase in inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"its policy decision will be informed by its \\\"assessments of the shortfalls of employment from its maximum level.\\\"\"},{\"dimension\":\"risk_balance\",\"quote\":\"monetary policy interest rates are more likely to be constrained by their effective lower-bound than in the past.\"}],\"rationale\":\"The framework revision adopts average inflation targeting that tolerates overshoots above 2 percent, and it responds only to employment shortfalls. Together these imply easier policy for longer and point to a clearly dovish strategic shift.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "a robust job market can be sustained without causing an unwelcome increase in inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "its policy decision will be informed by its \"assessments of the shortfalls of employment from its maximum level.\""
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "monetary policy interest rates are more likely to be constrained by their effective lower-bound than in the past."
+   }
+  ],
+  "rationale": "The framework revision adopts average inflation targeting that tolerates overshoots above 2 percent, and it responds only to employment shortfalls. Together these imply easier policy for longer and point to a clearly dovish strategic shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.",
+     "start": 1832,
+     "end": 2017
+    },
+    {
+     "quote": "a robust job market can be sustained without causing an unwelcome increase in inflation.",
+     "start": 1129,
+     "end": 1216
+    },
+    {
+     "quote": "its policy decision will be informed by its \"assessments of the shortfalls of employment from its maximum level.\"",
+     "start": 1407,
+     "end": 1518
+    },
+    {
+     "quote": "monetary policy interest rates are more likely to be constrained by their effective lower-bound than in the past.",
+     "start": 2220,
+     "end": 2332
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

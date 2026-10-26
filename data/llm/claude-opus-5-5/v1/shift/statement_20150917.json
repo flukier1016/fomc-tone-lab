@@ -1,0 +1,149 @@
+{
+ "key": "statement_20150917",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20150917",
+  "previous_doc_id": "statement_20150729",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "26c4ccb25a8279ada9a8acb7400a0ea51fe6d593a3fc6d709602a8cc826554cc",
+ "message_id": "msg_011CgFudUtjrZE2cZ6CFk5LK",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2325,
+  "output_tokens": 733,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"\",\"after\":\"Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.\",\"direction\":\"dovish\"},{\"before\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.\",\"after\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad.\",\"direction\":\"dovish\"},{\"before\":\"Market-based measures of inflation compensation remain low;\",\"after\":\"Market-based measures of inflation compensation moved lower;\",\"direction\":\"dovish\"},{\"before\":\"Growth in household spending has been moderate and the housing sector has shown additional improvement; however, business fixed investment and net exports stayed soft.\",\"after\":\"Household spending and business fixed investment have been increasing moderately, and the housing sector has improved further; however, net exports have been soft.\",\"direction\":\"hawkish\"},{\"before\":\"On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.\",\"after\":\"On balance, labor market indicators show that underutilization of labor resources has diminished since early this year.\",\"direction\":\"hawkish\"},{\"before\":\"Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Stanley Fischer; Jeffrey M. Lacker; Dennis P. Lockhart; Jerome H. Powell; Daniel K. Tarullo; and John C. Williams.\",\"after\":\"Voting against the action was Jeffrey M. Lacker, who preferred to raise the target range for the federal funds rate by 25 basis points at this meeting.\",\"direction\":\"hawkish\"}],\"rationale\":\"The new paragraph flagging global developments that may restrain activity and add downward pressure on inflation, plus monitoring of developments abroad, signals a delay to liftoff despite slightly firmer domestic descriptions. A hawkish dissent from Lacker partially offsets this, so the net shift is modestly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "",
+    "after": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+    "after": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation remain low;",
+    "after": "Market-based measures of inflation compensation moved lower;",
+    "direction": "dovish"
+   },
+   {
+    "before": "Growth in household spending has been moderate and the housing sector has shown additional improvement; however, business fixed investment and net exports stayed soft.",
+    "after": "Household spending and business fixed investment have been increasing moderately, and the housing sector has improved further; however, net exports have been soft.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.",
+    "after": "On balance, labor market indicators show that underutilization of labor resources has diminished since early this year.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Stanley Fischer; Jeffrey M. Lacker; Dennis P. Lockhart; Jerome H. Powell; Daniel K. Tarullo; and John C. Williams.",
+    "after": "Voting against the action was Jeffrey M. Lacker, who preferred to raise the target range for the federal funds rate by 25 basis points at this meeting.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The new paragraph flagging global developments that may restrain activity and add downward pressure on inflation, plus monitoring of developments abroad, signals a delay to liftoff despite slightly firmer domestic descriptions. A hawkish dissent from Lacker partially offsets this, so the net shift is modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1199,
+     "end": 1316
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low;",
+     "start": 713,
+     "end": 771
+    },
+    {
+     "quote": "Growth in household spending has been moderate and the housing sector has shown additional improvement; however, business fixed investment and net exports stayed soft.",
+     "start": 154,
+     "end": 320
+    },
+    {
+     "quote": "On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.",
+     "start": 410,
+     "end": 543
+    },
+    {
+     "quote": "Voting for the FOMC monetary policy action were: Janet L. Yellen, Chair; William C. Dudley, Vice Chairman; Lael Brainard; Charles L. Evans; Stanley Fischer; Jeffrey M. Lacker; Dennis P. Lockhart; Jerome H. Powell; Daniel K. Tarullo; and John C. Williams.",
+     "start": 3447,
+     "end": 3700
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+     "start": 919,
+     "end": 1086
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring developments abroad.",
+     "start": 1335,
+     "end": 1490
+    },
+    {
+     "quote": "Market-based measures of inflation compensation moved lower;",
+     "start": 666,
+     "end": 725
+    },
+    {
+     "quote": "Household spending and business fixed investment have been increasing moderately, and the housing sector has improved further; however, net exports have been soft.",
+     "start": 138,
+     "end": 300
+    },
+    {
+     "quote": "On balance, labor market indicators show that underutilization of labor resources has diminished since early this year.",
+     "start": 390,
+     "end": 508
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who preferred to raise the target range for the federal funds rate by 25 basis points at this meeting.",
+     "start": 3848,
+     "end": 3998
+    }
+   ]
+  }
+ }
+}

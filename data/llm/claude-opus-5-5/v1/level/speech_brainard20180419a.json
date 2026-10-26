@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20180419a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20180419a",
+  "doc_type": "speech",
+  "text_sha256": "d3c86936ea7c16153f10f5d3593bdcf01be4e20597c051159979c19edb173922"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "997c3fb7b6f821e4c8b837a80788210cb380735657f162fa41d1e9b46d3683f9",
+ "message_id": "msg_011CgFug8wGuSLEDAYSZDq2G",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4706,
+  "output_tokens": 582,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Sizable fiscal stimulus is likely to reinforce cyclical pressures at a time of above-trend growth and tightening resource utilization.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Currently, inflation appears to be well-anchored to the upside around our 2 percent target, but there are some signs of financial imbalances.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there have been heightened risks either of inflation, in earlier decades, or of financial imbalances more recently.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Countercyclical capital requirements can lean against rising financial vulnerabilities at a time when the degree of monetary tightening that would be needed to achieve the same goal would be inconsistent with the dual mandate goals\"},{\"dimension\":\"overall\",\"quote\":\"At a time when cyclical pressures are building, and asset valuations are stretched, we should be calling for large banking organizations to safeguard the capital and liquidity buffers they have built over the past few years.\"}],\"rationale\":\"The speech is mostly about bank regulation, but it describes strong, above-trend growth, pro-cyclical fiscal stimulus and building financial imbalances, which leans modestly hawkish. It points to the countercyclical capital buffer rather than further monetary tightening as the tool for financial vulnerabilities, so its direct forward guidance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Sizable fiscal stimulus is likely to reinforce cyclical pressures at a time of above-trend growth and tightening resource utilization."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Currently, inflation appears to be well-anchored to the upside around our 2 percent target, but there are some signs of financial imbalances."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there have been heightened risks either of inflation, in earlier decades, or of financial imbalances more recently."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Countercyclical capital requirements can lean against rising financial vulnerabilities at a time when the degree of monetary tightening that would be needed to achieve the same goal would be inconsistent with the dual mandate goals"
+   },
+   {
+    "dimension": "overall",
+    "quote": "At a time when cyclical pressures are building, and asset valuations are stretched, we should be calling for large banking organizations to safeguard the capital and liquidity buffers they have built over the past few years."
+   }
+  ],
+  "rationale": "The speech is mostly about bank regulation, but it describes strong, above-trend growth, pro-cyclical fiscal stimulus and building financial imbalances, which leans modestly hawkish. It points to the countercyclical capital buffer rather than further monetary tightening as the tool for financial vulnerabilities, so its direct forward guidance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Sizable fiscal stimulus is likely to reinforce cyclical pressures at a time of above-trend growth and tightening resource utilization.",
+     "start": 1367,
+     "end": 1500
+    },
+    {
+     "quote": "Currently, inflation appears to be well-anchored to the upside around our 2 percent target, but there are some signs of financial imbalances.",
+     "start": 1833,
+     "end": 1973
+    },
+    {
+     "quote": "there have been heightened risks either of inflation, in earlier decades, or of financial imbalances more recently.",
+     "start": 1716,
+     "end": 1830
+    },
+    {
+     "quote": "Countercyclical capital requirements can lean against rising financial vulnerabilities at a time when the degree of monetary tightening that would be needed to achieve the same goal would be inconsistent with the dual mandate goals",
+     "start": 9796,
+     "end": 10027
+    },
+    {
+     "quote": "At a time when cyclical pressures are building, and asset valuations are stretched, we should be calling for large banking organizations to safeguard the capital and liquidity buffers they have built over the past few years.",
+     "start": 14989,
+     "end": 15212
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

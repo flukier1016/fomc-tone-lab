@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20120106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20120106a",
+  "doc_type": "speech",
+  "text_sha256": "937dc914ee731046424bc5cd3a314276032efd17fcea3e282ac3e23271f0c310"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7f0da913d7b45c25a7cdcad5a588bd9b34ac11be6d60e95f3da94e94342a944e",
+ "message_id": "msg_011CgFugENT65mDXzpyrdQsw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8085,
+  "output_tokens": 457,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In this environment, I believe that the current stance of monetary policy is appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"for inflation to settle over coming quarters at or below levels consistent with the Federal Reserve's dual mandate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Perhaps the most telling measure of the subpar pace of recovery is the painfully slow improvement in the labor market.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Of course, strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"overall\",\"quote\":\"we are prepared to employ our tools as appropriate to foster economic recovery in a context of price stability.\"}],\"rationale\":\"The speaker describes a weak, slow recovery with inflation at or below mandate-consistent levels and stresses Europe-related downside risks. She endorses the current accommodative stance while noting readiness to act, so the net lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In this environment, I believe that the current stance of monetary policy is appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "for inflation to settle over coming quarters at or below levels consistent with the Federal Reserve's dual mandate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Perhaps the most telling measure of the subpar pace of recovery is the painfully slow improvement in the labor market."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Of course, strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we are prepared to employ our tools as appropriate to foster economic recovery in a context of price stability."
+   }
+  ],
+  "rationale": "The speaker describes a weak, slow recovery with inflation at or below mandate-consistent levels and stresses Europe-related downside risks. She endorses the current accommodative stance while noting readiness to act, so the net lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In this environment, I believe that the current stance of monetary policy is appropriate.",
+     "start": 26290,
+     "end": 26378
+    },
+    {
+     "quote": "for inflation to settle over coming quarters at or below levels consistent with the Federal Reserve's dual mandate",
+     "start": 26174,
+     "end": 26288
+    },
+    {
+     "quote": "Perhaps the most telling measure of the subpar pace of recovery is the painfully slow improvement in the labor market.",
+     "start": 1514,
+     "end": 1631
+    },
+    {
+     "quote": "Of course, strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 12300,
+     "end": 12414
+    },
+    {
+     "quote": "we are prepared to employ our tools as appropriate to foster economic recovery in a context of price stability.",
+     "start": 26957,
+     "end": 27067
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

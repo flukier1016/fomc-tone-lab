@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20211108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20211108a",
+  "doc_type": "speech",
+  "text_sha256": "9a1b5dbc56addab56fda34d323433f88de695409783205fb3d359141d251a79d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5eeb451e79dc400c0e962dfb0d86f6e274f5a1ff12b6b50f0c594781a87f10a8",
+ "message_id": "msg_011CgFugD6okDK9CQzSV4reV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3459,
+  "output_tokens": 446,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Because housing costs are a large share of living expenses for most people, these increases are adding to current inflationary pressures in the economy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I anticipate that these housing supply issues are unlikely to reverse materially in the short term, which suggests that we are likely to see higher inflation from housing for a while.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Interest rates are low, families have accumulated savings, and income growth in the past 18 months has been quite strong.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If the transition out of forbearance is handled smoothly, I am cautiously optimistic that it will not have a material effect on the larger economy.\"}],\"rationale\":\"The speech centers on housing and financial stability but flags persistent housing-driven inflation pressures and strong demand, while downplaying forbearance-related downside risks. It offers no explicit policy path guidance, so the lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Because housing costs are a large share of living expenses for most people, these increases are adding to current inflationary pressures in the economy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I anticipate that these housing supply issues are unlikely to reverse materially in the short term, which suggests that we are likely to see higher inflation from housing for a while."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Interest rates are low, families have accumulated savings, and income growth in the past 18 months has been quite strong."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If the transition out of forbearance is handled smoothly, I am cautiously optimistic that it will not have a material effect on the larger economy."
+   }
+  ],
+  "rationale": "The speech centers on housing and financial stability but flags persistent housing-driven inflation pressures and strong demand, while downplaying forbearance-related downside risks. It offers no explicit policy path guidance, so the lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Because housing costs are a large share of living expenses for most people, these increases are adding to current inflationary pressures in the economy.",
+     "start": 4556,
+     "end": 4707
+    },
+    {
+     "quote": "I anticipate that these housing supply issues are unlikely to reverse materially in the short term, which suggests that we are likely to see higher inflation from housing for a while.",
+     "start": 5592,
+     "end": 5774
+    },
+    {
+     "quote": "Interest rates are low, families have accumulated savings, and income growth in the past 18 months has been quite strong.",
+     "start": 1920,
+     "end": 2040
+    },
+    {
+     "quote": "If the transition out of forbearance is handled smoothly, I am cautiously optimistic that it will not have a material effect on the larger economy.",
+     "start": 7561,
+     "end": 7707
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20190619",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20190619",
+  "doc_type": "presser",
+  "text_sha256": "927e4ba464f61f99f5094da44b2d642cf35fa0d09eed2b75bac7303fbd267887"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e7d64a427bcb5ec93985133134eb8bb39f8d2ca997a425f5818b5c045fa7659d",
+ "message_id": "msg_011CgFugEwRwfxKVo8AKKerc",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9290,
+  "output_tokens": 563,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many FOMC participants now see that the case for a somewhat more accommodative policy has strengthened.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The projections of appropriate policy show that many participants believe that some cut in the federal funds rate will be appropriate in the scenario that they see as most likely.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"participants expressed concerns about a more sustained shortfall of inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"many FOMC participants cited the investment picture and weaker business sentiment and the crosscurrents I mentioned earlier as supporting their judgment that the risk of less favorable outcomes has risen.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And we will act as needed, including promptly, if that's appropriate, and use our tools to expand—to sustain the expansion.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we'll always be willing to adjust balance sheet policy so that it serves our dual-mandate objectives.\"}],\"rationale\":\"Rates were held, but the Chair signals a strengthened case for cuts, with many participants projecting cuts and a readiness to act promptly. He stresses muted inflation, falling inflation expectations and rising downside risks, even as the consumer and labor market remain solid.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many FOMC participants now see that the case for a somewhat more accommodative policy has strengthened."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The projections of appropriate policy show that many participants believe that some cut in the federal funds rate will be appropriate in the scenario that they see as most likely."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "participants expressed concerns about a more sustained shortfall of inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "many FOMC participants cited the investment picture and weaker business sentiment and the crosscurrents I mentioned earlier as supporting their judgment that the risk of less favorable outcomes has risen."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And we will act as needed, including promptly, if that's appropriate, and use our tools to expand—to sustain the expansion."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we'll always be willing to adjust balance sheet policy so that it serves our dual-mandate objectives."
+   }
+  ],
+  "rationale": "Rates were held, but the Chair signals a strengthened case for cuts, with many participants projecting cuts and a readiness to act promptly. He stresses muted inflation, falling inflation expectations and rising downside risks, even as the consumer and labor market remain solid."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many FOMC participants now see that the case for a somewhat more accommodative policy has strengthened.",
+     "start": 2527,
+     "end": 2629
+    },
+    {
+     "quote": "The projections of appropriate policy show that many participants believe that some cut in the federal funds rate will be appropriate in the scenario that they see as most likely.",
+     "start": 6123,
+     "end": 6301
+    },
+    {
+     "quote": "participants expressed concerns about a more sustained shortfall of inflation.",
+     "start": 5946,
+     "end": 6023
+    },
+    {
+     "quote": "many FOMC participants cited the investment picture and weaker business sentiment and the crosscurrents I mentioned earlier as supporting their judgment that the risk of less favorable outcomes has risen.",
+     "start": 4314,
+     "end": 4517
+    },
+    {
+     "quote": "And we will act as needed, including promptly, if that's appropriate, and use our tools to expand—to sustain the expansion.",
+     "start": 17259,
+     "end": 17381
+    },
+    {
+     "quote": "we'll always be willing to adjust balance sheet policy so that it serves our dual-mandate objectives.",
+     "start": 30606,
+     "end": 30706
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

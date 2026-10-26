@@ -1,0 +1,114 @@
+{
+ "key": "statement_20100509",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100509",
+  "previous_doc_id": "statement_20100428",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dfc98e6fc68db7d4ee50575a3f80eb81ef26832d154055bb2b4e94753e1b4fbc",
+ "message_id": "msg_011CgFudUSD3cJu4jnncL6eb",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1538,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.\",\"after\":\"In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe, the Bank of Canada, the Bank of England, the European Central Bank, the Federal Reserve, and the Swiss National Bank are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"These swap arrangements have been authorized through January 2011.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"While bank lending continues to contract, financial market conditions remain supportive of economic growth.\",\"after\":\"These facilities are designed to help improve liquidity conditions in U.S. dollar funding markets and to prevent the spread of strains to other markets and financial centers.\",\"direction\":\"dovish\"}],\"rationale\":\"The current release is an unscheduled announcement reversing the wind-down of crisis facilities by reopening dollar swap lines because of renewed European funding strains, signaling heightened financial-stability concern and reducing the likelihood of near-term tightening. It makes no statement about rate guidance, so the shift is modestly dovish rather than a change in policy direction.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.",
+    "after": "In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe, the Bank of Canada, the Bank of England, the European Central Bank, the Federal Reserve, and the Swiss National Bank are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "These swap arrangements have been authorized through January 2011.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "While bank lending continues to contract, financial market conditions remain supportive of economic growth.",
+    "after": "These facilities are designed to help improve liquidity conditions in U.S. dollar funding markets and to prevent the spread of strains to other markets and financial centers.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The current release is an unscheduled announcement reversing the wind-down of crisis facilities by reopening dollar swap lines because of renewed European funding strains, signaling heightened financial-stability concern and reducing the likelihood of near-term tightening. It makes no statement about rate guidance, so the shift is modestly dovish rather than a change in policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.",
+     "start": 1591,
+     "end": 1777
+    },
+    {
+     "quote": "The Committee will maintain the target range for the federal funds rate at 0 to 1/4 percent and continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1058,
+     "end": 1405
+    },
+    {
+     "quote": "While bank lending continues to contract, financial market conditions remain supportive of economic growth.",
+     "start": 589,
+     "end": 695
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In response to the reemergence of strains in U.S. dollar short-term funding markets in Europe, the Bank of Canada, the Bank of England, the European Central Bank, the Federal Reserve, and the Swiss National Bank are announcing the reestablishment of temporary U.S. dollar liquidity swap facilities.",
+     "start": 220,
+     "end": 517
+    },
+    {
+     "quote": "These swap arrangements have been authorized through January 2011.",
+     "start": 1494,
+     "end": 1559
+    },
+    {
+     "quote": "These facilities are designed to help improve liquidity conditions in U.S. dollar funding markets and to prevent the spread of strains to other markets and financial centers.",
+     "start": 519,
+     "end": 692
+    }
+   ]
+  }
+ }
+}

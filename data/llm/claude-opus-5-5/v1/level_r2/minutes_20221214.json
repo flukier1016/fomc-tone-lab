@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20221214",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20221214",
+  "doc_type": "minutes",
+  "text_sha256": "1bbe016a7c899f8993980b7833f34de680a355533b981cfebe2f4aa1c9881b98"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "86111d2698b65518e0c0f8ac742a4045a50b078149af1b4cadc85cea25dcc890",
+ "message_id": "msg_011CgG27qg8SSmngerqHCAGC",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13301,
+  "output_tokens": 596,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"No participants anticipated that it would be appropriate to begin reducing the federal funds rate target in 2023.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a slowing in the pace of rate increases was not an indication of any weakening of the Committee's resolve to achieve its price-stability goal\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally indicated that upside risks to the inflation outlook remained a key factor shaping the outlook for policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants observed that the labor market had remained very tight, with the unemployment rate near a historically low level, robust payroll gains, a high level of job vacancies, and elevated nominal wage growth.\"},{\"dimension\":\"overall\",\"quote\":\"an unwarranted easing in financial conditions, especially if driven by a misperception by the public of the Committee's reaction function, would complicate the Committee's effort to restore price stability\"}],\"rationale\":\"The minutes stress ongoing rate increases, no cuts in 2023, unacceptably high inflation with upside risks, and pushback against eased financial conditions, despite the slower pace of hikes. Some downside activity risks are noted, but the net signal is clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "No participants anticipated that it would be appropriate to begin reducing the federal funds rate target in 2023."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a slowing in the pace of rate increases was not an indication of any weakening of the Committee's resolve to achieve its price-stability goal"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally indicated that upside risks to the inflation outlook remained a key factor shaping the outlook for policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants observed that the labor market had remained very tight, with the unemployment rate near a historically low level, robust payroll gains, a high level of job vacancies, and elevated nominal wage growth."
+   },
+   {
+    "dimension": "overall",
+    "quote": "an unwarranted easing in financial conditions, especially if driven by a misperception by the public of the Committee's reaction function, would complicate the Committee's effort to restore price stability"
+   }
+  ],
+  "rationale": "The minutes stress ongoing rate increases, no cuts in 2023, unacceptably high inflation with upside risks, and pushback against eased financial conditions, despite the slower pace of hikes. Some downside activity risks are noted, but the net signal is clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "No participants anticipated that it would be appropriate to begin reducing the federal funds rate target in 2023.",
+     "start": 34062,
+     "end": 34174
+    },
+    {
+     "quote": "a slowing in the pace of rate increases was not an indication of any weakening of the Committee's resolve to achieve its price-stability goal",
+     "start": 35319,
+     "end": 35460
+    },
+    {
+     "quote": "With inflation still well above the Committee's longer-run goal of 2 percent, participants agreed that inflation was unacceptably high.",
+     "start": 27845,
+     "end": 27979
+    },
+    {
+     "quote": "Participants generally indicated that upside risks to the inflation outlook remained a key factor shaping the outlook for policy.",
+     "start": 36999,
+     "end": 37127
+    },
+    {
+     "quote": "Participants observed that the labor market had remained very tight, with the unemployment rate near a historically low level, robust payroll gains, a high level of job vacancies, and elevated nominal wage growth.",
+     "start": 25547,
+     "end": 25759
+    },
+    {
+     "quote": "an unwarranted easing in financial conditions, especially if driven by a misperception by the public of the Committee's reaction function, would complicate the Committee's effort to restore price stability",
+     "start": 35628,
+     "end": 35833
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

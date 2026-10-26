@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20230531a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230531a",
+  "doc_type": "speech",
+  "text_sha256": "9726452d64cf70e056e6662251f93cd83ba55f3cfbf76625ec3490e47218ec6a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "801fb25dd15629a91b739f0295f17f19dcb794586c2b96751c10a10b477296c3",
+ "message_id": "msg_011CgFugAgCdXCvkcB6EvQXs",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1204,
+  "output_tokens": 424,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"leading to the current tight labor market\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the residential real estate market appears to be rebounding, with home prices leveling out recently, which has implications for our fight to lower inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Much of that initial inflation has moderated, but it will be important to understand the long-term effect of the pandemic environment on household formation and housing demand going forward.\"},{\"dimension\":\"risk_balance\",\"quote\":\"While we expect lower rents will eventually be reflected in inflation data as new leases make their way into the calculations\"}],\"rationale\":\"These are mostly introductory remarks for a listening event, but they note a tight labor market and a rebounding housing market that complicates the 'fight to lower inflation'. Together these give a mild hawkish lean, and the signal is low because the speech offers no explicit guidance on the policy path.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "leading to the current tight labor market"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the residential real estate market appears to be rebounding, with home prices leveling out recently, which has implications for our fight to lower inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Much of that initial inflation has moderated, but it will be important to understand the long-term effect of the pandemic environment on household formation and housing demand going forward."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "While we expect lower rents will eventually be reflected in inflation data as new leases make their way into the calculations"
+   }
+  ],
+  "rationale": "These are mostly introductory remarks for a listening event, but they note a tight labor market and a rebounding housing market that complicates the 'fight to lower inflation'. Together these give a mild hawkish lean, and the signal is low because the speech offers no explicit guidance on the policy path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "leading to the current tight labor market",
+     "start": 883,
+     "end": 924
+    },
+    {
+     "quote": "the residential real estate market appears to be rebounding, with home prices leveling out recently, which has implications for our fight to lower inflation.",
+     "start": 3348,
+     "end": 3504
+    },
+    {
+     "quote": "Much of that initial inflation has moderated, but it will be important to understand the long-term effect of the pandemic environment on household formation and housing demand going forward.",
+     "start": 3787,
+     "end": 3976
+    },
+    {
+     "quote": "While we expect lower rents will eventually be reflected in inflation data as new leases make their way into the calculations",
+     "start": 3221,
+     "end": 3346
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20230512a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20230512a",
+  "doc_type": "speech",
+  "text_sha256": "f4a9b07fefcf2790cb2f010bdc4f7a671bbb07043857de19381e07b780863dc2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fb3b49001d71eb251b5eca9551c68adef45192297d2a014319a0e1e63f32d6a9",
+ "message_id": "msg_011CgFug8xWr1EBvHAD2owDq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3293,
+  "output_tokens": 492,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.2,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"The bad news is that there has been little progress on core inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Moreover, I expect slower consumer spending growth over the remainder of the year in response to tight financial conditions, depressed consumer sentiment, greater uncertainty, and declines in overall household wealth and excess savings.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Therefore, there is some downside risk that the incremental effect of the credit shock is larger than I expect.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"monetary policy affects the economy and inflation with long and varied lags, and the full effects of our rapid tightening are still likely ahead of us.\"},{\"dimension\":\"overall\",\"quote\":\"It is in this sense that I believe that we are well \\\"on track.\\\"\"}],\"rationale\":\"The speaker acknowledges high and sticky core inflation but stresses lagged effects of past tightening, credit tightening from bank stress, and downside growth risks, implying no need for further hikes. Net signal is mildly dovish, defending the current stance rather than signaling more tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.2,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The bad news is that there has been little progress on core inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Moreover, I expect slower consumer spending growth over the remainder of the year in response to tight financial conditions, depressed consumer sentiment, greater uncertainty, and declines in overall household wealth and excess savings."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Therefore, there is some downside risk that the incremental effect of the credit shock is larger than I expect."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "monetary policy affects the economy and inflation with long and varied lags, and the full effects of our rapid tightening are still likely ahead of us."
+   },
+   {
+    "dimension": "overall",
+    "quote": "It is in this sense that I believe that we are well \"on track.\""
+   }
+  ],
+  "rationale": "The speaker acknowledges high and sticky core inflation but stresses lagged effects of past tightening, credit tightening from bank stress, and downside growth risks, implying no need for further hikes. Net signal is mildly dovish, defending the current stance rather than signaling more tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The bad news is that there has been little progress on core inflation.",
+     "start": 3147,
+     "end": 3216
+    },
+    {
+     "quote": "Moreover, I expect slower consumer spending growth over the remainder of the year in response to tight financial conditions, depressed consumer sentiment, greater uncertainty, and declines in overall household wealth and excess savings.",
+     "start": 5761,
+     "end": 5996
+    },
+    {
+     "quote": "Therefore, there is some downside risk that the incremental effect of the credit shock is larger than I expect.",
+     "start": 7030,
+     "end": 7140
+    },
+    {
+     "quote": "monetary policy affects the economy and inflation with long and varied lags, and the full effects of our rapid tightening are still likely ahead of us.",
+     "start": 10109,
+     "end": 10259
+    },
+    {
+     "quote": "It is in this sense that I believe that we are well \"on track.\"",
+     "start": 10505,
+     "end": 10566
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

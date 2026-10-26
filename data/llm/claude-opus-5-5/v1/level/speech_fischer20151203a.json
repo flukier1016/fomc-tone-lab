@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20151203a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20151203a",
+  "doc_type": "speech",
+  "text_sha256": "91154053ff1e14be692d3e4089d0fea9b241e8f65acbeee7b67446059a43ff86"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dca8258b31c822611349e6089e60a354fe09b95ac6d5ea56cbb2e0721dcad600",
+ "message_id": "msg_011CgFug8gQ2pwzRzcTs1VET",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5500,
+  "output_tokens": 391,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Using this framework, I see overall financial vulnerabilities as moderate--that is, considerably lower than a decade ago.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, signs of valuation pressures are emerging in commercial real estate markets, where prices have been rising at a solid clip and lending standards have deteriorated\"},{\"dimension\":\"overall\",\"quote\":\"Policymakers and researchers need better models and data to understand the interconnections between the banking system and nonbank financial institutions.\"}],\"rationale\":\"The speech focuses on financial stability vulnerabilities, shadow banking, and data gaps, with no discussion of monetary policy, inflation, or the rate path. Its assessment of moderate vulnerabilities, with some pockets of valuation pressure, carries no clear tightening or easing signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Using this framework, I see overall financial vulnerabilities as moderate--that is, considerably lower than a decade ago."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, signs of valuation pressures are emerging in commercial real estate markets, where prices have been rising at a solid clip and lending standards have deteriorated"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Policymakers and researchers need better models and data to understand the interconnections between the banking system and nonbank financial institutions."
+   }
+  ],
+  "rationale": "The speech focuses on financial stability vulnerabilities, shadow banking, and data gaps, with no discussion of monetary policy, inflation, or the rate path. Its assessment of moderate vulnerabilities, with some pockets of valuation pressure, carries no clear tightening or easing signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Using this framework, I see overall financial vulnerabilities as moderate--that is, considerably lower than a decade ago.",
+     "start": 4486,
+     "end": 4606
+    },
+    {
+     "quote": "However, signs of valuation pressures are emerging in commercial real estate markets, where prices have been rising at a solid clip and lending standards have deteriorated",
+     "start": 5098,
+     "end": 5269
+    },
+    {
+     "quote": "Policymakers and researchers need better models and data to understand the interconnections between the banking system and nonbank financial institutions.",
+     "start": 17656,
+     "end": 17809
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

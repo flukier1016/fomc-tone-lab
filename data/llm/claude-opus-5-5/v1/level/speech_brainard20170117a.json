@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20170117a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170117a",
+  "doc_type": "speech",
+  "text_sha256": "41c96747098ebf3c0657bccc037c169c4caf2bd537251e3c7e5b87a1f9011743"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "84a505adb617a50f055a3c4133f900ae49939cf32409ee1af69c24c0301a6d9e",
+ "message_id": "msg_011CgFugGRyqxxC7w8keVDSa",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5598,
+  "output_tokens": 571,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A gradual approach will remain appropriate as long as inflationary pressures remain muted, the economy remains short of our objectives, the neutral rate remains low, and downside risks from abroad remain\"},{\"dimension\":\"balance_sheet\",\"quote\":\"with the conditions the FOMC has set for a cessation of reinvestments of principal payments on existing securities holdings being met sooner than they otherwise would have been.\"},{\"dimension\":\"risk_balance\",\"quote\":\"risks in the domestic economy are closer to being balanced than they have been for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But risks outside our borders are still tilted to the downside.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This rate is still noticeably below 2 percent, but it is up 1/4 percentage point from a year earlier.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, I am pleased to see that full employment is within reach and could prove sustainable with the right policy mix.\"}],\"rationale\":\"Brainard notes improving labor markets, domestic risks nearing balance, and a possibly faster tightening and earlier end to reinvestment if fiscal stimulus materializes. She offsets this with below-target inflation, a low neutral rate, and downside foreign risks, and keeps a gradual approach, for a roughly neutral net stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A gradual approach will remain appropriate as long as inflationary pressures remain muted, the economy remains short of our objectives, the neutral rate remains low, and downside risks from abroad remain"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "with the conditions the FOMC has set for a cessation of reinvestments of principal payments on existing securities holdings being met sooner than they otherwise would have been."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "risks in the domestic economy are closer to being balanced than they have been for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But risks outside our borders are still tilted to the downside."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This rate is still noticeably below 2 percent, but it is up 1/4 percentage point from a year earlier."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, I am pleased to see that full employment is within reach and could prove sustainable with the right policy mix."
+   }
+  ],
+  "rationale": "Brainard notes improving labor markets, domestic risks nearing balance, and a possibly faster tightening and earlier end to reinvestment if fiscal stimulus materializes. She offsets this with below-target inflation, a low neutral rate, and downside foreign risks, and keeps a gradual approach, for a roughly neutral net stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A gradual approach will remain appropriate as long as inflationary pressures remain muted, the economy remains short of our objectives, the neutral rate remains low, and downside risks from abroad remain",
+     "start": 18136,
+     "end": 18339
+    },
+    {
+     "quote": "with the conditions the FOMC has set for a cessation of reinvestments of principal payments on existing securities holdings being met sooner than they otherwise would have been.",
+     "start": 15182,
+     "end": 15358
+    },
+    {
+     "quote": "risks in the domestic economy are closer to being balanced than they have been for some time.",
+     "start": 16463,
+     "end": 16555
+    },
+    {
+     "quote": "But risks outside our borders are still tilted to the downside.",
+     "start": 16903,
+     "end": 16965
+    },
+    {
+     "quote": "This rate is still noticeably below 2 percent, but it is up 1/4 percentage point from a year earlier.",
+     "start": 13499,
+     "end": 13599
+    },
+    {
+     "quote": "Overall, I am pleased to see that full employment is within reach and could prove sustainable with the right policy mix.",
+     "start": 12149,
+     "end": 12268
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

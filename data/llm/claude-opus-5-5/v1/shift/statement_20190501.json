@@ -1,0 +1,139 @@
+{
+ "key": "statement_20190501",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20190501",
+  "previous_doc_id": "statement_20190320",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9cf9af7aa4873cf6df247dd385fa2bbe6365cea43491967e6b595647079663d5",
+ "message_id": "msg_011CgFudUb8zoR52JjDnKzmu",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1362,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.\",\"after\":\"indicates that the labor market remains strong and that economic activity rose at a solid rate.\",\"direction\":\"hawkish\"},{\"before\":\"Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.\",\"after\":\"Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.\",\"direction\":\"hawkish\"},{\"before\":\"Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.\",\"after\":\"Growth of household spending and business fixed investment slowed in the first quarter.\",\"direction\":\"neutral\"},{\"before\":\"On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.\",\"after\":\"On a 12-month basis, overall inflation and inflation for items other than food and energy have declined and are running below 2 percent.\",\"direction\":\"dovish\"},{\"before\":\"Jerome H. Powell, Chairman; John C. Williams, Vice Chairman;\",\"after\":\"Jerome H. Powell, Chair; John C. Williams, Vice Chair;\",\"direction\":\"neutral\"}],\"rationale\":\"The growth assessment was upgraded while core inflation is now described as below 2 percent, roughly offsetting signals. The policy guidance, including the 'patient' language and the rate target, is unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.",
+    "after": "indicates that the labor market remains strong and that economic activity rose at a solid rate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "after": "Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.",
+    "after": "Growth of household spending and business fixed investment slowed in the first quarter.",
+    "direction": "neutral"
+   },
+   {
+    "before": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.",
+    "after": "On a 12-month basis, overall inflation and inflation for items other than food and energy have declined and are running below 2 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Jerome H. Powell, Chairman; John C. Williams, Vice Chairman;",
+    "after": "Jerome H. Powell, Chair; John C. Williams, Vice Chair;",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The growth assessment was upgraded while core inflation is now described as below 2 percent, roughly offsetting signals. The policy guidance, including the 'patient' language and the rate target, is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the labor market remains strong but that growth of economic activity has slowed from its solid rate in the fourth quarter.",
+     "start": 76,
+     "end": 212
+    },
+    {
+     "quote": "Payroll employment was little changed in February, but job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+     "start": 214,
+     "end": 368
+    },
+    {
+     "quote": "Recent indicators point to slower growth of household spending and business fixed investment in the first quarter.",
+     "start": 370,
+     "end": 483
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation has declined, largely as a result of lower energy prices; inflation for items other than food and energy remains near 2 percent.",
+     "start": 485,
+     "end": 651
+    },
+    {
+     "quote": "Jerome H. Powell, Chairman; John C. Williams, Vice Chairman;",
+     "start": 2078,
+     "end": 2137
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the labor market remains strong and that economic activity rose at a solid rate.",
+     "start": 74,
+     "end": 168
+    },
+    {
+     "quote": "Job gains have been solid, on average, in recent months, and the unemployment rate has remained low.",
+     "start": 170,
+     "end": 269
+    },
+    {
+     "quote": "Growth of household spending and business fixed investment slowed in the first quarter.",
+     "start": 271,
+     "end": 357
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy have declined and are running below 2 percent.",
+     "start": 359,
+     "end": 494
+    },
+    {
+     "quote": "Jerome H. Powell, Chair; John C. Williams, Vice Chair;",
+     "start": 1921,
+     "end": 1974
+    }
+   ]
+  }
+ }
+}

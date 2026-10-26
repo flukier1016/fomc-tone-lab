@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20111109a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20111109a",
+  "doc_type": "speech",
+  "text_sha256": "407cfe4ffb7b5a4045fb3cab5dd7d84b13721be6cccf670f1a851325f527b6c6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c021cdec0cd0d883e30477f9305b1bfac689fd23b04212d44ff9bf9a99718369",
+ "message_id": "msg_011CgFugAq8gGzP2spLk3rii",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2274,
+  "output_tokens": 344,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"It's no secret that the past few years have been very difficult for many small firms. They have faced weak sales, diminished asset values, elevated uncertainty, and tight credit market conditions.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many small business owners have had to lay off employees or defer hiring.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve System is committed to supporting small business and entrepreneurship.\"}],\"rationale\":\"These are welcoming remarks about small business credit and outreach and contain no monetary policy signal. The only relevant content is a brief note of economic weakness, which is a mild dovish lean on activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "It's no secret that the past few years have been very difficult for many small firms. They have faced weak sales, diminished asset values, elevated uncertainty, and tight credit market conditions."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many small business owners have had to lay off employees or defer hiring."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve System is committed to supporting small business and entrepreneurship."
+   }
+  ],
+  "rationale": "These are welcoming remarks about small business credit and outreach and contain no monetary policy signal. The only relevant content is a brief note of economic weakness, which is a mild dovish lean on activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It's no secret that the past few years have been very difficult for many small firms. They have faced weak sales, diminished asset values, elevated uncertainty, and tight credit market conditions.",
+     "start": 2348,
+     "end": 2543
+    },
+    {
+     "quote": "Many small business owners have had to lay off employees or defer hiring.",
+     "start": 2545,
+     "end": 2617
+    },
+    {
+     "quote": "The Federal Reserve System is committed to supporting small business and entrepreneurship.",
+     "start": 4332,
+     "end": 4421
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

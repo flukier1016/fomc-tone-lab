@@ -1,0 +1,113 @@
+{
+ "key": "statement_20260916",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20260916",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "9840ff103683e340ef9d6d7f9d0859ef8d4fbf358cd46326d7858577468d6409"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1439a64121d01d4a80313065cd7e37434e9d08e17b19818cfe7c9b367fa05de0",
+ "message_id": "msg_011CgFudTjndfoPF6onNr4QF",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 295,
+  "output_tokens": 397,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee will deliver price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity is expanding at a solid pace.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is continuing its policy of maintaining ample reserves in the banking system.\"}],\"rationale\":\"The statement announces a quarter-point hike, describes inflation as elevated alongside solid growth, and makes a firm commitment to deliver price stability. Forward guidance is implicit rather than an explicit signal of further hikes, but the overall signal is clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee will deliver price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity is expanding at a solid pace."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system."
+   }
+  ],
+  "rationale": "The statement announces a quarter-point hike, describes inflation as elevated alongside solid growth, and makes a firm commitment to deliver price stability. Forward guidance is implicit rather than an explicit signal of further hikes, but the overall signal is clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point",
+     "start": 98,
+     "end": 196
+    },
+    {
+     "quote": "Inflation remains elevated.",
+     "start": 684,
+     "end": 710
+    },
+    {
+     "quote": "The Committee will deliver price stability.",
+     "start": 800,
+     "end": 842
+    },
+    {
+     "quote": "Economic activity is expanding at a solid pace.",
+     "start": 360,
+     "end": 406
+    },
+    {
+     "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system.",
+     "start": 267,
+     "end": 357
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

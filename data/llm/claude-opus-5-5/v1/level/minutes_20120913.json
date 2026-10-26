@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20120913",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120913",
+  "doc_type": "minutes",
+  "text_sha256": "14cd0969b80ffb63f066f52838dcf277508c06fbf94f7987fb8b3ca41a6ed991"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c220d941d4ec591558d93af5ed54ce1c026dc0df8323f9047a4fcdc7c08a7565",
+ "message_id": "msg_011CgFugAKNc65B9oubU2QoN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13057,
+  "output_tokens": 495,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"With regard to the forward guidance, the Committee agreed on an extension through mid-2015\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Members generally judged that without additional policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.\"},{\"dimension\":\"risk_balance\",\"quote\":\"members still saw strains in global financial conditions as posing significant downside risks to the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation over the medium term would run at or below the Committee's longer-run objective of 2 percent.\"}],\"rationale\":\"The minutes describe open-ended MBS purchases, an extended mid-2015 rate guidance, weak labor markets, and prominent downside risks, with only a minority voicing inflation concerns. The net signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "With regard to the forward guidance, the Committee agreed on an extension through mid-2015"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Members generally judged that without additional policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "members still saw strains in global financial conditions as posing significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation over the medium term would run at or below the Committee's longer-run objective of 2 percent."
+   }
+  ],
+  "rationale": "The minutes describe open-ended MBS purchases, an extended mid-2015 rate guidance, weak labor markets, and prominent downside risks, with only a minority voicing inflation concerns. The net signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month.",
+     "start": 35061,
+     "end": 35278
+    },
+    {
+     "quote": "With regard to the forward guidance, the Committee agreed on an extension through mid-2015",
+     "start": 36933,
+     "end": 37023
+    },
+    {
+     "quote": "Members generally judged that without additional policy accommodation, economic growth might not be strong enough to generate sustained improvement in labor market conditions.",
+     "start": 33899,
+     "end": 34073
+    },
+    {
+     "quote": "members still saw strains in global financial conditions as posing significant downside risks to the economic outlook.",
+     "start": 34159,
+     "end": 34276
+    },
+    {
+     "quote": "inflation over the medium term would run at or below the Committee's longer-run objective of 2 percent.",
+     "start": 34666,
+     "end": 34768
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

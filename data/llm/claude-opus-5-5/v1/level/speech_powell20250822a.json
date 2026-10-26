@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20250822a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20250822a",
+  "doc_type": "speech",
+  "text_sha256": "f188113c6774c46a401fc913e07ff5d34236075d4834492d63cd18def01d516f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "178a7747a307814a1d4b5f9331d6cc5260472ff46f0d7cb3d2b38d2af19034c5",
+ "message_id": "msg_011CgFugKp8JSeVGicYwot7m",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6141,
+  "output_tokens": 525,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"This unusual situation suggests that downside risks to employment are rising.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"A reasonable base case is that the effects will be relatively short lived—a one-time shift in the price level.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"payroll job growth slowed to an average pace of only 35,000 per month over the past three months, down from 168,000 per month during 2024\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Come what may, we will not allow a one-time increase in the price level to become an ongoing inflation problem.\"},{\"dimension\":\"overall\",\"quote\":\"Monetary policy is not on a preset course.\"}],\"rationale\":\"The speech emphasizes rising downside employment risks and a restrictive policy stance that may warrant adjustment, signaling likely cuts, while treating tariff inflation as a probable one-time shift. Caveats about proceeding carefully and keeping inflation expectations anchored temper the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "This unusual situation suggests that downside risks to employment are rising."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "A reasonable base case is that the effects will be relatively short lived—a one-time shift in the price level."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "payroll job growth slowed to an average pace of only 35,000 per month over the past three months, down from 168,000 per month during 2024"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Come what may, we will not allow a one-time increase in the price level to become an ongoing inflation problem."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Monetary policy is not on a preset course."
+   }
+  ],
+  "rationale": "The speech emphasizes rising downside employment risks and a restrictive policy stance that may warrant adjustment, signaling likely cuts, while treating tariff inflation as a probable one-time shift. Caveats about proceeding carefully and keeping inflation expectations anchored temper the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.",
+     "start": 7615,
+     "end": 7760
+    },
+    {
+     "quote": "This unusual situation suggests that downside risks to employment are rising.",
+     "start": 4012,
+     "end": 4088
+    },
+    {
+     "quote": "A reasonable base case is that the effects will be relatively short lived—a one-time shift in the price level.",
+     "start": 5592,
+     "end": 5701
+    },
+    {
+     "quote": "payroll job growth slowed to an average pace of only 35,000 per month over the past three months, down from 168,000 per month during 2024",
+     "start": 2752,
+     "end": 2889
+    },
+    {
+     "quote": "Come what may, we will not allow a one-time increase in the price level to become an ongoing inflation problem.",
+     "start": 6954,
+     "end": 7064
+    },
+    {
+     "quote": "Monetary policy is not on a preset course.",
+     "start": 7763,
+     "end": 7804
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

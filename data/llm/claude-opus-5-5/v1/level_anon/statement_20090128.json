@@ -1,0 +1,113 @@
+{
+ "key": "statement_20090128",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20090128",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "90a366f80c145b0e34f88ac35e8f0443955c77397713212129b1236fc1d08b4e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1e30f273e5d121a4183acc1eedd5cc31f51ce476f2b3feac24aa1b3d1466c4f3",
+ "message_id": "msg_011CgFudVYggnbK1uejgbfbQ",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 940,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Industrial production, housing starts, and employment have continued to decline steeply, as consumers and businesses have cut back spending.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.\"}],\"rationale\":\"The Committee holds rates at exceptionally low levels, describes steep economic deterioration and significant downside risks, and flags a risk that inflation stays too low. It also signals readiness to expand asset purchases and add Treasury buying, a strongly dovish posture.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Industrial production, housing starts, and employment have continued to decline steeply, as consumers and businesses have cut back spending."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant."
+   }
+  ],
+  "rationale": "The Committee holds rates at exceptionally low levels, describes steep economic deterioration and significant downside risks, and flags a risk that inflation stays too low. It also signals readiness to expand asset purchases and add Treasury buying, a strongly dovish posture."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.",
+     "start": 120,
+     "end": 269
+    },
+    {
+     "quote": "Industrial production, housing starts, and employment have continued to decline steeply, as consumers and businesses have cut back spending.",
+     "start": 376,
+     "end": 515
+    },
+    {
+     "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.",
+     "start": 1204,
+     "end": 1356
+    },
+    {
+     "quote": "it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.",
+     "start": 1918,
+     "end": 2037
+    },
+    {
+     "quote": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+     "start": 812,
+     "end": 965
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

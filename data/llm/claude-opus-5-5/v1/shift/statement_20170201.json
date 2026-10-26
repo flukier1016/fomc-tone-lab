@@ -1,0 +1,149 @@
+{
+ "key": "statement_20170201",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20170201",
+  "previous_doc_id": "statement_20161214",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "37a4a0dc0acd934b390a718919eb8dbecef7bdd7e44dcd90633cfe978f534792",
+ "message_id": "msg_011CgFudyce4BfipkxdZuSY8",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2135,
+  "output_tokens": 603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Job gains have been solid in recent months and the unemployment rate has declined.\",\"after\":\"Job gains remained solid and the unemployment rate stayed near its recent low.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"Measures of consumer and business sentiment have improved of late.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has increased since earlier this year but is still below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and in prices of non-energy imports.\",\"after\":\"Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective.\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation have moved up considerably but still are low;\",\"after\":\"Market-based measures of inflation compensation remain low;\",\"direction\":\"dovish\"},{\"before\":\"Inflation is expected to rise to 2 percent over the medium term as the transitory effects of past declines in energy and import prices dissipate and the labor market strengthens further.\",\"after\":\"economic activity will expand at a moderate pace, labor market conditions will strengthen somewhat further, and inflation will rise to 2 percent over the medium term.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\",\"after\":\"the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent.\",\"direction\":\"neutral\"}],\"rationale\":\"The hold was expected after the prior hike, and forward guidance on gradual increases is unchanged; slightly firmer inflation language and improved sentiment are offset by the softer description of inflation compensation. Overall the policy signal is essentially unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Job gains have been solid in recent months and the unemployment rate has declined.",
+    "after": "Job gains remained solid and the unemployment rate stayed near its recent low.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "Measures of consumer and business sentiment have improved of late.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has increased since earlier this year but is still below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and in prices of non-energy imports.",
+    "after": "Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation have moved up considerably but still are low;",
+    "after": "Market-based measures of inflation compensation remain low;",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation is expected to rise to 2 percent over the medium term as the transitory effects of past declines in energy and import prices dissipate and the labor market strengthens further.",
+    "after": "economic activity will expand at a moderate pace, labor market conditions will strengthen somewhat further, and inflation will rise to 2 percent over the medium term.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+    "after": "the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The hold was expected after the prior hike, and forward guidance on gradual increases is unchanged; slightly firmer inflation language and improved sentiment are offset by the softer description of inflation compensation. Overall the policy signal is essentially unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Job gains have been solid in recent months and the unemployment rate has declined.",
+     "start": 218,
+     "end": 299
+    },
+    {
+     "quote": "Inflation has increased since earlier this year but is still below the Committee's 2 percent longer-run objective, partly reflecting earlier declines in energy prices and in prices of non-energy imports.",
+     "start": 396,
+     "end": 598
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have moved up considerably but still are low;",
+     "start": 600,
+     "end": 692
+    },
+    {
+     "quote": "Inflation is expected to rise to 2 percent over the medium term as the transitory effects of past declines in energy and import prices dissipate and the labor market strengthens further.",
+     "start": 1117,
+     "end": 1302
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 1554,
+     "end": 1650
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Job gains remained solid and the unemployment rate stayed near its recent low.",
+     "start": 208,
+     "end": 285
+    },
+    {
+     "quote": "Measures of consumer and business sentiment have improved of late.",
+     "start": 390,
+     "end": 455
+    },
+    {
+     "quote": "Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective.",
+     "start": 457,
+     "end": 561
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low;",
+     "start": 563,
+     "end": 621
+    },
+    {
+     "quote": "economic activity will expand at a moderate pace, labor market conditions will strengthen somewhat further, and inflation will rise to 2 percent over the medium term.",
+     "start": 917,
+     "end": 1082
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent.",
+     "start": 1334,
+     "end": 1433
+    }
+   ]
+  }
+ }
+}

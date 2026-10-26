@@ -1,0 +1,164 @@
+{
+ "key": "statement_20180131",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20180131",
+  "previous_doc_id": "statement_20171213",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "af43067058c1e56bebb23632f0f24f0404cdca44a9dd31a45519b23817009712",
+ "message_id": "msg_011CgFue452cNzJweBTT331M",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1855,
+  "output_tokens": 787,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Inflation on a 12‑month basis is expected to remain somewhat below 2 percent in the near term but to stabilize around the Committee's 2 percent objective over the medium term.\",\"after\":\"Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate;\",\"after\":\"The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate;\",\"direction\":\"hawkish\"},{\"before\":\"Consequently, the Committee continues to expect that, with gradual adjustments in the stance of monetary policy,\",\"after\":\"The Committee expects that, with further gradual adjustments in the stance of monetary policy,\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation remain low;\",\"after\":\"Market-based measures of inflation compensation have increased in recent months but remain low;\",\"direction\":\"hawkish\"},{\"before\":\"Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further. Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.\",\"after\":\"Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.\",\"after\":\"the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"Although rates were held, the statement upgraded the inflation outlook (expected to move up this year), noted rising inflation compensation, and added 'further' to the gradual-increase guidance, signaling continued tightening. These are incremental hawkish tweaks rather than a change in policy direction.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Inflation on a 12‑month basis is expected to remain somewhat below 2 percent in the near term but to stabilize around the Committee's 2 percent objective over the medium term.",
+    "after": "Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate;",
+    "after": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate;",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Consequently, the Committee continues to expect that, with gradual adjustments in the stance of monetary policy,",
+    "after": "The Committee expects that, with further gradual adjustments in the stance of monetary policy,",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation remain low;",
+    "after": "Market-based measures of inflation compensation have increased in recent months but remain low;",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further. Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.",
+    "after": "Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.",
+    "after": "the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Although rates were held, the statement upgraded the inflation outlook (expected to move up this year), noted rising inflation compensation, and added 'further' to the gradual-increase guidance, signaling continued tightening. These are incremental hawkish tweaks rather than a change in policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation on a 12‑month basis is expected to remain somewhat below 2 percent in the near term but to stabilize around the Committee's 2 percent objective over the medium term.",
+     "start": 1265,
+     "end": 1439
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate;",
+     "start": 2500,
+     "end": 2632
+    },
+    {
+     "quote": "Consequently, the Committee continues to expect that, with gradual adjustments in the stance of monetary policy,",
+     "start": 1055,
+     "end": 1166
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low;",
+     "start": 602,
+     "end": 660
+    },
+    {
+     "quote": "Averaging through hurricane-related fluctuations, job gains have been solid, and the unemployment rate declined further. Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.",
+     "start": 197,
+     "end": 448
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1-1/4 to 1‑1/2 percent.",
+     "start": 1643,
+     "end": 1743
+    },
+    {
+     "quote": "Voting against the action were Charles L. Evans and Neel Kashkari, who preferred at this meeting to maintain the existing target range for the federal funds rate.",
+     "start": 3068,
+     "end": 3229
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation on a 12‑month basis is expected to move up this year and to stabilize around the Committee's 2 percent objective over the medium term.",
+     "start": 951,
+     "end": 1094
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate;",
+     "start": 2158,
+     "end": 2298
+    },
+    {
+     "quote": "The Committee expects that, with further gradual adjustments in the stance of monetary policy,",
+     "start": 759,
+     "end": 852
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have increased in recent months but remain low;",
+     "start": 461,
+     "end": 555
+    },
+    {
+     "quote": "Gains in employment, household spending, and business fixed investment have been solid, and the unemployment rate has stayed low.",
+     "start": 197,
+     "end": 325
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1-1/4 to 1‑1/2 percent.",
+     "start": 1298,
+     "end": 1401
+    }
+   ]
+  }
+ }
+}

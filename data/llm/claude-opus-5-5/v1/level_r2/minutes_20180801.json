@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20180801",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20180801",
+  "doc_type": "minutes",
+  "text_sha256": "f030ac202649e9938b22660c896d5c8562ab9626650d886f1b73ec773482a881"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c4171eeff2775870fc83eb8b760e1a75959d67896e5169389377600c9a8ad710",
+ "message_id": "msg_011CgG27mnicGwB4A2biarFJ",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 12695,
+  "output_tokens": 487,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants suggested that if incoming data continued to support their current economic outlook, it would likely soon be appropriate to take another step in removing policy accommodation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market had continued to strengthen and that economic activity had been rising at a strong rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants generally characterized inflation as running close to the Committee's objective of 2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"most expressed the view that an escalation in international trade disputes was a potentially consequential downside risk for real activity.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"They agreed that the statement's language that \\\"the stance of monetary policy remains accommodative\\\" would, at some point fairly soon, no longer be appropriate.\"}],\"rationale\":\"The minutes signal a near-term rate hike and continued gradual tightening amid strong growth and tight labor markets, with inflation near 2 percent. Trade-related downside risks and yield-curve discussion temper the hawkish lean somewhat.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants suggested that if incoming data continued to support their current economic outlook, it would likely soon be appropriate to take another step in removing policy accommodation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market had continued to strengthen and that economic activity had been rising at a strong rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants generally characterized inflation as running close to the Committee's objective of 2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "most expressed the view that an escalation in international trade disputes was a potentially consequential downside risk for real activity."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "They agreed that the statement's language that \"the stance of monetary policy remains accommodative\" would, at some point fairly soon, no longer be appropriate."
+   }
+  ],
+  "rationale": "The minutes signal a near-term rate hike and continued gradual tightening amid strong growth and tight labor markets, with inflation near 2 percent. Trade-related downside risks and yield-curve discussion temper the hawkish lean somewhat."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many participants suggested that if incoming data continued to support their current economic outlook, it would likely soon be appropriate to take another step in removing policy accommodation.",
+     "start": 32403,
+     "end": 32595
+    },
+    {
+     "quote": "the labor market had continued to strengthen and that economic activity had been rising at a strong rate.",
+     "start": 21724,
+     "end": 21828
+    },
+    {
+     "quote": "Participants generally characterized inflation as running close to the Committee's objective of 2 percent",
+     "start": 31299,
+     "end": 31404
+    },
+    {
+     "quote": "most expressed the view that an escalation in international trade disputes was a potentially consequential downside risk for real activity.",
+     "start": 33651,
+     "end": 33789
+    },
+    {
+     "quote": "They agreed that the statement's language that \"the stance of monetary policy remains accommodative\" would, at some point fairly soon, no longer be appropriate.",
+     "start": 35779,
+     "end": 35938
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

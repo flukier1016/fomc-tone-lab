@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20120515a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20120515a",
+  "doc_type": "speech",
+  "text_sha256": "35dd45bc92e7ce8fc0c3a23b1c32a821ea8e0724c6e43097e369b66e370fa617"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "839e5c2a97ad076a3767a2a39980502b4275f6992defb5ba14df9e01f510b81b",
+ "message_id": "msg_011CgFugGGZCV6oX5t4FznD6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7912,
+  "output_tokens": 475,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Notwithstanding these signs of improvement in the housing market, demand for owner-occupied housing remains stubbornly tepid.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"High levels of unemployment, weak income growth, and negative equity have contributed to a staggering 2.2 million loans in the foreclosure process\"},{\"dimension\":\"risk_balance\",\"quote\":\"That said, if lenders tighten more than is warranted, it will hamper the recovery of the housing market and, in doing so, restrain economic growth.\"},{\"dimension\":\"overall\",\"quote\":\"For its part, the Federal Reserve remains committed to fostering maximum employment consistent with price stability, which should help reduce some of the macroeconomic uncertainty.\"}],\"rationale\":\"The speech focuses on housing finance and regulatory uncertainty, describing weak housing demand, elevated unemployment and downside risks to growth from tight credit, but it offers no explicit monetary policy guidance. The net lean is mildly dovish and of limited policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Notwithstanding these signs of improvement in the housing market, demand for owner-occupied housing remains stubbornly tepid."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "High levels of unemployment, weak income growth, and negative equity have contributed to a staggering 2.2 million loans in the foreclosure process"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "That said, if lenders tighten more than is warranted, it will hamper the recovery of the housing market and, in doing so, restrain economic growth."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For its part, the Federal Reserve remains committed to fostering maximum employment consistent with price stability, which should help reduce some of the macroeconomic uncertainty."
+   }
+  ],
+  "rationale": "The speech focuses on housing finance and regulatory uncertainty, describing weak housing demand, elevated unemployment and downside risks to growth from tight credit, but it offers no explicit monetary policy guidance. The net lean is mildly dovish and of limited policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Notwithstanding these signs of improvement in the housing market, demand for owner-occupied housing remains stubbornly tepid.",
+     "start": 7094,
+     "end": 7218
+    },
+    {
+     "quote": "High levels of unemployment, weak income growth, and negative equity have contributed to a staggering 2.2 million loans in the foreclosure process",
+     "start": 2102,
+     "end": 2248
+    },
+    {
+     "quote": "That said, if lenders tighten more than is warranted, it will hamper the recovery of the housing market and, in doing so, restrain economic growth.",
+     "start": 22753,
+     "end": 22899
+    },
+    {
+     "quote": "For its part, the Federal Reserve remains committed to fostering maximum employment consistent with price stability, which should help reduce some of the macroeconomic uncertainty.",
+     "start": 24135,
+     "end": 24314
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

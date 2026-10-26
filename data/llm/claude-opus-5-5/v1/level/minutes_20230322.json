@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230322",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230322",
+  "doc_type": "minutes",
+  "text_sha256": "c25e0f703054dcc0c0f45ffb19385659b8f7a837aace330d7f826b180b4c59f4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "df90e0fa4c836eead7cc35c8df4e311ef2196015f0f0efb5aa4341a4360adc65",
+ "message_id": "msg_011CgFug8nbaXN5hnfignrS1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12541,
+  "output_tokens": 544,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"they anticipated that some additional policy firming may be appropriate to attain a sufficiently restrictive policy stance to return inflation to 2 percent over time\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants commented that recent inflation data indicated slower-than-expected progress on disinflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the staff's projection at the time of the March meeting included a mild recession starting later this year, with a recovery over the subsequent two years.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants saw risks to economic activity as weighted to the downside.\"},{\"dimension\":\"overall\",\"quote\":\"they would have considered a 50 basis point increase in the target range to have been appropriate at this meeting in the absence of the recent developments in the banking sector.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants also agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings\"}],\"rationale\":\"The minutes signal further firming and forceful concern about unacceptably high inflation, with some participants favoring 50 bp. Banking stress, the staff's recession forecast, and lowered views of the sufficiently restrictive rate temper this to a moderate hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "they anticipated that some additional policy firming may be appropriate to attain a sufficiently restrictive policy stance to return inflation to 2 percent over time"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants commented that recent inflation data indicated slower-than-expected progress on disinflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the staff's projection at the time of the March meeting included a mild recession starting later this year, with a recovery over the subsequent two years."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants saw risks to economic activity as weighted to the downside."
+   },
+   {
+    "dimension": "overall",
+    "quote": "they would have considered a 50 basis point increase in the target range to have been appropriate at this meeting in the absence of the recent developments in the banking sector."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants also agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings"
+   }
+  ],
+  "rationale": "The minutes signal further firming and forceful concern about unacceptably high inflation, with some participants favoring 50 bp. Banking stress, the staff's recession forecast, and lowered views of the sufficiently restrictive rate temper this to a moderate hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "they anticipated that some additional policy firming may be appropriate to attain a sufficiently restrictive policy stance to return inflation to 2 percent over time",
+     "start": 32604,
+     "end": 32769
+    },
+    {
+     "quote": "Participants commented that recent inflation data indicated slower-than-expected progress on disinflation.",
+     "start": 25988,
+     "end": 26093
+    },
+    {
+     "quote": "the staff's projection at the time of the March meeting included a mild recession starting later this year, with a recovery over the subsequent two years.",
+     "start": 16098,
+     "end": 16251
+    },
+    {
+     "quote": "Participants saw risks to economic activity as weighted to the downside.",
+     "start": 27806,
+     "end": 27877
+    },
+    {
+     "quote": "they would have considered a 50 basis point increase in the target range to have been appropriate at this meeting in the absence of the recent developments in the banking sector.",
+     "start": 30747,
+     "end": 30924
+    },
+    {
+     "quote": "All participants also agreed that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings",
+     "start": 29540,
+     "end": 29670
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

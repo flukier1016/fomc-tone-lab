@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20231107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20231107a",
+  "doc_type": "speech",
+  "text_sha256": "2e5e5cc8c949aa1dee4456ee36a0c8b404290a4ecf86e0e30d04f1a035ce11c1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5ab6a50ab9002790d0e63ad62cf57dc29725b9bf592f28bf6381ca28c2f48212",
+ "message_id": "msg_011CgFugDXbxW9b2ipxczzLH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8827,
+  "output_tokens": 521,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"While I continue to expect that we will need to increase the federal funds rate further to bring inflation down to our 2 percent target in a timely way\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We have seen considerable progress on lowering inflation, but inflation remains high and recent readings have been uneven.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see a continued risk that core services inflation remains stubbornly persistent. In my view, there is also a risk that higher energy prices could reverse some of the progress made to bring overall inflation down.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent data indicate that economic activity has accelerated with real gross domestic product (GDP) growing at a 4.9 percent annual rate in the third quarter.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to support raising the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or is insufficient\"}],\"rationale\":\"The speaker expects further rate increases will be needed, stresses upside inflation risks and strong activity, while supporting the hold amid uncertainty; most of the speech concerns regulation, giving medium relevance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "While I continue to expect that we will need to increase the federal funds rate further to bring inflation down to our 2 percent target in a timely way"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We have seen considerable progress on lowering inflation, but inflation remains high and recent readings have been uneven."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see a continued risk that core services inflation remains stubbornly persistent. In my view, there is also a risk that higher energy prices could reverse some of the progress made to bring overall inflation down."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent data indicate that economic activity has accelerated with real gross domestic product (GDP) growing at a 4.9 percent annual rate in the third quarter."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to support raising the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or is insufficient"
+   }
+  ],
+  "rationale": "The speaker expects further rate increases will be needed, stresses upside inflation risks and strong activity, while supporting the hold amid uncertainty; most of the speech concerns regulation, giving medium relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While I continue to expect that we will need to increase the federal funds rate further to bring inflation down to our 2 percent target in a timely way",
+     "start": 3607,
+     "end": 3758
+    },
+    {
+     "quote": "We have seen considerable progress on lowering inflation, but inflation remains high and recent readings have been uneven.",
+     "start": 1925,
+     "end": 2046
+    },
+    {
+     "quote": "I see a continued risk that core services inflation remains stubbornly persistent. In my view, there is also a risk that higher energy prices could reverse some of the progress made to bring overall inflation down.",
+     "start": 2324,
+     "end": 2537
+    },
+    {
+     "quote": "recent data indicate that economic activity has accelerated with real gross domestic product (GDP) growing at a 4.9 percent annual rate in the third quarter.",
+     "start": 2619,
+     "end": 2775
+    },
+    {
+     "quote": "I remain willing to support raising the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or is insufficient",
+     "start": 4832,
+     "end": 5002
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

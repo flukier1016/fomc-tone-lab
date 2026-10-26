@@ -1,0 +1,121 @@
+{
+ "key": "statement_20210127",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20210127",
+  "doc_type": "statement",
+  "text_sha256": "6ab84255a5bd77b3fa6433e76229c0bd1b76fe2bb3391af81572486a28a30638"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fae4a0d57c45b14e757681d8014acaae3de9db99da51660940ab08a8116e7c2b",
+ "message_id": "msg_011CgFugF86TScc8jFy9FC6X",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1007,
+  "output_tokens": 590,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage‑backed securities by at least $40 billion per month\"},{\"dimension\":\"risk_balance\",\"quote\":\"The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\"}],\"rationale\":\"The statement holds rates at the zero lower bound with outcome-based guidance for prolonged accommodation, continues large-scale asset purchases, and highlights moderating recovery, below-goal inflation, and downside risks. Every dimension leans dovish, which makes this a strongly accommodative signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage‑backed securities by at least $40 billion per month"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook."
+   }
+  ],
+  "rationale": "The statement holds rates at the zero lower bound with outcome-based guidance for prolonged accommodation, continues large-scale asset purchases, and highlights moderating recovery, below-goal inflation, and downside risks. Every dimension leans dovish, which makes this a strongly accommodative signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent",
+     "start": 1512,
+     "end": 1605
+    },
+    {
+     "quote": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+     "start": 1400,
+     "end": 1510
+    },
+    {
+     "quote": "The pace of the recovery in economic activity and employment has moderated in recent months, with weakness concentrated in the sectors most adversely affected by the pandemic.",
+     "start": 308,
+     "end": 482
+    },
+    {
+     "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+     "start": 484,
+     "end": 580
+    },
+    {
+     "quote": "the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage‑backed securities by at least $40 billion per month",
+     "start": 1899,
+     "end": 2089
+    },
+    {
+     "quote": "The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.",
+     "start": 864,
+     "end": 1017
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

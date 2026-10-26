@@ -1,0 +1,50 @@
+{
+ "key": "statement_20200303",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20200303",
+  "release_date": "2020-03-03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "01e2d7134b4c9b7b41873ab43d275c8318d1a0997a916382edd47d3f738aff46",
+ "message_id": "msg_011CgFudVTy216yiVwGHMzBo",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 706,
+  "output_tokens": 147,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":3,\"confidence\":0.97,\"cues\":[\"Coronavirus named as an evolving risk to economic activity\",\"Unscheduled emergency 1/2 percentage point cut to 1 to 1-1/4 percent (March 3, 2020)\",\"Short emergency-style statement opening with 'fundamentals of the U.S. economy remain strong'\",\"2020 voting rotation includes Harker and Kashkari\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 3,
+  "confidence": 0.97,
+  "cues": [
+   "Coronavirus named as an evolving risk to economic activity",
+   "Unscheduled emergency 1/2 percentage point cut to 1 to 1-1/4 percent (March 3, 2020)",
+   "Short emergency-style statement opening with 'fundamentals of the U.S. economy remain strong'",
+   "2020 voting rotation includes Harker and Kashkari"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

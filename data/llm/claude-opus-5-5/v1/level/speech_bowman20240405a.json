@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240405a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240405a",
+  "doc_type": "speech",
+  "text_sha256": "255f9998c192bd3a102859168d753509dd2063507326552bf4aacbbb401cbe39"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "49676a7573ef98a7f7e990a60a29e6670c4e5b0160de7ce67dace0263c040aae",
+ "message_id": "msg_011CgFugL4kcMHTMBs2mPhHf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8328,
+  "output_tokens": 586,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"While it is not my baseline outlook, I continue to see the risk that at a future meeting we may need to increase the policy rate further should progress on inflation stall or even reverse.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect further progress in bringing inflation down to 2 percent will be slower this year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Consumer services spending has shown continued strength through February, and payroll employment increased at a very strong pace in the first quarter.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If that is the case, fewer rate cuts will eventually be appropriate to return our monetary policy stance to a neutral level.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I supported keeping the target range for the federal funds rate at 5-1/4 to 5-1/2 percent and continuing to reduce our securities holdings.\"}],\"rationale\":\"The speaker emphasizes multiple upside inflation risks, says cuts are not yet appropriate, flags possible further hikes and a higher neutral rate implying fewer cuts. Some acknowledgment of eventual gradual cuts tempers this to a moderate-to-strong hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "While it is not my baseline outlook, I continue to see the risk that at a future meeting we may need to increase the policy rate further should progress on inflation stall or even reverse."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect further progress in bringing inflation down to 2 percent will be slower this year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Consumer services spending has shown continued strength through February, and payroll employment increased at a very strong pace in the first quarter."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If that is the case, fewer rate cuts will eventually be appropriate to return our monetary policy stance to a neutral level."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I supported keeping the target range for the federal funds rate at 5-1/4 to 5-1/2 percent and continuing to reduce our securities holdings."
+   }
+  ],
+  "rationale": "The speaker emphasizes multiple upside inflation risks, says cuts are not yet appropriate, flags possible further hikes and a higher neutral rate implying fewer cuts. Some acknowledgment of eventual gradual cuts tempers this to a moderate-to-strong hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, we are still not yet at the point where it is appropriate to lower the policy rate, and I continue to see a number of upside risks to inflation.",
+     "start": 23460,
+     "end": 23612
+    },
+    {
+     "quote": "While it is not my baseline outlook, I continue to see the risk that at a future meeting we may need to increase the policy rate further should progress on inflation stall or even reverse.",
+     "start": 26231,
+     "end": 26418
+    },
+    {
+     "quote": "I expect further progress in bringing inflation down to 2 percent will be slower this year.",
+     "start": 22807,
+     "end": 22897
+    },
+    {
+     "quote": "Consumer services spending has shown continued strength through February, and payroll employment increased at a very strong pace in the first quarter.",
+     "start": 22203,
+     "end": 22352
+    },
+    {
+     "quote": "If that is the case, fewer rate cuts will eventually be appropriate to return our monetary policy stance to a neutral level.",
+     "start": 25866,
+     "end": 25989
+    },
+    {
+     "quote": "I supported keeping the target range for the federal funds rate at 5-1/4 to 5-1/2 percent and continuing to reduce our securities holdings.",
+     "start": 21778,
+     "end": 21916
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "key": "statement_20211103",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20211103",
+  "previous_doc_id": "statement_20210922",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "65598f0441b357ad5a5f80efde4fa7333174b347245c738a25796ccfc7987f17",
+ "message_id": "msg_011CgFudUUSERFrJiiT1BhwQ",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2276,
+  "output_tokens": 693,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.\",\"after\":\"In light of the substantial further progress the economy has made toward the Committee's goals since last December, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation is elevated, largely reflecting transitory factors.\",\"after\":\"Inflation is elevated, largely reflecting factors that are expected to be transitory.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Supply and demand imbalances related to the pandemic and the reopening of the economy have contributed to sizable price increases in some sectors.\",\"direction\":\"hawkish\"},{\"before\":\"Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.\",\"after\":\"Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain.\",\"direction\":\"neutral\"},{\"before\":\"the rise in COVID-19 cases has slowed their recovery\",\"after\":\"the summer's rise in COVID-19 cases has slowed their recovery\",\"direction\":\"hawkish\"}],\"rationale\":\"The Committee moved from signaling that tapering may soon be warranted to actually starting it, at a $15 billion-per-month pace, and softened its 'transitory' inflation language while acknowledging sizable price increases. The rate guidance is unchanged and the taper was well telegraphed, so this is a moderate hawkish shift rather than a change in rate direction.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+    "after": "In light of the substantial further progress the economy has made toward the Committee's goals since last December, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation is elevated, largely reflecting transitory factors.",
+    "after": "Inflation is elevated, largely reflecting factors that are expected to be transitory.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Supply and demand imbalances related to the pandemic and the reopening of the economy have contributed to sizable price increases in some sectors.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.",
+    "after": "Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain.",
+    "direction": "neutral"
+   },
+   {
+    "before": "the rise in COVID-19 cases has slowed their recovery",
+    "after": "the summer's rise in COVID-19 cases has slowed their recovery",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The Committee moved from signaling that tapering may soon be warranted to actually starting it, at a $15 billion-per-month pace, and softened its 'transitory' inflation language while acknowledging sizable price increases. The rate guidance is unchanged and the taper was well telegraphed, so this is a moderate hawkish shift rather than a change in rate direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+     "start": 2178,
+     "end": 2312
+    },
+    {
+     "quote": "Inflation is elevated, largely reflecting transitory factors.",
+     "start": 465,
+     "end": 525
+    },
+    {
+     "quote": "Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.",
+     "start": 767,
+     "end": 919
+    },
+    {
+     "quote": "the rise in COVID-19 cases has slowed their recovery",
+     "start": 411,
+     "end": 463
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of the substantial further progress the economy has made toward the Committee's goals since last December, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.",
+     "start": 2029,
+     "end": 2320
+    },
+    {
+     "quote": "The Committee judges that similar reductions in the pace of net asset purchases will likely be appropriate each month, but it is prepared to adjust the pace of purchases if warranted by changes in the economic outlook.",
+     "start": 2721,
+     "end": 2938
+    },
+    {
+     "quote": "Inflation is elevated, largely reflecting factors that are expected to be transitory.",
+     "start": 474,
+     "end": 558
+    },
+    {
+     "quote": "Supply and demand imbalances related to the pandemic and the reopening of the economy have contributed to sizable price increases in some sectors.",
+     "start": 560,
+     "end": 705
+    },
+    {
+     "quote": "Progress on vaccinations and an easing of supply constraints are expected to support continued gains in economic activity and employment as well as a reduction in inflation. Risks to the economic outlook remain.",
+     "start": 947,
+     "end": 1157
+    },
+    {
+     "quote": "the summer's rise in COVID-19 cases has slowed their recovery",
+     "start": 411,
+     "end": 472
+    }
+   ]
+  }
+ }
+}

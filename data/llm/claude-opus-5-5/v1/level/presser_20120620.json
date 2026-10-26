@@ -1,0 +1,121 @@
+{
+ "key": "presser_20120620",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20120620",
+  "doc_type": "presser",
+  "text_sha256": "c1f1f90744776acfb9bc3c5d2c78cd3aeac31b9cece8320a6ad1f7aa096cea97"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fdc9b0b0ace6c281ca148006ce7a8801891184fcf902eca4e9ea1ccee1e85dad",
+ "message_id": "msg_011CgFugEDXPAz85Tj9tTCkr",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8864,
+  "output_tokens": 541,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to continue through the end of the year our program of lengthening the maturity of our securities holdings rather than completing the program this month as previously scheduled.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if we're not seeing a sustained improvement in the labor market, that would require additional action.\"},{\"dimension\":\"risk_balance\",\"quote\":\"most participants see the risks to the outlook weighted mainly toward slower growth and higher unemployment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee anticipates that inflation over the medium run will run at or below the 2 percent rate\"},{\"dimension\":\"balance_sheet\",\"quote\":\"additional asset purchases would be among the things that we would certainly consider if we need to take additional measures to strengthen the economy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Employment gains have been smaller in recent months, and the unemployment rate, at 8.2 percent, remains elevated.\"}],\"rationale\":\"The Chair announces an extension of Operation Twist, reaffirms low rates through late 2014, and repeatedly signals readiness for further easing including asset purchases. He stresses downside risks from Europe and fiscal restraint while describing inflation as at or below target.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to continue through the end of the year our program of lengthening the maturity of our securities holdings rather than completing the program this month as previously scheduled."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if we're not seeing a sustained improvement in the labor market, that would require additional action."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "most participants see the risks to the outlook weighted mainly toward slower growth and higher unemployment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee anticipates that inflation over the medium run will run at or below the 2 percent rate"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "additional asset purchases would be among the things that we would certainly consider if we need to take additional measures to strengthen the economy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Employment gains have been smaller in recent months, and the unemployment rate, at 8.2 percent, remains elevated."
+   }
+  ],
+  "rationale": "The Chair announces an extension of Operation Twist, reaffirms low rates through late 2014, and repeatedly signals readiness for further easing including asset purchases. He stresses downside risks from Europe and fiscal restraint while describing inflation as at or below target."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to continue through the end of the year our program of lengthening the maturity of our securities holdings rather than completing the program this month as previously scheduled.",
+     "start": 646,
+     "end": 844
+    },
+    {
+     "quote": "if we're not seeing a sustained improvement in the labor market, that would require additional action.",
+     "start": 26610,
+     "end": 26711
+    },
+    {
+     "quote": "most participants see the risks to the outlook weighted mainly toward slower growth and higher unemployment.",
+     "start": 3192,
+     "end": 3299
+    },
+    {
+     "quote": "the Committee anticipates that inflation over the medium run will run at or below the 2 percent rate",
+     "start": 3702,
+     "end": 3802
+    },
+    {
+     "quote": "additional asset purchases would be among the things that we would certainly consider if we need to take additional measures to strengthen the economy.",
+     "start": 7283,
+     "end": 7433
+    },
+    {
+     "quote": "Employment gains have been smaller in recent months, and the unemployment rate, at 8.2 percent, remains elevated.",
+     "start": 2309,
+     "end": 2421
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

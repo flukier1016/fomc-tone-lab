@@ -1,0 +1,112 @@
+{
+ "key": "statement_20200610",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20200610",
+  "doc_type": "statement",
+  "text_sha256": "3d498afff0f10efe032d733a7cb2d3a21f5d8431e63c1ced4595bc6d85ba8fda"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a9b64379dc3efb90594cc2c90835a3ae1af8019cf40d6f55bf2ecd118fd6e74",
+ "message_id": "msg_011CgFugRYfQQVijkZG6aNxf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 856,
+  "output_tokens": 496,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The virus and the measures taken to protect public health have induced sharp declines in economic activity and a surge in job losses.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"poses considerable risks to the economic outlook over the medium term\"},{\"dimension\":\"balance_sheet\",\"quote\":\"over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace\"}],\"rationale\":\"The Fed holds rates at the zero lower bound with open-ended guidance to keep them there, and commits to continued asset purchases at least at the current pace. It also describes severe economic weakness, subdued inflation and considerable downside risks, so the statement is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The virus and the measures taken to protect public health have induced sharp declines in economic activity and a surge in job losses."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "poses considerable risks to the economic outlook over the medium term"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace"
+   }
+  ],
+  "rationale": "The Fed holds rates at the zero lower bound with open-ended guidance to keep them there, and commits to continued asset purchases at least at the current pace. It also describes severe economic weakness, subdued inflation and considerable downside risks, so the statement is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1014,
+     "end": 1208
+    },
+    {
+     "quote": "The virus and the measures taken to protect public health have induced sharp declines in economic activity and a surge in job losses.",
+     "start": 311,
+     "end": 443
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 445,
+     "end": 535
+    },
+    {
+     "quote": "poses considerable risks to the economic outlook over the medium term",
+     "start": 812,
+     "end": 881
+    },
+    {
+     "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace",
+     "start": 2046,
+     "end": 2228
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

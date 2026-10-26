@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20120831a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20120831a",
+  "doc_type": "speech",
+  "text_sha256": "1b5bf32352013d8313d2c86917bba925bbff329191b256b4f0659e7506d6e24b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f99b74307c6d7dec84cb1d9a1f08ac82d44037c3f04cac9a017a0a702312dfe4",
+ "message_id": "msg_011CgFugCWaxaTxh7vsbsQQZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8857,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Federal Reserve will provide additional policy accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The stagnation of the labor market in particular is a grave concern\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the costs of nontraditional policies, when considered carefully, appear manageable, implying that we should not rule out the further use of such policies if economic conditions warrant.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation (except for temporary deviations caused primarily by swings in commodity prices) has remained near the Committee's 2 percent objective and inflation expectations have remained stable.\"},{\"dimension\":\"risk_balance\",\"quote\":\"policymakers should take care to avoid a sharp near-term fiscal contraction that could endanger the recovery.\"}],\"rationale\":\"The speech defends the efficacy of asset purchases and forward guidance, judges their costs manageable, emphasizes grave labor market weakness and headwinds, and signals readiness for additional accommodation. Inflation is described as near target and stable, removing any obstacle to further easing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Federal Reserve will provide additional policy accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The stagnation of the labor market in particular is a grave concern"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the costs of nontraditional policies, when considered carefully, appear manageable, implying that we should not rule out the further use of such policies if economic conditions warrant."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation (except for temporary deviations caused primarily by swings in commodity prices) has remained near the Committee's 2 percent objective and inflation expectations have remained stable."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "policymakers should take care to avoid a sharp near-term fiscal contraction that could endanger the recovery."
+   }
+  ],
+  "rationale": "The speech defends the efficacy of asset purchases and forward guidance, judges their costs manageable, emphasizes grave labor market weakness and headwinds, and signals readiness for additional accommodation. Inflation is described as near target and stable, removing any obstacle to further easing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Reserve will provide additional policy accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 29325,
+     "end": 29524
+    },
+    {
+     "quote": "The stagnation of the labor market in particular is a grave concern",
+     "start": 28778,
+     "end": 28845
+    },
+    {
+     "quote": "the costs of nontraditional policies, when considered carefully, appear manageable, implying that we should not rule out the further use of such policies if economic conditions warrant.",
+     "start": 22013,
+     "end": 22197
+    },
+    {
+     "quote": "inflation (except for temporary deviations caused primarily by swings in commodity prices) has remained near the Committee's 2 percent objective and inflation expectations have remained stable.",
+     "start": 22746,
+     "end": 22938
+    },
+    {
+     "quote": "policymakers should take care to avoid a sharp near-term fiscal contraction that could endanger the recovery.",
+     "start": 26027,
+     "end": 26135
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

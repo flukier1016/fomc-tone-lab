@@ -1,0 +1,103 @@
+{
+ "key": "speech_kohn20100511a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20100511a",
+  "doc_type": "speech",
+  "text_sha256": "6361279f69696e05bf9cc8c3bdc5d809a331af01710b775c25f36737c14de601"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "50903aa62260d08d10dd3c3f486e9afa39d3303f6daba5b1455d7ae4b5b53dc0",
+ "message_id": "msg_011CgFugCAkMPiCThorK4BYH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3946,
+  "output_tokens": 425,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my remarks today, I will focus on global current account (or, external) imbalances, their role in contributing to vulnerabilities in the global economy\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pickup in business investment as the economic recovery strengthens could well outpace any increase in business profits and saving\"},{\"dimension\":\"risk_balance\",\"quote\":\"What is important is to ensure that international capital flows do not combine with other weaknesses in the financial system to lay the groundwork for some future global crisis.\"},{\"dimension\":\"overall\",\"quote\":\"One of the steps to achieve rebalancing must be placing U.S. fiscal policy on a more sustainable path.\"}],\"rationale\":\"The speech addresses global imbalances, financial stability and fiscal sustainability rather than the monetary policy path, so it carries no clear hawkish or dovish signal. Its references to the recovery strengthening are mild and descriptive.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my remarks today, I will focus on global current account (or, external) imbalances, their role in contributing to vulnerabilities in the global economy"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pickup in business investment as the economic recovery strengthens could well outpace any increase in business profits and saving"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "What is important is to ensure that international capital flows do not combine with other weaknesses in the financial system to lay the groundwork for some future global crisis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One of the steps to achieve rebalancing must be placing U.S. fiscal policy on a more sustainable path."
+   }
+  ],
+  "rationale": "The speech addresses global imbalances, financial stability and fiscal sustainability rather than the monetary policy path, so it carries no clear hawkish or dovish signal. Its references to the recovery strengthening are mild and descriptive."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my remarks today, I will focus on global current account (or, external) imbalances, their role in contributing to vulnerabilities in the global economy",
+     "start": 364,
+     "end": 518
+    },
+    {
+     "quote": "the pickup in business investment as the economic recovery strengthens could well outpace any increase in business profits and saving",
+     "start": 10323,
+     "end": 10456
+    },
+    {
+     "quote": "What is important is to ensure that international capital flows do not combine with other weaknesses in the financial system to lay the groundwork for some future global crisis.",
+     "start": 13092,
+     "end": 13268
+    },
+    {
+     "quote": "One of the steps to achieve rebalancing must be placing U.S. fiscal policy on a more sustainable path.",
+     "start": 10562,
+     "end": 10663
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

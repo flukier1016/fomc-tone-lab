@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20090812",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20090812",
+  "doc_type": "minutes",
+  "text_sha256": "667c86ee1f4d3fbe6049988ee4b62a2f9d933849aaca03b49d2f5f58701143b0"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4b994780b3ac3a0a407cd02dde2ca25d062c8bd3282977ccfb738455f00616bd",
+ "message_id": "msg_011CgG27xSB8Y8voZs7MzDiH",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12486,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"members thought it most likely that the federal funds rate would need to be maintained at an exceptionally low level for an extended period\"},{\"dimension\":\"risk_balance\",\"quote\":\"With the downside risks to the economic outlook now considerably reduced but the economic recovery likely to be damped\"},{\"dimension\":\"balance_sheet\",\"quote\":\"decide to gradually slow the pace of the remainder of its purchases of $300 billion of Treasury securities and extend their completion to the end of October to help promote a smooth transition in markets\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Most participants anticipated that substantial slack in resource utilization would lead to subdued and potentially declining wage and price inflation over the next few years\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions remained of particular concern to meeting participants.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve has the tools and willingness to begin withdrawing monetary policy accommodation at the appropriate time to prevent any persistent increase in inflation\"}],\"rationale\":\"The minutes keep the extended-period low-rate guidance and stress slack, weak labor markets and subdued inflation. Offsetting this, downside risks are seen as reduced, Treasury purchases are tapered, and exit tools are discussed, so the net lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "members thought it most likely that the federal funds rate would need to be maintained at an exceptionally low level for an extended period"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With the downside risks to the economic outlook now considerably reduced but the economic recovery likely to be damped"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "decide to gradually slow the pace of the remainder of its purchases of $300 billion of Treasury securities and extend their completion to the end of October to help promote a smooth transition in markets"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Most participants anticipated that substantial slack in resource utilization would lead to subdued and potentially declining wage and price inflation over the next few years"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions remained of particular concern to meeting participants."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve has the tools and willingness to begin withdrawing monetary policy accommodation at the appropriate time to prevent any persistent increase in inflation"
+   }
+  ],
+  "rationale": "The minutes keep the extended-period low-rate guidance and stress slack, weak labor markets and subdued inflation. Offsetting this, downside risks are seen as reduced, Treasury purchases are tapered, and exit tools are discussed, so the net lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "members thought it most likely that the federal funds rate would need to be maintained at an exceptionally low level for an extended period",
+     "start": 36386,
+     "end": 36525
+    },
+    {
+     "quote": "With the downside risks to the economic outlook now considerably reduced but the economic recovery likely to be damped",
+     "start": 36527,
+     "end": 36645
+    },
+    {
+     "quote": "decide to gradually slow the pace of the remainder of its purchases of $300 billion of Treasury securities and extend their completion to the end of October to help promote a smooth transition in markets",
+     "start": 36802,
+     "end": 37005
+    },
+    {
+     "quote": "Most participants anticipated that substantial slack in resource utilization would lead to subdued and potentially declining wage and price inflation over the next few years",
+     "start": 27669,
+     "end": 27842
+    },
+    {
+     "quote": "Labor market conditions remained of particular concern to meeting participants.",
+     "start": 31074,
+     "end": 31152
+    },
+    {
+     "quote": "the Federal Reserve has the tools and willingness to begin withdrawing monetary policy accommodation at the appropriate time to prevent any persistent increase in inflation",
+     "start": 28599,
+     "end": 28771
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

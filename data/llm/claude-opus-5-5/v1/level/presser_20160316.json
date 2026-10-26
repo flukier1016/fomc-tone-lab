@@ -1,0 +1,121 @@
+{
+ "key": "presser_20160316",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20160316",
+  "doc_type": "presser",
+  "text_sha256": "4f3a471b7cea0c96c5547a2366abf8ffe80c5cb7aaa4f83f0a6926213d23b0d7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b7d7bc715e6b9b5ef7f40fb4e1d73112d65701b187fdae7d89d28a891c914126",
+ "message_id": "msg_011CgFug8WUfx2UyjQLq3PGK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10407,
+  "output_tokens": 550,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Compared with the projections made in December, the median path is about ½ percentage point lower this year and next; the median longer-run normal federal funds rate has been revised down as well.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Such caution is appropriate given that short-term interest rates are still near zero, which means that monetary policy has greater scope to respond to upside than to downside changes in the outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"So I'm wary and haven't yet concluded that we have seen any significant uptick that will be lasting in, for example, in core inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market continues to strengthen.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Maintaining our sizable holdings of longer-term securities should help maintain accommodative financial conditions\"},{\"dimension\":\"forward_guidance\",\"quote\":\"April remains a live meeting, and we will be tracking incoming data.\"}],\"rationale\":\"The Chair holds rates and emphasizes a lower projected path for the policy rate, caution in light of global risks, and doubts about the durability of the inflation pickup, while noting continued labor market strength. Still-expected gradual hikes and a 'live' April meeting temper the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Compared with the projections made in December, the median path is about ½ percentage point lower this year and next; the median longer-run normal federal funds rate has been revised down as well."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Such caution is appropriate given that short-term interest rates are still near zero, which means that monetary policy has greater scope to respond to upside than to downside changes in the outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "So I'm wary and haven't yet concluded that we have seen any significant uptick that will be lasting in, for example, in core inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market continues to strengthen."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Maintaining our sizable holdings of longer-term securities should help maintain accommodative financial conditions"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "April remains a live meeting, and we will be tracking incoming data."
+   }
+  ],
+  "rationale": "The Chair holds rates and emphasizes a lower projected path for the policy rate, caution in light of global risks, and doubts about the durability of the inflation pickup, while noting continued labor market strength. Still-expected gradual hikes and a 'live' April meeting temper the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Compared with the projections made in December, the median path is about ½ percentage point lower this year and next; the median longer-run normal federal funds rate has been revised down as well.",
+     "start": 9067,
+     "end": 9262
+    },
+    {
+     "quote": "Such caution is appropriate given that short-term interest rates are still near zero, which means that monetary policy has greater scope to respond to upside than to downside changes in the outlook.",
+     "start": 7383,
+     "end": 7580
+    },
+    {
+     "quote": "So I'm wary and haven't yet concluded that we have seen any significant uptick that will be lasting in, for example, in core inflation.",
+     "start": 14968,
+     "end": 15102
+    },
+    {
+     "quote": "The labor market continues to strengthen.",
+     "start": 925,
+     "end": 965
+    },
+    {
+     "quote": "Maintaining our sizable holdings of longer-term securities should help maintain accommodative financial conditions",
+     "start": 10989,
+     "end": 11103
+    },
+    {
+     "quote": "April remains a live meeting, and we will be tracking incoming data.",
+     "start": 18538,
+     "end": 18605
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

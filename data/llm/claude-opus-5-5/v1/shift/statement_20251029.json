@@ -1,0 +1,139 @@
+{
+ "key": "statement_20251029",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20251029",
+  "previous_doc_id": "statement_20250917",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b04295c82f9f5f590d8ec0856e8ec44dad10fd843d94ea5c56eba9c52f7448b7",
+ "message_id": "msg_011CgFudwhnytvPPkfAEco9m",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1479,
+  "output_tokens": 595,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Recent indicators suggest that growth of economic activity moderated in the first half of the year.\",\"after\":\"Available indicators suggest that economic activity has been expanding at a moderate pace.\",\"direction\":\"hawkish\"},{\"before\":\"judges that downside risks to employment have risen.\",\"after\":\"judges that downside risks to employment rose in recent months.\",\"direction\":\"neutral\"},{\"before\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4‑1/4 percent.\",\"after\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.\",\"after\":\"The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.\",\"direction\":\"dovish\"},{\"before\":\"Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting.\",\"after\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\",\"direction\":\"hawkish\"}],\"rationale\":\"The Committee cut again and announced an end to balance-sheet runoff on December 1, both easing steps, though a hawkish dissent and a firmer description of activity partly offset the dovish signal. Forward guidance was unchanged, so the net shift is modestly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Recent indicators suggest that growth of economic activity moderated in the first half of the year.",
+    "after": "Available indicators suggest that economic activity has been expanding at a moderate pace.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "judges that downside risks to employment have risen.",
+    "after": "judges that downside risks to employment rose in recent months.",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4‑1/4 percent.",
+    "after": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "after": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting.",
+    "after": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The Committee cut again and announced an end to balance-sheet runoff on December 1, both easing steps, though a hawkish dissent and a firmer description of activity partly offset the dovish signal. Forward guidance was unchanged, so the net shift is modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent indicators suggest that growth of economic activity moderated in the first half of the year.",
+     "start": 0,
+     "end": 98
+    },
+    {
+     "quote": "judges that downside risks to employment have risen.",
+     "start": 479,
+     "end": 530
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4‑1/4 percent.",
+     "start": 608,
+     "end": 728
+    },
+    {
+     "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+     "start": 915,
+     "end": 1041
+    },
+    {
+     "quote": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting.",
+     "start": 1985,
+     "end": 2140
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Available indicators suggest that economic activity has been expanding at a moderate pace.",
+     "start": 0,
+     "end": 89
+    },
+    {
+     "quote": "judges that downside risks to employment rose in recent months.",
+     "start": 585,
+     "end": 647
+    },
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent.",
+     "start": 725,
+     "end": 845
+    },
+    {
+     "quote": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.",
+     "start": 1032,
+     "end": 1130
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting, and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+     "start": 2055,
+     "end": 2322
+    }
+   ]
+  }
+ }
+}

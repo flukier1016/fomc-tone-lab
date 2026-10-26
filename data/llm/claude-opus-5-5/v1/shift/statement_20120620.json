@@ -1,0 +1,164 @@
+{
+ "key": "statement_20120620",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20120620",
+  "previous_doc_id": "statement_20120425",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0d44aeb4e39a1c1fb0775b227ab6a579ac5a7e8fb75bff8dd0996170184c5b53",
+ "message_id": "msg_011CgFudUd7ibZooacf2ZTYH",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1976,
+  "output_tokens": 703,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.\",\"after\":\"However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.\",\"direction\":\"dovish\"},{\"before\":\"Household spending and business fixed investment have continued to advance.\",\"after\":\"Household spending appears to be rising at a somewhat slower pace than earlier in the year.\",\"direction\":\"dovish\"},{\"before\":\"Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.\",\"after\":\"Inflation has declined, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.\",\"direction\":\"dovish\"},{\"before\":\"Consequently, the Committee anticipates that the unemployment rate will decline gradually toward levels\",\"after\":\"Consequently, the Committee anticipates that the unemployment rate will decline only slowly toward levels\",\"direction\":\"dovish\"},{\"before\":\"The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September.\",\"after\":\"The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"This continuation of the maturity extension program should put downward pressure on longer-term interest rates and help to make broader financial conditions more accommodative.\",\"direction\":\"dovish\"},{\"before\":\"The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate to promote a stronger economic recovery in a context of price stability.\",\"after\":\"The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee extended the maturity extension program through year-end, a new easing action, while downgrading its assessments of employment, spending and inflation. It also added an explicit readiness to take further action tied to labor market improvement.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.",
+    "after": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Household spending and business fixed investment have continued to advance.",
+    "after": "Household spending appears to be rising at a somewhat slower pace than earlier in the year.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.",
+    "after": "Inflation has declined, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Consequently, the Committee anticipates that the unemployment rate will decline gradually toward levels",
+    "after": "Consequently, the Committee anticipates that the unemployment rate will decline only slowly toward levels",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September.",
+    "after": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "This continuation of the maturity extension program should put downward pressure on longer-term interest rates and help to make broader financial conditions more accommodative.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate to promote a stronger economic recovery in a context of price stability.",
+    "after": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee extended the maturity extension program through year-end, a new easing action, while downgrading its assessments of employment, spending and inflation. It also added an explicit readiness to take further action tied to labor market improvement."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Labor market conditions have improved in recent months; the unemployment rate has declined but remains elevated.",
+     "start": 131,
+     "end": 242
+    },
+    {
+     "quote": "Household spending and business fixed investment have continued to advance.",
+     "start": 244,
+     "end": 318
+    },
+    {
+     "quote": "Inflation has picked up somewhat, mainly reflecting higher prices of crude oil and gasoline.",
+     "start": 393,
+     "end": 484
+    },
+    {
+     "quote": "Consequently, the Committee anticipates that the unemployment rate will decline gradually toward levels",
+     "start": 771,
+     "end": 874
+    },
+    {
+     "quote": "The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September.",
+     "start": 1882,
+     "end": 2019
+    },
+    {
+     "quote": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate to promote a stronger economic recovery in a context of price stability.",
+     "start": 2275,
+     "end": 2490
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.",
+     "start": 141,
+     "end": 242
+    },
+    {
+     "quote": "Household spending appears to be rising at a somewhat slower pace than earlier in the year.",
+     "start": 296,
+     "end": 386
+    },
+    {
+     "quote": "Inflation has declined, mainly reflecting lower prices of crude oil and gasoline, and longer-term inflation expectations have remained stable.",
+     "start": 461,
+     "end": 602
+    },
+    {
+     "quote": "Consequently, the Committee anticipates that the unemployment rate will decline only slowly toward levels",
+     "start": 828,
+     "end": 933
+    },
+    {
+     "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.",
+     "start": 1850,
+     "end": 1989
+    },
+    {
+     "quote": "This continuation of the maturity extension program should put downward pressure on longer-term interest rates and help to make broader financial conditions more accommodative.",
+     "start": 2249,
+     "end": 2424
+    },
+    {
+     "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 2618,
+     "end": 2806
+    }
+   ]
+  }
+ }
+}

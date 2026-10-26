@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20220324a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20220324a",
+  "doc_type": "speech",
+  "text_sha256": "a3bbdd398829d1a17fcf90eb40465bbebf1d800a5a1e5f1e80cc11d055a32499"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "446654d7ab7c047f0b99eba1d59c24caa20aefaa851b1155f998119c35e08e8f",
+ "message_id": "msg_011CgFugDf3WCAjm3TMwxs7V",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5793,
+  "output_tokens": 514,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we raised the target range for the federal funds rate above the effective lower bound and signaled that more policy tightening is likely appropriate in coming months.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"some recent research suggests that the rate of rent inflation in the CPI will double in 2022.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"with the economy already at maximum employment and experiencing a shortage of skilled workers\"},{\"dimension\":\"risk_balance\",\"quote\":\"Longer term, many issues will continue to put upward pressure on home prices and rents.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"First, we acted by reducing and then stopping our asset purchases.\"},{\"dimension\":\"overall\",\"quote\":\"With housing costs gaining an ever-larger weight in the inflation Americans experience, I will be looking even more closely at real estate to judge the appropriate stance of monetary policy.\"}],\"rationale\":\"The speech is mainly about housing, but it highlights accelerating rent inflation, an economy at maximum employment, and the Committee's signal of further tightening. The financial stability discussion is reassuring, yet the net lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we raised the target range for the federal funds rate above the effective lower bound and signaled that more policy tightening is likely appropriate in coming months."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "some recent research suggests that the rate of rent inflation in the CPI will double in 2022."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "with the economy already at maximum employment and experiencing a shortage of skilled workers"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Longer term, many issues will continue to put upward pressure on home prices and rents."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "First, we acted by reducing and then stopping our asset purchases."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With housing costs gaining an ever-larger weight in the inflation Americans experience, I will be looking even more closely at real estate to judge the appropriate stance of monetary policy."
+   }
+  ],
+  "rationale": "The speech is mainly about housing, but it highlights accelerating rent inflation, an economy at maximum employment, and the Committee's signal of further tightening. The financial stability discussion is reassuring, yet the net lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we raised the target range for the federal funds rate above the effective lower bound and signaled that more policy tightening is likely appropriate in coming months.",
+     "start": 7547,
+     "end": 7712
+    },
+    {
+     "quote": "some recent research suggests that the rate of rent inflation in the CPI will double in 2022.",
+     "start": 2970,
+     "end": 3062
+    },
+    {
+     "quote": "with the economy already at maximum employment and experiencing a shortage of skilled workers",
+     "start": 18620,
+     "end": 18713
+    },
+    {
+     "quote": "Longer term, many issues will continue to put upward pressure on home prices and rents.",
+     "start": 18229,
+     "end": 18315
+    },
+    {
+     "quote": "First, we acted by reducing and then stopping our asset purchases.",
+     "start": 7452,
+     "end": 7517
+    },
+    {
+     "quote": "With housing costs gaining an ever-larger weight in the inflation Americans experience, I will be looking even more closely at real estate to judge the appropriate stance of monetary policy.",
+     "start": 19167,
+     "end": 19356
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

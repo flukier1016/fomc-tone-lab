@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20141017a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20141017a",
+  "doc_type": "speech",
+  "text_sha256": "87925bfd29d51522ab297f36c3e9088996950a6099022ba7a79e6471bc22edfc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "50620823a92c7d38016b45cd44301401a11cbf21dc8dd89d972f0d827f321e18",
+ "message_id": "msg_011CgFugGTiDsCXindbAcRFM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7719,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But widening inequality resumed in the recovery, as the stock market rebounded, wage growth and the healing of the labor market have been slow\"},{\"dimension\":\"overall\",\"quote\":\"The extent of and continuing increase in inequality in the United States greatly concern me.\"},{\"dimension\":\"overall\",\"quote\":\"My purpose today is not to provide answers to these contentious questions, but rather to provide a factual basis for further discussion.\"}],\"rationale\":\"The speech is about income and wealth inequality and economic opportunity, with no discussion of monetary policy, inflation, or the balance sheet. The only macro note, a passing mention of slow wage growth and labor market healing, leans slightly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But widening inequality resumed in the recovery, as the stock market rebounded, wage growth and the healing of the labor market have been slow"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The extent of and continuing increase in inequality in the United States greatly concern me."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My purpose today is not to provide answers to these contentious questions, but rather to provide a factual basis for further discussion."
+   }
+  ],
+  "rationale": "The speech is about income and wealth inequality and economic opportunity, with no discussion of monetary policy, inflation, or the balance sheet. The only macro note, a passing mention of slow wage growth and labor market healing, leans slightly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But widening inequality resumed in the recovery, as the stock market rebounded, wage growth and the healing of the labor market have been slow",
+     "start": 393,
+     "end": 535
+    },
+    {
+     "quote": "The extent of and continuing increase in inequality in the United States greatly concern me.",
+     "start": 690,
+     "end": 781
+    },
+    {
+     "quote": "My purpose today is not to provide answers to these contentious questions, but rather to provide a factual basis for further discussion.",
+     "start": 2458,
+     "end": 2593
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

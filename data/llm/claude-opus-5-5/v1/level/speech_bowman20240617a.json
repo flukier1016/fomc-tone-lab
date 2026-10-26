@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240617a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240617a",
+  "doc_type": "speech",
+  "text_sha256": "3d9ad4ab5a7619b5294c92c6a783ea649a5f3d7da9a50d822937b6ebb5004cba"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "46cf5ae20ec7037c3785025eeb3bc35fe31ae6809e4e60d2e00b8f792d48d535",
+ "message_id": "msg_011CgFugD2qbAFoPkmgC63Bs",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6950,
+  "output_tokens": 342,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"So, today I would like to discuss how we can create a regulatory environment that fosters successful innovation.\"},{\"dimension\":\"overall\",\"quote\":\"Financial innovation must be a core regulatory priority, in the sense that we must devote regulatory and supervisory resources and attention to building a framework that permits responsible innovation to flourish.\"},{\"dimension\":\"overall\",\"quote\":\"A reflexive \\\"no\\\" from regulators can encourage activity to migrate out of the banking system.\"}],\"rationale\":\"The speech concerns bank regulation and financial innovation, with no discussion of interest rates, inflation, the economic outlook, or the balance sheet. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "So, today I would like to discuss how we can create a regulatory environment that fosters successful innovation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Financial innovation must be a core regulatory priority, in the sense that we must devote regulatory and supervisory resources and attention to building a framework that permits responsible innovation to flourish."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A reflexive \"no\" from regulators can encourage activity to migrate out of the banking system."
+   }
+  ],
+  "rationale": "The speech concerns bank regulation and financial innovation, with no discussion of interest rates, inflation, the economic outlook, or the balance sheet. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So, today I would like to discuss how we can create a regulatory environment that fosters successful innovation.",
+     "start": 2071,
+     "end": 2182
+    },
+    {
+     "quote": "Financial innovation must be a core regulatory priority, in the sense that we must devote regulatory and supervisory resources and attention to building a framework that permits responsible innovation to flourish.",
+     "start": 18995,
+     "end": 19207
+    },
+    {
+     "quote": "A reflexive \"no\" from regulators can encourage activity to migrate out of the banking system.",
+     "start": 2608,
+     "end": 2700
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

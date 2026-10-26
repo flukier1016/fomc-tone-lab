@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20240116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240116a",
+  "doc_type": "speech",
+  "text_sha256": "bd741121101e4940b5076df2684743c1a3ccaef9da48d34ba3f5ba75b209e806"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "556d0c6d90c4c393358c59f35e11ab0ccdcd28347626fc0d69a430094b1a8a38",
+ "message_id": "msg_011CgFugF5rw1QMp7fAjbH3Q",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4830,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"As long as inflation doesn't rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I see no reason to move as quickly or cut as rapidly as in the past.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I am becoming more confident that we are within striking distance of achieving a sustainable level of 2 percent PCE inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Today, I view the risks to our employment and inflation mandates as being more closely balanced.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So, from now on, the setting of policy needs to proceed with more caution to avoid over-tightening.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"These are all signs that the labor market continues to come into better balance.\"}],\"rationale\":\"The speaker signals rate cuts this year given confidence that inflation is nearing 2 percent and risks are balanced, with explicit concern about over-tightening. This is tempered by insistence that cuts be methodical, not rushed, and data-dependent.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "As long as inflation doesn't rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I see no reason to move as quickly or cut as rapidly as in the past."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I am becoming more confident that we are within striking distance of achieving a sustainable level of 2 percent PCE inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Today, I view the risks to our employment and inflation mandates as being more closely balanced."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So, from now on, the setting of policy needs to proceed with more caution to avoid over-tightening."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "These are all signs that the labor market continues to come into better balance."
+   }
+  ],
+  "rationale": "The speaker signals rate cuts this year given confidence that inflation is nearing 2 percent and risks are balanced, with explicit concern about over-tightening. This is tempered by insistence that cuts be methodical, not rushed, and data-dependent."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As long as inflation doesn't rebound and stay elevated, I believe the FOMC will be able to lower the target range for the federal funds rate this year.",
+     "start": 13655,
+     "end": 13805
+    },
+    {
+     "quote": "I see no reason to move as quickly or cut as rapidly as in the past.",
+     "start": 15298,
+     "end": 15365
+    },
+    {
+     "quote": "I am becoming more confident that we are within striking distance of achieving a sustainable level of 2 percent PCE inflation.",
+     "start": 12308,
+     "end": 12433
+    },
+    {
+     "quote": "Today, I view the risks to our employment and inflation mandates as being more closely balanced.",
+     "start": 13180,
+     "end": 13275
+    },
+    {
+     "quote": "So, from now on, the setting of policy needs to proceed with more caution to avoid over-tightening.",
+     "start": 9021,
+     "end": 9119
+    },
+    {
+     "quote": "These are all signs that the labor market continues to come into better balance.",
+     "start": 5146,
+     "end": 5225
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_jefferson20231108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20231108a",
+  "doc_type": "speech",
+  "text_sha256": "eeb3a8815f3b2e8a28dbbbda45fb9a0844809f1f5375a0279d1120f47f8f4155"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "13842ddb86b21c688687b9ae6eba1b712055c56a5292c1dbd012beca41d1b952",
+ "message_id": "msg_011CgFugFDJQwPjRZS1ToKDS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2421,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"The second case is when inflation expectations threaten to become unanchored. If expectations were to begin to drift, the reality or expectation of a weak monetary policy response would exacerbate the problem.\"},{\"dimension\":\"overall\",\"quote\":\"I do not foresee that some all-powerful artificial intelligence will be able to perfectly balance the risks of doing too little or too much.\"},{\"dimension\":\"overall\",\"quote\":\"Of course, the right response to uncertainty is probably context specific and thus varies over time.\"}],\"rationale\":\"This is a commemorative speech about the research division, data, and decision-making under uncertainty, and it offers no view on current conditions or the policy path. A general nod to forceful responses when inflation expectations drift is only faintly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "The second case is when inflation expectations threaten to become unanchored. If expectations were to begin to drift, the reality or expectation of a weak monetary policy response would exacerbate the problem."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I do not foresee that some all-powerful artificial intelligence will be able to perfectly balance the risks of doing too little or too much."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Of course, the right response to uncertainty is probably context specific and thus varies over time."
+   }
+  ],
+  "rationale": "This is a commemorative speech about the research division, data, and decision-making under uncertainty, and it offers no view on current conditions or the policy path. A general nod to forceful responses when inflation expectations drift is only faintly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The second case is when inflation expectations threaten to become unanchored. If expectations were to begin to drift, the reality or expectation of a weak monetary policy response would exacerbate the problem.",
+     "start": 6880,
+     "end": 7088
+    },
+    {
+     "quote": "I do not foresee that some all-powerful artificial intelligence will be able to perfectly balance the risks of doing too little or too much.",
+     "start": 7275,
+     "end": 7414
+    },
+    {
+     "quote": "Of course, the right response to uncertainty is probably context specific and thus varies over time.",
+     "start": 6349,
+     "end": 6448
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

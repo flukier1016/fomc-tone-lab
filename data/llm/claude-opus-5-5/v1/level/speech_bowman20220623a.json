@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20220623a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220623a",
+  "doc_type": "speech",
+  "text_sha256": "453c2eb50e9638053f9bd793c6e8a58e5cd7e790c7dcfc1ac5c75124f1572145"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "32ba587fc0ac05c729581f2f302a41db462723ad75c74da7e8ad6ae795e4a36a",
+ "message_id": "msg_011CgFug94iRYjgVN3Ntgxzb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2558,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.92,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I expect that an additional rate increase of 75 basis points will be appropriate at our next meeting as well as increases of at least 50 basis points in the next few subsequent meetings\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is the highest we have seen in the United States in 40 years and so far it shows little sign of moderating.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market is extremely tight, as indicated by a variety of measures\"},{\"dimension\":\"risk_balance\",\"quote\":\"But in my view, our number one responsibility is to reduce inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it would make sense to eventually incorporate MBS sales into the plan so that reaching this goal does not take too long.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I am therefore committed to a policy that will bring the real federal funds rate back into positive territory.\"}],\"rationale\":\"The speaker explicitly calls for another 75 bp hike, followed by at least 50 bp hikes and a positive real policy rate, and she also advocates MBS sales. She frames inflation as the overriding priority while describing the labor market as extremely tight.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.92,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect that an additional rate increase of 75 basis points will be appropriate at our next meeting as well as increases of at least 50 basis points in the next few subsequent meetings"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is the highest we have seen in the United States in 40 years and so far it shows little sign of moderating."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market is extremely tight, as indicated by a variety of measures"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But in my view, our number one responsibility is to reduce inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it would make sense to eventually incorporate MBS sales into the plan so that reaching this goal does not take too long."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I am therefore committed to a policy that will bring the real federal funds rate back into positive territory."
+   }
+  ],
+  "rationale": "The speaker explicitly calls for another 75 bp hike, followed by at least 50 bp hikes and a positive real policy rate, and she also advocates MBS sales. She frames inflation as the overriding priority while describing the labor market as extremely tight."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I expect that an additional rate increase of 75 basis points will be appropriate at our next meeting as well as increases of at least 50 basis points in the next few subsequent meetings",
+     "start": 5344,
+     "end": 5529
+    },
+    {
+     "quote": "Inflation is the highest we have seen in the United States in 40 years and so far it shows little sign of moderating.",
+     "start": 519,
+     "end": 635
+    },
+    {
+     "quote": "the labor market is extremely tight, as indicated by a variety of measures",
+     "start": 702,
+     "end": 776
+    },
+    {
+     "quote": "But in my view, our number one responsibility is to reduce inflation.",
+     "start": 6429,
+     "end": 6497
+    },
+    {
+     "quote": "it would make sense to eventually incorporate MBS sales into the plan so that reaching this goal does not take too long.",
+     "start": 7215,
+     "end": 7334
+    },
+    {
+     "quote": "I am therefore committed to a policy that will bring the real federal funds rate back into positive territory.",
+     "start": 6171,
+     "end": 6280
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

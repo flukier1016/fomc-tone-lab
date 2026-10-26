@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20200521a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20200521a",
+  "doc_type": "speech",
+  "text_sha256": "9beb483ccd9e97850d34e896288fffd4551ea74aa89f782303e4b5f6fd6b06d2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c5acfbc472753765cd6684fb4222cb560498e29e65dc51ed553136a601c8411f",
+ "message_id": "msg_011CgFugEpzLuQLyiS8ACj3z",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 954,
+  "output_tokens": 338,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We are in the midst of an economic downturn without modern precedent. It was sudden, and it is severe.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"It has already erased the job gains of the past decade and has inflicted acute pain across the country.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We are now experiencing a whole new level of uncertainty, as questions only the virus can answer complicate the outlook.\"}],\"rationale\":\"These are welcoming remarks with no policy signal. They describe a severe, unprecedented downturn and high uncertainty, which implies a dovish lean through the activity assessment alone.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We are in the midst of an economic downturn without modern precedent. It was sudden, and it is severe."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "It has already erased the job gains of the past decade and has inflicted acute pain across the country."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We are now experiencing a whole new level of uncertainty, as questions only the virus can answer complicate the outlook."
+   }
+  ],
+  "rationale": "These are welcoming remarks with no policy signal. They describe a severe, unprecedented downturn and high uncertainty, which implies a dovish lean through the activity assessment alone."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are in the midst of an economic downturn without modern precedent. It was sudden, and it is severe.",
+     "start": 1309,
+     "end": 1410
+    },
+    {
+     "quote": "It has already erased the job gains of the past decade and has inflicted acute pain across the country.",
+     "start": 1412,
+     "end": 1514
+    },
+    {
+     "quote": "We are now experiencing a whole new level of uncertainty, as questions only the virus can answer complicate the outlook.",
+     "start": 1964,
+     "end": 2083
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240207a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240207a",
+  "doc_type": "speech",
+  "text_sha256": "94915e7e7e16508e18033e3bf909806c9e5a6853d0368f905acdceea525eef84"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8fd6fccbbbf154d2c069a72d2062ae4832994716da5421121723dedb9d447c6c",
+ "message_id": "msg_011CgFugESB8hnvQNNVd94FZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3078,
+  "output_tokens": 379,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I'd like to highlight the role of small businesses and entrepreneurship in the U.S. labor market and, in turn, the importance of access to capital in creating and maintaining jobs in those businesses.\"},{\"dimension\":\"overall\",\"quote\":\"My FOMC colleagues and I strive to find the balance between these objectives, and when considering how best to promote a healthy economy, it is important that the Fed supports a labor market that works for both employees and employers.\"},{\"dimension\":\"overall\",\"quote\":\"Community banks remain an essential resource for many small businesses to access capital to support their businesses.\"}],\"rationale\":\"The speech covers small business, entrepreneurship and community bank access to capital, with no discussion of the rate outlook, inflation or the balance sheet. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I'd like to highlight the role of small businesses and entrepreneurship in the U.S. labor market and, in turn, the importance of access to capital in creating and maintaining jobs in those businesses."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My FOMC colleagues and I strive to find the balance between these objectives, and when considering how best to promote a healthy economy, it is important that the Fed supports a labor market that works for both employees and employers."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Community banks remain an essential resource for many small businesses to access capital to support their businesses."
+   }
+  ],
+  "rationale": "The speech covers small business, entrepreneurship and community bank access to capital, with no discussion of the rate outlook, inflation or the balance sheet. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I'd like to highlight the role of small businesses and entrepreneurship in the U.S. labor market and, in turn, the importance of access to capital in creating and maintaining jobs in those businesses.",
+     "start": 1376,
+     "end": 1582
+    },
+    {
+     "quote": "My FOMC colleagues and I strive to find the balance between these objectives, and when considering how best to promote a healthy economy, it is important that the Fed supports a labor market that works for both employees and employers.",
+     "start": 1139,
+     "end": 1373
+    },
+    {
+     "quote": "Community banks remain an essential resource for many small businesses to access capital to support their businesses.",
+     "start": 6153,
+     "end": 6269
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

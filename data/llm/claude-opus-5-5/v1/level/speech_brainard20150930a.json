@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20150930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20150930a",
+  "doc_type": "speech",
+  "text_sha256": "3786775f4ffae094e38cdf78bdf6345e71126d827b05227226c566d57d840163"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6b1afddf7c8617fae199daf3eeb7dda740f14b8d4d8fa0e72d86eee0e1b07305",
+ "message_id": "msg_011CgFug9vJxHm7ZDdwUv6gN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5436,
+  "output_tokens": 355,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I want to focus on one of the most important of those segments--the provision of credit to small businesses--and to explore how the traditional role of community banks may be affected by the growing role of online lenders.\"},{\"dimension\":\"overall\",\"quote\":\"As regulators, we also want to help the various stakeholders anticipate and carefully manage the associated risks.\"},{\"dimension\":\"overall\",\"quote\":\"I remain confident that community bankers will continue to play a vital role in the small business lending landscape\"}],\"rationale\":\"The speech addresses community bank small business lending and online alternative lenders, a supervisory and industry-structure topic. It offers no view on monetary policy, inflation, or the macroeconomic outlook, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I want to focus on one of the most important of those segments--the provision of credit to small businesses--and to explore how the traditional role of community banks may be affected by the growing role of online lenders."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As regulators, we also want to help the various stakeholders anticipate and carefully manage the associated risks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I remain confident that community bankers will continue to play a vital role in the small business lending landscape"
+   }
+  ],
+  "rationale": "The speech addresses community bank small business lending and online alternative lenders, a supervisory and industry-structure topic. It offers no view on monetary policy, inflation, or the macroeconomic outlook, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I want to focus on one of the most important of those segments--the provision of credit to small businesses--and to explore how the traditional role of community banks may be affected by the growing role of online lenders.",
+     "start": 732,
+     "end": 959
+    },
+    {
+     "quote": "As regulators, we also want to help the various stakeholders anticipate and carefully manage the associated risks.",
+     "start": 15474,
+     "end": 15587
+    },
+    {
+     "quote": "I remain confident that community bankers will continue to play a vital role in the small business lending landscape",
+     "start": 18340,
+     "end": 18456
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20160329a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20160329a",
+  "doc_type": "speech",
+  "text_sha256": "6e5a518603387051ed52451c55eff2b0f438df6416f64639fb9b8a8cfbe56aeb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "607115bc70987e270b7c9d81ed6ed75add1b041a648028364b6d59622e3ddfe7",
+ "message_id": "msg_011CgFugBjT9nH47n7vCxj5i",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6683,
+  "output_tokens": 622,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Given the risks to the outlook, I consider it appropriate for the Committee to proceed cautiously in adjusting policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"developments abroad imply that meeting our objectives for employment and inflation will likely require a somewhat lower path for the federal funds rate than was anticipated in December.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"It is still my judgment that inflation expectations are well anchored, but as I will shortly discuss, continued low readings for some indicators of expected inflation do concern me.\"},{\"dimension\":\"risk_balance\",\"quote\":\"By contrast, if the expansion was to falter or if inflation was to remain stubbornly low, the FOMC would be able to provide only a modest degree of additional stimulus by cutting the federal funds rate back to near zero.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"forward guidance about the future path of the federal funds rate and increases in the size or duration of our holdings of long-term securities.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Readings on the U.S. economy since the turn of the year have been somewhat mixed.\"}],\"rationale\":\"The speaker stresses caution, a lower expected rate path, asymmetric risks at the zero lower bound, and concern about drifting inflation expectations, while acknowledging a solid labor market. The net signal is a clear dovish lean toward slow, cautious tightening, with willingness to use unconventional easing if needed.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given the risks to the outlook, I consider it appropriate for the Committee to proceed cautiously in adjusting policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "developments abroad imply that meeting our objectives for employment and inflation will likely require a somewhat lower path for the federal funds rate than was anticipated in December."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "It is still my judgment that inflation expectations are well anchored, but as I will shortly discuss, continued low readings for some indicators of expected inflation do concern me."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "By contrast, if the expansion was to falter or if inflation was to remain stubbornly low, the FOMC would be able to provide only a modest degree of additional stimulus by cutting the federal funds rate back to near zero."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "forward guidance about the future path of the federal funds rate and increases in the size or duration of our holdings of long-term securities."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Readings on the U.S. economy since the turn of the year have been somewhat mixed."
+   }
+  ],
+  "rationale": "The speaker stresses caution, a lower expected rate path, asymmetric risks at the zero lower bound, and concern about drifting inflation expectations, while acknowledging a solid labor market. The net signal is a clear dovish lean toward slow, cautious tightening, with willingness to use unconventional easing if needed."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given the risks to the outlook, I consider it appropriate for the Committee to proceed cautiously in adjusting policy.",
+     "start": 19081,
+     "end": 19198
+    },
+    {
+     "quote": "developments abroad imply that meeting our objectives for employment and inflation will likely require a somewhat lower path for the federal funds rate than was anticipated in December.",
+     "start": 18894,
+     "end": 19078
+    },
+    {
+     "quote": "It is still my judgment that inflation expectations are well anchored, but as I will shortly discuss, continued low readings for some indicators of expected inflation do concern me.",
+     "start": 11681,
+     "end": 11861
+    },
+    {
+     "quote": "By contrast, if the expansion was to falter or if inflation was to remain stubbornly low, the FOMC would be able to provide only a modest degree of additional stimulus by cutting the federal funds rate back to near zero.",
+     "start": 19572,
+     "end": 19791
+    },
+    {
+     "quote": "forward guidance about the future path of the federal funds rate and increases in the size or duration of our holdings of long-term securities.",
+     "start": 20281,
+     "end": 20423
+    },
+    {
+     "quote": "Readings on the U.S. economy since the turn of the year have been somewhat mixed.",
+     "start": 3680,
+     "end": 3760
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_waller20210329a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20210329a",
+  "doc_type": "speech",
+  "text_sha256": "4c47e57ab65fe55250511e339c600fa2d341669ac89578eea78094caa53d903b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a245826a29b7d116efaf1d10929b6f11d3f0fd24485d0b5521f5308053a8fac",
+ "message_id": "msg_011CgFug8idjaB1MKY9ms2Qp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4403,
+  "output_tokens": 407,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Monetary policy has not and will not be conducted for these purposes.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Deficit financing and debt servicing issues play no role in our policy decisions and never will.\"},{\"dimension\":\"overall\",\"quote\":\"Central bank independence is critical for maintaining that target and keeping inflation expectations in line with that target.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Going forward, the monetary policy choices of the FOMC will continue to be guided solely by our mandate to promote maximum employment and stable prices.\"}],\"rationale\":\"The speech is about central bank independence and rejects fiscal dominance, which carries a mild hawkish undertone through its warnings that political control leads to excessive inflation. It gives no concrete signal about the near-term policy path, inflation, or the labor market, so the net stance is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Monetary policy has not and will not be conducted for these purposes."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Deficit financing and debt servicing issues play no role in our policy decisions and never will."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Central bank independence is critical for maintaining that target and keeping inflation expectations in line with that target."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Going forward, the monetary policy choices of the FOMC will continue to be guided solely by our mandate to promote maximum employment and stable prices."
+   }
+  ],
+  "rationale": "The speech is about central bank independence and rejects fiscal dominance, which carries a mild hawkish undertone through its warnings that political control leads to excessive inflation. It gives no concrete signal about the near-term policy path, inflation, or the labor market, so the net stance is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Monetary policy has not and will not be conducted for these purposes.",
+     "start": 2184,
+     "end": 2252
+    },
+    {
+     "quote": "Deficit financing and debt servicing issues play no role in our policy decisions and never will.",
+     "start": 2532,
+     "end": 2627
+    },
+    {
+     "quote": "Central bank independence is critical for maintaining that target and keeping inflation expectations in line with that target.",
+     "start": 12604,
+     "end": 12729
+    },
+    {
+     "quote": "Going forward, the monetary policy choices of the FOMC will continue to be guided solely by our mandate to promote maximum employment and stable prices.",
+     "start": 13996,
+     "end": 14147
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

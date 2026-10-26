@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20101004a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20101004a",
+  "doc_type": "speech",
+  "text_sha256": "b5517ee0b3908d0e07876a2bcd9063eca2b1584f0a178fedca8adb325a73e0b1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8d3e9fc34bd773b3bc6658671b49694ce9b2b3a93d404411d3dccff2fb0b0965",
+ "message_id": "msg_011CgFugEtDJDtXHuV29HWT3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6544,
+  "output_tokens": 412,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The recent deep recession and the subsequent slow recovery have created severe budgetary pressures not only for many households and businesses, but for governments as well.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Economic conditions provide little scope for reducing deficits significantly further over the next year or two; indeed, premature fiscal tightening could put the recovery at risk.\"},{\"dimension\":\"overall\",\"quote\":\"the threat to our economy is real and growing, which should be sufficient reason for fiscal policymakers to put in place a credible plan for bringing deficits down to sustainable levels over the medium term.\"}],\"rationale\":\"The speech is about fiscal sustainability and fiscal rules and offers no view on monetary policy. Its brief references to a slow recovery and the risk of premature fiscal tightening give only a mild dovish tint to the activity and risk assessments.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The recent deep recession and the subsequent slow recovery have created severe budgetary pressures not only for many households and businesses, but for governments as well."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Economic conditions provide little scope for reducing deficits significantly further over the next year or two; indeed, premature fiscal tightening could put the recovery at risk."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the threat to our economy is real and growing, which should be sufficient reason for fiscal policymakers to put in place a credible plan for bringing deficits down to sustainable levels over the medium term."
+   }
+  ],
+  "rationale": "The speech is about fiscal sustainability and fiscal rules and offers no view on monetary policy. Its brief references to a slow recovery and the risk of premature fiscal tightening give only a mild dovish tint to the activity and risk assessments."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The recent deep recession and the subsequent slow recovery have created severe budgetary pressures not only for many households and businesses, but for governments as well.",
+     "start": 0,
+     "end": 171
+    },
+    {
+     "quote": "Economic conditions provide little scope for reducing deficits significantly further over the next year or two; indeed, premature fiscal tightening could put the recovery at risk.",
+     "start": 2391,
+     "end": 2569
+    },
+    {
+     "quote": "the threat to our economy is real and growing, which should be sufficient reason for fiscal policymakers to put in place a credible plan for bringing deficits down to sustainable levels over the medium term.",
+     "start": 10856,
+     "end": 11062
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

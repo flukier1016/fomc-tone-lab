@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20201211a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20201211a",
+  "doc_type": "speech",
+  "text_sha256": "bd9cae1c204f56630502a98f280b60ba9950364fba3768db6e5066b2c9bf84f4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b9391a0c03f6d04da31d5dc9ecd0f768b20655a70c55a6d79eee5e510d695e57",
+ "message_id": "msg_011CgFugADRRJfv7iMT7BgFk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8616,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I hope that the conference will encourage both more and a wider variety of academic work on bank supervision.\"},{\"dimension\":\"overall\",\"quote\":\"Because of the improved regulatory framework in place early this year, banks were in a strong position to deal with the challenges of the COVID event.\"},{\"dimension\":\"overall\",\"quote\":\"I believe the Federal Reserve has a duty to assess our supervisory practices with the same vigor as we have assessed our regulations.\"}],\"rationale\":\"The speech concerns bank supervision and supervisory ratings, with no discussion of monetary policy, inflation, or the macro outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I hope that the conference will encourage both more and a wider variety of academic work on bank supervision."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Because of the improved regulatory framework in place early this year, banks were in a strong position to deal with the challenges of the COVID event."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe the Federal Reserve has a duty to assess our supervisory practices with the same vigor as we have assessed our regulations."
+   }
+  ],
+  "rationale": "The speech concerns bank supervision and supervisory ratings, with no discussion of monetary policy, inflation, or the macro outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I hope that the conference will encourage both more and a wider variety of academic work on bank supervision.",
+     "start": 363,
+     "end": 471
+    },
+    {
+     "quote": "Because of the improved regulatory framework in place early this year, banks were in a strong position to deal with the challenges of the COVID event.",
+     "start": 6971,
+     "end": 7120
+    },
+    {
+     "quote": "I believe the Federal Reserve has a duty to assess our supervisory practices with the same vigor as we have assessed our regulations.",
+     "start": 29074,
+     "end": 29206
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

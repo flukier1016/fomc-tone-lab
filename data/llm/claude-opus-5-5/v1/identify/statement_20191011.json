@@ -1,0 +1,53 @@
+{
+ "key": "statement_20191011",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20191011",
+  "release_date": "2019-10-11"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "edb1133c52e268dc9e7f8df184aa6191ba8cc99ac1307c14a103efc379e2e706",
+ "message_id": "msg_011CgFudyyiNAXU4wwagoTe3",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1946,
+  "output_tokens": 388,
+  "output_tokens_details": {
+   "thinking_tokens": 109
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2019,\"month\":10,\"confidence\":0.9,\"cues\":[\"Treasury bill purchases announced to maintain reserves at or above the level of early (September), matching the reserve-management purchases begun after the September 2019 repo-market stress\",\"Term and overnight repo operations 'at least through [January] of next year'\",\"ON RRP offering rate of 1.70 percent, consistent with a 1.75-2.00 percent target range after the September 2019 cut\",\"Approved by notation vote between meetings rather than at a scheduled meeting, matching the October 11, 2019 statement\",\"References the January 2019 Statement Regarding Monetary Policy Implementation and Balance Sheet Normalization\",\"Release time given in EDT\",\"Agency MBS reinvestment up to $20 billion per month into Treasuries, the policy in effect after August 2019\"]}",
+ "parsed": {
+  "year": 2019,
+  "month": 10,
+  "confidence": 0.9,
+  "cues": [
+   "Treasury bill purchases announced to maintain reserves at or above the level of early (September), matching the reserve-management purchases begun after the September 2019 repo-market stress",
+   "Term and overnight repo operations 'at least through [January] of next year'",
+   "ON RRP offering rate of 1.70 percent, consistent with a 1.75-2.00 percent target range after the September 2019 cut",
+   "Approved by notation vote between meetings rather than at a scheduled meeting, matching the October 11, 2019 statement",
+   "References the January 2019 Statement Regarding Monetary Policy Implementation and Balance Sheet Normalization",
+   "Release time given in EDT",
+   "Agency MBS reinvestment up to $20 billion per month into Treasuries, the policy in effect after August 2019"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

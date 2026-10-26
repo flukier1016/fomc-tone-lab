@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20200409a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20200409a",
+  "doc_type": "speech",
+  "text_sha256": "9bdf47b3dd983217b12ac275f2909aa62eba262a32d9eeb4b0da5547adbdafe5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5e523c7eb3a8e034eadd64302cf0913146a32b237baf4e356763864b76e242cb",
+ "message_id": "msg_011CgFugLLsW9Xn6bd3zc1HV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1585,
+  "output_tokens": 447,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":null,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We have also committed to keeping rates at this low level until we are confident that the economy has weathered the storm and is on track to achieve our maximum-employment and price-stability goals.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We are moving with alarming speed from 50-year lows in unemployment to what will likely be very high, although temporary, levels.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We will continue to use these powers forcefully, proactively, and aggressively until we are confident that we are solidly on the road to recovery.\"},{\"dimension\":\"overall\",\"quote\":\"we have lowered interest rates to near zero in order to bring down borrowing costs.\"}],\"rationale\":\"The speech commits to keeping rates near zero until the recovery is secure and to aggressive use of emergency lending, amid a sharp rise in unemployment. It does not discuss inflation, and the strongly dovish signal is only modestly offset by optimism about a robust rebound.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We have also committed to keeping rates at this low level until we are confident that the economy has weathered the storm and is on track to achieve our maximum-employment and price-stability goals."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We are moving with alarming speed from 50-year lows in unemployment to what will likely be very high, although temporary, levels."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We will continue to use these powers forcefully, proactively, and aggressively until we are confident that we are solidly on the road to recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we have lowered interest rates to near zero in order to bring down borrowing costs."
+   }
+  ],
+  "rationale": "The speech commits to keeping rates near zero until the recovery is secure and to aggressive use of emergency lending, amid a sharp rise in unemployment. It does not discuss inflation, and the strongly dovish signal is only modestly offset by optimism about a robust rebound."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We have also committed to keeping rates at this low level until we are confident that the economy has weathered the storm and is on track to achieve our maximum-employment and price-stability goals.",
+     "start": 2273,
+     "end": 2470
+    },
+    {
+     "quote": "We are moving with alarming speed from 50-year lows in unemployment to what will likely be very high, although temporary, levels.",
+     "start": 846,
+     "end": 974
+    },
+    {
+     "quote": "We will continue to use these powers forcefully, proactively, and aggressively until we are confident that we are solidly on the road to recovery.",
+     "start": 3418,
+     "end": 3563
+    },
+    {
+     "quote": "we have lowered interest rates to near zero in order to bring down borrowing costs.",
+     "start": 2189,
+     "end": 2271
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

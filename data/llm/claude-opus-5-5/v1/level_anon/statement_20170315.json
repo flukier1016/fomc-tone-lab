@@ -1,0 +1,122 @@
+{
+ "key": "statement_20170315",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20170315",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "7d530dbee3722408ff817dce9cf9cc0608846c3a1dd840e38eaebad58c930054"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5511018abb140e8590dae0f49afe1f032770dd43cc8af099434107c9a21d4c3f",
+ "message_id": "msg_011CgFueJTDahYP7oRrSw2J3",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1069,
+  "output_tokens": 509,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to [RANGE] percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"excluding energy and food prices, inflation was little changed and continued to run somewhat below 2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it anticipates doing so until normalization of the level of the federal funds rate is well under way\"}],\"rationale\":\"The statement announces a rate hike and guides toward further gradual increases on a strengthening labor market, a clearly hawkish signal. Gradualism, core inflation still below 2 percent, balanced risks, continued reinvestment and a dissent favoring a hold temper the tightening signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to [RANGE] percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "excluding energy and food prices, inflation was little changed and continued to run somewhat below 2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way"
+   }
+  ],
+  "rationale": "The statement announces a rate hike and guides toward further gradual increases on a strengthening labor market, a clearly hawkish signal. Gradualism, core inflation still below 2 percent, balanced risks, continued reinvestment and a dissent favoring a hold temper the tightening signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to [RANGE] percent",
+     "start": 1405,
+     "end": 1498
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate",
+     "start": 2278,
+     "end": 2410
+    },
+    {
+     "quote": "the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace",
+     "start": 91,
+     "end": 205
+    },
+    {
+     "quote": "excluding energy and food prices, inflation was little changed and continued to run somewhat below 2 percent",
+     "start": 520,
+     "end": 628
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced.",
+     "start": 1155,
+     "end": 1218
+    },
+    {
+     "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way",
+     "start": 2906,
+     "end": 3006
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

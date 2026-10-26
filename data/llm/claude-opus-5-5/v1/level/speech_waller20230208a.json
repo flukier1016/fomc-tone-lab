@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20230208a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230208a",
+  "doc_type": "speech",
+  "text_sha256": "b19215e044a528757d69d50f709419ec24035f608d7318fd6bc7a6debc2b76ec"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "18e8e3a8b85070c0a5051b7bdc7a6b6382bffb0e8be8f35bb6aa9db34e34d94d",
+ "message_id": "msg_011CgFugAPb7wYj2Tg3AYwAu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5516,
+  "output_tokens": 576,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"And, it might be a long fight, with interest rates higher for longer than some are currently expecting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I expect the Fed will need to keep a tight stance of monetary policy for some time to slow activity further in 2023.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"No matter how one measures it, inflation has been running too hot for too long.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Based on last Friday's initial estimate, we learned that the U.S. economy created a whopping 517,000 jobs in January, 330,000 more than the solid growth that was expected by economic forecasters.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Such employment gains mean labor income will also be robust and buoy consumer spending, which could maintain upward pressure on inflation in the months ahead.\"},{\"dimension\":\"overall\",\"quote\":\"But I'm not seeing signals of this quick decline in the economic data, and I am prepared for a longer fight to get inflation down to our target.\"}],\"rationale\":\"The speaker stresses that inflation remains too high, the labor market is very tight and adds upward pressure, and policy will need to stay restrictive, with rates higher for longer than markets expect. Some acknowledgment of moderating inflation tempers the inflation assessment slightly, but the net signal is clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "And, it might be a long fight, with interest rates higher for longer than some are currently expecting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect the Fed will need to keep a tight stance of monetary policy for some time to slow activity further in 2023."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "No matter how one measures it, inflation has been running too hot for too long."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Based on last Friday's initial estimate, we learned that the U.S. economy created a whopping 517,000 jobs in January, 330,000 more than the solid growth that was expected by economic forecasters."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Such employment gains mean labor income will also be robust and buoy consumer spending, which could maintain upward pressure on inflation in the months ahead."
+   },
+   {
+    "dimension": "overall",
+    "quote": "But I'm not seeing signals of this quick decline in the economic data, and I am prepared for a longer fight to get inflation down to our target."
+   }
+  ],
+  "rationale": "The speaker stresses that inflation remains too high, the labor market is very tight and adds upward pressure, and policy will need to stay restrictive, with rates higher for longer than markets expect. Some acknowledgment of moderating inflation tempers the inflation assessment slightly, but the net signal is clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "And, it might be a long fight, with interest rates higher for longer than some are currently expecting.",
+     "start": 18356,
+     "end": 18458
+    },
+    {
+     "quote": "I expect the Fed will need to keep a tight stance of monetary policy for some time to slow activity further in 2023.",
+     "start": 488,
+     "end": 603
+    },
+    {
+     "quote": "No matter how one measures it, inflation has been running too hot for too long.",
+     "start": 6111,
+     "end": 6189
+    },
+    {
+     "quote": "Based on last Friday's initial estimate, we learned that the U.S. economy created a whopping 517,000 jobs in January, 330,000 more than the solid growth that was expected by economic forecasters.",
+     "start": 4006,
+     "end": 4200
+    },
+    {
+     "quote": "Such employment gains mean labor income will also be robust and buoy consumer spending, which could maintain upward pressure on inflation in the months ahead.",
+     "start": 4295,
+     "end": 4452
+    },
+    {
+     "quote": "But I'm not seeing signals of this quick decline in the economic data, and I am prepared for a longer fight to get inflation down to our target.",
+     "start": 876,
+     "end": 1019
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

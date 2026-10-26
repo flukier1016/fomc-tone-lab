@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20150506a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20150506a",
+  "doc_type": "speech",
+  "text_sha256": "02d3d9504333987a7daffda2d815e93bd82f34e76c8669e54be528233991157d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "16ba744d3b040199d64fc49bc41566ea94b15efd6cee2d99229d49998331088e",
+ "message_id": "msg_011CgFugCcY8dmnsGYCU6Zcz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3929,
+  "output_tokens": 341,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"To strengthen banks' resilience, the Federal Reserve and the other banking agencies have substantially increased capital requirements.\"},{\"dimension\":\"overall\",\"quote\":\"New liquidity regulations will also improve incentives in the financial system.\"},{\"dimension\":\"overall\",\"quote\":\"First, I believe that we and other supervisory agencies have made significant progress in addressing incentive problems within the financial sector, especially within the banking sector.\"}],\"rationale\":\"The speech addresses financial regulation, capital and liquidity requirements, and too-big-to-fail, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "To strengthen banks' resilience, the Federal Reserve and the other banking agencies have substantially increased capital requirements."
+   },
+   {
+    "dimension": "overall",
+    "quote": "New liquidity regulations will also improve incentives in the financial system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "First, I believe that we and other supervisory agencies have made significant progress in addressing incentive problems within the financial sector, especially within the banking sector."
+   }
+  ],
+  "rationale": "The speech addresses financial regulation, capital and liquidity requirements, and too-big-to-fail, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "To strengthen banks' resilience, the Federal Reserve and the other banking agencies have substantially increased capital requirements.",
+     "start": 5420,
+     "end": 5553
+    },
+    {
+     "quote": "New liquidity regulations will also improve incentives in the financial system.",
+     "start": 6749,
+     "end": 6827
+    },
+    {
+     "quote": "First, I believe that we and other supervisory agencies have made significant progress in addressing incentive problems within the financial sector, especially within the banking sector.",
+     "start": 12710,
+     "end": 12895
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

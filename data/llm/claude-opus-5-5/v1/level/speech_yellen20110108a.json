@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20110108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20110108a",
+  "doc_type": "speech",
+  "text_sha256": "6341ceac57e33d8f4ee27730681d06a4947dbdbd20949bc3ccc16da82e25701f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1c42de079770e7886e3daf9a5fbdc27f980c9eab83dde5f9043f382e0be648ae",
+ "message_id": "msg_011CgFugY3qAgTqgk7HHCTcu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9910,
+  "output_tokens": 579,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"In early November, the Committee announced that it intends to purchase an additional $600 billion in longer-term Treasury securities by the middle of this year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"weak labor demand appears to be the predominant factor keeping the unemployment rate elevated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"measures of underlying inflation have fallen somewhat below the levels of about 2 percent or a bit less that most Committee participants judge to be consistent\"},{\"dimension\":\"risk_balance\",\"quote\":\"continuing downside risks to the outlook for economic activity and inflation strengthened the case for providing additional monetary policy accommodation\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We recognize that the FOMC must withdraw monetary stimulus once the recovery has taken hold and the economy is improving at a healthy pace.\"},{\"dimension\":\"overall\",\"quote\":\"would argue for aggressive policies to reduce unemployment promptly.\"}],\"rationale\":\"The speech defends the $600 billion asset purchase program, emphasizing a large unemployment gap, below-target inflation, and downside risks, while dismissing inflation and financial-imbalance concerns. Its discussion of exit tools is framed as future contingency rather than a near-term tightening signal, so the net stance is clearly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "In early November, the Committee announced that it intends to purchase an additional $600 billion in longer-term Treasury securities by the middle of this year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "weak labor demand appears to be the predominant factor keeping the unemployment rate elevated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "measures of underlying inflation have fallen somewhat below the levels of about 2 percent or a bit less that most Committee participants judge to be consistent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "continuing downside risks to the outlook for economic activity and inflation strengthened the case for providing additional monetary policy accommodation"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We recognize that the FOMC must withdraw monetary stimulus once the recovery has taken hold and the economy is improving at a healthy pace."
+   },
+   {
+    "dimension": "overall",
+    "quote": "would argue for aggressive policies to reduce unemployment promptly."
+   }
+  ],
+  "rationale": "The speech defends the $600 billion asset purchase program, emphasizing a large unemployment gap, below-target inflation, and downside risks, while dismissing inflation and financial-imbalance concerns. Its discussion of exit tools is framed as future contingency rather than a near-term tightening signal, so the net stance is clearly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In early November, the Committee announced that it intends to purchase an additional $600 billion in longer-term Treasury securities by the middle of this year.",
+     "start": 1297,
+     "end": 1456
+    },
+    {
+     "quote": "weak labor demand appears to be the predominant factor keeping the unemployment rate elevated.",
+     "start": 18067,
+     "end": 18160
+    },
+    {
+     "quote": "measures of underlying inflation have fallen somewhat below the levels of about 2 percent or a bit less that most Committee participants judge to be consistent",
+     "start": 3809,
+     "end": 3968
+    },
+    {
+     "quote": "continuing downside risks to the outlook for economic activity and inflation strengthened the case for providing additional monetary policy accommodation",
+     "start": 5209,
+     "end": 5362
+    },
+    {
+     "quote": "We recognize that the FOMC must withdraw monetary stimulus once the recovery has taken hold and the economy is improving at a healthy pace.",
+     "start": 19157,
+     "end": 19295
+    },
+    {
+     "quote": "would argue for aggressive policies to reduce unemployment promptly.",
+     "start": 16161,
+     "end": 16228
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

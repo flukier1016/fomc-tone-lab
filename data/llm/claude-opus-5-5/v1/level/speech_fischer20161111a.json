@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20161111a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20161111a",
+  "doc_type": "speech",
+  "text_sha256": "803af97f8fb134bc3d0fd3da9cb45a8d581fc32d6014017473335f5ebd40f32f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "98b4b029feb169002b33f09f2de856180262ba3f17fafbae69d3c02b2db0827d",
+ "message_id": "msg_011CgFugEoFfPYSvuts79p4w",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6172,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Accordingly, the case for removing accommodation gradually is quite strong, keeping in mind that the future is uncertain and that monetary policy is not on a preset course.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In my view, the Fed appears reasonably close to achieving both the inflation and employment components of its mandate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am cautiously optimistic that the drag on the U.S. economy and inflation from past dollar appreciation may have mostly worked itself out, and that foreign economies are on a somewhat more secure footing that poses smaller downside risks to the U.S. economy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"U.S. policy rates are likely to increase only gradually--assuming that economic developments unfold reasonably in line with expectations--and to plateau at a significantly lower level than the historical average.\"},{\"dimension\":\"overall\",\"quote\":\"Such a gradual approach to tightening policy will also help mitigate the risk of undesirable spillovers abroad--including by reducing the risk of having to tighten more abruptly later on--and in turn promote a stronger global economy.\"}],\"rationale\":\"Fischer argues the case for gradually removing accommodation is quite strong, with the Fed close to its goals and foreign downside risks diminished. The hawkish lean is tempered by an emphasis on a gradual pace and a low terminal rate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Accordingly, the case for removing accommodation gradually is quite strong, keeping in mind that the future is uncertain and that monetary policy is not on a preset course."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In my view, the Fed appears reasonably close to achieving both the inflation and employment components of its mandate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am cautiously optimistic that the drag on the U.S. economy and inflation from past dollar appreciation may have mostly worked itself out, and that foreign economies are on a somewhat more secure footing that poses smaller downside risks to the U.S. economy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "U.S. policy rates are likely to increase only gradually--assuming that economic developments unfold reasonably in line with expectations--and to plateau at a significantly lower level than the historical average."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Such a gradual approach to tightening policy will also help mitigate the risk of undesirable spillovers abroad--including by reducing the risk of having to tighten more abruptly later on--and in turn promote a stronger global economy."
+   }
+  ],
+  "rationale": "Fischer argues the case for gradually removing accommodation is quite strong, with the Fed close to its goals and foreign downside risks diminished. The hawkish lean is tempered by an emphasis on a gradual pace and a low terminal rate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Accordingly, the case for removing accommodation gradually is quite strong, keeping in mind that the future is uncertain and that monetary policy is not on a preset course.",
+     "start": 13418,
+     "end": 13589
+    },
+    {
+     "quote": "In my view, the Fed appears reasonably close to achieving both the inflation and employment components of its mandate.",
+     "start": 13299,
+     "end": 13416
+    },
+    {
+     "quote": "I am cautiously optimistic that the drag on the U.S. economy and inflation from past dollar appreciation may have mostly worked itself out, and that foreign economies are on a somewhat more secure footing that poses smaller downside risks to the U.S. economy.",
+     "start": 4572,
+     "end": 4830
+    },
+    {
+     "quote": "U.S. policy rates are likely to increase only gradually--assuming that economic developments unfold reasonably in line with expectations--and to plateau at a significantly lower level than the historical average.",
+     "start": 17504,
+     "end": 17715
+    },
+    {
+     "quote": "Such a gradual approach to tightening policy will also help mitigate the risk of undesirable spillovers abroad--including by reducing the risk of having to tighten more abruptly later on--and in turn promote a stronger global economy.",
+     "start": 19779,
+     "end": 20012
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

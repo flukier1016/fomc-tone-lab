@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20131216a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20131216a",
+  "doc_type": "speech",
+  "text_sha256": "ecff5e8fbca46dc75b874522403f487c0182e032b0401dc4f2d8499ee258f52a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0c6ac6a665684fd92692e4102e5012fcec472cc79dab9d4299038c52a40b3af0",
+ "message_id": "msg_011CgFugCT7TMk44V9n87Awk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2353,
+  "output_tokens": 510,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"work on some of the Federal Reserve's most important challenges of the past few years--notably, achieving a full economic recovery from the crisis and putting in place a new financial regulatory system--is still ongoing.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Fed, like several other central banks, has purchased longer-term securities to put downward pressure on longer-term interest rates, help ease financial conditions, and promote a stronger recovery.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery\"},{\"dimension\":\"overall\",\"quote\":\"Providing adequate monetary accommodation has not been a straightforward task because our principal monetary policy tool, the target for the federal funds rate, has been stuck near zero since the end of 2008.\"}],\"rationale\":\"This is a retrospective speech on the Fed's crisis response and communication, with only mild dovish content: it notes the recovery is incomplete and describes accommodative tools. It offers no new forward-looking policy signal, so the lean is only modestly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "work on some of the Federal Reserve's most important challenges of the past few years--notably, achieving a full economic recovery from the crisis and putting in place a new financial regulatory system--is still ongoing."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Fed, like several other central banks, has purchased longer-term securities to put downward pressure on longer-term interest rates, help ease financial conditions, and promote a stronger recovery."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Providing adequate monetary accommodation has not been a straightforward task because our principal monetary policy tool, the target for the federal funds rate, has been stuck near zero since the end of 2008."
+   }
+  ],
+  "rationale": "This is a retrospective speech on the Fed's crisis response and communication, with only mild dovish content: it notes the recovery is incomplete and describes accommodative tools. It offers no new forward-looking policy signal, so the lean is only modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "work on some of the Federal Reserve's most important challenges of the past few years--notably, achieving a full economic recovery from the crisis and putting in place a new financial regulatory system--is still ongoing.",
+     "start": 199,
+     "end": 418
+    },
+    {
+     "quote": "the Fed, like several other central banks, has purchased longer-term securities to put downward pressure on longer-term interest rates, help ease financial conditions, and promote a stronger recovery.",
+     "start": 4846,
+     "end": 5045
+    },
+    {
+     "quote": "With our short-term policy rate about as low as it can practicably go, we have sought to ease financial conditions further and provide additional impetus to the recovery",
+     "start": 5685,
+     "end": 5854
+    },
+    {
+     "quote": "Providing adequate monetary accommodation has not been a straightforward task because our principal monetary policy tool, the target for the federal funds rate, has been stuck near zero since the end of 2008.",
+     "start": 4467,
+     "end": 4674
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "key": "statement_20130731",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20130731",
+  "previous_doc_id": "statement_20130619",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f10f4ad87f5b84691c3aec59a424da1374cea48e03dc786246decef34ae662ad",
+ "message_id": "msg_011CgFudUTCZBt15YWCPLwBt",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2874,
+  "output_tokens": 671,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in May suggests that economic activity has been expanding at a moderate pace.\",\"after\":\"Information received since the Federal Open Market Committee met in June suggests that economic activity expanded at a modest pace during the first half of the year.\",\"direction\":\"dovish\"},{\"before\":\"and the housing sector has strengthened further, but fiscal policy is restraining economic growth.\",\"after\":\"and the housing sector has been strengthening, but mortgage rates have risen somewhat and fiscal policy is restraining economic growth.\",\"direction\":\"dovish\"},{\"before\":\"economic growth will proceed at a moderate pace\",\"after\":\"economic growth will pick up from its recent pace\",\"direction\":\"neutral\"},{\"before\":\"The Committee also anticipates that inflation over the medium term likely will run at or below its 2 percent objective.\",\"after\":\"The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term.\",\"direction\":\"dovish\"},{\"before\":\"the Committee expects that a highly accommodative stance of monetary policy will remain appropriate\",\"after\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate\",\"direction\":\"dovish\"},{\"before\":\"Voting against the action was James Bullard, who believed that the Committee should signal more strongly its willingness to defend its inflation goal in light of recent low inflation readings, and Esther L. George,\",\"after\":\"Voting against the action was Esther L. George,\",\"direction\":\"neutral\"}],\"rationale\":\"The statement downgrades growth to 'modest', flags higher mortgage rates, adds explicit concern about persistently low inflation, and 'reaffirms' the accommodative guidance, all of which lean dovish. Policy settings and purchase pace are unchanged, and Bullard's dovish dissent was absorbed into the statement, so the shift is modest.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in May suggests that economic activity has been expanding at a moderate pace.",
+    "after": "Information received since the Federal Open Market Committee met in June suggests that economic activity expanded at a modest pace during the first half of the year.",
+    "direction": "dovish"
+   },
+   {
+    "before": "and the housing sector has strengthened further, but fiscal policy is restraining economic growth.",
+    "after": "and the housing sector has been strengthening, but mortgage rates have risen somewhat and fiscal policy is restraining economic growth.",
+    "direction": "dovish"
+   },
+   {
+    "before": "economic growth will proceed at a moderate pace",
+    "after": "economic growth will pick up from its recent pace",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee also anticipates that inflation over the medium term likely will run at or below its 2 percent objective.",
+    "after": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term.",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate",
+    "after": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against the action was James Bullard, who believed that the Committee should signal more strongly its willingness to defend its inflation goal in light of recent low inflation readings, and Esther L. George,",
+    "after": "Voting against the action was Esther L. George,",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement downgrades growth to 'modest', flags higher mortgage rates, adds explicit concern about persistently low inflation, and 'reaffirms' the accommodative guidance, all of which lean dovish. Policy settings and purchase pace are unchanged, and Bullard's dovish dissent was absorbed into the statement, so the shift is modest."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in May suggests that economic activity has been expanding at a moderate pace.",
+     "start": 0,
+     "end": 141
+    },
+    {
+     "quote": "and the housing sector has strengthened further, but fiscal policy is restraining economic growth.",
+     "start": 331,
+     "end": 428
+    },
+    {
+     "quote": "economic growth will proceed at a moderate pace",
+     "start": 780,
+     "end": 827
+    },
+    {
+     "quote": "The Committee also anticipates that inflation over the medium term likely will run at or below its 2 percent objective.",
+     "start": 1073,
+     "end": 1191
+    },
+    {
+     "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate",
+     "start": 2825,
+     "end": 2924
+    },
+    {
+     "quote": "Voting against the action was James Bullard, who believed that the Committee should signal more strongly its willingness to defend its inflation goal in light of recent low inflation readings, and Esther L. George,",
+     "start": 4277,
+     "end": 4490
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity expanded at a modest pace during the first half of the year.",
+     "start": 0,
+     "end": 164
+    },
+    {
+     "quote": "and the housing sector has been strengthening, but mortgage rates have risen somewhat and fiscal policy is restraining economic growth.",
+     "start": 354,
+     "end": 488
+    },
+    {
+     "quote": "economic growth will pick up from its recent pace",
+     "start": 840,
+     "end": 889
+    },
+    {
+     "quote": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, but it anticipates that inflation will move back toward its objective over the medium term.",
+     "start": 1135,
+     "end": 1350
+    },
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy will remain appropriate",
+     "start": 2984,
+     "end": 3101
+    },
+    {
+     "quote": "Voting against the action was Esther L. George,",
+     "start": 4469,
+     "end": 4515
+    }
+   ]
+  }
+ }
+}

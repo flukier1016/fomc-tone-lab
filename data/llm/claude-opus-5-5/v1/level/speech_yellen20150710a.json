@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20150710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20150710a",
+  "doc_type": "speech",
+  "text_sha256": "9af321984b907f486f739c3d5eea81c01650c4ee6adbbe1dc0ca23a308ba217b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5c0e77ccdc9cbc8ae39d71d9324272a1b081609c35e5f95b130f20e4ff0859bf",
+ "message_id": "msg_011CgFugBdzvvvmsuBpZk3K3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6819,
+  "output_tokens": 487,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I expect that it will be appropriate at some point later this year to take the first step to raise the federal funds rate and thus begin normalizing monetary policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"less progress has been made in moving inflation close to the FOMC's longer-run objective of 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the lower level of the unemployment rate today probably does not fully capture the extent of slack remaining in the labor market\"},{\"dimension\":\"risk_balance\",\"quote\":\"There are a couple of factors, however, that I expect could restrain economic growth.\"}],\"rationale\":\"The speech signals a rate liftoff later this year, which is hawkish relative to near-zero rates. That signal is tempered by an emphasis on gradual normalization, remaining labor slack, below-target inflation, and risks that could restrain growth.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I expect that it will be appropriate at some point later this year to take the first step to raise the federal funds rate and thus begin normalizing monetary policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "less progress has been made in moving inflation close to the FOMC's longer-run objective of 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the lower level of the unemployment rate today probably does not fully capture the extent of slack remaining in the labor market"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "There are a couple of factors, however, that I expect could restrain economic growth."
+   }
+  ],
+  "rationale": "The speech signals a rate liftoff later this year, which is hawkish relative to near-zero rates. That signal is tempered by an emphasis on gradual normalization, remaining labor slack, below-target inflation, and risks that could restrain growth."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I expect that it will be appropriate at some point later this year to take the first step to raise the federal funds rate and thus begin normalizing monetary policy.",
+     "start": 19504,
+     "end": 19668
+    },
+    {
+     "quote": "I currently anticipate that the appropriate pace of normalization will be gradual, and that monetary policy will need to be highly supportive of economic activity for quite some time.",
+     "start": 20376,
+     "end": 20558
+    },
+    {
+     "quote": "less progress has been made in moving inflation close to the FOMC's longer-run objective of 2 percent",
+     "start": 11410,
+     "end": 11511
+    },
+    {
+     "quote": "the lower level of the unemployment rate today probably does not fully capture the extent of slack remaining in the labor market",
+     "start": 6511,
+     "end": 6639
+    },
+    {
+     "quote": "There are a couple of factors, however, that I expect could restrain economic growth.",
+     "start": 17256,
+     "end": 17340
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

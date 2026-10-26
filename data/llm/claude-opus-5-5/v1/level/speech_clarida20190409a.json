@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20190409a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190409a",
+  "doc_type": "speech",
+  "text_sha256": "3110ebd34f329e26f425ce9cf5586e304fc2d59c1d85013f6d75226be40880c0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "848e21ec7f04e974923334d9aca3bc705f33f638956a3e198c07d39b53434c67",
+ "message_id": "msg_011CgFugE9K4JrFxo9mizpKu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5062,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Central banks are generally believed to have effective tools for preventing persistent inflation overshoots, but the effective lower bound on interest rates makes persistent undershoots more likely.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The range of plausible estimates likely extends at least as low as the current level of the unemployment rate.\"},{\"dimension\":\"overall\",\"quote\":\"In addition to assessing the efficacy of these existing tools, we will examine additional tools to ease policy when the ELB is binding.\"}],\"rationale\":\"This is a framework-review speech with no near-term policy signal; it describes a strong labor market with inflation near goal. The emphasis on ELB risks, inflation undershoots, makeup strategies, and the view that unemployment may not be beyond full employment gives a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Central banks are generally believed to have effective tools for preventing persistent inflation overshoots, but the effective lower bound on interest rates makes persistent undershoots more likely."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The range of plausible estimates likely extends at least as low as the current level of the unemployment rate."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In addition to assessing the efficacy of these existing tools, we will examine additional tools to ease policy when the ELB is binding."
+   }
+  ],
+  "rationale": "This is a framework-review speech with no near-term policy signal; it describes a strong labor market with inflation near goal. The emphasis on ELB risks, inflation undershoots, makeup strategies, and the view that unemployment may not be beyond full employment gives a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The unemployment rate is at a 50-year low, and inflation is running close to our 2 percent objective.",
+     "start": 2363,
+     "end": 2463
+    },
+    {
+     "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.",
+     "start": 3432,
+     "end": 3608
+    },
+    {
+     "quote": "Central banks are generally believed to have effective tools for preventing persistent inflation overshoots, but the effective lower bound on interest rates makes persistent undershoots more likely.",
+     "start": 9204,
+     "end": 9401
+    },
+    {
+     "quote": "The range of plausible estimates likely extends at least as low as the current level of the unemployment rate.",
+     "start": 5243,
+     "end": 5352
+    },
+    {
+     "quote": "In addition to assessing the efficacy of these existing tools, we will examine additional tools to ease policy when the ELB is binding.",
+     "start": 13044,
+     "end": 13178
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

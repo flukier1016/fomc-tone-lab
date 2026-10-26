@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20241107",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20241107",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "f9d0f147509a6132c8cfb1c37ef7a13a592e458be074a9883edb6ffc16a326b2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aec1cda13b95cddcd1487b83656d7c0eee76c3456d9109670caab94b6e67f5df",
+ "message_id": "msg_011CgFudxXu8ypptiiJyhqYR",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12347,
+  "output_tokens": 533,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it would likely be appropriate to move gradually toward a more neutral stance of policy over time\"},{\"dimension\":\"forward_guidance\",\"quote\":\"some participants noted that the Committee could pause its easing of the policy rate and hold it at a restrictive level if inflation remained elevated\"},{\"dimension\":\"risk_balance\",\"quote\":\"upside risks to the inflation outlook were seen as little changed, while downside risks to employment and growth were seen as having decreased somewhat.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants observed that recent data on economic activity and consumer spending were largely stronger than anticipated\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"participants indicated that they remained confident that inflation was moving sustainably toward 2 percent\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.\"}],\"rationale\":\"The minutes describe continued gradual easing toward neutral, a mildly dovish signal, but this is offset by stronger activity, diminished downside risks, and explicit mention of a possible pause. The net stance is roughly balanced with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it would likely be appropriate to move gradually toward a more neutral stance of policy over time"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "some participants noted that the Committee could pause its easing of the policy rate and hold it at a restrictive level if inflation remained elevated"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "upside risks to the inflation outlook were seen as little changed, while downside risks to employment and growth were seen as having decreased somewhat."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants observed that recent data on economic activity and consumer spending were largely stronger than anticipated"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "participants indicated that they remained confident that inflation was moving sustainably toward 2 percent"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings."
+   }
+  ],
+  "rationale": "The minutes describe continued gradual easing toward neutral, a mildly dovish signal, but this is offset by stronger activity, diminished downside risks, and explicit mention of a possible pause. The net stance is roughly balanced with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it would likely be appropriate to move gradually toward a more neutral stance of policy over time",
+     "start": 32248,
+     "end": 32345
+    },
+    {
+     "quote": "some participants noted that the Committee could pause its easing of the policy rate and hold it at a restrictive level if inflation remained elevated",
+     "start": 34014,
+     "end": 34164
+    },
+    {
+     "quote": "upside risks to the inflation outlook were seen as little changed, while downside risks to employment and growth were seen as having decreased somewhat.",
+     "start": 28120,
+     "end": 28271
+    },
+    {
+     "quote": "Participants observed that recent data on economic activity and consumer spending were largely stronger than anticipated",
+     "start": 25772,
+     "end": 25892
+    },
+    {
+     "quote": "participants indicated that they remained confident that inflation was moving sustainably toward 2 percent",
+     "start": 22639,
+     "end": 22745
+    },
+    {
+     "quote": "Participants judged that it was appropriate to continue the process of reducing the Federal Reserve's securities holdings.",
+     "start": 31893,
+     "end": 32014
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

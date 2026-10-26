@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20210323b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210323b",
+  "doc_type": "speech",
+  "text_sha256": "e4dbc27dca427313e44c32f71424bec5570f83c8b913a2ad13f275caefe9ac34"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "088b7a8bf91882d09ac4f07e72ae4a94fc215c759ad33fbbba38ba1706f008a8",
+ "message_id": "msg_011CgFug8SGGbD1TKt96fWie",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4218,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This approach implies resolute patience while the gap closes between current conditions and the maximum-employment and average inflation outcomes in the guidance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"By taking a patient approach based on outcomes rather than a preemptive approach based on the outlook, policy will be more effective in achieving broad-based and inclusive maximum employment and inflation that averages 2 percent over time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Entrenched inflation dynamics are likely to take over following the transitory pressures associated with reopening.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, with 9.5 million fewer jobs than pre-COVID levels, we are far from our broad-based and inclusive maximum-employment goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Persistently low inflation creates the risk that households and businesses come to expect inflation to run persistently below target and change their behavior in ways that reinforce low inflation.\"}],\"rationale\":\"The speech strongly endorses resolute patience and rejects preemptive tightening, framing the coming rise in inflation as transitory while emphasizing large labor market shortfalls and the risk of persistently low inflation. It acknowledges a brighter outlook and some upside spending risk, but the net signal is clearly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This approach implies resolute patience while the gap closes between current conditions and the maximum-employment and average inflation outcomes in the guidance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "By taking a patient approach based on outcomes rather than a preemptive approach based on the outlook, policy will be more effective in achieving broad-based and inclusive maximum employment and inflation that averages 2 percent over time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Entrenched inflation dynamics are likely to take over following the transitory pressures associated with reopening."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, with 9.5 million fewer jobs than pre-COVID levels, we are far from our broad-based and inclusive maximum-employment goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Persistently low inflation creates the risk that households and businesses come to expect inflation to run persistently below target and change their behavior in ways that reinforce low inflation."
+   }
+  ],
+  "rationale": "The speech strongly endorses resolute patience and rejects preemptive tightening, framing the coming rise in inflation as transitory while emphasizing large labor market shortfalls and the risk of persistently low inflation. It acknowledges a brighter outlook and some upside spending risk, but the net signal is clearly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This approach implies resolute patience while the gap closes between current conditions and the maximum-employment and average inflation outcomes in the guidance.",
+     "start": 9011,
+     "end": 9172
+    },
+    {
+     "quote": "By taking a patient approach based on outcomes rather than a preemptive approach based on the outlook, policy will be more effective in achieving broad-based and inclusive maximum employment and inflation that averages 2 percent over time.",
+     "start": 13190,
+     "end": 13428
+    },
+    {
+     "quote": "Entrenched inflation dynamics are likely to take over following the transitory pressures associated with reopening.",
+     "start": 8112,
+     "end": 8226
+    },
+    {
+     "quote": "Overall, with 9.5 million fewer jobs than pre-COVID levels, we are far from our broad-based and inclusive maximum-employment goal.",
+     "start": 3679,
+     "end": 3808
+    },
+    {
+     "quote": "Persistently low inflation creates the risk that households and businesses come to expect inflation to run persistently below target and change their behavior in ways that reinforce low inflation.",
+     "start": 11486,
+     "end": 11681
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

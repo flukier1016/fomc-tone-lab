@@ -1,0 +1,112 @@
+{
+ "key": "speech_tarullo20140409a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20140409a",
+  "doc_type": "speech",
+  "text_sha256": "a0dcd5eca9ee2c0c89569f67797bd0bef27b8e7267a09481cfcba5e334a85d6b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "10ce64f1d97774679dc665e5f3e050464d4d07c9734a450a723f156982de7b7a",
+ "message_id": "msg_011CgFugArs4GHjAfZrg2iMs",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7253,
+  "output_tokens": 461,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"But we should not rush to act preemptively in anticipation of such pressures based on arguments about the potential increase in structural unemployment in recent years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"(which, of course, we are currently not meeting on the downside)\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Last week Chair Yellen explained why substantial slack very likely remains.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But one sees only the earliest signs of a much-needed, broader wage recovery.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it seems less likely that we will experience a growth spurt in the next couple of years that would engender concerns about rapid wage pressures and changes in inflation expectations.\"}],\"rationale\":\"The speech is mostly about structural challenges, but its monetary policy section emphasizes remaining slack, weak wage growth and below-target inflation. It argues against preemptive tightening, which is a moderately dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "But we should not rush to act preemptively in anticipation of such pressures based on arguments about the potential increase in structural unemployment in recent years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "(which, of course, we are currently not meeting on the downside)"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Last week Chair Yellen explained why substantial slack very likely remains."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But one sees only the earliest signs of a much-needed, broader wage recovery."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it seems less likely that we will experience a growth spurt in the next couple of years that would engender concerns about rapid wage pressures and changes in inflation expectations."
+   }
+  ],
+  "rationale": "The speech is mostly about structural challenges, but its monetary policy section emphasizes remaining slack, weak wage growth and below-target inflation. It argues against preemptive tightening, which is a moderately dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But we should not rush to act preemptively in anticipation of such pressures based on arguments about the potential increase in structural unemployment in recent years.",
+     "start": 19532,
+     "end": 19699
+    },
+    {
+     "quote": "(which, of course, we are currently not meeting on the downside)",
+     "start": 19466,
+     "end": 19530
+    },
+    {
+     "quote": "Last week Chair Yellen explained why substantial slack very likely remains.",
+     "start": 19002,
+     "end": 19076
+    },
+    {
+     "quote": "But one sees only the earliest signs of a much-needed, broader wage recovery.",
+     "start": 18123,
+     "end": 18199
+    },
+    {
+     "quote": "it seems less likely that we will experience a growth spurt in the next couple of years that would engender concerns about rapid wage pressures and changes in inflation expectations.",
+     "start": 20410,
+     "end": 20591
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

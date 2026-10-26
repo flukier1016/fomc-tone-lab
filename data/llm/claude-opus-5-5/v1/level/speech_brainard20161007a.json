@@ -1,0 +1,85 @@
+{
+ "key": "speech_brainard20161007a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20161007a",
+  "doc_type": "speech",
+  "text_sha256": "9cbcb4d4ee37dde82ea3a81386de6d854b61d71dfc73a6a399ee30c36ee8db9e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "275b0d0e06a4121fe5a0e74fea6f028556e9dc575d09c09bfc474591ccb6b647",
+ "message_id": "msg_011CgFugBRrDNHzwHfJrVQGd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4523,
+  "output_tokens": 296,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"We are paying close attention to distributed ledger technology, or blockchain, recognizing this may represent the most significant development in many years in payments, clearing, and settlement.\"},{\"dimension\":\"overall\",\"quote\":\"We will work together to foster socially beneficial innovation, while insisting that risks are thoroughly understood, managed, and controlled.\"}],\"rationale\":\"The speech addresses distributed ledger technology and payments-system oversight and says nothing about monetary policy, inflation or economic activity. It therefore carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "We are paying close attention to distributed ledger technology, or blockchain, recognizing this may represent the most significant development in many years in payments, clearing, and settlement."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We will work together to foster socially beneficial innovation, while insisting that risks are thoroughly understood, managed, and controlled."
+   }
+  ],
+  "rationale": "The speech addresses distributed ledger technology and payments-system oversight and says nothing about monetary policy, inflation or economic activity. It therefore carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are paying close attention to distributed ledger technology, or blockchain, recognizing this may represent the most significant development in many years in payments, clearing, and settlement.",
+     "start": 1042,
+     "end": 1236
+    },
+    {
+     "quote": "We will work together to foster socially beneficial innovation, while insisting that risks are thoroughly understood, managed, and controlled.",
+     "start": 16289,
+     "end": 16430
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

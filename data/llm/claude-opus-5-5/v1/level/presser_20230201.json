@@ -1,0 +1,121 @@
+{
+ "key": "presser_20230201",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20230201",
+  "doc_type": "presser",
+  "text_sha256": "8c09f2de05df6d1dd2c6c26ffe1b2b35225a6061c7837ade0bd824ee27a6ede6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "56b22185385855453d0ecb9de65ed1974ffb3f38ac34f95bcb7ec1445513ca9f",
+ "message_id": "msg_011CgFugFgLLLwu7PwyEnG4L",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9942,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the FOMC raised our policy interest rate by 25 basis points.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if the economy performs broadly in line with those expectations, it will not be appropriate to cut rates this year, to loosen policy this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We can now say, I think, for the first time that the disinflationary process has started.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The historical record cautions strongly against prematurely loosening policy. We will stay the course, until the job is done.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we are continuing the process of significantly reducing the size of our balance sheet.\"}],\"rationale\":\"Powell announced a 25bp hike, signaled ongoing increases and no cuts this year, and stressed that core services inflation has not yet eased and that the labor market remains tight. The hawkish lean is tempered by the step-down in pace and his acknowledgment that disinflation has begun.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the FOMC raised our policy interest rate by 25 basis points."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if the economy performs broadly in line with those expectations, it will not be appropriate to cut rates this year, to loosen policy this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We can now say, I think, for the first time that the disinflationary process has started."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The historical record cautions strongly against prematurely loosening policy. We will stay the course, until the job is done."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we are continuing the process of significantly reducing the size of our balance sheet."
+   }
+  ],
+  "rationale": "Powell announced a 25bp hike, signaled ongoing increases and no cuts this year, and stressed that core services inflation has not yet eased and that the labor market remains tight. The hawkish lean is tempered by the step-down in pace and his acknowledgment that disinflation has begun."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the FOMC raised our policy interest rate by 25 basis points.",
+     "start": 712,
+     "end": 778
+    },
+    {
+     "quote": "if the economy performs broadly in line with those expectations, it will not be appropriate to cut rates this year, to loosen policy this year.",
+     "start": 26839,
+     "end": 26981
+    },
+    {
+     "quote": "We can now say, I think, for the first time that the disinflationary process has started.",
+     "start": 12329,
+     "end": 12417
+    },
+    {
+     "quote": "Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate at a 50-year low, job vacancies still very high, and wage growth elevated.",
+     "start": 1791,
+     "end": 1965
+    },
+    {
+     "quote": "The historical record cautions strongly against prematurely loosening policy. We will stay the course, until the job is done.",
+     "start": 5915,
+     "end": 6039
+    },
+    {
+     "quote": "we are continuing the process of significantly reducing the size of our balance sheet.",
+     "start": 986,
+     "end": 1071
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20100810",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20100810",
+  "doc_type": "minutes",
+  "text_sha256": "fd6c77e10cd0255a770f51a7da42f39dc22973c4722b3d3bfc9a32d35295bd51"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "956249dea2c25a69bb3018946e6fe60049a02f954eae1d33cfea60a5e4c0aa46",
+ "message_id": "msg_011CgFugFjZ9TGPsSaknT6dz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11661,
+  "output_tokens": 598,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"All but one member concluded that it would be appropriate to begin reinvesting principal received from agency debt and MBS held in the SOMA by purchasing longer-term Treasury securities\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee would need to consider steps it could take to provide additional policy stimulus if the outlook were to weaken appreciably further.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many said they expected underlying inflation to stay, for some time, below levels they judged most consistent with the dual mandate to promote maximum employment and price stability.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Many policymakers judged that downside risks to the U.S. recovery had become somewhat larger\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"most saw the incoming data as indicating that the economy was operating farther below its potential than they had thought, that the pace of recovery had slowed in recent months\"},{\"dimension\":\"overall\",\"quote\":\"members generally saw both employment and inflation as likely to fall short of levels consistent with the dual mandate for longer than had been anticipated.\"}],\"rationale\":\"The minutes describe a weakening recovery, low inflation with rising disinflation risk, a shift to reinvesting MBS principal to avoid tightening, and discussion of additional stimulus. Only one dissenter favored removing accommodation, so the net signal is clearly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "All but one member concluded that it would be appropriate to begin reinvesting principal received from agency debt and MBS held in the SOMA by purchasing longer-term Treasury securities"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee would need to consider steps it could take to provide additional policy stimulus if the outlook were to weaken appreciably further."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many said they expected underlying inflation to stay, for some time, below levels they judged most consistent with the dual mandate to promote maximum employment and price stability."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Many policymakers judged that downside risks to the U.S. recovery had become somewhat larger"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "most saw the incoming data as indicating that the economy was operating farther below its potential than they had thought, that the pace of recovery had slowed in recent months"
+   },
+   {
+    "dimension": "overall",
+    "quote": "members generally saw both employment and inflation as likely to fall short of levels consistent with the dual mandate for longer than had been anticipated."
+   }
+  ],
+  "rationale": "The minutes describe a weakening recovery, low inflation with rising disinflation risk, a shift to reinvesting MBS principal to avoid tightening, and discussion of additional stimulus. Only one dissenter favored removing accommodation, so the net signal is clearly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "All but one member concluded that it would be appropriate to begin reinvesting principal received from agency debt and MBS held in the SOMA by purchasing longer-term Treasury securities",
+     "start": 34062,
+     "end": 34247
+    },
+    {
+     "quote": "the Committee would need to consider steps it could take to provide additional policy stimulus if the outlook were to weaken appreciably further.",
+     "start": 34627,
+     "end": 34771
+    },
+    {
+     "quote": "Many said they expected underlying inflation to stay, for some time, below levels they judged most consistent with the dual mandate to promote maximum employment and price stability.",
+     "start": 30230,
+     "end": 30411
+    },
+    {
+     "quote": "Many policymakers judged that downside risks to the U.S. recovery had become somewhat larger",
+     "start": 29586,
+     "end": 29678
+    },
+    {
+     "quote": "most saw the incoming data as indicating that the economy was operating farther below its potential than they had thought, that the pace of recovery had slowed in recent months",
+     "start": 28889,
+     "end": 29065
+    },
+    {
+     "quote": "members generally saw both employment and inflation as likely to fall short of levels consistent with the dual mandate for longer than had been anticipated.",
+     "start": 32025,
+     "end": 32180
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

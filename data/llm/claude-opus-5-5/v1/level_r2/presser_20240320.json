@@ -1,0 +1,121 @@
+{
+ "key": "presser_20240320",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20240320",
+  "doc_type": "presser",
+  "text_sha256": "8bd5b41a44123a0bfb5b397f1c15737c4ab0059586e4a471021d6c4616787bbb"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1849da27e982fb48aab0218a1efefbe224a59b0aff21939a5a6b849230706ae4",
+ "message_id": "msg_011CgG27ntwSKP4YJMDQ9PnE",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 10062,
+  "output_tokens": 596,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably down toward 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the general sense of the Committee is that it will be appropriate to slow the pace of runoff fairly soon, consistent with the plans we previously issued.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I think they haven’t really changed the overall story, which is that of inflation moving down gradually on a sometimes-bumpy road toward 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we do see the risks as two-sided, so it is consequential. We want to be careful.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has been expanding at a solid pace.\"}],\"rationale\":\"Rates held with explicit signaling that policy is at peak and cuts are likely this year, plus a coming slowdown in runoff, tilt dovish, while caution over recent firm inflation readings and strong growth temper the lean. Risks are framed as two-sided and moving into better balance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably down toward 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the general sense of the Committee is that it will be appropriate to slow the pace of runoff fairly soon, consistent with the plans we previously issued."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I think they haven’t really changed the overall story, which is that of inflation moving down gradually on a sometimes-bumpy road toward 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we do see the risks as two-sided, so it is consequential. We want to be careful."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace."
+   }
+  ],
+  "rationale": "Rates held with explicit signaling that policy is at peak and cuts are likely this year, plus a coming slowdown in runoff, tilt dovish, while caution over recent firm inflation readings and strong growth temper the lean. Risks are framed as two-sided and moving into better balance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We believe that our policy rate is likely at its peak for this tightening cycle and that, if the economy evolves broadly as expected, it will likely be appropriate to begin dialing back policy restraint at some point this year.",
+     "start": 4298,
+     "end": 4524
+    },
+    {
+     "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably down toward 2 percent.",
+     "start": 5236,
+     "end": 5413
+    },
+    {
+     "quote": "the general sense of the Committee is that it will be appropriate to slow the pace of runoff fairly soon, consistent with the plans we previously issued.",
+     "start": 6621,
+     "end": 6773
+    },
+    {
+     "quote": "I think they haven’t really changed the overall story, which is that of inflation moving down gradually on a sometimes-bumpy road toward 2 percent.",
+     "start": 10974,
+     "end": 11120
+    },
+    {
+     "quote": "we do see the risks as two-sided, so it is consequential. We want to be careful.",
+     "start": 10050,
+     "end": 10129
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace.",
+     "start": 1123,
+     "end": 1206
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

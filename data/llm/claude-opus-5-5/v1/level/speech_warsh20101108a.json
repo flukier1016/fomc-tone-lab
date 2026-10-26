@@ -1,0 +1,121 @@
+{
+ "key": "speech_warsh20101108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20101108a",
+  "doc_type": "speech",
+  "text_sha256": "c349baa334b0873e14ae9d39248e08132103893bfe2d77eb3a210458f9769860"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "72e74bec1a8d3ffec66cbed247cc648ae9cbc43d5e5528817f1f65f378c923fd",
+ "message_id": "msg_011CgFugAUoCqFhNteC8Z7Vg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4651,
+  "output_tokens": 613,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"In my view, these risks increase with the size of the Federal Reserve's balance sheet.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And I consider the FOMC's action as necessarily limited, circumscribed, and subject to regular review.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"If the recent weakness in the dollar, run-up in commodity prices, and other forward-looking indicators are sustained and passed along into final prices, the Fed's price stability objective might no longer be a compelling policy rationale.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the current state of the U.S. economy is unimpressive: modest growth in output, high levels of unemployment, stagnant wages, low levels of consumer and business sentiment, and volatile financial markets.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But, expanding the Fed's balance sheet is not a free option. There are significant risks that bear careful monitoring by the FOMC.\"},{\"dimension\":\"overall\",\"quote\":\"Given what ails us, additional monetary policy measures are, at best, poor substitutes for more powerful pro-growth policies .\"}],\"rationale\":\"Despite acknowledging a weak economy, the speaker is skeptical of further asset purchases, emphasizes inflation and financial-stability risks from balance-sheet expansion, and signals readiness to alter the program even with high unemployment. This is a clear hawkish lean relative to the accommodative policy just adopted.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "In my view, these risks increase with the size of the Federal Reserve's balance sheet."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And I consider the FOMC's action as necessarily limited, circumscribed, and subject to regular review."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "If the recent weakness in the dollar, run-up in commodity prices, and other forward-looking indicators are sustained and passed along into final prices, the Fed's price stability objective might no longer be a compelling policy rationale."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the current state of the U.S. economy is unimpressive: modest growth in output, high levels of unemployment, stagnant wages, low levels of consumer and business sentiment, and volatile financial markets."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But, expanding the Fed's balance sheet is not a free option. There are significant risks that bear careful monitoring by the FOMC."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given what ails us, additional monetary policy measures are, at best, poor substitutes for more powerful pro-growth policies ."
+   }
+  ],
+  "rationale": "Despite acknowledging a weak economy, the speaker is skeptical of further asset purchases, emphasizes inflation and financial-stability risks from balance-sheet expansion, and signals readiness to alter the program even with high unemployment. This is a clear hawkish lean relative to the accommodative policy just adopted."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, these risks increase with the size of the Federal Reserve's balance sheet.",
+     "start": 10178,
+     "end": 10263
+    },
+    {
+     "quote": "And I consider the FOMC's action as necessarily limited, circumscribed, and subject to regular review.",
+     "start": 10763,
+     "end": 10864
+    },
+    {
+     "quote": "If the recent weakness in the dollar, run-up in commodity prices, and other forward-looking indicators are sustained and passed along into final prices, the Fed's price stability objective might no longer be a compelling policy rationale.",
+     "start": 11769,
+     "end": 12006
+    },
+    {
+     "quote": "the current state of the U.S. economy is unimpressive: modest growth in output, high levels of unemployment, stagnant wages, low levels of consumer and business sentiment, and volatile financial markets.",
+     "start": 56,
+     "end": 258
+    },
+    {
+     "quote": "But, expanding the Fed's balance sheet is not a free option. There are significant risks that bear careful monitoring by the FOMC.",
+     "start": 11638,
+     "end": 11767
+    },
+    {
+     "quote": "Given what ails us, additional monetary policy measures are, at best, poor substitutes for more powerful pro-growth policies .",
+     "start": 9193,
+     "end": 9317
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

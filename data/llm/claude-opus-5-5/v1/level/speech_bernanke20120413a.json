@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20120413a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20120413a",
+  "doc_type": "speech",
+  "text_sha256": "406a4d4a29b9d65963f6876b93d8e24457c2f927b2280adb99b61cdb111ec11c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c0084475050f3a1ca767934a9b152747622cb89264e3e26d97f5b1bfc0d3bba8",
+ "message_id": "msg_011CgFug8TkbCmqzer1MMsoH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8434,
+  "output_tokens": 390,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I will focus narrowly on the financial crisis and the Federal Reserve's response in its capacity as liquidity provider of last resort, leaving discussions of monetary policy and the aftermath of the crisis to another occasion.\"},{\"dimension\":\"overall\",\"quote\":\"By early 2010, emergency lending had been drastically reduced, along with the demand for such lending.\"},{\"dimension\":\"overall\",\"quote\":\"the promotion of financial stability must be on an equal footing with the management of monetary policy as the most critical policy priorities.\"}],\"rationale\":\"The speech is a historical analysis of the 2007-09 crisis and the Fed's lender-of-last-resort response, and it explicitly sets monetary policy aside. It offers no signal on rates, inflation, activity or the balance sheet outlook, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I will focus narrowly on the financial crisis and the Federal Reserve's response in its capacity as liquidity provider of last resort, leaving discussions of monetary policy and the aftermath of the crisis to another occasion."
+   },
+   {
+    "dimension": "overall",
+    "quote": "By early 2010, emergency lending had been drastically reduced, along with the demand for such lending."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the promotion of financial stability must be on an equal footing with the management of monetary policy as the most critical policy priorities."
+   }
+  ],
+  "rationale": "The speech is a historical analysis of the 2007-09 crisis and the Fed's lender-of-last-resort response, and it explicitly sets monetary policy aside. It offers no signal on rates, inflation, activity or the balance sheet outlook, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will focus narrowly on the financial crisis and the Federal Reserve's response in its capacity as liquidity provider of last resort, leaving discussions of monetary policy and the aftermath of the crisis to another occasion.",
+     "start": 493,
+     "end": 718
+    },
+    {
+     "quote": "By early 2010, emergency lending had been drastically reduced, along with the demand for such lending.",
+     "start": 24264,
+     "end": 24365
+    },
+    {
+     "quote": "the promotion of financial stability must be on an equal footing with the management of monetary policy as the most critical policy priorities.",
+     "start": 28186,
+     "end": 28328
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

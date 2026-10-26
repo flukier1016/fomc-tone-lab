@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20180213a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20180213a",
+  "doc_type": "speech",
+  "text_sha256": "30357bb0ee4430426b83fd075efce1eb87994f309318377c9d6cfa0a9199e1ea"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "56f354530befcb1038bd73f60b6920c31730390e6b2bc95ae40ff2f7c6af97e9",
+ "message_id": "msg_011CgFugJy2WAWLwkZaWWpLH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1222,
+  "output_tokens": 383,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We are in the process of gradually normalizing both interest rate policy and our balance sheet with a view to extending the recovery and sustaining the pursuit of our objectives.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Today, the global economy is recovering strongly for the first time in a decade.\"},{\"dimension\":\"overall\",\"quote\":\"we have made great progress in moving much closer to those statutory objectives.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We will remain alert to any developing risks to financial stability.\"}],\"rationale\":\"This is a ceremonial swearing-in speech that mostly covers institutional values and gives little policy detail. It affirms continued gradual normalization of rates and the balance sheet amid a strong recovery, a mild hawkish lean overall.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are in the process of gradually normalizing both interest rate policy and our balance sheet with a view to extending the recovery and sustaining the pursuit of our objectives."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Today, the global economy is recovering strongly for the first time in a decade."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we have made great progress in moving much closer to those statutory objectives."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We will remain alert to any developing risks to financial stability."
+   }
+  ],
+  "rationale": "This is a ceremonial swearing-in speech that mostly covers institutional values and gives little policy detail. It affirms continued gradual normalization of rates and the balance sheet amid a strong recovery, a mild hawkish lean overall."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are in the process of gradually normalizing both interest rate policy and our balance sheet with a view to extending the recovery and sustaining the pursuit of our objectives.",
+     "start": 3376,
+     "end": 3553
+    },
+    {
+     "quote": "Today, the global economy is recovering strongly for the first time in a decade.",
+     "start": 3295,
+     "end": 3374
+    },
+    {
+     "quote": "we have made great progress in moving much closer to those statutory objectives.",
+     "start": 2064,
+     "end": 2143
+    },
+    {
+     "quote": "We will remain alert to any developing risks to financial stability.",
+     "start": 3693,
+     "end": 3760
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

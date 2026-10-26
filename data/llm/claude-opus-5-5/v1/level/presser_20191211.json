@@ -1,0 +1,121 @@
+{
+ "key": "presser_20191211",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20191211",
+  "doc_type": "presser",
+  "text_sha256": "42c4f6c11bc2024c6abc7cbbe4e5c6f60a01738d70241ff6f5fd772f6faf29ef"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8da800089808f763da2653f09196b291ff72a89cebf421c34d6db980767d7539",
+ "message_id": "msg_011CgFugFGH6ocLFUNQVzX2K",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11914,
+  "output_tokens": 596,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"my colleagues and I decided to leave our policy rate unchanged after lowering it a total of ¾ percentage point at the previous three meetings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would want to see inflation that’s persistent and that’s significant—a significant move-up in inflation that’s also persistent before raising rates to address inflation concerns.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation that runs persistently below our objective can lead to an unhealthy dynamic in which longer-term inflation expectations drift down, pulling actual inflation even lower.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate has been near half-century lows for well more than a year, and the pace of job gains remains solid.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there’s actually more slack out there, in a sense. And—and the risks of, you know, using accommodative monetary policy, our tool, to explore that are relatively low.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we’re raising the underlying level of reserves through bill purchases.\"}],\"rationale\":\"Rates held after three cuts with guidance that policy is on hold, but a high bar for hikes (persistent, significant inflation) plus emphasis on below-target inflation and labor slack tilt the message dovish. The economy is described as strong, and reserve-management bill purchases are framed as technical expansion.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "my colleagues and I decided to leave our policy rate unchanged after lowering it a total of ¾ percentage point at the previous three meetings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would want to see inflation that’s persistent and that’s significant—a significant move-up in inflation that’s also persistent before raising rates to address inflation concerns."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation that runs persistently below our objective can lead to an unhealthy dynamic in which longer-term inflation expectations drift down, pulling actual inflation even lower."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate has been near half-century lows for well more than a year, and the pace of job gains remains solid."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there’s actually more slack out there, in a sense. And—and the risks of, you know, using accommodative monetary policy, our tool, to explore that are relatively low."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we’re raising the underlying level of reserves through bill purchases."
+   }
+  ],
+  "rationale": "Rates held after three cuts with guidance that policy is on hold, but a high bar for hikes (persistent, significant inflation) plus emphasis on below-target inflation and labor slack tilt the message dovish. The economy is described as strong, and reserve-management bill purchases are framed as technical expansion."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "my colleagues and I decided to leave our policy rate unchanged after lowering it a total of ¾ percentage point at the previous three meetings.",
+     "start": 926,
+     "end": 1067
+    },
+    {
+     "quote": "I would want to see inflation that’s persistent and that’s significant—a significant move-up in inflation that’s also persistent before raising rates to address inflation concerns.",
+     "start": 14691,
+     "end": 14870
+    },
+    {
+     "quote": "inflation that runs persistently below our objective can lead to an unhealthy dynamic in which longer-term inflation expectations drift down, pulling actual inflation even lower.",
+     "start": 3503,
+     "end": 3680
+    },
+    {
+     "quote": "The unemployment rate has been near half-century lows for well more than a year, and the pace of job gains remains solid.",
+     "start": 2318,
+     "end": 2438
+    },
+    {
+     "quote": "there’s actually more slack out there, in a sense. And—and the risks of, you know, using accommodative monetary policy, our tool, to explore that are relatively low.",
+     "start": 22427,
+     "end": 22591
+    },
+    {
+     "quote": "we’re raising the underlying level of reserves through bill purchases.",
+     "start": 12910,
+     "end": 12979
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_duke20100408a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100408a",
+  "doc_type": "speech",
+  "text_sha256": "7ebc0e0e99b475c884db4f083e9272da4e3fae97b03e88f564f6d455526e3d4c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c04324e734de4f53c64489d48cf8a18355d9b3bffe27ed507a4d76d30a948719",
+ "message_id": "msg_011CgFugAs7LfJCGZrUGhQai",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1892,
+  "output_tokens": 282,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Jump$tart's mission to develop a more financially literate population supports the Federal Reserve's goal of a stable and growing economy.\"},{\"dimension\":\"overall\",\"quote\":\"Recently, the Federal Reserve has written strong new consumer protection rules for mortgages, credit cards, and overdraft charges.\"}],\"rationale\":\"The speech is about financial literacy and consumer protection and contains no monetary policy or economic outlook content. All policy dimensions are null and the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Jump$tart's mission to develop a more financially literate population supports the Federal Reserve's goal of a stable and growing economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Recently, the Federal Reserve has written strong new consumer protection rules for mortgages, credit cards, and overdraft charges."
+   }
+  ],
+  "rationale": "The speech is about financial literacy and consumer protection and contains no monetary policy or economic outlook content. All policy dimensions are null and the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Jump$tart's mission to develop a more financially literate population supports the Federal Reserve's goal of a stable and growing economy.",
+     "start": 1433,
+     "end": 1570
+    },
+    {
+     "quote": "Recently, the Federal Reserve has written strong new consumer protection rules for mortgages, credit cards, and overdraft charges.",
+     "start": 5974,
+     "end": 6103
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

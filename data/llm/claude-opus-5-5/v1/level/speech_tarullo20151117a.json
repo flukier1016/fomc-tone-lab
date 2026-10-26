@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20151117a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20151117a",
+  "doc_type": "speech",
+  "text_sha256": "bcf6a29422cdacccf771c920f1d7e42cd05f4e96df90cbd6a3dfc736ed15eb31"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ba381bdae82f8f5547d0764e86644aaddd3774e3d2df0e7e2d7c6e7b28aae85a",
+ "message_id": "msg_011CgFugCsuweh5dJh9D4FTX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7834,
+  "output_tokens": 372,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"With respect to shadow banking, the subject of my remarks today, the circumstances are somewhat different.\"},{\"dimension\":\"overall\",\"quote\":\"we will be developing a regulation that would establish minimum haircuts for securities financing transactions (SFTs) on a market-wide basis, rather than just for specific classes of market participants.\"},{\"dimension\":\"overall\",\"quote\":\"there is good reason to believe that this conservatism could be eroded as economic conditions continue to improve and credit growth accelerates.\"}],\"rationale\":\"The speech addresses financial stability regulation of shadow banking and nonbank intermediation, with no discussion of monetary policy, inflation, or the rate path. Its passing reference to improving economic conditions carries no policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "With respect to shadow banking, the subject of my remarks today, the circumstances are somewhat different."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we will be developing a regulation that would establish minimum haircuts for securities financing transactions (SFTs) on a market-wide basis, rather than just for specific classes of market participants."
+   },
+   {
+    "dimension": "overall",
+    "quote": "there is good reason to believe that this conservatism could be eroded as economic conditions continue to improve and credit growth accelerates."
+   }
+  ],
+  "rationale": "The speech addresses financial stability regulation of shadow banking and nonbank intermediation, with no discussion of monetary policy, inflation, or the rate path. Its passing reference to improving economic conditions carries no policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With respect to shadow banking, the subject of my remarks today, the circumstances are somewhat different.",
+     "start": 1742,
+     "end": 1847
+    },
+    {
+     "quote": "we will be developing a regulation that would establish minimum haircuts for securities financing transactions (SFTs) on a market-wide basis, rather than just for specific classes of market participants.",
+     "start": 19355,
+     "end": 19557
+    },
+    {
+     "quote": "there is good reason to believe that this conservatism could be eroded as economic conditions continue to improve and credit growth accelerates.",
+     "start": 20082,
+     "end": 20225
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

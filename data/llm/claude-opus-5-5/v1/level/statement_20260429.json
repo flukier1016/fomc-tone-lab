@@ -1,0 +1,112 @@
+{
+ "key": "statement_20260429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20260429",
+  "doc_type": "statement",
+  "text_sha256": "c4238d2dc061777ccbb412e4e9415d8594a30c64ab2e63763ecbb9e79a26501e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "93f87b62a0329e0ce536b48e78ddb59e3edd00e73c500228fa3c0a4314b56683",
+ "message_id": "msg_011CgFug9ZEi2JnDnAHs4MYk",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 718,
+  "output_tokens": 519,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is elevated, in part reflecting the recent increase in global energy prices.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, on average\"},{\"dimension\":\"overall\",\"quote\":\"who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.\"}],\"rationale\":\"The Committee holds rates but keeps an easing bias through its \\\"additional adjustments\\\" language, while describing inflation as elevated on energy prices and growth as solid. Three hawkish dissents against the easing bias and one dovish dissent for a cut leave the net signal near neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is elevated, in part reflecting the recent increase in global energy prices."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, on average"
+   },
+   {
+    "dimension": "overall",
+    "quote": "who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time."
+   }
+  ],
+  "rationale": "The Committee holds rates but keeps an easing bias through its \"additional adjustments\" language, while describing inflation as elevated on energy prices and growth as solid. Three hawkish dissents against the easing bias and one dovish dissent for a cut leave the net signal near neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent",
+     "start": 601,
+     "end": 704
+    },
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 706,
+     "end": 914
+    },
+    {
+     "quote": "Inflation is elevated, in part reflecting the recent increase in global energy prices.",
+     "start": 194,
+     "end": 279
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, on average",
+     "start": 0,
+     "end": 124
+    },
+    {
+     "quote": "who supported maintaining the target range for the federal funds rate but did not support inclusion of an easing bias in the statement at this time.",
+     "start": 2009,
+     "end": 2156
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

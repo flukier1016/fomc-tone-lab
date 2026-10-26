@@ -1,0 +1,121 @@
+{
+ "key": "presser_20110622",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20110622",
+  "doc_type": "presser",
+  "text_sha256": "9f99a700a8345cfd7304456d48780ee8c2b4f207cd7572a6cfa323e4e77eb81e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a56cb8a5a24c089dd7e30d51342a430a464195edb039191526bc117f00e8c8d",
+ "message_id": "msg_011CgFugGqnU3aUodHQ9rF1Y",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10166,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"exceptionally low levels of the funds rate are likely to be warranted for an extended period\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"some recent labor market indicators have also been weaker than expected\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee anticipates that inflation will subside in coming quarters to levels at or below its mandate-consistent rate\"},{\"dimension\":\"risk_balance\",\"quote\":\"We no longer have a deflation risk. Inflation is above—at the moment, is above target.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue to reinvest principal payments from its securities holdings going forward\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But we'd be prepared to take additional action, obviously, if conditions warranted.\"}],\"rationale\":\"Bernanke maintains highly accommodative policy with extended-period guidance, reinvestment, and readiness to ease further amid a weaker recovery, though he signals no imminent new easing since deflation risk is gone and inflation is temporarily above target. Net signal is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "exceptionally low levels of the funds rate are likely to be warranted for an extended period"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "some recent labor market indicators have also been weaker than expected"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee anticipates that inflation will subside in coming quarters to levels at or below its mandate-consistent rate"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We no longer have a deflation risk. Inflation is above—at the moment, is above target."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue to reinvest principal payments from its securities holdings going forward"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But we'd be prepared to take additional action, obviously, if conditions warranted."
+   }
+  ],
+  "rationale": "Bernanke maintains highly accommodative policy with extended-period guidance, reinvestment, and readiness to ease further amid a weaker recovery, though he signals no imminent new easing since deflation risk is gone and inflation is temporarily above target. Net signal is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "exceptionally low levels of the funds rate are likely to be warranted for an extended period",
+     "start": 7260,
+     "end": 7352
+    },
+    {
+     "quote": "some recent labor market indicators have also been weaker than expected",
+     "start": 3454,
+     "end": 3525
+    },
+    {
+     "quote": "the Committee anticipates that inflation will subside in coming quarters to levels at or below its mandate-consistent rate",
+     "start": 5907,
+     "end": 6029
+    },
+    {
+     "quote": "We no longer have a deflation risk. Inflation is above—at the moment, is above target.",
+     "start": 27502,
+     "end": 27587
+    },
+    {
+     "quote": "the Committee will continue to reinvest principal payments from its securities holdings going forward",
+     "start": 1018,
+     "end": 1119
+    },
+    {
+     "quote": "But we'd be prepared to take additional action, obviously, if conditions warranted.",
+     "start": 28788,
+     "end": 28870
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20260901a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260901a",
+  "doc_type": "speech",
+  "text_sha256": "b26890672d8f79ebd7aacc2b6fd30097c34a156efcf207dbc8322ada79aab6c9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "973e8221dc2124a535f0f39cf8a13d20df42d0dfd2a1b0ad9f6b5b95766e2a12",
+ "message_id": "msg_011CgFug8M43DdJ4QrBycjjY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4777,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"But inflation remains too high—and has been for over five years.\"},{\"dimension\":\"risk_balance\",\"quote\":\"With inflation above target for a protracted period, there is a risk of broader price pressures taking hold, a risk I am watching closely.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"However, if inflation appears not to be moderating sufficiently, then I think we should act decisively to raise rates.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market is stable, with relatively low unemployment. The economy has been growing solidly, powered in part by the boom in AI-related business investment\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If trends in the data give me some confidence that inflation is moderating on a path to 2 percent, then I think we can take a bit more time to assess our policy stance.\"}],\"rationale\":\"The brief policy section stresses persistently high inflation and solid activity, and it explicitly raises the possibility of decisive rate hikes, with holding steady as the only alternative. The rest of the speech covers financial inclusion and carries no policy signal, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But inflation remains too high—and has been for over five years."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With inflation above target for a protracted period, there is a risk of broader price pressures taking hold, a risk I am watching closely."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "However, if inflation appears not to be moderating sufficiently, then I think we should act decisively to raise rates."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market is stable, with relatively low unemployment. The economy has been growing solidly, powered in part by the boom in AI-related business investment"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If trends in the data give me some confidence that inflation is moderating on a path to 2 percent, then I think we can take a bit more time to assess our policy stance."
+   }
+  ],
+  "rationale": "The brief policy section stresses persistently high inflation and solid activity, and it explicitly raises the possibility of decisive rate hikes, with holding steady as the only alternative. The rest of the speech covers financial inclusion and carries no policy signal, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But inflation remains too high—and has been for over five years.",
+     "start": 1476,
+     "end": 1539
+    },
+    {
+     "quote": "With inflation above target for a protracted period, there is a risk of broader price pressures taking hold, a risk I am watching closely.",
+     "start": 1882,
+     "end": 2019
+    },
+    {
+     "quote": "However, if inflation appears not to be moderating sufficiently, then I think we should act decisively to raise rates.",
+     "start": 2292,
+     "end": 2409
+    },
+    {
+     "quote": "The labor market is stable, with relatively low unemployment. The economy has been growing solidly, powered in part by the boom in AI-related business investment",
+     "start": 1134,
+     "end": 1295
+    },
+    {
+     "quote": "If trends in the data give me some confidence that inflation is moderating on a path to 2 percent, then I think we can take a bit more time to assess our policy stance.",
+     "start": 2123,
+     "end": 2290
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

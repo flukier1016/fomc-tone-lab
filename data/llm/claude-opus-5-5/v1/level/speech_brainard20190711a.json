@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20190711a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190711a",
+  "doc_type": "speech",
+  "text_sha256": "a0c7bd4dd0451dea3f4fcca7b4d92e9c2971338b545b03f9e9f9f28871c4d55a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8f805a8b6f5e023f8460dd1704241bf726448dd674326bd38bfe18082ee65cc0",
+ "message_id": "msg_011CgFug8cvjcTC76q9QNGtY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1683,
+  "output_tokens": 504,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Taking into account the downside risks at a time when inflation is on the soft side would argue for softening the expected path of monetary policy according to basic principles of risk management.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Over the past year, inflation has fallen short of the Federal Reserve's 2 percent objective, and that has been the case more often than not in recent years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Indeed, some indicators of longer-run inflation expectations have been on the soft side in recent months.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent data suggest the economy is growing solidly. Consumer spending is robust, buoyed by the strong labor market and continued strong confidence.\"},{\"dimension\":\"risk_balance\",\"quote\":\"While the modal outlook is solid, the downside risks, if they materialize, could weigh on economic activity.\"}],\"rationale\":\"The speaker describes solid growth and a strong labor market, but she emphasizes downside risks and soft inflation and expectations. On risk-management grounds she explicitly argues for softening the expected policy path, a moderately dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Taking into account the downside risks at a time when inflation is on the soft side would argue for softening the expected path of monetary policy according to basic principles of risk management."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Over the past year, inflation has fallen short of the Federal Reserve's 2 percent objective, and that has been the case more often than not in recent years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Indeed, some indicators of longer-run inflation expectations have been on the soft side in recent months."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent data suggest the economy is growing solidly. Consumer spending is robust, buoyed by the strong labor market and continued strong confidence."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "While the modal outlook is solid, the downside risks, if they materialize, could weigh on economic activity."
+   }
+  ],
+  "rationale": "The speaker describes solid growth and a strong labor market, but she emphasizes downside risks and soft inflation and expectations. On risk-management grounds she explicitly argues for softening the expected policy path, a moderately dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Taking into account the downside risks at a time when inflation is on the soft side would argue for softening the expected path of monetary policy according to basic principles of risk management.",
+     "start": 3026,
+     "end": 3221
+    },
+    {
+     "quote": "Over the past year, inflation has fallen short of the Federal Reserve's 2 percent objective, and that has been the case more often than not in recent years.",
+     "start": 1822,
+     "end": 1977
+    },
+    {
+     "quote": "Indeed, some indicators of longer-run inflation expectations have been on the soft side in recent months.",
+     "start": 2488,
+     "end": 2592
+    },
+    {
+     "quote": "Recent data suggest the economy is growing solidly. Consumer spending is robust, buoyed by the strong labor market and continued strong confidence.",
+     "start": 633,
+     "end": 779
+    },
+    {
+     "quote": "While the modal outlook is solid, the downside risks, if they materialize, could weigh on economic activity.",
+     "start": 2917,
+     "end": 3024
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

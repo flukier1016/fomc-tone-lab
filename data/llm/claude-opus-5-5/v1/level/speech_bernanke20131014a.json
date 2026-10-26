@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20131014a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20131014a",
+  "doc_type": "speech",
+  "text_sha256": "940f567c5c57bde65f1049a1635f9d05bc350e13801ff83ed217a5bf5538da05"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d859ddd1b50faa383fe08f3ee260ea810399cf70bb9093d80e253de1c96649c2",
+ "message_id": "msg_011CgFugFfqYKyxprXBD8uR1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2676,
+  "output_tokens": 359,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is a pleasure to offer a few remarks at this conference marking the 20th anniversary of the Bank of Mexico's independence.\"},{\"dimension\":\"overall\",\"quote\":\"We should recognize, though, that in democratic societies, central bank independence must be accompanied by accountability to the public and its representatives.\"},{\"dimension\":\"overall\",\"quote\":\"the Fed has been able to take aggressive monetary policy actions to help stabilize the economy without dislodging longer-term inflation expectations.\"}],\"rationale\":\"This ceremonial speech on central bank independence, transparency and U.S.-Mexico cooperation offers no view on the current economic outlook or the future path of U.S. policy. It therefore carries no directional policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is a pleasure to offer a few remarks at this conference marking the 20th anniversary of the Bank of Mexico's independence."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We should recognize, though, that in democratic societies, central bank independence must be accompanied by accountability to the public and its representatives."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Fed has been able to take aggressive monetary policy actions to help stabilize the economy without dislodging longer-term inflation expectations."
+   }
+  ],
+  "rationale": "This ceremonial speech on central bank independence, transparency and U.S.-Mexico cooperation offers no view on the current economic outlook or the future path of U.S. policy. It therefore carries no directional policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is a pleasure to offer a few remarks at this conference marking the 20th anniversary of the Bank of Mexico's independence.",
+     "start": 0,
+     "end": 124
+    },
+    {
+     "quote": "We should recognize, though, that in democratic societies, central bank independence must be accompanied by accountability to the public and its representatives.",
+     "start": 4856,
+     "end": 5016
+    },
+    {
+     "quote": "the Fed has been able to take aggressive monetary policy actions to help stabilize the economy without dislodging longer-term inflation expectations.",
+     "start": 4705,
+     "end": 4853
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

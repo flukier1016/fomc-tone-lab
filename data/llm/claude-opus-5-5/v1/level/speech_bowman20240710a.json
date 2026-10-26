@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20240710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240710a",
+  "doc_type": "speech",
+  "text_sha256": "1b11768e0dc32d9711ebe2147134017f99471d70e9b465cf653c457bee610151"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "378f9da953427ad37ff1ac7538db0e9cee93ce86d8e791f2dec9661638337587",
+ "message_id": "msg_011CgFug9Lb451JEu9GhbRSP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1205,
+  "output_tokens": 269,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Discussions like those we will engage in today provide color and context to supplement the other economic data we monitor.\"},{\"dimension\":\"overall\",\"quote\":\"Your perspectives help us gain deeper insights into how we are meeting our dual mandate of maintaining maximum employment and stable prices.\"}],\"rationale\":\"These are introductory remarks at a Fed Listens event focused on childcare and community outreach. They contain no views on inflation, activity, or the policy path.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Discussions like those we will engage in today provide color and context to supplement the other economic data we monitor."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Your perspectives help us gain deeper insights into how we are meeting our dual mandate of maintaining maximum employment and stable prices."
+   }
+  ],
+  "rationale": "These are introductory remarks at a Fed Listens event focused on childcare and community outreach. They contain no views on inflation, activity, or the policy path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Discussions like those we will engage in today provide color and context to supplement the other economic data we monitor.",
+     "start": 2074,
+     "end": 2195
+    },
+    {
+     "quote": "Your perspectives help us gain deeper insights into how we are meeting our dual mandate of maintaining maximum employment and stable prices.",
+     "start": 2197,
+     "end": 2336
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

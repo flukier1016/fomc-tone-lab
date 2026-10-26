@@ -1,0 +1,121 @@
+{
+ "key": "statement_20260318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20260318",
+  "doc_type": "statement",
+  "text_sha256": "51b5a70b9bd2e8de0f5419b9e49e6a1efea59cd028ea17b07363378582f82701"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "95138b469f1b8443d2020f828e7b0e4b1b4c90c177dbe4be8ec24df54f54a117",
+ "message_id": "msg_011CgFugA1mWz2stwKe6wHbe",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 673,
+  "output_tokens": 543,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains somewhat elevated.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has been little changed in recent months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee is attentive to the risks to both sides of its dual mandate.\"},{\"dimension\":\"overall\",\"quote\":\"Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\"}],\"rationale\":\"The Committee holds rates steady, with balanced risks, solid growth, low job gains and somewhat elevated inflation. The 'additional adjustments' language and the dissent in favor of a cut give a mild easing bias.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains somewhat elevated."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has been little changed in recent months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee is attentive to the risks to both sides of its dual mandate."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting."
+   }
+  ],
+  "rationale": "The Committee holds rates steady, with balanced risks, solid growth, low job gains and somewhat elevated inflation. The 'additional adjustments' language and the dissent in favor of a cut give a mild easing bias."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent",
+     "start": 579,
+     "end": 682
+    },
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 684,
+     "end": 892
+    },
+    {
+     "quote": "Inflation remains somewhat elevated.",
+     "start": 185,
+     "end": 220
+    },
+    {
+     "quote": "Available indicators suggest that economic activity has been expanding at a solid pace. Job gains have remained low, and the unemployment rate has been little changed in recent months.",
+     "start": 0,
+     "end": 183
+    },
+    {
+     "quote": "The Committee is attentive to the risks to both sides of its dual mandate.",
+     "start": 478,
+     "end": 551
+    },
+    {
+     "quote": "Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 1821,
+     "end": 1976
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

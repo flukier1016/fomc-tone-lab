@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20230512a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230512a",
+  "doc_type": "speech",
+  "text_sha256": "f18f53556206fe7d3b3237f8a77da5e91e567f448439b9927d6317059ba41643"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b5b882675951036b8138b5ba5a8efbfbf52cb8237a226ecf3751d8dc79b54383",
+ "message_id": "msg_011CgFugD16suxyxSBtfEZtR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9317,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Should inflation remain high and the labor market remain tight, additional monetary policy tightening will likely be appropriate to attain a sufficiently restrictive stance of monetary policy to lower inflation over time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But inflation remains much too high, and measures of core inflation have remained persistently elevated, with declining unemployment and ongoing wage growth.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I also expect that our policy rate will need to remain sufficiently restrictive for some time to bring inflation down\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the most recent CPI and employment reports have not provided consistent evidence that inflation is on a downward path\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Some signs of slowing in aggregate demand, lower numbers of job openings and more modest gross domestic product (GDP) growth indicate that we have moved into restrictive territory.\"}],\"rationale\":\"The monetary policy section signals likely further tightening if inflation stays high and rates staying restrictive for some time, with forceful concern about persistent core inflation. Most of the speech concerns bank regulation, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Should inflation remain high and the labor market remain tight, additional monetary policy tightening will likely be appropriate to attain a sufficiently restrictive stance of monetary policy to lower inflation over time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But inflation remains much too high, and measures of core inflation have remained persistently elevated, with declining unemployment and ongoing wage growth."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I also expect that our policy rate will need to remain sufficiently restrictive for some time to bring inflation down"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the most recent CPI and employment reports have not provided consistent evidence that inflation is on a downward path"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Some signs of slowing in aggregate demand, lower numbers of job openings and more modest gross domestic product (GDP) growth indicate that we have moved into restrictive territory."
+   }
+  ],
+  "rationale": "The monetary policy section signals likely further tightening if inflation stays high and rates staying restrictive for some time, with forceful concern about persistent core inflation. Most of the speech concerns bank regulation, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Should inflation remain high and the labor market remain tight, additional monetary policy tightening will likely be appropriate to attain a sufficiently restrictive stance of monetary policy to lower inflation over time.",
+     "start": 2380,
+     "end": 2600
+    },
+    {
+     "quote": "But inflation remains much too high, and measures of core inflation have remained persistently elevated, with declining unemployment and ongoing wage growth.",
+     "start": 1732,
+     "end": 1888
+    },
+    {
+     "quote": "I also expect that our policy rate will need to remain sufficiently restrictive for some time to bring inflation down",
+     "start": 2602,
+     "end": 2719
+    },
+    {
+     "quote": "the most recent CPI and employment reports have not provided consistent evidence that inflation is on a downward path",
+     "start": 3322,
+     "end": 3439
+    },
+    {
+     "quote": "Some signs of slowing in aggregate demand, lower numbers of job openings and more modest gross domestic product (GDP) growth indicate that we have moved into restrictive territory.",
+     "start": 1551,
+     "end": 1730
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

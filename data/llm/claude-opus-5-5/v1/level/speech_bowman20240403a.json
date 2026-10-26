@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20240403a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240403a",
+  "doc_type": "speech",
+  "text_sha256": "3643c551b6d50a101058b144a8664ac925d2f93b5c82d3abc8781799eb6e003d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "759bf2026e5b36d8ecdf9d7d1a2c7ca88af57e1b9762c75acf0f08e6a8aa1ecf",
+ "message_id": "msg_011CgFugFFnTLfP1MTruDXy2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7322,
+  "output_tokens": 415,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is my hope that our discussion today reviews and considers the appropriate role of the Federal Reserve in providing liquidity to the U.S. banking system\"},{\"dimension\":\"overall\",\"quote\":\"The banking system today is stronger and more resilient than it was before the 2008 financial crisis with significantly more capital and substantially more liquidity.\"},{\"dimension\":\"overall\",\"quote\":\"The complexity of liquidity issues warrants a broad-based review before we embark on piecemeal changes.\"},{\"dimension\":\"overall\",\"quote\":\"lending at a true penalty rate so the usage of the facility naturally declines as market conditions normalize.\"}],\"rationale\":\"The speech addresses lender-of-last-resort design, discount window stigma and liquidity regulation, not the monetary policy stance or the economic outlook. It takes no view on rates, inflation or the balance sheet, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is my hope that our discussion today reviews and considers the appropriate role of the Federal Reserve in providing liquidity to the U.S. banking system"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The banking system today is stronger and more resilient than it was before the 2008 financial crisis with significantly more capital and substantially more liquidity."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The complexity of liquidity issues warrants a broad-based review before we embark on piecemeal changes."
+   },
+   {
+    "dimension": "overall",
+    "quote": "lending at a true penalty rate so the usage of the facility naturally declines as market conditions normalize."
+   }
+  ],
+  "rationale": "The speech addresses lender-of-last-resort design, discount window stigma and liquidity regulation, not the monetary policy stance or the economic outlook. It takes no view on rates, inflation or the balance sheet, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is my hope that our discussion today reviews and considers the appropriate role of the Federal Reserve in providing liquidity to the U.S. banking system",
+     "start": 590,
+     "end": 745
+    },
+    {
+     "quote": "The banking system today is stronger and more resilient than it was before the 2008 financial crisis with significantly more capital and substantially more liquidity.",
+     "start": 4599,
+     "end": 4764
+    },
+    {
+     "quote": "The complexity of liquidity issues warrants a broad-based review before we embark on piecemeal changes.",
+     "start": 20647,
+     "end": 20749
+    },
+    {
+     "quote": "lending at a true penalty rate so the usage of the facility naturally declines as market conditions normalize.",
+     "start": 24010,
+     "end": 24119
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

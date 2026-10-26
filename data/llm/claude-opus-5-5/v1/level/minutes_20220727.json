@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20220727",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20220727",
+  "doc_type": "minutes",
+  "text_sha256": "19f3dc276bf78b5b2815ba0b98eee1e090ec9b5c9ef803716b69dcde3407c4d5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ae404e430527863c6f2a79ab300a0ff599cb55294cb4291599df1d0845ad7fbf",
+ "message_id": "msg_011CgFugEQgkFww8T5XmdjyV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15182,
+  "output_tokens": 635,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"it likely would become appropriate at some point to slow the pace of policy rate increases while assessing the effects of cumulative policy adjustments on economic activity and inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants observed that inflation remained unacceptably high and was well above the Committee's longer-run goal of 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants judged that a significant risk facing the Committee was that elevated inflation could become entrenched if the public began to question the Committee's resolve to adjust the stance of policy sufficiently.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many participants also noted, however, that there were some tentative signs of a softening outlook for the labor market\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Starting in the calendar month of September, roll over at auction the amount of principal payments from the Federal Reserve's holdings of Treasury securities maturing in each calendar month that exceeds a cap of $60 billion per month.\"}],\"rationale\":\"The minutes stress unacceptably high, broad-based inflation and the need to move to a restrictive stance with ongoing hikes, alongside continued balance-sheet runoff. This is tempered by signals of eventually slowing the pace and concern about overtightening, while activity is softening but labor remains strong.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely would become appropriate at some point to slow the pace of policy rate increases while assessing the effects of cumulative policy adjustments on economic activity and inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants observed that inflation remained unacceptably high and was well above the Committee's longer-run goal of 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants judged that a significant risk facing the Committee was that elevated inflation could become entrenched if the public began to question the Committee's resolve to adjust the stance of policy sufficiently."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many participants also noted, however, that there were some tentative signs of a softening outlook for the labor market"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Starting in the calendar month of September, roll over at auction the amount of principal payments from the Federal Reserve's holdings of Treasury securities maturing in each calendar month that exceeds a cap of $60 billion per month."
+   }
+  ],
+  "rationale": "The minutes stress unacceptably high, broad-based inflation and the need to move to a restrictive stance with ongoing hikes, alongside continued balance-sheet runoff. This is tempered by signals of eventually slowing the pace and concern about overtightening, while activity is softening but labor remains strong."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "participants continued to anticipate that ongoing increases in the target range for the federal funds rate would be appropriate to achieve the Committee's objectives.",
+     "start": 38784,
+     "end": 38949
+    },
+    {
+     "quote": "it likely would become appropriate at some point to slow the pace of policy rate increases while assessing the effects of cumulative policy adjustments on economic activity and inflation.",
+     "start": 39479,
+     "end": 39665
+    },
+    {
+     "quote": "Participants observed that inflation remained unacceptably high and was well above the Committee's longer-run goal of 2 percent.",
+     "start": 29877,
+     "end": 30004
+    },
+    {
+     "quote": "Participants judged that a significant risk facing the Committee was that elevated inflation could become entrenched if the public began to question the Committee's resolve to adjust the stance of policy sufficiently.",
+     "start": 41743,
+     "end": 41959
+    },
+    {
+     "quote": "Many participants also noted, however, that there were some tentative signs of a softening outlook for the labor market",
+     "start": 26829,
+     "end": 26948
+    },
+    {
+     "quote": "Starting in the calendar month of September, roll over at auction the amount of principal payments from the Federal Reserve's holdings of Treasury securities maturing in each calendar month that exceeds a cap of $60 billion per month.",
+     "start": 47361,
+     "end": 47594
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

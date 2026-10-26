@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20200729",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20200729",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "6838dbecc178f879b2b11245111c4dd895d0f0a786f71860bc38ac980e53108a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "58ef2712895d2bc6fa35c7acc6b6efd863d568c12c7b878219f78f2a60200118",
+ "message_id": "msg_011CgFudyp3c2VcrtEx9AKxR",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 16046,
+  "output_tokens": 648,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Noting the increase in uncertainty about the economic outlook over the intermeeting period, several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Against this backdrop, a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"participants emphasized that the labor market was a long way from a full recovery even after the positive May and [MONTH] employment reports\"},{\"dimension\":\"risk_balance\",\"quote\":\"Several risks to the outlook were noted, including the possibility that additional waves of virus outbreaks could result in extended economic disruptions and a protracted period of reduced economic activity.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run.\"}],\"rationale\":\"The minutes stress downside risks from the virus, disinflation, and a weak labor market, and they discuss additional accommodation and stronger forward guidance. Asset purchases continue at least at the current pace, so the net signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Noting the increase in uncertainty about the economic outlook over the intermeeting period, several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Against this backdrop, a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "participants emphasized that the labor market was a long way from a full recovery even after the positive May and [MONTH] employment reports"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Several risks to the outlook were noted, including the possibility that additional waves of virus outbreaks could result in extended economic disruptions and a protracted period of reduced economic activity."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run."
+   }
+  ],
+  "rationale": "The minutes stress downside risks from the virus, disinflation, and a weak labor market, and they discuss additional accommodation and stronger forward guidance. Asset purchases continue at least at the current pace, so the net signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Noting the increase in uncertainty about the economic outlook over the intermeeting period, several participants suggested that additional accommodation could be required to promote economic recovery and return inflation to the Committee's 2 percent objective.",
+     "start": 41464,
+     "end": 41723
+    },
+    {
+     "quote": "Against this backdrop, a few participants noted a risk that longer-term inflation expectations might move below levels consistent with the Committee's symmetric 2 percent objective.",
+     "start": 35470,
+     "end": 35650
+    },
+    {
+     "quote": "participants emphasized that the labor market was a long way from a full recovery even after the positive May and [MONTH] employment reports",
+     "start": 33329,
+     "end": 33469
+    },
+    {
+     "quote": "Several risks to the outlook were noted, including the possibility that additional waves of virus outbreaks could result in extended economic disruptions and a protracted period of reduced economic activity.",
+     "start": 36943,
+     "end": 37149
+    },
+    {
+     "quote": "over coming months the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace",
+     "start": 52000,
+     "end": 52182
+    },
+    {
+     "quote": "Participants also noted that a highly accommodative stance of monetary policy would likely be needed for some time to support aggregate demand and achieve 2 percent inflation over the longer run.",
+     "start": 35652,
+     "end": 35846
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

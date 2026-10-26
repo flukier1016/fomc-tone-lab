@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20110315",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20110315",
+  "doc_type": "minutes",
+  "text_sha256": "2b67c58be6fb4ace6cc99a85853ebf078159092407ec4025a9f2b4c0cfc861c2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "20265f432d0c1ebddc229b04c34834217e2c83ed248463eb814f7c42a9f1f8c9",
+ "message_id": "msg_011CgFugG7dS67ayZFJxbm4b",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12163,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee continued to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, were likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"reaffirmed its intention to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Several of them indicated, in light of recent developments, that the risks to their forecasts of inflation had shifted somewhat to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants generally judged that there was still substantial slack in the labor market\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A few participants indicated that economic conditions might warrant a move toward less-accommodative monetary policy this year; a few others noted that exceptional policy accommodation could be appropriate beyond 2011.\"}],\"rationale\":\"The minutes reaffirm continued QE2 purchases and the 'extended period' guidance, with underlying inflation seen as subdued and slack substantial, which leaves the policy stance accommodative. Hawkish elements, namely upside inflation risks from commodities, exit planning and a few members favoring tightening, temper the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee continued to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, were likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "reaffirmed its intention to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Several of them indicated, in light of recent developments, that the risks to their forecasts of inflation had shifted somewhat to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants generally judged that there was still substantial slack in the labor market"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few participants indicated that economic conditions might warrant a move toward less-accommodative monetary policy this year; a few others noted that exceptional policy accommodation could be appropriate beyond 2011."
+   }
+  ],
+  "rationale": "The minutes reaffirm continued QE2 purchases and the 'extended period' guidance, with underlying inflation seen as subdued and slack substantial, which leaves the policy stance accommodative. Hawkish elements, namely upside inflation risks from commodities, exit planning and a few members favoring tightening, temper the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continued to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, were likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 34113,
+     "end": 34380
+    },
+    {
+     "quote": "reaffirmed its intention to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011",
+     "start": 33824,
+     "end": 33949
+    },
+    {
+     "quote": "Several of them indicated, in light of recent developments, that the risks to their forecasts of inflation had shifted somewhat to the upside.",
+     "start": 31301,
+     "end": 31442
+    },
+    {
+     "quote": "Participants generally judged that there was still substantial slack in the labor market",
+     "start": 25709,
+     "end": 25797
+    },
+    {
+     "quote": "A few participants indicated that economic conditions might warrant a move toward less-accommodative monetary policy this year; a few others noted that exceptional policy accommodation could be appropriate beyond 2011.",
+     "start": 32082,
+     "end": 32299
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

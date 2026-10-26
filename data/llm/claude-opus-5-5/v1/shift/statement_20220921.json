@@ -1,0 +1,94 @@
+{
+ "key": "statement_20220921",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20220921",
+  "previous_doc_id": "statement_20220727",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ec058e5ea232d0c57f0fe7990181d8a5ea1229f06d9d764c5827d3ac7c47f3cf",
+ "message_id": "msg_011CgFudUdrwFy25sGoegQMR",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1365,
+  "output_tokens": 319,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.\",\"after\":\"Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low.\",\"direction\":\"hawkish\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent\",\"after\":\"the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent\",\"direction\":\"hawkish\"}],\"rationale\":\"The statement delivers another large 75bp hike and upgrades the growth assessment from 'softened' to 'modest growth', removing an argument for slowing tightening. Forward guidance for ongoing increases is unchanged, so the shift is modestly hawkish rather than a change in direction.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "after": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent",
+    "after": "the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The statement delivers another large 75bp hike and upgrades the growth assessment from 'softened' to 'modest growth', removing an argument for slowing tightening. Forward guidance for ongoing increases is unchanged, so the shift is modestly hawkish rather than a change in direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 0,
+     "end": 160
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent",
+     "start": 714,
+     "end": 814
+    }
+   ]
+  },
+  "after": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent indicators point to modest growth in spending and production. Job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 0,
+     "end": 156
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent",
+     "start": 710,
+     "end": 806
+    }
+   ]
+  }
+ }
+}

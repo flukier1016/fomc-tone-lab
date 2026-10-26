@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20131108a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20131108a",
+  "doc_type": "speech",
+  "text_sha256": "ca6f5bfd443d651ba4114b77ecde051a79fd59280330f1f9b8ad81eee5bf53f8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "caa2f23c81e880813c729420043a2908b8478f784b088ae516b1a2cb9995c2d6",
+ "message_id": "msg_011CgFugFSh4F2YFoMs2iRit",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3976,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Because the Panic of 1907 fit the archetype of a classic financial panic in many ways, it's worth discussing its similarities and differences with the recent crisis.\"},{\"dimension\":\"overall\",\"quote\":\"As we try to make the financial system safer, we must inevitably confront the problem of moral hazard.\"},{\"dimension\":\"overall\",\"quote\":\"Our continuing challenge is to make financial crises far less likely and, if they happen, far less costly.\"}],\"rationale\":\"The speech is a historical comparison of the Panic of 1907 and the 2008 crisis, focused on financial stability, liquidity provision and regulatory reform. It offers no view on the current monetary policy stance, inflation or the economic outlook, so it is scored neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Because the Panic of 1907 fit the archetype of a classic financial panic in many ways, it's worth discussing its similarities and differences with the recent crisis."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As we try to make the financial system safer, we must inevitably confront the problem of moral hazard."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our continuing challenge is to make financial crises far less likely and, if they happen, far less costly."
+   }
+  ],
+  "rationale": "The speech is a historical comparison of the Panic of 1907 and the 2008 crisis, focused on financial stability, liquidity provision and regulatory reform. It offers no view on the current monetary policy stance, inflation or the economic outlook, so it is scored neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Because the Panic of 1907 fit the archetype of a classic financial panic in many ways, it's worth discussing its similarities and differences with the recent crisis.",
+     "start": 1922,
+     "end": 2086
+    },
+    {
+     "quote": "As we try to make the financial system safer, we must inevitably confront the problem of moral hazard.",
+     "start": 9705,
+     "end": 9806
+    },
+    {
+     "quote": "Our continuing challenge is to make financial crises far less likely and, if they happen, far less costly.",
+     "start": 11972,
+     "end": 12077
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

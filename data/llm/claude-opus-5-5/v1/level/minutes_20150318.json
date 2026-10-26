@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150318",
+  "doc_type": "minutes",
+  "text_sha256": "cbdaac9845701dcea04217d045c515b65ca098d06193f57dd537de1621d2cd11"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cbeaa0708372452b6a617c216adbf65a76f04bee783db6c7bf0ecfa28ca6f85a",
+ "message_id": "msg_011CgFugDhmgHKVwiPeefnk7",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14841,
+  "output_tokens": 638,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"almost all participants favored removing from the forward guidance in the Committee's postmeeting statement the indication that the Committee would be patient in beginning to normalize the stance of monetary policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants judged that the economic data and outlook were likely to warrant beginning normalization at the June meeting.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation had declined further below the Committee's longer-run objective, largely reflecting declines in energy prices, and was expected to stay near its recent low level in the near term.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"meeting participants regarded the information received over the intermeeting period as indicating that the pace of economic activity had moderated somewhat.\"},{\"dimension\":\"risk_balance\",\"quote\":\"most saw the risks to the outlook for economic growth and the labor market as nearly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also decided to maintain its policy of reinvesting principal payments from agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction.\"}],\"rationale\":\"The minutes document dropping the \\\"patient\\\" language and opening the door to liftoff as soon as June, alongside preparatory normalization tool details, a modest hawkish shift in guidance. That shift is tempered by below-target inflation, moderating growth, expectations of a gradual pace, and some participants' preference for liftoff later in 2015 or 2016.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "almost all participants favored removing from the forward guidance in the Committee's postmeeting statement the indication that the Committee would be patient in beginning to normalize the stance of monetary policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants judged that the economic data and outlook were likely to warrant beginning normalization at the June meeting."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation had declined further below the Committee's longer-run objective, largely reflecting declines in energy prices, and was expected to stay near its recent low level in the near term."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "meeting participants regarded the information received over the intermeeting period as indicating that the pace of economic activity had moderated somewhat."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "most saw the risks to the outlook for economic growth and the labor market as nearly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also decided to maintain its policy of reinvesting principal payments from agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction."
+   }
+  ],
+  "rationale": "The minutes document dropping the \"patient\" language and opening the door to liftoff as soon as June, alongside preparatory normalization tool details, a modest hawkish shift in guidance. That shift is tempered by below-target inflation, moderating growth, expectations of a gradual pace, and some participants' preference for liftoff later in 2015 or 2016."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "almost all participants favored removing from the forward guidance in the Committee's postmeeting statement the indication that the Committee would be patient in beginning to normalize the stance of monetary policy.",
+     "start": 35899,
+     "end": 36113
+    },
+    {
+     "quote": "Several participants judged that the economic data and outlook were likely to warrant beginning normalization at the June meeting.",
+     "start": 38501,
+     "end": 38630
+    },
+    {
+     "quote": "Inflation had declined further below the Committee's longer-run objective, largely reflecting declines in energy prices, and was expected to stay near its recent low level in the near term.",
+     "start": 29275,
+     "end": 29463
+    },
+    {
+     "quote": "meeting participants regarded the information received over the intermeeting period as indicating that the pace of economic activity had moderated somewhat.",
+     "start": 28202,
+     "end": 28357
+    },
+    {
+     "quote": "most saw the risks to the outlook for economic growth and the labor market as nearly balanced.",
+     "start": 30003,
+     "end": 30096
+    },
+    {
+     "quote": "The Committee also decided to maintain its policy of reinvesting principal payments from agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction.",
+     "start": 44453,
+     "end": 44688
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

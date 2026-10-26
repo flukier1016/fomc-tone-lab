@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20160519",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160519",
+  "doc_type": "speech",
+  "text_sha256": "1746aa8bc38e05ced6c177f612ee58d9169095e1e33886de95a9f75917875165"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f634767a7da767710d0199760fa5ac127fd18197b5a1dcebf2f4aff36050856",
+ "message_id": "msg_011CgFugFRwy4iAv6ft5ywfG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8970,
+  "output_tokens": 438,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"now that we are near full employment and approaching our target inflation rate, is faster potential growth\"},{\"dimension\":\"overall\",\"quote\":\"estimates of the natural rate of interest from a collection of structural models across the Federal Reserve System indicate that the natural rate fell considerably during the financial crisis\"},{\"dimension\":\"overall\",\"quote\":\"Estimates of this concept, which follow a statistical approach introduced by Thomas Laubach and John Williams 24 , have also fallen to quite low levels.\"},{\"dimension\":\"overall\",\"quote\":\"A priority for researchers in the field is to develop improved estimates of the long-run equilibrium interest rate, and to develop policies that can influence it.\"}],\"rationale\":\"This is a largely academic tribute to Woodford's work with little near-term policy signal. The only current assessment is that the economy is near full employment and inflation is approaching target, balanced against a low natural rate, so the net signal is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "now that we are near full employment and approaching our target inflation rate, is faster potential growth"
+   },
+   {
+    "dimension": "overall",
+    "quote": "estimates of the natural rate of interest from a collection of structural models across the Federal Reserve System indicate that the natural rate fell considerably during the financial crisis"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Estimates of this concept, which follow a statistical approach introduced by Thomas Laubach and John Williams 24 , have also fallen to quite low levels."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A priority for researchers in the field is to develop improved estimates of the long-run equilibrium interest rate, and to develop policies that can influence it."
+   }
+  ],
+  "rationale": "This is a largely academic tribute to Woodford's work with little near-term policy signal. The only current assessment is that the economy is near full employment and inflation is approaching target, balanced against a low natural rate, so the net signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "now that we are near full employment and approaching our target inflation rate, is faster potential growth",
+     "start": 28950,
+     "end": 29056
+    },
+    {
+     "quote": "estimates of the natural rate of interest from a collection of structural models across the Federal Reserve System indicate that the natural rate fell considerably during the financial crisis",
+     "start": 27481,
+     "end": 27672
+    },
+    {
+     "quote": "Estimates of this concept, which follow a statistical approach introduced by Thomas Laubach and John Williams 24 , have also fallen to quite low levels.",
+     "start": 28223,
+     "end": 28374
+    },
+    {
+     "quote": "A priority for researchers in the field is to develop improved estimates of the long-run equilibrium interest rate, and to develop policies that can influence it.",
+     "start": 28377,
+     "end": 28538
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

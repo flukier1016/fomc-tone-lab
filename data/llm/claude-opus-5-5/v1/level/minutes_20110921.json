@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20110921",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20110921",
+  "doc_type": "minutes",
+  "text_sha256": "9efdc5af4c2b3de19d20d276bcf3992bb353a44baff06a80ad5e80d80bf5a344"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "82ebd2cfee86521d4b835a35a0bac5792c9c0fd7fa90bcfc0fc6c4f234cbe9e1",
+ "message_id": "msg_011CgFugZyRCahSUVwkZtBVL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 15200,
+  "output_tokens": 647,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Two members said that current conditions and the outlook could justify stronger policy action, but they supported undertaking the maturity extension program at this meeting as it did not rule out additional steps at future meetings.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"They expected this program to put downward pressure on longer-term interest rates and to help make broader financial conditions more accommodative.\"},{\"dimension\":\"risk_balance\",\"quote\":\"They generally judged that risks to the growth outlook, including strains in global financial markets, were significant and tilted to the downside; moreover, slow growth left the recovery more vulnerable to negative shocks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Meeting participants generally noted that overall labor market conditions had shown no improvement or had deteriorated in recent months and the unemployment rate remained elevated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Most participants anticipated that, with stable inflation expectations, significant slack in labor and product markets, slow wage growth, and little evidence of pricing power among firms, inflation was likely to decline moderately over time.\"},{\"dimension\":\"overall\",\"quote\":\"most members agreed that the revisions to the economic outlook warranted some additional monetary policy accommodation to support a stronger recovery\"}],\"rationale\":\"The minutes describe added accommodation via a maturity extension program and MBS reinvestment, weak labor markets, downside growth risks, and openness to further easing. Three hawkish dissents and some upside inflation concerns temper but do not offset the clearly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Two members said that current conditions and the outlook could justify stronger policy action, but they supported undertaking the maturity extension program at this meeting as it did not rule out additional steps at future meetings."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "They expected this program to put downward pressure on longer-term interest rates and to help make broader financial conditions more accommodative."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "They generally judged that risks to the growth outlook, including strains in global financial markets, were significant and tilted to the downside; moreover, slow growth left the recovery more vulnerable to negative shocks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Meeting participants generally noted that overall labor market conditions had shown no improvement or had deteriorated in recent months and the unemployment rate remained elevated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Most participants anticipated that, with stable inflation expectations, significant slack in labor and product markets, slow wage growth, and little evidence of pricing power among firms, inflation was likely to decline moderately over time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "most members agreed that the revisions to the economic outlook warranted some additional monetary policy accommodation to support a stronger recovery"
+   }
+  ],
+  "rationale": "The minutes describe added accommodation via a maturity extension program and MBS reinvestment, weak labor markets, downside growth risks, and openness to further easing. Three hawkish dissents and some upside inflation concerns temper but do not offset the clearly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Two members said that current conditions and the outlook could justify stronger policy action, but they supported undertaking the maturity extension program at this meeting as it did not rule out additional steps at future meetings.",
+     "start": 39583,
+     "end": 39814
+    },
+    {
+     "quote": "They expected this program to put downward pressure on longer-term interest rates and to help make broader financial conditions more accommodative.",
+     "start": 39204,
+     "end": 39350
+    },
+    {
+     "quote": "They generally judged that risks to the growth outlook, including strains in global financial markets, were significant and tilted to the downside; moreover, slow growth left the recovery more vulnerable to negative shocks.",
+     "start": 27752,
+     "end": 27974
+    },
+    {
+     "quote": "Meeting participants generally noted that overall labor market conditions had shown no improvement or had deteriorated in recent months and the unemployment rate remained elevated.",
+     "start": 31013,
+     "end": 31192
+    },
+    {
+     "quote": "Most participants anticipated that, with stable inflation expectations, significant slack in labor and product markets, slow wage growth, and little evidence of pricing power among firms, inflation was likely to decline moderately over time.",
+     "start": 34877,
+     "end": 35117
+    },
+    {
+     "quote": "most members agreed that the revisions to the economic outlook warranted some additional monetary policy accommodation to support a stronger recovery",
+     "start": 38011,
+     "end": 38160
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

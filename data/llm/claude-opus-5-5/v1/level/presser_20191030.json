@@ -1,0 +1,121 @@
+{
+ "key": "presser_20191030",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20191030",
+  "doc_type": "presser",
+  "text_sha256": "8d0ea9388b7479355567087ca00cc87fc78ef93b65836b341e10303402f5cc57"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5b974acc096f65cecc627772927a84541fcd09e6f65d55ef80f19423b1023bb8",
+ "message_id": "msg_011CgFugEBYbHtZqyBBJr8Hx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9871,
+  "output_tokens": 551,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today we decided to lower the interest rates for the third time this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"So I think we would need to see a really significant move up in inflation that’s persistent before we would consider raising rates to address inflation concerns.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The job market remains strong. The unemployment rate has been near half-century lows for a year and a half.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We also see the risks to the outlook as perhaps having moved in a positive direction over the course of this intermeeting period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"These actions are purely technical measures to support the effective implementation of monetary policy as we continue to learn about the appropriate level of reserves.\"}],\"rationale\":\"The third rate cut is dovish, but the signal of a pause ('policy is in a good place'), improved risks, and a strong labor market offset it, though a high bar for hikes and concern about low inflation keep a slight dovish tilt. Bill purchases are explicitly described as technical and not a stance change.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today we decided to lower the interest rates for the third time this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "So I think we would need to see a really significant move up in inflation that’s persistent before we would consider raising rates to address inflation concerns."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The job market remains strong. The unemployment rate has been near half-century lows for a year and a half."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We also see the risks to the outlook as perhaps having moved in a positive direction over the course of this intermeeting period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "These actions are purely technical measures to support the effective implementation of monetary policy as we continue to learn about the appropriate level of reserves."
+   }
+  ],
+  "rationale": "The third rate cut is dovish, but the signal of a pause ('policy is in a good place'), improved risks, and a strong labor market offset it, though a high bar for hikes and concern about low inflation keep a slight dovish tilt. Bill purchases are explicitly described as technical and not a stance change."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today we decided to lower the interest rates for the third time this year.",
+     "start": 320,
+     "end": 393
+    },
+    {
+     "quote": "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook",
+     "start": 3718,
+     "end": 3888
+    },
+    {
+     "quote": "So I think we would need to see a really significant move up in inflation that’s persistent before we would consider raising rates to address inflation concerns.",
+     "start": 15336,
+     "end": 15496
+    },
+    {
+     "quote": "The job market remains strong. The unemployment rate has been near half-century lows for a year and a half.",
+     "start": 1369,
+     "end": 1475
+    },
+    {
+     "quote": "We also see the risks to the outlook as perhaps having moved in a positive direction over the course of this intermeeting period",
+     "start": 7115,
+     "end": 7243
+    },
+    {
+     "quote": "These actions are purely technical measures to support the effective implementation of monetary policy as we continue to learn about the appropriate level of reserves.",
+     "start": 5437,
+     "end": 5603
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "key": "statement_20220727",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20220727",
+  "previous_doc_id": "statement_20220615",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7a41d07c8826a0c7f8a24cb2d24314db12dd15a7f23cefe182c24631c66065d8",
+ "message_id": "msg_011CgFudUSTNo25zHTQia1JQ",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1486,
+  "output_tokens": 604,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Overall economic activity appears to have picked up after edging down in the first quarter.\",\"after\":\"Recent indicators of spending and production have softened.\",\"direction\":\"dovish\"},{\"before\":\"Job gains have been robust in recent months, and the unemployment rate has remained low.\",\"after\":\"Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.\",\"direction\":\"neutral\"},{\"before\":\"higher energy prices, and broader price pressures.\",\"after\":\"higher food and energy prices, and broader price pressures.\",\"direction\":\"hawkish\"},{\"before\":\"In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent and anticipates that ongoing increases in the target range will be appropriate.\",\"after\":\"the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent and anticipates that ongoing increases in the target range will be appropriate.\",\"direction\":\"hawkish\"},{\"before\":\"Voting against this action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1-1/4 percent to 1-1/2 percent.\",\"after\":\"\",\"direction\":\"hawkish\"}],\"rationale\":\"The Committee delivered another 75bp hike, kept the 'ongoing increases' guidance unchanged, and the vote became unanimous, while the economic assessment softened, acknowledging weaker spending and production. These offsetting elements leave the overall policy signal essentially unchanged, with a slight dovish tilt from the growth language.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Overall economic activity appears to have picked up after edging down in the first quarter.",
+    "after": "Recent indicators of spending and production have softened.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "after": "Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "direction": "neutral"
+   },
+   {
+    "before": "higher energy prices, and broader price pressures.",
+    "after": "higher food and energy prices, and broader price pressures.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent and anticipates that ongoing increases in the target range will be appropriate.",
+    "after": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent and anticipates that ongoing increases in the target range will be appropriate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against this action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1-1/4 percent to 1-1/2 percent.",
+    "after": "",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The Committee delivered another 75bp hike, kept the 'ongoing increases' guidance unchanged, and the vote became unanimous, while the economic assessment softened, acknowledging weaker spending and production. These offsetting elements leave the overall policy signal essentially unchanged, with a slight dovish tilt from the growth language."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Overall economic activity appears to have picked up after edging down in the first quarter.",
+     "start": 0,
+     "end": 90
+    },
+    {
+     "quote": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 92,
+     "end": 179
+    },
+    {
+     "quote": "higher energy prices, and broader price pressures.",
+     "start": 274,
+     "end": 323
+    },
+    {
+     "quote": "In addition, COVID-related lockdowns in China are likely to exacerbate supply chain disruptions.",
+     "start": 542,
+     "end": 637
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1‑1/2 to 1-3/4 percent and anticipates that ongoing increases in the target range will be appropriate.",
+     "start": 831,
+     "end": 1010
+    },
+    {
+     "quote": "Voting against this action was Esther L. George, who preferred at this meeting to raise the target range for the federal funds rate by 0.5 percentage point to 1-1/4 percent to 1-1/2 percent.",
+     "start": 2159,
+     "end": 2348
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recent indicators of spending and production have softened.",
+     "start": 0,
+     "end": 58
+    },
+    {
+     "quote": "Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 60,
+     "end": 160
+    },
+    {
+     "quote": "higher food and energy prices, and broader price pressures.",
+     "start": 255,
+     "end": 313
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent and anticipates that ongoing increases in the target range will be appropriate.",
+     "start": 714,
+     "end": 893
+    }
+   ]
+  }
+ }
+}

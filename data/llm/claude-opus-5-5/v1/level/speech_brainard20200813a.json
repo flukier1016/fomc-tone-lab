@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20200813a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200813a",
+  "doc_type": "speech",
+  "text_sha256": "e5190c16a90cbdfd8185d65350cc3e4cfa19774880bc5647d7ec9e583d3aef96"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4fbc6d98bcdc4c642bdde94774cce63744e5f2a388dc4bb6154aeef49220a20e",
+ "message_id": "msg_011CgFugCSsGxcNtS5fHUXLZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2631,
+  "output_tokens": 371,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The COVID-19 pandemic is taking a tremendous toll on communities across America, especially households and small businesses with the least resources to weather the storm.\"},{\"dimension\":\"overall\",\"quote\":\"Given the dollar's important role, it is essential that the Federal Reserve remain on the frontier of research and policy development regarding CBDCs.\"},{\"dimension\":\"overall\",\"quote\":\"That is why the Federal Reserve remains committed to delivering on the FedNow SM Service\"}],\"rationale\":\"The speech focuses on payments innovation, FedNow and CBDC research, with no monetary policy signal. Its only macro content is a brief note on the pandemic's toll on households, a mild dovish tone that does not shift the neutral overall stance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The COVID-19 pandemic is taking a tremendous toll on communities across America, especially households and small businesses with the least resources to weather the storm."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given the dollar's important role, it is essential that the Federal Reserve remain on the frontier of research and policy development regarding CBDCs."
+   },
+   {
+    "dimension": "overall",
+    "quote": "That is why the Federal Reserve remains committed to delivering on the FedNow SM Service"
+   }
+  ],
+  "rationale": "The speech focuses on payments innovation, FedNow and CBDC research, with no monetary policy signal. Its only macro content is a brief note on the pandemic's toll on households, a mild dovish tone that does not shift the neutral overall stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The COVID-19 pandemic is taking a tremendous toll on communities across America, especially households and small businesses with the least resources to weather the storm.",
+     "start": 1014,
+     "end": 1183
+    },
+    {
+     "quote": "Given the dollar's important role, it is essential that the Federal Reserve remain on the frontier of research and policy development regarding CBDCs.",
+     "start": 3244,
+     "end": 3393
+    },
+    {
+     "quote": "That is why the Federal Reserve remains committed to delivering on the FedNow SM Service",
+     "start": 1939,
+     "end": 2027
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

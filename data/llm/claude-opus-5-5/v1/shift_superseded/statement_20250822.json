@@ -1,0 +1,114 @@
+{
+ "key": "statement_20250822",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20250822",
+  "previous_doc_id": "statement_20250730",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "eb7a367dd2cef0399b4a99060f9a6210318742d1f3d6266de713036919f68088",
+ "message_id": "msg_011CgFueB4TqenuXNFxZGqRM",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1171,
+  "output_tokens": 647,
+  "output_tokens_details": {
+   "thinking_tokens": 140
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.\",\"after\":\"The Committee's two percent longer-run inflation goal was not a focus of the review.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"The updated statement, also commonly known as the consensus statement, emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions for the benefit and well-being of all Americans.\",\"direction\":\"neutral\"},{\"before\":\"Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\",\"after\":\"The Federal Open Market Committee (FOMC) on Friday announced the unanimous approval of updates to its Statement on Longer-Run Goals and Monetary Policy Strategy\",\"direction\":\"neutral\"}],\"rationale\":\"The current document is a framework-review announcement rather than a policy statement, and it contains no assessment of the economy, rate decision, or forward guidance. It reaffirms the 2 percent goal and the dual mandate without signaling any change in the near-term policy stance.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.",
+    "after": "The Committee's two percent longer-run inflation goal was not a focus of the review.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "The updated statement, also commonly known as the consensus statement, emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions for the benefit and well-being of all Americans.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+    "after": "The Federal Open Market Committee (FOMC) on Friday announced the unanimous approval of updates to its Statement on Longer-Run Goals and Monetary Policy Strategy",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The current document is a framework-review announcement rather than a policy statement, and it contains no assessment of the economy, rate decision, or forward guidance. It reaffirms the 2 percent goal and the dual mandate without signaling any change in the near-term policy stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent.",
+     "start": 518,
+     "end": 646
+    },
+    {
+     "quote": "The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.",
+     "start": 275,
+     "end": 383
+    },
+    {
+     "quote": "Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 1885,
+     "end": 2069
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee's two percent longer-run inflation goal was not a focus of the review.",
+     "start": 1230,
+     "end": 1313
+    },
+    {
+     "quote": "The updated statement, also commonly known as the consensus statement, emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions for the benefit and well-being of all Americans.",
+     "start": 436,
+     "end": 748
+    },
+    {
+     "quote": "The Federal Open Market Committee (FOMC) on Friday announced the unanimous approval of updates to its Statement on Longer-Run Goals and Monetary Policy Strategy",
+     "start": 158,
+     "end": 318
+    }
+   ]
+  }
+ }
+}

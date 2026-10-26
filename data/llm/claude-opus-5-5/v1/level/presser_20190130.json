@@ -1,0 +1,121 @@
+{
+ "key": "presser_20190130",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20190130",
+  "doc_type": "presser",
+  "text_sha256": "9ca3d43e652065fbb013b8f9d7ee574b5d2cf575b07cc42585a06504ca3f1fd9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e3786b0fea2e9105cbf85a19a6635aeb0870df3588104b6846c15dd14aedd7ef",
+ "message_id": "msg_011CgFugG4txsvwpPDJapK8a",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9552,
+  "output_tokens": 561,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Today the FOMC decided that the cumulative effects of those developments over the last several months warrant a patient, wait-and-see approach regarding future policy changes.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation readings have been muted, and the recent drop in oil prices is likely to push headline inflation lower still in coming months.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In addition, the case for raising rates has weakened somewhat.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The implication is that the normalization of the size of the portfolio will be completed sooner, and with a larger balance sheet, than in previous estimates.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But the crosscurrents I mentioned suggest the risk of a less favorable outlook.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The jobs picture continues to be strong, with the unemployment rate near historic lows and with stronger wage gains.\"}],\"rationale\":\"Rates held, but the Chair signals a clear pause in hikes ('patient'), says the case for raising rates has weakened, highlights muted inflation and downside crosscurrents, and signals an earlier end to runoff with a larger balance sheet. Strong labor market description tempers but does not offset the dovish shift.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Today the FOMC decided that the cumulative effects of those developments over the last several months warrant a patient, wait-and-see approach regarding future policy changes."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation readings have been muted, and the recent drop in oil prices is likely to push headline inflation lower still in coming months."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In addition, the case for raising rates has weakened somewhat."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The implication is that the normalization of the size of the portfolio will be completed sooner, and with a larger balance sheet, than in previous estimates."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But the crosscurrents I mentioned suggest the risk of a less favorable outlook."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The jobs picture continues to be strong, with the unemployment rate near historic lows and with stronger wage gains."
+   }
+  ],
+  "rationale": "Rates held, but the Chair signals a clear pause in hikes ('patient'), says the case for raising rates has weakened, highlights muted inflation and downside crosscurrents, and signals an earlier end to runoff with a larger balance sheet. Strong labor market description tempers but does not offset the dovish shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the FOMC decided that the cumulative effects of those developments over the last several months warrant a patient, wait-and-see approach regarding future policy changes.",
+     "start": 2745,
+     "end": 2919
+    },
+    {
+     "quote": "Inflation readings have been muted, and the recent drop in oil prices is likely to push headline inflation lower still in coming months.",
+     "start": 3820,
+     "end": 3955
+    },
+    {
+     "quote": "In addition, the case for raising rates has weakened somewhat.",
+     "start": 3523,
+     "end": 3584
+    },
+    {
+     "quote": "The implication is that the normalization of the size of the portfolio will be completed sooner, and with a larger balance sheet, than in previous estimates.",
+     "start": 6878,
+     "end": 7034
+    },
+    {
+     "quote": "But the crosscurrents I mentioned suggest the risk of a less favorable outlook.",
+     "start": 3443,
+     "end": 3521
+    },
+    {
+     "quote": "The jobs picture continues to be strong, with the unemployment rate near historic lows and with stronger wage gains.",
+     "start": 645,
+     "end": 760
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

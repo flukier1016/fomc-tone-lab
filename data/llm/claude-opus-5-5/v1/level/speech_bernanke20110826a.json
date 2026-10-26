@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20110826a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110826a",
+  "doc_type": "speech",
+  "text_sha256": "e1c1b5b7218d3c0e1d59f6adf30fc832e5e695c1ef20f6cc27304e387bfe3e3e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cee820f40836f39abd885d49dfb562c2d46de1463892a42a1d92386bdd6ee15a",
+ "message_id": "msg_011CgFug9oNNUGQYy9Bfb3VP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6468,
+  "output_tokens": 524,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve has a range of tools that could be used to provide additional monetary stimulus\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"we expect inflation to settle, over coming quarters, at levels at or below the rate of 2 percent, or a bit less\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it is clear that the recovery from the crisis has been much less robust than we had hoped\"},{\"dimension\":\"risk_balance\",\"quote\":\"there seems little doubt that they have hurt household and business confidence and that they pose ongoing risks to growth\"},{\"dimension\":\"overall\",\"quote\":\"is prepared to employ its tools as appropriate to promote a stronger economic recovery in a context of price stability\"}],\"rationale\":\"The speech reinforces the commitment to near-zero rates through at least mid-2013 and signals readiness for additional stimulus, while describing a weak recovery and subdued inflation. Downside risks to growth from financial stress and fiscal turmoil dominate the risk discussion.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve has a range of tools that could be used to provide additional monetary stimulus"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "we expect inflation to settle, over coming quarters, at levels at or below the rate of 2 percent, or a bit less"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it is clear that the recovery from the crisis has been much less robust than we had hoped"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there seems little doubt that they have hurt household and business confidence and that they pose ongoing risks to growth"
+   },
+   {
+    "dimension": "overall",
+    "quote": "is prepared to employ its tools as appropriate to promote a stronger economic recovery in a context of price stability"
+   }
+  ],
+  "rationale": "The speech reinforces the commitment to near-zero rates through at least mid-2013 and signals readiness for additional stimulus, while describing a weak recovery and subdued inflation. Downside risks to growth from financial stress and fiscal turmoil dominate the risk discussion."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013",
+     "start": 12001,
+     "end": 12100
+    },
+    {
+     "quote": "the Federal Reserve has a range of tools that could be used to provide additional monetary stimulus",
+     "start": 12385,
+     "end": 12484
+    },
+    {
+     "quote": "we expect inflation to settle, over coming quarters, at levels at or below the rate of 2 percent, or a bit less",
+     "start": 11416,
+     "end": 11527
+    },
+    {
+     "quote": "it is clear that the recovery from the crisis has been much less robust than we had hoped",
+     "start": 5629,
+     "end": 5718
+    },
+    {
+     "quote": "there seems little doubt that they have hurt household and business confidence and that they pose ongoing risks to growth",
+     "start": 10386,
+     "end": 10507
+    },
+    {
+     "quote": "is prepared to employ its tools as appropriate to promote a stronger economic recovery in a context of price stability",
+     "start": 12918,
+     "end": 13036
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

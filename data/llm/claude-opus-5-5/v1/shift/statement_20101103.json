@@ -1,0 +1,144 @@
+{
+ "key": "statement_20101103",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20101103",
+  "previous_doc_id": "statement_20100921",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "17c544366e863f516f19f9229d6717d014842abe6340da367e99355447949fab",
+ "message_id": "msg_011CgFudzYh4eqm1NzojaZaY",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1908,
+  "output_tokens": 657,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"\",\"after\":\"In addition, the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"To promote a stronger pace of economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate, the Committee decided today to expand its holdings of securities.\",\"direction\":\"dovish\"},{\"before\":\"indicates that the pace of recovery in output and employment has slowed in recent months.\",\"after\":\"confirms that the pace of recovery in output and employment continues to be slow.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Longer-term inflation expectations have remained stable, but measures of underlying inflation have trended lower in recent quarters.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Although the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, progress toward its objectives has been disappointingly slow.\",\"direction\":\"dovish\"},{\"before\":\"is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.\",\"after\":\"will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability.\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee moved from signaling readiness for additional accommodation to actually launching a $600 billion Treasury purchase program, a clear easing action. This was accompanied by gloomier language on the recovery ('disappointingly slow') and on inflation trending lower.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "",
+    "after": "In addition, the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "To promote a stronger pace of economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate, the Committee decided today to expand its holdings of securities.",
+    "direction": "dovish"
+   },
+   {
+    "before": "indicates that the pace of recovery in output and employment has slowed in recent months.",
+    "after": "confirms that the pace of recovery in output and employment continues to be slow.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Longer-term inflation expectations have remained stable, but measures of underlying inflation have trended lower in recent quarters.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Although the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, progress toward its objectives has been disappointingly slow.",
+    "direction": "dovish"
+   },
+   {
+    "before": "is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.",
+    "after": "will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee moved from signaling readiness for additional accommodation to actually launching a $600 billion Treasury purchase program, a clear easing action. This was accompanied by gloomier language on the recovery ('disappointingly slow') and on inflation trending lower."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the pace of recovery in output and employment has slowed in recent months.",
+     "start": 75,
+     "end": 163
+    },
+    {
+     "quote": "is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate.",
+     "start": 1863,
+     "end": 2027
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In addition, the Committee intends to purchase a further $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.",
+     "start": 1523,
+     "end": 1707
+    },
+    {
+     "quote": "To promote a stronger pace of economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate, the Committee decided today to expand its holdings of securities.",
+     "start": 1209,
+     "end": 1409
+    },
+    {
+     "quote": "confirms that the pace of recovery in output and employment continues to be slow.",
+     "start": 78,
+     "end": 158
+    },
+    {
+     "quote": "Longer-term inflation expectations have remained stable, but measures of underlying inflation have trended lower in recent quarters.",
+     "start": 569,
+     "end": 700
+    },
+    {
+     "quote": "Although the Committee anticipates a gradual return to higher levels of resource utilization in a context of price stability, progress toward its objectives has been disappointingly slow.",
+     "start": 1020,
+     "end": 1206
+    },
+    {
+     "quote": "will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.",
+     "start": 2402,
+     "end": 2563
+    },
+    {
+     "quote": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed to best foster maximum employment and price stability.",
+     "start": 1709,
+     "end": 1957
+    }
+   ]
+  }
+ }
+}

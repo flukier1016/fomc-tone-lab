@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20240710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240710a",
+  "doc_type": "speech",
+  "text_sha256": "7c58960b0406b4ce1dcdf49f79169051368d7cdf555b0cb4a15659ce839bfeb3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "403ed6e908be5fe4e1473a04f726c2acc1c30c2933f72a146dbc88e2f1771568",
+ "message_id": "msg_011CgFug9sLaA1TcEsygiWL6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4988,
+  "output_tokens": 501,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"This persistence and the recent decline in global components of core and noncore inflation suggest that the world disinflationary process will continue\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Inflation has fallen significantly from its peak, and the labor market has gradually cooled but remains strong.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"For all central banks, the question is how best to ensure continued disinflation while avoiding unnecessary damage to the economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Thus, my baseline forecast (and that of many outside observers) is that inflation will continue to move toward target over time, without much further rise in unemployment.\"},{\"dimension\":\"overall\",\"quote\":\"Soft landings were also more likely when policy easing began with inflation already close to target and when there was a relatively firm growth backdrop.\"}],\"rationale\":\"The speech is largely retrospective, but it describes continuing disinflation, an easing labor market, and a soft-landing baseline. It frames the policy question around avoiding unnecessary damage and the conditions for easing, giving a mild dovish lean without explicit guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This persistence and the recent decline in global components of core and noncore inflation suggest that the world disinflationary process will continue"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Inflation has fallen significantly from its peak, and the labor market has gradually cooled but remains strong."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "For all central banks, the question is how best to ensure continued disinflation while avoiding unnecessary damage to the economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Thus, my baseline forecast (and that of many outside observers) is that inflation will continue to move toward target over time, without much further rise in unemployment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Soft landings were also more likely when policy easing began with inflation already close to target and when there was a relatively firm growth backdrop."
+   }
+  ],
+  "rationale": "The speech is largely retrospective, but it describes continuing disinflation, an easing labor market, and a soft-landing baseline. It frames the policy question around avoiding unnecessary damage and the conditions for easing, giving a mild dovish lean without explicit guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This persistence and the recent decline in global components of core and noncore inflation suggest that the world disinflationary process will continue",
+     "start": 8582,
+     "end": 8733
+    },
+    {
+     "quote": "Inflation has fallen significantly from its peak, and the labor market has gradually cooled but remains strong.",
+     "start": 12092,
+     "end": 12202
+    },
+    {
+     "quote": "For all central banks, the question is how best to ensure continued disinflation while avoiding unnecessary damage to the economy.",
+     "start": 10803,
+     "end": 10932
+    },
+    {
+     "quote": "Thus, my baseline forecast (and that of many outside observers) is that inflation will continue to move toward target over time, without much further rise in unemployment.",
+     "start": 12952,
+     "end": 13122
+    },
+    {
+     "quote": "Soft landings were also more likely when policy easing began with inflation already close to target and when there was a relatively firm growth backdrop.",
+     "start": 11855,
+     "end": 12007
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

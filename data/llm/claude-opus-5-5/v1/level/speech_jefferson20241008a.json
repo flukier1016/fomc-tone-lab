@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20241008a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20241008a",
+  "doc_type": "speech",
+  "text_sha256": "b8ab26f85c0ba32c358a640205af7a5f46aef3e1115c245b8838fae234ec2f7e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ff27a689873b649dc3085e0470061eb38e95c36b1a137e81ac2573f77347995a",
+ "message_id": "msg_011CgFugAeDew5gnURJfrgbq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6107,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is now much closer to the Federal Open Market Committee's (FOMC) 2 percent objective. I expect that we will continue to make progress toward that goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even so, the cooling in the labor market is noticeable.\"},{\"dimension\":\"risk_balance\",\"quote\":\"as risks to inflation have diminished and risks to employment have risen, these risks have been brought roughly into balance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I will carefully watch incoming data, the evolving outlook, and the balance of risks when considering additional adjustments to the federal funds target range\"},{\"dimension\":\"overall\",\"quote\":\"To maintain the strength of the labor market, my FOMC colleagues and I recalibrated our policy stance last month, lowering our policy interest rate by 1/2 percentage point\"}],\"rationale\":\"The brief outlook section highlights easing inflation, a noticeably cooling labor market and a recent recalibration toward lower rates, with mention of possible additional adjustments, giving a mild dovish lean. Most of the speech is a history of the discount window, with no policy signal, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is now much closer to the Federal Open Market Committee's (FOMC) 2 percent objective. I expect that we will continue to make progress toward that goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even so, the cooling in the labor market is noticeable."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "as risks to inflation have diminished and risks to employment have risen, these risks have been brought roughly into balance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will carefully watch incoming data, the evolving outlook, and the balance of risks when considering additional adjustments to the federal funds target range"
+   },
+   {
+    "dimension": "overall",
+    "quote": "To maintain the strength of the labor market, my FOMC colleagues and I recalibrated our policy stance last month, lowering our policy interest rate by 1/2 percentage point"
+   }
+  ],
+  "rationale": "The brief outlook section highlights easing inflation, a noticeably cooling labor market and a recent recalibration toward lower rates, with mention of possible additional adjustments, giving a mild dovish lean. Most of the speech is a history of the discount window, with no policy signal, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation is now much closer to the Federal Open Market Committee's (FOMC) 2 percent objective. I expect that we will continue to make progress toward that goal.",
+     "start": 3094,
+     "end": 3254
+    },
+    {
+     "quote": "Even so, the cooling in the labor market is noticeable.",
+     "start": 3809,
+     "end": 3863
+    },
+    {
+     "quote": "as risks to inflation have diminished and risks to employment have risen, these risks have been brought roughly into balance.",
+     "start": 3995,
+     "end": 4119
+    },
+    {
+     "quote": "I will carefully watch incoming data, the evolving outlook, and the balance of risks when considering additional adjustments to the federal funds target range",
+     "start": 4435,
+     "end": 4593
+    },
+    {
+     "quote": "To maintain the strength of the labor market, my FOMC colleagues and I recalibrated our policy stance last month, lowering our policy interest rate by 1/2 percentage point",
+     "start": 4224,
+     "end": 4395
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

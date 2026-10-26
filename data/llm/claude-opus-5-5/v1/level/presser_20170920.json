@@ -1,0 +1,121 @@
+{
+ "key": "presser_20170920",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20170920",
+  "doc_type": "presser",
+  "text_sha256": "f5c3def5ac55aae8897fa53a8a2f63efae88be7b9bdc27518aa683846f5ee5e4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8b5a794cfad54732a7a700e3539fdcb8789ea0396bb7deaca50dadb39fe9ec50",
+ "message_id": "msg_011CgFugFLk8H5ZmZx7RrMXx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11557,
+  "output_tokens": 494,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":2,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"We also decided that in October we will begin the balance sheet normalization program that we outlined in June.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"in light of the unexpected lower inflation readings this year, the Committee is monitoring inflation developments closely.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market has strengthened substantially.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So there are risks on both sides to our objectives, and most of my colleagues and I have concluded that a gradual path of rate increases\"},{\"dimension\":\"overall\",\"quote\":\"We are working down our balance sheet because we feel that's stimulus that in some sense is no longer needed.\"}],\"rationale\":\"The Chair held rates but launched balance sheet runoff and reiterated expectations of gradual further hikes, citing strong labor markets and overheating risk. Concern about persistently low inflation and two-sided risks tempers the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 2,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "We also decided that in October we will begin the balance sheet normalization program that we outlined in June."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "in light of the unexpected lower inflation readings this year, the Committee is monitoring inflation developments closely."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market has strengthened substantially."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So there are risks on both sides to our objectives, and most of my colleagues and I have concluded that a gradual path of rate increases"
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are working down our balance sheet because we feel that's stimulus that in some sense is no longer needed."
+   }
+  ],
+  "rationale": "The Chair held rates but launched balance sheet runoff and reiterated expectations of gradual further hikes, citing strong labor markets and overheating risk. Concern about persistently low inflation and two-sided risks tempers the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We also decided that in October we will begin the balance sheet normalization program that we outlined in June.",
+     "start": 367,
+     "end": 477
+    },
+    {
+     "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion.",
+     "start": 6477,
+     "end": 6593
+    },
+    {
+     "quote": "in light of the unexpected lower inflation readings this year, the Committee is monitoring inflation developments closely.",
+     "start": 4182,
+     "end": 4303
+    },
+    {
+     "quote": "The labor market has strengthened substantially.",
+     "start": 36285,
+     "end": 36332
+    },
+    {
+     "quote": "So there are risks on both sides to our objectives, and most of my colleagues and I have concluded that a gradual path of rate increases",
+     "start": 39433,
+     "end": 39569
+    },
+    {
+     "quote": "We are working down our balance sheet because we feel that's stimulus that in some sense is no longer needed.",
+     "start": 36104,
+     "end": 36212
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

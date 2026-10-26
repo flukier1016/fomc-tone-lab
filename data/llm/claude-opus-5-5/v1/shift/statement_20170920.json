@@ -1,0 +1,149 @@
+{
+ "key": "statement_20170920",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20170920",
+  "previous_doc_id": "statement_20170726",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "687576eac7e6c7b83293ba48e85d93a0b0715bba7c93799cab7830c92c5afe47",
+ "message_id": "msg_011CgFudUatHP4Uohs7qsXHx",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2154,
+  "output_tokens": 760,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"For the time being, the Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated; this program is described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.\",\"after\":\"In October, the Committee will initiate the balance sheet normalization program described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Storm-related disruptions and rebuilding will affect economic activity in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term\",\"after\":\"Higher prices for gasoline and some other items in the aftermath of the hurricanes will likely boost inflation temporarily; apart from that effect, inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term\",\"direction\":\"neutral\"},{\"before\":\"Household spending and business fixed investment have continued to expand.\",\"after\":\"Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.\",\"direction\":\"hawkish\"},{\"before\":\"Job gains have been solid, on average, since the beginning of the year, and the unemployment rate has declined.\",\"after\":\"Job gains have remained solid in recent months, and the unemployment rate has stayed low.\",\"direction\":\"neutral\"},{\"before\":\"have declined and are running below 2 percent.\",\"after\":\"have declined this year and are running below 2 percent.\",\"direction\":\"dovish\"}],\"rationale\":\"The statement firmly commits to starting balance sheet runoff in October and dismisses the hurricanes as a medium-term threat, keeping the gradual-hike guidance intact. Rates were held and inflation language stayed soft, so the hawkish shift is modest.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "For the time being, the Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated; this program is described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+    "after": "In October, the Committee will initiate the balance sheet normalization program described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Storm-related disruptions and rebuilding will affect economic activity in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term",
+    "after": "Higher prices for gasoline and some other items in the aftermath of the hurricanes will likely boost inflation temporarily; apart from that effect, inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term",
+    "direction": "neutral"
+   },
+   {
+    "before": "Household spending and business fixed investment have continued to expand.",
+    "after": "Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Job gains have been solid, on average, since the beginning of the year, and the unemployment rate has declined.",
+    "after": "Job gains have remained solid in recent months, and the unemployment rate has stayed low.",
+    "direction": "neutral"
+   },
+   {
+    "before": "have declined and are running below 2 percent.",
+    "after": "have declined this year and are running below 2 percent.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The statement firmly commits to starting balance sheet runoff in October and dismisses the hurricanes as a medium-term threat, keeping the gradual-hike guidance intact. Rates were held and inflation language stayed soft, so the hawkish shift is modest."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "For the time being, the Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated; this program is described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+     "start": 2629,
+     "end": 3172
+    },
+    {
+     "quote": "Inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term",
+     "start": 1000,
+     "end": 1093
+    },
+    {
+     "quote": "Household spending and business fixed investment have continued to expand.",
+     "start": 317,
+     "end": 390
+    },
+    {
+     "quote": "Job gains have been solid, on average, since the beginning of the year, and the unemployment rate has declined.",
+     "start": 205,
+     "end": 315
+    },
+    {
+     "quote": "have declined and are running below 2 percent.",
+     "start": 480,
+     "end": 525
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In October, the Committee will initiate the balance sheet normalization program described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+     "start": 3157,
+     "end": 3333
+    },
+    {
+     "quote": "Storm-related disruptions and rebuilding will affect economic activity in the near term, but past experience suggests that the storms are unlikely to materially alter the course of the national economy over the medium term.",
+     "start": 931,
+     "end": 1153
+    },
+    {
+     "quote": "Higher prices for gasoline and some other items in the aftermath of the hurricanes will likely boost inflation temporarily; apart from that effect, inflation on a 12-month basis is expected to remain somewhat below 2 percent in the near term",
+     "start": 1380,
+     "end": 1621
+    },
+    {
+     "quote": "Household spending has been expanding at a moderate rate, and growth in business fixed investment has picked up in recent quarters.",
+     "start": 295,
+     "end": 425
+    },
+    {
+     "quote": "Job gains have remained solid in recent months, and the unemployment rate has stayed low.",
+     "start": 205,
+     "end": 293
+    },
+    {
+     "quote": "have declined this year and are running below 2 percent.",
+     "start": 515,
+     "end": 570
+    }
+   ]
+  }
+ }
+}

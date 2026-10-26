@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20130205a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20130205a",
+  "doc_type": "speech",
+  "text_sha256": "9c5253d6da4b2db5054bf9c5076e6e1b0fc44b02beafa8f790cacf6ce1e94188"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1e58d7b3d72b50da4855c8630bb61bb93c9b5c0e027609ae91051edb8124809f",
+ "message_id": "msg_011CgFugCiynm6yafaJMcVoe",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8175,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The interest margin pressure banks face today is partly due to low interest rates and partly due to weak loan demand, both of which are consequences of a sluggish economy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yes, the regulatory environment is challenging and the economy remains weak in many areas.\"},{\"dimension\":\"overall\",\"quote\":\"I think the future for community banking is bright.\"},{\"dimension\":\"overall\",\"quote\":\"At the Federal Reserve, we have formalized our process for considering the unique characteristics of community banks as we craft regulatory and supervisory policies.\"}],\"rationale\":\"The speech focuses on community bank regulation and supervision with no monetary policy signal. Brief references to a sluggish, weak economy provide only a mild dovish tilt on activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The interest margin pressure banks face today is partly due to low interest rates and partly due to weak loan demand, both of which are consequences of a sluggish economy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yes, the regulatory environment is challenging and the economy remains weak in many areas."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I think the future for community banking is bright."
+   },
+   {
+    "dimension": "overall",
+    "quote": "At the Federal Reserve, we have formalized our process for considering the unique characteristics of community banks as we craft regulatory and supervisory policies."
+   }
+  ],
+  "rationale": "The speech focuses on community bank regulation and supervision with no monetary policy signal. Brief references to a sluggish, weak economy provide only a mild dovish tilt on activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The interest margin pressure banks face today is partly due to low interest rates and partly due to weak loan demand, both of which are consequences of a sluggish economy.",
+     "start": 2622,
+     "end": 2792
+    },
+    {
+     "quote": "Yes, the regulatory environment is challenging and the economy remains weak in many areas.",
+     "start": 28485,
+     "end": 28574
+    },
+    {
+     "quote": "I think the future for community banking is bright.",
+     "start": 27572,
+     "end": 27622
+    },
+    {
+     "quote": "At the Federal Reserve, we have formalized our process for considering the unique characteristics of community banks as we craft regulatory and supervisory policies.",
+     "start": 7436,
+     "end": 7600
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

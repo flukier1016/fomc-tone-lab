@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20251007a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20251007a",
+  "doc_type": "speech",
+  "text_sha256": "70a3c5343419b6151a5ceefd0d8fe1e84e7a952f0f582ad6b0e9caf165c9ac6c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "de92e848175a71d8dd9dab8e4ef18b8117dfaa8b5d357fab17c208b6326b8297",
+ "message_id": "msg_011CgFugGxiywdAn2Af1ivDn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2255,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"We are refocusing supervisory efforts on core material financial risks, reviewing the CAMELS ratings framework, revising the community bank leverage ratio, and considering ways to improve the treatment of mutual banks.\"},{\"dimension\":\"overall\",\"quote\":\"Welcome to the 2025 community banking research conference.\"}],\"rationale\":\"These welcome remarks deal solely with community banking supervision and regulation and contain no discussion of monetary policy, inflation or the economic outlook. The stance is therefore neutral and all policy dimensions are null.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "We are refocusing supervisory efforts on core material financial risks, reviewing the CAMELS ratings framework, revising the community bank leverage ratio, and considering ways to improve the treatment of mutual banks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Welcome to the 2025 community banking research conference."
+   }
+  ],
+  "rationale": "These welcome remarks deal solely with community banking supervision and regulation and contain no discussion of monetary policy, inflation or the economic outlook. The stance is therefore neutral and all policy dimensions are null."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are refocusing supervisory efforts on core material financial risks, reviewing the CAMELS ratings framework, revising the community bank leverage ratio, and considering ways to improve the treatment of mutual banks.",
+     "start": 3930,
+     "end": 4147
+    },
+    {
+     "quote": "Welcome to the 2025 community banking research conference.",
+     "start": 557,
+     "end": 614
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

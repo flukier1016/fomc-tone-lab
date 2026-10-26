@@ -1,0 +1,171 @@
+{
+ "key": "tdw_test_00175",
+ "mode": "sentences",
+ "meta": {
+  "ids": [
+   175,
+   176,
+   177,
+   178,
+   179,
+   180,
+   181,
+   182,
+   183,
+   184,
+   185,
+   186,
+   187,
+   188,
+   189,
+   190,
+   191,
+   192,
+   193,
+   194,
+   195,
+   196,
+   197,
+   198,
+   199
+  ]
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a70f8e6318faf2e45df6d24118c624ecb29fd296045ed3ae5ffa7688ea5bc5fa",
+ "message_id": "msg_011CgFudvvuUTkNVomAcVNiu",
+ "request_id": null,
+ "batch_id": "msgbatch_01H2LDjoZzZ3MeVEcG2bRwMF",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 527,
+  "inference_geo": "global",
+  "input_tokens": 1720,
+  "output_tokens": 391,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:13+00:00",
+ "raw_text": "{\"labels\":[{\"id\":175,\"label\":\"neutral\"},{\"id\":176,\"label\":\"hawkish\"},{\"id\":177,\"label\":\"dovish\"},{\"id\":178,\"label\":\"neutral\"},{\"id\":179,\"label\":\"dovish\"},{\"id\":180,\"label\":\"hawkish\"},{\"id\":181,\"label\":\"neutral\"},{\"id\":182,\"label\":\"neutral\"},{\"id\":183,\"label\":\"neutral\"},{\"id\":184,\"label\":\"neutral\"},{\"id\":185,\"label\":\"neutral\"},{\"id\":186,\"label\":\"neutral\"},{\"id\":187,\"label\":\"dovish\"},{\"id\":188,\"label\":\"dovish\"},{\"id\":189,\"label\":\"neutral\"},{\"id\":190,\"label\":\"hawkish\"},{\"id\":191,\"label\":\"dovish\"},{\"id\":192,\"label\":\"dovish\"},{\"id\":193,\"label\":\"hawkish\"},{\"id\":194,\"label\":\"neutral\"},{\"id\":195,\"label\":\"neutral\"},{\"id\":196,\"label\":\"hawkish\"},{\"id\":197,\"label\":\"neutral\"},{\"id\":198,\"label\":\"hawkish\"},{\"id\":199,\"label\":\"neutral\"}]}",
+ "parsed": {
+  "labels": [
+   {
+    "id": 175,
+    "label": "neutral"
+   },
+   {
+    "id": 176,
+    "label": "hawkish"
+   },
+   {
+    "id": 177,
+    "label": "dovish"
+   },
+   {
+    "id": 178,
+    "label": "neutral"
+   },
+   {
+    "id": 179,
+    "label": "dovish"
+   },
+   {
+    "id": 180,
+    "label": "hawkish"
+   },
+   {
+    "id": 181,
+    "label": "neutral"
+   },
+   {
+    "id": 182,
+    "label": "neutral"
+   },
+   {
+    "id": 183,
+    "label": "neutral"
+   },
+   {
+    "id": 184,
+    "label": "neutral"
+   },
+   {
+    "id": 185,
+    "label": "neutral"
+   },
+   {
+    "id": 186,
+    "label": "neutral"
+   },
+   {
+    "id": 187,
+    "label": "dovish"
+   },
+   {
+    "id": 188,
+    "label": "dovish"
+   },
+   {
+    "id": 189,
+    "label": "neutral"
+   },
+   {
+    "id": 190,
+    "label": "hawkish"
+   },
+   {
+    "id": 191,
+    "label": "dovish"
+   },
+   {
+    "id": 192,
+    "label": "dovish"
+   },
+   {
+    "id": 193,
+    "label": "hawkish"
+   },
+   {
+    "id": 194,
+    "label": "neutral"
+   },
+   {
+    "id": 195,
+    "label": "neutral"
+   },
+   {
+    "id": 196,
+    "label": "hawkish"
+   },
+   {
+    "id": 197,
+    "label": "neutral"
+   },
+   {
+    "id": 198,
+    "label": "hawkish"
+   },
+   {
+    "id": 199,
+    "label": "neutral"
+   }
+  ]
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "complete": true
+ }
+}

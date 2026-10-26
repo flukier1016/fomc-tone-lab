@@ -1,0 +1,122 @@
+{
+ "key": "statement_20100428",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20100428",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "df0fcaf52adb2a87b74a25dcca755c4fdab7382ef36298d9a1c68a2777f4666d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1ab004d76bcc1aabf32e6e28ed60f78810945dee0d2b0ca0e967c961e501f473",
+ "message_id": "msg_011CgFueJmZcmrSfURQMbgjx",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 831,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation is likely to be subdued for some time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity has continued to strengthen and that the labor market is beginning to improve\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"remains constrained by high unemployment, modest income growth, lower housing wealth, and tight credit\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis\"},{\"dimension\":\"overall\",\"quote\":\"Voting against the policy action was [NAME], who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted\"}],\"rationale\":\"The Committee holds rates at exceptionally low levels and keeps its 'extended period' guidance, citing substantial slack and subdued inflation, which is accommodative. Improving activity, the winding down of liquidity facilities, and a hawkish dissent temper the dovish signal somewhat.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation is likely to be subdued for some time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity has continued to strengthen and that the labor market is beginning to improve"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "remains constrained by high unemployment, modest income growth, lower housing wealth, and tight credit"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against the policy action was [NAME], who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted"
+   }
+  ],
+  "rationale": "The Committee holds rates at exceptionally low levels and keeps its 'extended period' guidance, citing substantial slack and subdued inflation, which is accommodative. Improving activity, the winding down of liquidity facilities, and a hawkish dissent temper the dovish signal somewhat."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 1311,
+     "end": 1406
+    },
+    {
+     "quote": "inflation is likely to be subdued for some time",
+     "start": 1010,
+     "end": 1057
+    },
+    {
+     "quote": "economic activity has continued to strengthen and that the labor market is beginning to improve",
+     "start": 90,
+     "end": 185
+    },
+    {
+     "quote": "remains constrained by high unemployment, modest income growth, lower housing wealth, and tight credit",
+     "start": 243,
+     "end": 345
+    },
+    {
+     "quote": "the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis",
+     "start": 1647,
+     "end": 1778
+    },
+    {
+     "quote": "Voting against the policy action was [NAME], who believed that continuing to express the expectation of exceptionally low levels of the federal funds rate for an extended period was no longer warranted",
+     "start": 2208,
+     "end": 2409
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

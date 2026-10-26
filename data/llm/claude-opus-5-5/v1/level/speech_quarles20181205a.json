@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20181205a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20181205a",
+  "doc_type": "speech",
+  "text_sha256": "63510d56118bdceacb462668f5e6173767f2334ec48ab58f779db36f2ad3af38"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0bfdbda7ad662a5c425f1b47bb8254f1ee8f224214a7c783f6d4faa857f0bdf1",
+ "message_id": "msg_011CgFugH5fa1HxhM2ZAcDDP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5503,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The U.S. economy is strong, and the western economy is especially strong.\"},{\"dimension\":\"overall\",\"quote\":\"A significant part of the Federal Reserve's recent regulatory focus has been aimed at streamlining regulations and reducing the regulatory burden on smaller and regional banks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, rural communities are growing at a healthy pace, and growing communities need banks.\"}],\"rationale\":\"The speech is about the Western regional economy, rural banking access and regulatory tailoring, with no monetary policy content. Its only macro note is a brief statement that the U.S. economy is strong, which leans slightly hawkish on activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The U.S. economy is strong, and the western economy is especially strong."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A significant part of the Federal Reserve's recent regulatory focus has been aimed at streamlining regulations and reducing the regulatory burden on smaller and regional banks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, rural communities are growing at a healthy pace, and growing communities need banks."
+   }
+  ],
+  "rationale": "The speech is about the Western regional economy, rural banking access and regulatory tailoring, with no monetary policy content. Its only macro note is a brief statement that the U.S. economy is strong, which leans slightly hawkish on activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The U.S. economy is strong, and the western economy is especially strong.",
+     "start": 5566,
+     "end": 5638
+    },
+    {
+     "quote": "A significant part of the Federal Reserve's recent regulatory focus has been aimed at streamlining regulations and reducing the regulatory burden on smaller and regional banks.",
+     "start": 16902,
+     "end": 17077
+    },
+    {
+     "quote": "Overall, rural communities are growing at a healthy pace, and growing communities need banks.",
+     "start": 16658,
+     "end": 16750
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

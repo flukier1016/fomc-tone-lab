@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20241120a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20241120a",
+  "doc_type": "speech",
+  "text_sha256": "c44f9e95a8c32a3672305eb72ce128ff9301618a485b039de8e60a300d05783b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8ee857e9b617337f1cec968d4d02490996db60b01937b968be072516611354be",
+ "message_id": "msg_011CgFugEVPyd2Fgs7Rqg4eg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8005,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"We have seen considerable progress in lowering inflation since early 2023, but progress seems to have stalled in recent months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see greater risks to the price stability side of our mandate, especially while the labor market remains near full employment\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would prefer to proceed cautiously in bringing the policy rate down to better assess how far we are from the end point\"},{\"dimension\":\"forward_guidance\",\"quote\":\"My estimate of the neutral policy rate is much higher than it was before the pandemic, and therefore we may be closer to a neutral policy stance than we currently think.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The real economy continues to be strong, with solid momentum in economic activity, robust household spending and business investment, and a healthy labor market that remains near full employment.\"}],\"rationale\":\"Bowman stresses stalled disinflation, upside inflation risks, a strong economy, and a high neutral rate, favoring slow, cautious cuts. Much of the speech concerns bank regulation, but the monetary policy portion is clearly hawkish-leaning.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We have seen considerable progress in lowering inflation since early 2023, but progress seems to have stalled in recent months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see greater risks to the price stability side of our mandate, especially while the labor market remains near full employment"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would prefer to proceed cautiously in bringing the policy rate down to better assess how far we are from the end point"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "My estimate of the neutral policy rate is much higher than it was before the pandemic, and therefore we may be closer to a neutral policy stance than we currently think."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The real economy continues to be strong, with solid momentum in economic activity, robust household spending and business investment, and a healthy labor market that remains near full employment."
+   }
+  ],
+  "rationale": "Bowman stresses stalled disinflation, upside inflation risks, a strong economy, and a high neutral rate, favoring slow, cautious cuts. Much of the speech concerns bank regulation, but the monetary policy portion is clearly hawkish-leaning."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We have seen considerable progress in lowering inflation since early 2023, but progress seems to have stalled in recent months.",
+     "start": 7177,
+     "end": 7303
+    },
+    {
+     "quote": "I see greater risks to the price stability side of our mandate, especially while the labor market remains near full employment",
+     "start": 11039,
+     "end": 11165
+    },
+    {
+     "quote": "I would prefer to proceed cautiously in bringing the policy rate down to better assess how far we are from the end point",
+     "start": 18206,
+     "end": 18326
+    },
+    {
+     "quote": "My estimate of the neutral policy rate is much higher than it was before the pandemic, and therefore we may be closer to a neutral policy stance than we currently think.",
+     "start": 18036,
+     "end": 18204
+    },
+    {
+     "quote": "The real economy continues to be strong, with solid momentum in economic activity, robust household spending and business investment, and a healthy labor market that remains near full employment.",
+     "start": 6804,
+     "end": 6998
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

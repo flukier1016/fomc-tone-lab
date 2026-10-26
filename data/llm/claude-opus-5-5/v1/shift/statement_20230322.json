@@ -1,0 +1,154 @@
+{
+ "key": "statement_20230322",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20230322",
+  "previous_doc_id": "statement_20230201",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f4a05d9a8990231f6aa8af00ddead476735f3ef338588a648edd09fb607bbc96",
+ "message_id": "msg_011CgFudVfNu6KHFwxXTbkqN",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1492,
+  "output_tokens": 618,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.\",\"after\":\"The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation. The extent of these effects is uncertain.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee will closely monitor incoming information and assess the implications for monetary policy.\",\"direction\":\"dovish\"},{\"before\":\"Inflation has eased somewhat but remains elevated.\",\"after\":\"Inflation remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"Job gains have been robust in recent months, and the unemployment rate has remained low.\",\"after\":\"Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The U.S. banking system is sound and resilient.\",\"direction\":\"neutral\"},{\"before\":\"The Committee is highly attentive to inflation risks.\",\"after\":\"The Committee remains highly attentive to inflation risks.\",\"direction\":\"neutral\"}],\"rationale\":\"Although rates were raised another 25bp and inflation/labor descriptions firmed, the forward guidance softened from \\\"ongoing increases\\\" to \\\"some additional policy firming may be appropriate\\\", signaling a nearing end to hikes. New language on tighter credit conditions weighing on activity and inflation adds a further dovish tilt.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+    "after": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation. The extent of these effects is uncertain.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation has eased somewhat but remains elevated.",
+    "after": "Inflation remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "after": "Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The U.S. banking system is sound and resilient.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee is highly attentive to inflation risks.",
+    "after": "The Committee remains highly attentive to inflation risks.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Although rates were raised another 25bp and inflation/labor descriptions firmed, the forward guidance softened from \"ongoing increases\" to \"some additional policy firming may be appropriate\", signaling a nearing end to hikes. New language on tighter credit conditions weighing on activity and inflation adds a further dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that ongoing increases in the target range will be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+     "start": 635,
+     "end": 846
+    },
+    {
+     "quote": "Inflation has eased somewhat but remains elevated.",
+     "start": 158,
+     "end": 207
+    },
+    {
+     "quote": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 69,
+     "end": 156
+    },
+    {
+     "quote": "The Committee is highly attentive to inflation risks.",
+     "start": 341,
+     "end": 393
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
+     "start": 862,
+     "end": 1065
+    },
+    {
+     "quote": "Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation. The extent of these effects is uncertain.",
+     "start": 262,
+     "end": 460
+    },
+    {
+     "quote": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+     "start": 757,
+     "end": 860
+    },
+    {
+     "quote": "Inflation remains elevated.",
+     "start": 185,
+     "end": 211
+    },
+    {
+     "quote": "Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.",
+     "start": 69,
+     "end": 183
+    },
+    {
+     "quote": "The U.S. banking system is sound and resilient.",
+     "start": 214,
+     "end": 260
+    },
+    {
+     "quote": "The Committee remains highly attentive to inflation risks.",
+     "start": 462,
+     "end": 519
+    }
+   ]
+  }
+ }
+}

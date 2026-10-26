@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20160226a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20160226a",
+  "doc_type": "speech",
+  "text_sha256": "021aa5ec6a54033e8174fc845895d9d276934fe7304719ad7d7c7eb236fbeda9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7d1bd44cada8c2e5fce8a2a9d6e4d264bab4507184fe0ab6040a40ef70917271",
+ "message_id": "msg_011CgFugAo9GvBD9bg9c9wWu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5246,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"could result in a lower policy path in the United States relative to what many had predicted.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"lead me to put a high premium on evidence that actual inflation is firming sustainably.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the softening in market-based measures of inflation expectations and some hints of weakening in survey measures deserve our attention.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even so, there is evidence that some labor market slack still remains.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the United States has experienced a tightening of financial conditions that is the equivalent of an additional increase of over 75 basis points in the federal funds rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if many of the common forces holding down neutral rates prove persistent, then neutral rates may remain low through the medium term, implying a shallower path for policy trajectories.\"}],\"rationale\":\"The speaker stresses persistently low inflation, deteriorating inflation expectations, global spillovers and a low neutral rate, explicitly implying a lower and shallower U.S. policy path. Downside risks from abroad and financial tightening dominate, a clearly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "could result in a lower policy path in the United States relative to what many had predicted."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "lead me to put a high premium on evidence that actual inflation is firming sustainably."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the softening in market-based measures of inflation expectations and some hints of weakening in survey measures deserve our attention."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even so, there is evidence that some labor market slack still remains."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the United States has experienced a tightening of financial conditions that is the equivalent of an additional increase of over 75 basis points in the federal funds rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if many of the common forces holding down neutral rates prove persistent, then neutral rates may remain low through the medium term, implying a shallower path for policy trajectories."
+   }
+  ],
+  "rationale": "The speaker stresses persistently low inflation, deteriorating inflation expectations, global spillovers and a low neutral rate, explicitly implying a lower and shallower U.S. policy path. Downside risks from abroad and financial tightening dominate, a clearly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "could result in a lower policy path in the United States relative to what many had predicted.",
+     "start": 15690,
+     "end": 15782
+    },
+    {
+     "quote": "lead me to put a high premium on evidence that actual inflation is firming sustainably.",
+     "start": 6173,
+     "end": 6259
+    },
+    {
+     "quote": "the softening in market-based measures of inflation expectations and some hints of weakening in survey measures deserve our attention.",
+     "start": 5852,
+     "end": 5985
+    },
+    {
+     "quote": "Even so, there is evidence that some labor market slack still remains.",
+     "start": 1571,
+     "end": 1640
+    },
+    {
+     "quote": "the United States has experienced a tightening of financial conditions that is the equivalent of an additional increase of over 75 basis points in the federal funds rate.",
+     "start": 10423,
+     "end": 10592
+    },
+    {
+     "quote": "if many of the common forces holding down neutral rates prove persistent, then neutral rates may remain low through the medium term, implying a shallower path for policy trajectories.",
+     "start": 8389,
+     "end": 8571
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

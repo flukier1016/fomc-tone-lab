@@ -1,0 +1,112 @@
+{
+ "key": "speech_stein20130926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_stein20130926a",
+  "doc_type": "speech",
+  "text_sha256": "718e4a1c6f05df75bd06b191c5f6b363ef32f4516e376a89cc178b16f053c499"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "131743f3e2f82c41a9ae51fbbab53e12cb08094ae7d83336c48119d48eddc320",
+ "message_id": "msg_011CgFugFoH8oZWuA6hj5g9L",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4602,
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Within that framework, I would have been comfortable with the FOMC's beginning to taper its asset purchases at the September meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"It was a close call for me, but I did so because I continue to support our efforts to create a highly accommodative monetary environment\"},{\"dimension\":\"risk_balance\",\"quote\":\"And if we push the recruits very hard--as we arguably have over the past year or so--it is probably more likely that we are going to see a change in their behavior and hence a sharp movement in rates at some point.\"},{\"dimension\":\"risk_balance\",\"quote\":\"On net, I believe the adjustment has been a healthy one.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"For example, one could cut monthly purchases by a set amount for each further 10 basis point decline in the unemployment rate.\"}],\"rationale\":\"Stein says he would have been comfortable beginning to taper in September and calls the hold a close call. He also stresses the financial-stability costs of pushing term premiums down and welcomes the rise in yields, a moderately hawkish lean despite his continued support for accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Within that framework, I would have been comfortable with the FOMC's beginning to taper its asset purchases at the September meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "It was a close call for me, but I did so because I continue to support our efforts to create a highly accommodative monetary environment"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "And if we push the recruits very hard--as we arguably have over the past year or so--it is probably more likely that we are going to see a change in their behavior and hence a sharp movement in rates at some point."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "On net, I believe the adjustment has been a healthy one."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "For example, one could cut monthly purchases by a set amount for each further 10 basis point decline in the unemployment rate."
+   }
+  ],
+  "rationale": "Stein says he would have been comfortable beginning to taper in September and calls the hold a close call. He also stresses the financial-stability costs of pushing term premiums down and welcomes the rise in yields, a moderately hawkish lean despite his continued support for accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Within that framework, I would have been comfortable with the FOMC's beginning to taper its asset purchases at the September meeting.",
+     "start": 13769,
+     "end": 13901
+    },
+    {
+     "quote": "It was a close call for me, but I did so because I continue to support our efforts to create a highly accommodative monetary environment",
+     "start": 13366,
+     "end": 13502
+    },
+    {
+     "quote": "And if we push the recruits very hard--as we arguably have over the past year or so--it is probably more likely that we are going to see a change in their behavior and hence a sharp movement in rates at some point.",
+     "start": 11433,
+     "end": 11646
+    },
+    {
+     "quote": "On net, I believe the adjustment has been a healthy one.",
+     "start": 13111,
+     "end": 13166
+    },
+    {
+     "quote": "For example, one could cut monthly purchases by a set amount for each further 10 basis point decline in the unemployment rate.",
+     "start": 14857,
+     "end": 14982
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

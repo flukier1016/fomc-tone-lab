@@ -1,0 +1,112 @@
+{
+ "key": "statement_20110622",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20110622",
+  "doc_type": "statement",
+  "text_sha256": "dcf87acdb720e5fe328ad340df2d2a6138cff61ceb71ea01abe50f7a395d1bcd"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3699f19e86774d6a2311b78c77c9dff41f8a44a46bf539e0c4813fc1eafa8389",
+ "message_id": "msg_011CgG28UXv9izVKhBYt6pNK",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 949,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent labor market indicators have been weaker than anticipated\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will complete its purchases of $600 billion of longer-term Treasury securities by the end of this month and will maintain its existing policy of reinvesting principal payments\"}],\"rationale\":\"The Committee holds rates near zero with 'extended period' guidance and notes a weaker recovery and labor market, while treating higher inflation as transitory. Completing QE2 while continuing reinvestment keeps the balance sheet steady, so the net signal is a moderately dovish continuation of accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent labor market indicators have been weaker than anticipated"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will complete its purchases of $600 billion of longer-term Treasury securities by the end of this month and will maintain its existing policy of reinvesting principal payments"
+   }
+  ],
+  "rationale": "The Committee holds rates near zero with 'extended period' guidance and notes a weaker recovery and labor market, while treating higher inflation as transitory. Completing QE2 while continuing reinvestment keeps the balance sheet steady, so the net signal is a moderately dovish continuation of accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected",
+     "start": 89,
+     "end": 204
+    },
+    {
+     "quote": "recent labor market indicators have been weaker than anticipated",
+     "start": 212,
+     "end": 276
+    },
+    {
+     "quote": "Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions.",
+     "start": 755,
+     "end": 916
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period",
+     "start": 2109,
+     "end": 2205
+    },
+    {
+     "quote": "The Committee will complete its purchases of $600 billion of longer-term Treasury securities by the end of this month and will maintain its existing policy of reinvesting principal payments",
+     "start": 2207,
+     "end": 2396
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

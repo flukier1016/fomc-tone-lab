@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20120801",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120801",
+  "doc_type": "minutes",
+  "text_sha256": "39ea2044623ef02450c199f5984d0871eef94cb3ba692ec9cccfe3a729d22865"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2b27dd55162323c5cc1bbdc1b12337861133b40c3a7283f9862d8f3baf81504b",
+ "message_id": "msg_011CgFugBAUQCX4K1ue8CGUY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12063,
+  "output_tokens": 600,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many members judged that additional monetary accommodation would likely be warranted fairly soon unless incoming information pointed to a substantial and sustainable strengthening in the pace of the economic recovery.\"},{\"dimension\":\"risk_balance\",\"quote\":\"continued to judge that the risks to economic growth were tilted to the downside because of strains in financial markets stemming from the sovereign debt and banking situation in Europe\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity had decelerated in recent months to a slower pace than they had anticipated.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"participants anticipated that inflation over the medium term would remain at or below the Committee's 2 percent longer-run objective.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Many participants expected that such a program could provide additional support for the economic recovery both by putting downward pressure on longer-term interest rates\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Many members expressed support for extending the Committee's forward guidance, but they agreed to defer a decision on this matter until the September meeting\"}],\"rationale\":\"The minutes signal that additional accommodation, including possible new asset purchases and extended rate guidance, is likely fairly soon, given decelerating activity, subdued inflation and downside risks. Hawkish dissent and cost concerns from a few participants only modestly temper this strongly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many members judged that additional monetary accommodation would likely be warranted fairly soon unless incoming information pointed to a substantial and sustainable strengthening in the pace of the economic recovery."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "continued to judge that the risks to economic growth were tilted to the downside because of strains in financial markets stemming from the sovereign debt and banking situation in Europe"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity had decelerated in recent months to a slower pace than they had anticipated."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "participants anticipated that inflation over the medium term would remain at or below the Committee's 2 percent longer-run objective."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Many participants expected that such a program could provide additional support for the economic recovery both by putting downward pressure on longer-term interest rates"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many members expressed support for extending the Committee's forward guidance, but they agreed to defer a decision on this matter until the September meeting"
+   }
+  ],
+  "rationale": "The minutes signal that additional accommodation, including possible new asset purchases and extended rate guidance, is likely fairly soon, given decelerating activity, subdued inflation and downside risks. Hawkish dissent and cost concerns from a few participants only modestly temper this strongly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many members judged that additional monetary accommodation would likely be warranted fairly soon unless incoming information pointed to a substantial and sustainable strengthening in the pace of the economic recovery.",
+     "start": 32840,
+     "end": 33056
+    },
+    {
+     "quote": "continued to judge that the risks to economic growth were tilted to the downside because of strains in financial markets stemming from the sovereign debt and banking situation in Europe",
+     "start": 31094,
+     "end": 31279
+    },
+    {
+     "quote": "economic activity had decelerated in recent months to a slower pace than they had anticipated.",
+     "start": 17369,
+     "end": 17462
+    },
+    {
+     "quote": "participants anticipated that inflation over the medium term would remain at or below the Committee's 2 percent longer-run objective.",
+     "start": 19870,
+     "end": 20002
+    },
+    {
+     "quote": "Many participants expected that such a program could provide additional support for the economic recovery both by putting downward pressure on longer-term interest rates",
+     "start": 27585,
+     "end": 27754
+    },
+    {
+     "quote": "Many members expressed support for extending the Committee's forward guidance, but they agreed to defer a decision on this matter until the September meeting",
+     "start": 34297,
+     "end": 34454
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

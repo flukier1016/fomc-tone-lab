@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20180613",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20180613",
+  "doc_type": "minutes",
+  "text_sha256": "ef18821a2b2e9e11669bc14cc80c65c7e5bfc14a693a09f036722399242c138a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "05398d8c4078ecb9ca7eeedc77ed3642fad00aaca4c8a65cc11a2a3d47ec030b",
+ "message_id": "msg_011CgFug8wH8GS4a9R9fPQuh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12327,
+  "output_tokens": 610,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":2,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it would likely be appropriate to continue gradually raising the target range for the federal funds rate to a setting that was at or somewhat above their estimates of its longer-run level by 2019 or 2020\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a number of them noted that it might soon be appropriate to modify the language in the postmeeting statement indicating that \\\"the stance of monetary policy remains accommodative.\\\"\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants pointed to other indicators such as a very high rate of job openings and an elevated quits rate as additional signs that labor market conditions were strong.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The generally favorable outlook for inflation was buttressed by reports from business contacts in several Districts suggesting some firming of inflationary pressures\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants generally viewed the risks to the economic outlook as roughly balanced.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"this language was no longer appropriate in light of the strong state of the economy and the current expected path for policy.\"}],\"rationale\":\"The minutes describe a very strong economy, inflation near goal with some firming pressures, and continued gradual hikes to at or above neutral, including removal of 'below longer-run' guidance, while trade and foreign downside risks keep the risk balance roughly even. Balance-sheet runoff continues with rising caps, a modest hawkish element.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 2,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it would likely be appropriate to continue gradually raising the target range for the federal funds rate to a setting that was at or somewhat above their estimates of its longer-run level by 2019 or 2020"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a number of them noted that it might soon be appropriate to modify the language in the postmeeting statement indicating that \"the stance of monetary policy remains accommodative.\""
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants pointed to other indicators such as a very high rate of job openings and an elevated quits rate as additional signs that labor market conditions were strong."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The generally favorable outlook for inflation was buttressed by reports from business contacts in several Districts suggesting some firming of inflationary pressures"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants generally viewed the risks to the economic outlook as roughly balanced."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "this language was no longer appropriate in light of the strong state of the economy and the current expected path for policy."
+   }
+  ],
+  "rationale": "The minutes describe a very strong economy, inflation near goal with some firming pressures, and continued gradual hikes to at or above neutral, including removal of 'below longer-run' guidance, while trade and foreign downside risks keep the risk balance roughly even. Balance-sheet runoff continues with rising caps, a modest hawkish element."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it would likely be appropriate to continue gradually raising the target range for the federal funds rate to a setting that was at or somewhat above their estimates of its longer-run level by 2019 or 2020",
+     "start": 30620,
+     "end": 30823
+    },
+    {
+     "quote": "a number of them noted that it might soon be appropriate to modify the language in the postmeeting statement indicating that \"the stance of monetary policy remains accommodative.\"",
+     "start": 32428,
+     "end": 32605
+    },
+    {
+     "quote": "Participants pointed to other indicators such as a very high rate of job openings and an elevated quits rate as additional signs that labor market conditions were strong.",
+     "start": 23163,
+     "end": 23332
+    },
+    {
+     "quote": "The generally favorable outlook for inflation was buttressed by reports from business contacts in several Districts suggesting some firming of inflationary pressures",
+     "start": 25196,
+     "end": 25361
+    },
+    {
+     "quote": "Participants generally viewed the risks to the economic outlook as roughly balanced.",
+     "start": 21290,
+     "end": 21373
+    },
+    {
+     "quote": "this language was no longer appropriate in light of the strong state of the economy and the current expected path for policy.",
+     "start": 35954,
+     "end": 36078
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

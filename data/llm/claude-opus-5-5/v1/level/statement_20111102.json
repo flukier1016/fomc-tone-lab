@@ -1,0 +1,121 @@
+{
+ "key": "statement_20111102",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20111102",
+  "doc_type": "statement",
+  "text_sha256": "fc3efff6e226715d41cce5edbd015c965f5ed88a62da8192845486a104467c55"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "94b6d5265f011acbc9c02cb391817fd89575ed2c0d1535b6e0352dbbb1b6dda5",
+ "message_id": "msg_011CgFugAL7vDCEZKts5ebVm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1019,
+  "output_tokens": 531,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided today to continue its program to extend the average maturity of its holdings of securities as announced in September.\"},{\"dimension\":\"overall\",\"quote\":\"is prepared to employ its tools to promote a stronger economic recovery in a context of price stability.\"}],\"rationale\":\"The statement keeps rates near zero with calendar guidance through mid-2013, continues the maturity extension program, emphasizes significant downside risks, and sees inflation settling at or below mandate-consistent levels. It also signals readiness for more easing, and one dissent favored additional accommodation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided today to continue its program to extend the average maturity of its holdings of securities as announced in September."
+   },
+   {
+    "dimension": "overall",
+    "quote": "is prepared to employ its tools to promote a stronger economic recovery in a context of price stability."
+   }
+  ],
+  "rationale": "The statement keeps rates near zero with calendar guidance through mid-2013, continues the maturity extension program, emphasizes significant downside risks, and sees inflation settling at or below mandate-consistent levels. It also signals readiness for more easing, and one dissent favored additional accommodation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013",
+     "start": 2603,
+     "end": 2702
+    },
+    {
+     "quote": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+     "start": 1201,
+     "end": 1318
+    },
+    {
+     "quote": "inflation will settle, over coming quarters, at levels at or below those consistent with the Committee's dual mandate",
+     "start": 1356,
+     "end": 1473
+    },
+    {
+     "quote": "recent indicators point to continuing weakness in overall labor market conditions, and the unemployment rate remains elevated.",
+     "start": 269,
+     "end": 394
+    },
+    {
+     "quote": "the Committee decided today to continue its program to extend the average maturity of its holdings of securities as announced in September.",
+     "start": 1811,
+     "end": 1949
+    },
+    {
+     "quote": "is prepared to employ its tools to promote a stronger economic recovery in a context of price stability.",
+     "start": 2801,
+     "end": 2904
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

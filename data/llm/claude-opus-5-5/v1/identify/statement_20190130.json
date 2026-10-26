@@ -1,0 +1,52 @@
+{
+ "key": "statement_20190130",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20190130",
+  "release_date": "2019-01-30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d2c00b3e0ff94280c2985b0d3f568a3f6aecddbbc7d43a262add0eb3f92f8a17",
+ "message_id": "msg_011CgFudVTUdvAb6ahGz3aBT",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1078,
+  "output_tokens": 370,
+  "output_tokens_details": {
+   "thinking_tokens": 154
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2019,\"month\":1,\"confidence\":0.85,\"cues\":[\"'the Committee will be patient' language, introduced in early 2019\",\"'business fixed investment has moderated from its rapid pace earlier last year' implies early in a new year after strong 2018 investment\",\"'economic activity has been rising at a solid rate' precedes the March 2019 statement's 'slowed' wording\",\"Target range held, following the December 2018 hike\",\"Voters include Brainard and Bullard, consistent with the 2019 rotation (Bullard voted in 2019)\",\"Mentions market-based inflation compensation moving lower, consistent with late-2018 market turmoil\"]}",
+ "parsed": {
+  "year": 2019,
+  "month": 1,
+  "confidence": 0.85,
+  "cues": [
+   "'the Committee will be patient' language, introduced in early 2019",
+   "'business fixed investment has moderated from its rapid pace earlier last year' implies early in a new year after strong 2018 investment",
+   "'economic activity has been rising at a solid rate' precedes the March 2019 statement's 'slowed' wording",
+   "Target range held, following the December 2018 hike",
+   "Voters include Brainard and Bullard, consistent with the 2019 rotation (Bullard voted in 2019)",
+   "Mentions market-based inflation compensation moving lower, consistent with late-2018 market turmoil"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

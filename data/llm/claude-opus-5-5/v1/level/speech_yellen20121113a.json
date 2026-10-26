@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20121113a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20121113a",
+  "doc_type": "speech",
+  "text_sha256": "bc92512c5677377d575d9bf4145db884b28c9bf5238a1e32b503c045602d31d4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f3aef8f5974fcaae04ad648c7cce1c1c7ad08b7cfe7cfed1e24db8476e76f765",
+ "message_id": "msg_011CgFugACvZXzJzV72sDptz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11216,
+  "output_tokens": 672,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The optimal policy to implement this \\\"balanced approach\\\" to minimizing deviations from the inflation and unemployment goals involves keeping the federal funds rate close to zero until early 2016, about two quarters longer than in the illustrative baseline\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"2 percent cannot be viewed as a ceiling for inflation because that would result in deviations that are more frequently below 2 percent than above\"},{\"dimension\":\"balance_sheet\",\"quote\":\"purchases will continue until there is a substantial improvement in the outlook for the labor market in a context of price stability\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the simple rules that perform well under ordinary circumstances just won't perform well with persistently strong headwinds restraining recovery and with the federal funds rate constrained by the zero bound\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Charles Evans, president of the Chicago Fed, suggests that the FOMC should commit to hold the federal funds rate in its current low range at least until unemployment has declined below 7 percent\"},{\"dimension\":\"overall\",\"quote\":\"This highly accommodative policy path generates a faster reduction in unemployment than in the baseline, while inflation slightly overshoots the Committee's 2 percent objective for several years.\"}],\"rationale\":\"The speaker advocates an optimal-control path holding rates near zero beyond the announced mid-2015 date, tolerating inflation overshoots, and supports open-ended asset purchases and threshold guidance. The emphasis on persistent headwinds and elevated unemployment makes the signal strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The optimal policy to implement this \"balanced approach\" to minimizing deviations from the inflation and unemployment goals involves keeping the federal funds rate close to zero until early 2016, about two quarters longer than in the illustrative baseline"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "2 percent cannot be viewed as a ceiling for inflation because that would result in deviations that are more frequently below 2 percent than above"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "purchases will continue until there is a substantial improvement in the outlook for the labor market in a context of price stability"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the simple rules that perform well under ordinary circumstances just won't perform well with persistently strong headwinds restraining recovery and with the federal funds rate constrained by the zero bound"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Charles Evans, president of the Chicago Fed, suggests that the FOMC should commit to hold the federal funds rate in its current low range at least until unemployment has declined below 7 percent"
+   },
+   {
+    "dimension": "overall",
+    "quote": "This highly accommodative policy path generates a faster reduction in unemployment than in the baseline, while inflation slightly overshoots the Committee's 2 percent objective for several years."
+   }
+  ],
+  "rationale": "The speaker advocates an optimal-control path holding rates near zero beyond the announced mid-2015 date, tolerating inflation overshoots, and supports open-ended asset purchases and threshold guidance. The emphasis on persistent headwinds and elevated unemployment makes the signal strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The optimal policy to implement this \"balanced approach\" to minimizing deviations from the inflation and unemployment goals involves keeping the federal funds rate close to zero until early 2016, about two quarters longer than in the illustrative baseline",
+     "start": 26190,
+     "end": 26445
+    },
+    {
+     "quote": "2 percent cannot be viewed as a ceiling for inflation because that would result in deviations that are more frequently below 2 percent than above",
+     "start": 21372,
+     "end": 21517
+    },
+    {
+     "quote": "purchases will continue until there is a substantial improvement in the outlook for the labor market in a context of price stability",
+     "start": 32832,
+     "end": 32964
+    },
+    {
+     "quote": "the simple rules that perform well under ordinary circumstances just won't perform well with persistently strong headwinds restraining recovery and with the federal funds rate constrained by the zero bound",
+     "start": 28592,
+     "end": 28797
+    },
+    {
+     "quote": "Charles Evans, president of the Chicago Fed, suggests that the FOMC should commit to hold the federal funds rate in its current low range at least until unemployment has declined below 7 percent",
+     "start": 35408,
+     "end": 35602
+    },
+    {
+     "quote": "This highly accommodative policy path generates a faster reduction in unemployment than in the baseline, while inflation slightly overshoots the Committee's 2 percent objective for several years.",
+     "start": 26520,
+     "end": 26714
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

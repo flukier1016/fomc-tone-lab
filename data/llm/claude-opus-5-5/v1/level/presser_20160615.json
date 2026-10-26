@@ -1,0 +1,121 @@
+{
+ "key": "presser_20160615",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20160615",
+  "doc_type": "presser",
+  "text_sha256": "e70c42019d2a33cef7fdaeb55dffb401b81ee24146136aa85e50aadf91a870c4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "10bf9df1ff4fd4560cb7954fd72938f8b8b9121ba8d71da54755622e8717db25",
+ "message_id": "msg_011CgFugAjfwW34jpBGwuiPf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9683,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the Federal Open Market Committee maintained the target range for the federal funds rate at ¼ to ½ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"For 2017 and 2018, the median projection is ¼ to ½ percentage point lower than in March\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, more recently the pace of improvement in the labor market appears to have slowed markedly.\"},{\"dimension\":\"risk_balance\",\"quote\":\"monetary policy can more effectively respond to surprisingly strong inflation pressures in the future than to a weakening labor market and falling inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"financial market measures of inflation compensation have declined.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Every meeting is live; there is no meeting that is off the table\"}],\"rationale\":\"Rates held with downward-revised dot projections, emphasis on a sharp labor-market slowdown, below-target inflation, Brexit/global risks and asymmetric caution all point dovish. The Chair kept the door open to gradual hikes and noted solid fundamentals, so the lean is moderate rather than strong.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the Federal Open Market Committee maintained the target range for the federal funds rate at ¼ to ½ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "For 2017 and 2018, the median projection is ¼ to ½ percentage point lower than in March"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, more recently the pace of improvement in the labor market appears to have slowed markedly."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "monetary policy can more effectively respond to surprisingly strong inflation pressures in the future than to a weakening labor market and falling inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "financial market measures of inflation compensation have declined."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Every meeting is live; there is no meeting that is off the table"
+   }
+  ],
+  "rationale": "Rates held with downward-revised dot projections, emphasis on a sharp labor-market slowdown, below-target inflation, Brexit/global risks and asymmetric caution all point dovish. The Chair kept the door open to gradual hikes and noted solid fundamentals, so the lean is moderate rather than strong."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the Federal Open Market Committee maintained the target range for the federal funds rate at ¼ to ½ percent.",
+     "start": 16,
+     "end": 129
+    },
+    {
+     "quote": "For 2017 and 2018, the median projection is ¼ to ½ percentage point lower than in March",
+     "start": 8261,
+     "end": 8348
+    },
+    {
+     "quote": "However, more recently the pace of improvement in the labor market appears to have slowed markedly.",
+     "start": 2252,
+     "end": 2350
+    },
+    {
+     "quote": "monetary policy can more effectively respond to surprisingly strong inflation pressures in the future than to a weakening labor market and falling inflation.",
+     "start": 6511,
+     "end": 6667
+    },
+    {
+     "quote": "financial market measures of inflation compensation have declined.",
+     "start": 4329,
+     "end": 4394
+    },
+    {
+     "quote": "Every meeting is live; there is no meeting that is off the table",
+     "start": 21265,
+     "end": 21329
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

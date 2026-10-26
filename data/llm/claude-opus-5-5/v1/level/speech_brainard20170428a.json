@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20170428a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170428a",
+  "doc_type": "speech",
+  "text_sha256": "73062c0fbb33368ab6a7979a97f7b3791fe7f852b09196406e704454208e5270"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bd77c0e9558590fc6d95dd5f8d652ee8b7089e054c3892961d31f1c16e56645c",
+ "message_id": "msg_011CgFugLVoHbsNGaLaAEvGg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7129,
+  "output_tokens": 342,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In short, the software stacks of almost all fintech apps point to a bank at one layer or another .\"},{\"dimension\":\"overall\",\"quote\":\"As regulators, we have a responsibility to ensure that the institutions subject to our supervision are operated safely and soundly and that they comply with applicable statutes and regulations.\"},{\"dimension\":\"overall\",\"quote\":\"Change is surely coming, as financial products and services move onto interconnected platforms.\"}],\"rationale\":\"The speech addresses fintech connectivity, data aggregation, and bank regulation, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In short, the software stacks of almost all fintech apps point to a bank at one layer or another ."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As regulators, we have a responsibility to ensure that the institutions subject to our supervision are operated safely and soundly and that they comply with applicable statutes and regulations."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Change is surely coming, as financial products and services move onto interconnected platforms."
+   }
+  ],
+  "rationale": "The speech addresses fintech connectivity, data aggregation, and bank regulation, with no discussion of monetary policy, inflation, or the economic outlook. It carries no monetary policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In short, the software stacks of almost all fintech apps point to a bank at one layer or another .",
+     "start": 4384,
+     "end": 4480
+    },
+    {
+     "quote": "As regulators, we have a responsibility to ensure that the institutions subject to our supervision are operated safely and soundly and that they comply with applicable statutes and regulations.",
+     "start": 18094,
+     "end": 18286
+    },
+    {
+     "quote": "Change is surely coming, as financial products and services move onto interconnected platforms.",
+     "start": 24628,
+     "end": 24722
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

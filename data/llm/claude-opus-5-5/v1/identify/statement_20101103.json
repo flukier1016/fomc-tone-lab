@@ -1,0 +1,52 @@
+{
+ "key": "statement_20101103",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20101103",
+  "release_date": "2010-11-03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c4077aa7797d4031391a1a852e9c9f8b2d44e7fbfcfd7f59b21eddb51efd0f37",
+ "message_id": "msg_011CgFudW1DQDga8ZtvAvS6f",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1419,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2010,\"month\":11,\"confidence\":0.97,\"cues\":[\"Announcement of QE2: $600 billion of longer-term Treasury purchases by end of second quarter (2011), about $75 billion per month\",\"Reinvestment of principal payments policy (begun August 2010)\",\"Dissent by Hoenig on risks of additional securities purchases and financial imbalances\",\"Voters include Bullard, Pianalto, Raskin (2010 voting rotation)\",\"Business equipment spending rising less rapidly than earlier in the year, consistent with late 2010\",\"November 3, 2010 FOMC statement\"]}",
+ "parsed": {
+  "year": 2010,
+  "month": 11,
+  "confidence": 0.97,
+  "cues": [
+   "Announcement of QE2: $600 billion of longer-term Treasury purchases by end of second quarter (2011), about $75 billion per month",
+   "Reinvestment of principal payments policy (begun August 2010)",
+   "Dissent by Hoenig on risks of additional securities purchases and financial imbalances",
+   "Voters include Bullard, Pianalto, Raskin (2010 voting rotation)",
+   "Business equipment spending rising less rapidly than earlier in the year, consistent with late 2010",
+   "November 3, 2010 FOMC statement"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

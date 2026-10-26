@@ -1,0 +1,121 @@
+{
+ "key": "presser_20161214",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20161214",
+  "doc_type": "presser",
+  "text_sha256": "c9757d6af98f1bae9d039f76c21aec190ca344d8d36c3d638eb68a0d2b35e11b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fde714737a3941707d49c1337331b5f8d5609be435ff3ced15b471e038651d70",
+ "message_id": "msg_011CgG27nLxFMhtnHBhQU5Ae",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 8487,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ½ to ¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Compared with the projections made in September, the median path for the federal funds rate has been revised up just ¼ percentage point.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We continue to expect that the evolution of the economy will warrant only gradual increases in the federal funds rate over time to achieve and maintain our objectives.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market was in the vicinity of maximum employment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Remember that inflation is still below our objective.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We’ve not yet made any precise decisions about when that will occur.\"}],\"rationale\":\"The Chair announces a rate hike, describes a strong labor market near maximum employment and a slightly steeper projected rate path, all hawkish signals. These are moderated by emphasis on gradualism, inflation still below 2 percent, a low neutral rate and continued reinvestment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ½ to ¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Compared with the projections made in September, the median path for the federal funds rate has been revised up just ¼ percentage point."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We continue to expect that the evolution of the economy will warrant only gradual increases in the federal funds rate over time to achieve and maintain our objectives."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market was in the vicinity of maximum employment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Remember that inflation is still below our objective."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We’ve not yet made any precise decisions about when that will occur."
+   }
+  ],
+  "rationale": "The Chair announces a rate hike, describes a strong labor market near maximum employment and a slightly steeper projected rate path, all hawkish signals. These are moderated by emphasis on gradualism, inflation still below 2 percent, a low neutral rate and continued reinvestment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ½ to ¾ percent.",
+     "start": 16,
+     "end": 169
+    },
+    {
+     "quote": "Compared with the projections made in September, the median path for the federal funds rate has been revised up just ¼ percentage point.",
+     "start": 5244,
+     "end": 5379
+    },
+    {
+     "quote": "We continue to expect that the evolution of the economy will warrant only gradual increases in the federal funds rate over time to achieve and maintain our objectives.",
+     "start": 4363,
+     "end": 4529
+    },
+    {
+     "quote": "The labor market was in the vicinity of maximum employment.",
+     "start": 19766,
+     "end": 19824
+    },
+    {
+     "quote": "Remember that inflation is still below our objective.",
+     "start": 10397,
+     "end": 10449
+    },
+    {
+     "quote": "We’ve not yet made any precise decisions about when that will occur.",
+     "start": 26641,
+     "end": 26708
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

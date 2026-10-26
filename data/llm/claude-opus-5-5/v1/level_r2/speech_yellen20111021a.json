@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20111021a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20111021a",
+  "doc_type": "speech",
+  "text_sha256": "70090a421e24fd61cd6be6a218e4401ca69239b585cc3bbca04ece61441a0d08"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a691360b6dd792f8fcb69fc076a150ebe5ec9221c3eed65d846607e81c710b71",
+ "message_id": "msg_011CgG27rsoyjPL8NXog5FhP",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7855,
+  "output_tokens": 505,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"The potential for such adverse financial developments to derail the recovery creates, in my view, significant downside risks to the outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Importantly, I see little indication that the higher rate of inflation experienced so far this year has become ingrained in the economy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Thus, securities purchases across a wide spectrum of maturities might become appropriate if evolving economic conditions called for significantly greater monetary accommodation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of the economic recovery has been less vigorous than any of us would have desired and than most forecasters had anticipated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we are prepared to employ our tools as appropriate to foster a stronger economic recovery in a context of price stability.\"}],\"rationale\":\"The speaker emphasizes a weak recovery, significant downside risks, and transitory inflation with disinflation risk, while floating threshold guidance and broader asset purchases as further accommodation. The net signal is clearly dovish, with readiness to ease further.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "The potential for such adverse financial developments to derail the recovery creates, in my view, significant downside risks to the outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Importantly, I see little indication that the higher rate of inflation experienced so far this year has become ingrained in the economy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Thus, securities purchases across a wide spectrum of maturities might become appropriate if evolving economic conditions called for significantly greater monetary accommodation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of the economic recovery has been less vigorous than any of us would have desired and than most forecasters had anticipated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we are prepared to employ our tools as appropriate to foster a stronger economic recovery in a context of price stability."
+   }
+  ],
+  "rationale": "The speaker emphasizes a weak recovery, significant downside risks, and transitory inflation with disinflation risk, while floating threshold guidance and broader asset purchases as further accommodation. The net signal is clearly dovish, with readiness to ease further."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The potential for such adverse financial developments to derail the recovery creates, in my view, significant downside risks to the outlook.",
+     "start": 11444,
+     "end": 11583
+    },
+    {
+     "quote": "Importantly, I see little indication that the higher rate of inflation experienced so far this year has become ingrained in the economy.",
+     "start": 12733,
+     "end": 12868
+    },
+    {
+     "quote": "Thus, securities purchases across a wide spectrum of maturities might become appropriate if evolving economic conditions called for significantly greater monetary accommodation.",
+     "start": 19592,
+     "end": 19768
+    },
+    {
+     "quote": "the pace of the economic recovery has been less vigorous than any of us would have desired and than most forecasters had anticipated.",
+     "start": 2285,
+     "end": 2417
+    },
+    {
+     "quote": "we are prepared to employ our tools as appropriate to foster a stronger economic recovery in a context of price stability.",
+     "start": 26546,
+     "end": 26667
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

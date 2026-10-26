@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20211012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20211012a",
+  "doc_type": "speech",
+  "text_sha256": "4bf4186bf723384f96fae79a94c40073ba2bed24e0a4a30b3c5bb2e7eef3c975"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f37c666c407118b125e41d0e8ab50c1ed852a025924b115fb3e5327190404627",
+ "message_id": "msg_011CgFugEthr9js9WEwdTHuJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2299,
+  "output_tokens": 590,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"core PCE (personal consumption expenditures) price inflation is running at a 2.9 percent annual pace that is well above what I would consider to be a moderate overshoot of our 2 percent longer-run goal for inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I believe, as do most of my colleagues, that the risks to inflation are to the upside\"},{\"dimension\":\"balance_sheet\",\"quote\":\"a gradual tapering of our asset purchases that concludes around the middle of next year may soon be warranted.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the \\\"substantial further progress\\\" standard has more than been met with regard to our price-stability mandate and has all but been met with regard to our employment mandate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Indicators of economic activity and employment reveal that the economy continues to strengthen.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"At least half of the 18 FOMC participants in their Summary of Economic Projections (SEP) submissions projected that these necessary threshold conditions for liftoff will be met by December 2022\"}],\"rationale\":\"Clarida signals imminent tapering, judges the inflation test more than met, flags upside inflation risks, and points to liftoff by late 2022, though he still calls inflation largely transitory. He also keeps the rate guidance stringent, so the net lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "core PCE (personal consumption expenditures) price inflation is running at a 2.9 percent annual pace that is well above what I would consider to be a moderate overshoot of our 2 percent longer-run goal for inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I believe, as do most of my colleagues, that the risks to inflation are to the upside"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "a gradual tapering of our asset purchases that concludes around the middle of next year may soon be warranted."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the \"substantial further progress\" standard has more than been met with regard to our price-stability mandate and has all but been met with regard to our employment mandate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Indicators of economic activity and employment reveal that the economy continues to strengthen."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "At least half of the 18 FOMC participants in their Summary of Economic Projections (SEP) submissions projected that these necessary threshold conditions for liftoff will be met by December 2022"
+   }
+  ],
+  "rationale": "Clarida signals imminent tapering, judges the inflation test more than met, flags upside inflation risks, and points to liftoff by late 2022, though he still calls inflation largely transitory. He also keeps the rate guidance stringent, so the net lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "core PCE (personal consumption expenditures) price inflation is running at a 2.9 percent annual pace that is well above what I would consider to be a moderate overshoot of our 2 percent longer-run goal for inflation.",
+     "start": 1947,
+     "end": 2162
+    },
+    {
+     "quote": "I believe, as do most of my colleagues, that the risks to inflation are to the upside",
+     "start": 3247,
+     "end": 3332
+    },
+    {
+     "quote": "a gradual tapering of our asset purchases that concludes around the middle of next year may soon be warranted.",
+     "start": 4980,
+     "end": 5089
+    },
+    {
+     "quote": "the \"substantial further progress\" standard has more than been met with regard to our price-stability mandate and has all but been met with regard to our employment mandate.",
+     "start": 4383,
+     "end": 4555
+    },
+    {
+     "quote": "Indicators of economic activity and employment reveal that the economy continues to strengthen.",
+     "start": 642,
+     "end": 736
+    },
+    {
+     "quote": "At least half of the 18 FOMC participants in their Summary of Economic Projections (SEP) submissions projected that these necessary threshold conditions for liftoff will be met by December 2022",
+     "start": 5815,
+     "end": 6008
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

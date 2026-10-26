@@ -1,0 +1,112 @@
+{
+ "key": "speech_20100407a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_20100407a",
+  "doc_type": "speech",
+  "text_sha256": "12e4e51a077c0cf51e3d91644a5b8499008bcef524c2bfb6daf1074cf3ed89b2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "769382600577ac1974f9aabb79c027d28394e095a4778aca2b34f7d592c5faeb",
+ "message_id": "msg_011CgFugAxKNnAY9yQAa6s6W",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7143,
+  "output_tokens": 507,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate has edged off its recent peak, but at 9.7 percent, it is still close to its highest level since the early 1980s.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Meanwhile, for the near term, inflation appears to be well controlled.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"my best guess is that economic growth, supported by the Federal Reserve's stimulative monetary policy, will be sufficient to slowly reduce the unemployment rate over the coming year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Today the economy continues to operate well below its potential\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I am particularly concerned about that statistic, because long spells of unemployment erode skills and lower the longer-term income and employment prospects of these workers.\"}],\"rationale\":\"The speech, largely a crisis retrospective and regulatory discussion, emphasizes high unemployment, weak hiring, slack, and well-controlled inflation while describing policy as stimulative, implying continued accommodation. No explicit new easing signal, so a moderate dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate has edged off its recent peak, but at 9.7 percent, it is still close to its highest level since the early 1980s."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Meanwhile, for the near term, inflation appears to be well controlled."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "my best guess is that economic growth, supported by the Federal Reserve's stimulative monetary policy, will be sufficient to slowly reduce the unemployment rate over the coming year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Today the economy continues to operate well below its potential"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I am particularly concerned about that statistic, because long spells of unemployment erode skills and lower the longer-term income and employment prospects of these workers."
+   }
+  ],
+  "rationale": "The speech, largely a crisis retrospective and regulatory discussion, emphasizes high unemployment, weak hiring, slack, and well-controlled inflation while describing policy as stimulative, implying continued accommodation. No explicit new easing signal, so a moderate dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The unemployment rate has edged off its recent peak, but at 9.7 percent, it is still close to its highest level since the early 1980s.",
+     "start": 20139,
+     "end": 20272
+    },
+    {
+     "quote": "Meanwhile, for the near term, inflation appears to be well controlled.",
+     "start": 21025,
+     "end": 21094
+    },
+    {
+     "quote": "my best guess is that economic growth, supported by the Federal Reserve's stimulative monetary policy, will be sufficient to slowly reduce the unemployment rate over the coming year.",
+     "start": 20655,
+     "end": 20836
+    },
+    {
+     "quote": "Today the economy continues to operate well below its potential",
+     "start": 23216,
+     "end": 23279
+    },
+    {
+     "quote": "I am particularly concerned about that statistic, because long spells of unemployment erode skills and lower the longer-term income and employment prospects of these workers.",
+     "start": 20468,
+     "end": 20641
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

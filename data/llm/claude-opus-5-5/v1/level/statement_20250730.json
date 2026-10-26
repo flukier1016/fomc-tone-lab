@@ -1,0 +1,121 @@
+{
+ "key": "statement_20250730",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20250730",
+  "doc_type": "statement",
+  "text_sha256": "d942a147ec09eb6c225df1c4f7bb11f94e0ec076c68d1f8bd3773f6762a60b7a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a3bc88e021d312b5da3e3efc93a3524867499c0f23d77aea0880df2577258945",
+ "message_id": "msg_011CgFugCYa5r7fprKTpjYAD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 716,
+  "output_tokens": 516,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent indicators suggest that growth of economic activity moderated in the first half of the year\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains somewhat elevated.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering the extent and timing of additional adjustments to the target range for the federal funds rate\"},{\"dimension\":\"overall\",\"quote\":\"Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.\"}],\"rationale\":\"The Committee held rates steady with balanced risk language and elevated inflation, but noted moderating growth and retained easing-bias guidance about additional adjustments. Two dissents favoring a cut add a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent indicators suggest that growth of economic activity moderated in the first half of the year"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains somewhat elevated."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities."
+   }
+  ],
+  "rationale": "The Committee held rates steady with balanced risk language and elevated inflation, but noted moderating growth and retained easing-bias guidance about additional adjustments. Two dissents favoring a cut add a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 4-1/4 to 4-1/2 percent",
+     "start": 543,
+     "end": 646
+    },
+    {
+     "quote": "recent indicators suggest that growth of economic activity moderated in the first half of the year",
+     "start": 60,
+     "end": 158
+    },
+    {
+     "quote": "Inflation remains somewhat elevated.",
+     "start": 237,
+     "end": 272
+    },
+    {
+     "quote": "In considering the extent and timing of additional adjustments to the target range for the federal funds rate",
+     "start": 648,
+     "end": 757
+    },
+    {
+     "quote": "Voting against this action were Michelle W. Bowman and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 1885,
+     "end": 2069
+    },
+    {
+     "quote": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+     "start": 858,
+     "end": 984
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

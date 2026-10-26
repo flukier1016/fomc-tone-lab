@@ -1,0 +1,121 @@
+{
+ "key": "statement_20230920",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20230920",
+  "doc_type": "statement",
+  "text_sha256": "6d7e201b36c4bc5649198d4393edde9d6c300fb27da4d5a4e6758ec7a4cced44"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "04b481f049b381ac5ad1168e93353707d3af2153718329c28596d7892b8614ce",
+ "message_id": "msg_011CgFugJK5r8VypK5kSyHYx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 746,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators suggest that economic activity has been expanding at a solid pace.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee remains highly attentive to inflation risks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The Committee holds rates but retains a tightening bias via 'additional policy firming', citing solid growth, elevated inflation and continued runoff. Acknowledging cumulative tightening, lags and slowing job gains tempers the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee remains highly attentive to inflation risks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The Committee holds rates but retains a tightening bias via 'additional policy firming', citing solid growth, elevated inflation and continued runoff. Acknowledging cumulative tightening, lags and slowing job gains tempers the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent",
+     "start": 629,
+     "end": 732
+    },
+    {
+     "quote": "In determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time",
+     "start": 837,
+     "end": 958
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace.",
+     "start": 0,
+     "end": 83
+    },
+    {
+     "quote": "Inflation remains elevated.",
+     "start": 187,
+     "end": 213
+    },
+    {
+     "quote": "The Committee remains highly attentive to inflation risks.",
+     "start": 432,
+     "end": 489
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+     "start": 1174,
+     "end": 1300
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

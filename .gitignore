@@ -1,0 +1,26 @@
+# environment and secrets
+.venv/
+.venv-*/
+.env
+config/local.yaml
+
+# rebuildable data (see README: `fomc run`, or download the release snapshot)
+data/raw/
+data/interim/
+data/processed/
+data/fomc.db
+data/fomc.db-*
+data/*.gz
+results/
+
+# tooling
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.claude/
+
+# headless review captures (scripts/review_pages.py)
+qa/

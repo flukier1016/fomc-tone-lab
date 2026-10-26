@@ -1,0 +1,149 @@
+{
+ "key": "statement_20190731",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20190731",
+  "previous_doc_id": "statement_20190619",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8bce384c56130dd73d8868daaa272a63b4c9deaabd93da527b74d4764fce51e",
+ "message_id": "msg_011CgFue4Uawt84khCVWM9xR",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1540,
+  "output_tokens": 649,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.\",\"after\":\"In light of the implications of global developments for the economic outlook as well as muted inflation pressures, the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.\",\"direction\":\"dovish\"},{\"before\":\"but uncertainties about this outlook have increased.\",\"after\":\"but uncertainties about this outlook remain.\",\"direction\":\"hawkish\"},{\"before\":\"In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook\",\"after\":\"As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.\",\"after\":\"Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation have declined;\",\"after\":\"Market-based measures of inflation compensation remain low;\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee shifted from holding to cutting the funds rate by 25 basis points and ended balance-sheet runoff two months early, a clear dovish change in policy direction. Hawkish dissents and softened uncertainty language temper but do not offset the easing.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+    "after": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures, the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "but uncertainties about this outlook have increased.",
+    "after": "but uncertainties about this outlook remain.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook",
+    "after": "As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.",
+    "after": "Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation have declined;",
+    "after": "Market-based measures of inflation compensation remain low;",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee shifted from holding to cutting the funds rate by 25 basis points and ended balance-sheet runoff two months early, a clear dovish change in policy direction. Hawkish dissents and softened uncertainty language temper but do not offset the easing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+     "start": 795,
+     "end": 925
+    },
+    {
+     "quote": "but uncertainties about this outlook have increased.",
+     "start": 1127,
+     "end": 1178
+    },
+    {
+     "quote": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook",
+     "start": 1180,
+     "end": 1343
+    },
+    {
+     "quote": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.",
+     "start": 2214,
+     "end": 2360
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined;",
+     "start": 542,
+     "end": 603
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures, the Committee decided to lower the target range for the federal funds rate to 2 to 2-1/4 percent.",
+     "start": 782,
+     "end": 993
+    },
+    {
+     "quote": "The Committee will conclude the reduction of its aggregate securities holdings in the System Open Market Account in August, two months earlier than previously indicated.",
+     "start": 2083,
+     "end": 2251
+    },
+    {
+     "quote": "but uncertainties about this outlook remain.",
+     "start": 1211,
+     "end": 1254
+    },
+    {
+     "quote": "As the Committee contemplates the future path of the target range for the federal funds rate, it will continue to monitor the implications of incoming information for the economic outlook",
+     "start": 1256,
+     "end": 1443
+    },
+    {
+     "quote": "Voting against the action were Esther L. George and Eric S. Rosengren, who preferred at this meeting to maintain the target range for the federal funds rate at 2-1/4 to 2-1/2 percent.",
+     "start": 2463,
+     "end": 2645
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low;",
+     "start": 532,
+     "end": 590
+    }
+   ]
+  }
+ }
+}

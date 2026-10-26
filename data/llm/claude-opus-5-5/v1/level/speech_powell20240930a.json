@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20240930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20240930a",
+  "doc_type": "speech",
+  "text_sha256": "9209683379a236d36c96b2c119905a524fd857298ce8bca2652c9fba32717958"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c63110104dde4be53cf3346a8d9d26a0f202c0a090b06ac4fb5dacda1f159775",
+ "message_id": "msg_011CgFugKX1sStpRThswvYds",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1616,
+  "output_tokens": 470,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Looking forward, if the economy evolves broadly as expected, policy will move over time toward a more neutral stance. But we are not on any preset course.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Disinflation has been broad based, and recent data indicate further progress toward a sustained return to 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Still, labor market conditions have clearly cooled over the past year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We do not believe that we need to see further cooling in labor market conditions to achieve 2 percent inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Today, we see the risks to achieving our employment and inflation goals as roughly in balance.\"}],\"rationale\":\"The speech describes the recent 50 bp cut and signals further moves toward a neutral stance, with growing confidence in disinflation and an unwillingness to see further labor-market cooling. Meeting-by-meeting caveats and a solid economy temper the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Looking forward, if the economy evolves broadly as expected, policy will move over time toward a more neutral stance. But we are not on any preset course."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Disinflation has been broad based, and recent data indicate further progress toward a sustained return to 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Still, labor market conditions have clearly cooled over the past year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We do not believe that we need to see further cooling in labor market conditions to achieve 2 percent inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Today, we see the risks to achieving our employment and inflation goals as roughly in balance."
+   }
+  ],
+  "rationale": "The speech describes the recent 50 bp cut and signals further moves toward a neutral stance, with growing confidence in disinflation and an unwillingness to see further labor-market cooling. Meeting-by-meeting caveats and a solid economy temper the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Looking forward, if the economy evolves broadly as expected, policy will move over time toward a more neutral stance. But we are not on any preset course.",
+     "start": 4524,
+     "end": 4677
+    },
+    {
+     "quote": "Disinflation has been broad based, and recent data indicate further progress toward a sustained return to 2 percent.",
+     "start": 2064,
+     "end": 2179
+    },
+    {
+     "quote": "Still, labor market conditions have clearly cooled over the past year.",
+     "start": 1532,
+     "end": 1601
+    },
+    {
+     "quote": "We do not believe that we need to see further cooling in labor market conditions to achieve 2 percent inflation.",
+     "start": 1832,
+     "end": 1943
+    },
+    {
+     "quote": "Today, we see the risks to achieving our employment and inflation goals as roughly in balance.",
+     "start": 3660,
+     "end": 3753
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

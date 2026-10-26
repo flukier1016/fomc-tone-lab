@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20170726",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20170726",
+  "doc_type": "minutes",
+  "text_sha256": "a3d6b849cacad691baba1861e0be93fe69c59e51ad629d59bc11dbe38b3118f5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e9838abc241891e7bab6d08e66279c666fb1ba72129c6c22b0ae872a0702b969",
+ "message_id": "msg_011CgFug99vhFDEXNpm1S46V",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13223,
+  "output_tokens": 524,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"They observed that the Committee could afford to be patient under current circumstances in deciding when to increase the federal funds rate further\"},{\"dimension\":\"risk_balance\",\"quote\":\"They cautioned that a delay in gradually removing policy accommodation could result in an overshooting of the Committee's inflation objective that would likely be costly to reverse\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many participants, however, saw some likelihood that inflation might remain below 2 percent for longer than they currently expected, and several indicated that the risks to the inflation outlook could be tilted to the downside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it intended to begin implementing the balance sheet normalization program relatively soon, provided that the economy evolved broadly as anticipated\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants noted that labor market conditions had strengthened further over the intermeeting period.\"}],\"rationale\":\"The minutes balance dovish concern over soft inflation and calls for patience against a strengthening labor market, worries about overshooting, and an imminent start to balance sheet runoff. Guidance of gradual increases is maintained, so the net signal is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "They observed that the Committee could afford to be patient under current circumstances in deciding when to increase the federal funds rate further"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "They cautioned that a delay in gradually removing policy accommodation could result in an overshooting of the Committee's inflation objective that would likely be costly to reverse"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many participants, however, saw some likelihood that inflation might remain below 2 percent for longer than they currently expected, and several indicated that the risks to the inflation outlook could be tilted to the downside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it intended to begin implementing the balance sheet normalization program relatively soon, provided that the economy evolved broadly as anticipated"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants noted that labor market conditions had strengthened further over the intermeeting period."
+   }
+  ],
+  "rationale": "The minutes balance dovish concern over soft inflation and calls for patience against a strengthening labor market, worries about overshooting, and an imminent start to balance sheet runoff. Guidance of gradual increases is maintained, so the net signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "They observed that the Committee could afford to be patient under current circumstances in deciding when to increase the federal funds rate further",
+     "start": 32583,
+     "end": 32730
+    },
+    {
+     "quote": "They cautioned that a delay in gradually removing policy accommodation could result in an overshooting of the Committee's inflation objective that would likely be costly to reverse",
+     "start": 33318,
+     "end": 33498
+    },
+    {
+     "quote": "Many participants, however, saw some likelihood that inflation might remain below 2 percent for longer than they currently expected, and several indicated that the risks to the inflation outlook could be tilted to the downside.",
+     "start": 25272,
+     "end": 25498
+    },
+    {
+     "quote": "it intended to begin implementing the balance sheet normalization program relatively soon, provided that the economy evolved broadly as anticipated",
+     "start": 39461,
+     "end": 39608
+    },
+    {
+     "quote": "Participants noted that labor market conditions had strengthened further over the intermeeting period.",
+     "start": 23157,
+     "end": 23258
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

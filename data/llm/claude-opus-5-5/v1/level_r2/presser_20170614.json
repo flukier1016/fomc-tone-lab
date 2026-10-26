@@ -1,0 +1,121 @@
+{
+ "key": "presser_20170614",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20170614",
+  "doc_type": "presser",
+  "text_sha256": "060c301b8d0ea65e78d8cfbed1ef939888d04c59cd9602854567f16c58ebb318"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "be2fa6f97df2188db08ca1b249025e1abf8d7010b4b42522170af6ad806ecef3",
+ "message_id": "msg_011CgG2AmAqntjM3Jj1kHSVn",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10204,
+  "output_tokens": 565,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1 to 1¼ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Provided that the economy evolves broadly as the Committee anticipates, we currently expect to begin implementing a balance sheet normalization program this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Nonetheless, in light of the softer recent inflation readings, the Committee is monitoring inflation developments closely.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"all of these indicators do signal a tight labor market.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee believes we have conditions in place for inflation to move up, but that’s also a risk. And those things point, I think, to a gradual pace of reducing accommodation.\"}],\"rationale\":\"The Fed hiked, signaled further gradual increases, and laid out a plan to begin balance sheet runoff this year, all supported by a characterization of a tight labor market. Concern about soft inflation readings and an emphasis on gradualism temper the hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1 to 1¼ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Provided that the economy evolves broadly as the Committee anticipates, we currently expect to begin implementing a balance sheet normalization program this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nonetheless, in light of the softer recent inflation readings, the Committee is monitoring inflation developments closely."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "all of these indicators do signal a tight labor market."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee believes we have conditions in place for inflation to move up, but that’s also a risk. And those things point, I think, to a gradual pace of reducing accommodation."
+   }
+  ],
+  "rationale": "The Fed hiked, signaled further gradual increases, and laid out a plan to begin balance sheet runoff this year, all supported by a characterization of a tight labor market. Concern about soft inflation readings and an emphasis on gradualism temper the hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to 1 to 1¼ percent.",
+     "start": 121,
+     "end": 275
+    },
+    {
+     "quote": "additional gradual rate hikes are likely to be appropriate over the next few years to sustain the economic expansion.",
+     "start": 5864,
+     "end": 5980
+    },
+    {
+     "quote": "Provided that the economy evolves broadly as the Committee anticipates, we currently expect to begin implementing a balance sheet normalization program this year.",
+     "start": 7138,
+     "end": 7299
+    },
+    {
+     "quote": "Nonetheless, in light of the softer recent inflation readings, the Committee is monitoring inflation developments closely.",
+     "start": 3508,
+     "end": 3629
+    },
+    {
+     "quote": "all of these indicators do signal a tight labor market.",
+     "start": 20073,
+     "end": 20127
+    },
+    {
+     "quote": "The Committee believes we have conditions in place for inflation to move up, but that’s also a risk. And those things point, I think, to a gradual pace of reducing accommodation.",
+     "start": 21052,
+     "end": 21229
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

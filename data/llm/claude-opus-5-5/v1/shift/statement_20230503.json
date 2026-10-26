@@ -1,0 +1,124 @@
+{
+ "key": "statement_20230503",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20230503",
+  "previous_doc_id": "statement_20230322",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "151a1d3a17c084b55af0e06633305139f9937f34b37d6a0db8cb97e905938a45",
+ "message_id": "msg_011CgFudUPUtNU5daLgGreAP",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1484,
+  "output_tokens": 597,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the extent of future increases in the target range, the Committee will take into account\",\"after\":\"In determining the extent to which additional policy firming may be appropriate to return inflation to 2 percent over time, the Committee will take into account\",\"direction\":\"dovish\"},{\"before\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-3/4 to 5 percent.\",\"after\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation.\",\"after\":\"Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation.\",\"direction\":\"dovish\"},{\"before\":\"Recent indicators point to modest growth in spending and production. Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.\",\"after\":\"Economic activity expanded at a modest pace in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement delivered the expected 25bp hike but dropped the explicit anticipation of additional firming, replacing it with conditional language about the extent to which further firming may be appropriate, signaling a likely pause. Treating tighter credit conditions as an established fact rather than a prospective effect adds a modest dovish tilt.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the extent of future increases in the target range, the Committee will take into account",
+    "after": "In determining the extent to which additional policy firming may be appropriate to return inflation to 2 percent over time, the Committee will take into account",
+    "direction": "dovish"
+   },
+   {
+    "before": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-3/4 to 5 percent.",
+    "after": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation.",
+    "after": "Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Recent indicators point to modest growth in spending and production. Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.",
+    "after": "Economic activity expanded at a modest pace in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement delivered the expected 25bp hike but dropped the explicit anticipation of additional firming, replacing it with conditional language about the extent to which further firming may be appropriate, signaling a likely pause. Treating tighter credit conditions as an established fact rather than a prospective effect adds a modest dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that some additional policy firming may be appropriate in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time. In determining the extent of future increases in the target range, the Committee will take into account",
+     "start": 862,
+     "end": 1170
+    },
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-3/4 to 5 percent.",
+     "start": 632,
+     "end": 755
+    },
+    {
+     "quote": "Recent developments are likely to result in tighter credit conditions for households and businesses and to weigh on economic activity, hiring, and inflation.",
+     "start": 262,
+     "end": 418
+    },
+    {
+     "quote": "Recent indicators point to modest growth in spending and production. Job gains have picked up in recent months and are running at a robust pace; the unemployment rate has remained low.",
+     "start": 0,
+     "end": 183
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In determining the extent to which additional policy firming may be appropriate to return inflation to 2 percent over time, the Committee will take into account",
+     "start": 800,
+     "end": 960
+    },
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 5 to 5-1/4 percent.",
+     "start": 570,
+     "end": 693
+    },
+    {
+     "quote": "Tighter credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation.",
+     "start": 232,
+     "end": 351
+    },
+    {
+     "quote": "Economic activity expanded at a modest pace in the first quarter. Job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 0,
+     "end": 153
+    }
+   ]
+  }
+ }
+}

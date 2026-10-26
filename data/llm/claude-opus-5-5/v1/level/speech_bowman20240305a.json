@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240305a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240305a",
+  "doc_type": "speech",
+  "text_sha256": "202c870b859e68c29e800c7a6f78adc65b60e5b8947d36967328f3bc63baf01b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "096f241145b09ba8804366f4eaa57e51aac01842b8dc54693e6f35604d68f380",
+ "message_id": "msg_011CgFugDHDXQKkMGcTmwCvS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4657,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to frame the discussion by offering my views on a key element underpinning the U.S. bank regulatory framework: the role of tailoring.\"},{\"dimension\":\"overall\",\"quote\":\"To be clear, tailoring is not a pretext for deregulation but rather a principle that allows regulators to pursue required statutory objectives in the most efficient and effective way.\"},{\"dimension\":\"overall\",\"quote\":\"Promoting safety and soundness and U.S. financial stability is a weighty enough task without taking on other causes.\"}],\"rationale\":\"The speech addresses bank regulatory tailoring, capital proposals and climate guidance, and offers no view on monetary policy, inflation, or the economy. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to frame the discussion by offering my views on a key element underpinning the U.S. bank regulatory framework: the role of tailoring."
+   },
+   {
+    "dimension": "overall",
+    "quote": "To be clear, tailoring is not a pretext for deregulation but rather a principle that allows regulators to pursue required statutory objectives in the most efficient and effective way."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Promoting safety and soundness and U.S. financial stability is a weighty enough task without taking on other causes."
+   }
+  ],
+  "rationale": "The speech addresses bank regulatory tailoring, capital proposals and climate guidance, and offers no view on monetary policy, inflation, or the economy. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to frame the discussion by offering my views on a key element underpinning the U.S. bank regulatory framework: the role of tailoring.",
+     "start": 177,
+     "end": 322
+    },
+    {
+     "quote": "To be clear, tailoring is not a pretext for deregulation but rather a principle that allows regulators to pursue required statutory objectives in the most efficient and effective way.",
+     "start": 3032,
+     "end": 3214
+    },
+    {
+     "quote": "Promoting safety and soundness and U.S. financial stability is a weighty enough task without taking on other causes.",
+     "start": 8670,
+     "end": 8785
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

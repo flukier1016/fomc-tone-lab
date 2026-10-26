@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20230110a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20230110a",
+  "doc_type": "speech",
+  "text_sha256": "535e4ad7e135b76783dbf991292de0eb6afa0fa57a5db7ab0d3cc0432c8689eb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d6fb48a38337dd254ec95fc8a5bce6d0764c07663ff2ae3d8a0f596584e47a2e",
+ "message_id": "msg_011CgFugFzSKrkbBVjh6ib2b",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1182,
+  "output_tokens": 339,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"But restoring price stability when inflation is high can require measures that are not popular in the short term as we raise interest rates to slow the economy.\"},{\"dimension\":\"overall\",\"quote\":\"Price stability is the bedrock of a healthy economy and provides the public with immeasurable benefits over time.\"},{\"dimension\":\"overall\",\"quote\":\"We are not, and will not be, a \\\"climate policymaker.\\\"\"}],\"rationale\":\"The speech is about central bank independence, transparency and climate mandate limits, with no outlook or policy path signal. The only hint is a generic reference to raising rates to restore price stability, which is slightly hawkish in tone but not a policy view.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But restoring price stability when inflation is high can require measures that are not popular in the short term as we raise interest rates to slow the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Price stability is the bedrock of a healthy economy and provides the public with immeasurable benefits over time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are not, and will not be, a \"climate policymaker.\""
+   }
+  ],
+  "rationale": "The speech is about central bank independence, transparency and climate mandate limits, with no outlook or policy path signal. The only hint is a generic reference to raising rates to restore price stability, which is slightly hawkish in tone but not a policy view."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But restoring price stability when inflation is high can require measures that are not popular in the short term as we raise interest rates to slow the economy.",
+     "start": 979,
+     "end": 1138
+    },
+    {
+     "quote": "Price stability is the bedrock of a healthy economy and provides the public with immeasurable benefits over time.",
+     "start": 865,
+     "end": 977
+    },
+    {
+     "quote": "We are not, and will not be, a \"climate policymaker.\"",
+     "start": 4047,
+     "end": 4098
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

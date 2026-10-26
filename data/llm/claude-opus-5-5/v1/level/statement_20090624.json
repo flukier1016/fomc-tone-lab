@@ -1,0 +1,112 @@
+{
+ "key": "statement_20090624",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20090624",
+  "doc_type": "statement",
+  "text_sha256": "03a053d59b92e558d638671a986e92e3431b623de90c87352a62bb10e613380d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c4e28508d19118c541a7edc5c3c1cb8651ab6d6e9a036d59925546587710c4c9",
+ "message_id": "msg_011CgFugE3rg8Q186USKeb8p",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 670,
+  "output_tokens": 488,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although economic activity is likely to remain weak for a time\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.\"},{\"dimension\":\"overall\",\"quote\":\"the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability.\"}],\"rationale\":\"The Committee holds rates at the zero lower bound with extended-period guidance and continues large-scale asset purchases, citing weak activity and subdued inflation. The slowing contraction and improved financial conditions are noted, but they do not shift the strongly accommodative stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although economic activity is likely to remain weak for a time"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability."
+   }
+  ],
+  "rationale": "The Committee holds rates at the zero lower bound with extended-period guidance and continues large-scale asset purchases, citing weak activity and subdued inflation. The slowing contraction and improved financial conditions are noted, but they do not shift the strongly accommodative stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 1308,
+     "end": 1423
+    },
+    {
+     "quote": "substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.",
+     "start": 905,
+     "end": 1042
+    },
+    {
+     "quote": "Although economic activity is likely to remain weak for a time",
+     "start": 509,
+     "end": 571
+    },
+    {
+     "quote": "the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.",
+     "start": 1570,
+     "end": 1733
+    },
+    {
+     "quote": "the Federal Reserve will employ all available tools to promote economic recovery and to preserve price stability.",
+     "start": 1069,
+     "end": 1181
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

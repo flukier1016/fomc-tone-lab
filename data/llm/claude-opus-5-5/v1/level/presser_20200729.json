@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200729",
+  "doc_type": "presser",
+  "text_sha256": "7590cffeb3a10593079f92b63e3facb28b3acf144f33f33140bc3a12b37977fa"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1f87336e7b1899d20f7cd8f1962b8bf4111b94b53f2fbbd7b953bfeadf7381be",
+ "message_id": "msg_011CgFugAcUz5T3dAzriUWk3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13424,
+  "output_tokens": 506,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"we're not even thinking about—thinking about raising rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We think that the economy will need highly accommodative monetary policy and the use of our tools for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I do think for quite some time we're going to be struggling against disinflationary pressures rather than against inflationary pressures.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will continue to increase our holdings of Treasury and agency mortgage-backed securities at least at the current pace.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"on balance, it looks like the data are pointing to a slowing in the pace of the recovery.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there's clearly a risk that we're going to see a slowdown in the rate of growth in economic activity and in hiring.\"}],\"rationale\":\"The Chair holds rates near zero while continuing asset purchases. He signals that highly accommodative policy will last a long time, describes the shock as disinflationary, and stresses downside risks from the virus resurgence and a slowing recovery.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "we're not even thinking about—thinking about raising rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We think that the economy will need highly accommodative monetary policy and the use of our tools for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I do think for quite some time we're going to be struggling against disinflationary pressures rather than against inflationary pressures."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will continue to increase our holdings of Treasury and agency mortgage-backed securities at least at the current pace."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "on balance, it looks like the data are pointing to a slowing in the pace of the recovery."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there's clearly a risk that we're going to see a slowdown in the rate of growth in economic activity and in hiring."
+   }
+  ],
+  "rationale": "The Chair holds rates near zero while continuing asset purchases. He signals that highly accommodative policy will last a long time, describes the shock as disinflationary, and stresses downside risks from the virus resurgence and a slowing recovery."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we're not even thinking about—thinking about raising rates.",
+     "start": 29557,
+     "end": 29615
+    },
+    {
+     "quote": "We think that the economy will need highly accommodative monetary policy and the use of our tools for an extended period.",
+     "start": 29701,
+     "end": 29821
+    },
+    {
+     "quote": "I do think for quite some time we're going to be struggling against disinflationary pressures rather than against inflationary pressures.",
+     "start": 28731,
+     "end": 28867
+    },
+    {
+     "quote": "we will continue to increase our holdings of Treasury and agency mortgage-backed securities at least at the current pace.",
+     "start": 5030,
+     "end": 5150
+    },
+    {
+     "quote": "on balance, it looks like the data are pointing to a slowing in the pace of the recovery.",
+     "start": 23438,
+     "end": 23526
+    },
+    {
+     "quote": "there's clearly a risk that we're going to see a slowdown in the rate of growth in economic activity and in hiring.",
+     "start": 36322,
+     "end": 36436
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

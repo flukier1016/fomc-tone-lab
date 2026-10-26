@@ -1,0 +1,112 @@
+{
+ "key": "speech_barr20260923a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260923a",
+  "doc_type": "speech",
+  "text_sha256": "dc0a37e853a4729e10d4308770abe83b186ca3181bb6f4ca76808e122335af8b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d281578db55f2d16499c415197b77fd813bcfb3bd08b99d5dc456496d8a4de90",
+ "message_id": "msg_011CgFugBbmKDwtj4sDSqjwP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5549,
+  "output_tokens": 432,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation is above our 2 percent target and not clearly trending toward target in a timely way.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Moreover, risks to achieving our inflation target have increased, while risks to the labor market have receded.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic growth is strong and the labor market is solid\"},{\"dimension\":\"overall\",\"quote\":\"In my view, given changes to the economy, we were out of position, and we made an adjustment in the right direction.\"}],\"rationale\":\"The speech is mostly about housing, but its monetary policy section supports last week's rate hike and signals that further tightening is likely. It also describes inflation risks as increasing while labor market risks recede, a clearly hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation is above our 2 percent target and not clearly trending toward target in a timely way."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Moreover, risks to achieving our inflation target have increased, while risks to the labor market have receded."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic growth is strong and the labor market is solid"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, given changes to the economy, we were out of position, and we made an adjustment in the right direction."
+   }
+  ],
+  "rationale": "The speech is mostly about housing, but its monetary policy section supports last week's rate hike and signals that further tightening is likely. It also describes inflation risks as increasing while labor market risks recede, a clearly hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion.",
+     "start": 2187,
+     "end": 2315
+    },
+    {
+     "quote": "inflation is above our 2 percent target and not clearly trending toward target in a timely way.",
+     "start": 1664,
+     "end": 1758
+    },
+    {
+     "quote": "Moreover, risks to achieving our inflation target have increased, while risks to the labor market have receded.",
+     "start": 1760,
+     "end": 1870
+    },
+    {
+     "quote": "Economic growth is strong and the labor market is solid",
+     "start": 1603,
+     "end": 1658
+    },
+    {
+     "quote": "In my view, given changes to the economy, we were out of position, and we made an adjustment in the right direction.",
+     "start": 2070,
+     "end": 2185
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

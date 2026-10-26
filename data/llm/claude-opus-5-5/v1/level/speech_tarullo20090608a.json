@@ -1,0 +1,103 @@
+{
+ "key": "speech_tarullo20090608a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20090608a",
+  "doc_type": "speech",
+  "text_sha256": "51b1946408de4435e2d960a847705ab5a95ae224b1340c82540e2fb2a21e515a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0303a076843e06b580b825053984751d2231279c65c71b6821dfa72b53efe3d0",
+ "message_id": "msg_011CgFugBPNB26576pfyDSRr",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10521,
+  "output_tokens": 433,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recovery may be painfully slow, and the economy will remain unusually vulnerable to new shocks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Unemployment continues to rise and housing prices continue to decline.\"},{\"dimension\":\"risk_balance\",\"quote\":\"despite some progress, financial markets continue to exhibit signs of strain. Government-provided liquidity and guarantees remain as necessary supports in many areas.\"},{\"dimension\":\"overall\",\"quote\":\"A major reorientation of our regulatory and supervisory system is needed to address head-on the problem of systemic risk.\"}],\"rationale\":\"The speech is mainly about financial regulatory reform and systemic risk, with only a brief opening note on a weak economy: rising unemployment, a slow recovery and vulnerability to shocks. That note leans mildly dovish, but the speech takes no monetary policy view, so overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recovery may be painfully slow, and the economy will remain unusually vulnerable to new shocks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Unemployment continues to rise and housing prices continue to decline."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "despite some progress, financial markets continue to exhibit signs of strain. Government-provided liquidity and guarantees remain as necessary supports in many areas."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A major reorientation of our regulatory and supervisory system is needed to address head-on the problem of systemic risk."
+   }
+  ],
+  "rationale": "The speech is mainly about financial regulatory reform and systemic risk, with only a brief opening note on a weak economy: rising unemployment, a slow recovery and vulnerability to shocks. That note leans mildly dovish, but the speech takes no monetary policy view, so overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Recovery may be painfully slow, and the economy will remain unusually vulnerable to new shocks.",
+     "start": 400,
+     "end": 494
+    },
+    {
+     "quote": "Unemployment continues to rise and housing prices continue to decline.",
+     "start": 573,
+     "end": 642
+    },
+    {
+     "quote": "despite some progress, financial markets continue to exhibit signs of strain. Government-provided liquidity and guarantees remain as necessary supports in many areas.",
+     "start": 764,
+     "end": 929
+    },
+    {
+     "quote": "A major reorientation of our regulatory and supervisory system is needed to address head-on the problem of systemic risk.",
+     "start": 2552,
+     "end": 2672
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

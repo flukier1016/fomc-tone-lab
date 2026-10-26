@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20180531a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20180531a",
+  "doc_type": "speech",
+  "text_sha256": "43c1e7a77f41167f982821f7d74796a3938e1d8def74b0ec9428286df1f63df5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "896938a91495cf56a70113416c266c5a24bf0e033b9ed2524afde13ad1e93e93",
+ "message_id": "msg_011CgFugELDrjBD43jCK5Tqz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5324,
+  "output_tokens": 610,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"This outlook suggests a policy path that moves gradually from modestly accommodative today to neutral--and, after some time, modestly beyond neutral--against the backdrop of a longer-run neutral rate that is likely to remain low by historical standards.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I continue to view gradual increases in the federal funds rate as the appropriate path, although I will remain vigilant for the emergence of risks and prepared to adjust if conditions change.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"if we were to see a mild, temporary overshoot of the inflation target, this could well be consistent with the symmetry of the FOMC's target and may help nudge underlying inflation back to target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Here at home, the labor market is strong.\"},{\"dimension\":\"risk_balance\",\"quote\":\"fiscal stimulus in the pipeline suggests some risk to the upside. By contrast, recent developments abroad suggest some risk to the downside.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"with the balance sheet running off gradually and predictably in the background\"}],\"rationale\":\"Brainard signals continued gradual hikes to neutral and modestly beyond, citing fiscal stimulus and a tight labor market, while tolerating a mild inflation overshoot and flagging global downside risks. Net lean is moderately hawkish, tempered by gradualism and dovish inflation framing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "This outlook suggests a policy path that moves gradually from modestly accommodative today to neutral--and, after some time, modestly beyond neutral--against the backdrop of a longer-run neutral rate that is likely to remain low by historical standards."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I continue to view gradual increases in the federal funds rate as the appropriate path, although I will remain vigilant for the emergence of risks and prepared to adjust if conditions change."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "if we were to see a mild, temporary overshoot of the inflation target, this could well be consistent with the symmetry of the FOMC's target and may help nudge underlying inflation back to target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Here at home, the labor market is strong."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "fiscal stimulus in the pipeline suggests some risk to the upside. By contrast, recent developments abroad suggest some risk to the downside."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "with the balance sheet running off gradually and predictably in the background"
+   }
+  ],
+  "rationale": "Brainard signals continued gradual hikes to neutral and modestly beyond, citing fiscal stimulus and a tight labor market, while tolerating a mild inflation overshoot and flagging global downside risks. Net lean is moderately hawkish, tempered by gradualism and dovish inflation framing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This outlook suggests a policy path that moves gradually from modestly accommodative today to neutral--and, after some time, modestly beyond neutral--against the backdrop of a longer-run neutral rate that is likely to remain low by historical standards.",
+     "start": 507,
+     "end": 759
+    },
+    {
+     "quote": "I continue to view gradual increases in the federal funds rate as the appropriate path, although I will remain vigilant for the emergence of risks and prepared to adjust if conditions change.",
+     "start": 17154,
+     "end": 17344
+    },
+    {
+     "quote": "if we were to see a mild, temporary overshoot of the inflation target, this could well be consistent with the symmetry of the FOMC's target and may help nudge underlying inflation back to target.",
+     "start": 7564,
+     "end": 7758
+    },
+    {
+     "quote": "Here at home, the labor market is strong.",
+     "start": 3608,
+     "end": 3648
+    },
+    {
+     "quote": "fiscal stimulus in the pipeline suggests some risk to the upside. By contrast, recent developments abroad suggest some risk to the downside.",
+     "start": 2423,
+     "end": 2562
+    },
+    {
+     "quote": "with the balance sheet running off gradually and predictably in the background",
+     "start": 427,
+     "end": 505
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

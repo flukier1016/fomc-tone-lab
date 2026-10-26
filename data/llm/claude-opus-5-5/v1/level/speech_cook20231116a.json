@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20231116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20231116a",
+  "doc_type": "speech",
+  "text_sha256": "e44e1015e141117ccfb31607e70be4e4ad18a69547376ab19ef3282f3c813b3a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a7d1302438a1d1c179463e591dd434fd1b22631a3f1baef17a74337579c70320",
+ "message_id": "msg_011CgFugFPxqHcWjiN6dg6pp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4695,
+  "output_tokens": 531,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"I see risks as two sided, requiring us to balance the risk of not tightening enough against the risk of tightening too much.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But I am also attuned to the risk of an unnecessarily sharp decline in economic activity and employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I am considering whether small businesses, the housing sector, and low- and moderate-income households could be warning of broader stress ahead.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"thus contributing importantly to the expected further reduction in overall U.S. inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we need to seek a policy stance that is sufficiently restrictive to bring inflation back to 2 percent over time.\"},{\"dimension\":\"overall\",\"quote\":\"I believe that a soft landing is possible, with continued disinflation and a strong labor market, but it is not assured.\"}],\"rationale\":\"The speech calls risks two-sided but devotes more attention to downside risks: strain in households, small businesses and housing, weak growth abroad, and the possibility of overtightening. It also expects disinflation to continue, giving a modest dovish lean without any explicit signal of easing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "I see risks as two sided, requiring us to balance the risk of not tightening enough against the risk of tightening too much."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But I am also attuned to the risk of an unnecessarily sharp decline in economic activity and employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I am considering whether small businesses, the housing sector, and low- and moderate-income households could be warning of broader stress ahead."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "thus contributing importantly to the expected further reduction in overall U.S. inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we need to seek a policy stance that is sufficiently restrictive to bring inflation back to 2 percent over time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe that a soft landing is possible, with continued disinflation and a strong labor market, but it is not assured."
+   }
+  ],
+  "rationale": "The speech calls risks two-sided but devotes more attention to downside risks: strain in households, small businesses and housing, weak growth abroad, and the possibility of overtightening. It also expects disinflation to continue, giving a modest dovish lean without any explicit signal of easing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I see risks as two sided, requiring us to balance the risk of not tightening enough against the risk of tightening too much.",
+     "start": 7668,
+     "end": 7791
+    },
+    {
+     "quote": "But I am also attuned to the risk of an unnecessarily sharp decline in economic activity and employment.",
+     "start": 8082,
+     "end": 8185
+    },
+    {
+     "quote": "I am considering whether small businesses, the housing sector, and low- and moderate-income households could be warning of broader stress ahead.",
+     "start": 8889,
+     "end": 9032
+    },
+    {
+     "quote": "thus contributing importantly to the expected further reduction in overall U.S. inflation.",
+     "start": 5279,
+     "end": 5368
+    },
+    {
+     "quote": "we need to seek a policy stance that is sufficiently restrictive to bring inflation back to 2 percent over time.",
+     "start": 7555,
+     "end": 7666
+    },
+    {
+     "quote": "I believe that a soft landing is possible, with continued disinflation and a strong labor market, but it is not assured.",
+     "start": 7405,
+     "end": 7524
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

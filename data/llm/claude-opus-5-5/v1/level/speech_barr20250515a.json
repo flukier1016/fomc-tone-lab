@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20250515a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20250515a",
+  "doc_type": "speech",
+  "text_sha256": "14a9b3acb530c6898bbfed04b16bb6d2b271190ada59609b15456d8bf755790d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "13405f8066c6790a3332155a97d924dfb6f6960f5a3c3fba97203815232dad10",
+ "message_id": "msg_011CgFugGZupWz2oZyF4HNKr",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2718,
+  "output_tokens": 379,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In my view, the economy is on solid footing, with solid growth, low and stable unemployment, and inflation continuing to come down towards our 2 percent target.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If these disruptions were to occur, we'd likely see lower growth and higher inflation ahead.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But the outlook has been clouded by trade policies that have led to an increase in uncertainty, contributing to declines in measures of consumer and business sentiment.\"}],\"rationale\":\"The speech is mainly about small business challenges, with a brief outlook noting a solid economy and disinflation alongside trade-related stagflationary risks to both growth and inflation. It offers no policy path signal, so the net stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In my view, the economy is on solid footing, with solid growth, low and stable unemployment, and inflation continuing to come down towards our 2 percent target."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If these disruptions were to occur, we'd likely see lower growth and higher inflation ahead."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But the outlook has been clouded by trade policies that have led to an increase in uncertainty, contributing to declines in measures of consumer and business sentiment."
+   }
+  ],
+  "rationale": "The speech is mainly about small business challenges, with a brief outlook noting a solid economy and disinflation alongside trade-related stagflationary risks to both growth and inflation. It offers no policy path signal, so the net stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, the economy is on solid footing, with solid growth, low and stable unemployment, and inflation continuing to come down towards our 2 percent target.",
+     "start": 7056,
+     "end": 7215
+    },
+    {
+     "quote": "If these disruptions were to occur, we'd likely see lower growth and higher inflation ahead.",
+     "start": 7903,
+     "end": 7994
+    },
+    {
+     "quote": "But the outlook has been clouded by trade policies that have led to an increase in uncertainty, contributing to declines in measures of consumer and business sentiment.",
+     "start": 7217,
+     "end": 7384
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

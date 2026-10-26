@@ -1,0 +1,149 @@
+{
+ "key": "statement_20190619",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20190619",
+  "previous_doc_id": "statement_20190501",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1ffea389df5c6e63e99e4166cc7fca05aa104ca267e04cbb349f8d62dbc122a6",
+ "message_id": "msg_011CgFudUSTPUBM3m8LpDroG",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1388,
+  "output_tokens": 678,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"economic activity rose at a solid rate\",\"after\":\"economic activity is rising at a moderate rate\",\"direction\":\"dovish\"},{\"before\":\"Growth of household spending and business fixed investment slowed in the first quarter.\",\"after\":\"Although growth of household spending appears to have picked up from earlier in the year, indicators of business fixed investment have been soft.\",\"direction\":\"dovish\"},{\"before\":\"On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.\",\"after\":\"Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.\",\"direction\":\"dovish\"},{\"before\":\"inflation near the Committee's symmetric 2 percent objective as the most likely outcomes.\",\"after\":\"inflation near the Committee's symmetric 2 percent objective as the most likely outcomes, but uncertainties about this outlook have increased.\",\"direction\":\"dovish\"},{\"before\":\"In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes.\",\"after\":\"In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.\",\"direction\":\"dovish\"}],\"rationale\":\"Dropping 'patient' in favor of 'act as appropriate to sustain the expansion,' together with increased uncertainty language and a dissent favoring a cut, signals a clear pivot toward easing. Softer growth and inflation-compensation descriptions reinforce the dovish shift.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "economic activity rose at a solid rate",
+    "after": "economic activity is rising at a moderate rate",
+    "direction": "dovish"
+   },
+   {
+    "before": "Growth of household spending and business fixed investment slowed in the first quarter.",
+    "after": "Although growth of household spending appears to have picked up from earlier in the year, indicators of business fixed investment have been soft.",
+    "direction": "dovish"
+   },
+   {
+    "before": "On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.",
+    "after": "Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.",
+    "direction": "dovish"
+   },
+   {
+    "before": "inflation near the Committee's symmetric 2 percent objective as the most likely outcomes.",
+    "after": "inflation near the Committee's symmetric 2 percent objective as the most likely outcomes, but uncertainties about this outlook have increased.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes.",
+    "after": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "Dropping 'patient' in favor of 'act as appropriate to sustain the expansion,' together with increased uncertainty language and a dissent favoring a cut, signals a clear pivot toward easing. Softer growth and inflation-compensation descriptions reinforce the dovish shift."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity rose at a solid rate",
+     "start": 130,
+     "end": 168
+    },
+    {
+     "quote": "Growth of household spending and business fixed investment slowed in the first quarter.",
+     "start": 271,
+     "end": 357
+    },
+    {
+     "quote": "On balance, market-based measures of inflation compensation have remained low in recent months, and survey-based measures of longer-term inflation expectations are little changed.",
+     "start": 496,
+     "end": 674
+    },
+    {
+     "quote": "inflation near the Committee's symmetric 2 percent objective as the most likely outcomes.",
+     "start": 1028,
+     "end": 1116
+    },
+    {
+     "quote": "In light of global economic and financial developments and muted inflation pressures, the Committee will be patient as it determines what future adjustments to the target range for the federal funds rate may be appropriate to support these outcomes.",
+     "start": 1118,
+     "end": 1366
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity is rising at a moderate rate",
+     "start": 128,
+     "end": 174
+    },
+    {
+     "quote": "Although growth of household spending appears to have picked up from earlier in the year, indicators of business fixed investment have been soft.",
+     "start": 277,
+     "end": 421
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.",
+     "start": 542,
+     "end": 683
+    },
+    {
+     "quote": "inflation near the Committee's symmetric 2 percent objective as the most likely outcomes, but uncertainties about this outlook have increased.",
+     "start": 1037,
+     "end": 1178
+    },
+    {
+     "quote": "In light of these uncertainties and muted inflation pressures, the Committee will closely monitor the implications of incoming information for the economic outlook and will act as appropriate to sustain the expansion, with a strong labor market and inflation near its symmetric 2 percent objective.",
+     "start": 1180,
+     "end": 1477
+    },
+    {
+     "quote": "Voting against the action was James Bullard, who preferred at this meeting to lower the target range for the federal funds rate by 25 basis points.",
+     "start": 2214,
+     "end": 2360
+    }
+   ]
+  }
+ }
+}

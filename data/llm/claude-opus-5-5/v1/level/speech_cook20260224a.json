@@ -1,0 +1,103 @@
+{
+ "key": "speech_cook20260224a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260224a",
+  "doc_type": "speech",
+  "text_sha256": "d5635900bd3a7b4cdaeef5149999ea7c308df457680f7fd68bb91086ebb8ba25"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "805f4a2341ef4ed2a47746f1620b2540a64de990b00e1ca7c62a9d67a7920b8f",
+ "message_id": "msg_011CgFugBs8yH9Gbab4P7PYS",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2034,
+  "output_tokens": 476,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.35,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Nevertheless, the overall unemployment rate is still at a low 4.3 percent, and recent measures of layoffs remain subdued.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I discussed the possibility that job displacement may precede job creation such that the unemployment rate may rise and participation in the labor force may decline as the economy transitions.\"},{\"dimension\":\"overall\",\"quote\":\"our normal demand-side monetary policy may not be able to ameliorate an AI-caused unemployment spell without also increasing inflationary pressure.\"},{\"dimension\":\"overall\",\"quote\":\"With investment contributing to strong aggregate demand, it is possible that the current neutral rate is higher than before the pandemic.\"}],\"rationale\":\"The speech is a structural discussion of AI. It flags possible labor displacement but notes that unemployment is low and layoffs are subdued, and it raises a possibly higher neutral rate and limits on using monetary policy to address AI-driven unemployment, a slight hawkish tilt, while offering no explicit guidance on the policy path.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.35,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Nevertheless, the overall unemployment rate is still at a low 4.3 percent, and recent measures of layoffs remain subdued."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I discussed the possibility that job displacement may precede job creation such that the unemployment rate may rise and participation in the labor force may decline as the economy transitions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "our normal demand-side monetary policy may not be able to ameliorate an AI-caused unemployment spell without also increasing inflationary pressure."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With investment contributing to strong aggregate demand, it is possible that the current neutral rate is higher than before the pandemic."
+   }
+  ],
+  "rationale": "The speech is a structural discussion of AI. It flags possible labor displacement but notes that unemployment is low and layoffs are subdued, and it raises a possibly higher neutral rate and limits on using monetary policy to address AI-driven unemployment, a slight hawkish tilt, while offering no explicit guidance on the policy path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nevertheless, the overall unemployment rate is still at a low 4.3 percent, and recent measures of layoffs remain subdued.",
+     "start": 3957,
+     "end": 4077
+    },
+    {
+     "quote": "I discussed the possibility that job displacement may precede job creation such that the unemployment rate may rise and participation in the labor force may decline as the economy transitions.",
+     "start": 3237,
+     "end": 3428
+    },
+    {
+     "quote": "our normal demand-side monetary policy may not be able to ameliorate an AI-caused unemployment spell without also increasing inflationary pressure.",
+     "start": 4710,
+     "end": 4856
+    },
+    {
+     "quote": "With investment contributing to strong aggregate demand, it is possible that the current neutral rate is higher than before the pandemic.",
+     "start": 5712,
+     "end": 5848
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

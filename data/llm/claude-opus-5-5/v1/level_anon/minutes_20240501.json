@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20240501",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20240501",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "eb46c4586fd888a5c2f89fd92154a01d505a9b033d954fa931dad1fd067c7fbd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8e4c7336f34fc1d65ca04239b8609c02c783cbc68b9aa74e73f7ab3d73aebd57",
+ "message_id": "msg_011CgFudqVjRUhvkAGg7nuRy",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12511,
+  "output_tokens": 583,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Various participants mentioned a willingness to tighten policy further should risks to inflation materialize in a way that such an action became appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"recent data had not increased their confidence in progress toward 2 percent and, accordingly, had suggested that the disinflation process would likely take longer than previously thought.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the associated risk that such conditions were insufficiently restrictive on aggregate demand and inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee would slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants noted that recent indicators suggested that economic activity had continued to expand at a solid pace.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Participants discussed maintaining the current restrictive policy stance for longer should inflation not show signs of moving sustainably toward 2 percent\"}],\"rationale\":\"The minutes emphasize a lack of inflation progress, upside inflation risks, solid growth, and signals of holding rates higher for longer, with some participants open to further tightening. The one dovish element is the slower balance sheet runoff, though participants framed it as having no implication for the policy stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Various participants mentioned a willingness to tighten policy further should risks to inflation materialize in a way that such an action became appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "recent data had not increased their confidence in progress toward 2 percent and, accordingly, had suggested that the disinflation process would likely take longer than previously thought."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the associated risk that such conditions were insufficiently restrictive on aggregate demand and inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee would slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants noted that recent indicators suggested that economic activity had continued to expand at a solid pace."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants discussed maintaining the current restrictive policy stance for longer should inflation not show signs of moving sustainably toward 2 percent"
+   }
+  ],
+  "rationale": "The minutes emphasize a lack of inflation progress, upside inflation risks, solid growth, and signals of holding rates higher for longer, with some participants open to further tightening. The one dovish element is the slower balance sheet runoff, though participants framed it as having no implication for the policy stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Various participants mentioned a willingness to tighten policy further should risks to inflation materialize in a way that such an action became appropriate.",
+     "start": 33556,
+     "end": 33712
+    },
+    {
+     "quote": "recent data had not increased their confidence in progress toward 2 percent and, accordingly, had suggested that the disinflation process would likely take longer than previously thought.",
+     "start": 19134,
+     "end": 19320
+    },
+    {
+     "quote": "the associated risk that such conditions were insufficiently restrictive on aggregate demand and inflation.",
+     "start": 26835,
+     "end": 26941
+    },
+    {
+     "quote": "the Committee would slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion.",
+     "start": 35251,
+     "end": 35416
+    },
+    {
+     "quote": "Participants noted that recent indicators suggested that economic activity had continued to expand at a solid pace.",
+     "start": 22820,
+     "end": 22934
+    },
+    {
+     "quote": "Participants discussed maintaining the current restrictive policy stance for longer should inflation not show signs of moving sustainably toward 2 percent",
+     "start": 33304,
+     "end": 33458
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20140618",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20140618",
+  "doc_type": "presser",
+  "text_sha256": "4391cd541c9cc5a55274e1f443e8eeed6dafece51bb9f96e0f71f8ce5b50681b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "543df5967086feb5ae51511dd5703d55441191159b36cf4c4e139c33943e55ee",
+ "message_id": "msg_011CgG27o76EYFXJVjTTMJSo",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 9143,
+  "output_tokens": 621,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Starting next month, we will be purchasing $35 billion of securities per month, down $10 billion per month from our current rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee anticipates that it likely will be appropriate to maintain the current target range for the federal funds rate, for a considerable time after the asset purchase program ends\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I think recent readings on, for example, the CPI index have been a bit on the high side, but I think it’s—the data that we’re seeing is noisy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even given these declines, however, unemployment remains elevated, and a broader assessment of indicators suggests that underutilization in the labor market remains significant.\"},{\"dimension\":\"risk_balance\",\"quote\":\"inflation continues to run well below our objective, and we're still some ways away from maximum employment. And for the moment, I don't see any tradeoff whatsoever in achieving our two objectives.\"},{\"dimension\":\"overall\",\"quote\":\"reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate\"}],\"rationale\":\"The Committee continues its measured taper of asset purchases, which is mildly hawkish on the balance sheet, but keeps guidance of near-zero rates for a considerable time and of below-normal rates thereafter. The Chair dismisses higher inflation readings as noise and stresses that labor-market slack remains significant, giving a net dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Starting next month, we will be purchasing $35 billion of securities per month, down $10 billion per month from our current rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee anticipates that it likely will be appropriate to maintain the current target range for the federal funds rate, for a considerable time after the asset purchase program ends"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I think recent readings on, for example, the CPI index have been a bit on the high side, but I think it’s—the data that we’re seeing is noisy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even given these declines, however, unemployment remains elevated, and a broader assessment of indicators suggests that underutilization in the labor market remains significant."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "inflation continues to run well below our objective, and we're still some ways away from maximum employment. And for the moment, I don't see any tradeoff whatsoever in achieving our two objectives."
+   },
+   {
+    "dimension": "overall",
+    "quote": "reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate"
+   }
+  ],
+  "rationale": "The Committee continues its measured taper of asset purchases, which is mildly hawkish on the balance sheet, but keeps guidance of near-zero rates for a considerable time and of below-normal rates thereafter. The Chair dismisses higher inflation readings as noise and stresses that labor-market slack remains significant, giving a net dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Starting next month, we will be purchasing $35 billion of securities per month, down $10 billion per month from our current rate.",
+     "start": 3632,
+     "end": 3760
+    },
+    {
+     "quote": "the Committee anticipates that it likely will be appropriate to maintain the current target range for the federal funds rate, for a considerable time after the asset purchase program ends",
+     "start": 5723,
+     "end": 5910
+    },
+    {
+     "quote": "I think recent readings on, for example, the CPI index have been a bit on the high side, but I think it’s—the data that we’re seeing is noisy.",
+     "start": 9200,
+     "end": 9341
+    },
+    {
+     "quote": "Even given these declines, however, unemployment remains elevated, and a broader assessment of indicators suggests that underutilization in the labor market remains significant.",
+     "start": 916,
+     "end": 1092
+    },
+    {
+     "quote": "inflation continues to run well below our objective, and we're still some ways away from maximum employment. And for the moment, I don't see any tradeoff whatsoever in achieving our two objectives.",
+     "start": 23048,
+     "end": 23244
+    },
+    {
+     "quote": "reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate",
+     "start": 335,
+     "end": 428
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20250801a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250801a",
+  "doc_type": "speech",
+  "text_sha256": "4b4d95493f4e86f8a733a10d8db3ae5eb851bf00bbfc3a2a7bf1dc2bb070243d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fa7c6d6f47c258cfe352d512c083071804afc75c7fda2326b1789294b0d55443",
+ "message_id": "msg_011CgFug8xX3gxt3KNsiK94p",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1503,
+  "output_tokens": 518,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I preferred to lower the target range for the federal funds rate by 25 basis points.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that beginning to move our policy rate at a gradual pace toward its neutral level will help maintain the labor market near full employment\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With tariff-related price increases likely representing a one-time effect, it is appropriate to look through temporarily elevated inflation readings.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, the labor market has become less dynamic and shows increasing signs of fragility.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I think that we should start putting more weight on risks to our employment mandate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see the risk that a delay in taking action could result in a deterioration in the labor market and a further slowing in economic growth.\"}],\"rationale\":\"The speaker explains a dissent in favor of a 25 bp cut and advocates gradually moving policy toward neutral, arguing that tariff effects on inflation are one-time. They put more weight on downside risks to employment and growth, a clearly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I preferred to lower the target range for the federal funds rate by 25 basis points."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that beginning to move our policy rate at a gradual pace toward its neutral level will help maintain the labor market near full employment"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With tariff-related price increases likely representing a one-time effect, it is appropriate to look through temporarily elevated inflation readings."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, the labor market has become less dynamic and shows increasing signs of fragility."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I think that we should start putting more weight on risks to our employment mandate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see the risk that a delay in taking action could result in a deterioration in the labor market and a further slowing in economic growth."
+   }
+  ],
+  "rationale": "The speaker explains a dissent in favor of a 25 bp cut and advocates gradually moving policy toward neutral, arguing that tariff effects on inflation are one-time. They put more weight on downside risks to employment and growth, a clearly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I preferred to lower the target range for the federal funds rate by 25 basis points.",
+     "start": 225,
+     "end": 308
+    },
+    {
+     "quote": "I believe that beginning to move our policy rate at a gradual pace toward its neutral level will help maintain the labor market near full employment",
+     "start": 3861,
+     "end": 4009
+    },
+    {
+     "quote": "With tariff-related price increases likely representing a one-time effect, it is appropriate to look through temporarily elevated inflation readings.",
+     "start": 3657,
+     "end": 3805
+    },
+    {
+     "quote": "However, the labor market has become less dynamic and shows increasing signs of fragility.",
+     "start": 1711,
+     "end": 1800
+    },
+    {
+     "quote": "I think that we should start putting more weight on risks to our employment mandate.",
+     "start": 3002,
+     "end": 3085
+    },
+    {
+     "quote": "I see the risk that a delay in taking action could result in a deterioration in the labor market and a further slowing in economic growth.",
+     "start": 4086,
+     "end": 4223
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

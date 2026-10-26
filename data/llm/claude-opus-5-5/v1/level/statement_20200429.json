@@ -1,0 +1,121 @@
+{
+ "key": "statement_20200429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20200429",
+  "doc_type": "statement",
+  "text_sha256": "ec8426b6d8a74c131565d05ce517f44fa58096028e333cc1aa896d25605f02ec"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7b62e2496ef9ae9bf1343c3ed1b3fc9339267433d4aa6a3e84a901b6f426b58d",
+ "message_id": "msg_011CgFugGCb96nrHhPhkWhYh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 857,
+  "output_tokens": 538,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"poses considerable risks to the economic outlook over the medium term.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning\"}],\"rationale\":\"The statement holds rates at the zero lower bound with open-ended guidance to stay there until recovery is secure. It also continues open-ended asset purchases and stresses severe downside risks, sharp activity declines, and muted inflation.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "poses considerable risks to the economic outlook over the medium term."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning"
+   }
+  ],
+  "rationale": "The statement holds rates at the zero lower bound with open-ended guidance to stay there until recovery is secure. It also continues open-ended asset purchases and stresses severe downside risks, sharp activity declines, and muted inflation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+     "start": 937,
+     "end": 1034
+    },
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1036,
+     "end": 1230
+    },
+    {
+     "quote": "The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses.",
+     "start": 311,
+     "end": 443
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 445,
+     "end": 535
+    },
+    {
+     "quote": "poses considerable risks to the economic outlook over the medium term.",
+     "start": 834,
+     "end": 903
+    },
+    {
+     "quote": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning",
+     "start": 2068,
+     "end": 2257
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

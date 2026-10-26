@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20220126",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20220126",
+  "doc_type": "minutes",
+  "text_sha256": "1ae6bb85467f163b47ab1f764a4528f917979f075c3ec1d23100e74c73062528"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8d4f77e1b888dcb2edf9ff7573aa778765c769328c4ca8e41ac6d8302b752035",
+ "message_id": "msg_011CgFugDX7JAGat8to1cAVz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12083,
+  "output_tokens": 573,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":2,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"most participants suggested that a faster pace of increases in the target range for the federal funds rate than in the post-2015 period would likely be warranted\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants noted that, if inflation does not move down as they expect, it would be appropriate for the Committee to remove policy accommodation at a faster pace than they currently anticipate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"elevated inflation was persisting longer than they had anticipated\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants agreed that uncertainty regarding the path of inflation was elevated and that risks to inflation were weighted to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many participants commented that they viewed labor market conditions as already at or very close to those consistent with maximum employment\"},{\"dimension\":\"balance_sheet\",\"quote\":\"a number of participants commented that conditions would likely warrant beginning to reduce the size of the balance sheet sometime later this year.\"}],\"rationale\":\"The minutes signal imminent liftoff, a faster hiking pace than post-2015, and balance-sheet runoff later in the year, driven by persistent, broadening inflation and a labor market near maximum employment. Upside inflation risks dominate, though downside activity risks from Omicron and geopolitics are also noted.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 2,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "most participants suggested that a faster pace of increases in the target range for the federal funds rate than in the post-2015 period would likely be warranted"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants noted that, if inflation does not move down as they expect, it would be appropriate for the Committee to remove policy accommodation at a faster pace than they currently anticipate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "elevated inflation was persisting longer than they had anticipated"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants agreed that uncertainty regarding the path of inflation was elevated and that risks to inflation were weighted to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many participants commented that they viewed labor market conditions as already at or very close to those consistent with maximum employment"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "a number of participants commented that conditions would likely warrant beginning to reduce the size of the balance sheet sometime later this year."
+   }
+  ],
+  "rationale": "The minutes signal imminent liftoff, a faster hiking pace than post-2015, and balance-sheet runoff later in the year, driven by persistent, broadening inflation and a labor market near maximum employment. Upside inflation risks dominate, though downside activity risks from Omicron and geopolitics are also noted."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "most participants suggested that a faster pace of increases in the target range for the federal funds rate than in the post-2015 period would likely be warranted",
+     "start": 29570,
+     "end": 29731
+    },
+    {
+     "quote": "Most participants noted that, if inflation does not move down as they expect, it would be appropriate for the Committee to remove policy accommodation at a faster pace than they currently anticipate.",
+     "start": 31129,
+     "end": 31327
+    },
+    {
+     "quote": "elevated inflation was persisting longer than they had anticipated",
+     "start": 23832,
+     "end": 23898
+    },
+    {
+     "quote": "participants agreed that uncertainty regarding the path of inflation was elevated and that risks to inflation were weighted to the upside.",
+     "start": 25308,
+     "end": 25445
+    },
+    {
+     "quote": "Many participants commented that they viewed labor market conditions as already at or very close to those consistent with maximum employment",
+     "start": 22983,
+     "end": 23123
+    },
+    {
+     "quote": "a number of participants commented that conditions would likely warrant beginning to reduce the size of the balance sheet sometime later this year.",
+     "start": 30383,
+     "end": 30529
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

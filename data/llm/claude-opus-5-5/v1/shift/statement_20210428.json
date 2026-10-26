@@ -1,0 +1,109 @@
+{
+ "key": "statement_20210428",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20210428",
+  "previous_doc_id": "statement_20210317",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a342c108140cebdd067dc8cf4c77c5170bf7edcf2937da3dff80e3598a505924",
+ "message_id": "msg_011CgFudUTwk6P7dejtNL1Uf",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1978,
+  "output_tokens": 397,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.\",\"after\":\"Amid progress on vaccinations and strong policy support, indicators of economic activity and employment have strengthened. The sectors most adversely affected by the pandemic remain weak but have shown improvement.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation continues to run below 2 percent.\",\"after\":\"Inflation has risen, largely reflecting transitory factors.\",\"direction\":\"hawkish\"},{\"before\":\"The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.\",\"after\":\"The ongoing public health crisis continues to weigh on the economy, and risks to the economic outlook remain.\",\"direction\":\"hawkish\"}],\"rationale\":\"The economic assessment is upgraded, inflation is acknowledged as having risen (though called transitory), and the risk language is softened from 'considerable.' Rate and asset-purchase guidance is unchanged, so the hawkish shift is modest.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.",
+    "after": "Amid progress on vaccinations and strong policy support, indicators of economic activity and employment have strengthened. The sectors most adversely affected by the pandemic remain weak but have shown improvement.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation continues to run below 2 percent.",
+    "after": "Inflation has risen, largely reflecting transitory factors.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.",
+    "after": "The ongoing public health crisis continues to weigh on the economy, and risks to the economic outlook remain.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The economic assessment is upgraded, inflation is acknowledged as having risen (though called transitory), and the risk language is softened from 'considerable.' Rate and asset-purchase guidance is unchanged, so the hawkish shift is modest."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Following a moderation in the pace of the recovery, indicators of economic activity and employment have turned up recently, although the sectors most adversely affected by the pandemic remain weak.",
+     "start": 308,
+     "end": 504
+    },
+    {
+     "quote": "Inflation continues to run below 2 percent.",
+     "start": 506,
+     "end": 548
+    },
+    {
+     "quote": "The ongoing public health crisis continues to weigh on economic activity, employment, and inflation, and poses considerable risks to the economic outlook.",
+     "start": 832,
+     "end": 985
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Amid progress on vaccinations and strong policy support, indicators of economic activity and employment have strengthened. The sectors most adversely affected by the pandemic remain weak but have shown improvement.",
+     "start": 308,
+     "end": 521
+    },
+    {
+     "quote": "Inflation has risen, largely reflecting transitory factors.",
+     "start": 523,
+     "end": 581
+    },
+    {
+     "quote": "The ongoing public health crisis continues to weigh on the economy, and risks to the economic outlook remain.",
+     "start": 865,
+     "end": 973
+    }
+   ]
+  }
+ }
+}

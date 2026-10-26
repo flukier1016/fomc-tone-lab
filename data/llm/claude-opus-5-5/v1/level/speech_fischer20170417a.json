@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20170417a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170417a",
+  "doc_type": "speech",
+  "text_sha256": "cdf98251dc70962d608a8ba8f1a1fd39eb2fcf4582c1d65991cc8a5a9cf59b00"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "eef97c2503c924d77e70803c2bac0c506c9365bf6e010b3d8a2857c033fc432e",
+ "message_id": "msg_011CgFug9N58tHBsJGBJdPdp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5553,
+  "output_tokens": 451,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the FOMC is now discussing a different inflection point, the phasing out of reinvestment and the shrinking of the balance sheet.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"most participants anticipated that gradual increases in the federal funds rate would continue and judged that a change to the Committee's reinvestment policy would likely be appropriate later this year.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"as we continue to discuss and eventually implement policies to reduce our balance sheet, we will have to continue to monitor market developments and expectations carefully.\"},{\"dimension\":\"overall\",\"quote\":\"A concern for surprising the market should not be a constraint on following or communicating the appropriate path of monetary policy.\"}],\"rationale\":\"The speech is mainly about communication and market expectations. Its policy content is a mild hawkish lean: it cites the minutes' expectation of continued gradual rate increases and discusses eventually shrinking the balance sheet, with little view on inflation or activity.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the FOMC is now discussing a different inflection point, the phasing out of reinvestment and the shrinking of the balance sheet."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "most participants anticipated that gradual increases in the federal funds rate would continue and judged that a change to the Committee's reinvestment policy would likely be appropriate later this year."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "as we continue to discuss and eventually implement policies to reduce our balance sheet, we will have to continue to monitor market developments and expectations carefully."
+   },
+   {
+    "dimension": "overall",
+    "quote": "A concern for surprising the market should not be a constraint on following or communicating the appropriate path of monetary policy."
+   }
+  ],
+  "rationale": "The speech is mainly about communication and market expectations. Its policy content is a mild hawkish lean: it cites the minutes' expectation of continued gradual rate increases and discusses eventually shrinking the balance sheet, with little view on inflation or activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the FOMC is now discussing a different inflection point, the phasing out of reinvestment and the shrinking of the balance sheet.",
+     "start": 7276,
+     "end": 7403
+    },
+    {
+     "quote": "most participants anticipated that gradual increases in the federal funds rate would continue and judged that a change to the Committee's reinvestment policy would likely be appropriate later this year.",
+     "start": 14536,
+     "end": 14737
+    },
+    {
+     "quote": "as we continue to discuss and eventually implement policies to reduce our balance sheet, we will have to continue to monitor market developments and expectations carefully.",
+     "start": 16026,
+     "end": 16197
+    },
+    {
+     "quote": "A concern for surprising the market should not be a constraint on following or communicating the appropriate path of monetary policy.",
+     "start": 720,
+     "end": 852
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

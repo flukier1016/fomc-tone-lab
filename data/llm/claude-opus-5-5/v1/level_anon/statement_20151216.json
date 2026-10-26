@@ -1,0 +1,122 @@
+{
+ "key": "statement_20151216",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20151216",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "3637a728b7330fd4450fdfb3f1de6d952e098f0b0dd05dc55e100ac664085e0c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "72d359c41ab5afae37db03949679210f338812444ed809255b1bc616de81bc34",
+ "message_id": "msg_011CgFudtvc3PwwXXLKGM41z",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1182,
+  "output_tokens": 525,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to [RANGE] percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In light of the current shortfall of inflation from 2 percent, the Committee will carefully monitor actual and expected progress toward its inflation goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"confirms that underutilization of labor resources has diminished appreciably since early this year\"},{\"dimension\":\"risk_balance\",\"quote\":\"the Committee sees the risks to the outlook for both economic activity and the labor market as balanced\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it anticipates doing so until normalization of the level of the federal funds rate is well under way\"}],\"rationale\":\"The statement announces a rate increase on the strength of labor market improvement and confidence that inflation will return to 2 percent, a clear hawkish action. That is tempered by guidance for only gradual increases, concern about below-target inflation, and continued full reinvestment of maturing securities.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to [RANGE] percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In light of the current shortfall of inflation from 2 percent, the Committee will carefully monitor actual and expected progress toward its inflation goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "confirms that underutilization of labor resources has diminished appreciably since early this year"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the Committee sees the risks to the outlook for both economic activity and the labor market as balanced"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way"
+   }
+  ],
+  "rationale": "The statement announces a rate increase on the strength of labor market improvement and confidence that inflation will return to 2 percent, a clear hawkish action. That is tempered by guidance for only gradual increases, concern about below-target inflation, and continued full reinvestment of maturing securities."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to [RANGE] percent",
+     "start": 1947,
+     "end": 2040
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate",
+     "start": 2857,
+     "end": 2994
+    },
+    {
+     "quote": "In light of the current shortfall of inflation from 2 percent, the Committee will carefully monitor actual and expected progress toward its inflation goal.",
+     "start": 2701,
+     "end": 2855
+    },
+    {
+     "quote": "confirms that underutilization of labor resources has diminished appreciably since early this year",
+     "start": 461,
+     "end": 559
+    },
+    {
+     "quote": "the Committee sees the risks to the outlook for both economic activity and the labor market as balanced",
+     "start": 1264,
+     "end": 1367
+    },
+    {
+     "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way",
+     "start": 3490,
+     "end": 3590
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

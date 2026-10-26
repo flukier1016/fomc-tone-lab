@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20090615a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20090615a",
+  "doc_type": "speech",
+  "text_sha256": "e189f1db08a35d3621556a1c9a53e86dd0fac5808c0c980846ff5c48559128d1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6271ca8e2003d46f275f839431d89fb7014cbac2b3b34c9ef4502579de2249d7",
+ "message_id": "msg_011CgFugDvfTS2WwuAMpUG3C",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5434,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"There is a growing, though certainly not unanimous, view that supervision and regulation must be substantially more oriented toward containing systemic risk\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The financial crisis did not originate in smaller banks, but they have hardly escaped the fallout from the crisis itself, and from the serious recession that has followed.\"},{\"dimension\":\"overall\",\"quote\":\"In this difficult operating environment, Federal Reserve examiners are encouraging community banks to focus on maintaining sound loan quality and strong credit administration practices.\"}],\"rationale\":\"The speech is about bank supervision, systemic risk regulation and community banking, and takes no position on monetary policy. Its only macro content is a passing reference to a serious recession and weak bank asset quality, a mild dovish note that does not change the neutral overall stance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "There is a growing, though certainly not unanimous, view that supervision and regulation must be substantially more oriented toward containing systemic risk"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The financial crisis did not originate in smaller banks, but they have hardly escaped the fallout from the crisis itself, and from the serious recession that has followed."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In this difficult operating environment, Federal Reserve examiners are encouraging community banks to focus on maintaining sound loan quality and strong credit administration practices."
+   }
+  ],
+  "rationale": "The speech is about bank supervision, systemic risk regulation and community banking, and takes no position on monetary policy. Its only macro content is a passing reference to a serious recession and weak bank asset quality, a mild dovish note that does not change the neutral overall stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "There is a growing, though certainly not unanimous, view that supervision and regulation must be substantially more oriented toward containing systemic risk",
+     "start": 338,
+     "end": 494
+    },
+    {
+     "quote": "The financial crisis did not originate in smaller banks, but they have hardly escaped the fallout from the crisis itself, and from the serious recession that has followed.",
+     "start": 8178,
+     "end": 8348
+    },
+    {
+     "quote": "In this difficult operating environment, Federal Reserve examiners are encouraging community banks to focus on maintaining sound loan quality and strong credit administration practices.",
+     "start": 15870,
+     "end": 16054
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

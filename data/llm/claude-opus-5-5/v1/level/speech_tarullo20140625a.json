@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20140625a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20140625a",
+  "doc_type": "speech",
+  "text_sha256": "c7ca96a78c9d88976fc73120bdbbd3708735d744f266699eda61975d4b708e8b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e8c1c9afe30b71a45a7610a71e6874cafd5d21590f264c26fa13512e069eb284",
+ "message_id": "msg_011CgFug8wGq3egreFjYDKui",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7477,
+  "output_tokens": 379,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This morning I will give a retrospective on the first five years of supervisory stress testing, highlighting some of the accomplishments and identifying some areas in which we may consider changes in the future.\"},{\"dimension\":\"overall\",\"quote\":\"The firms participating in CCAR have more than doubled their tier 1 common capital since 2009, an increase of $500 billion of additional, high-quality capital in the U.S. financial system.\"},{\"dimension\":\"overall\",\"quote\":\"In devising recession scenarios, we draw on many of the same macroeconomic modeling tools used in making monetary policy.\"}],\"rationale\":\"The speech addresses supervisory stress testing and CCAR capital planning, not monetary policy, inflation, or the economic outlook. It carries no monetary policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This morning I will give a retrospective on the first five years of supervisory stress testing, highlighting some of the accomplishments and identifying some areas in which we may consider changes in the future."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The firms participating in CCAR have more than doubled their tier 1 common capital since 2009, an increase of $500 billion of additional, high-quality capital in the U.S. financial system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In devising recession scenarios, we draw on many of the same macroeconomic modeling tools used in making monetary policy."
+   }
+  ],
+  "rationale": "The speech addresses supervisory stress testing and CCAR capital planning, not monetary policy, inflation, or the economic outlook. It carries no monetary policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This morning I will give a retrospective on the first five years of supervisory stress testing, highlighting some of the accomplishments and identifying some areas in which we may consider changes in the future.",
+     "start": 1605,
+     "end": 1815
+    },
+    {
+     "quote": "The firms participating in CCAR have more than doubled their tier 1 common capital since 2009, an increase of $500 billion of additional, high-quality capital in the U.S. financial system.",
+     "start": 9567,
+     "end": 9754
+    },
+    {
+     "quote": "In devising recession scenarios, we draw on many of the same macroeconomic modeling tools used in making monetary policy.",
+     "start": 5842,
+     "end": 5962
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

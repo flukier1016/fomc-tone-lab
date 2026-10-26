@@ -1,0 +1,52 @@
+{
+ "key": "statement_20201105",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20201105",
+  "release_date": "2020-11-05"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5fa6f19a7f5e6737c06e334dc32c516e26dcefff74eade9ff779fcca3cf65c4f",
+ "message_id": "msg_011CgFue5a4pBMG7YNu6XDvm",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1343,
+  "output_tokens": 437,
+  "output_tokens_details": {
+   "thinking_tokens": 213
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":11,\"confidence\":0.8,\"cues\":[\"Flexible average inflation targeting language adopted in September 2020\",\"Rate guidance tied to maximum employment and inflation moderately exceeding 2 percent, first used in September 2020\",\"'Continued to recover but remain well below their levels at the beginning of the year' points to late 2020\",\"Asset purchase language is 'at least at the current pace' without the December 2020 'substantial further progress' guidance\",\"Unanimous vote with no dissents, unlike September 2020 (Kaplan and Kashkari dissented)\",\"Patrick Harker is listed as a voter, consistent with the 2020 rotation\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 11,
+  "confidence": 0.8,
+  "cues": [
+   "Flexible average inflation targeting language adopted in September 2020",
+   "Rate guidance tied to maximum employment and inflation moderately exceeding 2 percent, first used in September 2020",
+   "'Continued to recover but remain well below their levels at the beginning of the year' points to late 2020",
+   "Asset purchase language is 'at least at the current pace' without the December 2020 'substantial further progress' guidance",
+   "Unanimous vote with no dissents, unlike September 2020 (Kaplan and Kashkari dissented)",
+   "Patrick Harker is listed as a voter, consistent with the 2020 rotation"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

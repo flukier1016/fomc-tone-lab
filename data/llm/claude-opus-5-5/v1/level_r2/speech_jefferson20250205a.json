@@ -1,0 +1,103 @@
+{
+ "key": "speech_jefferson20250205a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250205a",
+  "doc_type": "speech",
+  "text_sha256": "0cf4521ff8bf23f081d722eb6e69df6428fa0066b7dd2e70e1acd52d8fc0da87"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fc807af8fd6749ef87775e4c14a303f98f21e49a4fc57ca7fc1082f4d6bb6150",
+ "message_id": "msg_011CgG28AEao8M131zHNj6uY",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5654,
+  "output_tokens": 414,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Currently, the labor market remains solid, on balance, and inflation continues a bumpy descent toward the FOMC's 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Various indicators pointed to a labor market that was still tight, but no longer overheating.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the benefits of strong labor markets are eroded when accompanied by an unwelcome rise in inflation.\"},{\"dimension\":\"overall\",\"quote\":\"the intent of monetary policy actions over the past few years has been to return us to a prolonged period where prices are stable and the labor market remains solid.\"}],\"rationale\":\"The speech is a largely historical review of labor-market gains during long non-inflationary expansions. It describes a balanced current economy with a solid labor market and bumpy disinflation, and offers no forward policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Currently, the labor market remains solid, on balance, and inflation continues a bumpy descent toward the FOMC's 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Various indicators pointed to a labor market that was still tight, but no longer overheating."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the benefits of strong labor markets are eroded when accompanied by an unwelcome rise in inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the intent of monetary policy actions over the past few years has been to return us to a prolonged period where prices are stable and the labor market remains solid."
+   }
+  ],
+  "rationale": "The speech is a largely historical review of labor-market gains during long non-inflationary expansions. It describes a balanced current economy with a solid labor market and bumpy disinflation, and offers no forward policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Currently, the labor market remains solid, on balance, and inflation continues a bumpy descent toward the FOMC's 2 percent objective.",
+     "start": 12576,
+     "end": 12708
+    },
+    {
+     "quote": "Various indicators pointed to a labor market that was still tight, but no longer overheating.",
+     "start": 12481,
+     "end": 12573
+    },
+    {
+     "quote": "the benefits of strong labor markets are eroded when accompanied by an unwelcome rise in inflation.",
+     "start": 11967,
+     "end": 12065
+    },
+    {
+     "quote": "the intent of monetary policy actions over the past few years has been to return us to a prolonged period where prices are stable and the labor market remains solid.",
+     "start": 17562,
+     "end": 17726
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20130325a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20130325a",
+  "doc_type": "speech",
+  "text_sha256": "3bd0cbac47bc517c9f377ffad9fe8ae6e5a6cf23ad787e0bd479f5c207db55d6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c401929bd31dbc7e5b7e92f1c6bf53669435e4f5526cc247fca77a10f420d879",
+ "message_id": "msg_011CgFug9wYxEL8KAxkDTo4C",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4081,
+  "output_tokens": 446,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"With inflation generally contained, central banks in these countries are providing accommodative monetary policies to support growth.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Today most advanced industrial economies remain, to varying extents, in the grip of slow recoveries from the Great Recession.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In sum, the advanced industrial economies are currently pursuing appropriately expansionary policies to help support recovery and price stability in their own countries.\"},{\"dimension\":\"overall\",\"quote\":\"these policies are not \\\"beggar-thy-neighbor\\\" but rather are positive-sum, \\\"enrich-thy-neighbor\\\" actions.\"}],\"rationale\":\"The speech defends accommodative monetary policy as appropriate given slow recoveries and contained inflation, implying continued easing, though it gives no explicit guidance on the policy path. It focuses mainly on international spillovers rather than on the domestic outlook.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With inflation generally contained, central banks in these countries are providing accommodative monetary policies to support growth."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Today most advanced industrial economies remain, to varying extents, in the grip of slow recoveries from the Great Recession."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In sum, the advanced industrial economies are currently pursuing appropriately expansionary policies to help support recovery and price stability in their own countries."
+   },
+   {
+    "dimension": "overall",
+    "quote": "these policies are not \"beggar-thy-neighbor\" but rather are positive-sum, \"enrich-thy-neighbor\" actions."
+   }
+  ],
+  "rationale": "The speech defends accommodative monetary policy as appropriate given slow recoveries and contained inflation, implying continued easing, though it gives no explicit guidance on the policy path. It focuses mainly on international spillovers rather than on the domestic outlook."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With inflation generally contained, central banks in these countries are providing accommodative monetary policies to support growth.",
+     "start": 7698,
+     "end": 7830
+    },
+    {
+     "quote": "Today most advanced industrial economies remain, to varying extents, in the grip of slow recoveries from the Great Recession.",
+     "start": 7572,
+     "end": 7696
+    },
+    {
+     "quote": "In sum, the advanced industrial economies are currently pursuing appropriately expansionary policies to help support recovery and price stability in their own countries.",
+     "start": 12944,
+     "end": 13112
+    },
+    {
+     "quote": "these policies are not \"beggar-thy-neighbor\" but rather are positive-sum, \"enrich-thy-neighbor\" actions.",
+     "start": 8440,
+     "end": 8543
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

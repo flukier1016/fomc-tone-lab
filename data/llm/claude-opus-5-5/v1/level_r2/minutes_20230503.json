@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230503",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230503",
+  "doc_type": "minutes",
+  "text_sha256": "94e856864f291b5a514a893f844b346dad93076b03025fb763178953e2596ca4"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4222a70d8d529fac4b6e5ca17569938d43c01e17fe57b5bb71cec1e92b1fde42",
+ "message_id": "msg_011CgG27p96jfHRwS7Q5E8C7",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 14232,
+  "output_tokens": 527,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the extent to which additional increases in the target range may be appropriate after this meeting had become less certain\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants agreed that inflation was unacceptably high.\"},{\"dimension\":\"risk_balance\",\"quote\":\"almost all participants commented that downside risks to growth and upside risks to unemployment had increased\"},{\"dimension\":\"risk_balance\",\"quote\":\"upside risks to the inflation outlook remained a key factor shaping the policy outlook\"},{\"dimension\":\"overall\",\"quote\":\"the language in the postmeeting statement should not be interpreted as signaling either that decreases in the target range are likely this year or that further increases in the target range had been ruled out.\"}],\"rationale\":\"The minutes signal a likely pause, with further hikes less certain and a mild recession forecast, but they pair this with forceful concern that inflation is unacceptably high, upside inflation risks, and an explicit warning against expecting cuts. On balance the net signal is close to neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the extent to which additional increases in the target range may be appropriate after this meeting had become less certain"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants agreed that inflation was unacceptably high."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "almost all participants commented that downside risks to growth and upside risks to unemployment had increased"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "upside risks to the inflation outlook remained a key factor shaping the policy outlook"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the language in the postmeeting statement should not be interpreted as signaling either that decreases in the target range are likely this year or that further increases in the target range had been ruled out."
+   }
+  ],
+  "rationale": "The minutes signal a likely pause, with further hikes less certain and a mild recession forecast, but they pair this with forceful concern that inflation is unacceptably high, upside inflation risks, and an explicit warning against expecting cuts. On balance the net signal is close to neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the extent to which additional increases in the target range may be appropriate after this meeting had become less certain",
+     "start": 37192,
+     "end": 37314
+    },
+    {
+     "quote": "Several participants noted that if the economy evolved along the lines of their current outlooks, then further policy firming after this meeting may not be necessary.",
+     "start": 39705,
+     "end": 39870
+    },
+    {
+     "quote": "Participants agreed that inflation was unacceptably high.",
+     "start": 30614,
+     "end": 30670
+    },
+    {
+     "quote": "almost all participants commented that downside risks to growth and upside risks to unemployment had increased",
+     "start": 38558,
+     "end": 38668
+    },
+    {
+     "quote": "upside risks to the inflation outlook remained a key factor shaping the policy outlook",
+     "start": 38954,
+     "end": 39040
+    },
+    {
+     "quote": "the language in the postmeeting statement should not be interpreted as signaling either that decreases in the target range are likely this year or that further increases in the target range had been ruled out.",
+     "start": 40948,
+     "end": 41156
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20100924a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20100924a",
+  "doc_type": "speech",
+  "text_sha256": "0a50629b8e693a48602df4aaa21c5c057278532190adbc0cc1781380781f7244"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "863431a366fa3578847f575ebb5d940e796e9bd9d142ec66d8ba31e5c7b1dbd9",
+ "message_id": "msg_011CgFugExBB1RYioTuanupy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9660,
+  "output_tokens": 377,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"a concerted policy effort has so far not produced an economic recovery of sufficient vigor to significantly reduce the high level of unemployment.\"},{\"dimension\":\"overall\",\"quote\":\"I would argue that the recent financial crisis was more a failure of economic engineering and economic management than of what I have called economic science.\"},{\"dimension\":\"overall\",\"quote\":\"recent work on monetary policy helped the Federal Reserve provide further policy accommodation despite the constraints imposed by the zero lower bound on interest rates.\"}],\"rationale\":\"The speech is about the state of economics as a discipline and lessons from the financial crisis, not about current policy. Its only outlook remark is a brief note that the recovery is too weak to cut high unemployment, a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "a concerted policy effort has so far not produced an economic recovery of sufficient vigor to significantly reduce the high level of unemployment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I would argue that the recent financial crisis was more a failure of economic engineering and economic management than of what I have called economic science."
+   },
+   {
+    "dimension": "overall",
+    "quote": "recent work on monetary policy helped the Federal Reserve provide further policy accommodation despite the constraints imposed by the zero lower bound on interest rates."
+   }
+  ],
+  "rationale": "The speech is about the state of economics as a discipline and lessons from the financial crisis, not about current policy. Its only outlook remark is a brief note that the recovery is too weak to cut high unemployment, a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "a concerted policy effort has so far not produced an economic recovery of sufficient vigor to significantly reduce the high level of unemployment.",
+     "start": 2514,
+     "end": 2659
+    },
+    {
+     "quote": "I would argue that the recent financial crisis was more a failure of economic engineering and economic management than of what I have called economic science.",
+     "start": 5397,
+     "end": 5554
+    },
+    {
+     "quote": "recent work on monetary policy helped the Federal Reserve provide further policy accommodation despite the constraints imposed by the zero lower bound on interest rates.",
+     "start": 21584,
+     "end": 21752
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

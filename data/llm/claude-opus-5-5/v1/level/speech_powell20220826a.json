@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20220826a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20220826a",
+  "doc_type": "speech",
+  "text_sha256": "5e7802b6b33d39f4682e501ba5f744d66228ca06efb19526bca31468234db77d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f323d5b2e1dc095ba3d3adb47550fc32660212f928ce329a79ef3f201e149809",
+ "message_id": "msg_011CgFugBsdjFzovbyXB7xi8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2355,
+  "output_tokens": 550,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":2,\"stance_score\":0.95,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"estimates of longer-run neutral are not a place to stop or pause.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"a single month's improvement falls far short of what the Committee will need to see before we are confident that inflation is moving down.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market is particularly strong, but it is clearly out of balance, with demand for workers substantially exceeding the supply of available workers.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The longer the current bout of high inflation continues, the greater the chance that expectations of higher inflation will become entrenched.\"},{\"dimension\":\"overall\",\"quote\":\"We are taking forceful and rapid steps to moderate demand so that it comes into better alignment with supply, and to keep inflation expectations anchored.\"}],\"rationale\":\"The speech forcefully commits to further tightening beyond neutral, warns against premature loosening, and accepts labor market pain to restore price stability. Inflation concerns and entrenchment risks dominate, with only a mild nod to eventually slowing the pace of hikes.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 2,
+  "stance_score": 0.95,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "estimates of longer-run neutral are not a place to stop or pause."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "a single month's improvement falls far short of what the Committee will need to see before we are confident that inflation is moving down."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market is particularly strong, but it is clearly out of balance, with demand for workers substantially exceeding the supply of available workers."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The longer the current bout of high inflation continues, the greater the chance that expectations of higher inflation will become entrenched."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are taking forceful and rapid steps to moderate demand so that it comes into better alignment with supply, and to keep inflation expectations anchored."
+   }
+  ],
+  "rationale": "The speech forcefully commits to further tightening beyond neutral, warns against premature loosening, and accepts labor market pain to restore price stability. Inflation concerns and entrenchment risks dominate, with only a mild nod to eventually slowing the pace of hikes."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "estimates of longer-run neutral are not a place to stop or pause.",
+     "start": 2613,
+     "end": 2677
+    },
+    {
+     "quote": "Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy.",
+     "start": 3175,
+     "end": 3352
+    },
+    {
+     "quote": "a single month's improvement falls far short of what the Committee will need to see before we are confident that inflation is moving down.",
+     "start": 1970,
+     "end": 2107
+    },
+    {
+     "quote": "The labor market is particularly strong, but it is clearly out of balance, with demand for workers substantially exceeding the supply of available workers.",
+     "start": 1650,
+     "end": 1804
+    },
+    {
+     "quote": "The longer the current bout of high inflation continues, the greater the chance that expectations of higher inflation will become entrenched.",
+     "start": 6907,
+     "end": 7047
+    },
+    {
+     "quote": "We are taking forceful and rapid steps to moderate demand so that it comes into better alignment with supply, and to keep inflation expectations anchored.",
+     "start": 7814,
+     "end": 7967
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

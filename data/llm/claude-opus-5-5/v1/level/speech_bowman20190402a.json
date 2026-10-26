@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20190402a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20190402a",
+  "doc_type": "speech",
+  "text_sha256": "1e5c4d93cd34b5eff87665c73c25b0d79c46cbe8e3cc635a3a850dfbdff774fb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "37cd7567f18ec1ab0f59fb774585576bbc1a06c8b39f5986c546faa862c73e6d",
+ "message_id": "msg_011CgFugFnn52cX6jNWqYLvM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3891,
+  "output_tokens": 366,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We welcome the strong lending growth that many community banks are experiencing, which is fueling job creation and sustaining our economic expansion, which in July will become the longest in U.S. history.\"},{\"dimension\":\"overall\",\"quote\":\"Now, let me turn back to my main theme today, which is fostering better communication between CSBS and state banking commissioners and the Board of Governors.\"},{\"dimension\":\"overall\",\"quote\":\"Since the financial crisis, the health of the community-banking sector has improved significantly.\"}],\"rationale\":\"The speech is about community bank supervision and coordination with state regulators, with only a passing positive remark on the economic expansion. It offers no view on rates, inflation, or the balance sheet, so the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We welcome the strong lending growth that many community banks are experiencing, which is fueling job creation and sustaining our economic expansion, which in July will become the longest in U.S. history."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Now, let me turn back to my main theme today, which is fostering better communication between CSBS and state banking commissioners and the Board of Governors."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Since the financial crisis, the health of the community-banking sector has improved significantly."
+   }
+  ],
+  "rationale": "The speech is about community bank supervision and coordination with state regulators, with only a passing positive remark on the economic expansion. It offers no view on rates, inflation, or the balance sheet, so the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We welcome the strong lending growth that many community banks are experiencing, which is fueling job creation and sustaining our economic expansion, which in July will become the longest in U.S. history.",
+     "start": 7276,
+     "end": 7479
+    },
+    {
+     "quote": "Now, let me turn back to my main theme today, which is fostering better communication between CSBS and state banking commissioners and the Board of Governors.",
+     "start": 7673,
+     "end": 7830
+    },
+    {
+     "quote": "Since the financial crisis, the health of the community-banking sector has improved significantly.",
+     "start": 6204,
+     "end": 6301
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

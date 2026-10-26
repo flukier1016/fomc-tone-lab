@@ -1,0 +1,121 @@
+{
+ "key": "speech_fischer20160201a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160201a",
+  "doc_type": "speech",
+  "text_sha256": "2261ee65e72be0d015c59b796263d929d7da5c83e8f76c93ab72622d2712fc13"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2fa721f81010a35a08b35fdd078911b03ac2d2045fb2b057c39bad41e8176798",
+ "message_id": "msg_011CgFugFnY2YhXA3dCYwUnw",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2539,
+  "output_tokens": 539,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation would likely remain low for somewhat longer than had been previously expected before moving back to 2 percent\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"more slack may remain in labor market than the unemployment rate alone would suggest\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I think there is some benefit to maintaining a larger balance sheet for a time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If these developments lead to a persistent tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons.\"}],\"rationale\":\"The speaker stresses only gradual rate increases, inflation running below target for longer, remaining labor slack, tolerance of an unemployment overshoot, and keeping a large balance sheet to guard against downside risks. Some balance comes from concern that a large overshoot could push inflation up, but the net lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation would likely remain low for somewhat longer than had been previously expected before moving back to 2 percent"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "more slack may remain in labor market than the unemployment rate alone would suggest"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I think there is some benefit to maintaining a larger balance sheet for a time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If these developments lead to a persistent tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons."
+   }
+  ],
+  "rationale": "The speaker stresses only gradual rate increases, inflation running below target for longer, remaining labor slack, tolerance of an unemployment overshoot, and keeping a large balance sheet to guard against downside risks. Some balance comes from concern that a large overshoot could push inflation up, but the net lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate",
+     "start": 1809,
+     "end": 1919
+    },
+    {
+     "quote": "inflation would likely remain low for somewhat longer than had been previously expected before moving back to 2 percent",
+     "start": 3190,
+     "end": 3309
+    },
+    {
+     "quote": "more slack may remain in labor market than the unemployment rate alone would suggest",
+     "start": 5727,
+     "end": 5811
+    },
+    {
+     "quote": "I think there is some benefit to maintaining a larger balance sheet for a time.",
+     "start": 7883,
+     "end": 7961
+    },
+    {
+     "quote": "If these developments lead to a persistent tightening of financial conditions, they could signal a slowing in the global economy that could affect growth and inflation in the United States.",
+     "start": 3695,
+     "end": 3883
+    },
+    {
+     "quote": "In my view, a modest overshoot of this sort would be appropriate in current circumstances for two reasons.",
+     "start": 5391,
+     "end": 5496
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

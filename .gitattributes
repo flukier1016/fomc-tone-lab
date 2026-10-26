@@ -1,0 +1,8 @@
+# internal agent notes stay out of the code archive handed in (git archive)
+AGENTS.md export-ignore
+docs/HANDOFF_CODEX.md export-ignore
+docs/HANDOFF_CLAUDE_CODE.md export-ignore
+# The submitted story is integrated; previous standalone technical exports are retained only as history.
+docs/slides/FOMC-Tone-Lab-technical*.pptx export-ignore
+docs/slides/outline-technical.md export-ignore
+docs/slides/contact-sheet-technical.jpg export-ignore

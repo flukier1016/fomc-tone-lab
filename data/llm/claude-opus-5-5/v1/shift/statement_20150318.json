@@ -1,0 +1,154 @@
+{
+ "key": "statement_20150318",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20150318",
+  "previous_doc_id": "statement_20150128",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "30b3402f9720dba54bedfd275f71cd27b087140b62b25d23ddeabc44e3e3c8b5",
+ "message_id": "msg_011CgFudURiHMBrZtu2sisT4",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2398,
+  "output_tokens": 917,
+  "output_tokens_details": {
+   "thinking_tokens": 215
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.\",\"after\":\"Consistent with its previous statement, the Committee judges that an increase in the target range for the federal funds rate remains unlikely at the April FOMC meeting.\",\"direction\":\"hawkish\"},{\"before\":\"However, if incoming information indicates faster progress toward the Committee’s employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.\",\"after\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective over the medium term. This change in the forward guidance does not indicate that the Committee has decided on the timing of the initial increase in the target range.\",\"direction\":\"hawkish\"},{\"before\":\"suggests that economic activity has been expanding at a solid pace\",\"after\":\"suggests that economic growth has moderated somewhat\",\"direction\":\"dovish\"},{\"before\":\"while the recovery in the housing sector remains slow.\",\"after\":\"while the recovery in the housing sector remains slow and export growth has weakened.\",\"direction\":\"dovish\"},{\"before\":\"Market-based measures of inflation compensation have declined substantially in recent months\",\"after\":\"Market-based measures of inflation compensation remain low\",\"direction\":\"neutral\"},{\"before\":\"Inflation is anticipated to decline further in the near term\",\"after\":\"Inflation is anticipated to remain near its recent low level in the near term\",\"direction\":\"neutral\"}],\"rationale\":\"Dropping the 'patient' language and replacing it with conditional guidance that rules out only April opens the door to a liftoff as soon as the following meeting, a hawkish shift in forward guidance. This is partly offset by a softer read on growth and exports and by the explicit caveat that no timing decision has been made.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.",
+    "after": "Consistent with its previous statement, the Committee judges that an increase in the target range for the federal funds rate remains unlikely at the April FOMC meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "However, if incoming information indicates faster progress toward the Committee’s employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.",
+    "after": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective over the medium term. This change in the forward guidance does not indicate that the Committee has decided on the timing of the initial increase in the target range.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "suggests that economic activity has been expanding at a solid pace",
+    "after": "suggests that economic growth has moderated somewhat",
+    "direction": "dovish"
+   },
+   {
+    "before": "while the recovery in the housing sector remains slow.",
+    "after": "while the recovery in the housing sector remains slow and export growth has weakened.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation have declined substantially in recent months",
+    "after": "Market-based measures of inflation compensation remain low",
+    "direction": "neutral"
+   },
+   {
+    "before": "Inflation is anticipated to decline further in the near term",
+    "after": "Inflation is anticipated to remain near its recent low level in the near term",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Dropping the 'patient' language and replacing it with conditional guidance that rules out only April opens the door to a liftoff as soon as the following meeting, a hawkish shift in forward guidance. This is partly offset by a softer read on growth and exports and by the explicit caveat that no timing decision has been made."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.",
+     "start": 2308,
+     "end": 2440
+    },
+    {
+     "quote": "However, if incoming information indicates faster progress toward the Committee’s employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated. Conversely, if progress proves slower than expected, then increases in the target range are likely to occur later than currently anticipated.",
+     "start": 2442,
+     "end": 2849
+    },
+    {
+     "quote": "suggests that economic activity has been expanding at a solid pace",
+     "start": 77,
+     "end": 143
+    },
+    {
+     "quote": "while the recovery in the housing sector remains slow.",
+     "start": 520,
+     "end": 573
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined substantially in recent months",
+     "start": 696,
+     "end": 788
+    },
+    {
+     "quote": "Inflation is anticipated to decline further in the near term",
+     "start": 1335,
+     "end": 1395
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Consistent with its previous statement, the Committee judges that an increase in the target range for the federal funds rate remains unlikely at the April FOMC meeting.",
+     "start": 2290,
+     "end": 2457
+    },
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective over the medium term. This change in the forward guidance does not indicate that the Committee has decided on the timing of the initial increase in the target range.",
+     "start": 2459,
+     "end": 2872
+    },
+    {
+     "quote": "suggests that economic growth has moderated somewhat",
+     "start": 76,
+     "end": 128
+    },
+    {
+     "quote": "while the recovery in the housing sector remains slow and export growth has weakened.",
+     "start": 486,
+     "end": 570
+    },
+    {
+     "quote": "Market-based measures of inflation compensation remain low",
+     "start": 693,
+     "end": 751
+    },
+    {
+     "quote": "Inflation is anticipated to remain near its recent low level in the near term",
+     "start": 1298,
+     "end": 1375
+    }
+   ]
+  }
+ }
+}

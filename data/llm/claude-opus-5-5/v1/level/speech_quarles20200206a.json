@@ -1,0 +1,112 @@
+{
+ "key": "speech_quarles20200206a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20200206a",
+  "doc_type": "speech",
+  "text_sha256": "c8e6dbbf17dbe61f12eb05375caaede7cb633f9283d25d6e7f29af45f293e5c4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "37281509bc1d5e68dd0850265cea415705f67a114a3e1e77441093f891b95d58",
+ "message_id": "msg_011CgFugAscWprS1ys27oMBc",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6344,
+  "output_tokens": 531,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Policy is in a good place to support continued economic growth, strong labor market conditions, and inflation returning to target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market continues to perform remarkably well, providing a key pillar of support for the rest of the economy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In summary, I remain optimistic about the outlook, but I am also highly aware that some notable risks still threaten growth, both overseas and at home.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This deviation does not worry me that much, in part because I expect inflation to move back to target over the medium term\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Looking ahead, I judge that it is reasonable that we ask ourselves whether it may be possible to operate with a lower level of reserves and remain consistent with the ample framework.\"}],\"rationale\":\"The speaker views policy as appropriately on hold, with a strong labor market offset by downside growth risks (investment, coronavirus) and inflation seen returning to target. A lean toward operating with fewer reserves and shrinking the balance sheet after expansions is mildly hawkish on the balance sheet, leaving the net signal roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Policy is in a good place to support continued economic growth, strong labor market conditions, and inflation returning to target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market continues to perform remarkably well, providing a key pillar of support for the rest of the economy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In summary, I remain optimistic about the outlook, but I am also highly aware that some notable risks still threaten growth, both overseas and at home."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This deviation does not worry me that much, in part because I expect inflation to move back to target over the medium term"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Looking ahead, I judge that it is reasonable that we ask ourselves whether it may be possible to operate with a lower level of reserves and remain consistent with the ample framework."
+   }
+  ],
+  "rationale": "The speaker views policy as appropriately on hold, with a strong labor market offset by downside growth risks (investment, coronavirus) and inflation seen returning to target. A lean toward operating with fewer reserves and shrinking the balance sheet after expansions is mildly hawkish on the balance sheet, leaving the net signal roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Policy is in a good place to support continued economic growth, strong labor market conditions, and inflation returning to target.",
+     "start": 4892,
+     "end": 5021
+    },
+    {
+     "quote": "The labor market continues to perform remarkably well, providing a key pillar of support for the rest of the economy.",
+     "start": 1519,
+     "end": 1635
+    },
+    {
+     "quote": "In summary, I remain optimistic about the outlook, but I am also highly aware that some notable risks still threaten growth, both overseas and at home.",
+     "start": 4081,
+     "end": 4231
+    },
+    {
+     "quote": "This deviation does not worry me that much, in part because I expect inflation to move back to target over the medium term",
+     "start": 4455,
+     "end": 4577
+    },
+    {
+     "quote": "Looking ahead, I judge that it is reasonable that we ask ourselves whether it may be possible to operate with a lower level of reserves and remain consistent with the ample framework.",
+     "start": 11568,
+     "end": 11750
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

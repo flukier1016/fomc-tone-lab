@@ -1,0 +1,126 @@
+{
+ "key": "statement_20090128",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20090128",
+  "doc_type": "statement",
+  "text_sha256": "42582ccda3b24f9f8fef5385a9a2a66444607a27ab2365c89cc918d85b52e63d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6e127e23316560c0d4a5ff7f8b706794810d06b6bb0c5bcb8c7173d9bf506140",
+ "message_id": "msg_011CgFuS3G5MhAdya6A18S6w",
+ "request_id": "req_011CgFuS2es8XYLFrRqCAm36",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 983,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 2241
+    },
+    "cache_creation_input_tokens": 2241,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 983,
+    "model": null,
+    "output_tokens": 490,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:05:51+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Information received since the Committee met in December suggests that the economy has weakened further.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.\"}],\"rationale\":\"The Committee holds rates at the zero bound, describes a steeply weakening economy with significant downside risks and a risk of inflation running too low. It signals readiness to expand asset purchases, including longer-term Treasuries, making the statement strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Information received since the Committee met in December suggests that the economy has weakened further."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant."
+   }
+  ],
+  "rationale": "The Committee holds rates at the zero bound, describes a steeply weakening economy with significant downside risks and a risk of inflation running too low. It signals readiness to expand asset purchases, including longer-term Treasuries, making the statement strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for some time.",
+     "start": 121,
+     "end": 270
+    },
+    {
+     "quote": "Information received since the Committee met in December suggests that the economy has weakened further.",
+     "start": 273,
+     "end": 376
+    },
+    {
+     "quote": "the Committee sees some risk that inflation could persist for a time below rates that best foster economic growth and price stability in the longer term.",
+     "start": 1206,
+     "end": 1358
+    },
+    {
+     "quote": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+     "start": 814,
+     "end": 967
+    },
+    {
+     "quote": "it stands ready to expand the quantity of such purchases and the duration of the purchase program as conditions warrant.",
+     "start": 1920,
+     "end": 2039
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

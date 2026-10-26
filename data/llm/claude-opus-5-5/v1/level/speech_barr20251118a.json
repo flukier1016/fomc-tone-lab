@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20251118a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251118a",
+  "doc_type": "speech",
+  "text_sha256": "2aaa8cff8af7c929e576e761be2df7202e45f88e0b53cabdc0281110df7149bc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ab039ab0533fefaef789bd3ab7a2522a333f12930953b24e9e16a1d6692e4bf3",
+ "message_id": "msg_011CgFugPugakEDD72xTqLdK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5964,
+  "output_tokens": 411,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am pleased to be here today to discuss a core part of the Federal Reserve's mission: banking supervision.\"},{\"dimension\":\"overall\",\"quote\":\"There are growing pressures to weaken supervision—to scale back examiner coverage, to dilute ratings systems, and to redefine \\\"unsafe and unsound\\\"—in ways that will make it harder for examiners to act before it is too late to prevent a build-up of excessive risk.\"},{\"dimension\":\"overall\",\"quote\":\"The proposed changes would weaken capital requirements and erode incentives for strong independent risk management. Weaker stress tests mean worse supervision.\"}],\"rationale\":\"The speech is entirely about bank supervision and regulation, criticizing changes to ratings, stress tests, and staffing, with no discussion of monetary policy, inflation, or the economic outlook. Its monetary policy stance is therefore neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am pleased to be here today to discuss a core part of the Federal Reserve's mission: banking supervision."
+   },
+   {
+    "dimension": "overall",
+    "quote": "There are growing pressures to weaken supervision—to scale back examiner coverage, to dilute ratings systems, and to redefine \"unsafe and unsound\"—in ways that will make it harder for examiners to act before it is too late to prevent a build-up of excessive risk."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The proposed changes would weaken capital requirements and erode incentives for strong independent risk management. Weaker stress tests mean worse supervision."
+   }
+  ],
+  "rationale": "The speech is entirely about bank supervision and regulation, criticizing changes to ratings, stress tests, and staffing, with no discussion of monetary policy, inflation, or the economic outlook. Its monetary policy stance is therefore neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am pleased to be here today to discuss a core part of the Federal Reserve's mission: banking supervision.",
+     "start": 0,
+     "end": 106
+    },
+    {
+     "quote": "There are growing pressures to weaken supervision—to scale back examiner coverage, to dilute ratings systems, and to redefine \"unsafe and unsound\"—in ways that will make it harder for examiners to act before it is too late to prevent a build-up of excessive risk.",
+     "start": 1683,
+     "end": 1945
+    },
+    {
+     "quote": "The proposed changes would weaken capital requirements and erode incentives for strong independent risk management. Weaker stress tests mean worse supervision.",
+     "start": 14103,
+     "end": 14261
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

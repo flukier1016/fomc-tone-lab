@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20261006a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20261006a",
+  "doc_type": "speech",
+  "text_sha256": "95e4f06e5fee88f5c1af9e25c2c53c46dd3ff1cab7b34bf1ac35ecc9a28ce258"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9fd2eeddfcdc5c496ddab3a13269658a0d195aac2c3e410b05a74ee19e3541ff",
+ "message_id": "msg_011CgFugHVyGiEy2LssNZsPN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4978,
+  "output_tokens": 338,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I will discuss the work we have under way to modernize the bank regulatory and supervision framework.\"},{\"dimension\":\"overall\",\"quote\":\"Today, we begin to restructure the Federal Reserve's supervision function.\"},{\"dimension\":\"overall\",\"quote\":\"Later this year, the Board will consider updates to fixed-dollar asset thresholds in the Board's regulations to account for inflation and economic growth.\"}],\"rationale\":\"The speech addresses bank supervision, regulatory tailoring and the restructuring of the Fed's supervisory function. It takes no position on monetary policy, inflation, the labor market or the balance sheet, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I will discuss the work we have under way to modernize the bank regulatory and supervision framework."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, we begin to restructure the Federal Reserve's supervision function."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Later this year, the Board will consider updates to fixed-dollar asset thresholds in the Board's regulations to account for inflation and economic growth."
+   }
+  ],
+  "rationale": "The speech addresses bank supervision, regulatory tailoring and the restructuring of the Fed's supervisory function. It takes no position on monetary policy, inflation, the labor market or the balance sheet, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I will discuss the work we have under way to modernize the bank regulatory and supervision framework.",
+     "start": 309,
+     "end": 415
+    },
+    {
+     "quote": "Today, we begin to restructure the Federal Reserve's supervision function.",
+     "start": 14913,
+     "end": 14986
+    },
+    {
+     "quote": "Later this year, the Board will consider updates to fixed-dollar asset thresholds in the Board's regulations to account for inflation and economic growth.",
+     "start": 5726,
+     "end": 5879
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

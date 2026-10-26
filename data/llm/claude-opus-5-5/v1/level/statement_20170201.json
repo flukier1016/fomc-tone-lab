@@ -1,0 +1,121 @@
+{
+ "key": "statement_20170201",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20170201",
+  "doc_type": "statement",
+  "text_sha256": "05e58a68efeb770d54dd9791fb55ee01d91b55a60b8f7598c1c0a5832e1d91f2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0522f1645e28473a435712e714805358b9527254be95e5c97e585aaa9928cf75",
+ "message_id": "msg_011CgFugLczKVUNjr4HkfEEx",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1049,
+  "output_tokens": 524,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains remained solid and the unemployment rate stayed near its recent low.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The Committee holds rates steady, describes a strengthening labor market and improving sentiment, and continues to guide toward gradual increases. Below-target inflation, balanced risks and unchanged reinvestment keep the overall signal close to neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains remained solid and the unemployment rate stayed near its recent low."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The Committee holds rates steady, describes a strengthening labor market and improving sentiment, and continues to guide toward gradual increases. Below-target inflation, balanced risks and unchanged reinvestment keep the overall signal close to neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent",
+     "start": 1334,
+     "end": 1433
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant only gradual increases in the federal funds rate",
+     "start": 2237,
+     "end": 2374
+    },
+    {
+     "quote": "Job gains remained solid and the unemployment rate stayed near its recent low.",
+     "start": 208,
+     "end": 285
+    },
+    {
+     "quote": "Inflation increased in recent quarters but is still below the Committee's 2 percent longer-run objective.",
+     "start": 457,
+     "end": 561
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced.",
+     "start": 1084,
+     "end": 1147
+    },
+    {
+     "quote": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities",
+     "start": 2614,
+     "end": 2767
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

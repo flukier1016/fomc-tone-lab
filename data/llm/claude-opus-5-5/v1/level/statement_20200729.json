@@ -1,0 +1,121 @@
+{
+ "key": "statement_20200729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20200729",
+  "doc_type": "statement",
+  "text_sha256": "e350022fdc9c0367a88e182491d28a0765eb9a5024c3ac9779abdea61cb6e534"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b44313e097b0df4252ee69f54bfb75eb410eebb222ef3b3db1790c982b1f387c",
+ "message_id": "msg_011CgFugFbsb454f1tMnD7ti",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 890,
+  "output_tokens": 533,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year\"},{\"dimension\":\"risk_balance\",\"quote\":\"poses considerable risks to the economic outlook over the medium term\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace\"}],\"rationale\":\"The Committee holds rates at the zero lower bound, commits to keeping them there until the recovery is secure, and continues large-scale asset purchases. It also emphasizes downside risks and muted inflation, so the statement is strongly accommodative.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "poses considerable risks to the economic outlook over the medium term"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace"
+   }
+  ],
+  "rationale": "The Committee holds rates at the zero lower bound, commits to keeping them there until the recovery is secure, and continues large-scale asset purchases. It also emphasizes downside risks and muted inflation, so the statement is strongly accommodative."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent",
+     "start": 1049,
+     "end": 1146
+    },
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1148,
+     "end": 1342
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 476,
+     "end": 566
+    },
+    {
+     "quote": "economic activity and employment have picked up somewhat in recent months but remain well below their levels at the beginning of the year",
+     "start": 337,
+     "end": 474
+    },
+    {
+     "quote": "poses considerable risks to the economic outlook over the medium term",
+     "start": 946,
+     "end": 1015
+    },
+    {
+     "quote": "the Federal Reserve will increase its holdings of Treasury securities and agency residential and commercial mortgage-backed securities at least at the current pace",
+     "start": 2199,
+     "end": 2362
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

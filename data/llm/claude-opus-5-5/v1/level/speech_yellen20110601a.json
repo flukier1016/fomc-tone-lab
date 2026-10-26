@@ -1,0 +1,103 @@
+{
+ "key": "speech_yellen20110601a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20110601a",
+  "doc_type": "speech",
+  "text_sha256": "6dee080b226bfc0475d815916272b708814fae9d1e48de80843d7beb0c194bb0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b8a26f53a9c61484c2c0ba078d4614811b0c0ef5ab446dc68d12f9c99a14a426",
+ "message_id": "msg_011CgFugFoH44Jv7xMohJbtH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6698,
+  "output_tokens": 496,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that the current accommodative stance of U.S. monetary policy continues to be appropriate because the unemployment rate remains elevated and inflation is expected to remain subdued over the medium run.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"My reading of the evidence is that those securities purchases have proven effective in easing financial conditions, thereby promoting a stronger pace of economic recovery and checking undesirable disinflationary pressures.\"},{\"dimension\":\"risk_balance\",\"quote\":\"At present, we see few indications of significant imbalances, and the use of leverage appears to remain well below pre-crisis levels.\"},{\"dimension\":\"overall\",\"quote\":\"For these reasons, the use of monetary policy to address financial imbalances should generally remain a last resort.\"}],\"rationale\":\"The speech is mainly about financial stability monitoring, but it endorses continued accommodation given elevated unemployment and subdued inflation, and it views asset purchases favorably. It also says supervisory tools, not monetary policy, should address the reach-for-yield concerns it raises, so the net signal is a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that the current accommodative stance of U.S. monetary policy continues to be appropriate because the unemployment rate remains elevated and inflation is expected to remain subdued over the medium run."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "My reading of the evidence is that those securities purchases have proven effective in easing financial conditions, thereby promoting a stronger pace of economic recovery and checking undesirable disinflationary pressures."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At present, we see few indications of significant imbalances, and the use of leverage appears to remain well below pre-crisis levels."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For these reasons, the use of monetary policy to address financial imbalances should generally remain a last resort."
+   }
+  ],
+  "rationale": "The speech is mainly about financial stability monitoring, but it endorses continued accommodation given elevated unemployment and subdued inflation, and it views asset purchases favorably. It also says supervisory tools, not monetary policy, should address the reach-for-yield concerns it raises, so the net signal is a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that the current accommodative stance of U.S. monetary policy continues to be appropriate because the unemployment rate remains elevated and inflation is expected to remain subdued over the medium run.",
+     "start": 1271,
+     "end": 1481
+    },
+    {
+     "quote": "My reading of the evidence is that those securities purchases have proven effective in easing financial conditions, thereby promoting a stronger pace of economic recovery and checking undesirable disinflationary pressures.",
+     "start": 1038,
+     "end": 1259
+    },
+    {
+     "quote": "At present, we see few indications of significant imbalances, and the use of leverage appears to remain well below pre-crisis levels.",
+     "start": 22153,
+     "end": 22285
+    },
+    {
+     "quote": "For these reasons, the use of monetary policy to address financial imbalances should generally remain a last resort.",
+     "start": 21736,
+     "end": 21851
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

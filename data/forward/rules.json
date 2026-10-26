@@ -1,0 +1,59 @@
+{
+ "freeze": "2026-10-21",
+ "tilt": {
+  "method_prefix": "llm:",
+  "doc_types": [
+   "minutes",
+   "speech"
+  ],
+  "entry": "etf_entry_next",
+  "hold": 5,
+  "method": "llm:claude-opus-5-5:v1"
+ },
+ "rules": [
+  {
+   "doc_type": "minutes",
+   "method": "llm:claude-opus-5-5:v1",
+   "measure": "shift",
+   "beta_bp_per_sd": 0.927,
+   "t": 2.976,
+   "q": 0.0364,
+   "mean": 0.012411347517730497,
+   "sd": 0.3285333223134513,
+   "n": 140
+  },
+  {
+   "doc_type": "presser",
+   "method": "llm:claude-opus-5-5:v1",
+   "measure": "shift",
+   "beta_bp_per_sd": 3.8701,
+   "t": 3.903,
+   "q": 0.007,
+   "mean": 0.011170212765957439,
+   "sd": 0.3650861038018313,
+   "n": 94
+  },
+  {
+   "doc_type": "speech",
+   "method": "llm:claude-opus-5-5:v1",
+   "measure": "level",
+   "beta_bp_per_sd": 0.8465,
+   "t": 3.255,
+   "q": 0.0288,
+   "mean": -0.07767148014440435,
+   "sd": 0.46392791150071433,
+   "n": 554
+  },
+  {
+   "doc_type": "statement",
+   "method": "llmshift:claude-opus-5-5:v1",
+   "measure": "level",
+   "beta_bp_per_sd": 1.9599,
+   "t": 2.974,
+   "q": 0.0364,
+   "mean": 0.04929577464788732,
+   "sd": 1.1869710231379929,
+   "n": 142
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20171101",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20171101",
+  "doc_type": "minutes",
+  "text_sha256": "243e48bf4bc346a30adab44699011b5b9230e53fb35ce6e2126f46c2a04ab1de"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b94a36b23d7df331b1843b5e177fb4abf3953a1d3b753fafe12512303f5a511b",
+ "message_id": "msg_011CgFug9dCn32SXwAUsxUkZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13486,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"many participants thought that another increase in the target range for the federal funds rate was likely to be warranted in the near term if incoming information left the medium-term outlook broadly unchanged.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"many participants observed that there was some likelihood that inflation might remain below 2 percent for longer than they currently expected\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Many participants judged that the economy was operating at or above full employment and anticipated that the labor market would tighten somewhat further in the near term\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appeared to be roughly balanced, but participants agreed that it would be important to continue to monitor inflation developments closely.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Balance sheet normalization was expected to proceed gradually, following the plan described in the Addendum to the Policy Normalization Principles and Plans that the Committee released in June.\"}],\"rationale\":\"The minutes signal a likely near-term rate increase, supported by a strong labor market and ongoing balance sheet runoff. Substantial concern about persistently soft inflation and falling expectations tempers the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "many participants thought that another increase in the target range for the federal funds rate was likely to be warranted in the near term if incoming information left the medium-term outlook broadly unchanged."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "many participants observed that there was some likelihood that inflation might remain below 2 percent for longer than they currently expected"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Many participants judged that the economy was operating at or above full employment and anticipated that the labor market would tighten somewhat further in the near term"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appeared to be roughly balanced, but participants agreed that it would be important to continue to monitor inflation developments closely."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Balance sheet normalization was expected to proceed gradually, following the plan described in the Addendum to the Policy Normalization Principles and Plans that the Committee released in June."
+   }
+  ],
+  "rationale": "The minutes signal a likely near-term rate increase, supported by a strong labor market and ongoing balance sheet runoff. Substantial concern about persistently soft inflation and falling expectations tempers the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "many participants thought that another increase in the target range for the federal funds rate was likely to be warranted in the near term if incoming information left the medium-term outlook broadly unchanged.",
+     "start": 33707,
+     "end": 33916
+    },
+    {
+     "quote": "many participants observed that there was some likelihood that inflation might remain below 2 percent for longer than they currently expected",
+     "start": 27849,
+     "end": 27990
+    },
+    {
+     "quote": "Many participants judged that the economy was operating at or above full employment and anticipated that the labor market would tighten somewhat further in the near term",
+     "start": 25824,
+     "end": 25993
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appeared to be roughly balanced, but participants agreed that it would be important to continue to monitor inflation developments closely.",
+     "start": 22458,
+     "end": 22635
+    },
+    {
+     "quote": "Balance sheet normalization was expected to proceed gradually, following the plan described in the Addendum to the Policy Normalization Principles and Plans that the Committee released in June.",
+     "start": 39958,
+     "end": 40150
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

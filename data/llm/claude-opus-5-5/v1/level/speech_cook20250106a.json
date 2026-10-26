@@ -1,0 +1,112 @@
+{
+ "key": "speech_cook20250106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20250106a",
+  "doc_type": "speech",
+  "text_sha256": "0c97459f9fe4bcbba33a789dbc1c0f0fe0106b9c81127b1f947b3e8874408be2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bc575fe9a7627e8d751d9c156d94b7afd6426afa6e6f0e1829a443c663984045",
+ "message_id": "msg_011CgFugDiG7KeHhy3naiFCn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6677,
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.2,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Thus, I think we can afford to proceed more cautiously with further cuts.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Over time, I still think it will likely be appropriate to move the policy rate toward a more neutral stance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I continue to view the risks to achieving the two sides of the Federal Reserve's dual mandate of price stability and maximum employment as being roughly in balance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I continue to see inflation as gradually—if unevenly—returning over time to our goal of 2 percent in a sustainable manner.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"since September, the labor market has been somewhat more resilient, while inflation has been stickier than I assumed at that time.\"}],\"rationale\":\"The speaker still expects further cuts toward neutral but signals a slower, more cautious pace, citing a resilient labor market and stickier inflation, which is a modest hawkish shift relative to the easing path. Risks are described as balanced, and most of the speech is about financial stability.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.2,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Thus, I think we can afford to proceed more cautiously with further cuts."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Over time, I still think it will likely be appropriate to move the policy rate toward a more neutral stance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I continue to view the risks to achieving the two sides of the Federal Reserve's dual mandate of price stability and maximum employment as being roughly in balance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I continue to see inflation as gradually—if unevenly—returning over time to our goal of 2 percent in a sustainable manner."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "since September, the labor market has been somewhat more resilient, while inflation has been stickier than I assumed at that time."
+   }
+  ],
+  "rationale": "The speaker still expects further cuts toward neutral but signals a slower, more cautious pace, citing a resilient labor market and stickier inflation, which is a modest hawkish shift relative to the easing path. Risks are described as balanced, and most of the speech is about financial stability."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thus, I think we can afford to proceed more cautiously with further cuts.",
+     "start": 8368,
+     "end": 8440
+    },
+    {
+     "quote": "Over time, I still think it will likely be appropriate to move the policy rate toward a more neutral stance.",
+     "start": 7834,
+     "end": 7941
+    },
+    {
+     "quote": "I continue to view the risks to achieving the two sides of the Federal Reserve's dual mandate of price stability and maximum employment as being roughly in balance.",
+     "start": 7669,
+     "end": 7832
+    },
+    {
+     "quote": "I continue to see inflation as gradually—if unevenly—returning over time to our goal of 2 percent in a sustainable manner.",
+     "start": 5667,
+     "end": 5788
+    },
+    {
+     "quote": "since September, the labor market has been somewhat more resilient, while inflation has been stickier than I assumed at that time.",
+     "start": 8237,
+     "end": 8366
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

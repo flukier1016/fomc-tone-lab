@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20161115a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20161115a",
+  "doc_type": "speech",
+  "text_sha256": "4e26d1ef487f9f335904393d88aee5b61b1627885a040d879c46adc518f6d16c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ba3809bdb19ba052a8d3a5addb16b04b187bc67ad5347d89551877eb09b13eeb",
+ "message_id": "msg_011CgFugBiDEiSqmGyCa4zJQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4995,
+  "output_tokens": 327,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Overall, liquidity is adequate by most measures, in most markets, and most of the time.\"},{\"dimension\":\"overall\",\"quote\":\"Regulatory changes, even those that may have reduced market liquidity, likely have enhanced financial stability on balance.\"},{\"dimension\":\"overall\",\"quote\":\"In light of these changes and the evolving structure of financial markets, it will be important to monitor and continue to analyze the state of market liquidity.\"}],\"rationale\":\"The speech addresses market liquidity and financial regulation, not monetary policy, inflation, or the economic outlook. It offers no signal on the policy path, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Overall, liquidity is adequate by most measures, in most markets, and most of the time."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Regulatory changes, even those that may have reduced market liquidity, likely have enhanced financial stability on balance."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In light of these changes and the evolving structure of financial markets, it will be important to monitor and continue to analyze the state of market liquidity."
+   }
+  ],
+  "rationale": "The speech addresses market liquidity and financial regulation, not monetary policy, inflation, or the economic outlook. It offers no signal on the policy path, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Overall, liquidity is adequate by most measures, in most markets, and most of the time.",
+     "start": 15156,
+     "end": 15242
+    },
+    {
+     "quote": "Regulatory changes, even those that may have reduced market liquidity, likely have enhanced financial stability on balance.",
+     "start": 13373,
+     "end": 13495
+    },
+    {
+     "quote": "In light of these changes and the evolving structure of financial markets, it will be important to monitor and continue to analyze the state of market liquidity.",
+     "start": 15794,
+     "end": 15954
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

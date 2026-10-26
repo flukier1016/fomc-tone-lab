@@ -1,0 +1,103 @@
+{
+ "key": "speech_bowman20201119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20201119a",
+  "doc_type": "speech",
+  "text_sha256": "3b182fcb792ce0bbc97eb01c01c8bd01f094fad9926ad02565d58e2b9f5d7df4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3d390fba365aa31ae046922e4c6a8086abf866c9cdb1b0a54b7b47a849917ef7",
+ "message_id": "msg_011CgFugAACETYfjqC4fJj3T",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5704,
+  "output_tokens": 407,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic and financial conditions have improved much more than many had expected in the spring\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we still face a shortfall in employment relative to its level before the onset of the pandemic.\"},{\"dimension\":\"risk_balance\",\"quote\":\"And, of course, significant uncertainties remain, including the fact that forbearance for federally backed mortgages is set to expire in the first quarter of next year.\"},{\"dimension\":\"overall\",\"quote\":\"Today I am going to focus on the strains in mortgage markets.\"}],\"rationale\":\"The speech is mainly about financial stability and the regulation of nonbank mortgage companies, with only retrospective description of monetary policy and no forward signal. It notes a strong recovery but a remaining employment shortfall and lingering uncertainties, which gives at most a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic and financial conditions have improved much more than many had expected in the spring"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we still face a shortfall in employment relative to its level before the onset of the pandemic."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "And, of course, significant uncertainties remain, including the fact that forbearance for federally backed mortgages is set to expire in the first quarter of next year."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today I am going to focus on the strains in mortgage markets."
+   }
+  ],
+  "rationale": "The speech is mainly about financial stability and the regulation of nonbank mortgage companies, with only retrospective description of monetary policy and no forward signal. It notes a strong recovery but a remaining employment shortfall and lingering uncertainties, which gives at most a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic and financial conditions have improved much more than many had expected in the spring",
+     "start": 12386,
+     "end": 12480
+    },
+    {
+     "quote": "we still face a shortfall in employment relative to its level before the onset of the pandemic.",
+     "start": 1419,
+     "end": 1513
+    },
+    {
+     "quote": "And, of course, significant uncertainties remain, including the fact that forbearance for federally backed mortgages is set to expire in the first quarter of next year.",
+     "start": 14277,
+     "end": 14444
+    },
+    {
+     "quote": "Today I am going to focus on the strains in mortgage markets.",
+     "start": 2095,
+     "end": 2155
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

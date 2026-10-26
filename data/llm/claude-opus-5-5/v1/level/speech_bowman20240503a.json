@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240503a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240503a",
+  "doc_type": "speech",
+  "text_sha256": "69e9c5d9fc528c72be8f86e40261d449d56bbc2a4882e0499176d16a5aa54b9c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "49e8e27197905abf6fb8d30a6087c1494dac09389c6e2a9408c9d39a3cc341ce",
+ "message_id": "msg_011CgFugBVKXWidXSRY9NHc2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1818,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":0,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"After seeing considerable progress on slowing inflation last year, we have not seen further progress over the first quarter of this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect inflation to remain elevated for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recent employment reports show a continued tight labor market, with the unemployment rate remaining below 4 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"I still see a number of upside inflation risks that affect my outlook.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"to continue to reduce the Federal Reserve's securities holdings.\"}],\"rationale\":\"The speaker describes stalled disinflation, a tight labor market and multiple upside inflation risks, and explicitly signals willingness to raise rates further. Although the baseline is holding steady, the guidance and risk emphasis are clearly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 0,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "After seeing considerable progress on slowing inflation last year, we have not seen further progress over the first quarter of this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect inflation to remain elevated for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recent employment reports show a continued tight labor market, with the unemployment rate remaining below 4 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I still see a number of upside inflation risks that affect my outlook."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "to continue to reduce the Federal Reserve's securities holdings."
+   }
+  ],
+  "rationale": "The speaker describes stalled disinflation, a tight labor market and multiple upside inflation risks, and explicitly signals willingness to raise rates further. Although the baseline is holding steady, the guidance and risk emphasis are clearly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.",
+     "start": 5837,
+     "end": 5990
+    },
+    {
+     "quote": "After seeing considerable progress on slowing inflation last year, we have not seen further progress over the first quarter of this year.",
+     "start": 1081,
+     "end": 1217
+    },
+    {
+     "quote": "I expect inflation to remain elevated for some time.",
+     "start": 1568,
+     "end": 1619
+    },
+    {
+     "quote": "recent employment reports show a continued tight labor market, with the unemployment rate remaining below 4 percent",
+     "start": 2656,
+     "end": 2771
+    },
+    {
+     "quote": "I still see a number of upside inflation risks that affect my outlook.",
+     "start": 3635,
+     "end": 3704
+    },
+    {
+     "quote": "to continue to reduce the Federal Reserve's securities holdings.",
+     "start": 1015,
+     "end": 1078
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

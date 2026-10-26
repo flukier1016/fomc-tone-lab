@@ -1,0 +1,121 @@
+{
+ "key": "statement_20150429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20150429",
+  "doc_type": "statement",
+  "text_sha256": "f720188ba08d939a3a6cbc5aa67cb09d49b4895a556da76a2960841498e09eff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5f2c783c4b2bd6f2ffc681d8b52fb21110fc8fcdff66e16aeedf4271876482b9",
+ "message_id": "msg_011CgFugJxn2BjDCBhJnS7YB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1184,
+  "output_tokens": 514,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic growth slowed during the winter months, in part reflecting transitory factors\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation continued to run below the Committee's longer-run objective\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"should help maintain accommodative financial conditions\"},{\"dimension\":\"forward_guidance\",\"quote\":\"economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run\"}],\"rationale\":\"The Committee holds rates at zero, keeps reinvestment in place, and describes slower growth and below-target inflation. Liftoff remains conditional on further improvement, so the net signal leans moderately dovish, tempered by balanced risks and the expectation that the slowdown is transitory.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic growth slowed during the winter months, in part reflecting transitory factors"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation continued to run below the Committee's longer-run objective"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "should help maintain accommodative financial conditions"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run"
+   }
+  ],
+  "rationale": "The Committee holds rates at zero, keeps reinvestment in place, and describes slower growth and below-target inflation. Liftoff remains conditional on further improvement, so the net signal leans moderately dovish, tempered by balanced risks and the expectation that the slowdown is transitory."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic growth slowed during the winter months, in part reflecting transitory factors",
+     "start": 88,
+     "end": 174
+    },
+    {
+     "quote": "Inflation continued to run below the Committee's longer-run objective",
+     "start": 634,
+     "end": 703
+    },
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market",
+     "start": 2482,
+     "end": 2645
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1374,
+     "end": 1491
+    },
+    {
+     "quote": "should help maintain accommodative financial conditions",
+     "start": 3100,
+     "end": 3155
+    },
+    {
+     "quote": "economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run",
+     "start": 3460,
+     "end": 3606
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20110404a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110404a",
+  "doc_type": "speech",
+  "text_sha256": "cf6f10535b1aef6e4cf0dc9f2523b071b7e50fbd14e5ca98b2470bed1e3bcad5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "70b463d7864b0a80327f0058a584716962cf7e87936d5935f6ff6cdb7364d0af",
+ "message_id": "msg_011CgFug8n74WMSBAVXncZKW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6616,
+  "output_tokens": 339,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Tonight I would like to discuss post-crisis reform as it relates to a prominent part of our financial market infrastructure--namely, clearinghouses for payments, securities, and derivatives transactions.\"},{\"dimension\":\"overall\",\"quote\":\"The Board is working hard to implement the new statutory provisions of title 8.\"},{\"dimension\":\"overall\",\"quote\":\"The need for strong risk management and oversight will only increase as we go forward.\"}],\"rationale\":\"The speech covers clearinghouse regulation and financial infrastructure reform under Dodd-Frank, with no discussion of monetary policy, inflation, or economic activity. It is scored neutral and low relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Tonight I would like to discuss post-crisis reform as it relates to a prominent part of our financial market infrastructure--namely, clearinghouses for payments, securities, and derivatives transactions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Board is working hard to implement the new statutory provisions of title 8."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The need for strong risk management and oversight will only increase as we go forward."
+   }
+  ],
+  "rationale": "The speech covers clearinghouse regulation and financial infrastructure reform under Dodd-Frank, with no discussion of monetary policy, inflation, or economic activity. It is scored neutral and low relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Tonight I would like to discuss post-crisis reform as it relates to a prominent part of our financial market infrastructure--namely, clearinghouses for payments, securities, and derivatives transactions.",
+     "start": 263,
+     "end": 465
+    },
+    {
+     "quote": "The Board is working hard to implement the new statutory provisions of title 8.",
+     "start": 18738,
+     "end": 18816
+    },
+    {
+     "quote": "The need for strong risk management and oversight will only increase as we go forward.",
+     "start": 20979,
+     "end": 21064
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

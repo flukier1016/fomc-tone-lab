@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20120510a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20120510a",
+  "doc_type": "speech",
+  "text_sha256": "9b152c407df5200531c572d245462740414105fa4463794ea549e29148370a0b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "236fed9365836ffedcf19ccf927b7c4ba5ecead462646721e9dab2b646837808",
+ "message_id": "msg_011CgFug9s68GAocqYjSkPmf",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5865,
+  "output_tokens": 427,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Banks have also been navigating an economic recovery that has been halting at times.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"including a still-weak economy, changes in market conditions and practices, and tighter financial regulations\"},{\"dimension\":\"overall\",\"quote\":\"To sum up, conditions in the banking system--and the financial sector more broadly--have improved significantly in the past few years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Signs of improvement notwithstanding, credit conditions in some sectors and for some types of borrowers remain tight.\"}],\"rationale\":\"The speech focuses on banking-system health, supervision, and credit conditions, with no discussion of monetary policy, inflation, or the balance sheet. Passing references to a still-weak, halting recovery and tight mortgage credit give a slight dovish tilt on activity, but the overall policy signal is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Banks have also been navigating an economic recovery that has been halting at times."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "including a still-weak economy, changes in market conditions and practices, and tighter financial regulations"
+   },
+   {
+    "dimension": "overall",
+    "quote": "To sum up, conditions in the banking system--and the financial sector more broadly--have improved significantly in the past few years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Signs of improvement notwithstanding, credit conditions in some sectors and for some types of borrowers remain tight."
+   }
+  ],
+  "rationale": "The speech focuses on banking-system health, supervision, and credit conditions, with no discussion of monetary policy, inflation, or the balance sheet. Passing references to a still-weak, halting recovery and tight mortgage credit give a slight dovish tilt on activity, but the overall policy signal is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Banks have also been navigating an economic recovery that has been halting at times.",
+     "start": 8950,
+     "end": 9033
+    },
+    {
+     "quote": "including a still-weak economy, changes in market conditions and practices, and tighter financial regulations",
+     "start": 4592,
+     "end": 4701
+    },
+    {
+     "quote": "To sum up, conditions in the banking system--and the financial sector more broadly--have improved significantly in the past few years.",
+     "start": 18751,
+     "end": 18884
+    },
+    {
+     "quote": "Signs of improvement notwithstanding, credit conditions in some sectors and for some types of borrowers remain tight.",
+     "start": 10589,
+     "end": 10705
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

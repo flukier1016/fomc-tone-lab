@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20140430",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20140430",
+  "doc_type": "minutes",
+  "text_sha256": "518dddf252f3ad96e5de2f5421abe648a3b84a0b81ee12398a43867219c4195f"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "518c28b5e613fe347598e9ffdc72b463e4a3face7c9ec450065dc178a9e69fa1",
+ "message_id": "msg_011CgG27qsnRTDz5KTWevGQY",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10911,
+  "output_tokens": 533,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"in light of their concerns about the possible persistence of low inflation, members agreed that inflation developments should be monitored carefully\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"there is more slack in the labor market than is captured by the unemployment rate alone\"},{\"dimension\":\"risk_balance\",\"quote\":\"a number of participants pointed to possible sources of downside risk to growth, including a persistent slowdown in the housing sector or potential international developments\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee would likely reduce the pace of asset purchases in further measured steps at future meetings\"},{\"dimension\":\"overall\",\"quote\":\"the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate\"}],\"rationale\":\"Minutes describe continued measured tapering (mildly hawkish on the balance sheet) but emphasize labor slack, persistently low inflation, downside growth risks, and a prolonged zero-rate period. On net, the signal leans moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "in light of their concerns about the possible persistence of low inflation, members agreed that inflation developments should be monitored carefully"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "there is more slack in the labor market than is captured by the unemployment rate alone"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a number of participants pointed to possible sources of downside risk to growth, including a persistent slowdown in the housing sector or potential international developments"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee would likely reduce the pace of asset purchases in further measured steps at future meetings"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate"
+   }
+  ],
+  "rationale": "Minutes describe continued measured tapering (mildly hawkish on the balance sheet) but emphasize labor slack, persistently low inflation, downside growth risks, and a prolonged zero-rate period. On net, the signal leans moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it likely will be appropriate to maintain the current target range for the federal funds rate for a considerable time after the asset purchase program ends",
+     "start": 35776,
+     "end": 35931
+    },
+    {
+     "quote": "in light of their concerns about the possible persistence of low inflation, members agreed that inflation developments should be monitored carefully",
+     "start": 27873,
+     "end": 28021
+    },
+    {
+     "quote": "there is more slack in the labor market than is captured by the unemployment rate alone",
+     "start": 21671,
+     "end": 21758
+    },
+    {
+     "quote": "a number of participants pointed to possible sources of downside risk to growth, including a persistent slowdown in the housing sector or potential international developments",
+     "start": 19213,
+     "end": 19387
+    },
+    {
+     "quote": "the Committee would likely reduce the pace of asset purchases in further measured steps at future meetings",
+     "start": 28802,
+     "end": 28908
+    },
+    {
+     "quote": "the Committee today reaffirmed its view that a highly accommodative stance of monetary policy remains appropriate",
+     "start": 35119,
+     "end": 35232
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

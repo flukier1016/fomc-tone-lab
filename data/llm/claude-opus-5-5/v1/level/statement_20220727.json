@@ -1,0 +1,121 @@
+{
+ "key": "statement_20220727",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20220727",
+  "doc_type": "statement",
+  "text_sha256": "965fda9f22ea0801d8133697c585a65c4b08a2d71f1e17036a31faed79ab555d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a320efa90de57c030495133028a01aaa2e2dfe8bd8c25909facd70f16e7dbb6c",
+ "message_id": "msg_011CgFugABw9vfSLR3iKJCQj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 694,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"anticipates that ongoing increases in the target range will be appropriate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee is highly attentive to inflation risks.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The statement announces a large rate hike, signals ongoing increases and continued runoff, and emphasizes elevated inflation and upside inflation risks. Softening activity is noted, but a robust labor market offsets it.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "anticipates that ongoing increases in the target range will be appropriate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee is highly attentive to inflation risks."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The statement announces a large rate hike, signals ongoing increases and continued runoff, and emphasizes elevated inflation and upside inflation risks. Softening activity is noted, but a robust labor market offsets it."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2-1/2 percent",
+     "start": 714,
+     "end": 814
+    },
+    {
+     "quote": "anticipates that ongoing increases in the target range will be appropriate",
+     "start": 819,
+     "end": 893
+    },
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+     "start": 162,
+     "end": 313
+    },
+    {
+     "quote": "Recent indicators of spending and production have softened. Nonetheless, job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 0,
+     "end": 160
+    },
+    {
+     "quote": "The Committee is highly attentive to inflation risks.",
+     "start": 522,
+     "end": 574
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+     "start": 908,
+     "end": 1034
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "speech_brainard20210218a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210218a",
+  "doc_type": "speech",
+  "text_sha256": "0511577da68b4a2e7ff1ce30945fcc5f4e36539f47033f0cdb57482a0dc92b16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "00ee84afe0a87b02608f402be2c0d66037e7b4e26a1ededd830c0a16b700010a",
+ "message_id": "msg_011CgFugHj7eSo75bCw7DiDY",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5333,
+  "output_tokens": 281,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Supervisors have a responsibility to ensure that financial institutions are resilient to all material risks—including those related to climate change—both currently and into the future.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve announced last month the creation of a Supervision Climate Committee (SCC).\"}],\"rationale\":\"The speech addresses climate-related financial risk and bank supervision, with no discussion of monetary policy, inflation, or the near-term outlook. It carries no stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Supervisors have a responsibility to ensure that financial institutions are resilient to all material risks—including those related to climate change—both currently and into the future."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve announced last month the creation of a Supervision Climate Committee (SCC)."
+   }
+  ],
+  "rationale": "The speech addresses climate-related financial risk and bank supervision, with no discussion of monetary policy, inflation, or the near-term outlook. It carries no stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Supervisors have a responsibility to ensure that financial institutions are resilient to all material risks—including those related to climate change—both currently and into the future.",
+     "start": 4057,
+     "end": 4241
+    },
+    {
+     "quote": "The Federal Reserve announced last month the creation of a Supervision Climate Committee (SCC).",
+     "start": 13595,
+     "end": 13689
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

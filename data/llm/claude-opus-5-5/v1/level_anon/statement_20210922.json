@@ -1,0 +1,113 @@
+{
+ "key": "statement_20210922",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20210922",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "be6d2b2b99f3b2041c2f155af203977ea55f699f79a0977afcaa72ab9f99a099"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cc392afee46fa899bd630704f1e7a090eb6393abec0c51c53aa40713853b6207",
+ "message_id": "msg_011CgFudUp2UBW8ShrAFb26B",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1000,
+  "output_tokens": 450,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is elevated, largely reflecting transitory factors.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Since then, the economy has made progress toward these goals.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The path of the economy continues to depend on the course of the virus.\"}],\"rationale\":\"The Committee holds rates steady but signals that tapering of asset purchases may soon be warranted, citing progress toward its goals and strengthening activity. Inflation is called elevated but transitory, and the statement retains accommodative rate guidance and acknowledges virus risks, so the net lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is elevated, largely reflecting transitory factors."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Since then, the economy has made progress toward these goals."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The path of the economy continues to depend on the course of the virus."
+   }
+  ],
+  "rationale": "The Committee holds rates steady but signals that tapering of asset purchases may soon be warranted, citing progress toward its goals and strengthening activity. Inflation is called elevated but transitory, and the statement retains accommodative rate guidance and acknowledges virus risks, so the net lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If progress continues broadly as expected, the Committee judges that a moderation in the pace of asset purchases may soon be warranted.",
+     "start": 2176,
+     "end": 2310
+    },
+    {
+     "quote": "With progress on vaccinations and strong policy support, indicators of economic activity and employment have continued to strengthen.",
+     "start": 189,
+     "end": 321
+    },
+    {
+     "quote": "Inflation is elevated, largely reflecting transitory factors.",
+     "start": 465,
+     "end": 525
+    },
+    {
+     "quote": "Since then, the economy has made progress toward these goals.",
+     "start": 2114,
+     "end": 2174
+    },
+    {
+     "quote": "The path of the economy continues to depend on the course of the virus.",
+     "start": 695,
+     "end": 765
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

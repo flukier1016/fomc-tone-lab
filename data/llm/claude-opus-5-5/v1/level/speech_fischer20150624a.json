@@ -1,0 +1,85 @@
+{
+ "key": "speech_fischer20150624a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150624a",
+  "doc_type": "speech",
+  "text_sha256": "5ddc272bbbe47308db8e543382477b859abc9b7c3074e3700f5a8890b0d1dc3a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fc900f9042e74df5b6150f5d039cded4e394c420f236b065cc7cb6e2df595388",
+ "message_id": "msg_011CgFug8NYWiiiBfah79iW6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2580,
+  "output_tokens": 283,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Stress testing has become a cornerstone of a new approach to regulation and supervision of the largest financial institutions in the United States.\"},{\"dimension\":\"overall\",\"quote\":\"With the benefit of five years of experience, the Fed is continuing to assess its stress testing program, and to make appropriate changes.\"}],\"rationale\":\"The speech addresses bank stress testing and supervisory transparency and says nothing about interest rates, inflation, growth or the balance sheet. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Stress testing has become a cornerstone of a new approach to regulation and supervision of the largest financial institutions in the United States."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With the benefit of five years of experience, the Fed is continuing to assess its stress testing program, and to make appropriate changes."
+   }
+  ],
+  "rationale": "The speech addresses bank stress testing and supervisory transparency and says nothing about interest rates, inflation, growth or the balance sheet. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Stress testing has become a cornerstone of a new approach to regulation and supervision of the largest financial institutions in the United States.",
+     "start": 200,
+     "end": 346
+    },
+    {
+     "quote": "With the benefit of five years of experience, the Fed is continuing to assess its stress testing program, and to make appropriate changes.",
+     "start": 4139,
+     "end": 4276
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

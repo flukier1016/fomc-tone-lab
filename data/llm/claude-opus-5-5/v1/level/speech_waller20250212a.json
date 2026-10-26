@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20250212a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250212a",
+  "doc_type": "speech",
+  "text_sha256": "2dd1726f4cdc9fbc458e76351d4512c4812257c0d75942ade4f4b42deba9f063"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "41848c553636132463a0f262827d80aa96ae294944bfbd9becb6564e0a89aba7",
+ "message_id": "msg_011CgFug97h8FWqmD21QWFZD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5017,
+  "output_tokens": 366,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Thank you for inviting me to speak today about stablecoins, an important innovation for the crypto ecosystem with the potential to improve retail and cross-border payments.\"},{\"dimension\":\"overall\",\"quote\":\"The stablecoin market would benefit from a U.S. regulatory and supervisory framework that addresses stablecoin risks directly, fully, and narrowly.\"},{\"dimension\":\"overall\",\"quote\":\"As with bank deposits, the interest rate environment will have a significant effect on the profitability of firms issuing stablecoins.\"}],\"rationale\":\"The speech addresses stablecoin use cases, business models and regulatory fragmentation, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Thank you for inviting me to speak today about stablecoins, an important innovation for the crypto ecosystem with the potential to improve retail and cross-border payments."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The stablecoin market would benefit from a U.S. regulatory and supervisory framework that addresses stablecoin risks directly, fully, and narrowly."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As with bank deposits, the interest rate environment will have a significant effect on the profitability of firms issuing stablecoins."
+   }
+  ],
+  "rationale": "The speech addresses stablecoin use cases, business models and regulatory fragmentation, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Thank you for inviting me to speak today about stablecoins, an important innovation for the crypto ecosystem with the potential to improve retail and cross-border payments.",
+     "start": 0,
+     "end": 171
+    },
+    {
+     "quote": "The stablecoin market would benefit from a U.S. regulatory and supervisory framework that addresses stablecoin risks directly, fully, and narrowly.",
+     "start": 10022,
+     "end": 10168
+    },
+    {
+     "quote": "As with bank deposits, the interest rate environment will have a significant effect on the profitability of firms issuing stablecoins.",
+     "start": 6689,
+     "end": 6822
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

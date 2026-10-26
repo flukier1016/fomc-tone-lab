@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20100331a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100331a",
+  "doc_type": "speech",
+  "text_sha256": "ca43b0de4fd129df04da70af1a86790f3b5aa4b9ab2ced4ef1739b91f20770b4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5ca16a17c48e0b27318d980cff1faaa0d6bbed3516bc5ba341af8c61955f354b",
+ "message_id": "msg_011CgFugCU6rFnaTHVzzmhQG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7677,
+  "output_tokens": 479,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While conditions in some financial markets have improved markedly in recent months, conditions in the banking sector continue to be weak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even though conditions in financial markets have continued to improve in 2010, access to credit remains restricted for many smaller businesses, who largely depend on banks for credit.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic conditions, the most important determinant of the demand for and availability of small business lending, have improved considerably since the early and middle part of last year.\"},{\"dimension\":\"overall\",\"quote\":\"We have acted on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning.\"}],\"rationale\":\"The speech focuses on bank supervision, CRE loan guidance and small business credit, with no explicit view on the future path of monetary policy. Its description of weak banking conditions and restricted credit leans mildly dovish, but the net policy signal is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While conditions in some financial markets have improved markedly in recent months, conditions in the banking sector continue to be weak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even though conditions in financial markets have continued to improve in 2010, access to credit remains restricted for many smaller businesses, who largely depend on banks for credit."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic conditions, the most important determinant of the demand for and availability of small business lending, have improved considerably since the early and middle part of last year."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have acted on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning."
+   }
+  ],
+  "rationale": "The speech focuses on bank supervision, CRE loan guidance and small business credit, with no explicit view on the future path of monetary policy. Its description of weak banking conditions and restricted credit leans mildly dovish, but the net policy signal is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While conditions in some financial markets have improved markedly in recent months, conditions in the banking sector continue to be weak.",
+     "start": 3545,
+     "end": 3681
+    },
+    {
+     "quote": "Even though conditions in financial markets have continued to improve in 2010, access to credit remains restricted for many smaller businesses, who largely depend on banks for credit.",
+     "start": 17871,
+     "end": 18053
+    },
+    {
+     "quote": "Economic conditions, the most important determinant of the demand for and availability of small business lending, have improved considerably since the early and middle part of last year.",
+     "start": 21891,
+     "end": 22076
+    },
+    {
+     "quote": "We have acted on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning.",
+     "start": 23029,
+     "end": 23246
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

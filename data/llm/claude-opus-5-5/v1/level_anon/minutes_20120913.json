@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20120913",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20120913",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "2d8b835e885478264365939ac0e0469dd19fe69d52014ee9edbfb6cd07f47748"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fa236ec54cf960b19020fd388518a42385c1f234fbaadfc0caa6ac035b86f12a",
+ "message_id": "msg_011CgFudSBHD2uy8QUntC7F3",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 13286,
+  "output_tokens": 628,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The Committee also anticipates that inflation over the medium term likely would run at or below its 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The available indicators pointed to continued weakness in overall labor market conditions.\"}],\"rationale\":\"The minutes describe open-ended MBS purchases, extended and strengthened low-rate guidance, emphasis on downside risks and labor market weakness, and subdued inflation—an explicitly easing signal. Minority concerns about inflation risks and a single dissent only slightly temper the strongly dovish thrust.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The Committee also anticipates that inflation over the medium term likely would run at or below its 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The available indicators pointed to continued weakness in overall labor market conditions."
+   }
+  ],
+  "rationale": "The minutes describe open-ended MBS purchases, extended and strengthened low-rate guidance, emphasis on downside risks and labor market weakness, and subdued inflation—an explicitly easing signal. Minority concerns about inflation risks and a single dissent only slightly temper the strongly dovish thrust."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members agreed that such accommodation should be provided through both a strengthening of the forward guidance regarding the federal funds rate and purchases of additional agency MBS at a pace of $40 billion per month.",
+     "start": 35155,
+     "end": 35372
+    },
+    {
+     "quote": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of agency mortgage-backed securities, undertake additional asset purchases, and employ its other policy tools as appropriate until such improvement is achieved in a context of price stability.",
+     "start": 42123,
+     "end": 42424
+    },
+    {
+     "quote": "the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.",
+     "start": 42683,
+     "end": 42846
+    },
+    {
+     "quote": "Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 40822,
+     "end": 40938
+    },
+    {
+     "quote": "The Committee also anticipates that inflation over the medium term likely would run at or below its 2 percent objective.",
+     "start": 40940,
+     "end": 41059
+    },
+    {
+     "quote": "The available indicators pointed to continued weakness in overall labor market conditions.",
+     "start": 24207,
+     "end": 24296
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

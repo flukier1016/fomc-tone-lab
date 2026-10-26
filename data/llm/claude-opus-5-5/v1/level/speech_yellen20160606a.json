@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20160606a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20160606a",
+  "doc_type": "speech",
+  "text_sha256": "e2adb3cfce8f11334fa7b5c5055fc775ac3d0bd21bdf47a77b097a6d6d22c06e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "625b107e3bfe0b167b4594b6315d81e5224fcee3a8ceab521a3424b055a820c1",
+ "message_id": "msg_011CgFugENwx8kkipf4QpvXi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7298,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"further gradual increases in the federal funds rate are likely to be appropriate and most conducive to meeting and maintaining those objectives\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In that context, this past Friday's labor market report was disappointing.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has run persistently below the Fed's goal of 2 percent over the past several years even as the labor market strengthened significantly.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If inflation expectations really are moving lower, that could call into question whether inflation will move back to 2 percent as quickly as I expect.\"},{\"dimension\":\"risk_balance\",\"quote\":\"if inflation were to remain persistently low or the expansion were to falter, the FOMC would be able to provide only a limited amount of additional stimulus through conventional means.\"},{\"dimension\":\"overall\",\"quote\":\"I view our modestly accommodative stance of policy as appropriate for several reasons.\"}],\"rationale\":\"The speech is Yellen-style: it reaffirms conditional gradual rate increases, but it stresses the weak May jobs report, below-target inflation, falling inflation expectations and asymmetric risks at the lower bound. These cautious points roughly offset the tightening signal, leaving a balanced to slightly dovish net stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "further gradual increases in the federal funds rate are likely to be appropriate and most conducive to meeting and maintaining those objectives"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In that context, this past Friday's labor market report was disappointing."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has run persistently below the Fed's goal of 2 percent over the past several years even as the labor market strengthened significantly."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If inflation expectations really are moving lower, that could call into question whether inflation will move back to 2 percent as quickly as I expect."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "if inflation were to remain persistently low or the expansion were to falter, the FOMC would be able to provide only a limited amount of additional stimulus through conventional means."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I view our modestly accommodative stance of policy as appropriate for several reasons."
+   }
+  ],
+  "rationale": "The speech is Yellen-style: it reaffirms conditional gradual rate increases, but it stresses the weak May jobs report, below-target inflation, falling inflation expectations and asymmetric risks at the lower bound. These cautious points roughly offset the tightening signal, leaving a balanced to slightly dovish net stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "further gradual increases in the federal funds rate are likely to be appropriate and most conducive to meeting and maintaining those objectives",
+     "start": 1084,
+     "end": 1227
+    },
+    {
+     "quote": "In that context, this past Friday's labor market report was disappointing.",
+     "start": 3667,
+     "end": 3740
+    },
+    {
+     "quote": "Inflation has run persistently below the Fed's goal of 2 percent over the past several years even as the labor market strengthened significantly.",
+     "start": 7278,
+     "end": 7422
+    },
+    {
+     "quote": "If inflation expectations really are moving lower, that could call into question whether inflation will move back to 2 percent as quickly as I expect.",
+     "start": 19208,
+     "end": 19357
+    },
+    {
+     "quote": "if inflation were to remain persistently low or the expansion were to falter, the FOMC would be able to provide only a limited amount of additional stimulus through conventional means.",
+     "start": 21862,
+     "end": 22045
+    },
+    {
+     "quote": "I view our modestly accommodative stance of policy as appropriate for several reasons.",
+     "start": 21085,
+     "end": 21170
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

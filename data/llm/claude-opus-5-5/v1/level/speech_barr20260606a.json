@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20260606a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20260606a",
+  "doc_type": "speech",
+  "text_sha256": "818920109c861821c5f858074cc1f8b88f8bb6f8cb4cb32cde9ea764574fb058"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "55c90a3418704b087f02d6eb740077e96612d22e0e9556ca421ae7bfe64a1642",
+ "message_id": "msg_011CgFug9w4EicWdX7bpmQYv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6171,
+  "output_tokens": 394,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I believe that recent steps by the Federal Reserve and other agencies will undermine the safety and soundness of banks and increase financial stability risks.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Weaker capital rules, weaker liquidity requirements, and weaker supervision expose all of us to increased risks of bank stress, failures, or crises that can harm the economy.\"},{\"dimension\":\"overall\",\"quote\":\"We're now in a risk-on environment with a booming stock market, robust bank profits, and a deregulatory mindset.\"}],\"rationale\":\"The speech is about bank regulation and supervision and never addresses the policy rate, inflation or the balance sheet, so it carries no clear monetary policy signal. It warns of long-term financial stability and growth risks from deregulation, which leans mildly dovish only on risk balance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I believe that recent steps by the Federal Reserve and other agencies will undermine the safety and soundness of banks and increase financial stability risks."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Weaker capital rules, weaker liquidity requirements, and weaker supervision expose all of us to increased risks of bank stress, failures, or crises that can harm the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We're now in a risk-on environment with a booming stock market, robust bank profits, and a deregulatory mindset."
+   }
+  ],
+  "rationale": "The speech is about bank regulation and supervision and never addresses the policy rate, inflation or the balance sheet, so it carries no clear monetary policy signal. It warns of long-term financial stability and growth risks from deregulation, which leans mildly dovish only on risk balance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that recent steps by the Federal Reserve and other agencies will undermine the safety and soundness of banks and increase financial stability risks.",
+     "start": 2413,
+     "end": 2570
+    },
+    {
+     "quote": "Weaker capital rules, weaker liquidity requirements, and weaker supervision expose all of us to increased risks of bank stress, failures, or crises that can harm the economy.",
+     "start": 7944,
+     "end": 8117
+    },
+    {
+     "quote": "We're now in a risk-on environment with a booming stock market, robust bank profits, and a deregulatory mindset.",
+     "start": 19922,
+     "end": 20033
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

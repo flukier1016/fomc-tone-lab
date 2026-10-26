@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20220907a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20220907a",
+  "doc_type": "speech",
+  "text_sha256": "a3e3dd385c7849d35a35c05f540ff2f29f7e5ce6f2b9d5f94cf691af2f6811d0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b47c944e9772073724e07e5b4b0b232543312e2be75dc57b512e07f5e2c9ac6a",
+ "message_id": "msg_011CgFug93yXL8XiAo5Vv5Ne",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4794,
+  "output_tokens": 379,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Nothing is more basic to the safety and soundness of banks and the stability of the financial system than capital.\"},{\"dimension\":\"overall\",\"quote\":\"I am also committed to implementing enhanced regulatory capital requirements that align with the final set of \\\"Basel III\\\" standards or the so-called the \\\"Basel endgame.\\\"\"},{\"dimension\":\"overall\",\"quote\":\"Another priority for me as Vice Chair is the regulation and oversight of new forms of private money created through stablecoins.\"}],\"rationale\":\"The speech covers the supervision and regulation agenda: capital, resolution, mergers, stablecoins, climate risk, crypto, payments and the CRA. It takes no position on interest rates, inflation, economic activity or the balance sheet, so the monetary-policy stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Nothing is more basic to the safety and soundness of banks and the stability of the financial system than capital."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I am also committed to implementing enhanced regulatory capital requirements that align with the final set of \"Basel III\" standards or the so-called the \"Basel endgame.\""
+   },
+   {
+    "dimension": "overall",
+    "quote": "Another priority for me as Vice Chair is the regulation and oversight of new forms of private money created through stablecoins."
+   }
+  ],
+  "rationale": "The speech covers the supervision and regulation agenda: capital, resolution, mergers, stablecoins, climate risk, crypto, payments and the CRA. It takes no position on interest rates, inflation, economic activity or the balance sheet, so the monetary-policy stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nothing is more basic to the safety and soundness of banks and the stability of the financial system than capital.",
+     "start": 3105,
+     "end": 3218
+    },
+    {
+     "quote": "I am also committed to implementing enhanced regulatory capital requirements that align with the final set of \"Basel III\" standards or the so-called the \"Basel endgame.\"",
+     "start": 5469,
+     "end": 5636
+    },
+    {
+     "quote": "Another priority for me as Vice Chair is the regulation and oversight of new forms of private money created through stablecoins.",
+     "start": 8597,
+     "end": 8724
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

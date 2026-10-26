@@ -1,0 +1,104 @@
+{
+ "key": "statement_20260729",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20260729",
+  "previous_doc_id": "statement_20260617",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "362b361323aeb5848c69b0358c88325b5b04266a4ad685a1c4f12439ec9d900a",
+ "message_id": "msg_011CgFudX1jWbynXcVvYZVsJ",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 661,
+  "output_tokens": 376,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:\",\"after\":\"The Federal Open Market Committee approved the following statement for release by a 9 – 3 vote:\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee reaffirmed its policy of maintaining ample reserves in the banking system.\",\"after\":\"The Committee is continuing its policy of maintaining ample reserves in the banking system.\",\"direction\":\"neutral\"}],\"rationale\":\"The policy action and the economic assessment are unchanged, but the unanimous vote gave way to three dissents favoring a rate hike, signaling a hawkish tilt within the Committee. The rate itself was held and the guidance did not change, so this is a moderate hawkish shift rather than a change in policy direction.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:",
+    "after": "The Federal Open Market Committee approved the following statement for release by a 9 – 3 vote:",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee reaffirmed its policy of maintaining ample reserves in the banking system.",
+    "after": "The Committee is continuing its policy of maintaining ample reserves in the banking system.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The policy action and the economic assessment are unchanged, but the unanimous vote gave way to three dissents favoring a rate hike, signaling a hawkish tilt within the Committee. The rate itself was held and the guidance did not change, so this is a moderate hawkish shift rather than a change in policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Open Market Committee approved the following statement for release by a 12 – 0 vote:",
+     "start": 0,
+     "end": 95
+    },
+    {
+     "quote": "The Committee reaffirmed its policy of maintaining ample reserves in the banking system.",
+     "start": 253,
+     "end": 340
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Open Market Committee approved the following statement for release by a 9 – 3 vote:",
+     "start": 0,
+     "end": 94
+    },
+    {
+     "quote": "Voting against the monetary policy action were Beth M. Hammack, Neel Kashkari, and Lorie K. Logan, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 844,
+     "end": 1049
+    },
+    {
+     "quote": "The Committee is continuing its policy of maintaining ample reserves in the banking system.",
+     "start": 252,
+     "end": 342
+    }
+   ]
+  }
+ }
+}

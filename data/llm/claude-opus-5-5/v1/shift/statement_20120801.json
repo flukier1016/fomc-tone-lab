@@ -1,0 +1,139 @@
+{
+ "key": "statement_20120801",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20120801",
+  "previous_doc_id": "statement_20120620",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "45e2d54e13fe115299e80ac966327107008ba7b6cb569a0509642cec0f8aa599",
+ "message_id": "msg_011CgFudW2hjRMN3ZTo4reb3",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1997,
+  "output_tokens": 617,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in April suggests that the economy has been expanding moderately this year.\",\"after\":\"Information received since the Federal Open Market Committee met in June suggests that economic activity decelerated somewhat over the first half of this year.\",\"direction\":\"dovish\"},{\"before\":\"However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.\",\"after\":\"Growth in employment has been slow in recent months, and the unemployment rate remains elevated.\",\"direction\":\"neutral\"},{\"before\":\"The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\",\"after\":\"The Committee will closely monitor incoming information on economic and financial developments and will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\",\"direction\":\"dovish\"},{\"before\":\"Despite some signs of improvement, the housing sector remains depressed.\",\"after\":\"Despite some further signs of improvement, the housing sector remains depressed.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action was Jeffrey M. Lacker, who opposed continuation of the maturity extension program.\",\"after\":\"Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant an exceptionally low level of the federal funds rate.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement downgrades the growth assessment to a deceleration and strengthens the easing bias from 'prepared to take further action' to 'will provide additional accommodation as needed,' signaling likely further easing. The rate guidance and policy settings are unchanged, so the shift is moderately dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in April suggests that the economy has been expanding moderately this year.",
+    "after": "Information received since the Federal Open Market Committee met in June suggests that economic activity decelerated somewhat over the first half of this year.",
+    "direction": "dovish"
+   },
+   {
+    "before": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.",
+    "after": "Growth in employment has been slow in recent months, and the unemployment rate remains elevated.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+    "after": "The Committee will closely monitor incoming information on economic and financial developments and will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Despite some signs of improvement, the housing sector remains depressed.",
+    "after": "Despite some further signs of improvement, the housing sector remains depressed.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action was Jeffrey M. Lacker, who opposed continuation of the maturity extension program.",
+    "after": "Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant an exceptionally low level of the federal funds rate.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement downgrades the growth assessment to a deceleration and strengthens the easing bias from 'prepared to take further action' to 'will provide additional accommodation as needed,' signaling likely further easing. The rate guidance and policy settings are unchanged, so the shift is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in April suggests that the economy has been expanding moderately this year.",
+     "start": 0,
+     "end": 139
+    },
+    {
+     "quote": "However, growth in employment has slowed in recent months, and the unemployment rate remains elevated.",
+     "start": 141,
+     "end": 242
+    },
+    {
+     "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 2618,
+     "end": 2806
+    },
+    {
+     "quote": "Despite some signs of improvement, the housing sector remains depressed.",
+     "start": 388,
+     "end": 459
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who opposed continuation of the maturity extension program.",
+     "start": 3088,
+     "end": 3195
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity decelerated somewhat over the first half of this year.",
+     "start": 0,
+     "end": 158
+    },
+    {
+     "quote": "Growth in employment has been slow in recent months, and the unemployment rate remains elevated.",
+     "start": 160,
+     "end": 255
+    },
+    {
+     "quote": "The Committee will closely monitor incoming information on economic and financial developments and will provide additional accommodation as needed to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 2237,
+     "end": 2508
+    },
+    {
+     "quote": "Despite some further signs of improvement, the housing sector remains depressed.",
+     "start": 396,
+     "end": 475
+    },
+    {
+     "quote": "Voting against the action was Jeffrey M. Lacker, who preferred to omit the description of the time period over which economic conditions are likely to warrant an exceptionally low level of the federal funds rate.",
+     "start": 2790,
+     "end": 3001
+    }
+   ]
+  }
+ }
+}

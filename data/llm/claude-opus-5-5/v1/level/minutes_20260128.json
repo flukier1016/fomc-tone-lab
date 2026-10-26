@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20260128",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20260128",
+  "doc_type": "minutes",
+  "text_sha256": "4e2d58e219e702c9fbabfd93a2608cd9bebfa836f879b4b87880dbff0baf6ad1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6190deae26c00b9bef78c7d42cf242f62cb8a9f3e86da67af6fac68305ea011f",
+ "message_id": "msg_011CgFugEjXuPe6z8uYR9pGg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9902,
+  "output_tokens": 614,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Several participants indicated that they would have supported a two-sided description of the Committee's future interest rate decisions, reflecting the possibility that upward adjustments to the target range for the federal funds rate could be appropriate\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some participants commented that it would likely be appropriate to hold the policy rate steady for some time as the Committee carefully assesses incoming data\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"judged that the risk of inflation running persistently above the Committee's objective was meaningful\"},{\"dimension\":\"risk_balance\",\"quote\":\"the vast majority of participants judged that downside risks to employment had moderated in recent months while the risk of more persistent inflation remained\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The vast majority of participants judged that labor market conditions had been showing some signs of stabilization and that downside risks to the labor market had diminished.\"},{\"dimension\":\"overall\",\"quote\":\"Several participants cautioned that easing policy further in the context of elevated inflation readings could be misinterpreted as implying diminished policymaker commitment to the 2 percent inflation objective\"}],\"rationale\":\"The minutes describe a hold with diminished labor downside risks, persistent inflation concern, a stronger staff outlook, and several participants floating possible hikes, tilting guidance hawkish despite some expecting further cuts. Two dissents for cuts and conditional easing language temper the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several participants indicated that they would have supported a two-sided description of the Committee's future interest rate decisions, reflecting the possibility that upward adjustments to the target range for the federal funds rate could be appropriate"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some participants commented that it would likely be appropriate to hold the policy rate steady for some time as the Committee carefully assesses incoming data"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "judged that the risk of inflation running persistently above the Committee's objective was meaningful"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the vast majority of participants judged that downside risks to employment had moderated in recent months while the risk of more persistent inflation remained"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The vast majority of participants judged that labor market conditions had been showing some signs of stabilization and that downside risks to the labor market had diminished."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Several participants cautioned that easing policy further in the context of elevated inflation readings could be misinterpreted as implying diminished policymaker commitment to the 2 percent inflation objective"
+   }
+  ],
+  "rationale": "The minutes describe a hold with diminished labor downside risks, persistent inflation concern, a stronger staff outlook, and several participants floating possible hikes, tilting guidance hawkish despite some expecting further cuts. Two dissents for cuts and conditional easing language temper the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Several participants indicated that they would have supported a two-sided description of the Committee's future interest rate decisions, reflecting the possibility that upward adjustments to the target range for the federal funds rate could be appropriate",
+     "start": 26155,
+     "end": 26410
+    },
+    {
+     "quote": "Some participants commented that it would likely be appropriate to hold the policy rate steady for some time as the Committee carefully assesses incoming data",
+     "start": 25809,
+     "end": 25967
+    },
+    {
+     "quote": "judged that the risk of inflation running persistently above the Committee's objective was meaningful",
+     "start": 18774,
+     "end": 18875
+    },
+    {
+     "quote": "the vast majority of participants judged that downside risks to employment had moderated in recent months while the risk of more persistent inflation remained",
+     "start": 26739,
+     "end": 26897
+    },
+    {
+     "quote": "The vast majority of participants judged that labor market conditions had been showing some signs of stabilization and that downside risks to the labor market had diminished.",
+     "start": 20632,
+     "end": 20805
+    },
+    {
+     "quote": "Several participants cautioned that easing policy further in the context of elevated inflation readings could be misinterpreted as implying diminished policymaker commitment to the 2 percent inflation objective",
+     "start": 26965,
+     "end": 27175
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

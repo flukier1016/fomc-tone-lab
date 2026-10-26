@@ -1,0 +1,164 @@
+{
+ "key": "statement_20260128",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20260128",
+  "previous_doc_id": "statement_20251210",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8551ea0a879d5f75dabaac73f5eac9aa55d7b52eb04866b5a979bb1b97d5c4e0",
+ "message_id": "msg_011CgFudVsHCdqeHoY132kch",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1445,
+  "output_tokens": 840,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Available indicators suggest that economic activity has been expanding at a moderate pace.\",\"after\":\"Available indicators suggest that economic activity has been expanding at a solid pace.\",\"direction\":\"hawkish\"},{\"before\":\"Job gains have slowed this year, and the unemployment rate has edged up through September.\",\"after\":\"Job gains have remained low, and the unemployment rate has shown some signs of stabilization.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has moved up since earlier in the year and remains somewhat elevated.\",\"after\":\"Inflation remains somewhat elevated.\",\"direction\":\"dovish\"},{\"before\":\"The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.\",\"after\":\"The Committee is attentive to the risks to both sides of its dual mandate.\",\"direction\":\"hawkish\"},{\"before\":\"In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.\",\"after\":\"In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.\",\"after\":\"\",\"direction\":\"neutral\"},{\"before\":\"Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.\",\"after\":\"Voting against this action were Stephen I. Miran and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee paused after a cut, upgraded growth to 'solid', noted unemployment stabilization and dropped the language on rising downside employment risks, all signalling a hawkish hold. Softer inflation wording and two dovish dissents partly offset this, and the forward guidance on future adjustments is unchanged, so the shift is moderate rather than a clear change in direction.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Available indicators suggest that economic activity has been expanding at a moderate pace.",
+    "after": "Available indicators suggest that economic activity has been expanding at a solid pace.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Job gains have slowed this year, and the unemployment rate has edged up through September.",
+    "after": "Job gains have remained low, and the unemployment rate has shown some signs of stabilization.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has moved up since earlier in the year and remains somewhat elevated.",
+    "after": "Inflation remains somewhat elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.",
+    "after": "The Committee is attentive to the risks to both sides of its dual mandate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.",
+    "after": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+    "after": "",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+    "after": "Voting against this action were Stephen I. Miran and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee paused after a cut, upgraded growth to 'solid', noted unemployment stabilization and dropped the language on rising downside employment risks, all signalling a hawkish hold. Softer inflation wording and two dovish dissents partly offset this, and the forward guidance on future adjustments is unchanged, so the shift is moderate rather than a clear change in direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Available indicators suggest that economic activity has been expanding at a moderate pace.",
+     "start": 0,
+     "end": 89
+    },
+    {
+     "quote": "Job gains have slowed this year, and the unemployment rate has edged up through September.",
+     "start": 91,
+     "end": 180
+    },
+    {
+     "quote": "Inflation has moved up since earlier in the year and remains somewhat elevated.",
+     "start": 245,
+     "end": 323
+    },
+    {
+     "quote": "The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.",
+     "start": 493,
+     "end": 633
+    },
+    {
+     "quote": "In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3‑3/4 percent.",
+     "start": 636,
+     "end": 835
+    },
+    {
+     "quote": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+     "start": 1715,
+     "end": 1921
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting; and Austan D. Goolsbee and Jeffrey R. Schmid, who preferred no change to the target range for the federal funds rate at this meeting.",
+     "start": 2159,
+     "end": 2449
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Available indicators suggest that economic activity has been expanding at a solid pace.",
+     "start": 0,
+     "end": 86
+    },
+    {
+     "quote": "Job gains have remained low, and the unemployment rate has shown some signs of stabilization.",
+     "start": 88,
+     "end": 180
+    },
+    {
+     "quote": "Inflation remains somewhat elevated.",
+     "start": 182,
+     "end": 217
+    },
+    {
+     "quote": "The Committee is attentive to the risks to both sides of its dual mandate.",
+     "start": 387,
+     "end": 460
+    },
+    {
+     "quote": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3‑1/2 to 3‑3/4 percent.",
+     "start": 463,
+     "end": 591
+    },
+    {
+     "quote": "Voting against this action were Stephen I. Miran and Christopher J. Waller, who preferred to lower the target range for the federal funds rate by 1/4 percentage point at this meeting.",
+     "start": 1707,
+     "end": 1889
+    }
+   ]
+  }
+ }
+}

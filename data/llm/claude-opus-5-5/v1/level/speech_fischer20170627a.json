@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20170627a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170627a",
+  "doc_type": "speech",
+  "text_sha256": "65b7f92943be24f6d298a99f3e9b4fa40eca56059ae3b0e8c921964e3b00a116"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d7b283417affb8318855557bf670b1b85dd516ca9c82fc4d3a214c0920508172",
+ "message_id": "msg_011CgFug9F8MC3mZ4UGDUjiy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4926,
+  "output_tokens": 375,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.3,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"overall, a range of indicators point to vulnerability that is moderate when compared with past periods\"},{\"dimension\":\"risk_balance\",\"quote\":\"the increase in prices of risky assets in most asset markets over the past six months points to a notable uptick in risk appetites\"},{\"dimension\":\"risk_balance\",\"quote\":\"So far, the evidently high risk appetite has not lead to increased leverage across the financial system, but close monitoring is warranted.\"},{\"dimension\":\"overall\",\"quote\":\"And we know that complacency must be avoided.\"}],\"rationale\":\"The speech is a financial stability assessment that notes elevated asset valuations and risk appetite but draws no monetary policy implications. It is scored as essentially neutral, with only a faint hawkish tinge from its concern about valuations.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.3,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "overall, a range of indicators point to vulnerability that is moderate when compared with past periods"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the increase in prices of risky assets in most asset markets over the past six months points to a notable uptick in risk appetites"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So far, the evidently high risk appetite has not lead to increased leverage across the financial system, but close monitoring is warranted."
+   },
+   {
+    "dimension": "overall",
+    "quote": "And we know that complacency must be avoided."
+   }
+  ],
+  "rationale": "The speech is a financial stability assessment that notes elevated asset valuations and risk appetite but draws no monetary policy implications. It is scored as essentially neutral, with only a faint hawkish tinge from its concern about valuations."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "overall, a range of indicators point to vulnerability that is moderate when compared with past periods",
+     "start": 7333,
+     "end": 7435
+    },
+    {
+     "quote": "the increase in prices of risky assets in most asset markets over the past six months points to a notable uptick in risk appetites",
+     "start": 7732,
+     "end": 7862
+    },
+    {
+     "quote": "So far, the evidently high risk appetite has not lead to increased leverage across the financial system, but close monitoring is warranted.",
+     "start": 15077,
+     "end": 15215
+    },
+    {
+     "quote": "And we know that complacency must be avoided.",
+     "start": 16338,
+     "end": 16382
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

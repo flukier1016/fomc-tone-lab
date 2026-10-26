@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20230710a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20230710a",
+  "doc_type": "speech",
+  "text_sha256": "4dd8ebe92c27b63cb8cb0b8f36ffa35570d53e9c81fb00d3cff9f5250abb6c39"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "72996c7485ece83fd756c16efe220eff679dd7f5174b439bc6a865f7afa8f6b7",
+ "message_id": "msg_011CgFugFipHqKMDznYTLzTe",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8004,
+  "output_tokens": 386,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I'm here to report on my holistic review of capital for large banks and to outline steps that I believe are appropriate to update our capital standards so that banks can continue to serve our communities, households, and businesses.\"},{\"dimension\":\"overall\",\"quote\":\"One can think of the proposal's more accurate risk measures as equivalent to requiring the largest banks hold an additional 2 percentage points of capital, or an additional $2 of capital for every $100 of risk-weighted assets.\"},{\"dimension\":\"overall\",\"quote\":\"For the reasons I have outlined today, we need to strengthen capital standards for large banks.\"}],\"rationale\":\"The speech is about bank capital regulation and supervision and does not address the policy rate, inflation, the labor market, or the Fed's balance sheet. It is low relevance, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I'm here to report on my holistic review of capital for large banks and to outline steps that I believe are appropriate to update our capital standards so that banks can continue to serve our communities, households, and businesses."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One can think of the proposal's more accurate risk measures as equivalent to requiring the largest banks hold an additional 2 percentage points of capital, or an additional $2 of capital for every $100 of risk-weighted assets."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For the reasons I have outlined today, we need to strengthen capital standards for large banks."
+   }
+  ],
+  "rationale": "The speech is about bank capital regulation and supervision and does not address the policy rate, inflation, the labor market, or the Fed's balance sheet. It is low relevance, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I'm here to report on my holistic review of capital for large banks and to outline steps that I believe are appropriate to update our capital standards so that banks can continue to serve our communities, households, and businesses.",
+     "start": 78,
+     "end": 309
+    },
+    {
+     "quote": "One can think of the proposal's more accurate risk measures as equivalent to requiring the largest banks hold an additional 2 percentage points of capital, or an additional $2 of capital for every $100 of risk-weighted assets.",
+     "start": 15510,
+     "end": 15735
+    },
+    {
+     "quote": "For the reasons I have outlined today, we need to strengthen capital standards for large banks.",
+     "start": 26476,
+     "end": 26570
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "presser_20150318",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20150318",
+  "doc_type": "presser",
+  "text_sha256": "09decbe93ea44cff304d44861202cf4c83b8b858211db2127c1c1dc3cc025fe6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "24279606c9e31f55c03966ed4ebb2803a6b717f57740b422f5d42a32959ed360",
+ "message_id": "msg_011CgFugCrRHkU6eFmq7H7VM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8830,
+  "output_tokens": 567,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"just because we removed the word “patient” from the statement doesn’t mean we are going to be impatient.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Compared with the projections made in December, most participants lowered their path for the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has declined further below our longer-run objective, largely reflecting the lower energy prices I just mentioned.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The pace of employment growth has remained strong, with job gains averaging nearly 290,000 per month over the past three months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"So there is a situation there of asymmetric risks, and it does point in the direction of waiting longer to raise rates.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from agency debt and mortgage-backed securities.\"}],\"rationale\":\"Although removing \\\"patient\\\" opens the door to a hike after April, the Chair works hard to downplay it: she stresses the rate path was lowered and inflation is below target, and she cites asymmetric zero-lower-bound risks that argue for waiting. Labor strength is acknowledged, but the net message is a dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "just because we removed the word “patient” from the statement doesn’t mean we are going to be impatient."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Compared with the projections made in December, most participants lowered their path for the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has declined further below our longer-run objective, largely reflecting the lower energy prices I just mentioned."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The pace of employment growth has remained strong, with job gains averaging nearly 290,000 per month over the past three months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "So there is a situation there of asymmetric risks, and it does point in the direction of waiting longer to raise rates."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from agency debt and mortgage-backed securities."
+   }
+  ],
+  "rationale": "Although removing \"patient\" opens the door to a hike after April, the Chair works hard to downplay it: she stresses the rate path was lowered and inflation is below target, and she cites asymmetric zero-lower-bound risks that argue for waiting. Labor strength is acknowledged, but the net message is a dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "just because we removed the word “patient” from the statement doesn’t mean we are going to be impatient.",
+     "start": 794,
+     "end": 897
+    },
+    {
+     "quote": "Compared with the projections made in December, most participants lowered their path for the federal funds rate",
+     "start": 7492,
+     "end": 7603
+    },
+    {
+     "quote": "Inflation has declined further below our longer-run objective, largely reflecting the lower energy prices I just mentioned.",
+     "start": 2937,
+     "end": 3059
+    },
+    {
+     "quote": "The pace of employment growth has remained strong, with job gains averaging nearly 290,000 per month over the past three months.",
+     "start": 1376,
+     "end": 1503
+    },
+    {
+     "quote": "So there is a situation there of asymmetric risks, and it does point in the direction of waiting longer to raise rates.",
+     "start": 14046,
+     "end": 14164
+    },
+    {
+     "quote": "Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from agency debt and mortgage-backed securities.",
+     "start": 9125,
+     "end": 9301
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20111110a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20111110a",
+  "doc_type": "speech",
+  "text_sha256": "4d68cf8d8a8359a918fb10c02f208c7404e48dedd390ccdf460c2807f684692d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cd960e971d5dd434db5a89a843897fd0c739e1d9d12f0ec5670fe0c8af0c731e",
+ "message_id": "msg_011CgFugDDkGuD1QF4vg3Pry",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3952,
+  "output_tokens": 544,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"with unemployment currently at 9 percent, our economy is certainly falling far short of maximum employment.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"That high unemployment rate is why the Federal Reserve is focusing its monetary policy at strengthening the recovery and job creation, including keeping short-term interest rates near zero\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation appears to be moderating, and we expect, based on the best information that we have today, that it will remain reasonably close to our objective of 2 percent or a bit less for the foreseeable future.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We will sell the securities back into the market or simply allow them to mature as part of the process of tightening monetary policy when the economy improves.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate remains painfully high, and more than two-fifths of the unemployed have been out of work for longer than six months\"}],\"rationale\":\"Bernanke stresses painfully high unemployment and moderating inflation, justifying near-zero rates and asset holdings to support job creation. The address is partly a general-audience talk on consumer protections, so the dovish signal is moderate rather than an explicit new easing signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "with unemployment currently at 9 percent, our economy is certainly falling far short of maximum employment."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "That high unemployment rate is why the Federal Reserve is focusing its monetary policy at strengthening the recovery and job creation, including keeping short-term interest rates near zero"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation appears to be moderating, and we expect, based on the best information that we have today, that it will remain reasonably close to our objective of 2 percent or a bit less for the foreseeable future."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We will sell the securities back into the market or simply allow them to mature as part of the process of tightening monetary policy when the economy improves."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate remains painfully high, and more than two-fifths of the unemployed have been out of work for longer than six months"
+   }
+  ],
+  "rationale": "Bernanke stresses painfully high unemployment and moderating inflation, justifying near-zero rates and asset holdings to support job creation. The address is partly a general-audience talk on consumer protections, so the dovish signal is moderate rather than an explicit new easing signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "with unemployment currently at 9 percent, our economy is certainly falling far short of maximum employment.",
+     "start": 4883,
+     "end": 4989
+    },
+    {
+     "quote": "That high unemployment rate is why the Federal Reserve is focusing its monetary policy at strengthening the recovery and job creation, including keeping short-term interest rates near zero",
+     "start": 4991,
+     "end": 5179
+    },
+    {
+     "quote": "inflation appears to be moderating, and we expect, based on the best information that we have today, that it will remain reasonably close to our objective of 2 percent or a bit less for the foreseeable future.",
+     "start": 4031,
+     "end": 4239
+    },
+    {
+     "quote": "We will sell the securities back into the market or simply allow them to mature as part of the process of tightening monetary policy when the economy improves.",
+     "start": 5950,
+     "end": 6108
+    },
+    {
+     "quote": "The unemployment rate remains painfully high, and more than two-fifths of the unemployed have been out of work for longer than six months",
+     "start": 2804,
+     "end": 2941
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_stein20130628a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_stein20130628a",
+  "doc_type": "speech",
+  "text_sha256": "199c98440d27afadf76d8715c22c0a473d402dc6b99867c888dc302754e5a38f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b943a1a81d5f93e925842df7cde7a771c19cb8acfca76180768fd2eeae9712c5",
+ "message_id": "msg_011CgFugG3uPB9ZQavBQmVkR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3389,
+  "output_tokens": 539,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the asset purchase program might be expected to wrap up when unemployment falls to the 7 percent range\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"both the current state of the labor market, as well as the outlook, have improved since September 2012.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"If, for example, inflation readings continue to be on the soft side, we will have greater scope for keeping the funds rate at its effective lower bound even beyond the point when unemployment drops below 6.5percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Nothing we have said suggests a change in our reaction function for the path of the short-term policy rate\"},{\"dimension\":\"overall\",\"quote\":\"I view the fundamentals of our underlying policy stance as broadly unchanged.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I have been particularly concerned about risks relating to financial stability\"}],\"rationale\":\"Stein endorses clarifying the taper endpoint and suggests a September adjustment based on accumulated labor-market progress, which leans hawkish on the balance sheet. He offsets this by stressing that the rate path is unchanged, that soft inflation could extend the zero lower bound, and that the overall stance is broadly unchanged.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the asset purchase program might be expected to wrap up when unemployment falls to the 7 percent range"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "both the current state of the labor market, as well as the outlook, have improved since September 2012."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "If, for example, inflation readings continue to be on the soft side, we will have greater scope for keeping the funds rate at its effective lower bound even beyond the point when unemployment drops below 6.5percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Nothing we have said suggests a change in our reaction function for the path of the short-term policy rate"
+   },
+   {
+    "dimension": "overall",
+    "quote": "I view the fundamentals of our underlying policy stance as broadly unchanged."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I have been particularly concerned about risks relating to financial stability"
+   }
+  ],
+  "rationale": "Stein endorses clarifying the taper endpoint and suggests a September adjustment based on accumulated labor-market progress, which leans hawkish on the balance sheet. He offsets this by stressing that the rate path is unchanged, that soft inflation could extend the zero lower bound, and that the overall stance is broadly unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the asset purchase program might be expected to wrap up when unemployment falls to the 7 percent range",
+     "start": 3876,
+     "end": 3978
+    },
+    {
+     "quote": "both the current state of the labor market, as well as the outlook, have improved since September 2012.",
+     "start": 2246,
+     "end": 2348
+    },
+    {
+     "quote": "If, for example, inflation readings continue to be on the soft side, we will have greater scope for keeping the funds rate at its effective lower bound even beyond the point when unemployment drops below 6.5percent.",
+     "start": 8669,
+     "end": 8883
+    },
+    {
+     "quote": "Nothing we have said suggests a change in our reaction function for the path of the short-term policy rate",
+     "start": 10405,
+     "end": 10511
+    },
+    {
+     "quote": "I view the fundamentals of our underlying policy stance as broadly unchanged.",
+     "start": 11369,
+     "end": 11445
+    },
+    {
+     "quote": "I have been particularly concerned about risks relating to financial stability",
+     "start": 3215,
+     "end": 3293
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

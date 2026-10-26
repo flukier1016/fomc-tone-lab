@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20130501",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20130501",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "8ca0fda16b6b81f06a42864fe1728a7ce968b0525544b906de6f63cd7fb953b4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c4bdf3b5a83bbcb6e6de88eb7e1b6923c9ca7db0c2c8b442432fa5c67e971b5b",
+ "message_id": "msg_011CgFudRUrVjNqiJnxoGxDc",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 12494,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"A number of participants expressed willingness to adjust the flow of purchases downward as early as the [MONTH] meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see downside risks to the economic outlook.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"all but one member judged that a highly accommodative stance of monetary policy was warranted in order to foster a stronger economic recovery in a context of price stability.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic data releases over the intermeeting period were mixed, raising some concern that the recovery might be slowing after a solid start earlier this year\"}],\"rationale\":\"The minutes maintain highly accommodative policy with continued purchases, emphasize below-target inflation and downside growth risks, and keep two-way purchase flexibility. Some members' willingness to taper soon and financial-stability concerns temper the dovish tone.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "A number of participants expressed willingness to adjust the flow of purchases downward as early as the [MONTH] meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see downside risks to the economic outlook."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "all but one member judged that a highly accommodative stance of monetary policy was warranted in order to foster a stronger economic recovery in a context of price stability."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic data releases over the intermeeting period were mixed, raising some concern that the recovery might be slowing after a solid start earlier this year"
+   }
+  ],
+  "rationale": "The minutes maintain highly accommodative policy with continued purchases, emphasize below-target inflation and downside growth risks, and keep two-way purchase flexibility. Some members' willingness to taper soon and financial-stability concerns temper the dovish tone."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A number of participants expressed willingness to adjust the flow of purchases downward as early as the [MONTH] meeting if the economic information received by that time showed evidence of sufficiently strong and sustained growth",
+     "start": 27036,
+     "end": 27265
+    },
+    {
+     "quote": "a number of participants expressed concern that inflation was below the Committee's target and stressed that future price developments bore careful watching.",
+     "start": 23681,
+     "end": 23837
+    },
+    {
+     "quote": "The Committee continues to see downside risks to the economic outlook.",
+     "start": 34086,
+     "end": 34155
+    },
+    {
+     "quote": "all but one member judged that a highly accommodative stance of monetary policy was warranted in order to foster a stronger economic recovery in a context of price stability.",
+     "start": 29293,
+     "end": 29466
+    },
+    {
+     "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+     "start": 35410,
+     "end": 35585
+    },
+    {
+     "quote": "economic data releases over the intermeeting period were mixed, raising some concern that the recovery might be slowing after a solid start earlier this year",
+     "start": 17578,
+     "end": 17735
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

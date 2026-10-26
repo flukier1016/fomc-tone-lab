@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20120620",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120620",
+  "doc_type": "minutes",
+  "text_sha256": "3ebc6c145f5f37f539034cee49bda98e71799f63e8e41fabd9188dabd631c200"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4676863fc6c0c3701221a8c1e1d437c9559f8ff624ed80fd2b11b90198b3848c",
+ "message_id": "msg_011CgG2AnYwMKffszAkPM26P",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13354,
+  "output_tokens": 591,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"strains in global financial markets continue to pose significant downside risks to the economic outlook\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate that the Committee judges to be most consistent with its mandate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Improvements in labor market conditions slowed in recent months, and the unemployment rate remained elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.\"}],\"rationale\":\"The minutes describe an extension of the maturity extension program, low rates guidance through late 2014, significant downside risks, and several participants seeing further stimulus as likely necessary or warranted. Inflation is characterized as subdued, with only a few participants raising hawkish concerns.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate that the Committee judges to be most consistent with its mandate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Improvements in labor market conditions slowed in recent months, and the unemployment rate remained elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability."
+   }
+  ],
+  "rationale": "The minutes describe an extension of the maturity extension program, low rates guidance through late 2014, significant downside risks, and several participants seeing further stimulus as likely necessary or warranted. Inflation is characterized as subdued, with only a few participants raising hawkish concerns."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal.",
+     "start": 38275,
+     "end": 38478
+    },
+    {
+     "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook",
+     "start": 42576,
+     "end": 42679
+    },
+    {
+     "quote": "almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate that the Committee judges to be most consistent with its mandate",
+     "start": 30408,
+     "end": 30606
+    },
+    {
+     "quote": "Improvements in labor market conditions slowed in recent months, and the unemployment rate remained elevated.",
+     "start": 1450,
+     "end": 1558
+    },
+    {
+     "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.",
+     "start": 43424,
+     "end": 43563
+    },
+    {
+     "quote": "The Committee is prepared to take further action as appropriate to promote a stronger economic recovery and sustained improvement in labor market conditions in a context of price stability.",
+     "start": 44192,
+     "end": 44380
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

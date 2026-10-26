@@ -1,0 +1,21 @@
+{
+  "name": "Ink and vermilion: Georgia headlines, Arial for everything else",
+  "fonts": {
+    "display": "Georgia",
+    "text": "Arial",
+    "displayBold": false
+  },
+  "palette": {
+    "ink": "#151312",
+    "body": "#45413C",
+    "label": "#55504A",
+    "muted": "#78726B",
+    "paper": "#FFFEFB",
+    "soft": "#F3F0E9",
+    "rule": "#DDD8CF",
+    "accent": "#C8401F",
+    "highlight": "#ECE8E1",
+    "ok": "#0D6332",
+    "no": "#AE2513"
+  }
+}

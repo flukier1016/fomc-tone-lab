@@ -1,0 +1,154 @@
+{
+ "key": "statement_20151028",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20151028",
+  "previous_doc_id": "statement_20150917",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "efa48429f6e8a2b5e6eddf45259a09bb3a3389569f47b15f65c591535c24f982",
+ "message_id": "msg_011CgFudUWv6Bysn1o1VdXFz",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2386,
+  "output_tokens": 485,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"In determining how long to maintain this target range, the Committee will assess progress\",\"after\":\"In determining whether it will be appropriate to raise the target range at its next meeting, the Committee will assess progress\",\"direction\":\"hawkish\"},{\"before\":\"Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term. Nonetheless, the Committee expects\",\"after\":\"The Committee expects\",\"direction\":\"hawkish\"},{\"before\":\"but is monitoring developments abroad.\",\"after\":\"but is monitoring global economic and financial developments.\",\"direction\":\"neutral\"},{\"before\":\"Household spending and business fixed investment have been increasing moderately\",\"after\":\"Household spending and business fixed investment have been increasing at solid rates in recent months\",\"direction\":\"hawkish\"},{\"before\":\"The labor market continued to improve, with solid job gains and declining unemployment.\",\"after\":\"The pace of job gains slowed and the unemployment rate held steady.\",\"direction\":\"dovish\"},{\"before\":\"Market-based measures of inflation compensation moved lower\",\"after\":\"Market-based measures of inflation compensation moved slightly lower\",\"direction\":\"hawkish\"}],\"rationale\":\"The explicit reference to raising rates 'at its next meeting' and the removal of the warning about global developments restraining activity and inflation signal a clear move toward a near-term hike. These outweigh the softer labor-market description.\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "In determining how long to maintain this target range, the Committee will assess progress",
+    "after": "In determining whether it will be appropriate to raise the target range at its next meeting, the Committee will assess progress",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term. Nonetheless, the Committee expects",
+    "after": "The Committee expects",
+    "direction": "hawkish"
+   },
+   {
+    "before": "but is monitoring developments abroad.",
+    "after": "but is monitoring global economic and financial developments.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Household spending and business fixed investment have been increasing moderately",
+    "after": "Household spending and business fixed investment have been increasing at solid rates in recent months",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The labor market continued to improve, with solid job gains and declining unemployment.",
+    "after": "The pace of job gains slowed and the unemployment rate held steady.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation moved lower",
+    "after": "Market-based measures of inflation compensation moved slightly lower",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The explicit reference to raising rates 'at its next meeting' and the removal of the warning about global developments restraining activity and inflation signal a clear move toward a near-term hike. These outweigh the softer labor-market description."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In determining how long to maintain this target range, the Committee will assess progress",
+     "start": 2057,
+     "end": 2146
+    },
+    {
+     "quote": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term. Nonetheless, the Committee expects",
+     "start": 919,
+     "end": 1122
+    },
+    {
+     "quote": "but is monitoring developments abroad.",
+     "start": 1453,
+     "end": 1490
+    },
+    {
+     "quote": "Household spending and business fixed investment have been increasing moderately",
+     "start": 138,
+     "end": 218
+    },
+    {
+     "quote": "The labor market continued to improve, with solid job gains and declining unemployment.",
+     "start": 302,
+     "end": 388
+    },
+    {
+     "quote": "Market-based measures of inflation compensation moved lower",
+     "start": 666,
+     "end": 725
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In determining whether it will be appropriate to raise the target range at its next meeting, the Committee will assess progress",
+     "start": 1933,
+     "end": 2060
+    },
+    {
+     "quote": "The Committee expects",
+     "start": 954,
+     "end": 975
+    },
+    {
+     "quote": "but is monitoring global economic and financial developments.",
+     "start": 1306,
+     "end": 1366
+    },
+    {
+     "quote": "Household spending and business fixed investment have been increasing at solid rates in recent months",
+     "start": 149,
+     "end": 250
+    },
+    {
+     "quote": "The pace of job gains slowed and the unemployment rate held steady.",
+     "start": 334,
+     "end": 400
+    },
+    {
+     "quote": "Market-based measures of inflation compensation moved slightly lower",
+     "start": 692,
+     "end": 760
+    }
+   ]
+  }
+ }
+}

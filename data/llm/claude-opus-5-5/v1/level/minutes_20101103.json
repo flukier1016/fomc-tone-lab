@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20101103",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20101103",
+  "doc_type": "minutes",
+  "text_sha256": "cb2dc62631b282cd0b6599a52c3726cfc7de5ec567f830f5f8f1d668e79d66b6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "40443ca93f288675049caf6fdf6a49135b461c9120b5c1929a14c4d87bc2d216",
+ "message_id": "msg_011CgFugDEExtJu2qo88yciA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12732,
+  "output_tokens": 522,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"intended to purchase a further $600 billion of longer-term Treasury securities at a pace of about $75 billion per month through the second quarter of 2011\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Most participants indicated that underlying inflation was somewhat low relative to levels that they judged to be consistent with the Committee's statutory mandate to foster maximum employment and price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants agreed that progress in reducing unemployment was disappointing\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most saw the risks to growth as broadly balanced, but many saw the risks as tilted to the downside.\"}],\"rationale\":\"The minutes describe the QE2 launch of $600 billion in Treasury purchases, extended-period low-rate guidance, disappointingly slow progress on unemployment, and inflation below mandate-consistent levels. Some participants raised inflation concerns and there was one hawkish dissent, but the overall signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "intended to purchase a further $600 billion of longer-term Treasury securities at a pace of about $75 billion per month through the second quarter of 2011"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Most participants indicated that underlying inflation was somewhat low relative to levels that they judged to be consistent with the Committee's statutory mandate to foster maximum employment and price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants agreed that progress in reducing unemployment was disappointing"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most saw the risks to growth as broadly balanced, but many saw the risks as tilted to the downside."
+   }
+  ],
+  "rationale": "The minutes describe the QE2 launch of $600 billion in Treasury purchases, extended-period low-rate guidance, disappointingly slow progress on unemployment, and inflation below mandate-consistent levels. Some participants raised inflation concerns and there was one hawkish dissent, but the overall signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "intended to purchase a further $600 billion of longer-term Treasury securities at a pace of about $75 billion per month through the second quarter of 2011",
+     "start": 34072,
+     "end": 34226
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 38960,
+     "end": 39056
+    },
+    {
+     "quote": "Most participants indicated that underlying inflation was somewhat low relative to levels that they judged to be consistent with the Committee's statutory mandate to foster maximum employment and price stability.",
+     "start": 28766,
+     "end": 28977
+    },
+    {
+     "quote": "Participants agreed that progress in reducing unemployment was disappointing",
+     "start": 25668,
+     "end": 25744
+    },
+    {
+     "quote": "Most saw the risks to growth as broadly balanced, but many saw the risks as tilted to the downside.",
+     "start": 30666,
+     "end": 30764
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

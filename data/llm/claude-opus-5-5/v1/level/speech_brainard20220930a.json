@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20220930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20220930a",
+  "doc_type": "speech",
+  "text_sha256": "f52ff050504fdf7f3d4d64b62c615287ca08664d4b972dcc97f56887fe0f22a4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "af00f6203b7967a6d9daabdf1d04185e55fb8581572888871a87e28a5ef17949",
+ "message_id": "msg_011CgFugAzJr8f8nX7sJ9RBB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3363,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":null,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Monetary policy will need to be restrictive for some time to have confidence that inflation is moving back to target. For these reasons, we are committed to avoiding pulling back prematurely.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is very high in the United States and abroad, and the risk of additional inflationary shocks cannot be ruled out.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We also recognize that risks may become more two sided at some point.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"beginning this month, balance sheet shrinkage accelerated to its maximum rate of up to $60 billion in Treasury securities per month\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Proceeding deliberately and in a data-dependent manner will enable us to learn how economic activity and inflation are adjusting to the cumulative tightening\"}],\"rationale\":\"The speech emphasizes very high inflation, a commitment to keeping policy restrictive, and avoiding a premature pullback, which is hawkish. That lean is tempered by attention to global spillovers, financial vulnerabilities, risks becoming two-sided, and a deliberate, data-dependent pace.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": null,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Monetary policy will need to be restrictive for some time to have confidence that inflation is moving back to target. For these reasons, we are committed to avoiding pulling back prematurely."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is very high in the United States and abroad, and the risk of additional inflationary shocks cannot be ruled out."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We also recognize that risks may become more two sided at some point."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "beginning this month, balance sheet shrinkage accelerated to its maximum rate of up to $60 billion in Treasury securities per month"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Proceeding deliberately and in a data-dependent manner will enable us to learn how economic activity and inflation are adjusting to the cumulative tightening"
+   }
+  ],
+  "rationale": "The speech emphasizes very high inflation, a commitment to keeping policy restrictive, and avoiding a premature pullback, which is hawkish. That lean is tempered by attention to global spillovers, financial vulnerabilities, risks becoming two-sided, and a deliberate, data-dependent pace."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Monetary policy will need to be restrictive for some time to have confidence that inflation is moving back to target. For these reasons, we are committed to avoiding pulling back prematurely.",
+     "start": 10352,
+     "end": 10542
+    },
+    {
+     "quote": "Inflation is very high in the United States and abroad, and the risk of additional inflationary shocks cannot be ruled out.",
+     "start": 924,
+     "end": 1046
+    },
+    {
+     "quote": "We also recognize that risks may become more two sided at some point.",
+     "start": 10544,
+     "end": 10612
+    },
+    {
+     "quote": "beginning this month, balance sheet shrinkage accelerated to its maximum rate of up to $60 billion in Treasury securities per month",
+     "start": 3019,
+     "end": 3150
+    },
+    {
+     "quote": "Proceeding deliberately and in a data-dependent manner will enable us to learn how economic activity and inflation are adjusting to the cumulative tightening",
+     "start": 10750,
+     "end": 10907
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20241112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20241112a",
+  "doc_type": "speech",
+  "text_sha256": "ec6aa940e1c580f28eb3663c78a45922acc543369bfc890c5ba3c35166918103"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "62f6a1374af730174334ad2ebcce4274cd147bbb8d14f001b30811b7bfc44987",
+ "message_id": "msg_011CgFug8mrHuMLuX8er15Zm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3992,
+  "output_tokens": 314,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"what roles should the private sector and the Federal Reserve play in payments?\"},{\"dimension\":\"overall\",\"quote\":\"In more than three years, I have yet to hear a satisfactory answer as applied to CBDC.\"},{\"dimension\":\"overall\",\"quote\":\"The role we're playing with FedNow is to help with that coordination problem using our existing connections to those thousands of institutions.\"}],\"rationale\":\"The speech addresses the history of payments and the respective roles of the private sector and the Fed, and it says nothing about monetary policy, inflation or economic conditions. It therefore carries no stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "what roles should the private sector and the Federal Reserve play in payments?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In more than three years, I have yet to hear a satisfactory answer as applied to CBDC."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The role we're playing with FedNow is to help with that coordination problem using our existing connections to those thousands of institutions."
+   }
+  ],
+  "rationale": "The speech addresses the history of payments and the respective roles of the private sector and the Fed, and it says nothing about monetary policy, inflation or economic conditions. It therefore carries no stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "what roles should the private sector and the Federal Reserve play in payments?",
+     "start": 219,
+     "end": 297
+    },
+    {
+     "quote": "In more than three years, I have yet to hear a satisfactory answer as applied to CBDC.",
+     "start": 1939,
+     "end": 2024
+    },
+    {
+     "quote": "The role we're playing with FedNow is to help with that coordination problem using our existing connections to those thousands of institutions.",
+     "start": 11069,
+     "end": 11211
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

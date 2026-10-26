@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20230120a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20230120a",
+  "doc_type": "speech",
+  "text_sha256": "fd623a0bac4cb2399eac66c225942bf3aabf0812e776864e2122e2674853b7cd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9e58f9ab60b5020550dcaffff2818017d3c50a4366c81550415685ea66a53b62",
+ "message_id": "msg_011CgFugF7rCFqHQDbbNPHsU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3463,
+  "output_tokens": 478,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"so I currently favor a 25-basis point increase at the FOMC's next meeting at the end of this month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we still have a considerable way to go toward our 2 percent inflation goal, and I expect to support continued tightening of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Now, here's why I am cautious about these latest results and why I am not ready yet to substantially alter my outlook for inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We do not want to be head-faked. I will be looking for the recent improvement in headline and core inflation to continue.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"A robust labor market, despite modest economic growth, is a plus for workers and allows the Fed to focus on lowering inflation.\"}],\"rationale\":\"The speaker supports continued tightening and is cautious about declaring victory on inflation, though she favors slowing hikes to 25 bp, which tempers the hawkishness. A strong labor market is seen as allowing further tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "so I currently favor a 25-basis point increase at the FOMC's next meeting at the end of this month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we still have a considerable way to go toward our 2 percent inflation goal, and I expect to support continued tightening of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Now, here's why I am cautious about these latest results and why I am not ready yet to substantially alter my outlook for inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We do not want to be head-faked. I will be looking for the recent improvement in headline and core inflation to continue."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "A robust labor market, despite modest economic growth, is a plus for workers and allows the Fed to focus on lowering inflation."
+   }
+  ],
+  "rationale": "The speaker supports continued tightening and is cautious about declaring victory on inflation, though she favors slowing hikes to 25 bp, which tempers the hawkishness. A strong labor market is seen as allowing further tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "so I currently favor a 25-basis point increase at the FOMC's next meeting at the end of this month.",
+     "start": 10852,
+     "end": 10950
+    },
+    {
+     "quote": "we still have a considerable way to go toward our 2 percent inflation goal, and I expect to support continued tightening of monetary policy.",
+     "start": 10965,
+     "end": 11104
+    },
+    {
+     "quote": "Now, here's why I am cautious about these latest results and why I am not ready yet to substantially alter my outlook for inflation.",
+     "start": 7778,
+     "end": 7909
+    },
+    {
+     "quote": "We do not want to be head-faked. I will be looking for the recent improvement in headline and core inflation to continue.",
+     "start": 8698,
+     "end": 8818
+    },
+    {
+     "quote": "A robust labor market, despite modest economic growth, is a plus for workers and allows the Fed to focus on lowering inflation.",
+     "start": 4327,
+     "end": 4453
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

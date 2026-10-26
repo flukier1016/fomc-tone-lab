@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20231018a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20231018a",
+  "doc_type": "speech",
+  "text_sha256": "b4d9cd8abf30d159a5eefb0fd709bbaf2e65eb7b93062894820d80bd8960dcf2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e32351970180c2e7452955d14bd9fd52bc079f76a3e8462a84f7292c94a6681a",
+ "message_id": "msg_011CgFug94icsiDZ6kqkLW35",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1367,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has come down, but we know that it is still too high, and it can be especially difficult for those least able to manage the higher costs of essentials like food, housing, and transportation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"My colleagues and I are highly focused on returning inflation to 2 percent.\"},{\"dimension\":\"overall\",\"quote\":\"These discussions help us gain a deeper understanding of the ongoing burden from high inflation\"}],\"rationale\":\"These are mostly introductory remarks for a Fed Listens event, with no guidance on the policy path, but they note that inflation remains too high and that the Fed is focused on returning it to 2 percent. The net signal is only a slight hawkish lean, mainly on inflation.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has come down, but we know that it is still too high, and it can be especially difficult for those least able to manage the higher costs of essentials like food, housing, and transportation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "My colleagues and I are highly focused on returning inflation to 2 percent."
+   },
+   {
+    "dimension": "overall",
+    "quote": "These discussions help us gain a deeper understanding of the ongoing burden from high inflation"
+   }
+  ],
+  "rationale": "These are mostly introductory remarks for a Fed Listens event, with no guidance on the policy path, but they note that inflation remains too high and that the Fed is focused on returning it to 2 percent. The net signal is only a slight hawkish lean, mainly on inflation."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation has come down, but we know that it is still too high, and it can be especially difficult for those least able to manage the higher costs of essentials like food, housing, and transportation.",
+     "start": 2057,
+     "end": 2256
+    },
+    {
+     "quote": "My colleagues and I are highly focused on returning inflation to 2 percent.",
+     "start": 2258,
+     "end": 2332
+    },
+    {
+     "quote": "These discussions help us gain a deeper understanding of the ongoing burden from high inflation",
+     "start": 1120,
+     "end": 1215
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

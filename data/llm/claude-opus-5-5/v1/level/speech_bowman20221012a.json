@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20221012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20221012a",
+  "doc_type": "speech",
+  "text_sha256": "55cc935bc6e9e8a1dc1583ea208e0c6c3b0e2c4040f48aadf616dda1347e09b3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "21f0f37ea7fd193408fdf4076ecf1d73fa96eef0307cd81e72f2ab5cf27e1e82",
+ "message_id": "msg_011CgFugGDq68B15s3mWsdyu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5465,
+  "output_tokens": 503,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is much too high, and I strongly believe that bringing inflation back to our target is a necessary condition for meeting the goals mandated by Congress\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If we do not see signs that inflation is moving down, my view continues to be that sizable increases in the target range for the federal funds rate should remain on the table.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"To bring inflation down in a consistent and lasting way, the federal funds rate will need to move up to a restrictive level and remain there for some time.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The second is that the outlook for inflation and economic activity is especially uncertain, with significant two-sided risks.\"},{\"dimension\":\"overall\",\"quote\":\"first, to continue to stress our unwavering resolve to do what is needed to restore price stability.\"}],\"rationale\":\"The speaker stresses that inflation is much too high and that rates must reach a restrictive level and stay there, with sizable hikes still on the table. That hawkish lean is tempered by openness to a slower pace if inflation declines and by the speech's focus on the methodology of forward guidance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is much too high, and I strongly believe that bringing inflation back to our target is a necessary condition for meeting the goals mandated by Congress"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If we do not see signs that inflation is moving down, my view continues to be that sizable increases in the target range for the federal funds rate should remain on the table."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "To bring inflation down in a consistent and lasting way, the federal funds rate will need to move up to a restrictive level and remain there for some time."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The second is that the outlook for inflation and economic activity is especially uncertain, with significant two-sided risks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "first, to continue to stress our unwavering resolve to do what is needed to restore price stability."
+   }
+  ],
+  "rationale": "The speaker stresses that inflation is much too high and that rates must reach a restrictive level and stay there, with sizable hikes still on the table. That hawkish lean is tempered by openness to a slower pace if inflation declines and by the speech's focus on the methodology of forward guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation is much too high, and I strongly believe that bringing inflation back to our target is a necessary condition for meeting the goals mandated by Congress",
+     "start": 690,
+     "end": 851
+    },
+    {
+     "quote": "If we do not see signs that inflation is moving down, my view continues to be that sizable increases in the target range for the federal funds rate should remain on the table.",
+     "start": 1144,
+     "end": 1318
+    },
+    {
+     "quote": "To bring inflation down in a consistent and lasting way, the federal funds rate will need to move up to a restrictive level and remain there for some time.",
+     "start": 1425,
+     "end": 1579
+    },
+    {
+     "quote": "The second is that the outlook for inflation and economic activity is especially uncertain, with significant two-sided risks.",
+     "start": 11242,
+     "end": 11366
+    },
+    {
+     "quote": "first, to continue to stress our unwavering resolve to do what is needed to restore price stability.",
+     "start": 18041,
+     "end": 18140
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

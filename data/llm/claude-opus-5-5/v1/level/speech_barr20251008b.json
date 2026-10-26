@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20251008b",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251008b",
+  "doc_type": "speech",
+  "text_sha256": "b256f926be5256f4b36a2874f689975f628ab8516b591abde15fcd95218b3b4d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6356b1461d36f80c33c60c6ae30e01acd886aa2e0d67dcf93f7f1db1077a1a52",
+ "message_id": "msg_011CgFugDtRsQWzosqHYM3ow",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3167,
+  "output_tokens": 307,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"As members of the Federal Open Market Committee, my colleagues and I decide on the appropriate setting for monetary policy.\"},{\"dimension\":\"overall\",\"quote\":\"As important as it is, monetary policy isn't the main thing that matters to a healthy economy.\"},{\"dimension\":\"overall\",\"quote\":\"We see signs of progress, including positive trends in Native American employment and household income.\"}],\"rationale\":\"The speech focuses on community development and data in Indian Country and offers no view on the policy rate, inflation, or the aggregate outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "As members of the Federal Open Market Committee, my colleagues and I decide on the appropriate setting for monetary policy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As important as it is, monetary policy isn't the main thing that matters to a healthy economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We see signs of progress, including positive trends in Native American employment and household income."
+   }
+  ],
+  "rationale": "The speech focuses on community development and data in Indian Country and offers no view on the policy rate, inflation, or the aggregate outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "As members of the Federal Open Market Committee, my colleagues and I decide on the appropriate setting for monetary policy.",
+     "start": 8019,
+     "end": 8141
+    },
+    {
+     "quote": "As important as it is, monetary policy isn't the main thing that matters to a healthy economy.",
+     "start": 8439,
+     "end": 8532
+    },
+    {
+     "quote": "We see signs of progress, including positive trends in Native American employment and household income.",
+     "start": 4930,
+     "end": 5032
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

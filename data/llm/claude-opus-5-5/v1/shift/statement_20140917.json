@@ -1,0 +1,154 @@
+{
+ "key": "statement_20140917",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20140917",
+  "previous_doc_id": "statement_20140730",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "06fbd2f208b97bbb1a0af0efc7720df1d46be3c258a49fb734e4d9032e41cd86",
+ "message_id": "msg_011CgFue3RLELHm59fHJixaC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 3501,
+  "output_tokens": 780,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Labor market conditions improved, with the unemployment rate declining further.\",\"after\":\"On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed\",\"direction\":\"dovish\"},{\"before\":\"Inflation has moved somewhat closer to the Committee's longer-run objective.\",\"after\":\"Inflation has been running below the Committee's longer-run objective.\",\"direction\":\"dovish\"},{\"before\":\"judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat.\",\"after\":\"judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.\",\"direction\":\"dovish\"},{\"before\":\"Beginning in August, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $10 billion per month rather than $15 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $15 billion per month rather than $20 billion per month.\",\"after\":\"Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.\",\"direction\":\"neutral\"},{\"before\":\"the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings.\",\"after\":\"the Committee will end its current program of asset purchases at its next meeting.\",\"direction\":\"hawkish\"},{\"before\":\"Voting against was Charles I. Plosser who objected\",\"after\":\"Voting against the action were Richard W. Fisher and Charles I. Plosser. President Fisher believed that the continued strengthening of the real economy, improved outlook for labor utilization and for general price stability, and continued signs of financial market excess, will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance.\",\"direction\":\"hawkish\"}],\"rationale\":\"The explicit signal to end asset purchases at the next meeting and a second hawkish dissent are offset by softer descriptions of inflation and unemployment, while the 'considerable time' rate guidance is retained unchanged. The taper step itself was expected, so the net policy signal is roughly unchanged.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Labor market conditions improved, with the unemployment rate declining further.",
+    "after": "On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed",
+    "direction": "dovish"
+   },
+   {
+    "before": "Inflation has moved somewhat closer to the Committee's longer-run objective.",
+    "after": "Inflation has been running below the Committee's longer-run objective.",
+    "direction": "dovish"
+   },
+   {
+    "before": "judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat.",
+    "after": "judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Beginning in August, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $10 billion per month rather than $15 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $15 billion per month rather than $20 billion per month.",
+    "after": "Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings.",
+    "after": "the Committee will end its current program of asset purchases at its next meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Voting against was Charles I. Plosser who objected",
+    "after": "Voting against the action were Richard W. Fisher and Charles I. Plosser. President Fisher believed that the continued strengthening of the real economy, improved outlook for labor utilization and for general price stability, and continued signs of financial market excess, will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The explicit signal to end asset purchases at the next meeting and a second hawkish dissent are offset by softer descriptions of inflation and unemployment, while the 'considerable time' rate guidance is retained unchanged. The taper step itself was expected, so the net policy signal is roughly unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Labor market conditions improved, with the unemployment rate declining further.",
+     "start": 149,
+     "end": 227
+    },
+    {
+     "quote": "Inflation has moved somewhat closer to the Committee's longer-run objective.",
+     "start": 595,
+     "end": 670
+    },
+    {
+     "quote": "judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat.",
+     "start": 1185,
+     "end": 1285
+    },
+    {
+     "quote": "Beginning in August, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $10 billion per month rather than $15 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $15 billion per month rather than $20 billion per month.",
+     "start": 1725,
+     "end": 2024
+    },
+    {
+     "quote": "the Committee will likely reduce the pace of asset purchases in further measured steps at future meetings.",
+     "start": 3208,
+     "end": 3313
+    },
+    {
+     "quote": "Voting against was Charles I. Plosser who objected",
+     "start": 5338,
+     "end": 5388
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "On balance, labor market conditions improved somewhat further; however, the unemployment rate is little changed",
+     "start": 138,
+     "end": 249
+    },
+    {
+     "quote": "Inflation has been running below the Committee's longer-run objective.",
+     "start": 611,
+     "end": 680
+    },
+    {
+     "quote": "judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+     "start": 1195,
+     "end": 1317
+    },
+    {
+     "quote": "Beginning in October, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $5 billion per month rather than $10 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $10 billion per month rather than $15 billion per month.",
+     "start": 1757,
+     "end": 2056
+    },
+    {
+     "quote": "the Committee will end its current program of asset purchases at its next meeting.",
+     "start": 3240,
+     "end": 3321
+    },
+    {
+     "quote": "Voting against the action were Richard W. Fisher and Charles I. Plosser. President Fisher believed that the continued strengthening of the real economy, improved outlook for labor utilization and for general price stability, and continued signs of financial market excess, will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance.",
+     "start": 5327,
+     "end": 5727
+    }
+   ]
+  }
+ }
+}

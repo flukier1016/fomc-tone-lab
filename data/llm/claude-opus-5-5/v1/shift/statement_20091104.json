@@ -1,0 +1,139 @@
+{
+ "key": "statement_20091104",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20091104",
+  "previous_doc_id": "statement_20090923",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7fa2142b0c6027ded81c42f3c67da70d7089a19e381834ce510b1f3f8bf9fd81",
+ "message_id": "msg_011CgFueGTA8dXXTXNFq48WV",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1861,
+  "output_tokens": 573,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\",\"after\":\"continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\",\"direction\":\"dovish\"},{\"before\":\"up to $200 billion of agency debt.\",\"after\":\"about $175 billion of agency debt. The amount of agency debt purchases, while somewhat less than the previously announced maximum of $200 billion, is consistent with the recent path of purchases and reflects the limited availability of agency debt.\",\"direction\":\"hawkish\"},{\"before\":\"suggests that economic activity has picked up following its severe downturn.\",\"after\":\"suggests that economic activity has continued to pick up.\",\"direction\":\"hawkish\"},{\"before\":\"Household spending seems to be stabilizing, but remains constrained\",\"after\":\"Household spending appears to be expanding but remains constrained\",\"direction\":\"hawkish\"},{\"before\":\"Conditions in financial markets have improved further, and activity in the housing sector has increased.\",\"after\":\"Conditions in financial markets were roughly unchanged, on balance, over the intermeeting period. Activity in the housing sector has increased over recent months.\",\"direction\":\"dovish\"}],\"rationale\":\"The explicit conditions attached to the \\\"extended period\\\" guidance tie any rate hike to slack, inflation and expectations, reinforcing low-for-long and outweighing the modestly upgraded growth description. The cut in agency debt purchases is framed as technical, reflecting limited supply rather than tightening.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+    "after": "continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+    "direction": "dovish"
+   },
+   {
+    "before": "up to $200 billion of agency debt.",
+    "after": "about $175 billion of agency debt. The amount of agency debt purchases, while somewhat less than the previously announced maximum of $200 billion, is consistent with the recent path of purchases and reflects the limited availability of agency debt.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "suggests that economic activity has picked up following its severe downturn.",
+    "after": "suggests that economic activity has continued to pick up.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending seems to be stabilizing, but remains constrained",
+    "after": "Household spending appears to be expanding but remains constrained",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Conditions in financial markets have improved further, and activity in the housing sector has increased.",
+    "after": "Conditions in financial markets were roughly unchanged, on balance, over the intermeeting period. Activity in the housing sector has increased over recent months.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The explicit conditions attached to the \"extended period\" guidance tie any rate hike to slack, inflation and expectations, reinforcing low-for-long and outweighing the modestly upgraded growth description. The cut in agency debt purchases is framed as technical, reflecting limited supply rather than tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "continues to anticipate that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1399,
+     "end": 1543
+    },
+    {
+     "quote": "up to $200 billion of agency debt.",
+     "start": 1766,
+     "end": 1799
+    },
+    {
+     "quote": "suggests that economic activity has picked up following its severe downturn.",
+     "start": 75,
+     "end": 150
+    },
+    {
+     "quote": "Household spending seems to be stabilizing, but remains constrained",
+     "start": 257,
+     "end": 324
+    },
+    {
+     "quote": "Conditions in financial markets have improved further, and activity in the housing sector has increased.",
+     "start": 152,
+     "end": 255
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "continues to anticipate that economic conditions, including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 1440,
+     "end": 1691
+    },
+    {
+     "quote": "about $175 billion of agency debt. The amount of agency debt purchases, while somewhat less than the previously announced maximum of $200 billion, is consistent with the recent path of purchases and reflects the limited availability of agency debt.",
+     "start": 1914,
+     "end": 2161
+    },
+    {
+     "quote": "suggests that economic activity has continued to pick up.",
+     "start": 78,
+     "end": 134
+    },
+    {
+     "quote": "Household spending appears to be expanding but remains constrained",
+     "start": 299,
+     "end": 365
+    },
+    {
+     "quote": "Conditions in financial markets were roughly unchanged, on balance, over the intermeeting period. Activity in the housing sector has increased over recent months.",
+     "start": 136,
+     "end": 297
+    }
+   ]
+  }
+ }
+}

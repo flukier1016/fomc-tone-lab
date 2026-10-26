@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20190621a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190621a",
+  "doc_type": "speech",
+  "text_sha256": "8d81b2cdd895cbc35839cb0da5c2cbd459b0a2de5d5fe5b6199e1195c0e6a6fd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4d258a7dc83772a98d1598e5be0bd87dcd7fd8492ca802c59832a92a08470ee8",
+ "message_id": "msg_011CgFug9TmwjcNxTtfWnYMo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2879,
+  "output_tokens": 468,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Basic principles of risk management in a low neutral rate environment with compressed conventional policy space would argue for softening the expected path of policy when risks shift to the downside.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Recent weeks, however, have seen important downside risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"recent indicators of inflation and inflation expectations have been disappointing, making it all the more important to sustain the economy's momentum.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"My own assessment is that the most likely path for the economy remains solid.\"},{\"dimension\":\"overall\",\"quote\":\"Crosscurrents from policy uncertainty have risen since early May, crimping business investment plans, raising concerns in some financial market segments, and weighing on global growth prospects.\"}],\"rationale\":\"Although the speaker describes the baseline outlook as solid, she emphasizes downside risks and disappointing inflation. She explicitly argues for softening the expected policy path, which is a clear easing signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Basic principles of risk management in a low neutral rate environment with compressed conventional policy space would argue for softening the expected path of policy when risks shift to the downside."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Recent weeks, however, have seen important downside risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "recent indicators of inflation and inflation expectations have been disappointing, making it all the more important to sustain the economy's momentum."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "My own assessment is that the most likely path for the economy remains solid."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Crosscurrents from policy uncertainty have risen since early May, crimping business investment plans, raising concerns in some financial market segments, and weighing on global growth prospects."
+   }
+  ],
+  "rationale": "Although the speaker describes the baseline outlook as solid, she emphasizes downside risks and disappointing inflation. She explicitly argues for softening the expected policy path, which is a clear easing signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Basic principles of risk management in a low neutral rate environment with compressed conventional policy space would argue for softening the expected path of policy when risks shift to the downside.",
+     "start": 2351,
+     "end": 2549
+    },
+    {
+     "quote": "Recent weeks, however, have seen important downside risks.",
+     "start": 1757,
+     "end": 1814
+    },
+    {
+     "quote": "recent indicators of inflation and inflation expectations have been disappointing, making it all the more important to sustain the economy's momentum.",
+     "start": 2124,
+     "end": 2273
+    },
+    {
+     "quote": "My own assessment is that the most likely path for the economy remains solid.",
+     "start": 1300,
+     "end": 1376
+    },
+    {
+     "quote": "Crosscurrents from policy uncertainty have risen since early May, crimping business investment plans, raising concerns in some financial market segments, and weighing on global growth prospects.",
+     "start": 1816,
+     "end": 2009
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

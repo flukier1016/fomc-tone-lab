@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20090930a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090930a",
+  "doc_type": "speech",
+  "text_sha256": "875b6d8a0ff2b6f6baf5f7ea9fdd66dae33c02eb59c580775b251aeb0c700fda"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ce4b76c1fa8c46af780bedc1aa79458ef7c6331e195353f36c42322589ac6f26",
+ "message_id": "msg_011CgFugAgTKYQFrbTxhPda5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2167,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"So we must begin to withdraw accommodation well before aggregate spending threatens to press against potential supply, and well before inflation as well as inflation expectations rise above levels consistent with price stability.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"exceptionally low interest rates are likely to be warranted for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"resource utilization is quite low, inflation is subdued, and continuing restraints on credit are likely to constrain the speed of recovery.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Still, draining reserves at some point also will be an aspect of exiting.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will be tapering down our purchases.\"},{\"dimension\":\"risk_balance\",\"quote\":\"lending could grow more quickly than appropriate for price stability if very high levels of reserves remain in place.\"}],\"rationale\":\"The speech focuses on exit planning and tools, with a preemptive-tightening tone and attention to draining reserves and tapering purchases. It also reaffirms that exceptionally low rates are likely for an extended period amid low resource utilization and subdued inflation, leaving the net signal roughly neutral with a slight hawkish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "So we must begin to withdraw accommodation well before aggregate spending threatens to press against potential supply, and well before inflation as well as inflation expectations rise above levels consistent with price stability."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "exceptionally low interest rates are likely to be warranted for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "resource utilization is quite low, inflation is subdued, and continuing restraints on credit are likely to constrain the speed of recovery."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Still, draining reserves at some point also will be an aspect of exiting."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will be tapering down our purchases."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "lending could grow more quickly than appropriate for price stability if very high levels of reserves remain in place."
+   }
+  ],
+  "rationale": "The speech focuses on exit planning and tools, with a preemptive-tightening tone and attention to draining reserves and tapering purchases. It also reaffirms that exceptionally low rates are likely for an extended period amid low resource utilization and subdued inflation, leaving the net signal roughly neutral with a slight hawkish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "So we must begin to withdraw accommodation well before aggregate spending threatens to press against potential supply, and well before inflation as well as inflation expectations rise above levels consistent with price stability.",
+     "start": 774,
+     "end": 1002
+    },
+    {
+     "quote": "exceptionally low interest rates are likely to be warranted for an extended period.",
+     "start": 6943,
+     "end": 7025
+    },
+    {
+     "quote": "resource utilization is quite low, inflation is subdued, and continuing restraints on credit are likely to constrain the speed of recovery.",
+     "start": 6756,
+     "end": 6894
+    },
+    {
+     "quote": "Still, draining reserves at some point also will be an aspect of exiting.",
+     "start": 3041,
+     "end": 3113
+    },
+    {
+     "quote": "we will be tapering down our purchases.",
+     "start": 5117,
+     "end": 5155
+    },
+    {
+     "quote": "lending could grow more quickly than appropriate for price stability if very high levels of reserves remain in place.",
+     "start": 3824,
+     "end": 3940
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20230418a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20230418a",
+  "doc_type": "speech",
+  "text_sha256": "ef8d4b8ce39cfe7d20e93384c205ef752dba85cec932819989ef72d10ee67db9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d7e49957931da048388ec05dfa86d95eeff04c8726f33e231f90c64076194ae9",
+ "message_id": "msg_011CgFugAoe9MNhyFZas82iv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6798,
+  "output_tokens": 311,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my view, the fundamental question is: what problem could a CBDC solve?\"},{\"dimension\":\"overall\",\"quote\":\"the Fed would not implement a U.S. CBDC without the approval of Congress.\"},{\"dimension\":\"overall\",\"quote\":\"There are significant risks in adopting a CBDC that cannibalizes rather than complements the U.S. banking system.\"}],\"rationale\":\"The speech is about central bank digital currencies and the payments system. It takes no position on interest rates, inflation, the economic outlook, or the balance sheet, so the monetary policy stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my view, the fundamental question is: what problem could a CBDC solve?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Fed would not implement a U.S. CBDC without the approval of Congress."
+   },
+   {
+    "dimension": "overall",
+    "quote": "There are significant risks in adopting a CBDC that cannibalizes rather than complements the U.S. banking system."
+   }
+  ],
+  "rationale": "The speech is about central bank digital currencies and the payments system. It takes no position on interest rates, inflation, the economic outlook, or the balance sheet, so the monetary policy stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, the fundamental question is: what problem could a CBDC solve?",
+     "start": 2604,
+     "end": 2677
+    },
+    {
+     "quote": "the Fed would not implement a U.S. CBDC without the approval of Congress.",
+     "start": 1198,
+     "end": 1270
+    },
+    {
+     "quote": "There are significant risks in adopting a CBDC that cannibalizes rather than complements the U.S. banking system.",
+     "start": 16205,
+     "end": 16317
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

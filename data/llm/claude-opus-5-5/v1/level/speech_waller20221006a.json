@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20221006a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20221006a",
+  "doc_type": "speech",
+  "text_sha256": "c817b43c02c6edd12857e66b4c8742f329b360ddd46bf4f71ed2f11ca8c16b5d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aac8152987ab803895295ad06a2fd6b0cfe9e10fb7ab1dec55ef674b6209563c",
+ "message_id": "msg_011CgFugB23Rhs1E2WUgm2MM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5069,
+  "output_tokens": 544,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.9,\"confidence\":0.93,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I anticipate additional rate hikes into early next year, and I will be watching the data carefully to decide the appropriate pace of tightening as we continue to move into more restrictive territory.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"These numbers indicate that inflation is far from the FOMC's goal and not likely to fall quickly.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Meanwhile, the labor market remains strong and very tight.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I support continued rate increases, along with ongoing reductions in the Fed's balance sheet, to help restrain aggregate demand.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We currently do not face a tradeoff between our employment objective and our inflation objective, so monetary policy can and must be used aggressively to bring down inflation.\"},{\"dimension\":\"overall\",\"quote\":\"Let me be clear that this is not something I'm considering or believe to be a very likely development.\"}],\"rationale\":\"The speaker forcefully stresses persistent, too-high inflation, a tight labor market, and support for continued rate hikes and balance sheet runoff. She explicitly rejects slowing hikes because of financial stability concerns, which makes the speech strongly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.9,
+  "confidence": 0.93,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I anticipate additional rate hikes into early next year, and I will be watching the data carefully to decide the appropriate pace of tightening as we continue to move into more restrictive territory."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "These numbers indicate that inflation is far from the FOMC's goal and not likely to fall quickly."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Meanwhile, the labor market remains strong and very tight."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I support continued rate increases, along with ongoing reductions in the Fed's balance sheet, to help restrain aggregate demand."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We currently do not face a tradeoff between our employment objective and our inflation objective, so monetary policy can and must be used aggressively to bring down inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Let me be clear that this is not something I'm considering or believe to be a very likely development."
+   }
+  ],
+  "rationale": "The speaker forcefully stresses persistent, too-high inflation, a tight labor market, and support for continued rate hikes and balance sheet runoff. She explicitly rejects slowing hikes because of financial stability concerns, which makes the speech strongly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I anticipate additional rate hikes into early next year, and I will be watching the data carefully to decide the appropriate pace of tightening as we continue to move into more restrictive territory.",
+     "start": 15079,
+     "end": 15277
+    },
+    {
+     "quote": "These numbers indicate that inflation is far from the FOMC's goal and not likely to fall quickly.",
+     "start": 3079,
+     "end": 3175
+    },
+    {
+     "quote": "Meanwhile, the labor market remains strong and very tight.",
+     "start": 1292,
+     "end": 1349
+    },
+    {
+     "quote": "I support continued rate increases, along with ongoing reductions in the Fed's balance sheet, to help restrain aggregate demand.",
+     "start": 3513,
+     "end": 3640
+    },
+    {
+     "quote": "We currently do not face a tradeoff between our employment objective and our inflation objective, so monetary policy can and must be used aggressively to bring down inflation.",
+     "start": 3708,
+     "end": 3882
+    },
+    {
+     "quote": "Let me be clear that this is not something I'm considering or believe to be a very likely development.",
+     "start": 15522,
+     "end": 15623
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

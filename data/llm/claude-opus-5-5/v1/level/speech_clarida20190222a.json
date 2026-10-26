@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20190222a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190222a",
+  "doc_type": "speech",
+  "text_sha256": "4ec5ccd244832f0e40b1d0aa66638946bf31a48a5bc86510251f70b98b3b3c37"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "64149070e807794fd821399d3f6a7849aa941201a560c81ad131a78231ef93df",
+ "message_id": "msg_011CgFug9hAmCNmGpy6kgwE5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4686,
+  "output_tokens": 505,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is near a multidecade low, and inflation is running close to our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal.\"},{\"dimension\":\"overall\",\"quote\":\"In addition to assessing the efficacy of these existing tools, we will consider additional tools to ease policy when the ELB is binding.\"},{\"dimension\":\"overall\",\"quote\":\"For this reason, my colleagues and I do not want to preempt or to predict our ultimate finding.\"}],\"rationale\":\"The speech describes the framework review with no near-term policy signal, and it portrays the economy as at or near both goals. It leans mildly dovish structurally through its concern about the lower bound, inflation shortfalls and makeup strategies, while stressing caution about their credibility.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is near a multidecade low, and inflation is running close to our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In addition to assessing the efficacy of these existing tools, we will consider additional tools to ease policy when the ELB is binding."
+   },
+   {
+    "dimension": "overall",
+    "quote": "For this reason, my colleagues and I do not want to preempt or to predict our ultimate finding."
+   }
+  ],
+  "rationale": "The speech describes the framework review with no near-term policy signal, and it portrays the economy as at or near both goals. It leans mildly dovish structurally through its concern about the lower bound, inflation shortfalls and makeup strategies, while stressing caution about their credibility."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The unemployment rate is near a multidecade low, and inflation is running close to our 2 percent objective.",
+     "start": 2403,
+     "end": 2509
+    },
+    {
+     "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.",
+     "start": 3554,
+     "end": 3730
+    },
+    {
+     "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal.",
+     "start": 7768,
+     "end": 7928
+    },
+    {
+     "quote": "In addition to assessing the efficacy of these existing tools, we will consider additional tools to ease policy when the ELB is binding.",
+     "start": 11427,
+     "end": 11562
+    },
+    {
+     "quote": "For this reason, my colleagues and I do not want to preempt or to predict our ultimate finding.",
+     "start": 15299,
+     "end": 15393
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

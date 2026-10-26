@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150429",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150429",
+  "doc_type": "minutes",
+  "text_sha256": "5250992ef0b5ceccd5c7a9fe082be3b9a823672eab9499b843edf78cbf70750d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "64c8599124f58ab260eccc26268aaf7c497bd6b87ab3f15cc08d97b8fd060ca9",
+ "message_id": "msg_011CgFugGF513v7NoMyM5q6T",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13270,
+  "output_tokens": 632,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Many participants, however, thought it unlikely that the data available in June would provide sufficient confirmation that the conditions for raising the target range for the federal funds rate had been satisfied\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In combination with a decline in government spending, the weakness of private spending had led to a substantial slowing in economic growth in the first quarter.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is anticipated to remain near its recent low level in the near term, but the Committee expects inflation to rise gradually toward 2 percent over the medium term\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants discussed downside risks to economic growth, and a few indicated that, in their assessment, such risks had risen since the March meeting.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"afew of these participants questioned whether the Committee was providing sufficient accommodation at the present time and cautioned against initiating policy firming in the near future.\"}],\"rationale\":\"The minutes describe weak Q1 growth, below-target inflation, and many participants doubting a June liftoff, with some questioning whether policy was accommodative enough, which pushes the expected first hike later. Risks are still described as nearly balanced and the reinvestment policy is unchanged, so the net lean is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Many participants, however, thought it unlikely that the data available in June would provide sufficient confirmation that the conditions for raising the target range for the federal funds rate had been satisfied"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In combination with a decline in government spending, the weakness of private spending had led to a substantial slowing in economic growth in the first quarter."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is anticipated to remain near its recent low level in the near term, but the Committee expects inflation to rise gradually toward 2 percent over the medium term"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants discussed downside risks to economic growth, and a few indicated that, in their assessment, such risks had risen since the March meeting."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "afew of these participants questioned whether the Committee was providing sufficient accommodation at the present time and cautioned against initiating policy firming in the near future."
+   }
+  ],
+  "rationale": "The minutes describe weak Q1 growth, below-target inflation, and many participants doubting a June liftoff, with some questioning whether policy was accommodative enough, which pushes the expected first hike later. Risks are still described as nearly balanced and the reinvestment policy is unchanged, so the net lean is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Many participants, however, thought it unlikely that the data available in June would provide sufficient confirmation that the conditions for raising the target range for the federal funds rate had been satisfied",
+     "start": 31538,
+     "end": 31750
+    },
+    {
+     "quote": "In combination with a decline in government spending, the weakness of private spending had led to a substantial slowing in economic growth in the first quarter.",
+     "start": 22225,
+     "end": 22384
+    },
+    {
+     "quote": "Inflation is anticipated to remain near its recent low level in the near term, but the Committee expects inflation to rise gradually toward 2 percent over the medium term",
+     "start": 43134,
+     "end": 43304
+    },
+    {
+     "quote": "Participants discussed downside risks to economic growth, and a few indicated that, in their assessment, such risks had risen since the March meeting.",
+     "start": 25073,
+     "end": 25222
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 39732,
+     "end": 39881
+    },
+    {
+     "quote": "afew of these participants questioned whether the Committee was providing sufficient accommodation at the present time and cautioned against initiating policy firming in the near future.",
+     "start": 33326,
+     "end": 33511
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

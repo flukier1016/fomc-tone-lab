@@ -1,0 +1,103 @@
+{
+ "key": "speech_cook20250717a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20250717a",
+  "doc_type": "speech",
+  "text_sha256": "d3391734912f04a5d8681f1e1d95ed1266ad9bf53d6e459ba8c2b7f0221fb0ed"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "005e9bb5ee990ca25642d3fe7bca8ab1f505de251a7fcdc05762df4d408c6cde",
+ "message_id": "msg_011CgFugLz4tWETHdv6nnC6r",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4731,
+  "output_tokens": 459,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"it is possible that the disinflationary effect of AI could, over time, counter any factors putting upward pressure on inflation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"It is also possible that AI could boost prices in the interim, as adoption of the technology might require a surge in aggregate investment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"As with many technological breakthroughs, a certain set of jobs may be replaced. We must recognize the challenges and potential pain this may bring, and we are watching this closely.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am constantly monitoring incoming data, the ever-evolving outlook, and a broad range of risks to both sides of the dual mandate.\"}],\"rationale\":\"The speech is mainly about AI adoption and research at the Fed and gives no near-term policy signal. It leans slightly dovish by stressing that AI's productivity gains could be disinflationary, offset only partly by a possible interim investment-driven boost to prices.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "it is possible that the disinflationary effect of AI could, over time, counter any factors putting upward pressure on inflation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "It is also possible that AI could boost prices in the interim, as adoption of the technology might require a surge in aggregate investment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "As with many technological breakthroughs, a certain set of jobs may be replaced. We must recognize the challenges and potential pain this may bring, and we are watching this closely."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am constantly monitoring incoming data, the ever-evolving outlook, and a broad range of risks to both sides of the dual mandate."
+   }
+  ],
+  "rationale": "The speech is mainly about AI adoption and research at the Fed and gives no near-term policy signal. It leans slightly dovish by stressing that AI's productivity gains could be disinflationary, offset only partly by a possible interim investment-driven boost to prices."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it is possible that the disinflationary effect of AI could, over time, counter any factors putting upward pressure on inflation.",
+     "start": 13700,
+     "end": 13827
+    },
+    {
+     "quote": "It is also possible that AI could boost prices in the interim, as adoption of the technology might require a surge in aggregate investment.",
+     "start": 13832,
+     "end": 13970
+    },
+    {
+     "quote": "As with many technological breakthroughs, a certain set of jobs may be replaced. We must recognize the challenges and potential pain this may bring, and we are watching this closely.",
+     "start": 12792,
+     "end": 12973
+    },
+    {
+     "quote": "I am constantly monitoring incoming data, the ever-evolving outlook, and a broad range of risks to both sides of the dual mandate.",
+     "start": 13973,
+     "end": 14102
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

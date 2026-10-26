@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20220615",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20220615",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "de648d02130d4faae13aa5b587d4d3a7e688ef93acb35e7487902db17e386dc1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e6af99f5032c0cfc5cdcc7d4d6daacb57e19b783f95182cfd13323b3d20169be",
+ "message_id": "msg_011CgFudVAcHwTxxGYpztNBe",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 14232,
+  "output_tokens": 513,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In particular, participants judged that an increase of 50 or 75 basis points would likely be appropriate at the next meeting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"they recognized the possibility that an even more restrictive stance could be appropriate if elevated inflation pressures were to persist.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants noted that inflation remained much too high and observed that it continued to run well above the Committee's longer-run 2 percent objective\"},{\"dimension\":\"risk_balance\",\"quote\":\"Most agreed that risks to inflation were skewed to the upside\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"They observed that various indicators pointed to a very tight labor market.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"All participants judged that it was appropriate to continue the process of reducing the size of the Federal Reserve's balance sheet\"}],\"rationale\":\"The minutes signal continued large hikes (50 or 75 bp next), a move to restrictive policy with possibly more, and forceful concern about persistent inflation and drifting expectations. Downside growth risks are noted, but inflation concerns dominate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In particular, participants judged that an increase of 50 or 75 basis points would likely be appropriate at the next meeting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "they recognized the possibility that an even more restrictive stance could be appropriate if elevated inflation pressures were to persist."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants noted that inflation remained much too high and observed that it continued to run well above the Committee's longer-run 2 percent objective"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Most agreed that risks to inflation were skewed to the upside"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "They observed that various indicators pointed to a very tight labor market."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "All participants judged that it was appropriate to continue the process of reducing the size of the Federal Reserve's balance sheet"
+   }
+  ],
+  "rationale": "The minutes signal continued large hikes (50 or 75 bp next), a move to restrictive policy with possibly more, and forceful concern about persistent inflation and drifting expectations. Downside growth risks are noted, but inflation concerns dominate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In particular, participants judged that an increase of 50 or 75 basis points would likely be appropriate at the next meeting.",
+     "start": 35999,
+     "end": 36123
+    },
+    {
+     "quote": "they recognized the possibility that an even more restrictive stance could be appropriate if elevated inflation pressures were to persist.",
+     "start": 36230,
+     "end": 36367
+    },
+    {
+     "quote": "Participants noted that inflation remained much too high and observed that it continued to run well above the Committee's longer-run 2 percent objective",
+     "start": 29837,
+     "end": 29989
+    },
+    {
+     "quote": "Most agreed that risks to inflation were skewed to the upside",
+     "start": 33588,
+     "end": 33649
+    },
+    {
+     "quote": "They observed that various indicators pointed to a very tight labor market.",
+     "start": 27868,
+     "end": 27942
+    },
+    {
+     "quote": "All participants judged that it was appropriate to continue the process of reducing the size of the Federal Reserve's balance sheet",
+     "start": 35117,
+     "end": 35248
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

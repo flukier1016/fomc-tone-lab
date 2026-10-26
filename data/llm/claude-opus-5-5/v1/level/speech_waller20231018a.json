@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20231018a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20231018a",
+  "doc_type": "speech",
+  "text_sha256": "c55c4b85ebcf06fa1957433e65236c8d4537817722bf933e98f14f9ea6855157"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0c55d270c02ff1e580961e18e88cae54357c30ccd9ff2b68186e3cadb32eecb4",
+ "message_id": "msg_011CgFugH1TMzsMPn2trwE6o",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4037,
+  "output_tokens": 498,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Consequently, I believe we can wait, watch and see how the economy evolves before making definitive moves on the path of the policy rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But if the real economy continues showing underlying strength and inflation appears to stabilize or reaccelerate, more policy tightening is likely needed despite the recent run up in longer term rates.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"this number heightens my concern that housing services inflation has not slowed, and may not slow, to the rate needed to sustain a return to our 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The inference is that job growth is still exceptionally strong and hasn't slowed much this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we have seen a string of good inflation reports evaporate multiple times in the recent past.\"}],\"rationale\":\"The speaker favors holding rates for now, but she emphasizes strong activity, a tight labor market and the risk of inflation reaccelerating. She explicitly signals that more tightening is likely if strength persists, giving a moderate hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Consequently, I believe we can wait, watch and see how the economy evolves before making definitive moves on the path of the policy rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But if the real economy continues showing underlying strength and inflation appears to stabilize or reaccelerate, more policy tightening is likely needed despite the recent run up in longer term rates."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "this number heightens my concern that housing services inflation has not slowed, and may not slow, to the rate needed to sustain a return to our 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The inference is that job growth is still exceptionally strong and hasn't slowed much this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we have seen a string of good inflation reports evaporate multiple times in the recent past."
+   }
+  ],
+  "rationale": "The speaker favors holding rates for now, but she emphasizes strong activity, a tight labor market and the risk of inflation reaccelerating. She explicitly signals that more tightening is likely if strength persists, giving a moderate hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Consequently, I believe we can wait, watch and see how the economy evolves before making definitive moves on the path of the policy rate.",
+     "start": 12496,
+     "end": 12632
+    },
+    {
+     "quote": "But if the real economy continues showing underlying strength and inflation appears to stabilize or reaccelerate, more policy tightening is likely needed despite the recent run up in longer term rates.",
+     "start": 12803,
+     "end": 13003
+    },
+    {
+     "quote": "this number heightens my concern that housing services inflation has not slowed, and may not slow, to the rate needed to sustain a return to our 2 percent target.",
+     "start": 11383,
+     "end": 11544
+    },
+    {
+     "quote": "The inference is that job growth is still exceptionally strong and hasn't slowed much this year.",
+     "start": 8369,
+     "end": 8464
+    },
+    {
+     "quote": "we have seen a string of good inflation reports evaporate multiple times in the recent past.",
+     "start": 12041,
+     "end": 12132
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

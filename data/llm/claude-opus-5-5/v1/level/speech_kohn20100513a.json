@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20100513a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20100513a",
+  "doc_type": "speech",
+  "text_sha256": "d117dfe182d5ab034aeb704293afc683944cfa212325d846fcf66277129e28ed"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d3a99212c405686aeb37817e30b327d7aba8f5814ab4003eb33e769480e8197a",
+ "message_id": "msg_011CgFug8z1Qje6aXdVQxEhD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10553,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Now, careful planning is under way to remove that stimulus at the appropriate time.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Although I agree that hitting the zero bound presents challenges to monetary policy, I do not believe central banks should raise their inflation targets.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we need to be alert to the risk that households, businesses, and investors could begin to expect higher inflation based partly on an expanded central bank balance sheet.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we are developing new tools, including reverse repurchase agreements and term deposits that will allow us to drain significant quantities of reserves when necessary.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"commitments to maintain interest rates at a given level must be properly conditioned on the evolution of the economy.\"},{\"dimension\":\"overall\",\"quote\":\"So far, longer-term inflation expectations have generally been well anchored over the past few years of unusual Federal Reserve actions.\"}],\"rationale\":\"Largely retrospective review of crisis tools, with a mild hawkish tilt from emphasizing exit preparation, conditionality of 'extended period' guidance, rejecting higher inflation targets, and vigilance over balance-sheet-driven inflation expectations. No explicit signal of imminent tightening, so net stance is near neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Now, careful planning is under way to remove that stimulus at the appropriate time."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Although I agree that hitting the zero bound presents challenges to monetary policy, I do not believe central banks should raise their inflation targets."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we need to be alert to the risk that households, businesses, and investors could begin to expect higher inflation based partly on an expanded central bank balance sheet."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we are developing new tools, including reverse repurchase agreements and term deposits that will allow us to drain significant quantities of reserves when necessary."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "commitments to maintain interest rates at a given level must be properly conditioned on the evolution of the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "So far, longer-term inflation expectations have generally been well anchored over the past few years of unusual Federal Reserve actions."
+   }
+  ],
+  "rationale": "Largely retrospective review of crisis tools, with a mild hawkish tilt from emphasizing exit preparation, conditionality of 'extended period' guidance, rejecting higher inflation targets, and vigilance over balance-sheet-driven inflation expectations. No explicit signal of imminent tightening, so net stance is near neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Now, careful planning is under way to remove that stimulus at the appropriate time.",
+     "start": 1893,
+     "end": 1975
+    },
+    {
+     "quote": "Although I agree that hitting the zero bound presents challenges to monetary policy, I do not believe central banks should raise their inflation targets.",
+     "start": 29787,
+     "end": 29939
+    },
+    {
+     "quote": "we need to be alert to the risk that households, businesses, and investors could begin to expect higher inflation based partly on an expanded central bank balance sheet.",
+     "start": 32609,
+     "end": 32777
+    },
+    {
+     "quote": "we are developing new tools, including reverse repurchase agreements and term deposits that will allow us to drain significant quantities of reserves when necessary.",
+     "start": 33753,
+     "end": 33917
+    },
+    {
+     "quote": "commitments to maintain interest rates at a given level must be properly conditioned on the evolution of the economy.",
+     "start": 28621,
+     "end": 28737
+    },
+    {
+     "quote": "So far, longer-term inflation expectations have generally been well anchored over the past few years of unusual Federal Reserve actions.",
+     "start": 28003,
+     "end": 28138
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

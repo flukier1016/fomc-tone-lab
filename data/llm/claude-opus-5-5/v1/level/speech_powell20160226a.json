@@ -1,0 +1,103 @@
+{
+ "key": "speech_powell20160226a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20160226a",
+  "doc_type": "speech",
+  "text_sha256": "489ca31cfda96ae030d79262d2b01a3c2b8b1670500f8d22fd381fe2235042ad"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "217a85a311a1dd957f41632006e298d2f9c1fd7ff1ae0f531d3227bb37fd0292",
+ "message_id": "msg_011CgFugBYnjCikV5anq8SRG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4098,
+  "output_tokens": 423,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee has embraced the view that the equilibrium level of the federal funds rate is currently below its pre-crisis level and expects the funds rate to return only gradually to its longer-run value.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This view is a key aspect of many Committee participants' reaction functions, including mine.\"},{\"dimension\":\"overall\",\"quote\":\"This language shows that the Committee has moved away from the time-based guidance of the crisis years.\"},{\"dimension\":\"overall\",\"quote\":\"Fan charts could help emphasize that the economic outlook is uncertain, and that consequently there is considerable uncertainty around the path of policy.\"}],\"rationale\":\"The speech is a discussion of forward guidance communication practices with little view on the outlook. The only policy signal is the speaker's endorsement of a low equilibrium rate and a gradual return to the longer-run value, a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee has embraced the view that the equilibrium level of the federal funds rate is currently below its pre-crisis level and expects the funds rate to return only gradually to its longer-run value."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This view is a key aspect of many Committee participants' reaction functions, including mine."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This language shows that the Committee has moved away from the time-based guidance of the crisis years."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Fan charts could help emphasize that the economic outlook is uncertain, and that consequently there is considerable uncertainty around the path of policy."
+   }
+  ],
+  "rationale": "The speech is a discussion of forward guidance communication practices with little view on the outlook. The only policy signal is the speaker's endorsement of a low equilibrium rate and a gradual return to the longer-run value, a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee has embraced the view that the equilibrium level of the federal funds rate is currently below its pre-crisis level and expects the funds rate to return only gradually to its longer-run value.",
+     "start": 9547,
+     "end": 9751
+    },
+    {
+     "quote": "This view is a key aspect of many Committee participants' reaction functions, including mine.",
+     "start": 9756,
+     "end": 9848
+    },
+    {
+     "quote": "This language shows that the Committee has moved away from the time-based guidance of the crisis years.",
+     "start": 8538,
+     "end": 8640
+    },
+    {
+     "quote": "Fan charts could help emphasize that the economic outlook is uncertain, and that consequently there is considerable uncertainty around the path of policy.",
+     "start": 13513,
+     "end": 13666
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

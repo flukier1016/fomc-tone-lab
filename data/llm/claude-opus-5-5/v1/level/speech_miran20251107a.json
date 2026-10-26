@@ -1,0 +1,103 @@
+{
+ "key": "speech_miran20251107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_miran20251107a",
+  "doc_type": "speech",
+  "text_sha256": "f2528e857233131ac3a579aaa0e03fa9d85c87b506ca809db15ddee80b7e85ff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0a2d5b73ef25fba5341c109861605a9c06f5a6be5b87a6d4144698855dd8924b",
+ "message_id": "msg_011CgFugAhCDc6cxfSfw59og",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4648,
+  "output_tokens": 406,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If r* is lower, policy rates should also be lower than they would otherwise be to support a healthy economy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A failure of the central bank to cut rates in response to a reduction in r* is contractionary.\"},{\"dimension\":\"overall\",\"quote\":\"I believe a range of different factors are putting downward pressure on r* and should be considered in formulating monetary policy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"a lower r* increases the odds that the zero lower bound (ZLB) binds in the future\"}],\"rationale\":\"The speech argues that stablecoin-driven demand for dollar assets pushes r* down, implying policy rates should be lower and warning that failing to cut would be contractionary. It does not discuss current inflation or labor data, so the dovish signal is structural rather than near-term.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If r* is lower, policy rates should also be lower than they would otherwise be to support a healthy economy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A failure of the central bank to cut rates in response to a reduction in r* is contractionary."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe a range of different factors are putting downward pressure on r* and should be considered in formulating monetary policy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a lower r* increases the odds that the zero lower bound (ZLB) binds in the future"
+   }
+  ],
+  "rationale": "The speech argues that stablecoin-driven demand for dollar assets pushes r* down, implying policy rates should be lower and warning that failing to cut would be contractionary. It does not discuss current inflation or labor data, so the dovish signal is structural rather than near-term."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If r* is lower, policy rates should also be lower than they would otherwise be to support a healthy economy.",
+     "start": 11923,
+     "end": 12030
+    },
+    {
+     "quote": "A failure of the central bank to cut rates in response to a reduction in r* is contractionary.",
+     "start": 12032,
+     "end": 12125
+    },
+    {
+     "quote": "I believe a range of different factors are putting downward pressure on r* and should be considered in formulating monetary policy.",
+     "start": 9322,
+     "end": 9452
+    },
+    {
+     "quote": "a lower r* increases the odds that the zero lower bound (ZLB) binds in the future",
+     "start": 12251,
+     "end": 12332
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

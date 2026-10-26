@@ -1,0 +1,121 @@
+{
+ "key": "speech_bernanke20091116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20091116a",
+  "doc_type": "speech",
+  "text_sha256": "525524d6cd91c59aea418a0f304e7403e248abcf099b902cc33133d348bd4427"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6276c37c1765013f66d3e2cb00ca03f9fe65252860790a43e4812d7c0ecaffa9",
+ "message_id": "msg_011CgFugBCTMYNFXeN3Mv4ZP",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6593,
+  "output_tokens": 523,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"On net, notwithstanding significant crosscurrents, inflation seems likely to remain subdued for some time.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the unemployment rate likely will decline only slowly if economic growth remains moderate, as I expect.\"},{\"dimension\":\"risk_balance\",\"quote\":\"some important headwinds--in particular, constrained bank lending and a weak job market--likely will prevent the expansion from being as robust as we would hope.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"to support home lending through our purchases of mortgage-backed securities\"},{\"dimension\":\"overall\",\"quote\":\"We have a wide range of tools for removing monetary policy accommodation when the economic outlook requires us to do so\"}],\"rationale\":\"The speech reaffirms extended-period near-zero rates, stresses high slack, a weak labor market and constrained credit, and describes inflation as subdued. Brief mentions of exit tools and dollar vigilance only modestly temper an otherwise clearly accommodative message.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "On net, notwithstanding significant crosscurrents, inflation seems likely to remain subdued for some time."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the unemployment rate likely will decline only slowly if economic growth remains moderate, as I expect."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "some important headwinds--in particular, constrained bank lending and a weak job market--likely will prevent the expansion from being as robust as we would hope."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "to support home lending through our purchases of mortgage-backed securities"
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have a wide range of tools for removing monetary policy accommodation when the economic outlook requires us to do so"
+   }
+  ],
+  "rationale": "The speech reaffirms extended-period near-zero rates, stresses high slack, a weak labor market and constrained credit, and describes inflation as subdued. Brief mentions of exit tools and dollar vigilance only modestly temper an otherwise clearly accommodative message."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period",
+     "start": 21850,
+     "end": 21945
+    },
+    {
+     "quote": "On net, notwithstanding significant crosscurrents, inflation seems likely to remain subdued for some time.",
+     "start": 20645,
+     "end": 20750
+    },
+    {
+     "quote": "the unemployment rate likely will decline only slowly if economic growth remains moderate, as I expect.",
+     "start": 19741,
+     "end": 19843
+    },
+    {
+     "quote": "some important headwinds--in particular, constrained bank lending and a weak job market--likely will prevent the expansion from being as robust as we would hope.",
+     "start": 2073,
+     "end": 2233
+    },
+    {
+     "quote": "to support home lending through our purchases of mortgage-backed securities",
+     "start": 9251,
+     "end": 9326
+    },
+    {
+     "quote": "We have a wide range of tools for removing monetary policy accommodation when the economic outlook requires us to do so",
+     "start": 22070,
+     "end": 22189
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

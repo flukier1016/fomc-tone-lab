@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20230726",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20230726",
+  "doc_type": "minutes",
+  "text_sha256": "d2fa81d826b08c523a722c99adce2c16444bdc79d1a2e0de2ed29e44b5aac2b0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1429257460c9df9be6faa16aaaad76fc24e3872aabfe12c35bc5311c61687847",
+ "message_id": "msg_011CgFugFj4gHiAKqFpGzaCc",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11936,
+  "output_tokens": 586,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"most participants continued to see significant upside risks to inflation, which could require further tightening of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"they stressed that inflation remained unacceptably high and that further evidence would be required for them to be confident that inflation was clearly on a path toward the Committee's 2 percent objective.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"This information would be valuable in determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A number of participants noted that balance sheet runoff need not end when the Committee eventually begins to reduce the target range for the federal funds rate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"A number of participants judged that, with the stance of monetary policy in restrictive territory, risks to the achievement of the Committee's goals had become more two sided\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the staff no longer judged that the economy would enter a mild recession toward the end of the year.\"}],\"rationale\":\"The minutes keep a tightening bias, with most participants seeing significant upside inflation risks that could require further firming, inflation called unacceptably high, and a stronger staff growth outlook. This is tempered by signs of disinflation, a couple of participants favoring a hold, and a number viewing risks as more two-sided.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "most participants continued to see significant upside risks to inflation, which could require further tightening of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "they stressed that inflation remained unacceptably high and that further evidence would be required for them to be confident that inflation was clearly on a path toward the Committee's 2 percent objective."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "This information would be valuable in determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A number of participants noted that balance sheet runoff need not end when the Committee eventually begins to reduce the target range for the federal funds rate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "A number of participants judged that, with the stance of monetary policy in restrictive territory, risks to the achievement of the Committee's goals had become more two sided"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the staff no longer judged that the economy would enter a mild recession toward the end of the year."
+   }
+  ],
+  "rationale": "The minutes keep a tightening bias, with most participants seeing significant upside inflation risks that could require further firming, inflation called unacceptably high, and a stronger staff growth outlook. This is tempered by signs of disinflation, a couple of participants favoring a hold, and a number viewing risks as more two-sided."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "most participants continued to see significant upside risks to inflation, which could require further tightening of monetary policy.",
+     "start": 32103,
+     "end": 32234
+    },
+    {
+     "quote": "they stressed that inflation remained unacceptably high and that further evidence would be required for them to be confident that inflation was clearly on a path toward the Committee's 2 percent objective.",
+     "start": 22050,
+     "end": 22254
+    },
+    {
+     "quote": "This information would be valuable in determining the extent of additional policy firming that may be appropriate to return inflation to 2 percent over time.",
+     "start": 31520,
+     "end": 31676
+    },
+    {
+     "quote": "A number of participants noted that balance sheet runoff need not end when the Committee eventually begins to reduce the target range for the federal funds rate.",
+     "start": 30628,
+     "end": 30788
+    },
+    {
+     "quote": "A number of participants judged that, with the stance of monetary policy in restrictive territory, risks to the achievement of the Committee's goals had become more two sided",
+     "start": 32645,
+     "end": 32819
+    },
+    {
+     "quote": "the staff no longer judged that the economy would enter a mild recession toward the end of the year.",
+     "start": 18636,
+     "end": 18735
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

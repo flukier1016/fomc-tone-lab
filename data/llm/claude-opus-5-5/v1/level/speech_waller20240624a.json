@@ -1,0 +1,94 @@
+{
+ "key": "speech_waller20240624a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20240624a",
+  "doc_type": "speech",
+  "text_sha256": "817b86111c1b8ff46b616e5d459894b2a4f04afba54058814c1ffd5fa654e544"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f4de666fb078790af0fad88155571469212f79b44c35cae2ddd1009aa70ad390",
+ "message_id": "msg_011CgFugFeqrKr73CjjuuCZZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1365,
+  "output_tokens": 310,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"\\\"The Transmission of Monetary Policy in the Post-Pandemic World.\\\"\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Finally, economies have been grappling with elevated inflation.\"},{\"dimension\":\"overall\",\"quote\":\"The primary objectives of the IJCB are to widely disseminate the best policy-relevant and applied research on central banking\"}],\"rationale\":\"These are introductory conference remarks about the journal's history and acknowledgments, and they offer no view on the policy outlook. The brief mention of elevated inflation is purely descriptive context.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "\"The Transmission of Monetary Policy in the Post-Pandemic World.\""
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Finally, economies have been grappling with elevated inflation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The primary objectives of the IJCB are to widely disseminate the best policy-relevant and applied research on central banking"
+   }
+  ],
+  "rationale": "These are introductory conference remarks about the journal's history and acknowledgments, and they offer no view on the policy outlook. The brief mention of elevated inflation is purely descriptive context."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "\"The Transmission of Monetary Policy in the Post-Pandemic World.\"",
+     "start": 2299,
+     "end": 2361
+    },
+    {
+     "quote": "Finally, economies have been grappling with elevated inflation.",
+     "start": 2612,
+     "end": 2674
+    },
+    {
+     "quote": "The primary objectives of the IJCB are to widely disseminate the best policy-relevant and applied research on central banking",
+     "start": 1428,
+     "end": 1553
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20200211a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20200211a",
+  "doc_type": "speech",
+  "text_sha256": "1a1329924191426794a7e2a43b05afc3f5eac25565b4d533ee272fa00f3f1112"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3ad351d7a24751eeff9d59d309607a8d060fec33c37826b351297b83da335658",
+ "message_id": "msg_011CgFugDDzWDVbEfmgjWhGa",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4771,
+  "output_tokens": 365,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I trust they will be helpful to you all and foster further discussions about the importance of transparency, accountability, and fairness in regulation generally and also in the increasingly important and increasingly consequential topic of bank supervision.\"},{\"dimension\":\"overall\",\"quote\":\"Broadly speaking, these actions fall into three categories: (1) large bank supervision, (2) transparency improvements, and (3) overall supervisory process improvements.\"},{\"dimension\":\"overall\",\"quote\":\"Fourth, I endorse putting significant supervisory guidance out for public comment.\"}],\"rationale\":\"The speech is entirely about bank supervision transparency and process reforms, with no discussion of monetary policy, inflation, or economic conditions. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I trust they will be helpful to you all and foster further discussions about the importance of transparency, accountability, and fairness in regulation generally and also in the increasingly important and increasingly consequential topic of bank supervision."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Broadly speaking, these actions fall into three categories: (1) large bank supervision, (2) transparency improvements, and (3) overall supervisory process improvements."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Fourth, I endorse putting significant supervisory guidance out for public comment."
+   }
+  ],
+  "rationale": "The speech is entirely about bank supervision transparency and process reforms, with no discussion of monetary policy, inflation, or economic conditions. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I trust they will be helpful to you all and foster further discussions about the importance of transparency, accountability, and fairness in regulation generally and also in the increasingly important and increasingly consequential topic of bank supervision.",
+     "start": 1947,
+     "end": 2204
+    },
+    {
+     "quote": "Broadly speaking, these actions fall into three categories: (1) large bank supervision, (2) transparency improvements, and (3) overall supervisory process improvements.",
+     "start": 11806,
+     "end": 11973
+    },
+    {
+     "quote": "Fourth, I endorse putting significant supervisory guidance out for public comment.",
+     "start": 14285,
+     "end": 14366
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

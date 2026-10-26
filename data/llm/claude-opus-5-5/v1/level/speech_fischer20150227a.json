@@ -1,0 +1,103 @@
+{
+ "key": "speech_fischer20150227a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150227a",
+  "doc_type": "speech",
+  "text_sha256": "ac27358f06d7e290720f3cff6395d70d997f096fc461562d049e51e5b711b77c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f9193c31cb954eb007e624ef8890bbc7be2bfc6615dd63baf6b5d15063c41871",
+ "message_id": "msg_011CgFugAN6uzbhWKLwkRYaj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2919,
+  "output_tokens": 421,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC and market participants anticipate that the federal funds rate will be raised sometime this year\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it plans to normalize the size of the balance sheet primarily by ceasing reinvestment of principal payments on its existing securities holdings when the time comes\"},{\"dimension\":\"overall\",\"quote\":\"we are confident that we have the tools necessary to remove accommodation at the appropriate time and at the appropriate pace\"},{\"dimension\":\"balance_sheet\",\"quote\":\"our conclusion is that asset purchases over more recent years have provided meaningful stimulus to the economy, and continue to do so\"}],\"rationale\":\"The speech is largely technical, defending QE's effectiveness while describing normalization tools and noting an anticipated rate liftoff this year. That gives it a slight hawkish lean on forward guidance, but the overall stance is near neutral.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC and market participants anticipate that the federal funds rate will be raised sometime this year"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it plans to normalize the size of the balance sheet primarily by ceasing reinvestment of principal payments on its existing securities holdings when the time comes"
+   },
+   {
+    "dimension": "overall",
+    "quote": "we are confident that we have the tools necessary to remove accommodation at the appropriate time and at the appropriate pace"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "our conclusion is that asset purchases over more recent years have provided meaningful stimulus to the economy, and continue to do so"
+   }
+  ],
+  "rationale": "The speech is largely technical, defending QE's effectiveness while describing normalization tools and noting an anticipated rate liftoff this year. That gives it a slight hawkish lean on forward guidance, but the overall stance is near neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the FOMC and market participants anticipate that the federal funds rate will be raised sometime this year",
+     "start": 5693,
+     "end": 5798
+    },
+    {
+     "quote": "it plans to normalize the size of the balance sheet primarily by ceasing reinvestment of principal payments on its existing securities holdings when the time comes",
+     "start": 8199,
+     "end": 8362
+    },
+    {
+     "quote": "we are confident that we have the tools necessary to remove accommodation at the appropriate time and at the appropriate pace",
+     "start": 9169,
+     "end": 9294
+    },
+    {
+     "quote": "our conclusion is that asset purchases over more recent years have provided meaningful stimulus to the economy, and continue to do so",
+     "start": 3320,
+     "end": 3453
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

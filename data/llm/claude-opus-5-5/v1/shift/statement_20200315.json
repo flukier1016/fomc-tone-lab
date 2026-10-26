@@ -1,0 +1,159 @@
+{
+ "key": "statement_20200315",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200315",
+  "previous_doc_id": "statement_20200303",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a54d2ec1c2d266ed78dec81b2ddf639b506222d6d7526a752ec4b70b20259f5e",
+ "message_id": "msg_011CgFudUdNDfAWsjusF8w73",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1485,
+  "output_tokens": 912,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.\",\"after\":\"the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.\",\"direction\":\"dovish\"},{\"before\":\"The fundamentals of the U.S. economy remain strong. However, the coronavirus poses evolving risks to economic activity.\",\"after\":\"The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.\",\"direction\":\"dovish\"},{\"before\":\"Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.\",\"after\":\"Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee will also reinvest all principal payments from the Federal Reserve's holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.\",\"direction\":\"dovish\"}],\"rationale\":\"The Committee cut rates by a full point to the zero lower bound, added forward guidance to hold rates there until the economy has weathered the shock, and launched at least $700 billion in asset purchases. That is a major dovish escalation, only slightly tempered by Mester's dissent in favor of a smaller cut.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.",
+    "after": "the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The fundamentals of the U.S. economy remain strong. However, the coronavirus poses evolving risks to economic activity.",
+    "after": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.",
+    "after": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee will also reinvest all principal payments from the Federal Reserve's holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The Committee cut rates by a full point to the zero lower bound, added forward guidance to hold rates there until the economy has weathered the shock, and launched at least $700 billion in asset purchases. That is a major dovish escalation, only slightly tempered by Mester's dissent in favor of a smaller cut."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent.",
+     "start": 222,
+     "end": 369
+    },
+    {
+     "quote": "The fundamentals of the U.S. economy remain strong. However, the coronavirus poses evolving risks to economic activity.",
+     "start": 0,
+     "end": 118
+    },
+    {
+     "quote": "Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles.",
+     "start": 539,
+     "end": 781
+    }
+   ]
+  },
+  "after": {
+   "n": 8,
+   "verified": 8,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+     "start": 1276,
+     "end": 1370
+    },
+    {
+     "quote": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+     "start": 1372,
+     "end": 1566
+    },
+    {
+     "quote": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+     "start": 2867,
+     "end": 3053
+    },
+    {
+     "quote": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+     "start": 1124,
+     "end": 1242
+    },
+    {
+     "quote": "The Federal Reserve is prepared to use its full range of tools to support the flow of credit to households and businesses and thereby promote its maximum employment and price stability goals.",
+     "start": 2499,
+     "end": 2689
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have declined; survey-based measures of longer-term inflation expectations are little changed.",
+     "start": 871,
+     "end": 1012
+    },
+    {
+     "quote": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+     "start": 3693,
+     "end": 3998
+    },
+    {
+     "quote": "The Committee will also reinvest all principal payments from the Federal Reserve's holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.",
+     "start": 3055,
+     "end": 3236
+    }
+   ]
+  }
+ }
+}

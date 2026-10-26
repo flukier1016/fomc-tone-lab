@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20190501",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20190501",
+  "doc_type": "minutes",
+  "text_sha256": "ac8842f9deba0c0c792fc231a82c125acfd92ef04e3aab95b516917da245d70f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6a435a1c11481cdbd424444b88995d5b922a2a877a2cd69c6e7155cb957eb64c",
+ "message_id": "msg_011CgFugCCjJsT8icLzPaRua",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13877,
+  "output_tokens": 602,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Members observed that a patient approach to determining future adjustments to the target range for the federal funds rate would likely remain appropriate for some time\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many participants viewed the recent dip in PCE inflation as likely to be transitory\"},{\"dimension\":\"risk_balance\",\"quote\":\"in light of recent, softer inflation readings, some viewed the downside risks to inflation as having increased.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants agreed that labor markets had remained strong over the intermeeting period and that economic activity had risen at a solid rate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Some participants viewed risks to the downside for real GDP growth as having decreased, partly because prospects for a sharp slowdown in global economic growth, particularly in China and Europe, had diminished.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"would be based on a cap on monthly Treasury redemptions of $15 billion—down from the $30 billion monthly redemption cap\"}],\"rationale\":\"The minutes reaffirm an extended patient hold, with muted inflation (seen partly as transitory) and some concern about inflation expectations and downside inflation risks, offset by strong activity, receding growth risks, and a few participants favoring eventual firming. Runoff slowing is mildly dovish, leaving a slightly dovish but near-neutral net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Members observed that a patient approach to determining future adjustments to the target range for the federal funds rate would likely remain appropriate for some time"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many participants viewed the recent dip in PCE inflation as likely to be transitory"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "in light of recent, softer inflation readings, some viewed the downside risks to inflation as having increased."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants agreed that labor markets had remained strong over the intermeeting period and that economic activity had risen at a solid rate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Some participants viewed risks to the downside for real GDP growth as having decreased, partly because prospects for a sharp slowdown in global economic growth, particularly in China and Europe, had diminished."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "would be based on a cap on monthly Treasury redemptions of $15 billion—down from the $30 billion monthly redemption cap"
+   }
+  ],
+  "rationale": "The minutes reaffirm an extended patient hold, with muted inflation (seen partly as transitory) and some concern about inflation expectations and downside inflation risks, offset by strong activity, receding growth risks, and a few participants favoring eventual firming. Runoff slowing is mildly dovish, leaving a slightly dovish but near-neutral net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Members observed that a patient approach to determining future adjustments to the target range for the federal funds rate would likely remain appropriate for some time",
+     "start": 41019,
+     "end": 41186
+    },
+    {
+     "quote": "Many participants viewed the recent dip in PCE inflation as likely to be transitory",
+     "start": 35875,
+     "end": 35958
+    },
+    {
+     "quote": "in light of recent, softer inflation readings, some viewed the downside risks to inflation as having increased.",
+     "start": 31293,
+     "end": 31403
+    },
+    {
+     "quote": "Participants agreed that labor markets had remained strong over the intermeeting period and that economic activity had risen at a solid rate.",
+     "start": 26147,
+     "end": 26287
+    },
+    {
+     "quote": "Some participants viewed risks to the downside for real GDP growth as having decreased, partly because prospects for a sharp slowdown in global economic growth, particularly in China and Europe, had diminished.",
+     "start": 32611,
+     "end": 32820
+    },
+    {
+     "quote": "would be based on a cap on monthly Treasury redemptions of $15 billion—down from the $30 billion monthly redemption cap",
+     "start": 2183,
+     "end": 2302
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

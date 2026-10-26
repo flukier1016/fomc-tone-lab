@@ -1,0 +1,112 @@
+{
+ "key": "speech_kugler20250422a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kugler20250422a",
+  "doc_type": "speech",
+  "text_sha256": "3be6f86d6af05e9bcbe49053f17c7a4e7d437e44b7f1b00213f755098d443eb3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2af5ca3f23b8fbbedf13c55cb4410dcd95f3f96b3a5a2e198cdf4b8a1027cf13",
+ "message_id": "msg_011CgFugGNG26nwxi9SCrhH5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5260,
+  "output_tokens": 468,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With respect to inflation, progress has slowed since last summer, and inflation remains above the 2 percent goal.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"That will likely put upward pressure on prices. For instance, both survey- and market-based measures of near-term inflation expectations have moved up.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market remains solid, but the pace of hiring has eased during this year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But the economy is facing heightened uncertainty, with upside risks to inflation and downside risks to employment.\"}],\"rationale\":\"The speaker signals holding rates steady while upside inflation risks from tariffs persist, with inflation progress stalled and the labor market stable, a mild hawkish lean. Two-sided risks and noted growth softness temper the signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With respect to inflation, progress has slowed since last summer, and inflation remains above the 2 percent goal."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "That will likely put upward pressure on prices. For instance, both survey- and market-based measures of near-term inflation expectations have moved up."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market remains solid, but the pace of hiring has eased during this year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But the economy is facing heightened uncertainty, with upside risks to inflation and downside risks to employment."
+   }
+  ],
+  "rationale": "The speaker signals holding rates steady while upside inflation risks from tariffs persist, with inflation progress stalled and the labor market stable, a mild hawkish lean. Two-sided risks and noted growth softness temper the signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will support maintaining the current policy rate for as long as these upside risks to inflation continue, while economic activity and employment remain stable.",
+     "start": 5058,
+     "end": 5218
+    },
+    {
+     "quote": "With respect to inflation, progress has slowed since last summer, and inflation remains above the 2 percent goal.",
+     "start": 3027,
+     "end": 3139
+    },
+    {
+     "quote": "That will likely put upward pressure on prices. For instance, both survey- and market-based measures of near-term inflation expectations have moved up.",
+     "start": 4315,
+     "end": 4465
+    },
+    {
+     "quote": "The labor market remains solid, but the pace of hiring has eased during this year.",
+     "start": 2489,
+     "end": 2570
+    },
+    {
+     "quote": "But the economy is facing heightened uncertainty, with upside risks to inflation and downside risks to employment.",
+     "start": 16109,
+     "end": 16222
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

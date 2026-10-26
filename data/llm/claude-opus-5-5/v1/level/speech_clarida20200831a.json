@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20200831a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20200831a",
+  "doc_type": "speech",
+  "text_sha256": "0b27140effe558b9c9aeed7833769b61525a72308de94ff94277737dad5eb63e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "323aeebe6c7ef215c48a602e34146f5100b09cdfbc3047d9586dcaffbbaee06f",
+ "message_id": "msg_011CgFugC7mbRu1Ld1PdUNQh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7519,
+  "output_tokens": 609,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":null,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a low unemployment rate by itself, in the absence of evidence that price inflation is running or is likely to run persistently above mandate-consistent levels or pressing financial stability concerns, will not, under our new framework, be a sufficient trigger for policy action.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"my reading of the evidence is that the various measures of inflation expectations I follow reside at the low end of a range I consider consistent with our 2 percent inflation goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"this binding ELB constraint is likely to impart downside risks to inflation and employment that the Committee needs to consider in implementing its monetary policy strategy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we believe that forward guidance and large-scale asset purchases have been and continue to be effective sources of support to the economy when the federal funds rate is at the ELB\"}],\"rationale\":\"The speech explains the new framework: makeup inflation overshooting and responding only to employment shortfalls. Both changes imply a lower-for-longer rate path, and the text stresses downside risks from the ELB and low inflation expectations. Asset purchases are endorsed as effective support, making the overall signal strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": null,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a low unemployment rate by itself, in the absence of evidence that price inflation is running or is likely to run persistently above mandate-consistent levels or pressing financial stability concerns, will not, under our new framework, be a sufficient trigger for policy action."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "my reading of the evidence is that the various measures of inflation expectations I follow reside at the low end of a range I consider consistent with our 2 percent inflation goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "this binding ELB constraint is likely to impart downside risks to inflation and employment that the Committee needs to consider in implementing its monetary policy strategy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we believe that forward guidance and large-scale asset purchases have been and continue to be effective sources of support to the economy when the federal funds rate is at the ELB"
+   }
+  ],
+  "rationale": "The speech explains the new framework: makeup inflation overshooting and responding only to employment shortfalls. Both changes imply a lower-for-longer rate path, and the text stresses downside risks from the ELB and low inflation expectations. Asset purchases are endorsed as effective support, making the overall signal strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "following periods when inflation has been running persistently below 2 percent, appropriate monetary policy will likely aim to achieve inflation moderately above 2 percent for some time.",
+     "start": 18995,
+     "end": 19180
+    },
+    {
+     "quote": "a low unemployment rate by itself, in the absence of evidence that price inflation is running or is likely to run persistently above mandate-consistent levels or pressing financial stability concerns, will not, under our new framework, be a sufficient trigger for policy action.",
+     "start": 17508,
+     "end": 17785
+    },
+    {
+     "quote": "my reading of the evidence is that the various measures of inflation expectations I follow reside at the low end of a range I consider consistent with our 2 percent inflation goal.",
+     "start": 9233,
+     "end": 9412
+    },
+    {
+     "quote": "this binding ELB constraint is likely to impart downside risks to inflation and employment that the Committee needs to consider in implementing its monetary policy strategy.",
+     "start": 16673,
+     "end": 16845
+    },
+    {
+     "quote": "we believe that forward guidance and large-scale asset purchases have been and continue to be effective sources of support to the economy when the federal funds rate is at the ELB",
+     "start": 22036,
+     "end": 22215
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_bernanke20090925a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090925a",
+  "doc_type": "speech",
+  "text_sha256": "2d29d1c21f41eb3c53f7577218ed8350bd3004972ffded069a95a313a4a2952a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "87b8976544f1e5738fc4c8e584c025f0cc7d4b76810614b365cac2272191718c",
+ "message_id": "msg_011CgFugGVT8Yd1UPLnRtVLF",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1241,
+  "output_tokens": 390,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Let me make a few brief comments about the Federal Reserve's efforts with respect to diversity, and I look forward to our dialogue afterward.\"},{\"dimension\":\"overall\",\"quote\":\"Usage of many of these programs has been winding down as markets improve, but one program for which an ongoing need still clearly exists is the Term Asset-Backed Securities Loan Facility, or TALF.\"},{\"dimension\":\"overall\",\"quote\":\"The Federal Reserve System remains committed to diversity and inclusion in our programs and activities, and I appreciate the opportunity to have this dialogue.\"}],\"rationale\":\"The speech focuses on diversity in TALF participation, procurement, and support for minority-owned institutions, with no monetary policy view. The brief mention of crisis facilities winding down is descriptive and carries no clear stance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Let me make a few brief comments about the Federal Reserve's efforts with respect to diversity, and I look forward to our dialogue afterward."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Usage of many of these programs has been winding down as markets improve, but one program for which an ongoing need still clearly exists is the Term Asset-Backed Securities Loan Facility, or TALF."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Federal Reserve System remains committed to diversity and inclusion in our programs and activities, and I appreciate the opportunity to have this dialogue."
+   }
+  ],
+  "rationale": "The speech focuses on diversity in TALF participation, procurement, and support for minority-owned institutions, with no monetary policy view. The brief mention of crisis facilities winding down is descriptive and carries no clear stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Let me make a few brief comments about the Federal Reserve's efforts with respect to diversity, and I look forward to our dialogue afterward.",
+     "start": 219,
+     "end": 359
+    },
+    {
+     "quote": "Usage of many of these programs has been winding down as markets improve, but one program for which an ongoing need still clearly exists is the Term Asset-Backed Securities Loan Facility, or TALF.",
+     "start": 631,
+     "end": 826
+    },
+    {
+     "quote": "The Federal Reserve System remains committed to diversity and inclusion in our programs and activities, and I appreciate the opportunity to have this dialogue.",
+     "start": 3882,
+     "end": 4040
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

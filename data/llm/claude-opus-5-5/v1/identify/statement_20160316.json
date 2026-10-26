@@ -1,0 +1,53 @@
+{
+ "key": "statement_20160316",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20160316",
+  "release_date": "2016-03-16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "079cc883ebcb5a1d8e3c98abaa768647edd35ad59731a63a6382878c5a9423bb",
+ "message_id": "msg_011CgFue43nVXetKSppic9Sm",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1556,
+  "output_tokens": 442,
+  "output_tokens_details": {
+   "thinking_tokens": 169
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2016,\"month\":3,\"confidence\":0.85,\"cues\":[\"Rate held after a prior hike, with 'gradual increases' guidance, consistent with the period after the December 2015 liftoff\",\"'Despite the global economic and financial developments of recent months' points to the market turmoil of early 2016\",\"'Inflation picked up in recent months' while still below 2 percent fits early 2016 readings\",\"'Global economic and financial developments continue to pose risks' matches the March 2016 statement's language\",\"2016 voter roster: Brainard, Bullard, Fischer and Rosengren named, with masked slots fitting George, Mester, Powell and Tarullo\",\"Single dissent favoring a hike is consistent with Esther George's March 2016 dissent\",\"Reinvestment policy continuing until normalization is 'well under way'\"]}",
+ "parsed": {
+  "year": 2016,
+  "month": 3,
+  "confidence": 0.85,
+  "cues": [
+   "Rate held after a prior hike, with 'gradual increases' guidance, consistent with the period after the December 2015 liftoff",
+   "'Despite the global economic and financial developments of recent months' points to the market turmoil of early 2016",
+   "'Inflation picked up in recent months' while still below 2 percent fits early 2016 readings",
+   "'Global economic and financial developments continue to pose risks' matches the March 2016 statement's language",
+   "2016 voter roster: Brainard, Bullard, Fischer and Rosengren named, with masked slots fitting George, Mester, Powell and Tarullo",
+   "Single dissent favoring a hike is consistent with Esther George's March 2016 dissent",
+   "Reinvestment policy continuing until normalization is 'well under way'"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

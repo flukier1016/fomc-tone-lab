@@ -1,0 +1,51 @@
+{
+ "key": "statement_20110622",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20110622",
+  "release_date": "2011-06-22"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6294d1138fbf4094c83cd1363ff5ccbea23aedccc94e56327e4edebe9ee1a316",
+ "message_id": "msg_011CgFudX1jWbynXcVyb4viA",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1340,
+  "output_tokens": 193,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2011,\"month\":6,\"confidence\":0.95,\"cues\":[\"Completion of $600 billion Treasury purchases (QE2) by end of this month, which places it in June 2011\",\"Supply chain disruptions tied to the tragic events in Japan (March 2011 earthquake)\",\"Recovery described as slower than expected, with weaker labor market indicators, matching spring 2011 data\",\"Kocherlakota and Raskin listed as voters, consistent with the 2011 voting roster\",\"'Extended period' language, before the mid-2013 date guidance adopted in August 2011\"]}",
+ "parsed": {
+  "year": 2011,
+  "month": 6,
+  "confidence": 0.95,
+  "cues": [
+   "Completion of $600 billion Treasury purchases (QE2) by end of this month, which places it in June 2011",
+   "Supply chain disruptions tied to the tragic events in Japan (March 2011 earthquake)",
+   "Recovery described as slower than expected, with weaker labor market indicators, matching spring 2011 data",
+   "Kocherlakota and Raskin listed as voters, consistent with the 2011 voting roster",
+   "'Extended period' language, before the mid-2013 date guidance adopted in August 2011"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

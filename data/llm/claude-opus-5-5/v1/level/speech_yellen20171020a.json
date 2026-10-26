@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20171020a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20171020a",
+  "doc_type": "speech",
+  "text_sha256": "6ac1d13d691b444d8b2f470b0bdd23538ebfb91cc01418d8c89f4cf6fb6496de"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "483fa5824823aebc4d4f27d61c898ae450e2824844ec0c0a2b78478d2fe0a43b",
+ "message_id": "msg_011CgFugBRbcA95CfRfon8FB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6070,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"with the economy now operating near maximum employment and inflation expected to rise to the FOMC's 2 percent objective over the next couple of years, the FOMC has been scaling back the accommodation\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In light of our recent decision to start reducing our securities holdings this month, I would like to discuss a few aspects of our balance sheet strategy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the probability that short-term interest rates may need to be reduced to their effective lower bound at some point is uncomfortably high, even in the absence of a major financial and economic crisis.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we must keep our unconventional policy tools ready to be deployed again should short-term interest rates return to their effective lower bound.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation expected to rise to the FOMC's 2 percent objective over the next couple of years\"}],\"rationale\":\"The speech describes ongoing removal of accommodation and balance sheet runoff amid an economy near maximum employment, a mild hawkish element. However, it emphasizes gradual normalization, a low neutral rate, and the high likelihood of returning to the lower bound, roughly balancing the net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "with the economy now operating near maximum employment and inflation expected to rise to the FOMC's 2 percent objective over the next couple of years, the FOMC has been scaling back the accommodation"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In light of our recent decision to start reducing our securities holdings this month, I would like to discuss a few aspects of our balance sheet strategy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the probability that short-term interest rates may need to be reduced to their effective lower bound at some point is uncomfortably high, even in the absence of a major financial and economic crisis."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we must keep our unconventional policy tools ready to be deployed again should short-term interest rates return to their effective lower bound."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation expected to rise to the FOMC's 2 percent objective over the next couple of years"
+   }
+  ],
+  "rationale": "The speech describes ongoing removal of accommodation and balance sheet runoff amid an economy near maximum employment, a mild hawkish element. However, it emphasizes gradual normalization, a low neutral rate, and the high likelihood of returning to the lower bound, roughly balancing the net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "with the economy now operating near maximum employment and inflation expected to rise to the FOMC's 2 percent objective over the next couple of years, the FOMC has been scaling back the accommodation",
+     "start": 1809,
+     "end": 2008
+    },
+    {
+     "quote": "In light of our recent decision to start reducing our securities holdings this month, I would like to discuss a few aspects of our balance sheet strategy.",
+     "start": 12092,
+     "end": 12245
+    },
+    {
+     "quote": "the probability that short-term interest rates may need to be reduced to their effective lower bound at some point is uncomfortably high, even in the absence of a major financial and economic crisis.",
+     "start": 3044,
+     "end": 3242
+    },
+    {
+     "quote": "we must keep our unconventional policy tools ready to be deployed again should short-term interest rates return to their effective lower bound.",
+     "start": 19984,
+     "end": 20126
+    },
+    {
+     "quote": "inflation expected to rise to the FOMC's 2 percent objective over the next couple of years",
+     "start": 1868,
+     "end": 1958
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

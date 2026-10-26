@@ -1,0 +1,52 @@
+{
+ "key": "statement_20151216",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20151216",
+  "release_date": "2015-12-16"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f965285523e0c8b56aeff4b07af3d189c32227c27e9a10897ce01e0a90ce8b20",
+ "message_id": "msg_011CgFudWFMLPGoJxB93bSEE",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1608,
+  "output_tokens": 187,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2015,\"month\":12,\"confidence\":0.97,\"cues\":[\"First rate increase ('decided to raise the target range'), liftoff from zero lower bound\",\"'considerable improvement in labor market conditions this year' and 'reasonably confident that inflation will rise'\",\"'diminished appreciably since early this year' implies late in year\",\"Reinvestment policy continuing until normalization 'well under way'\",\"Voters include Lael Brainard and Stanley Fischer (2014-2017 era)\",\"Inflation below 2% due to energy and import price declines (2015)\"]}",
+ "parsed": {
+  "year": 2015,
+  "month": 12,
+  "confidence": 0.97,
+  "cues": [
+   "First rate increase ('decided to raise the target range'), liftoff from zero lower bound",
+   "'considerable improvement in labor market conditions this year' and 'reasonably confident that inflation will rise'",
+   "'diminished appreciably since early this year' implies late in year",
+   "Reinvestment policy continuing until normalization 'well under way'",
+   "Voters include Lael Brainard and Stanley Fischer (2014-2017 era)",
+   "Inflation below 2% due to energy and import price declines (2015)"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

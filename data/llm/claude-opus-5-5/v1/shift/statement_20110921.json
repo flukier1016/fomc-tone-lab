@@ -1,0 +1,159 @@
+{
+ "key": "statement_20110921",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20110921",
+  "previous_doc_id": "statement_20110809",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2076cbe1ebb1d722feb0f1d65c47aa5b56c36ad6fc6fe98e35c5bc65e6c790ac",
+ "message_id": "msg_011CgFudUm493uLGj7xLRxxC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2198,
+  "output_tokens": 797,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-2,\"changes\":[{\"before\":\"The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.\",\"after\":\"the Committee decided today to extend the average maturity of its holdings of securities. The Committee intends to purchase, by the end of June 2012, $400 billion of Treasury securities with remaining maturities of 6 years to 30 years and to sell an equal amount of Treasury securities with remaining maturities of 3 years or less.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"This program should put downward pressure on longer-term interest rates and help make broader financial conditions more accommodative.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"To help support conditions in mortgage markets, the Committee will now reinvest principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.\",\"direction\":\"dovish\"},{\"before\":\"Moreover, downside risks to the economic outlook have increased.\",\"after\":\"Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.\",\"direction\":\"dovish\"},{\"before\":\"The Committee now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the previous meeting\",\"after\":\"The Committee continues to expect some pickup in the pace of recovery over coming quarters\",\"direction\":\"neutral\"},{\"before\":\"Inflation picked up earlier in the year, mainly reflecting higher prices for some commodities and imported goods, as well as the supply chain disruptions. More recently, inflation has moderated as prices of energy and some commodities have declined from their earlier peaks.\",\"after\":\"Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.\",\"direction\":\"dovish\"},{\"before\":\"who would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an extended period.\",\"after\":\"who did not support additional policy accommodation at this time.\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee launched a new $400 billion maturity extension program explicitly aimed at lowering longer-term rates, and shifted MBS reinvestment into agency MBS, a clear step toward further easing. It also highlighted significant downside risks including global financial strains, while keeping the mid-2013 rate guidance unchanged.\"}",
+ "parsed": {
+  "shift_score": -2,
+  "changes": [
+   {
+    "before": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+    "after": "the Committee decided today to extend the average maturity of its holdings of securities. The Committee intends to purchase, by the end of June 2012, $400 billion of Treasury securities with remaining maturities of 6 years to 30 years and to sell an equal amount of Treasury securities with remaining maturities of 3 years or less.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "This program should put downward pressure on longer-term interest rates and help make broader financial conditions more accommodative.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "To help support conditions in mortgage markets, the Committee will now reinvest principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Moreover, downside risks to the economic outlook have increased.",
+    "after": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Committee now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the previous meeting",
+    "after": "The Committee continues to expect some pickup in the pace of recovery over coming quarters",
+    "direction": "neutral"
+   },
+   {
+    "before": "Inflation picked up earlier in the year, mainly reflecting higher prices for some commodities and imported goods, as well as the supply chain disruptions. More recently, inflation has moderated as prices of energy and some commodities have declined from their earlier peaks.",
+    "after": "Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.",
+    "direction": "dovish"
+   },
+   {
+    "before": "who would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+    "after": "who did not support additional policy accommodation at this time.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee launched a new $400 billion maturity extension program explicitly aimed at lowering longer-term rates, and shifted MBS reinvestment into agency MBS, a clear step toward further easing. It also highlighted significant downside risks including global financial strains, while keeping the mid-2013 rate guidance unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+     "start": 2442,
+     "end": 2557
+    },
+    {
+     "quote": "Moreover, downside risks to the economic outlook have increased.",
+     "start": 1525,
+     "end": 1588
+    },
+    {
+     "quote": "The Committee now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the previous meeting",
+     "start": 1244,
+     "end": 1373
+    },
+    {
+     "quote": "Inflation picked up earlier in the year, mainly reflecting higher prices for some commodities and imported goods, as well as the supply chain disruptions. More recently, inflation has moderated as prices of energy and some commodities have declined from their earlier peaks.",
+     "start": 802,
+     "end": 1075
+    },
+    {
+     "quote": "who would have preferred to continue to describe economic conditions as likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 3280,
+     "end": 3444
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided today to extend the average maturity of its holdings of securities. The Committee intends to purchase, by the end of June 2012, $400 billion of Treasury securities with remaining maturities of 6 years to 30 years and to sell an equal amount of Treasury securities with remaining maturities of 3 years or less.",
+     "start": 1736,
+     "end": 2066
+    },
+    {
+     "quote": "This program should put downward pressure on longer-term interest rates and help make broader financial conditions more accommodative.",
+     "start": 2068,
+     "end": 2201
+    },
+    {
+     "quote": "To help support conditions in mortgage markets, the Committee will now reinvest principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities.",
+     "start": 2349,
+     "end": 2555
+    },
+    {
+     "quote": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+     "start": 1126,
+     "end": 1243
+    },
+    {
+     "quote": "The Committee continues to expect some pickup in the pace of recovery over coming quarters",
+     "start": 884,
+     "end": 974
+    },
+    {
+     "quote": "Inflation appears to have moderated since earlier in the year as prices of energy and some commodities have declined from their peaks.",
+     "start": 582,
+     "end": 715
+    },
+    {
+     "quote": "who did not support additional policy accommodation at this time.",
+     "start": 3601,
+     "end": 3665
+    }
+   ]
+  }
+ }
+}

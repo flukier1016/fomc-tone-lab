@@ -1,0 +1,119 @@
+{
+ "key": "statement_20130501",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20130501",
+  "previous_doc_id": "statement_20130320",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "804ad2ca094b978dde91b17954ccd17eebcaab0f74cc404aa1911e4ab706fcbe",
+ "message_id": "msg_011CgFudUSD7EeKdpxzW1MPC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2734,
+  "output_tokens": 424,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.\",\"after\":\"Information received since the Federal Open Market Committee met in March suggests that economic activity has been expanding at a moderate pace.\",\"direction\":\"neutral\"},{\"before\":\"Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.\",\"after\":\"Labor market conditions have shown some improvement in recent months, on balance, but the unemployment rate remains elevated.\",\"direction\":\"dovish\"},{\"before\":\"but fiscal policy has become somewhat more restrictive.\",\"after\":\"but fiscal policy is restraining economic growth.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.\",\"direction\":\"dovish\"}],\"rationale\":\"The new two-way purchase-pace language explicitly opens the door to increasing QE, and the softer labor-market and fiscal-drag wording leans dovish. That is only partly offset by the symmetric option to reduce purchases, and rate guidance is unchanged.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.",
+    "after": "Information received since the Federal Open Market Committee met in March suggests that economic activity has been expanding at a moderate pace.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.",
+    "after": "Labor market conditions have shown some improvement in recent months, on balance, but the unemployment rate remains elevated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "but fiscal policy has become somewhat more restrictive.",
+    "after": "but fiscal policy is restraining economic growth.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The new two-way purchase-pace language explicitly opens the door to increasing QE, and the softer labor-market and fiscal-drag wording leans dovish. That is only partly offset by the symmetric option to reduce purchases, and rate guidance is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.",
+     "start": 0,
+     "end": 154
+    },
+    {
+     "quote": "Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.",
+     "start": 156,
+     "end": 271
+    },
+    {
+     "quote": "but fiscal policy has become somewhat more restrictive.",
+     "start": 381,
+     "end": 435
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in March suggests that economic activity has been expanding at a moderate pace.",
+     "start": 0,
+     "end": 143
+    },
+    {
+     "quote": "Labor market conditions have shown some improvement in recent months, on balance, but the unemployment rate remains elevated.",
+     "start": 145,
+     "end": 269
+    },
+    {
+     "quote": "but fiscal policy is restraining economic growth.",
+     "start": 379,
+     "end": 427
+    },
+    {
+     "quote": "The Committee is prepared to increase or reduce the pace of its purchases to maintain appropriate policy accommodation as the outlook for the labor market or inflation changes.",
+     "start": 2317,
+     "end": 2492
+    }
+   ]
+  }
+ }
+}

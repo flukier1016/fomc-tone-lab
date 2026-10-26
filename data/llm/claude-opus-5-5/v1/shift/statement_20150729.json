@@ -1,0 +1,154 @@
+{
+ "key": "statement_20150729",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20150729",
+  "previous_doc_id": "statement_20150617",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2bd14bb4c57b95d852201d85c8060064192d69f7a23e4edab306d2c119128128",
+ "message_id": "msg_011CgFue6e4ZngyEABuW1rTB",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2259,
+  "output_tokens": 602,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market\",\"after\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market\",\"direction\":\"hawkish\"},{\"before\":\"The pace of job gains picked up while the unemployment rate remained steady.\",\"after\":\"The labor market continued to improve, with solid job gains and declining unemployment.\",\"direction\":\"hawkish\"},{\"before\":\"On balance, a range of labor market indicators suggests that underutilization of labor resources diminished somewhat.\",\"after\":\"On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.\",\"direction\":\"hawkish\"},{\"before\":\"the housing sector has shown some improvement\",\"after\":\"the housing sector has shown additional improvement\",\"direction\":\"hawkish\"},{\"before\":\"Information received since the Federal Open Market Committee met in April suggests that economic activity has been expanding moderately after having changed little during the first quarter.\",\"after\":\"Information received since the Federal Open Market Committee met in June indicates that economic activity has been expanding moderately in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"decreasing prices of non-energy imports; energy prices appear to have stabilized.\",\"after\":\"decreasing prices of non-energy imports.\",\"direction\":\"dovish\"}],\"rationale\":\"Adding \\\"some\\\" before \\\"further improvement\\\" lowers the labor-market bar for liftoff, and the labor and activity descriptions are stronger, signaling a nearer rate hike. The removal of the note that energy prices had stabilized is a minor dovish offset, and the policy setting is otherwise unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market",
+    "after": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The pace of job gains picked up while the unemployment rate remained steady.",
+    "after": "The labor market continued to improve, with solid job gains and declining unemployment.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "On balance, a range of labor market indicators suggests that underutilization of labor resources diminished somewhat.",
+    "after": "On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the housing sector has shown some improvement",
+    "after": "the housing sector has shown additional improvement",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in April suggests that economic activity has been expanding moderately after having changed little during the first quarter.",
+    "after": "Information received since the Federal Open Market Committee met in June indicates that economic activity has been expanding moderately in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "decreasing prices of non-energy imports; energy prices appear to have stabilized.",
+    "after": "decreasing prices of non-energy imports.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "Adding \"some\" before \"further improvement\" lowers the labor-market bar for liftoff, and the labor and activity descriptions are stronger, signaling a nearer rate hike. The removal of the note that energy prices had stabilized is a minor dovish offset, and the policy setting is otherwise unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market",
+     "start": 2358,
+     "end": 2521
+    },
+    {
+     "quote": "The pace of job gains picked up while the unemployment rate remained steady.",
+     "start": 190,
+     "end": 265
+    },
+    {
+     "quote": "On balance, a range of labor market indicators suggests that underutilization of labor resources diminished somewhat.",
+     "start": 267,
+     "end": 383
+    },
+    {
+     "quote": "the housing sector has shown some improvement",
+     "start": 436,
+     "end": 481
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in April suggests that economic activity has been expanding moderately after having changed little during the first quarter.",
+     "start": 0,
+     "end": 188
+    },
+    {
+     "quote": "decreasing prices of non-energy imports; energy prices appear to have stabilized.",
+     "start": 674,
+     "end": 754
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen some further improvement in the labor market",
+     "start": 2315,
+     "end": 2483
+    },
+    {
+     "quote": "The labor market continued to improve, with solid job gains and declining unemployment.",
+     "start": 322,
+     "end": 408
+    },
+    {
+     "quote": "On balance, a range of labor market indicators suggests that underutilization of labor resources has diminished since early this year.",
+     "start": 410,
+     "end": 543
+    },
+    {
+     "quote": "the housing sector has shown additional improvement",
+     "start": 205,
+     "end": 256
+    },
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June indicates that economic activity has been expanding moderately in recent months.",
+     "start": 0,
+     "end": 152
+    },
+    {
+     "quote": "decreasing prices of non-energy imports.",
+     "start": 672,
+     "end": 711
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_cook20231018a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20231018a",
+  "doc_type": "speech",
+  "text_sha256": "ed755ea4a636d76af1568b25a496745f5b166c2b912c710efc5b411b465b428d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "57ddd174dd0c7c334fdb0fcc62d5ac99071791c4abd3e9f7a36684afb55813a8",
+ "message_id": "msg_011CgFug9HryGnRnjdgWtp1a",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3148,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"unemployment has now returned to its pre-pandemic lows, even as we have worked to return inflation to our 2 percent objective.\"},{\"dimension\":\"overall\",\"quote\":\"This is wise considering that the past three decades have shown that unemployment can fall well below the levels that economists once predicted would overheat the economy.\"},{\"dimension\":\"overall\",\"quote\":\"Economists also understand that employment is the key to a healthy economy.\"}],\"rationale\":\"This is a historical award speech about the origins of the Fed's maximum-employment mandate and offers no view on the current or future policy path. Its emphasis on the benefits of maximum employment, and its remark that unemployment can fall below once-feared overheating levels, gives only a faint dovish tint.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "unemployment has now returned to its pre-pandemic lows, even as we have worked to return inflation to our 2 percent objective."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This is wise considering that the past three decades have shown that unemployment can fall well below the levels that economists once predicted would overheat the economy."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Economists also understand that employment is the key to a healthy economy."
+   }
+  ],
+  "rationale": "This is a historical award speech about the origins of the Fed's maximum-employment mandate and offers no view on the current or future policy path. Its emphasis on the benefits of maximum employment, and its remark that unemployment can fall below once-feared overheating levels, gives only a faint dovish tint."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "unemployment has now returned to its pre-pandemic lows, even as we have worked to return inflation to our 2 percent objective.",
+     "start": 7118,
+     "end": 7243
+    },
+    {
+     "quote": "This is wise considering that the past three decades have shown that unemployment can fall well below the levels that economists once predicted would overheat the economy.",
+     "start": 7821,
+     "end": 7991
+    },
+    {
+     "quote": "Economists also understand that employment is the key to a healthy economy.",
+     "start": 9135,
+     "end": 9209
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20130320",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20130320",
+  "doc_type": "minutes",
+  "text_sha256": "c62869e220be5f924e2e7b1fac09b9bdb14e6938162b153e07996db72b72d3bc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a7a1ff503f3da9d8b18a5ca1aad36c833a269a20a0116e7466bd858dd2329a32",
+ "message_id": "msg_011CgFugCR8GGhjjMgMHLR2R",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13004,
+  "output_tokens": 638,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Several others thought that if the outlook for labor market conditions improved as anticipated, it would probably be appropriate to slow purchases later in the year and to stop them by year-end.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A few members felt that the risks and costs of purchases, along with the improved outlook since last fall, would likely make a reduction in the pace of purchases appropriate around midyear, with purchases ending later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation had been running below the Committee's 2 percent objective for some time, and nearly all of the participants anticipated that it would run at or below 2 percent over the medium term.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see downside risks to the economic outlook.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee also retained its forward guidance about the federal funds rate, including the thresholds on the unemployment and inflation rates.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Meeting participants generally indicated that they viewed the economic data received during the intermeeting period as somewhat more positive than had been expected, but that fiscal policy appeared to have become more restrictive\"}],\"rationale\":\"Policy remained highly accommodative with subdued inflation and downside risks, but the minutes reveal growing support for tapering asset purchases around midyear or later in the year amid concerns about costs and financial stability. These offsetting signals leave a roughly neutral, slightly hawkish net tilt relative to the prior stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Several others thought that if the outlook for labor market conditions improved as anticipated, it would probably be appropriate to slow purchases later in the year and to stop them by year-end."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A few members felt that the risks and costs of purchases, along with the improved outlook since last fall, would likely make a reduction in the pace of purchases appropriate around midyear, with purchases ending later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation had been running below the Committee's 2 percent objective for some time, and nearly all of the participants anticipated that it would run at or below 2 percent over the medium term."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see downside risks to the economic outlook."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee also retained its forward guidance about the federal funds rate, including the thresholds on the unemployment and inflation rates."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Meeting participants generally indicated that they viewed the economic data received during the intermeeting period as somewhat more positive than had been expected, but that fiscal policy appeared to have become more restrictive"
+   }
+  ],
+  "rationale": "Policy remained highly accommodative with subdued inflation and downside risks, but the minutes reveal growing support for tapering asset purchases around midyear or later in the year amid concerns about costs and financial stability. These offsetting signals leave a roughly neutral, slightly hawkish net tilt relative to the prior stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Several others thought that if the outlook for labor market conditions improved as anticipated, it would probably be appropriate to slow purchases later in the year and to stop them by year-end.",
+     "start": 37084,
+     "end": 37277
+    },
+    {
+     "quote": "A few members felt that the risks and costs of purchases, along with the improved outlook since last fall, would likely make a reduction in the pace of purchases appropriate around midyear, with purchases ending later this year.",
+     "start": 36855,
+     "end": 37082
+    },
+    {
+     "quote": "Inflation had been running below the Committee's 2 percent objective for some time, and nearly all of the participants anticipated that it would run at or below 2 percent over the medium term.",
+     "start": 19372,
+     "end": 19563
+    },
+    {
+     "quote": "The Committee continues to see downside risks to the economic outlook.",
+     "start": 40563,
+     "end": 40632
+    },
+    {
+     "quote": "The Committee also retained its forward guidance about the federal funds rate, including the thresholds on the unemployment and inflation rates.",
+     "start": 36103,
+     "end": 36246
+    },
+    {
+     "quote": "Meeting participants generally indicated that they viewed the economic data received during the intermeeting period as somewhat more positive than had been expected, but that fiscal policy appeared to have become more restrictive",
+     "start": 18186,
+     "end": 18415
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

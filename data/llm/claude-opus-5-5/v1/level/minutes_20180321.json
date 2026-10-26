@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20180321",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20180321",
+  "doc_type": "minutes",
+  "text_sha256": "8d05e5638a1e372dfe93e3b02696ebcb5c6d52572f81648688ab0a986886436b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3a5c737acade76804444440c2fcd8d00e42b7aed880e3ecd0b3bd1f5be5b7705",
+ "message_id": "msg_011CgFug8uYPWGsuKb46Raso",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12681,
+  "output_tokens": 641,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"With regard to the medium-term outlook for monetary policy, all participants saw some further firming of the stance of monetary policy as likely to be warranted.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"implied that the appropriate path for the federal funds rate over the next few years would likely be slightly steeper than they had previously expected.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"All participants agreed that the outlook for the economy beyond the current quarter had strengthened in recent months.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many participants stated that recent readings from indicators on inflation and inflation expectations increased their confidence that inflation would rise to the Committee's 2 percent objective in coming months and then stabilize around that level\"},{\"dimension\":\"risk_balance\",\"quote\":\"a strong majority of participants viewed the prospect of retaliatory trade actions by other countries, as well as other issues and uncertainties associated with trade policies, as downside risks for the U.S. economy.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Reductions in the size of the Federal Reserve's balance sheet continued as scheduled without a notable effect on markets.\"}],\"rationale\":\"The minutes describe a strengthened outlook, rising confidence that inflation will reach 2 percent, and unanimous expectations of further firming, with some participants seeing a steeper path and rates eventually going above neutral. Trade-policy downside risks and below-target inflation keep the overall risk balance roughly even, so the hawkish lean is moderate rather than strong.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "With regard to the medium-term outlook for monetary policy, all participants saw some further firming of the stance of monetary policy as likely to be warranted."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "implied that the appropriate path for the federal funds rate over the next few years would likely be slightly steeper than they had previously expected."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "All participants agreed that the outlook for the economy beyond the current quarter had strengthened in recent months."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many participants stated that recent readings from indicators on inflation and inflation expectations increased their confidence that inflation would rise to the Committee's 2 percent objective in coming months and then stabilize around that level"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a strong majority of participants viewed the prospect of retaliatory trade actions by other countries, as well as other issues and uncertainties associated with trade policies, as downside risks for the U.S. economy."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Reductions in the size of the Federal Reserve's balance sheet continued as scheduled without a notable effect on markets."
+   }
+  ],
+  "rationale": "The minutes describe a strengthened outlook, rising confidence that inflation will reach 2 percent, and unanimous expectations of further firming, with some participants seeing a steeper path and rates eventually going above neutral. Trade-policy downside risks and below-target inflation keep the overall risk balance roughly even, so the hawkish lean is moderate rather than strong."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With regard to the medium-term outlook for monetary policy, all participants saw some further firming of the stance of monetary policy as likely to be warranted.",
+     "start": 31410,
+     "end": 31570
+    },
+    {
+     "quote": "implied that the appropriate path for the federal funds rate over the next few years would likely be slightly steeper than they had previously expected.",
+     "start": 32187,
+     "end": 32338
+    },
+    {
+     "quote": "All participants agreed that the outlook for the economy beyond the current quarter had strengthened in recent months.",
+     "start": 29020,
+     "end": 29137
+    },
+    {
+     "quote": "Many participants stated that recent readings from indicators on inflation and inflation expectations increased their confidence that inflation would rise to the Committee's 2 percent objective in coming months and then stabilize around that level",
+     "start": 27437,
+     "end": 27684
+    },
+    {
+     "quote": "a strong majority of participants viewed the prospect of retaliatory trade actions by other countries, as well as other issues and uncertainties associated with trade policies, as downside risks for the U.S. economy.",
+     "start": 23316,
+     "end": 23531
+    },
+    {
+     "quote": "Reductions in the size of the Federal Reserve's balance sheet continued as scheduled without a notable effect on markets.",
+     "start": 12858,
+     "end": 12978
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

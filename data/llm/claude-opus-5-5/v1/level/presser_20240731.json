@@ -1,0 +1,121 @@
+{
+ "key": "presser_20240731",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20240731",
+  "doc_type": "presser",
+  "text_sha256": "58e2ddc0644e6bfe536da491845de1117679746420b43907873d4ac51917acdb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "393a0adde2bf8e5bba181b85dd9ebda38fbc198a4d23d5c398b6a3d75ff043a7",
+ "message_id": "msg_011CgFugAR5BEGDTEV5Bh1xD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11131,
+  "output_tokens": 503,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the FOMC decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If that test is met, a reduction in our policy rate could be on the table as soon as the next meeting in September.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The job is not done on inflation, but, nonetheless, we can afford to begin to dial back the restriction in our policy rate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"but I think the downside risks to, to the employment mandate are, are real now.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So I would—I would not like to see a material further cooling in the labor market, and that's part of what's behind our thinking.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The second quarter's inflation readings have added to our confidence, and more good data would further strengthen that confidence.\"}],\"rationale\":\"The Fed held rates and continued runoff, but the Chair clearly signaled that a cut could come as soon as September. He also cited growing confidence on disinflation and real downside risks to employment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the FOMC decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If that test is met, a reduction in our policy rate could be on the table as soon as the next meeting in September."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The job is not done on inflation, but, nonetheless, we can afford to begin to dial back the restriction in our policy rate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "but I think the downside risks to, to the employment mandate are, are real now."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So I would—I would not like to see a material further cooling in the labor market, and that's part of what's behind our thinking."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The second quarter's inflation readings have added to our confidence, and more good data would further strengthen that confidence."
+   }
+  ],
+  "rationale": "The Fed held rates and continued runoff, but the Chair clearly signaled that a cut could come as soon as September. He also cited growing confidence on disinflation and real downside risks to employment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the FOMC decided to leave our policy interest rate unchanged and to continue to reduce our securities holdings.",
+     "start": 549,
+     "end": 666
+    },
+    {
+     "quote": "If that test is met, a reduction in our policy rate could be on the table as soon as the next meeting in September.",
+     "start": 6490,
+     "end": 6604
+    },
+    {
+     "quote": "The job is not done on inflation, but, nonetheless, we can afford to begin to dial back the restriction in our policy rate.",
+     "start": 14630,
+     "end": 14752
+    },
+    {
+     "quote": "but I think the downside risks to, to the employment mandate are, are real now.",
+     "start": 18147,
+     "end": 18225
+    },
+    {
+     "quote": "So I would—I would not like to see a material further cooling in the labor market, and that's part of what's behind our thinking.",
+     "start": 11118,
+     "end": 11246
+    },
+    {
+     "quote": "The second quarter's inflation readings have added to our confidence, and more good data would further strengthen that confidence.",
+     "start": 4013,
+     "end": 4142
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

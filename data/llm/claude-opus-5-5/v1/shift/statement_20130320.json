@@ -1,0 +1,154 @@
+{
+ "key": "statement_20130320",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20130320",
+  "previous_doc_id": "statement_20130130",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "67093c5a29f6881aa6ad1a4a3aef63ecc28e72fd409ac4c175fc80e306a33d5a",
+ "message_id": "msg_011CgFudUVvudNkfQCcTZdQN",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2689,
+  "output_tokens": 737,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.\",\"after\":\"Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.\",\"direction\":\"hawkish\"},{\"before\":\"Employment has continued to expand at a moderate pace but the unemployment rate remains elevated.\",\"after\":\"Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"and the housing sector has shown further improvement.\",\"after\":\"and the housing sector has strengthened further, but fiscal policy has become somewhat more restrictive.\",\"direction\":\"dovish\"},{\"before\":\"Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.\",\"after\":\"The Committee continues to see downside risks to the economic outlook.\",\"direction\":\"neutral\"},{\"before\":\"If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until such improvement is achieved in a context of price stability.\",\"after\":\"The Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until the outlook for the labor market has improved substantially in a context of price stability.\",\"direction\":\"neutral\"},{\"before\":\"the Committee will, as always, take appropriate account of the likely efficacy and costs of such purchases.\",\"after\":\"the Committee will continue to take appropriate account of the likely efficacy and costs of such purchases as well as the extent of progress toward its economic objectives.\",\"direction\":\"hawkish\"}],\"rationale\":\"The statement upgrades its assessment of growth and the labor market and ties the pace of asset purchases to progress toward its objectives, opening the door to adjusting purchases. Mentioning fiscal restraint partly offsets this, while rate guidance and purchase amounts are unchanged, so the shift is modestly hawkish.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.",
+    "after": "Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Employment has continued to expand at a moderate pace but the unemployment rate remains elevated.",
+    "after": "Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "and the housing sector has shown further improvement.",
+    "after": "and the housing sector has strengthened further, but fiscal policy has become somewhat more restrictive.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.",
+    "after": "The Committee continues to see downside risks to the economic outlook.",
+    "direction": "neutral"
+   },
+   {
+    "before": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until such improvement is achieved in a context of price stability.",
+    "after": "The Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until the outlook for the labor market has improved substantially in a context of price stability.",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee will, as always, take appropriate account of the likely efficacy and costs of such purchases.",
+    "after": "the Committee will continue to take appropriate account of the likely efficacy and costs of such purchases as well as the extent of progress toward its economic objectives.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The statement upgrades its assessment of growth and the labor market and ties the pace of asset purchases to progress toward its objectives, opening the door to adjusting purchases. Mentioning fiscal restraint partly offsets this, while rate guidance and purchase amounts are unchanged, so the shift is modestly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in December suggests that growth in economic activity paused in recent months, in large part because of weather-related disruptions and other transitory factors.",
+     "start": 0,
+     "end": 225
+    },
+    {
+     "quote": "Employment has continued to expand at a moderate pace but the unemployment rate remains elevated.",
+     "start": 227,
+     "end": 323
+    },
+    {
+     "quote": "and the housing sector has shown further improvement.",
+     "start": 384,
+     "end": 436
+    },
+    {
+     "quote": "Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.",
+     "start": 1002,
+     "end": 1137
+    },
+    {
+     "quote": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until such improvement is achieved in a context of price stability.",
+     "start": 2144,
+     "end": 2421
+    },
+    {
+     "quote": "the Committee will, as always, take appropriate account of the likely efficacy and costs of such purchases.",
+     "start": 2494,
+     "end": 2600
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January suggests a return to moderate economic growth following a pause late last year.",
+     "start": 0,
+     "end": 154
+    },
+    {
+     "quote": "Labor market conditions have shown signs of improvement in recent months but the unemployment rate remains elevated.",
+     "start": 156,
+     "end": 271
+    },
+    {
+     "quote": "and the housing sector has strengthened further, but fiscal policy has become somewhat more restrictive.",
+     "start": 332,
+     "end": 435
+    },
+    {
+     "quote": "The Committee continues to see downside risks to the economic outlook.",
+     "start": 1001,
+     "end": 1070
+    },
+    {
+     "quote": "The Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until the outlook for the labor market has improved substantially in a context of price stability.",
+     "start": 2083,
+     "end": 2323
+    },
+    {
+     "quote": "the Committee will continue to take appropriate account of the likely efficacy and costs of such purchases as well as the extent of progress toward its economic objectives.",
+     "start": 2396,
+     "end": 2567
+    }
+   ]
+  }
+ }
+}

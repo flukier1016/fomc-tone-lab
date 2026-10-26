@@ -1,0 +1,112 @@
+{
+ "key": "speech_warsh20100326a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20100326a",
+  "doc_type": "speech",
+  "text_sha256": "9b427b588e7a4711a16bf480f8114ca2a85dd9f5fe97f64dd486f29516b6e6ec"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a00364f16ae3f7dde542e5f80fb07330d2d10e5d7ffcaf6e932373ec52708cb",
+ "message_id": "msg_011CgFug8geP8VDHnrQ8Hr3U",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4134,
+  "output_tokens": 465,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.55,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Central banks must take their own counsel when deciding upon the timing and force in removing monetary policy accommodation.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Central banks that desire just a little more inflation may well end up with a lot more.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In changing the goal posts at this time of consequence, substantial harm would be done to a central bank's institutional credibility, and perhaps lead to an unmooring of inflation expectations.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Unemployment remains high, and stubbornly so.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Monetary accommodation from the world's largest central banks remains extraordinary.\"}],\"rationale\":\"The speech focuses on central bank independence and credibility, warning against keeping policy looser longer and against raising inflation targets, which gives a moderately hawkish tilt. The hawkish tilt is tempered by its acknowledgment of high unemployment and soft medium-term growth.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.55,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Central banks must take their own counsel when deciding upon the timing and force in removing monetary policy accommodation."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Central banks that desire just a little more inflation may well end up with a lot more."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In changing the goal posts at this time of consequence, substantial harm would be done to a central bank's institutional credibility, and perhaps lead to an unmooring of inflation expectations."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Unemployment remains high, and stubbornly so."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Monetary accommodation from the world's largest central banks remains extraordinary."
+   }
+  ],
+  "rationale": "The speech focuses on central bank independence and credibility, warning against keeping policy looser longer and against raising inflation targets, which gives a moderately hawkish tilt. The hawkish tilt is tempered by its acknowledgment of high unemployment and soft medium-term growth."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Central banks must take their own counsel when deciding upon the timing and force in removing monetary policy accommodation.",
+     "start": 10753,
+     "end": 10876
+    },
+    {
+     "quote": "Central banks that desire just a little more inflation may well end up with a lot more.",
+     "start": 11583,
+     "end": 11669
+    },
+    {
+     "quote": "In changing the goal posts at this time of consequence, substantial harm would be done to a central bank's institutional credibility, and perhaps lead to an unmooring of inflation expectations.",
+     "start": 12350,
+     "end": 12542
+    },
+    {
+     "quote": "Unemployment remains high, and stubbornly so.",
+     "start": 516,
+     "end": 560
+    },
+    {
+     "quote": "Monetary accommodation from the world's largest central banks remains extraordinary.",
+     "start": 1642,
+     "end": 1725
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

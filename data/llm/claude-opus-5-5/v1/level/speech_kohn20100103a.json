@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20100103a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20100103a",
+  "doc_type": "speech",
+  "text_sha256": "aecad92798deccfe1e57b7aea87f4fe19d7620ce62b650715ac9abc0dfb74092"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "118343ea9649ab86eae78f3485f058a72deb5c3b6f7859c2ea8935ef0fb59296",
+ "message_id": "msg_011CgFugFmYMkagjKu7cDJDg",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5557,
+  "output_tokens": 565,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"cost and price inflation should remain quite subdued.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Lingering credit constraints are a key reason why I expect the strengthening in economic activity to be gradual and the drop in the unemployment rate to be slow.\"},{\"dimension\":\"risk_balance\",\"quote\":\"tightening policy to head off a perceived threat of asset price misalignment could be expensive in terms of medium-term economic stability.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the FOMC has also indicated that it is tapering down its purchases of Treasury, MBS, and agency securities.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We will need to begin withdrawing extraordinary monetary stimulus well before the economy returns to high levels of resource utilization.\"}],\"rationale\":\"The speaker expects a gradual recovery, slow declines in unemployment and subdued inflation possibly slowing further, and endorses the guidance of exceptionally low rates for an extended period while opposing tightening to counter asset prices. The discussion of exit tools and timely tightening offers some hawkish balance, but the net signal is moderately dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "cost and price inflation should remain quite subdued."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Lingering credit constraints are a key reason why I expect the strengthening in economic activity to be gradual and the drop in the unemployment rate to be slow."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "tightening policy to head off a perceived threat of asset price misalignment could be expensive in terms of medium-term economic stability."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the FOMC has also indicated that it is tapering down its purchases of Treasury, MBS, and agency securities."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We will need to begin withdrawing extraordinary monetary stimulus well before the economy returns to high levels of resource utilization."
+   }
+  ],
+  "rationale": "The speaker expects a gradual recovery, slow declines in unemployment and subdued inflation possibly slowing further, and endorses the guidance of exceptionally low rates for an extended period while opposing tightening to counter asset prices. The discussion of exit tools and timely tightening offers some hawkish balance, but the net signal is moderately dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels of the federal funds rate for an extended period.",
+     "start": 11280,
+     "end": 11375
+    },
+    {
+     "quote": "cost and price inflation should remain quite subdued.",
+     "start": 10405,
+     "end": 10457
+    },
+    {
+     "quote": "Lingering credit constraints are a key reason why I expect the strengthening in economic activity to be gradual and the drop in the unemployment rate to be slow.",
+     "start": 9463,
+     "end": 9623
+    },
+    {
+     "quote": "tightening policy to head off a perceived threat of asset price misalignment could be expensive in terms of medium-term economic stability.",
+     "start": 17553,
+     "end": 17691
+    },
+    {
+     "quote": "the FOMC has also indicated that it is tapering down its purchases of Treasury, MBS, and agency securities.",
+     "start": 8080,
+     "end": 8186
+    },
+    {
+     "quote": "We will need to begin withdrawing extraordinary monetary stimulus well before the economy returns to high levels of resource utilization.",
+     "start": 14064,
+     "end": 14200
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

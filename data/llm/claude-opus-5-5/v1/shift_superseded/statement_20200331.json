@@ -1,0 +1,104 @@
+{
+ "key": "statement_20200331",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200331",
+  "previous_doc_id": "statement_20200323",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "37f35dfee8360c0c1ae85850817bdf69c1d4dfc0e0d2b1202ccfd18e4cb4f3fb",
+ "message_id": "msg_011CgFudUszwS85YbUJ29QMD",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1036,
+  "output_tokens": 483,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"\",\"after\":\"The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets, including the U.S. Treasury market, and thus maintain the supply of credit to U.S. households and businesses.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"This facility should help support the smooth functioning of the U.S. Treasury market by providing an alternative temporary source of U.S. dollars other than sales of securities in the open market.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.\",\"direction\":\"dovish\"},{\"before\":\"The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The current release adds a new liquidity facility that keeps foreign official holders from selling Treasuries, extending the Fed's market-support toolkit and modestly easing financial conditions. It does not change the rate or purchase guidance, so the dovish shift is incremental rather than a change in policy direction.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "",
+    "after": "The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets, including the U.S. Treasury market, and thus maintain the supply of credit to U.S. households and businesses.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "This facility should help support the smooth functioning of the U.S. Treasury market by providing an alternative temporary source of U.S. dollars other than sales of securities in the open market.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The current release adds a new liquidity facility that keeps foreign official holders from selling Treasuries, extending the Fed's market-support toolkit and modestly easing financial conditions. It does not change the rate or purchase guidance, so the dovish shift is incremental rather than a change in policy direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve will continue to purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of monetary policy to broader financial conditions.",
+     "start": 407,
+     "end": 647
+    }
+   ]
+  },
+  "after": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve on Tuesday announced the establishment of a temporary repurchase agreement facility for foreign and international monetary authorities (FIMA Repo Facility) to help support the smooth functioning of financial markets, including the U.S. Treasury market, and thus maintain the supply of credit to U.S. households and businesses.",
+     "start": 165,
+     "end": 510
+    },
+    {
+     "quote": "This facility should help support the smooth functioning of the U.S. Treasury market by providing an alternative temporary source of U.S. dollars other than sales of securities in the open market.",
+     "start": 978,
+     "end": 1173
+    },
+    {
+     "quote": "The FIMA Repo Facility, which adds to the range of services the Federal Reserve provides, will be available beginning April 6 and will continue for at least 6 months.",
+     "start": 1590,
+     "end": 1755
+    }
+   ]
+  }
+ }
+}

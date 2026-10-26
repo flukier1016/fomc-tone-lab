@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20151120a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20151120a",
+  "doc_type": "speech",
+  "text_sha256": "33acbb6e1328549b7d8d8ec6dcb6051ce032e7b67b04e65dad1b7d862969683e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "377ad85249afadccd075a165e8f95210a55683bcfcf30b6e20ac4a8468c6df31",
+ "message_id": "msg_011CgFugHp52Wo6xyqGV3ApG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1798,
+  "output_tokens": 313,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It's been a month since the New York Fed hosted a very successful conference on Treasury market structure, and I'm eager to continue the conversation started there.\"},{\"dimension\":\"overall\",\"quote\":\"Regulators are not necessarily well placed to dictate specific trading structures.\"},{\"dimension\":\"overall\",\"quote\":\"There was agreement on the panel that expanded repo clearing would be positive for the market.\"}],\"rationale\":\"The speech addresses Treasury market structure, liquidity, and repo clearing and takes no position on monetary policy, inflation, or growth. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It's been a month since the New York Fed hosted a very successful conference on Treasury market structure, and I'm eager to continue the conversation started there."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Regulators are not necessarily well placed to dictate specific trading structures."
+   },
+   {
+    "dimension": "overall",
+    "quote": "There was agreement on the panel that expanded repo clearing would be positive for the market."
+   }
+  ],
+  "rationale": "The speech addresses Treasury market structure, liquidity, and repo clearing and takes no position on monetary policy, inflation, or growth. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It's been a month since the New York Fed hosted a very successful conference on Treasury market structure, and I'm eager to continue the conversation started there.",
+     "start": 0,
+     "end": 163
+    },
+    {
+     "quote": "Regulators are not necessarily well placed to dictate specific trading structures.",
+     "start": 4335,
+     "end": 4416
+    },
+    {
+     "quote": "There was agreement on the panel that expanded repo clearing would be positive for the market.",
+     "start": 5190,
+     "end": 5283
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

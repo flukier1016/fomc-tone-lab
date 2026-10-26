@@ -1,0 +1,94 @@
+{
+ "key": "speech_cook20240514a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20240514a",
+  "doc_type": "speech",
+  "text_sha256": "7d7579c3e4046a6b3b9ccaa331248fb8a21711adadc28df3d7f183d7817ec76a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4e3e9d34692a37d890196a81a7955a8592a4f2ec6fa57a675df43204f4a05cf9",
+ "message_id": "msg_011CgFugB42RRd4RHJasvd9r",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3206,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I will speak about the crucial role CDFIs play in their communities, the challenges they face in a rapidly changing landscape, the innovations they are adopting to overcome these challenges\"},{\"dimension\":\"overall\",\"quote\":\"In the current interest rate environment, where financial institutions have generally tightened credit, CDFIs are especially important for those borrowers who benefit from the flexible underwriting and terms they offer.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"that are faced by many employers in a tight job market.\"}],\"rationale\":\"The speech is about community development financial institutions and takes no view on monetary policy. Passing references to tight credit, inflation and a tight job market are descriptive context only.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I will speak about the crucial role CDFIs play in their communities, the challenges they face in a rapidly changing landscape, the innovations they are adopting to overcome these challenges"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In the current interest rate environment, where financial institutions have generally tightened credit, CDFIs are especially important for those borrowers who benefit from the flexible underwriting and terms they offer."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "that are faced by many employers in a tight job market."
+   }
+  ],
+  "rationale": "The speech is about community development financial institutions and takes no view on monetary policy. Passing references to tight credit, inflation and a tight job market are descriptive context only."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I will speak about the crucial role CDFIs play in their communities, the challenges they face in a rapidly changing landscape, the innovations they are adopting to overcome these challenges",
+     "start": 2093,
+     "end": 2289
+    },
+    {
+     "quote": "In the current interest rate environment, where financial institutions have generally tightened credit, CDFIs are especially important for those borrowers who benefit from the flexible underwriting and terms they offer.",
+     "start": 3412,
+     "end": 3630
+    },
+    {
+     "quote": "that are faced by many employers in a tight job market.",
+     "start": 7700,
+     "end": 7754
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

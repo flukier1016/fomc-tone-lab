@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20240202a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240202a",
+  "doc_type": "speech",
+  "text_sha256": "869a2681d1316b41500cd919f5d45d53a45fd4574e377f86ce3ecb083c77a543"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d4e415d6ea636a844d1f7b89f7a61a10c13c6abb6e347f4d8e91d7ad14b39017",
+ "message_id": "msg_011CgFugJFcVBpd7oyq6UV9x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6351,
+  "output_tokens": 507,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In my view, we are not yet at that point. And a number of important upside inflation risks remain.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Reducing our policy rate too soon could result in requiring further future policy rate increases to return inflation to 2 percent in the longer run.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"economic activity has continued to expand at a strong pace while the labor market has remained tight.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I view the slowdown in inflation readings over recent months as encouraging.\"},{\"dimension\":\"risk_balance\",\"quote\":\"there is a risk that continued labor market tightness could lead to persistently high core services inflation.\"}],\"rationale\":\"The monetary policy section acknowledges inflation progress but emphasizes upside inflation risks, strong activity, caution about cutting too soon, and willingness to hike again. The rest of the speech concerns bank regulation, so relevance is medium.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In my view, we are not yet at that point. And a number of important upside inflation risks remain."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Reducing our policy rate too soon could result in requiring further future policy rate increases to return inflation to 2 percent in the longer run."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "economic activity has continued to expand at a strong pace while the labor market has remained tight."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I view the slowdown in inflation readings over recent months as encouraging."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "there is a risk that continued labor market tightness could lead to persistently high core services inflation."
+   }
+  ],
+  "rationale": "The monetary policy section acknowledges inflation progress but emphasizes upside inflation risks, strong activity, caution about cutting too soon, and willingness to hike again. The rest of the speech concerns bank regulation, so relevance is medium."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my view, we are not yet at that point. And a number of important upside inflation risks remain.",
+     "start": 3412,
+     "end": 3509
+    },
+    {
+     "quote": "I remain willing to raise the federal funds rate at a future meeting should the incoming data indicate that progress on inflation has stalled or reversed.",
+     "start": 5295,
+     "end": 5448
+    },
+    {
+     "quote": "Reducing our policy rate too soon could result in requiring further future policy rate increases to return inflation to 2 percent in the longer run.",
+     "start": 4817,
+     "end": 4964
+    },
+    {
+     "quote": "economic activity has continued to expand at a strong pace while the labor market has remained tight.",
+     "start": 1910,
+     "end": 2010
+    },
+    {
+     "quote": "I view the slowdown in inflation readings over recent months as encouraging.",
+     "start": 1790,
+     "end": 1865
+    },
+    {
+     "quote": "there is a risk that continued labor market tightness could lead to persistently high core services inflation.",
+     "start": 3939,
+     "end": 4048
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

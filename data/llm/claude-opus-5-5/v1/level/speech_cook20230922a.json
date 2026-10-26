@@ -1,0 +1,94 @@
+{
+ "key": "speech_cook20230922a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20230922a",
+  "doc_type": "speech",
+  "text_sha256": "4a17c847dfa77f9f906a1adb7cd08ad5f7f9436c89178814e0ff1454ce360ee4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "65fbe80ffd48a33c6ed850fa1c379f1acf4ddc8b38c7ad17c7bc7194c76f8d8d",
+ "message_id": "msg_011CgFugCu9VwfTrPQsK329P",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4314,
+  "output_tokens": 291,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"When firms deploy technologies that make workers more productive, they create the conditions for greater wage growth consistent with stable prices.\"},{\"dimension\":\"overall\",\"quote\":\"All told, generative AI seems promising as a general purpose technology.\"},{\"dimension\":\"overall\",\"quote\":\"Economic history suggests cautious optimism here.\"}],\"rationale\":\"The speech discusses AI's long-run effects on productivity and labor markets without any view on current inflation, the economy, or the policy path. No monetary policy signal is conveyed.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "When firms deploy technologies that make workers more productive, they create the conditions for greater wage growth consistent with stable prices."
+   },
+   {
+    "dimension": "overall",
+    "quote": "All told, generative AI seems promising as a general purpose technology."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Economic history suggests cautious optimism here."
+   }
+  ],
+  "rationale": "The speech discusses AI's long-run effects on productivity and labor markets without any view on current inflation, the economy, or the policy path. No monetary policy signal is conveyed."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "When firms deploy technologies that make workers more productive, they create the conditions for greater wage growth consistent with stable prices.",
+     "start": 3322,
+     "end": 3468
+    },
+    {
+     "quote": "All told, generative AI seems promising as a general purpose technology.",
+     "start": 6528,
+     "end": 6599
+    },
+    {
+     "quote": "Economic history suggests cautious optimism here.",
+     "start": 8357,
+     "end": 8405
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20191009a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20191009a",
+  "doc_type": "speech",
+  "text_sha256": "ccf01438801689f3f52f7345cf53fdad6e4d7c01126d0f7746702ab9d4da88de"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a240751afe9a4fea6c37fb2c677e622244c3bd46359b1ac593d6fb7b459ab55",
+ "message_id": "msg_011CgFugFadTsHXpgWqLfoxh",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1221,
+  "output_tokens": 458,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Unemployment is at a half-century low, and inflation is running close to, but a bit below, our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"when inflation—and, consequently, interest rates—are too low, the Fed and other central banks have less room to cut rates to support the economy during downturns.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we are examining strategies that might better allow us to symmetrically and sustainably achieve 2 percent inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"One clear takeaway of the sessions so far is the importance of sustaining this historically strong job market.\"},{\"dimension\":\"overall\",\"quote\":\"Our job is to keep it there as long as possible.\"}],\"rationale\":\"The speech is mainly about the framework review, and it describes a strong labor market. Its emphasis on inflation running below 2 percent, the risk of expectations slipping too low, and sustaining the expansion gives it a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Unemployment is at a half-century low, and inflation is running close to, but a bit below, our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "when inflation—and, consequently, interest rates—are too low, the Fed and other central banks have less room to cut rates to support the economy during downturns."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we are examining strategies that might better allow us to symmetrically and sustainably achieve 2 percent inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "One clear takeaway of the sessions so far is the importance of sustaining this historically strong job market."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our job is to keep it there as long as possible."
+   }
+  ],
+  "rationale": "The speech is mainly about the framework review, and it describes a strong labor market. Its emphasis on inflation running below 2 percent, the risk of expectations slipping too low, and sustaining the expansion gives it a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Unemployment is at a half-century low, and inflation is running close to, but a bit below, our 2 percent objective.",
+     "start": 1474,
+     "end": 1588
+    },
+    {
+     "quote": "when inflation—and, consequently, interest rates—are too low, the Fed and other central banks have less room to cut rates to support the economy during downturns.",
+     "start": 2148,
+     "end": 2309
+    },
+    {
+     "quote": "we are examining strategies that might better allow us to symmetrically and sustainably achieve 2 percent inflation.",
+     "start": 2332,
+     "end": 2447
+    },
+    {
+     "quote": "One clear takeaway of the sessions so far is the importance of sustaining this historically strong job market.",
+     "start": 3462,
+     "end": 3571
+    },
+    {
+     "quote": "Our job is to keep it there as long as possible.",
+     "start": 1728,
+     "end": 1775
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

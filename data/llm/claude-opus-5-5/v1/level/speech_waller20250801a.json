@@ -1,0 +1,112 @@
+{
+ "key": "speech_waller20250801a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250801a",
+  "doc_type": "speech",
+  "text_sha256": "df0c65c818010d2c22cc4421fa58e1a21f00a60488648174cfae3857f9486062"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "aac9aabf19141c8db81c8c70c4696c89e373c20ded824da9c946243a9e9c5692",
+ "message_id": "msg_011CgFugBqu9XD2E2BWtgVcQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1061,
+  "output_tokens": 509,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I dissented because I concluded that cutting the policy rate by 25 basis points was the appropriate stance of policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"tariffs are one-off increases in the price level and do not cause inflation beyond a temporary increase.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"once we account for expected data revisions, private-sector payroll growth is near stall speed\"},{\"dimension\":\"risk_balance\",\"quote\":\"With underlying inflation near target and the upside risks to inflation limited, we should not wait until the labor market deteriorates before we cut the policy rate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If the tariff effects do not lead to a major shock to inflation, the Committee can continue reducing the rate at a moderate pace.\"}],\"rationale\":\"The governor explains a dissent in favor of a rate cut, argues that policy is well above neutral and that tariff-driven inflation should be looked through, and signals further moderate cuts. The speech emphasizes downside labor-market risks and warns that the Committee could fall behind the curve, which is an explicitly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I dissented because I concluded that cutting the policy rate by 25 basis points was the appropriate stance of policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "tariffs are one-off increases in the price level and do not cause inflation beyond a temporary increase."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "once we account for expected data revisions, private-sector payroll growth is near stall speed"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "With underlying inflation near target and the upside risks to inflation limited, we should not wait until the labor market deteriorates before we cut the policy rate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the tariff effects do not lead to a major shock to inflation, the Committee can continue reducing the rate at a moderate pace."
+   }
+  ],
+  "rationale": "The governor explains a dissent in favor of a rate cut, argues that policy is well above neutral and that tariff-driven inflation should be looked through, and signals further moderate cuts. The speech emphasizes downside labor-market risks and warns that the Committee could fall behind the curve, which is an explicitly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I dissented because I concluded that cutting the policy rate by 25 basis points was the appropriate stance of policy.",
+     "start": 65,
+     "end": 181
+    },
+    {
+     "quote": "tariffs are one-off increases in the price level and do not cause inflation beyond a temporary increase.",
+     "start": 373,
+     "end": 476
+    },
+    {
+     "quote": "once we account for expected data revisions, private-sector payroll growth is near stall speed",
+     "start": 1475,
+     "end": 1569
+    },
+    {
+     "quote": "With underlying inflation near target and the upside risks to inflation limited, we should not wait until the labor market deteriorates before we cut the policy rate.",
+     "start": 1654,
+     "end": 1819
+    },
+    {
+     "quote": "If the tariff effects do not lead to a major shock to inflation, the Committee can continue reducing the rate at a moderate pace.",
+     "start": 3016,
+     "end": 3144
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

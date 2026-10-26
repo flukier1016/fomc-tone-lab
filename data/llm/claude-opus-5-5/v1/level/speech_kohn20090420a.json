@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20090420a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20090420a",
+  "doc_type": "speech",
+  "text_sha256": "48edd2d12d86725ecd435b177627ebd8d380403a8d6bf7c24c10c12285d6ccd7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "16af1a9a1e531b00254c448f4333e3a6f86d7fb7a07107d5b38bcecf044acfb5",
+ "message_id": "msg_011CgFugAscLhyqpE85usW7T",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7335,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"\\\"that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\\\"\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"This recession seems likely to be among the deepest and longest in the post-World War II period.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"margins of slack in labor and product markets are likely to remain wide for a time, implying some further downward pressure on inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In these circumstances, the Federal Reserve would continue to look for ways to relieve financial pressures and encourage spending.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve started making substantial purchases of longer-term Treasury and mortgage-related securities to support market functioning and reduce long-term interest rates in the mortgage and other private credit markets.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But my colleagues and I are acutely aware of the risk of higher inflation as the economic recovery gains speed.\"}],\"rationale\":\"The speech describes a deep recession, a gradual recovery, downward pressure on inflation and endorses extended near-zero rates and asset purchases, signaling continued accommodation. Acknowledgment of eventual exit and upside inflation risks tempers but does not offset the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "\"that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\""
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "This recession seems likely to be among the deepest and longest in the post-World War II period."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "margins of slack in labor and product markets are likely to remain wide for a time, implying some further downward pressure on inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In these circumstances, the Federal Reserve would continue to look for ways to relieve financial pressures and encourage spending."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve started making substantial purchases of longer-term Treasury and mortgage-related securities to support market functioning and reduce long-term interest rates in the mortgage and other private credit markets."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But my colleagues and I are acutely aware of the risk of higher inflation as the economic recovery gains speed."
+   }
+  ],
+  "rationale": "The speech describes a deep recession, a gradual recovery, downward pressure on inflation and endorses extended near-zero rates and asset purchases, signaling continued accommodation. Acknowledgment of eventual exit and upside inflation risks tempers but does not offset the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "\"that economic conditions are likely to warrant exceptionally low levels of the federal funds rate for an extended period.\"",
+     "start": 6890,
+     "end": 7010
+    },
+    {
+     "quote": "This recession seems likely to be among the deepest and longest in the post-World War II period.",
+     "start": 1564,
+     "end": 1659
+    },
+    {
+     "quote": "margins of slack in labor and product markets are likely to remain wide for a time, implying some further downward pressure on inflation.",
+     "start": 21913,
+     "end": 22049
+    },
+    {
+     "quote": "In these circumstances, the Federal Reserve would continue to look for ways to relieve financial pressures and encourage spending.",
+     "start": 22718,
+     "end": 22847
+    },
+    {
+     "quote": "the Federal Reserve started making substantial purchases of longer-term Treasury and mortgage-related securities to support market functioning and reduce long-term interest rates in the mortgage and other private credit markets.",
+     "start": 8645,
+     "end": 8872
+    },
+    {
+     "quote": "But my colleagues and I are acutely aware of the risk of higher inflation as the economic recovery gains speed.",
+     "start": 23263,
+     "end": 23373
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

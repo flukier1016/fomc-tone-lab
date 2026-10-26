@@ -1,0 +1,121 @@
+{
+ "key": "statement_20220921",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20220921",
+  "doc_type": "statement",
+  "text_sha256": "06e5a8354e382c96f313e3d1895fb31db907128420e94f88fa4865a2df92b2b2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a8c5478ec615288c1743afedbdd49d03324a05123963dd3a93e4c6c599515db",
+ "message_id": "msg_011CgFugDQAJhpeyqmduqMnB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 687,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.9,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"anticipates that ongoing increases in the target range will be appropriate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee is highly attentive to inflation risks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have been robust in recent months, and the unemployment rate has remained low.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities\"}],\"rationale\":\"The statement announces a large rate increase, signals ongoing further hikes, and continues balance sheet runoff. It also stresses elevated inflation and upside inflation risks against a backdrop of robust job gains, giving a clearly hawkish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.9,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "anticipates that ongoing increases in the target range will be appropriate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee is highly attentive to inflation risks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have been robust in recent months, and the unemployment rate has remained low."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities"
+   }
+  ],
+  "rationale": "The statement announces a large rate increase, signals ongoing further hikes, and continues balance sheet runoff. It also stresses elevated inflation and upside inflation risks against a backdrop of robust job gains, giving a clearly hawkish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 3 to 3-1/4 percent",
+     "start": 710,
+     "end": 806
+    },
+    {
+     "quote": "anticipates that ongoing increases in the target range will be appropriate",
+     "start": 811,
+     "end": 885
+    },
+    {
+     "quote": "Inflation remains elevated, reflecting supply and demand imbalances related to the pandemic, higher food and energy prices, and broader price pressures.",
+     "start": 158,
+     "end": 309
+    },
+    {
+     "quote": "The Committee is highly attentive to inflation risks.",
+     "start": 518,
+     "end": 570
+    },
+    {
+     "quote": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
+     "start": 69,
+     "end": 156
+    },
+    {
+     "quote": "the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities",
+     "start": 900,
+     "end": 1026
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

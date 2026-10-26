@@ -1,0 +1,169 @@
+{
+ "key": "statement_20090923",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20090923",
+  "previous_doc_id": "statement_20090812",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "62d3df78a1a7c1ac3e814cc017ff18ba32099b6e0e34719b60a3b313a109ca46",
+ "message_id": "msg_011CgFudUSD8MmknteFykEk4",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1763,
+  "output_tokens": 891,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.\",\"after\":\"Information received since the Federal Open Market Committee met in August suggests that economic activity has picked up following its severe downturn.\",\"direction\":\"hawkish\"},{\"before\":\"Conditions in financial markets have improved further in recent weeks.\",\"after\":\"Conditions in financial markets have improved further, and activity in the housing sector has increased.\",\"direction\":\"hawkish\"},{\"before\":\"Businesses are still cutting back on fixed investment and staffing but are making progress in bringing inventory stocks into better alignment with sales.\",\"after\":\"Businesses are still cutting back on fixed investment and staffing, though at a slower pace; they continue to make progress in bringing inventory stocks into better alignment with sales.\",\"direction\":\"hawkish\"},{\"before\":\"will contribute to a gradual resumption of sustainable economic growth in a context of price stability.\",\"after\":\"will support a strengthening of economic growth and a gradual return to higher levels of resource utilization in a context of price stability.\",\"direction\":\"hawkish\"},{\"before\":\"The prices of energy and other commodities have risen of late. However, substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.\",\"after\":\"With substantial resource slack likely to continue to dampen cost pressures and with longer-term inflation expectations stable, the Committee expects that inflation will remain subdued for some time.\",\"direction\":\"dovish\"},{\"before\":\"the Federal Reserve will employ all available tools to promote economic recovery\",\"after\":\"the Federal Reserve will continue to employ a wide range of tools to promote economic recovery\",\"direction\":\"hawkish\"},{\"before\":\"the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.\",\"after\":\"the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt. The Committee will gradually slow the pace of these purchases in order to promote a smooth transition in markets and anticipates that they will be executed by the end of the first quarter of 2010.\",\"direction\":\"dovish\"}],\"rationale\":\"The upgraded growth assessment and softer 'wide range of tools' wording lean hawkish, while the extension of MBS purchases into Q1 2010 (with the full $1.25 trillion now committed) and the removal of commodity-price concern lean dovish. The 'extended period' rate guidance is unchanged, so the net shift is roughly neutral.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.",
+    "after": "Information received since the Federal Open Market Committee met in August suggests that economic activity has picked up following its severe downturn.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Conditions in financial markets have improved further in recent weeks.",
+    "after": "Conditions in financial markets have improved further, and activity in the housing sector has increased.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Businesses are still cutting back on fixed investment and staffing but are making progress in bringing inventory stocks into better alignment with sales.",
+    "after": "Businesses are still cutting back on fixed investment and staffing, though at a slower pace; they continue to make progress in bringing inventory stocks into better alignment with sales.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "will contribute to a gradual resumption of sustainable economic growth in a context of price stability.",
+    "after": "will support a strengthening of economic growth and a gradual return to higher levels of resource utilization in a context of price stability.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The prices of energy and other commodities have risen of late. However, substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.",
+    "after": "With substantial resource slack likely to continue to dampen cost pressures and with longer-term inflation expectations stable, the Committee expects that inflation will remain subdued for some time.",
+    "direction": "dovish"
+   },
+   {
+    "before": "the Federal Reserve will employ all available tools to promote economic recovery",
+    "after": "the Federal Reserve will continue to employ a wide range of tools to promote economic recovery",
+    "direction": "hawkish"
+   },
+   {
+    "before": "the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.",
+    "after": "the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt. The Committee will gradually slow the pace of these purchases in order to promote a smooth transition in markets and anticipates that they will be executed by the end of the first quarter of 2010.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The upgraded growth assessment and softer 'wide range of tools' wording lean hawkish, while the extension of MBS purchases into Q1 2010 (with the full $1.25 trillion now committed) and the removal of commodity-price concern lean dovish. The 'extended period' rate guidance is unchanged, so the net shift is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.",
+     "start": 0,
+     "end": 120
+    },
+    {
+     "quote": "Conditions in financial markets have improved further in recent weeks.",
+     "start": 122,
+     "end": 191
+    },
+    {
+     "quote": "Businesses are still cutting back on fixed investment and staffing but are making progress in bringing inventory stocks into better alignment with sales.",
+     "start": 366,
+     "end": 518
+    },
+    {
+     "quote": "will contribute to a gradual resumption of sustainable economic growth in a context of price stability.",
+     "start": 739,
+     "end": 841
+    },
+    {
+     "quote": "The prices of energy and other commodities have risen of late. However, substantial resource slack is likely to dampen cost pressures, and the Committee expects that inflation will remain subdued for some time.",
+     "start": 844,
+     "end": 1053
+    },
+    {
+     "quote": "the Federal Reserve will employ all available tools to promote economic recovery",
+     "start": 1080,
+     "end": 1160
+    },
+    {
+     "quote": "the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.",
+     "start": 1581,
+     "end": 1744
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in August suggests that economic activity has picked up following its severe downturn.",
+     "start": 0,
+     "end": 150
+    },
+    {
+     "quote": "Conditions in financial markets have improved further, and activity in the housing sector has increased.",
+     "start": 152,
+     "end": 255
+    },
+    {
+     "quote": "Businesses are still cutting back on fixed investment and staffing, though at a slower pace; they continue to make progress in bringing inventory stocks into better alignment with sales.",
+     "start": 412,
+     "end": 597
+    },
+    {
+     "quote": "will support a strengthening of economic growth and a gradual return to higher levels of resource utilization in a context of price stability.",
+     "start": 806,
+     "end": 947
+    },
+    {
+     "quote": "With substantial resource slack likely to continue to dampen cost pressures and with longer-term inflation expectations stable, the Committee expects that inflation will remain subdued for some time.",
+     "start": 950,
+     "end": 1148
+    },
+    {
+     "quote": "the Federal Reserve will continue to employ a wide range of tools to promote economic recovery",
+     "start": 1175,
+     "end": 1269
+    },
+    {
+     "quote": "the Federal Reserve will purchase a total of $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt. The Committee will gradually slow the pace of these purchases in order to promote a smooth transition in markets and anticipates that they will be executed by the end of the first quarter of 2010.",
+     "start": 1665,
+     "end": 1996
+    }
+   ]
+  }
+ }
+}

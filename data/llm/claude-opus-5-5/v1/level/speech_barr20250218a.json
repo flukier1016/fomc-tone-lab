@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20250218a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20250218a",
+  "doc_type": "speech",
+  "text_sha256": "e66cb9c413daabce20a3fb527ddc56a911a9a4185507941763084a3cf4fddc85"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e3d6515dca69665c85e0da462e9d83953c40eda8b84f1d5ab0682396735bf06b",
+ "message_id": "msg_011CgFugFe6sGf67ujvf7tKL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4983,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I will outline two hypothetical scenarios for considering how GenAI could evolve.\"},{\"dimension\":\"overall\",\"quote\":\"Humans would use GenAI as a tool to deliver goods and services that we currently produce in a more efficient way. Productivity would go up. The economy would grow at a faster pace.\"},{\"dimension\":\"overall\",\"quote\":\"When the technology becomes ubiquitous, use of GenAI could lead to herding behavior and the concentration of risk, potentially amplifying market volatility.\"}],\"rationale\":\"The speech discusses long-run AI scenarios, productivity, labor displacement and financial-stability risks without addressing current inflation, the economic outlook or the path of monetary policy. It carries no discernible policy stance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I will outline two hypothetical scenarios for considering how GenAI could evolve."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Humans would use GenAI as a tool to deliver goods and services that we currently produce in a more efficient way. Productivity would go up. The economy would grow at a faster pace."
+   },
+   {
+    "dimension": "overall",
+    "quote": "When the technology becomes ubiquitous, use of GenAI could lead to herding behavior and the concentration of risk, potentially amplifying market volatility."
+   }
+  ],
+  "rationale": "The speech discusses long-run AI scenarios, productivity, labor displacement and financial-stability risks without addressing current inflation, the economic outlook or the path of monetary policy. It carries no discernible policy stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I will outline two hypothetical scenarios for considering how GenAI could evolve.",
+     "start": 2319,
+     "end": 2406
+    },
+    {
+     "quote": "Humans would use GenAI as a tool to deliver goods and services that we currently produce in a more efficient way. Productivity would go up. The economy would grow at a faster pace.",
+     "start": 5450,
+     "end": 5629
+    },
+    {
+     "quote": "When the technology becomes ubiquitous, use of GenAI could lead to herding behavior and the concentration of risk, potentially amplifying market volatility.",
+     "start": 15024,
+     "end": 15179
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

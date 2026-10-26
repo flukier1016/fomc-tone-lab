@@ -1,0 +1,121 @@
+{
+ "key": "presser_20220921",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20220921",
+  "doc_type": "presser",
+  "text_sha256": "7d4c3db72a8263c036faf17886faa802fced8165216fd95f68974d6afca862f2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "669324175059c28137f049e60079b0b1c62552b3d4f9a4b4af903b896e747a83",
+ "message_id": "msg_011CgFug94iRsCZ1wn2V48k2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9333,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.9,\"confidence\":0.93,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the FOMC raised its policy interest rate by ¾ percentage point, and we anticipate that ongoing increases will be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Price pressures remain evident across a broad range of goods and services.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Participants continue to see risks to inflation as weighted to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite the slowdown in growth, the labor market has remained extremely tight, with the unemployment rate near a 50-year low, job vacancies near historical highs, and wage growth elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we are continuing the process of significantly reducing the size of our balance sheet, which plays an important role in firming the stance of monetary policy.\"}],\"rationale\":\"A 75bp hike with explicit guidance of ongoing increases, a higher projected rate path, and warnings against premature loosening signal strongly hawkish policy. Inflation is framed as broad and upside-risk weighted, while the tight labor market reinforces the need for restrictive policy.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.9,
+  "confidence": 0.93,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the FOMC raised its policy interest rate by ¾ percentage point, and we anticipate that ongoing increases will be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Price pressures remain evident across a broad range of goods and services."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Participants continue to see risks to inflation as weighted to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite the slowdown in growth, the labor market has remained extremely tight, with the unemployment rate near a 50-year low, job vacancies near historical highs, and wage growth elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we are continuing the process of significantly reducing the size of our balance sheet, which plays an important role in firming the stance of monetary policy."
+   }
+  ],
+  "rationale": "A 75bp hike with explicit guidance of ongoing increases, a higher projected rate path, and warnings against premature loosening signal strongly hawkish policy. Inflation is framed as broad and upside-risk weighted, while the tight labor market reinforces the need for restrictive policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the FOMC raised its policy interest rate by ¾ percentage point, and we anticipate that ongoing increases will be appropriate.",
+     "start": 550,
+     "end": 680
+    },
+    {
+     "quote": "Restoring price stability will likely require maintaining a restrictive policy stance for some time. The historical record cautions strongly against prematurely loosening policy.",
+     "start": 5930,
+     "end": 6107
+    },
+    {
+     "quote": "Price pressures remain evident across a broad range of goods and services.",
+     "start": 3326,
+     "end": 3399
+    },
+    {
+     "quote": "Participants continue to see risks to inflation as weighted to the upside.",
+     "start": 3818,
+     "end": 3891
+    },
+    {
+     "quote": "Despite the slowdown in growth, the labor market has remained extremely tight, with the unemployment rate near a 50-year low, job vacancies near historical highs, and wage growth elevated.",
+     "start": 1984,
+     "end": 2171
+    },
+    {
+     "quote": "we are continuing the process of significantly reducing the size of our balance sheet, which plays an important role in firming the stance of monetary policy.",
+     "start": 4994,
+     "end": 5151
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

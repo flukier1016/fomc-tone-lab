@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20231004a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20231004a",
+  "doc_type": "speech",
+  "text_sha256": "b419001f63ede33fd09596331775a7d73ed447330bb56c532835fc4ece7f3d70"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "616af37760e8d2af65ee6caa723942882dd13becdf99de0a0f90abfb5fda0dba",
+ "message_id": "msg_011CgFugAX2NkQ1i1q2UhaVz",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7534,
+  "output_tokens": 364,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In my remarks today, I will discuss the importance of using an evidence-based approach to bank regulatory policy, which has been a long-standing theme and goal of this conference.\"},{\"dimension\":\"overall\",\"quote\":\"Bank failures demand scrutiny, but bank failures alone do not justify wholesale revisions to the bank regulatory framework.\"},{\"dimension\":\"overall\",\"quote\":\"The research sends a strong signal that preserving local relationship-based community banks is vital to local economies.\"}],\"rationale\":\"The speech addresses bank regulation, community banking, merger review, and deposit insurance, and offers no view on monetary policy, inflation, or the economic outlook. All monetary policy dimensions are therefore null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In my remarks today, I will discuss the importance of using an evidence-based approach to bank regulatory policy, which has been a long-standing theme and goal of this conference."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Bank failures demand scrutiny, but bank failures alone do not justify wholesale revisions to the bank regulatory framework."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The research sends a strong signal that preserving local relationship-based community banks is vital to local economies."
+   }
+  ],
+  "rationale": "The speech addresses bank regulation, community banking, merger review, and deposit insurance, and offers no view on monetary policy, inflation, or the economic outlook. All monetary policy dimensions are therefore null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In my remarks today, I will discuss the importance of using an evidence-based approach to bank regulatory policy, which has been a long-standing theme and goal of this conference.",
+     "start": 3322,
+     "end": 3500
+    },
+    {
+     "quote": "Bank failures demand scrutiny, but bank failures alone do not justify wholesale revisions to the bank regulatory framework.",
+     "start": 4770,
+     "end": 4892
+    },
+    {
+     "quote": "The research sends a strong signal that preserving local relationship-based community banks is vital to local economies.",
+     "start": 19008,
+     "end": 19127
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

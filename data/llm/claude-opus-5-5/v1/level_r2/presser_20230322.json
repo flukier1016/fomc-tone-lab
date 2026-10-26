@@ -1,0 +1,121 @@
+{
+ "key": "presser_20230322",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20230322",
+  "doc_type": "presser",
+  "text_sha256": "534ab4f88b8997876231ebd5c38a8041509aec575cf965607abd60f9ac6b5b65"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0fe1bc97cc8d11c9178de13575c64f27dd8f6f900b573ada8363eea130d4073b",
+ "message_id": "msg_011CgG27joeux9o6jbnvG6on",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 9496,
+  "output_tokens": 580,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":-1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee raised the target range for the federal funds rate by ¼ percentage point, bringing the target range to 4¾ to 5 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we no longer state that we anticipate that ongoing rate increases will be appropriate to quell inflation; instead, we now anticipate that some additional policy firming may be appropriate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The process of getting inflation back down to 2 percent has a long way to go and is likely to be bumpy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yet the labor market remains extremely tight.\"},{\"dimension\":\"risk_balance\",\"quote\":\"events in the banking system over the past two weeks are likely to result in tighter credit conditions for households and businesses, which would in turn affect economic outcomes.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In that most likely case, if that happens, participants don’t see rate cuts this year. They just don’t.\"}],\"rationale\":\"The Chair announces a 25bp hike, stresses high inflation and a tight labor market, and rules out cuts in the base case. However, he softens guidance from ongoing hikes to 'some additional firming may be' and highlights credit tightening as a substitute for hikes, leaving a roughly balanced, slightly hawkish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": -1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee raised the target range for the federal funds rate by ¼ percentage point, bringing the target range to 4¾ to 5 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we no longer state that we anticipate that ongoing rate increases will be appropriate to quell inflation; instead, we now anticipate that some additional policy firming may be appropriate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The process of getting inflation back down to 2 percent has a long way to go and is likely to be bumpy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yet the labor market remains extremely tight."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "events in the banking system over the past two weeks are likely to result in tighter credit conditions for households and businesses, which would in turn affect economic outcomes."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In that most likely case, if that happens, participants don’t see rate cuts this year. They just don’t."
+   }
+  ],
+  "rationale": "The Chair announces a 25bp hike, stresses high inflation and a tight labor market, and rules out cuts in the base case. However, he softens guidance from ongoing hikes to 'some additional firming may be' and highlights credit tightening as a substitute for hikes, leaving a roughly balanced, slightly hawkish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee raised the target range for the federal funds rate by ¼ percentage point, bringing the target range to 4¾ to 5 percent.",
+     "start": 5264,
+     "end": 5416
+    },
+    {
+     "quote": "we no longer state that we anticipate that ongoing rate increases will be appropriate to quell inflation; instead, we now anticipate that some additional policy firming may be appropriate.",
+     "start": 6012,
+     "end": 6199
+    },
+    {
+     "quote": "The process of getting inflation back down to 2 percent has a long way to go and is likely to be bumpy.",
+     "start": 4399,
+     "end": 4501
+    },
+    {
+     "quote": "Yet the labor market remains extremely tight.",
+     "start": 2975,
+     "end": 3019
+    },
+    {
+     "quote": "events in the banking system over the past two weeks are likely to result in tighter credit conditions for households and businesses, which would in turn affect economic outcomes.",
+     "start": 5696,
+     "end": 5874
+    },
+    {
+     "quote": "In that most likely case, if that happens, participants don’t see rate cuts this year. They just don’t.",
+     "start": 18090,
+     "end": 18192
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

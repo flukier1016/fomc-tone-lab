@@ -1,0 +1,112 @@
+{
+ "key": "speech_duke20100630a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20100630a",
+  "doc_type": "speech",
+  "text_sha256": "4b847d0981d09208948f1fbb6c404b0b6968d8f63bd658185f75a0a6e970f8de"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "650c979333402eac0dcdf3fe45a49b102edb189003ba83a498c2351da975b3ca",
+ "message_id": "msg_011CgFug9hR7iZkFDcLh6udo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7150,
+  "output_tokens": 560,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"At the same time, many face reduced income, as 9.7 percent of the workforce is unemployed and 5-3/4 percent is working only part time while still desiring full-time employment.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Just looking at the statistics, it is not hard to construct a scenario in which consumer demand for credit remains sluggish for quite a while.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the resumption of credit growth following the recession has lagged that of all other cycles of the past 40 years with the exception of the 1990–91 recession.\"},{\"dimension\":\"overall\",\"quote\":\"Over the past two years, the Federal Reserve has acted forcefully on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning.\"},{\"dimension\":\"overall\",\"quote\":\"We at the Federal Reserve, meanwhile, will continue to do everything we can to encourage a return to a healthy credit environment.\"}],\"rationale\":\"The speech focuses on weak credit conditions and bank supervision. It emphasizes high unemployment, sluggish borrower demand and a slow credit recovery, which gives it a mild dovish lean, though it offers no explicit rate guidance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "At the same time, many face reduced income, as 9.7 percent of the workforce is unemployed and 5-3/4 percent is working only part time while still desiring full-time employment."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Just looking at the statistics, it is not hard to construct a scenario in which consumer demand for credit remains sluggish for quite a while."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the resumption of credit growth following the recession has lagged that of all other cycles of the past 40 years with the exception of the 1990–91 recession."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Over the past two years, the Federal Reserve has acted forcefully on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We at the Federal Reserve, meanwhile, will continue to do everything we can to encourage a return to a healthy credit environment."
+   }
+  ],
+  "rationale": "The speech focuses on weak credit conditions and bank supervision. It emphasizes high unemployment, sluggish borrower demand and a slow credit recovery, which gives it a mild dovish lean, though it offers no explicit rate guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At the same time, many face reduced income, as 9.7 percent of the workforce is unemployed and 5-3/4 percent is working only part time while still desiring full-time employment.",
+     "start": 14960,
+     "end": 15135
+    },
+    {
+     "quote": "Just looking at the statistics, it is not hard to construct a scenario in which consumer demand for credit remains sluggish for quite a while.",
+     "start": 14339,
+     "end": 14480
+    },
+    {
+     "quote": "the resumption of credit growth following the recession has lagged that of all other cycles of the past 40 years with the exception of the 1990–91 recession.",
+     "start": 21571,
+     "end": 21727
+    },
+    {
+     "quote": "Over the past two years, the Federal Reserve has acted forcefully on multiple fronts by instituting accommodative monetary policy, expanding existing liquidity programs for depository institutions, and establishing new liquidity facilities to support market functioning.",
+     "start": 20718,
+     "end": 20987
+    },
+    {
+     "quote": "We at the Federal Reserve, meanwhile, will continue to do everything we can to encourage a return to a healthy credit environment.",
+     "start": 23062,
+     "end": 23191
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

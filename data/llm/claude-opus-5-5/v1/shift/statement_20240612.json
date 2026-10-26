@@ -1,0 +1,89 @@
+{
+ "key": "statement_20240612",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20240612",
+  "previous_doc_id": "statement_20240501",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "17ea4c2e6324eb27f263411b0456b54b26e349f6bc8dbdac211d8cb2b0d6aeeb",
+ "message_id": "msg_011CgFudUdNAo4AdRRq7J2tn",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1601,
+  "output_tokens": 369,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective.\",\"after\":\"In recent months, there has been modest further progress toward the Committee's 2 percent inflation objective.\",\"direction\":\"dovish\"},{\"before\":\"Beginning in June, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion. The Committee will maintain the monthly redemption cap on agency debt and agency mortgage‑backed securities at $35 billion and will reinvest any principal payments in excess of this cap into Treasury securities.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The statement now cites modest further progress on inflation, replacing the earlier lack of progress, a mildly dovish upgrade that moves the Committee closer to the confidence it needs before cutting. The rate stance and forward guidance are otherwise unchanged, and the dropped balance-sheet details look like housekeeping now that the slowdown has been implemented.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective.",
+    "after": "In recent months, there has been modest further progress toward the Committee's 2 percent inflation objective.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Beginning in June, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion. The Committee will maintain the monthly redemption cap on agency debt and agency mortgage‑backed securities at $35 billion and will reinvest any principal payments in excess of this cap into Treasury securities.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement now cites modest further progress on inflation, replacing the earlier lack of progress, a mildly dovish upgrade that moves the Committee closer to the confidence it needs before cutting. The rate stance and forward guidance are otherwise unchanged, and the dropped balance-sheet details look like housekeeping now that the slowdown has been implemented."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective.",
+     "start": 227,
+     "end": 339
+    },
+    {
+     "quote": "Beginning in June, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion. The Committee will maintain the monthly redemption cap on agency debt and agency mortgage‑backed securities at $35 billion and will reinvest any principal payments in excess of this cap into Treasury securities.",
+     "start": 1311,
+     "end": 1706
+    }
+   ]
+  },
+  "after": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In recent months, there has been modest further progress toward the Committee's 2 percent inflation objective.",
+     "start": 227,
+     "end": 336
+    }
+   ]
+  }
+ }
+}

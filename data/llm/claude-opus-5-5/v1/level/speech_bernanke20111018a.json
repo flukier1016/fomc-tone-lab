@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20111018a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20111018a",
+  "doc_type": "speech",
+  "text_sha256": "a42384d30cb95d4b18f266e44ed498b8d11e66623a8d5e833c9e69a92cc9d643"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "06bc3110c67d9a10dbaf2ad411ee498d637a9965c6b7ddfd05ed4b56640fae23",
+ "message_id": "msg_011CgFugGxjGJMb3MQNaAD6P",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7090,
+  "output_tokens": 428,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"at its August 2011 meeting the Committee elaborated by indicating that it anticipated rates would remain low at least through mid-2013.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In more normal times, when short-term policy rates are not constrained, I expect that balance sheet policies will be rarely used.\"},{\"dimension\":\"overall\",\"quote\":\"The evolving consensus, which is by no means settled, is that monetary policy is too blunt a tool to be routinely used to address possible financial imbalances\"},{\"dimension\":\"overall\",\"quote\":\"The FOMC continues to explore ways to further increase transparency about its forecasts and policy plans.\"}],\"rationale\":\"The speech is a retrospective on central bank frameworks, tools and financial stability with no current outlook assessment, though it describes existing low-rate guidance and asset purchases in an accommodative context. It carries a near-neutral, slightly dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "at its August 2011 meeting the Committee elaborated by indicating that it anticipated rates would remain low at least through mid-2013."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In more normal times, when short-term policy rates are not constrained, I expect that balance sheet policies will be rarely used."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The evolving consensus, which is by no means settled, is that monetary policy is too blunt a tool to be routinely used to address possible financial imbalances"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The FOMC continues to explore ways to further increase transparency about its forecasts and policy plans."
+   }
+  ],
+  "rationale": "The speech is a retrospective on central bank frameworks, tools and financial stability with no current outlook assessment, though it describes existing low-rate guidance and asset purchases in an accommodative context. It carries a near-neutral, slightly dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "at its August 2011 meeting the Committee elaborated by indicating that it anticipated rates would remain low at least through mid-2013.",
+     "start": 10570,
+     "end": 10704
+    },
+    {
+     "quote": "In more normal times, when short-term policy rates are not constrained, I expect that balance sheet policies will be rarely used.",
+     "start": 13030,
+     "end": 13158
+    },
+    {
+     "quote": "The evolving consensus, which is by no means settled, is that monetary policy is too blunt a tool to be routinely used to address possible financial imbalances",
+     "start": 21287,
+     "end": 21446
+    },
+    {
+     "quote": "The FOMC continues to explore ways to further increase transparency about its forecasts and policy plans.",
+     "start": 10708,
+     "end": 10812
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

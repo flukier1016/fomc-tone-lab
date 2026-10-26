@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20161024",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20161024",
+  "doc_type": "speech",
+  "text_sha256": "f65764425fc8b34dedb5b342fe29d8f1fb0b89ab33e55a8e207d4cc19a3a8a03"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c217d8cd6918e73c4d58350fcb671a2eaeab09e37fc053899ac9bcc87884e0f7",
+ "message_id": "msg_011CgFugFxT1ZDruuS2wFo3g",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1617,
+  "output_tokens": 349,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This panel will focus on the settlement infrastructure for U.S. government securities--a vital component of the Treasury market and one that is undergoing an important transition.\"},{\"dimension\":\"overall\",\"quote\":\"As BNYM becomes the sole provider, we will raise our expectations even higher.\"},{\"dimension\":\"overall\",\"quote\":\"Our focus is on the quality of the services offered--their safety, resilience, and support of the market--and not on the particular mechanism for offering them.\"}],\"rationale\":\"The speech addresses Treasury settlement infrastructure and supervisory expectations for BNY Mellon, with no discussion of monetary policy, inflation, or economic activity. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This panel will focus on the settlement infrastructure for U.S. government securities--a vital component of the Treasury market and one that is undergoing an important transition."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As BNYM becomes the sole provider, we will raise our expectations even higher."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Our focus is on the quality of the services offered--their safety, resilience, and support of the market--and not on the particular mechanism for offering them."
+   }
+  ],
+  "rationale": "The speech addresses Treasury settlement infrastructure and supervisory expectations for BNY Mellon, with no discussion of monetary policy, inflation, or economic activity. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This panel will focus on the settlement infrastructure for U.S. government securities--a vital component of the Treasury market and one that is undergoing an important transition.",
+     "start": 0,
+     "end": 178
+    },
+    {
+     "quote": "As BNYM becomes the sole provider, we will raise our expectations even higher.",
+     "start": 2696,
+     "end": 2773
+    },
+    {
+     "quote": "Our focus is on the quality of the services offered--their safety, resilience, and support of the market--and not on the particular mechanism for offering them.",
+     "start": 5106,
+     "end": 5265
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

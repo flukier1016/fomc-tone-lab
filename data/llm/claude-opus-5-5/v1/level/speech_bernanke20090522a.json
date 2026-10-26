@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20090522a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20090522a",
+  "doc_type": "speech",
+  "text_sha256": "206a19af576a83bccd433fc8d4e30355d6ea08dd393e80b84a81d57eebe0ecc6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e63cfe5de77e72e7c153e8cab59de6552be7fad034554199bd66120ab7bd7cdf",
+ "message_id": "msg_011CgFug8dB7JanQ9UisYWN5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5051,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The business reporters should go get coffee or something, because I am not going to say anything about the markets or monetary policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We are in a recession, and the labor market is weak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy will recover--it has too many fundamental strengths to be kept down for too long--and the mood will brighten.\"},{\"dimension\":\"overall\",\"quote\":\"Restoring economic prosperity and maximizing economic opportunity are the central focus of our efforts at the Fed.\"}],\"rationale\":\"This commencement speech explicitly avoids monetary policy and offers only brief remarks on the economy. It acknowledges a recession and a weak labor market while expressing optimism about recovery, a mild dovish lean that leaves the overall signal essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The business reporters should go get coffee or something, because I am not going to say anything about the markets or monetary policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We are in a recession, and the labor market is weak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy will recover--it has too many fundamental strengths to be kept down for too long--and the mood will brighten."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Restoring economic prosperity and maximizing economic opportunity are the central focus of our efforts at the Fed."
+   }
+  ],
+  "rationale": "This commencement speech explicitly avoids monetary policy and offers only brief remarks on the economy. It acknowledges a recession and a weak labor market while expressing optimism about recovery, a mild dovish lean that leaves the overall signal essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The business reporters should go get coffee or something, because I am not going to say anything about the markets or monetary policy.",
+     "start": 1484,
+     "end": 1617
+    },
+    {
+     "quote": "We are in a recession, and the labor market is weak.",
+     "start": 13303,
+     "end": 13354
+    },
+    {
+     "quote": "The economy will recover--it has too many fundamental strengths to be kept down for too long--and the mood will brighten.",
+     "start": 15695,
+     "end": 15815
+    },
+    {
+     "quote": "Restoring economic prosperity and maximizing economic opportunity are the central focus of our efforts at the Fed.",
+     "start": 13547,
+     "end": 13660
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

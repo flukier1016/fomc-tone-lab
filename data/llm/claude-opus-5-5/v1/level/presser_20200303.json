@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200303",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200303",
+  "doc_type": "presser",
+  "text_sha256": "9375f417e726cf255fb83f89fe3777947aaab0da51beda48140fdad8a67353be"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a5a0228a9d8dada27ebc43c0efc687179027a96fc69d4d4de12cf05f8e9e5843",
+ "message_id": "msg_011CgFugErivmfgmgx93VHJQ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2794,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Earlier today the Federal Open Market Committee announced a ½ percentage point reduction in the target range for the federal funds rate, bringing that range to 1 to 1¼ percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Against this background, the Committee judged that the risks to the U.S. outlook have changed materially.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In the weeks and months ahead, we will continue to closely monitor developments and their implications for the economic outlook, and we will use our tools and act as appropriate to support the economy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The fundamentals of the U.S. economy remain strong.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In terms of—in terms of moving forward, I would say that we do like our current policy stance.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The virus and the measures that are being taken to contain it will surely weigh on economic activity both here and abroad for some time.\"}],\"rationale\":\"The Chair announces an emergency 50bp cut in response to materially changed downside risks from the coronavirus and signals readiness to act further. Some balance comes from describing the economy's fundamentals as strong and saying the Committee likes its current stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Earlier today the Federal Open Market Committee announced a ½ percentage point reduction in the target range for the federal funds rate, bringing that range to 1 to 1¼ percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Against this background, the Committee judged that the risks to the U.S. outlook have changed materially."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In the weeks and months ahead, we will continue to closely monitor developments and their implications for the economic outlook, and we will use our tools and act as appropriate to support the economy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The fundamentals of the U.S. economy remain strong."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In terms of—in terms of moving forward, I would say that we do like our current policy stance."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The virus and the measures that are being taken to contain it will surely weigh on economic activity both here and abroad for some time."
+   }
+  ],
+  "rationale": "The Chair announces an emergency 50bp cut in response to materially changed downside risks from the coronavirus and signals readiness to act further. Some balance comes from describing the economy's fundamentals as strong and saying the Committee likes its current stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Earlier today the Federal Open Market Committee announced a ½ percentage point reduction in the target range for the federal funds rate, bringing that range to 1 to 1¼ percent.",
+     "start": 0,
+     "end": 175
+    },
+    {
+     "quote": "Against this background, the Committee judged that the risks to the U.S. outlook have changed materially.",
+     "start": 1598,
+     "end": 1702
+    },
+    {
+     "quote": "In the weeks and months ahead, we will continue to closely monitor developments and their implications for the economic outlook, and we will use our tools and act as appropriate to support the economy.",
+     "start": 2127,
+     "end": 2327
+    },
+    {
+     "quote": "The fundamentals of the U.S. economy remain strong.",
+     "start": 301,
+     "end": 351
+    },
+    {
+     "quote": "In terms of—in terms of moving forward, I would say that we do like our current policy stance.",
+     "start": 5127,
+     "end": 5220
+    },
+    {
+     "quote": "The virus and the measures that are being taken to contain it will surely weigh on economic activity both here and abroad for some time.",
+     "start": 1166,
+     "end": 1301
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

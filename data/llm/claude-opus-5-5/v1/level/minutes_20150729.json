@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150729",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150729",
+  "doc_type": "minutes",
+  "text_sha256": "501255406721358949f7eeb2f47277f1c7d30355130ab519cd1c8e0a3c69ecf5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ee651b0f2cac612184225f11ee0b9a10056e0e1436c1edbf99e6f8dfdd349206",
+ "message_id": "msg_011CgFugG4u95BDHgQvJT1Wj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14647,
+  "output_tokens": 646,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most judged that the conditions for policy firming had not yet been achieved, but they noted that conditions were approaching that point.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"some participants expressed the view that the incoming information had not yet provided grounds for reasonable confidence that inflation would move back to 2 percent over the medium term\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The pace of job gains had been solid and the unemployment rate had declined, with a range of labor market indicators suggesting that underutilization of labor resources had continued to diminish.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Some participants cited downside risks to inflation, pointing to the absence of any noticeable response of inflation to the reduction in resource slack over the past several years\"},{\"dimension\":\"forward_guidance\",\"quote\":\"One member, however, indicated a readiness to take that step at this meeting but was willing to wait for additional data to confirm a judgment to raise the target range.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Participants generally favored continuing reinvestments during the early stages of normalization, initially using only increases in the target range for the federal funds rate to reduce monetary policy accommodation.\"}],\"rationale\":\"The minutes show liftoff approaching, with conditions \\\"approaching\\\" those for firming and a labor market seen as strong, but this is offset by persistent concern about below-target inflation, downside risks from abroad, and plans for a gradual path with reinvestments continuing. On net the signal is roughly balanced, leaning only slightly hawkish on timing.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most judged that the conditions for policy firming had not yet been achieved, but they noted that conditions were approaching that point."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "some participants expressed the view that the incoming information had not yet provided grounds for reasonable confidence that inflation would move back to 2 percent over the medium term"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The pace of job gains had been solid and the unemployment rate had declined, with a range of labor market indicators suggesting that underutilization of labor resources had continued to diminish."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Some participants cited downside risks to inflation, pointing to the absence of any noticeable response of inflation to the reduction in resource slack over the past several years"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "One member, however, indicated a readiness to take that step at this meeting but was willing to wait for additional data to confirm a judgment to raise the target range."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Participants generally favored continuing reinvestments during the early stages of normalization, initially using only increases in the target range for the federal funds rate to reduce monetary policy accommodation."
+   }
+  ],
+  "rationale": "The minutes show liftoff approaching, with conditions \"approaching\" those for firming and a labor market seen as strong, but this is offset by persistent concern about below-target inflation, downside risks from abroad, and plans for a gradual path with reinvestments continuing. On net the signal is roughly balanced, leaning only slightly hawkish on timing."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most judged that the conditions for policy firming had not yet been achieved, but they noted that conditions were approaching that point.",
+     "start": 32664,
+     "end": 32800
+    },
+    {
+     "quote": "some participants expressed the view that the incoming information had not yet provided grounds for reasonable confidence that inflation would move back to 2 percent over the medium term",
+     "start": 33279,
+     "end": 33465
+    },
+    {
+     "quote": "The pace of job gains had been solid and the unemployment rate had declined, with a range of labor market indicators suggesting that underutilization of labor resources had continued to diminish.",
+     "start": 22423,
+     "end": 22617
+    },
+    {
+     "quote": "Some participants cited downside risks to inflation, pointing to the absence of any noticeable response of inflation to the reduction in resource slack over the past several years",
+     "start": 30628,
+     "end": 30807
+    },
+    {
+     "quote": "One member, however, indicated a readiness to take that step at this meeting but was willing to wait for additional data to confirm a judgment to raise the target range.",
+     "start": 39908,
+     "end": 40076
+    },
+    {
+     "quote": "Participants generally favored continuing reinvestments during the early stages of normalization, initially using only increases in the target range for the federal funds rate to reduce monetary policy accommodation.",
+     "start": 3220,
+     "end": 3435
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

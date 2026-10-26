@@ -1,0 +1,129 @@
+{
+ "key": "statement_20240131",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20240131",
+  "previous_doc_id": "statement_20231213",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9d427bf25180ec6c5bce2730c44b0b284d3bc587af3306bf638e18484f0f2aa2",
+ "message_id": "msg_011CgFudUmZ2mapJ46fsW4vX",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1478,
+  "output_tokens": 800,
+  "output_tokens_details": {
+   "thinking_tokens": 192
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments.\",\"after\":\"In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.\",\"direction\":\"hawkish\"},{\"before\":\"\",\"after\":\"The Committee judges that the risks to achieving its employment and inflation goals are moving into better balance.\",\"direction\":\"dovish\"},{\"before\":\"Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter.\",\"after\":\"Recent indicators suggest that economic activity has been expanding at a solid pace.\",\"direction\":\"hawkish\"},{\"before\":\"The U.S. banking system is sound and resilient. Tighter financial and credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain.\",\"after\":\"The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement drops the tightening bias ('additional policy firming') and shifts the framing to when rate reductions might occur, with risks described as moving into better balance, a dovish change in guidance. This is tempered by the explicit pushback that cuts are not expected until greater confidence on inflation, plus a firmer description of growth.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments.",
+    "after": "In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "",
+    "after": "The Committee judges that the risks to achieving its employment and inflation goals are moving into better balance.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter.",
+    "after": "Recent indicators suggest that economic activity has been expanding at a solid pace.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The U.S. banking system is sound and resilient. Tighter financial and credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain.",
+    "after": "The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement drops the tightening bias ('additional policy firming') and shifts the framing to when rate reductions might occur, with risks described as moving into better balance, a dovish change in guidance. This is tempered by the explicit pushback that cuts are not expected until greater confidence on inflation, plus a firmer description of growth."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In determining the extent of any additional policy firming that may be appropriate to return inflation to 2 percent over time, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments.",
+     "start": 924,
+     "end": 1250
+    },
+    {
+     "quote": "Recent indicators suggest that growth of economic activity has slowed from its strong pace in the third quarter.",
+     "start": 0,
+     "end": 111
+    },
+    {
+     "quote": "The U.S. banking system is sound and resilient. Tighter financial and credit conditions for households and businesses are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain.",
+     "start": 289,
+     "end": 517
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In considering any adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 712,
+     "end": 888
+    },
+    {
+     "quote": "The Committee does not expect it will be appropriate to reduce the target range until it has gained greater confidence that inflation is moving sustainably toward 2 percent.",
+     "start": 890,
+     "end": 1062
+    },
+    {
+     "quote": "The Committee judges that the risks to achieving its employment and inflation goals are moving into better balance.",
+     "start": 367,
+     "end": 481
+    },
+    {
+     "quote": "Recent indicators suggest that economic activity has been expanding at a solid pace.",
+     "start": 0,
+     "end": 83
+    },
+    {
+     "quote": "The economic outlook is uncertain, and the Committee remains highly attentive to inflation risks.",
+     "start": 483,
+     "end": 579
+    }
+   ]
+  }
+ }
+}

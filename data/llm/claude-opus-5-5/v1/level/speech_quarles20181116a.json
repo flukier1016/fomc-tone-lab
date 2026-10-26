@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20181116a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20181116a",
+  "doc_type": "speech",
+  "text_sha256": "82ba24fb8e8a3c43ad36cdf42740a326c3540e0162b76e0ce29900ea15ddff8e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "faf4aab5c802bf1662d15b4e0785e793c91f6c2115654b82e9040f09955b1f6c",
+ "message_id": "msg_011CgFugBkgyGbBvPG1YcdgX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2919,
+  "output_tokens": 333,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I will review some of our efforts along those lines, focusing on proposed changes to our stress-testing program.\"},{\"dimension\":\"overall\",\"quote\":\"without altering materially the stringency of the tests or the overall level of capital in the system.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, the time has come to normalize the CCAR qualitative assessment by removing the public objection tool\"}],\"rationale\":\"The speech is about stress testing and bank capital regulation and says nothing about interest rates, inflation, the economy, or the Fed's balance sheet. It carries no monetary policy signal, so the stance is neutral and every policy dimension is null.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I will review some of our efforts along those lines, focusing on proposed changes to our stress-testing program."
+   },
+   {
+    "dimension": "overall",
+    "quote": "without altering materially the stringency of the tests or the overall level of capital in the system."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, the time has come to normalize the CCAR qualitative assessment by removing the public objection tool"
+   }
+  ],
+  "rationale": "The speech is about stress testing and bank capital regulation and says nothing about interest rates, inflation, the economy, or the Fed's balance sheet. It carries no monetary policy signal, so the stance is neutral and every policy dimension is null."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I will review some of our efforts along those lines, focusing on proposed changes to our stress-testing program.",
+     "start": 1196,
+     "end": 1314
+    },
+    {
+     "quote": "without altering materially the stringency of the tests or the overall level of capital in the system.",
+     "start": 1516,
+     "end": 1617
+    },
+    {
+     "quote": "In my view, the time has come to normalize the CCAR qualitative assessment by removing the public objection tool",
+     "start": 8551,
+     "end": 8663
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

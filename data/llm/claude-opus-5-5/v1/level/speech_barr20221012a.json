@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20221012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20221012a",
+  "doc_type": "speech",
+  "text_sha256": "fbc51379d2d9c3396fe3f9a11af6a6e7e25ba5fb7b9863acc9b4bc57e02dcbfe"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "93415471a47108e730b31a74a4213a692e50af1cac846a6d2e46be06676f4472",
+ "message_id": "msg_011CgFugE37a8qdq7nAdEw1c",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3825,
+  "output_tokens": 320,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"For the purposes of our discussion today, I will be focusing on financial innovation supported by new technologies, or fintech.\"},{\"dimension\":\"overall\",\"quote\":\"We plan to launch FedNow between May and July next year.\"},{\"dimension\":\"overall\",\"quote\":\"Over time, stablecoins could pose a risk to financial stability, and it is important to get the regulatory framework right before they do.\"}],\"rationale\":\"The speech covers fintech, crypto regulation, stablecoins, open banking and payments, and it offers no view on monetary policy, inflation or economic activity. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "For the purposes of our discussion today, I will be focusing on financial innovation supported by new technologies, or fintech."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We plan to launch FedNow between May and July next year."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Over time, stablecoins could pose a risk to financial stability, and it is important to get the regulatory framework right before they do."
+   }
+  ],
+  "rationale": "The speech covers fintech, crypto regulation, stablecoins, open banking and payments, and it offers no view on monetary policy, inflation or economic activity. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "For the purposes of our discussion today, I will be focusing on financial innovation supported by new technologies, or fintech.",
+     "start": 122,
+     "end": 248
+    },
+    {
+     "quote": "We plan to launch FedNow between May and July next year.",
+     "start": 12064,
+     "end": 12119
+    },
+    {
+     "quote": "Over time, stablecoins could pose a risk to financial stability, and it is important to get the regulatory framework right before they do.",
+     "start": 7398,
+     "end": 7535
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

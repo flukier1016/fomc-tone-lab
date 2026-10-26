@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20151012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20151012a",
+  "doc_type": "speech",
+  "text_sha256": "b405e342d10ae6d7dca27db63a2d608f2c3d9a416f4501de42b5688bc1de0a14"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e8762bfd37dd8bd5d921f8c1c15c3ecff1dbcb8f3a39f555bf95ea490edca2c9",
+ "message_id": "msg_011CgFugA4jtAKueg9CYwTYU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6253,
+  "output_tokens": 507,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.88,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"risk-management considerations counsel a stance of waiting to see if the risks to the outlook diminish.\"},{\"dimension\":\"risk_balance\",\"quote\":\"For these reasons, I view the risks to the economic outlook as tilted to the downside.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"argue against prematurely taking away the support that has been so critical to its vitality.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the risks to the near-term outlook for inflation appear to be tilted to the downside\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even so, a variety of evidence suggests there may be some distance to go to achieve full employment.\"},{\"dimension\":\"overall\",\"quote\":\"the substantial financial tightening that has already taken place has been comparable in its effect to the equivalent of a couple of rate increases.\"}],\"rationale\":\"The speaker explicitly argues against near-term liftoff, citing downside risks from abroad, persistently low inflation, remaining labor slack and the asymmetry from the lower bound. Domestic activity is described as resilient, but the dominant message is to wait and keep policy accommodative.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.88,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "risk-management considerations counsel a stance of waiting to see if the risks to the outlook diminish."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "For these reasons, I view the risks to the economic outlook as tilted to the downside."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "argue against prematurely taking away the support that has been so critical to its vitality."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the risks to the near-term outlook for inflation appear to be tilted to the downside"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even so, a variety of evidence suggests there may be some distance to go to achieve full employment."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the substantial financial tightening that has already taken place has been comparable in its effect to the equivalent of a couple of rate increases."
+   }
+  ],
+  "rationale": "The speaker explicitly argues against near-term liftoff, citing downside risks from abroad, persistently low inflation, remaining labor slack and the asymmetry from the lower bound. Domestic activity is described as resilient, but the dominant message is to wait and keep policy accommodative."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "risk-management considerations counsel a stance of waiting to see if the risks to the outlook diminish.",
+     "start": 20751,
+     "end": 20853
+    },
+    {
+     "quote": "For these reasons, I view the risks to the economic outlook as tilted to the downside.",
+     "start": 15606,
+     "end": 15691
+    },
+    {
+     "quote": "argue against prematurely taking away the support that has been so critical to its vitality.",
+     "start": 15790,
+     "end": 15881
+    },
+    {
+     "quote": "the risks to the near-term outlook for inflation appear to be tilted to the downside",
+     "start": 9127,
+     "end": 9211
+    },
+    {
+     "quote": "Even so, a variety of evidence suggests there may be some distance to go to achieve full employment.",
+     "start": 1121,
+     "end": 1220
+    },
+    {
+     "quote": "the substantial financial tightening that has already taken place has been comparable in its effect to the equivalent of a couple of rate increases.",
+     "start": 13700,
+     "end": 13847
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

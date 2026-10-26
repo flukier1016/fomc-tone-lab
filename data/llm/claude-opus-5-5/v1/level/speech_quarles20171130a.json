@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20171130a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20171130a",
+  "doc_type": "speech",
+  "text_sha256": "4a5688b95f5b41c5875738e96655a1421316e4e3b0dc30d5eea8f5bbe1581ded"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "db7b2b996c5f78a258fbc6f9210414e341da290cbdd8d19448336758e3980722",
+ "message_id": "msg_011CgFugHpZnegU49zgGvpze",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5134,
+  "output_tokens": 321,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to concentrate my remarks on the U.S. payment system, which is a critical foundation on which financial transactions and the conduct of business take place.\"},{\"dimension\":\"overall\",\"quote\":\"As such, central banks should tread cautiously as they contemplate issuing them.\"},{\"dimension\":\"overall\",\"quote\":\"These considerations highlight the need for a prudent approach to innovation in payment systems.\"}],\"rationale\":\"The speech addresses payment systems, fintech and digital currencies from a financial stability perspective and says nothing about the rate path, inflation, or economic outlook. It carries no monetary policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to concentrate my remarks on the U.S. payment system, which is a critical foundation on which financial transactions and the conduct of business take place."
+   },
+   {
+    "dimension": "overall",
+    "quote": "As such, central banks should tread cautiously as they contemplate issuing them."
+   },
+   {
+    "dimension": "overall",
+    "quote": "These considerations highlight the need for a prudent approach to innovation in payment systems."
+   }
+  ],
+  "rationale": "The speech addresses payment systems, fintech and digital currencies from a financial stability perspective and says nothing about the rate path, inflation, or economic outlook. It carries no monetary policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to concentrate my remarks on the U.S. payment system, which is a critical foundation on which financial transactions and the conduct of business take place.",
+     "start": 3204,
+     "end": 3372
+    },
+    {
+     "quote": "As such, central banks should tread cautiously as they contemplate issuing them.",
+     "start": 18052,
+     "end": 18131
+    },
+    {
+     "quote": "These considerations highlight the need for a prudent approach to innovation in payment systems.",
+     "start": 3725,
+     "end": 3820
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

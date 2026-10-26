@@ -1,0 +1,103 @@
+{
+ "key": "speech_miran20251119a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_miran20251119a",
+  "doc_type": "speech",
+  "text_sha256": "ec5936c4d8122e71b173524703c9a6d6f1e052320da2a09b79cf261bc3a46079"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b24cf9798b49b4ce110c39f0eb8c4e05895b9e38fb4d393bfe0ae0733dd40360",
+ "message_id": "msg_011CgFugFZPa6oNFsx5Ut79K",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4199,
+  "output_tokens": 488,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"Given emergent funding market signals, I supported ending the runoff of the Fed's balance sheet immediately at the FOMC's October meeting rather than waiting until December 1\"},{\"dimension\":\"balance_sheet\",\"quote\":\"As we right-size the regulations, my hope is that it will allow us to further reduce the size of the balance sheet, relaxing the grip of regulatory dominance.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"It is possible that in the future, it will be appropriate to resume shrinking the balance sheet; stopping runoff today does not necessarily mean stopping it forever.\"},{\"dimension\":\"overall\",\"quote\":\"Once we properly tailor the regulatory environment, we can then address questions that are more pertinent to monetary policy implementation.\"}],\"rationale\":\"The speech is mainly about bank regulation and its effect on reserve demand, with no views on rates, inflation, or activity. On the balance sheet it backs ending runoff early, which leans dovish, but it also hopes to shrink the balance sheet later once regulations are eased, so the net signal is roughly neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "Given emergent funding market signals, I supported ending the runoff of the Fed's balance sheet immediately at the FOMC's October meeting rather than waiting until December 1"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "As we right-size the regulations, my hope is that it will allow us to further reduce the size of the balance sheet, relaxing the grip of regulatory dominance."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "It is possible that in the future, it will be appropriate to resume shrinking the balance sheet; stopping runoff today does not necessarily mean stopping it forever."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Once we properly tailor the regulatory environment, we can then address questions that are more pertinent to monetary policy implementation."
+   }
+  ],
+  "rationale": "The speech is mainly about bank regulation and its effect on reserve demand, with no views on rates, inflation, or activity. On the balance sheet it backs ending runoff early, which leans dovish, but it also hopes to shrink the balance sheet later once regulations are eased, so the net signal is roughly neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given emergent funding market signals, I supported ending the runoff of the Fed's balance sheet immediately at the FOMC's October meeting rather than waiting until December 1",
+     "start": 12581,
+     "end": 12755
+    },
+    {
+     "quote": "As we right-size the regulations, my hope is that it will allow us to further reduce the size of the balance sheet, relaxing the grip of regulatory dominance.",
+     "start": 12422,
+     "end": 12579
+    },
+    {
+     "quote": "It is possible that in the future, it will be appropriate to resume shrinking the balance sheet; stopping runoff today does not necessarily mean stopping it forever.",
+     "start": 13021,
+     "end": 13185
+    },
+    {
+     "quote": "Once we properly tailor the regulatory environment, we can then address questions that are more pertinent to monetary policy implementation.",
+     "start": 1329,
+     "end": 1468
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

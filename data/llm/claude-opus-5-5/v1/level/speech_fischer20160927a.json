@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20160927a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160927a",
+  "doc_type": "speech",
+  "text_sha256": "bb3b7923aff480b7f7b889b373f3e49a641bbce2226aeb3cd398db4251571230"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8d04ecd1c5eafe77477ed9069c881204ace8b3ed1fa0dcc33e5f29eb5d86573b",
+ "message_id": "msg_011CgFugBez7hP6dSVEMQWBu",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2533,
+  "output_tokens": 363,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The proportion of adults participating in the labor force--that is, either holding jobs or actively searching for employment--has declined substantially over the past decade.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"However, much of the decline in labor force participation reflects factors that precede the recession.\"},{\"dimension\":\"overall\",\"quote\":\"I will conclude by discussing diversity in the economics profession. Our profession currently is not very diverse, but it needs to be.\"}],\"rationale\":\"The speech addresses economics education, structural labor force participation trends, economic mobility and diversity, and offers no view on monetary policy, inflation or the policy outlook. The labor discussion is structural rather than cyclical, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The proportion of adults participating in the labor force--that is, either holding jobs or actively searching for employment--has declined substantially over the past decade."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "However, much of the decline in labor force participation reflects factors that precede the recession."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I will conclude by discussing diversity in the economics profession. Our profession currently is not very diverse, but it needs to be."
+   }
+  ],
+  "rationale": "The speech addresses economics education, structural labor force participation trends, economic mobility and diversity, and offers no view on monetary policy, inflation or the policy outlook. The labor discussion is structural rather than cyclical, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The proportion of adults participating in the labor force--that is, either holding jobs or actively searching for employment--has declined substantially over the past decade.",
+     "start": 1785,
+     "end": 1958
+    },
+    {
+     "quote": "However, much of the decline in labor force participation reflects factors that precede the recession.",
+     "start": 2256,
+     "end": 2357
+    },
+    {
+     "quote": "I will conclude by discussing diversity in the economics profession. Our profession currently is not very diverse, but it needs to be.",
+     "start": 4918,
+     "end": 5051
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

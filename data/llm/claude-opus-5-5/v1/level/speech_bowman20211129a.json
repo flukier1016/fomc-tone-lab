@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20211129a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20211129a",
+  "doc_type": "speech",
+  "text_sha256": "83822ff4055a5b0da1ea72380f08ff2e630528f9b3bd834de94fbe3955b052cd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "24712adb490b5eb90451d10ae2693acdd61d6321d8bd5ab764bbc6151a0e6fe6",
+ "message_id": "msg_011CgFug8oM1NssSy3DGwcMD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2672,
+  "output_tokens": 314,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The economic well-being of Indigenous people is an important aspect of the Federal Reserve's goal to increase economic inclusion for all Americans\"},{\"dimension\":\"overall\",\"quote\":\"Bank branches are harder to find in Indian Country.\"},{\"dimension\":\"overall\",\"quote\":\"The second example comes from our work to modernize the Community Reinvestment Act, or CRA.\"}],\"rationale\":\"The speech is about Indigenous economic inclusion, community development and CRA modernization, and it offers no view on rates, inflation or the balance sheet. No policy signal can be drawn from it.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The economic well-being of Indigenous people is an important aspect of the Federal Reserve's goal to increase economic inclusion for all Americans"
+   },
+   {
+    "dimension": "overall",
+    "quote": "Bank branches are harder to find in Indian Country."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The second example comes from our work to modernize the Community Reinvestment Act, or CRA."
+   }
+  ],
+  "rationale": "The speech is about Indigenous economic inclusion, community development and CRA modernization, and it offers no view on rates, inflation or the balance sheet. No policy signal can be drawn from it."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The economic well-being of Indigenous people is an important aspect of the Federal Reserve's goal to increase economic inclusion for all Americans",
+     "start": 498,
+     "end": 644
+    },
+    {
+     "quote": "Bank branches are harder to find in Indian Country.",
+     "start": 3612,
+     "end": 3662
+    },
+    {
+     "quote": "The second example comes from our work to modernize the Community Reinvestment Act, or CRA.",
+     "start": 7793,
+     "end": 7883
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

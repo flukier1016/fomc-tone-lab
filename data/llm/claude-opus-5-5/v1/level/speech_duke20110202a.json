@@ -1,0 +1,94 @@
+{
+ "key": "speech_duke20110202a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20110202a",
+  "doc_type": "speech",
+  "text_sha256": "273d9165fef4ce765ea80f6a4f1f2316dc0cc2d9ffc04da5ac711f0f07bf1fc2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f18764121a6201d55541f9aca64efb904aebabce613573c2fe959b8ef4ef9eab",
+ "message_id": "msg_011CgFugJKaYzXGEHzCG712j",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6429,
+  "output_tokens": 398,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Fed decided to put additional downward pressure on longer-term interest rates by purchasing longer-term Treasury securities with a stated objective to purchase $600 billion by the end of June 2011.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"recognizing that progress toward the achievement of our dual mandate was disappointingly slow\"},{\"dimension\":\"overall\",\"quote\":\"The U.S. economy continues to face challenges, but I am convinced that the forceful actions of the Federal Reserve in 2008 helped prevent what might have been a far worse scenario.\"}],\"rationale\":\"This is mainly a career and institutional-history speech. Its only policy content is a description of past accommodation and asset purchases, with a mild dovish note that progress on the dual mandate has been slow, and it offers no forward guidance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Fed decided to put additional downward pressure on longer-term interest rates by purchasing longer-term Treasury securities with a stated objective to purchase $600 billion by the end of June 2011."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "recognizing that progress toward the achievement of our dual mandate was disappointingly slow"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The U.S. economy continues to face challenges, but I am convinced that the forceful actions of the Federal Reserve in 2008 helped prevent what might have been a far worse scenario."
+   }
+  ],
+  "rationale": "This is mainly a career and institutional-history speech. Its only policy content is a description of past accommodation and asset purchases, with a mild dovish note that progress on the dual mandate has been slow, and it offers no forward guidance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Fed decided to put additional downward pressure on longer-term interest rates by purchasing longer-term Treasury securities with a stated objective to purchase $600 billion by the end of June 2011.",
+     "start": 14080,
+     "end": 14280
+    },
+    {
+     "quote": "recognizing that progress toward the achievement of our dual mandate was disappointingly slow",
+     "start": 13985,
+     "end": 14078
+    },
+    {
+     "quote": "The U.S. economy continues to face challenges, but I am convinced that the forceful actions of the Federal Reserve in 2008 helped prevent what might have been a far worse scenario.",
+     "start": 10941,
+     "end": 11120
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

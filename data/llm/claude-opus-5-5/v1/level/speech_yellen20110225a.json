@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20110225a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20110225a",
+  "doc_type": "speech",
+  "text_sha256": "e2a0b43fcf9cf2eb6c510a582a11fac210d009fc919c3e5c1cdc21aad1780a19"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6b1f5c56446dfdfd25b9a6ffdef00c33b99e68c6d06e3fc187c404b7f63e3d71",
+ "message_id": "msg_011CgFugBDCVAEvwFiJS6Vzo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5435,
+  "output_tokens": 497,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"It is not my intention to provide new information about the outlook for the U.S. economy or monetary policy.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the language of the forward guidance could be adjusted to shift expectations toward the somewhat longer horizon over which the Committee expected the federal funds rate to remain extraordinarily low.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The pace of recovery under the baseline scenario is expected to be painfully slow.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"financial conditions would likely tighten immediately if market participants came to expect a more rapid renormalization of the Federal Reserve's balance sheet.\"},{\"dimension\":\"overall\",\"quote\":\"I believe that both forward guidance and large-scale asset purchases have been effective tools for providing additional monetary accommodation\"}],\"rationale\":\"The speaker disclaims giving outlook signals, but the speech defends unconventional easing, describes recovery as painfully slow, and shows that later firming or faster balance-sheet runoff would raise unemployment. That framing implies a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "It is not my intention to provide new information about the outlook for the U.S. economy or monetary policy."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the language of the forward guidance could be adjusted to shift expectations toward the somewhat longer horizon over which the Committee expected the federal funds rate to remain extraordinarily low."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The pace of recovery under the baseline scenario is expected to be painfully slow."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "financial conditions would likely tighten immediately if market participants came to expect a more rapid renormalization of the Federal Reserve's balance sheet."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I believe that both forward guidance and large-scale asset purchases have been effective tools for providing additional monetary accommodation"
+   }
+  ],
+  "rationale": "The speaker disclaims giving outlook signals, but the speech defends unconventional easing, describes recovery as painfully slow, and shows that later firming or faster balance-sheet runoff would raise unemployment. That framing implies a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "It is not my intention to provide new information about the outlook for the U.S. economy or monetary policy.",
+     "start": 405,
+     "end": 512
+    },
+    {
+     "quote": "the language of the forward guidance could be adjusted to shift expectations toward the somewhat longer horizon over which the Committee expected the federal funds rate to remain extraordinarily low.",
+     "start": 7254,
+     "end": 7452
+    },
+    {
+     "quote": "The pace of recovery under the baseline scenario is expected to be painfully slow.",
+     "start": 14898,
+     "end": 14979
+    },
+    {
+     "quote": "financial conditions would likely tighten immediately if market participants came to expect a more rapid renormalization of the Federal Reserve's balance sheet.",
+     "start": 16234,
+     "end": 16393
+    },
+    {
+     "quote": "I believe that both forward guidance and large-scale asset purchases have been effective tools for providing additional monetary accommodation",
+     "start": 17592,
+     "end": 17734
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20120313",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120313",
+  "doc_type": "minutes",
+  "text_sha256": "1856dc9a514ef86a3a37940011252d8c15822a722a68a25e25cf29e0216b6415"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d8ee22c0150f40db781a999dc84514aea3dcdf2c9428267b9e82fe965b5ee326",
+ "message_id": "msg_011CgFug8TVzBqC1nkdpaRRi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11514,
+  "output_tokens": 603,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.4,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014\"},{\"dimension\":\"risk_balance\",\"quote\":\"a number of members perceived a nonnegligible risk that improvements in employment could diminish as the year progressed\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"A couple of members indicated that the initiation of additional stimulus could become necessary if the economy lost momentum\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor market conditions had improved further: Payroll employment had continued to expand, and the unemployment rate had declined notably in recent months. Still, unemployment remained elevated.\"},{\"dimension\":\"overall\",\"quote\":\"one member judged that maintaining the current degree of policy accommodation much beyond this year would likely be inappropriate\"}],\"rationale\":\"The minutes reaffirm highly accommodative policy, with guidance of exceptionally low rates through late 2014 and some members open to added stimulus, while noting improving labor data and a hawkish minority. Downside risks to employment and global finance are emphasized, and inflation is seen as temporarily boosted by oil but otherwise subdued.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.4,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "a number of members perceived a nonnegligible risk that improvements in employment could diminish as the year progressed"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "A couple of members indicated that the initiation of additional stimulus could become necessary if the economy lost momentum"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor market conditions had improved further: Payroll employment had continued to expand, and the unemployment rate had declined notably in recent months. Still, unemployment remained elevated."
+   },
+   {
+    "dimension": "overall",
+    "quote": "one member judged that maintaining the current degree of policy accommodation much beyond this year would likely be inappropriate"
+   }
+  ],
+  "rationale": "The minutes reaffirm highly accommodative policy, with guidance of exceptionally low rates through late 2014 and some members open to added stimulus, while noting improving labor data and a hawkish minority. Downside risks to employment and global finance are emphasized, and inflation is seen as temporarily boosted by oil but otherwise subdued."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014",
+     "start": 30072,
+     "end": 30172
+    },
+    {
+     "quote": "a number of members perceived a nonnegligible risk that improvements in employment could diminish as the year progressed",
+     "start": 30710,
+     "end": 30830
+    },
+    {
+     "quote": "The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee anticipates that subsequently inflation will run at or below the rate that it judges most consistent with its dual mandate.",
+     "start": 34582,
+     "end": 34805
+    },
+    {
+     "quote": "A couple of members indicated that the initiation of additional stimulus could become necessary if the economy lost momentum",
+     "start": 31490,
+     "end": 31614
+    },
+    {
+     "quote": "Labor market conditions had improved further: Payroll employment had continued to expand, and the unemployment rate had declined notably in recent months. Still, unemployment remained elevated.",
+     "start": 17394,
+     "end": 17586
+    },
+    {
+     "quote": "one member judged that maintaining the current degree of policy accommodation much beyond this year would likely be inappropriate",
+     "start": 30981,
+     "end": 31110
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

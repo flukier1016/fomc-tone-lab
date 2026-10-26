@@ -1,0 +1,85 @@
+{
+ "key": "speech_brainard20210112a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20210112a",
+  "doc_type": "speech",
+  "text_sha256": "45ab9249657f8b3ab0fe3684eb72835a39b544a604d5d905bde4f09b12c1d5e7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d38ee3c764de229a2ab5f45eb630c24a89825b6e4ed9b62d312afec61a8113be",
+ "message_id": "msg_011CgFug9AB67xSXwrdDQWDo",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5091,
+  "output_tokens": 299,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today's symposium on the use of artificial intelligence (AI) in financial services is part of the Federal Reserve's broader effort to understand AI's application to financial services\"},{\"dimension\":\"overall\",\"quote\":\"To that end, we are exploring whether additional supervisory clarity is needed to facilitate responsible adoption of AI.\"}],\"rationale\":\"The speech addresses AI in financial services, model explainability, and fair lending supervision, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today's symposium on the use of artificial intelligence (AI) in financial services is part of the Federal Reserve's broader effort to understand AI's application to financial services"
+   },
+   {
+    "dimension": "overall",
+    "quote": "To that end, we are exploring whether additional supervisory clarity is needed to facilitate responsible adoption of AI."
+   }
+  ],
+  "rationale": "The speech addresses AI in financial services, model explainability, and fair lending supervision, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today's symposium on the use of artificial intelligence (AI) in financial services is part of the Federal Reserve's broader effort to understand AI's application to financial services",
+     "start": 0,
+     "end": 183
+    },
+    {
+     "quote": "To that end, we are exploring whether additional supervisory clarity is needed to facilitate responsible adoption of AI.",
+     "start": 16714,
+     "end": 16833
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

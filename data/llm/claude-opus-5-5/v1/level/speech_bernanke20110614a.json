@@ -1,0 +1,103 @@
+{
+ "key": "speech_bernanke20110614a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110614a",
+  "doc_type": "speech",
+  "text_sha256": "b489b151f9f912d9c734b6f608ee1e5441b0d2ee841d9814e7894acb73e1ce0c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4737c1b52455b94a5c1d9baf840f79e25fe179d378adf0f3456a9bab4cd65f70",
+ "message_id": "msg_011CgFug9ewWkCvMWbcoTrhB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3623,
+  "output_tokens": 446,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"policymakers can avoid a sudden fiscal contraction that might put the still-fragile recovery at risk\"},{\"dimension\":\"risk_balance\",\"quote\":\"Interest rates would likely rise, slowing the recovery and, perversely, worsening the deficit problem by increasing required interest payments on the debt for what might well be a protracted period.\"},{\"dimension\":\"overall\",\"quote\":\"The primary long-term goal for federal budget policy must be achieving fiscal sustainability.\"},{\"dimension\":\"overall\",\"quote\":\"Failing to raise the debt ceiling in a timely way would be self-defeating if the objective is to chart a course toward a better fiscal situation for our nation.\"}],\"rationale\":\"The speech is about fiscal policy and the debt ceiling and offers no monetary policy signal, though it calls the recovery still fragile and stresses downside risks from a fiscal shock. The net monetary stance is roughly neutral with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "policymakers can avoid a sudden fiscal contraction that might put the still-fragile recovery at risk"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Interest rates would likely rise, slowing the recovery and, perversely, worsening the deficit problem by increasing required interest payments on the debt for what might well be a protracted period."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The primary long-term goal for federal budget policy must be achieving fiscal sustainability."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Failing to raise the debt ceiling in a timely way would be self-defeating if the objective is to chart a course toward a better fiscal situation for our nation."
+   }
+  ],
+  "rationale": "The speech is about fiscal policy and the debt ceiling and offers no monetary policy signal, though it calls the recovery still fragile and stresses downside risks from a fiscal shock. The net monetary stance is roughly neutral with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "policymakers can avoid a sudden fiscal contraction that might put the still-fragile recovery at risk",
+     "start": 5980,
+     "end": 6080
+    },
+    {
+     "quote": "Interest rates would likely rise, slowing the recovery and, perversely, worsening the deficit problem by increasing required interest payments on the debt for what might well be a protracted period.",
+     "start": 8815,
+     "end": 9012
+    },
+    {
+     "quote": "The primary long-term goal for federal budget policy must be achieving fiscal sustainability.",
+     "start": 4918,
+     "end": 5010
+    },
+    {
+     "quote": "Failing to raise the debt ceiling in a timely way would be self-defeating if the objective is to chart a course toward a better fiscal situation for our nation.",
+     "start": 7882,
+     "end": 8041
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

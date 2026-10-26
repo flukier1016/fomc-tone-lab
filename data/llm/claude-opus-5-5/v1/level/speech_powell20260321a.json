@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20260321a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20260321a",
+  "doc_type": "speech",
+  "text_sha256": "3b78dbc296db21b872ff57eac541f1c97be0be4eb7b910b682d30031ba7c0f9f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1f561491890a2408549432169eca0f743befaaec1e49a1710aaf34a888895294",
+ "message_id": "msg_011CgFugGFopYen5oq1bkjJR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1026,
+  "output_tokens": 376,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"His willingness to resist short-term pressures in the interest of achieving lasting price stability demonstrated the courage and long-term perspective that define principled public service.\"},{\"dimension\":\"overall\",\"quote\":\"we need independence to do what is right, and we need integrity to use that independence wisely.\"},{\"dimension\":\"overall\",\"quote\":\"Non-political, non-partisan service is the bedrock of the Federal Reserve, and no one embodies that virtue more than Paul Volcker.\"}],\"rationale\":\"These are ceremonial award remarks honoring Volcker's integrity and independence, with no discussion of current policy, the economy, or the outlook. Praise for resisting pressure to secure price stability carries at most a faint hawkish tint about central bank independence, so the stance is essentially neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "His willingness to resist short-term pressures in the interest of achieving lasting price stability demonstrated the courage and long-term perspective that define principled public service."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we need independence to do what is right, and we need integrity to use that independence wisely."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Non-political, non-partisan service is the bedrock of the Federal Reserve, and no one embodies that virtue more than Paul Volcker."
+   }
+  ],
+  "rationale": "These are ceremonial award remarks honoring Volcker's integrity and independence, with no discussion of current policy, the economy, or the outlook. Praise for resisting pressure to secure price stability carries at most a faint hawkish tint about central bank independence, so the stance is essentially neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "His willingness to resist short-term pressures in the interest of achieving lasting price stability demonstrated the courage and long-term perspective that define principled public service.",
+     "start": 2360,
+     "end": 2548
+    },
+    {
+     "quote": "we need independence to do what is right, and we need integrity to use that independence wisely.",
+     "start": 2689,
+     "end": 2784
+    },
+    {
+     "quote": "Non-political, non-partisan service is the bedrock of the Federal Reserve, and no one embodies that virtue more than Paul Volcker.",
+     "start": 1500,
+     "end": 1629
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

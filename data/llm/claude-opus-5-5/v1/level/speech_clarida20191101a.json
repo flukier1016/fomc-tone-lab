@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20191101a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20191101a",
+  "doc_type": "speech",
+  "text_sha256": "965f449c741484030443ea819f3a0c1dc0e03378b50859deb1e21e5dd72f61fc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9b825ee9788f56a8d1e6052e5da69d8074dee96f0d843ce33f77fa303e8d68e6",
+ "message_id": "msg_011CgFugA5Ux6DUs8dZULtvT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4138,
+  "output_tokens": 442,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I judge that measures of inflation expectations reside at the low end of a range I consider consistent with price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"By many metrics, the U.S. economy is in a good place.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Although the baseline expectation for the U.S. economy is favorable, there are some evident downside risks to this outlook.\"},{\"dimension\":\"overall\",\"quote\":\"The economy is in a good place, and monetary policy is in a good place.\"}],\"rationale\":\"The speech describes a recent insurance cut and signals a pause, with policy seen as appropriate as long as the outlook holds. Muted inflation, low inflation expectations and global downside risks give it a mild dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I judge that measures of inflation expectations reside at the low end of a range I consider consistent with price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "By many metrics, the U.S. economy is in a good place."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Although the baseline expectation for the U.S. economy is favorable, there are some evident downside risks to this outlook."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The economy is in a good place, and monetary policy is in a good place."
+   }
+  ],
+  "rationale": "The speech describes a recent insurance cut and signals a pause, with policy seen as appropriate as long as the outlook holds. Muted inflation, low inflation expectations and global downside risks give it a mild dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We see the current stance of monetary policy as likely to remain appropriate as long as incoming information about the economy remains broadly consistent with our outlook",
+     "start": 12856,
+     "end": 13026
+    },
+    {
+     "quote": "I judge that measures of inflation expectations reside at the low end of a range I consider consistent with price stability.",
+     "start": 2696,
+     "end": 2819
+    },
+    {
+     "quote": "By many metrics, the U.S. economy is in a good place.",
+     "start": 1326,
+     "end": 1378
+    },
+    {
+     "quote": "Although the baseline expectation for the U.S. economy is favorable, there are some evident downside risks to this outlook.",
+     "start": 2822,
+     "end": 2944
+    },
+    {
+     "quote": "The economy is in a good place, and monetary policy is in a good place.",
+     "start": 12518,
+     "end": 12588
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

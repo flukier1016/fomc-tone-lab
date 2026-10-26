@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20240117a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240117a",
+  "doc_type": "speech",
+  "text_sha256": "7e8d5ae259591e5745fb8baf1ea3f72028a1c0c6834e4ebb89b9a04a11d9b760"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "44d3b1bb5fdaab64a035014bba24bfe2114e32a5b5a931ff874b42a4dbf5043d",
+ "message_id": "msg_011CgFugFGmpMWL85NNffwPd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6137,
+  "output_tokens": 361,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I'm happy to join you here at the U.S. Chamber of Commerce to talk about proposed changes to bank capital rules in the United States\"},{\"dimension\":\"overall\",\"quote\":\"And we should appropriately adjust the excessive calibrations and eliminate regulatory overreach in the proposed rule.\"},{\"dimension\":\"overall\",\"quote\":\"I consider reform of the eSLR to fall in the category of \\\"fixing what is broken.\\\"\"}],\"rationale\":\"The speech is about bank capital regulation (Basel III endgame, tailoring, eSLR) and does not address the monetary policy rate path, inflation, or the Fed balance sheet. With low policy relevance and no monetary policy view, the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I'm happy to join you here at the U.S. Chamber of Commerce to talk about proposed changes to bank capital rules in the United States"
+   },
+   {
+    "dimension": "overall",
+    "quote": "And we should appropriately adjust the excessive calibrations and eliminate regulatory overreach in the proposed rule."
+   },
+   {
+    "dimension": "overall",
+    "quote": "I consider reform of the eSLR to fall in the category of \"fixing what is broken.\""
+   }
+  ],
+  "rationale": "The speech is about bank capital regulation (Basel III endgame, tailoring, eSLR) and does not address the monetary policy rate path, inflation, or the Fed balance sheet. With low policy relevance and no monetary policy view, the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I'm happy to join you here at the U.S. Chamber of Commerce to talk about proposed changes to bank capital rules in the United States",
+     "start": 118,
+     "end": 257
+    },
+    {
+     "quote": "And we should appropriately adjust the excessive calibrations and eliminate regulatory overreach in the proposed rule.",
+     "start": 2061,
+     "end": 2178
+    },
+    {
+     "quote": "I consider reform of the eSLR to fall in the category of \"fixing what is broken.\"",
+     "start": 19117,
+     "end": 19196
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

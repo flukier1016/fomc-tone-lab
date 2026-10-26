@@ -1,0 +1,121 @@
+{
+ "key": "speech_barr20251009a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20251009a",
+  "doc_type": "speech",
+  "text_sha256": "c69affc78a8f8b0bab75f9b1db1633197b41c8485ddc60f5abe5de8529482ce1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "48c71c0dd96c5fec928dd62ddba155282a118d073b6af595028fc3121a3f1c00",
+ "message_id": "msg_011CgFugBdkWbzrEVN8pXpnG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4366,
+  "output_tokens": 546,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"I expect that core PCE inflation will end the year over 3 percent.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With that experience in mind, I am skeptical of assurances that we should fully \\\"look through\\\" higher inflation from import tariffs.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that principle applies now, and that the FOMC should be cautious about adjusting policy so that we can gather further data, update our forecasts, and better assess the balance of risks.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If we see inflation moving further away from our target, then it may be necessary to keep policy at least modestly restrictive for longer.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the fact that this balance is being achieved from simultaneous slowing in labor supply growth and in hiring suggests that the labor market is more vulnerable to negative shocks.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am also concerned about further upside risks to inflation and inflation expectations.\"}],\"rationale\":\"The speaker stresses forceful concern about rising, persistent tariff-driven inflation and calls for caution on further cuts, while acknowledging labor market vulnerabilities. The net signal leans hawkish relative to an easing path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I expect that core PCE inflation will end the year over 3 percent."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With that experience in mind, I am skeptical of assurances that we should fully \"look through\" higher inflation from import tariffs."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that principle applies now, and that the FOMC should be cautious about adjusting policy so that we can gather further data, update our forecasts, and better assess the balance of risks."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If we see inflation moving further away from our target, then it may be necessary to keep policy at least modestly restrictive for longer."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the fact that this balance is being achieved from simultaneous slowing in labor supply growth and in hiring suggests that the labor market is more vulnerable to negative shocks."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am also concerned about further upside risks to inflation and inflation expectations."
+   }
+  ],
+  "rationale": "The speaker stresses forceful concern about rising, persistent tariff-driven inflation and calls for caution on further cuts, while acknowledging labor market vulnerabilities. The net signal leans hawkish relative to an easing path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I expect that core PCE inflation will end the year over 3 percent.",
+     "start": 3251,
+     "end": 3316
+    },
+    {
+     "quote": "With that experience in mind, I am skeptical of assurances that we should fully \"look through\" higher inflation from import tariffs.",
+     "start": 5339,
+     "end": 5470
+    },
+    {
+     "quote": "I believe that principle applies now, and that the FOMC should be cautious about adjusting policy so that we can gather further data, update our forecasts, and better assess the balance of risks.",
+     "start": 13934,
+     "end": 14128
+    },
+    {
+     "quote": "If we see inflation moving further away from our target, then it may be necessary to keep policy at least modestly restrictive for longer.",
+     "start": 14130,
+     "end": 14267
+    },
+    {
+     "quote": "the fact that this balance is being achieved from simultaneous slowing in labor supply growth and in hiring suggests that the labor market is more vulnerable to negative shocks.",
+     "start": 8692,
+     "end": 8868
+    },
+    {
+     "quote": "I am also concerned about further upside risks to inflation and inflation expectations.",
+     "start": 4180,
+     "end": 4266
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

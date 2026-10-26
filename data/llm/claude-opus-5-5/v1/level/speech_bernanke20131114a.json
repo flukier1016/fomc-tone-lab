@@ -1,0 +1,85 @@
+{
+ "key": "speech_bernanke20131114a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20131114a",
+  "doc_type": "speech",
+  "text_sha256": "d67a092bc8dd52cab6eb8f28504b4d61ef488166aec766c85aaf70f2c9fd79a1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5a5421f713477994757aa06beeeec566c34fdb31b879ccde74f2dd547976987d",
+ "message_id": "msg_011CgFugEqjCk5z9BurHc95T",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1063,
+  "output_tokens": 317,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"One of the most important goals is to ensure that banks hold more and higher-quality capital, and have sufficient liquid assets on hand, to be able to survive a market shock or severe economic downturn.\"},{\"dimension\":\"overall\",\"quote\":\"Now in its 10th and final year, the Financial Regulators' Initiative has sponsored more than 40 training programs and conferences throughout the MENA region\"}],\"rationale\":\"These are ceremonial remarks about bank regulation, supervision training and international cooperation, and they take no position on monetary policy, inflation or growth. The policy stance is therefore neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "One of the most important goals is to ensure that banks hold more and higher-quality capital, and have sufficient liquid assets on hand, to be able to survive a market shock or severe economic downturn."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Now in its 10th and final year, the Financial Regulators' Initiative has sponsored more than 40 training programs and conferences throughout the MENA region"
+   }
+  ],
+  "rationale": "These are ceremonial remarks about bank regulation, supervision training and international cooperation, and they take no position on monetary policy, inflation or growth. The policy stance is therefore neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "One of the most important goals is to ensure that banks hold more and higher-quality capital, and have sufficient liquid assets on hand, to be able to survive a market shock or severe economic downturn.",
+     "start": 1968,
+     "end": 2169
+    },
+    {
+     "quote": "Now in its 10th and final year, the Financial Regulators' Initiative has sponsored more than 40 training programs and conferences throughout the MENA region",
+     "start": 1189,
+     "end": 1345
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

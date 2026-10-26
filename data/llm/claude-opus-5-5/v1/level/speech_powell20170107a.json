@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20170107a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170107a",
+  "doc_type": "speech",
+  "text_sha256": "5d44f68b1fd0d537fb98fe962bdf1dac5b07f97499528983c87f300744d8e136"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "498ed1e18094dac35696a49d0ee430881edd373153e2970ab9ed8d69e6351a24",
+ "message_id": "msg_011CgFugDHiWBuqssaWEWL4Z",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3378,
+  "output_tokens": 486,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While growth has been frustratingly slow, employment gains have been solid.\"},{\"dimension\":\"overall\",\"quote\":\"we are now close to meeting our dual mandate--a reasonable summary statistic for the effects of policy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the bottom line is that there has not been an excessive buildup of leverage, maturity transformation, or broadly unsustainable asset prices.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the current extended period of very low nominal rates calls for a high degree of vigilance against the buildup of risks to the stability of the financial system.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"low interest rates have supported economic activity and gradually brought us back to full employment and 2 percent inflation.\"}],\"rationale\":\"The speech defends low-for-long rates and finds financial stability risks contained, while noting the economy is near full employment and 2 percent inflation. It gives no explicit rate-path signal, so the net stance is roughly neutral with a slight hawkish tilt from the near-mandate assessment and the call for vigilance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While growth has been frustratingly slow, employment gains have been solid."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we are now close to meeting our dual mandate--a reasonable summary statistic for the effects of policy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the bottom line is that there has not been an excessive buildup of leverage, maturity transformation, or broadly unsustainable asset prices."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the current extended period of very low nominal rates calls for a high degree of vigilance against the buildup of risks to the stability of the financial system."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "low interest rates have supported economic activity and gradually brought us back to full employment and 2 percent inflation."
+   }
+  ],
+  "rationale": "The speech defends low-for-long rates and finds financial stability risks contained, while noting the economy is near full employment and 2 percent inflation. It gives no explicit rate-path signal, so the net stance is roughly neutral with a slight hawkish tilt from the near-mandate assessment and the call for vigilance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While growth has been frustratingly slow, employment gains have been solid.",
+     "start": 2296,
+     "end": 2370
+    },
+    {
+     "quote": "we are now close to meeting our dual mandate--a reasonable summary statistic for the effects of policy.",
+     "start": 2192,
+     "end": 2294
+    },
+    {
+     "quote": "the bottom line is that there has not been an excessive buildup of leverage, maturity transformation, or broadly unsustainable asset prices.",
+     "start": 7318,
+     "end": 7457
+    },
+    {
+     "quote": "the current extended period of very low nominal rates calls for a high degree of vigilance against the buildup of risks to the stability of the financial system.",
+     "start": 7089,
+     "end": 7249
+    },
+    {
+     "quote": "low interest rates have supported economic activity and gradually brought us back to full employment and 2 percent inflation.",
+     "start": 10583,
+     "end": 10707
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

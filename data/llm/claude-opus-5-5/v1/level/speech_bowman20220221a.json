@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20220221a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220221a",
+  "doc_type": "speech",
+  "text_sha256": "77aeb8dcac2581d19e1bd00ec22aff072e48c947055325c40979df38bb9dc71d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2876d3cfd1749d73804719e1b429924be7733ae21566c522e1ceb44334c55f29",
+ "message_id": "msg_011CgFugG3uRbNkRPmT6ZRos",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2632,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":2,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation is much too high.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I support raising the federal funds rate at our next meeting in March and, if the economy evolves as I expect, additional rate increases will be appropriate in the coming months.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"In the coming months, we need to take the next step, which is to begin reducing the Fed's balance sheet by ceasing the reinvestment of maturing securities already held in the portfolio.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We may see signs of inflation easing in the second half of the year, but there is a substantial risk that high inflation could persist.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I expect to see continued strength in the job market this year, with further gains in employment\"},{\"dimension\":\"overall\",\"quote\":\"My intent would be to take forceful action to help reduce inflation, bringing it back toward our 2 percent goal\"}],\"rationale\":\"The speaker forcefully stresses persistent, broadening inflation and supports a March hike, further increases, and prompt balance sheet runoff. She describes the labor market as tight and consistent with maximum employment.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 2,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation is much too high."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I support raising the federal funds rate at our next meeting in March and, if the economy evolves as I expect, additional rate increases will be appropriate in the coming months."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "In the coming months, we need to take the next step, which is to begin reducing the Fed's balance sheet by ceasing the reinvestment of maturing securities already held in the portfolio."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We may see signs of inflation easing in the second half of the year, but there is a substantial risk that high inflation could persist."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I expect to see continued strength in the job market this year, with further gains in employment"
+   },
+   {
+    "dimension": "overall",
+    "quote": "My intent would be to take forceful action to help reduce inflation, bringing it back toward our 2 percent goal"
+   }
+  ],
+  "rationale": "The speaker forcefully stresses persistent, broadening inflation and supports a March hike, further increases, and prompt balance sheet runoff. She describes the labor market as tight and consistent with maximum employment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Inflation is much too high.",
+     "start": 298,
+     "end": 324
+    },
+    {
+     "quote": "I support raising the federal funds rate at our next meeting in March and, if the economy evolves as I expect, additional rate increases will be appropriate in the coming months.",
+     "start": 3954,
+     "end": 4131
+    },
+    {
+     "quote": "In the coming months, we need to take the next step, which is to begin reducing the Fed's balance sheet by ceasing the reinvestment of maturing securities already held in the portfolio.",
+     "start": 4441,
+     "end": 4625
+    },
+    {
+     "quote": "We may see signs of inflation easing in the second half of the year, but there is a substantial risk that high inflation could persist.",
+     "start": 1050,
+     "end": 1184
+    },
+    {
+     "quote": "I expect to see continued strength in the job market this year, with further gains in employment",
+     "start": 2253,
+     "end": 2349
+    },
+    {
+     "quote": "My intent would be to take forceful action to help reduce inflation, bringing it back toward our 2 percent goal",
+     "start": 5213,
+     "end": 5324
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

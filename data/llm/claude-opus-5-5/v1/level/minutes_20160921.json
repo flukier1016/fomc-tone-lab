@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20160921",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20160921",
+  "doc_type": "minutes",
+  "text_sha256": "e4092a0d50c6f52203099cab1f425af9baffaa2a077558b8017872872d1daa9b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c15c3bf30b9c27c89f11028084582941cd4a6f95c19cadb7d3fc7cdd01a13c24",
+ "message_id": "msg_011CgFugBVp7gRL2iCtpbC1Y",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14696,
+  "output_tokens": 562,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Participants generally agreed that the case for increasing the target range for the federal funds rate had strengthened in recent months.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Several members judged that it would be appropriate to increase the target range for the federal funds rate relatively soon if economic developments unfolded about as the Committee expected\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Many members remarked that there were few signs of emerging inflationary pressures or that progress on inflation had been slow.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Members generally acknowledged that labor market conditions had improved appreciably over the past year, evidenced in particular by the solid pace of monthly payroll employment gains.\"},{\"dimension\":\"risk_balance\",\"quote\":\"They judged that near-term risks to the economic outlook now appeared roughly balanced.\"},{\"dimension\":\"overall\",\"quote\":\"Three members preferred to raise the target range for the federal funds rate by 25 basis points at this meeting.\"}],\"rationale\":\"Although rates were held, the minutes stress that the case for a hike had strengthened, with three dissents favoring a hike and several members seeing a hike relatively soon, while risks were seen as balanced. Below-target inflation, remaining slack, and continued full reinvestment temper the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Participants generally agreed that the case for increasing the target range for the federal funds rate had strengthened in recent months."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Several members judged that it would be appropriate to increase the target range for the federal funds rate relatively soon if economic developments unfolded about as the Committee expected"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Many members remarked that there were few signs of emerging inflationary pressures or that progress on inflation had been slow."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Members generally acknowledged that labor market conditions had improved appreciably over the past year, evidenced in particular by the solid pace of monthly payroll employment gains."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "They judged that near-term risks to the economic outlook now appeared roughly balanced."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Three members preferred to raise the target range for the federal funds rate by 25 basis points at this meeting."
+   }
+  ],
+  "rationale": "Although rates were held, the minutes stress that the case for a hike had strengthened, with three dissents favoring a hike and several members seeing a hike relatively soon, while risks were seen as balanced. Below-target inflation, remaining slack, and continued full reinvestment temper the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Participants generally agreed that the case for increasing the target range for the federal funds rate had strengthened in recent months.",
+     "start": 33365,
+     "end": 33501
+    },
+    {
+     "quote": "Several members judged that it would be appropriate to increase the target range for the federal funds rate relatively soon if economic developments unfolded about as the Committee expected",
+     "start": 41164,
+     "end": 41353
+    },
+    {
+     "quote": "Many members remarked that there were few signs of emerging inflationary pressures or that progress on inflation had been slow.",
+     "start": 37988,
+     "end": 38114
+    },
+    {
+     "quote": "Members generally acknowledged that labor market conditions had improved appreciably over the past year, evidenced in particular by the solid pace of monthly payroll employment gains.",
+     "start": 36646,
+     "end": 36828
+    },
+    {
+     "quote": "They judged that near-term risks to the economic outlook now appeared roughly balanced.",
+     "start": 36557,
+     "end": 36643
+    },
+    {
+     "quote": "Three members preferred to raise the target range for the federal funds rate by 25 basis points at this meeting.",
+     "start": 39634,
+     "end": 39745
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

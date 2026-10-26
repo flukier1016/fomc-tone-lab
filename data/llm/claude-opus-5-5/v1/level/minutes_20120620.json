@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20120620",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20120620",
+  "doc_type": "minutes",
+  "text_sha256": "3ebc6c145f5f37f539034cee49bda98e71799f63e8e41fabd9188dabd631c200"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4676863fc6c0c3701221a8c1e1d437c9559f8ff624ed80fd2b11b90198b3848c",
+ "message_id": "msg_011CgFugAgSwARhNbfXPr1LU",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13354,
+  "output_tokens": 570,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014\"},{\"dimension\":\"risk_balance\",\"quote\":\"strains in global financial markets continue to pose significant downside risks to the economic outlook\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"growth in employment had slowed in recent months, and almost all members saw the unemployment rate as still elevated\"}],\"rationale\":\"The minutes describe downgraded growth, slowing job gains, subdued inflation and significant downside risks, with extended maturity extension and several members seeing further stimulus as likely necessary or warranted. Only a few hawkish voices (Lacker's dissent) temper an otherwise clearly dovish easing-bias signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "growth in employment had slowed in recent months, and almost all members saw the unemployment rate as still elevated"
+   }
+  ],
+  "rationale": "The minutes describe downgraded growth, slowing job gains, subdued inflation and significant downside risks, with extended maturity extension and several members seeing further stimulus as likely necessary or warranted. Only a few hawkish voices (Lacker's dissent) temper an otherwise clearly dovish easing-bias signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "A few members expressed the view that further policy stimulus likely would be necessary to promote satisfactory growth in employment and to ensure that the inflation rate would be at the Committee's goal.",
+     "start": 38275,
+     "end": 38478
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014",
+     "start": 37589,
+     "end": 37689
+    },
+    {
+     "quote": "strains in global financial markets continue to pose significant downside risks to the economic outlook",
+     "start": 42576,
+     "end": 42679
+    },
+    {
+     "quote": "The Committee also decided to continue through the end of the year its program to extend the average maturity of its holdings of securities.",
+     "start": 43424,
+     "end": 43563
+    },
+    {
+     "quote": "almost all participants anticipated that inflation in coming quarters and over the medium run would be at or below the 2 percent rate",
+     "start": 30408,
+     "end": 30541
+    },
+    {
+     "quote": "growth in employment had slowed in recent months, and almost all members saw the unemployment rate as still elevated",
+     "start": 33277,
+     "end": 33393
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

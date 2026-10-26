@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20140331a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20140331a",
+  "doc_type": "speech",
+  "text_sha256": "0eafd6b510ad58f124de094a96d3ba3c2a74927f55f3587467d58318eb99f3b0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "231009e8fba73a0d3b05db630a8ca023891739fa4d970a4863cb84f3419c7355",
+ "message_id": "msg_011CgFug9s67pUk2WbxtaAAv",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6622,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I think this extraordinary commitment is still needed and will be for some time, and I believe that view is widely shared by my fellow policymakers at the Fed.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But that is not a dilemma now, because inflation is well below 2 percent, the Fed's longer-term goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it is clear to me that the U.S. economy is still considerably short of the two goals assigned to the Federal Reserve by the Congress.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"recent steps by the Fed to reduce the rate of new securities purchases are not a lessening of this commitment, only a judgment that recent progress in the labor market means our aid for the recovery need not grow as quickly.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The low rate of wage growth is, to me, another sign that the Fed's job is not yet done.\"}],\"rationale\":\"The speaker stresses considerable labor market slack and below-goal inflation, arguing that extraordinary accommodation is still needed for some time. She frames the taper as no lessening of the Fed's commitment, which makes the speech clearly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I think this extraordinary commitment is still needed and will be for some time, and I believe that view is widely shared by my fellow policymakers at the Fed."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But that is not a dilemma now, because inflation is well below 2 percent, the Fed's longer-term goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it is clear to me that the U.S. economy is still considerably short of the two goals assigned to the Federal Reserve by the Congress."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "recent steps by the Fed to reduce the rate of new securities purchases are not a lessening of this commitment, only a judgment that recent progress in the labor market means our aid for the recovery need not grow as quickly."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The low rate of wage growth is, to me, another sign that the Fed's job is not yet done."
+   }
+  ],
+  "rationale": "The speaker stresses considerable labor market slack and below-goal inflation, arguing that extraordinary accommodation is still needed for some time. She frames the taper as no lessening of the Fed's commitment, which makes the speech clearly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I think this extraordinary commitment is still needed and will be for some time, and I believe that view is widely shared by my fellow policymakers at the Fed.",
+     "start": 18476,
+     "end": 18634
+    },
+    {
+     "quote": "But that is not a dilemma now, because inflation is well below 2 percent, the Fed's longer-term goal.",
+     "start": 9347,
+     "end": 9447
+    },
+    {
+     "quote": "it is clear to me that the U.S. economy is still considerably short of the two goals assigned to the Federal Reserve by the Congress.",
+     "start": 8550,
+     "end": 8682
+    },
+    {
+     "quote": "recent steps by the Fed to reduce the rate of new securities purchases are not a lessening of this commitment, only a judgment that recent progress in the labor market means our aid for the recovery need not grow as quickly.",
+     "start": 18654,
+     "end": 18877
+    },
+    {
+     "quote": "The low rate of wage growth is, to me, another sign that the Fed's job is not yet done.",
+     "start": 14650,
+     "end": 14736
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

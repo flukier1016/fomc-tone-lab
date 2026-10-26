@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20160621a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20160621a",
+  "doc_type": "speech",
+  "text_sha256": "d8f21b0997644329514a72add32832daa434ae7cb7652ee043e85c4312b5aeab"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "029208c1dd900da0cec83f34439afb178b5ef47c5fe536af445e2ee8f6dc3cc2",
+ "message_id": "msg_011CgFugAotTHbG7LPoEPshn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1540,
+  "output_tokens": 328,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Reference benchmarks are a key part of the financial infrastructure.\"},{\"dimension\":\"overall\",\"quote\":\"The sudden cessation of a benchmark as heavily used as LIBOR would present significant systemic risks.\"},{\"dimension\":\"overall\",\"quote\":\"But I believe the ARRC has provided a workable and credible plan for creating liquidity in a new rate and beginning the process of moving trading to it.\"}],\"rationale\":\"The speech addresses LIBOR reference rate reform and financial infrastructure, not monetary policy or the economic outlook. It carries no signal on rates, inflation, activity, or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Reference benchmarks are a key part of the financial infrastructure."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The sudden cessation of a benchmark as heavily used as LIBOR would present significant systemic risks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "But I believe the ARRC has provided a workable and credible plan for creating liquidity in a new rate and beginning the process of moving trading to it."
+   }
+  ],
+  "rationale": "The speech addresses LIBOR reference rate reform and financial infrastructure, not monetary policy or the economic outlook. It carries no signal on rates, inflation, activity, or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Reference benchmarks are a key part of the financial infrastructure.",
+     "start": 411,
+     "end": 478
+    },
+    {
+     "quote": "The sudden cessation of a benchmark as heavily used as LIBOR would present significant systemic risks.",
+     "start": 2919,
+     "end": 3020
+    },
+    {
+     "quote": "But I believe the ARRC has provided a workable and credible plan for creating liquidity in a new rate and beginning the process of moving trading to it.",
+     "start": 3859,
+     "end": 4010
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

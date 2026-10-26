@@ -1,0 +1,112 @@
+{
+ "key": "statement_20191030",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20191030",
+  "doc_type": "statement",
+  "text_sha256": "93f3c6904d7b4994168b2c1c52923f3ba6bb967725c0e0b8cbb1e164e57e99fb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "656ddd985549eed4d7cabf2586a9be2e30124b7c5d188856888d33692f245f56",
+ "message_id": "msg_011CgFugHxkVvwzvoo6mgwJ5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 721,
+  "output_tokens": 840,
+  "output_tokens_details": {
+   "thinking_tokens": 357
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Although household spending has been rising at a strong pace, business fixed investment and exports remain weak.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In light of the implications of global developments for the economic outlook as well as muted inflation pressures\"}],\"rationale\":\"The statement announces a rate cut justified by global risks and muted inflation, which is dovish. However, the forward guidance is neutral and contains no explicit easing bias, implying a pause, and two members dissented in favor of holding, which moderates the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Although household spending has been rising at a strong pace, business fixed investment and exports remain weak."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures"
+   }
+  ],
+  "rationale": "The statement announces a rate cut justified by global risks and muted inflation, which is dovish. However, the forward guidance is neutral and contains no explicit easing bias, implying a pause, and two members dissented in favor of holding, which moderates the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-1/2 to 1-3/4 percent",
+     "start": 886,
+     "end": 986
+    },
+    {
+     "quote": "The Committee will continue to monitor the implications of incoming information for the economic outlook as it assesses the appropriate path of the target range for the federal funds rate.",
+     "start": 1249,
+     "end": 1436
+    },
+    {
+     "quote": "On a 12-month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+     "start": 402,
+     "end": 519
+    },
+    {
+     "quote": "Although household spending has been rising at a strong pace, business fixed investment and exports remain weak.",
+     "start": 289,
+     "end": 400
+    },
+    {
+     "quote": "In light of the implications of global developments for the economic outlook as well as muted inflation pressures",
+     "start": 771,
+     "end": 884
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

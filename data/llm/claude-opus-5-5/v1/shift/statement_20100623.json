@@ -1,0 +1,158 @@
+{
+ "key": "statement_20100623",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20100623",
+  "previous_doc_id": "statement_20100428",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ca6f8c5faeafc5805ac0ccd78f8d71a7658b0a15eec80a4b68291afc53a70044",
+ "message_id": "msg_011CgG4eQVAKTDif6ai9Hkje",
+ "request_id": "req_011CgG4eNPtcsK5NaMhGNwnm",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1625,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 810
+    },
+    "cache_creation_input_tokens": 810,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 1625,
+    "model": null,
+    "output_tokens": 484,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 484,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T21:06:40+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"While bank lending continues to contract, financial market conditions remain supportive of economic growth.\",\"after\":\"Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.\",\"direction\":\"dovish\"},{\"before\":\"suggests that economic activity has continued to strengthen and that the labor market is beginning to improve.\",\"after\":\"suggests that the economic recovery is proceeding and that the labor market is improving gradually.\",\"direction\":\"neutral\"},{\"before\":\"Growth in household spending has picked up recently but remains constrained\",\"after\":\"Household spending is increasing but remains constrained\",\"direction\":\"dovish\"},{\"before\":\"Housing starts have edged up but remain at a depressed level.\",\"after\":\"Housing starts remain at a depressed level.\",\"direction\":\"dovish\"},{\"before\":\"In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"Policy guidance is unchanged, but the statement adds that financial conditions have become less supportive because of developments abroad. It also notes lower commodity prices and declining underlying inflation, tilting the assessment modestly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "While bank lending continues to contract, financial market conditions remain supportive of economic growth.",
+    "after": "Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.",
+    "direction": "dovish"
+   },
+   {
+    "before": "suggests that economic activity has continued to strengthen and that the labor market is beginning to improve.",
+    "after": "suggests that the economic recovery is proceeding and that the labor market is improving gradually.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Growth in household spending has picked up recently but remains constrained",
+    "after": "Household spending is increasing but remains constrained",
+    "direction": "dovish"
+   },
+   {
+    "before": "Housing starts have edged up but remain at a depressed level.",
+    "after": "Housing starts remain at a depressed level.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "Policy guidance is unchanged, but the statement adds that financial conditions have become less supportive because of developments abroad. It also notes lower commodity prices and declining underlying inflation, tilting the assessment modestly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "While bank lending continues to contract, financial market conditions remain supportive of economic growth.",
+     "start": 589,
+     "end": 695
+    },
+    {
+     "quote": "suggests that economic activity has continued to strengthen and that the labor market is beginning to improve.",
+     "start": 74,
+     "end": 183
+    },
+    {
+     "quote": "Growth in household spending has picked up recently but remains constrained",
+     "start": 185,
+     "end": 260
+    },
+    {
+     "quote": "Housing starts have edged up but remain at a depressed level.",
+     "start": 527,
+     "end": 587
+    },
+    {
+     "quote": "In light of improved functioning of financial markets, the Federal Reserve has closed all but one of the special liquidity facilities that it created to support markets during the crisis.",
+     "start": 1591,
+     "end": 1777
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Financial conditions have become less supportive of economic growth on balance, largely reflecting developments abroad.",
+     "start": 549,
+     "end": 667
+    },
+    {
+     "quote": "Prices of energy and other commodities have declined somewhat in recent months, and underlying inflation has trended lower.",
+     "start": 933,
+     "end": 1055
+    },
+    {
+     "quote": "suggests that the economic recovery is proceeding and that the labor market is improving gradually.",
+     "start": 74,
+     "end": 172
+    },
+    {
+     "quote": "Household spending is increasing but remains constrained",
+     "start": 174,
+     "end": 230
+    },
+    {
+     "quote": "Housing starts remain at a depressed level.",
+     "start": 505,
+     "end": 547
+    }
+   ]
+  }
+ }
+}

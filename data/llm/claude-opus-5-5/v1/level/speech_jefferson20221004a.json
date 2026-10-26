@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20221004a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20221004a",
+  "doc_type": "speech",
+  "text_sha256": "ad8776a3589719a12e2bef8ea9daab04a6ed5205a920a2d2905306778a3058de"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "be0c58bc512418245744afc5041319b563db3d1036d7d879a8233a4f10377c7e",
+ "message_id": "msg_011CgFugDGE3GGyLkNbwwNts",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2848,
+  "output_tokens": 460,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"Nonetheless, inflation remains elevated, and this is the problem that concerns me most.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we have acted boldly to address rising inflation, and we are committed to taking the further steps necessary.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"With still-strong labor demand and sluggish labor supply, the job market remains very tight.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Those inflation expectations can become entrenched and, in doing so, increase the likelihood that high inflation will persist.\"},{\"dimension\":\"overall\",\"quote\":\"Restoring price stability may take some time and will likely entail a period of below-trend growth.\"}],\"rationale\":\"The speech is largely about pandemic-era technology, but its outlook section calls elevated inflation the top concern, describes a very tight labor market and wage pressure, and commits to further tightening steps. Some easing of supply bottlenecks and anchored long-run expectations temper the hawkishness slightly.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Nonetheless, inflation remains elevated, and this is the problem that concerns me most."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we have acted boldly to address rising inflation, and we are committed to taking the further steps necessary."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "With still-strong labor demand and sluggish labor supply, the job market remains very tight."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Those inflation expectations can become entrenched and, in doing so, increase the likelihood that high inflation will persist."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Restoring price stability may take some time and will likely entail a period of below-trend growth."
+   }
+  ],
+  "rationale": "The speech is largely about pandemic-era technology, but its outlook section calls elevated inflation the top concern, describes a very tight labor market and wage pressure, and commits to further tightening steps. Some easing of supply bottlenecks and anchored long-run expectations temper the hawkishness slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Nonetheless, inflation remains elevated, and this is the problem that concerns me most.",
+     "start": 6763,
+     "end": 6849
+    },
+    {
+     "quote": "we have acted boldly to address rising inflation, and we are committed to taking the further steps necessary.",
+     "start": 8205,
+     "end": 8313
+    },
+    {
+     "quote": "With still-strong labor demand and sluggish labor supply, the job market remains very tight.",
+     "start": 6056,
+     "end": 6147
+    },
+    {
+     "quote": "Those inflation expectations can become entrenched and, in doing so, increase the likelihood that high inflation will persist.",
+     "start": 7034,
+     "end": 7159
+    },
+    {
+     "quote": "Restoring price stability may take some time and will likely entail a period of below-trend growth.",
+     "start": 7878,
+     "end": 7976
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

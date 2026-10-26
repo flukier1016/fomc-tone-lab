@@ -1,0 +1,121 @@
+{
+ "key": "speech_warsh20090925a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_warsh20090925a",
+  "doc_type": "speech",
+  "text_sha256": "158f2bd49abf287f02792e9b349eab08675c05a8cf68ee79586fc0e9f176c081"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a45bbcc940d1c2d88889515218c7815d2302990ca7a68d8ec6b92a4192008e4c",
+ "message_id": "msg_011CgFugBFgSxDJw1oFtM7kL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5008,
+  "output_tokens": 616,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"prudent risk management suggests that policy will likely need to begin normalization before it is obvious that it is necessary, possibly with greater force than is customary\"},{\"dimension\":\"forward_guidance\",\"quote\":\"if policymakers insist on waiting until the level of real activity has plainly and substantially returned to normal--and the economy has returned to self-sustaining trend growth--they will almost certainly have waited too long.\"},{\"dimension\":\"risk_balance\",\"quote\":\"There is a risk, of much debated magnitude, that the unusually high level of reserves, along with substantial liquid assets of the banking system, could fuel an unanticipated, excessive surge in lending.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Data in the past couple of months show continued improvement in real economic performance.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"policymakers should continue to communicate as clearly as possible the guideposts, conditions and means by which extraordinary monetary accommodation will be unwound, including the removal of excess bank reserves.\"},{\"dimension\":\"overall\",\"quote\":\"If the economy were to turn up smartly and durably, policy might need to be unwound with the resolve equal to that in the accommodation phase.\"}],\"rationale\":\"Warsh argues for preemptive, potentially forceful removal of accommodation and highlights risks from excess reserves, while acknowledging medium-term downside growth risks and endorsing the 'extended period' language. Net signal leans clearly hawkish on the exit path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "prudent risk management suggests that policy will likely need to begin normalization before it is obvious that it is necessary, possibly with greater force than is customary"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "if policymakers insist on waiting until the level of real activity has plainly and substantially returned to normal--and the economy has returned to self-sustaining trend growth--they will almost certainly have waited too long."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "There is a risk, of much debated magnitude, that the unusually high level of reserves, along with substantial liquid assets of the banking system, could fuel an unanticipated, excessive surge in lending."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Data in the past couple of months show continued improvement in real economic performance."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "policymakers should continue to communicate as clearly as possible the guideposts, conditions and means by which extraordinary monetary accommodation will be unwound, including the removal of excess bank reserves."
+   },
+   {
+    "dimension": "overall",
+    "quote": "If the economy were to turn up smartly and durably, policy might need to be unwound with the resolve equal to that in the accommodation phase."
+   }
+  ],
+  "rationale": "Warsh argues for preemptive, potentially forceful removal of accommodation and highlights risks from excess reserves, while acknowledging medium-term downside growth risks and endorsing the 'extended period' language. Net signal leans clearly hawkish on the exit path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "prudent risk management suggests that policy will likely need to begin normalization before it is obvious that it is necessary, possibly with greater force than is customary",
+     "start": 8371,
+     "end": 8544
+    },
+    {
+     "quote": "if policymakers insist on waiting until the level of real activity has plainly and substantially returned to normal--and the economy has returned to self-sustaining trend growth--they will almost certainly have waited too long.",
+     "start": 9183,
+     "end": 9409
+    },
+    {
+     "quote": "There is a risk, of much debated magnitude, that the unusually high level of reserves, along with substantial liquid assets of the banking system, could fuel an unanticipated, excessive surge in lending.",
+     "start": 9521,
+     "end": 9723
+    },
+    {
+     "quote": "Data in the past couple of months show continued improvement in real economic performance.",
+     "start": 7029,
+     "end": 7118
+    },
+    {
+     "quote": "policymakers should continue to communicate as clearly as possible the guideposts, conditions and means by which extraordinary monetary accommodation will be unwound, including the removal of excess bank reserves.",
+     "start": 1896,
+     "end": 2108
+    },
+    {
+     "quote": "If the economy were to turn up smartly and durably, policy might need to be unwound with the resolve equal to that in the accommodation phase.",
+     "start": 14156,
+     "end": 14297
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

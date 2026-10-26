@@ -1,0 +1,51 @@
+{
+ "key": "statement_20240501",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20240501",
+  "release_date": "2024-05-01"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f7ded9a826c1ddde4ec4878c2eaf57483b25f25546051c9a93ba6c993115cff",
+ "message_id": "msg_011CgFueKRW1S3ciTHJcQ24S",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1243,
+  "output_tokens": 225,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2024,\"month\":5,\"confidence\":0.95,\"cues\":[\"Announcement of slowing balance sheet runoff: Treasury redemption cap reduced from $60 billion to $25 billion beginning in June (announced May 1, 2024 FOMC)\",\"'In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective' — language unique to the May 2024 statement after hot Q1 inflation\",\"'Risks ... have moved toward better balance over the past year' — 2024 phrasing\",\"Rate held steady; no cut until greater confidence on inflation (pre-September 2024 cut)\",\"Twelve voters, no dissents\"]}",
+ "parsed": {
+  "year": 2024,
+  "month": 5,
+  "confidence": 0.95,
+  "cues": [
+   "Announcement of slowing balance sheet runoff: Treasury redemption cap reduced from $60 billion to $25 billion beginning in June (announced May 1, 2024 FOMC)",
+   "'In recent months, there has been a lack of further progress toward the Committee's 2 percent inflation objective' — language unique to the May 2024 statement after hot Q1 inflation",
+   "'Risks ... have moved toward better balance over the past year' — 2024 phrasing",
+   "Rate held steady; no cut until greater confidence on inflation (pre-September 2024 cut)",
+   "Twelve voters, no dissents"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

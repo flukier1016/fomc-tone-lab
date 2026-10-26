@@ -1,0 +1,121 @@
+{
+ "key": "presser_20200916",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20200916",
+  "doc_type": "presser",
+  "text_sha256": "a456e39cff07ab265c994d0454ead652f1637faa35251912746b5aeed2be3842"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e2ecb3e88fe812136a3fd8790048029446c8c1917993c425057a16b89a723a24",
+ "message_id": "msg_011CgG27ubmJ9F3ZKi8Dy323",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 14675,
+  "output_tokens": 587,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Effectively, we’re saying that rates will remain highly accommodative until the economy is far along in its recovery, and that, that should be a very powerful statement in supporting economic activity.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"overall, inflation is running well below our 2 percent longer-run objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has improved, but it’s a long, long way from maximum employment, and it will be some time getting back there.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Now we’re buying $120 billion in securities per month across the—across the Treasury curve. That’s also adding to accommodation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"if we don’t get that, then there would certainly be downside risks through the— certainly through the channel I mentioned.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"And even after, if we do lift off, we will keep policy accommodative until we actually have a moderate overshoot of inflation for some time.\"}],\"rationale\":\"The Chair introduces strong outcome-based guidance to hold rates at zero until maximum employment is reached and inflation is on track to moderately exceed 2 percent, while purchases continue at $120 billion a month. Inflation is described as well below target, the labor market as far from maximum employment, and downside risks are emphasized if fiscal support lapses.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Effectively, we’re saying that rates will remain highly accommodative until the economy is far along in its recovery, and that, that should be a very powerful statement in supporting economic activity."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "overall, inflation is running well below our 2 percent longer-run objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has improved, but it’s a long, long way from maximum employment, and it will be some time getting back there."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Now we’re buying $120 billion in securities per month across the—across the Treasury curve. That’s also adding to accommodation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "if we don’t get that, then there would certainly be downside risks through the— certainly through the channel I mentioned."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "And even after, if we do lift off, we will keep policy accommodative until we actually have a moderate overshoot of inflation for some time."
+   }
+  ],
+  "rationale": "The Chair introduces strong outcome-based guidance to hold rates at zero until maximum employment is reached and inflation is on track to moderately exceed 2 percent, while purchases continue at $120 billion a month. Inflation is described as well below target, the labor market as far from maximum employment, and downside risks are emphasized if fiscal support lapses."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Effectively, we’re saying that rates will remain highly accommodative until the economy is far along in its recovery, and that, that should be a very powerful statement in supporting economic activity.",
+     "start": 11658,
+     "end": 11858
+    },
+    {
+     "quote": "overall, inflation is running well below our 2 percent longer-run objective.",
+     "start": 3310,
+     "end": 3385
+    },
+    {
+     "quote": "the labor market has improved, but it’s a long, long way from maximum employment, and it will be some time getting back there.",
+     "start": 39185,
+     "end": 39310
+    },
+    {
+     "quote": "Now we’re buying $120 billion in securities per month across the—across the Treasury curve. That’s also adding to accommodation.",
+     "start": 11860,
+     "end": 11987
+    },
+    {
+     "quote": "if we don’t get that, then there would certainly be downside risks through the— certainly through the channel I mentioned.",
+     "start": 24143,
+     "end": 24264
+    },
+    {
+     "quote": "And even after, if we do lift off, we will keep policy accommodative until we actually have a moderate overshoot of inflation for some time.",
+     "start": 35230,
+     "end": 35369
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

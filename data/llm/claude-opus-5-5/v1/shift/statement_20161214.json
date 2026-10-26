@@ -1,0 +1,164 @@
+{
+ "key": "statement_20161214",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20161214",
+  "previous_doc_id": "statement_20161102",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4f77bd6a0824d6bd62685035063470207dee05ecb98d9d00e96e23f1d5824777",
+ "message_id": "msg_011CgFudUVgGvxU2PSKnt7vu",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2291,
+  "output_tokens": 695,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":2,\"changes\":[{\"before\":\"Against this backdrop, the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent. The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives.\",\"after\":\"In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\",\"direction\":\"hawkish\"},{\"before\":\"Although the unemployment rate is little changed in recent months, job gains have been solid.\",\"after\":\"Job gains have been solid in recent months and the unemployment rate has declined.\",\"direction\":\"hawkish\"},{\"before\":\"Inflation has increased somewhat since earlier this year\",\"after\":\"Inflation has increased since earlier this year\",\"direction\":\"hawkish\"},{\"before\":\"Market-based measures of inflation compensation have moved up but remain low\",\"after\":\"Market-based measures of inflation compensation have moved up considerably but still are low\",\"direction\":\"hawkish\"},{\"before\":\"growth of economic activity has picked up from the modest pace seen in the first half of this year\",\"after\":\"economic activity has been expanding at a moderate pace since mid-year\",\"direction\":\"neutral\"},{\"before\":\"thereby supporting further improvement in labor market conditions\",\"after\":\"thereby supporting some further strengthening in labor market conditions\",\"direction\":\"neutral\"},{\"before\":\"Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.\",\"after\":\"\",\"direction\":\"neutral\"}],\"rationale\":\"The Committee moved from holding to raising the federal funds rate range to 1/2 to 3/4 percent, a clear change in policy action, with firmer descriptions of the labor market and inflation. The forward guidance of only gradual increases was unchanged, and the hawkish dissents disappeared because the hike met their preference.\"}",
+ "parsed": {
+  "shift_score": 2,
+  "changes": [
+   {
+    "before": "Against this backdrop, the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent. The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives.",
+    "after": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Although the unemployment rate is little changed in recent months, job gains have been solid.",
+    "after": "Job gains have been solid in recent months and the unemployment rate has declined.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Inflation has increased somewhat since earlier this year",
+    "after": "Inflation has increased since earlier this year",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Market-based measures of inflation compensation have moved up but remain low",
+    "after": "Market-based measures of inflation compensation have moved up considerably but still are low",
+    "direction": "hawkish"
+   },
+   {
+    "before": "growth of economic activity has picked up from the modest pace seen in the first half of this year",
+    "after": "economic activity has been expanding at a moderate pace since mid-year",
+    "direction": "neutral"
+   },
+   {
+    "before": "thereby supporting further improvement in labor market conditions",
+    "after": "thereby supporting some further strengthening in labor market conditions",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+    "after": "",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The Committee moved from holding to raising the federal funds rate range to 1/2 to 3/4 percent, a clear change in policy action, with firmer descriptions of the labor market and inflation. The forward guidance of only gradual increases was unchanged, and the hawkish dissents disappeared because the hike met their preference."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Against this backdrop, the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent. The Committee judges that the case for an increase in the federal funds rate has continued to strengthen but decided, for the time being, to wait for some further evidence of continued progress toward its objectives.",
+     "start": 1510,
+     "end": 1849
+    },
+    {
+     "quote": "Although the unemployment rate is little changed in recent months, job gains have been solid.",
+     "start": 242,
+     "end": 334
+    },
+    {
+     "quote": "Inflation has increased somewhat since earlier this year",
+     "start": 431,
+     "end": 487
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have moved up but remain low",
+     "start": 644,
+     "end": 720
+    },
+    {
+     "quote": "growth of economic activity has picked up from the modest pace seen in the first half of this year",
+     "start": 142,
+     "end": 240
+    },
+    {
+     "quote": "thereby supporting further improvement in labor market conditions",
+     "start": 1904,
+     "end": 1969
+    },
+    {
+     "quote": "Voting against the action were: Esther L. George and Loretta J. Mester, each of whom preferred at this meeting to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 3744,
+     "end": 3929
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+     "start": 1482,
+     "end": 1650
+    },
+    {
+     "quote": "Job gains have been solid in recent months and the unemployment rate has declined.",
+     "start": 218,
+     "end": 299
+    },
+    {
+     "quote": "Inflation has increased since earlier this year",
+     "start": 396,
+     "end": 443
+    },
+    {
+     "quote": "Market-based measures of inflation compensation have moved up considerably but still are low",
+     "start": 600,
+     "end": 692
+    },
+    {
+     "quote": "economic activity has been expanding at a moderate pace since mid-year",
+     "start": 146,
+     "end": 216
+    },
+    {
+     "quote": "thereby supporting some further strengthening in labor market conditions",
+     "start": 1705,
+     "end": 1777
+    }
+   ]
+  }
+ }
+}

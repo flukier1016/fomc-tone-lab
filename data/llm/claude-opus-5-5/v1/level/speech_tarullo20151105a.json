@@ -1,0 +1,94 @@
+{
+ "key": "speech_tarullo20151105a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_tarullo20151105a",
+  "doc_type": "speech",
+  "text_sha256": "af1981543e80c2f6407040d140e3952db61fa9cabde661eaa7e8a215473f20fa"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "7c65cdd16279b8b23c5efcf8e18613d53692f425add39919e560668c1f0f91f5",
+ "message_id": "msg_011CgFugAtr9g7hjERKPdhTc",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9707,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today I would like to address both the \\\"who\\\" and the \\\"what\\\" issues in the regulation of international banking.\"},{\"dimension\":\"overall\",\"quote\":\"Basel III enhanced the quantity and quality of capital requirements and introduced, for the first time, quantitative liquidity standards.\"},{\"dimension\":\"overall\",\"quote\":\"We have calibrated our proposed internal TLAC requirements slightly below our proposed external TLAC requirements for U.S. GSIBs.\"}],\"rationale\":\"The speech addresses the cross-border regulation and supervision of international banks, covering capital rules, TLAC and home-host responsibilities. It offers no view on monetary policy, inflation or economic activity, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today I would like to address both the \"who\" and the \"what\" issues in the regulation of international banking."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Basel III enhanced the quantity and quality of capital requirements and introduced, for the first time, quantitative liquidity standards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We have calibrated our proposed internal TLAC requirements slightly below our proposed external TLAC requirements for U.S. GSIBs."
+   }
+  ],
+  "rationale": "The speech addresses the cross-border regulation and supervision of international banks, covering capital rules, TLAC and home-host responsibilities. It offers no view on monetary policy, inflation or economic activity, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today I would like to address both the \"who\" and the \"what\" issues in the regulation of international banking.",
+     "start": 1331,
+     "end": 1440
+    },
+    {
+     "quote": "Basel III enhanced the quantity and quality of capital requirements and introduced, for the first time, quantitative liquidity standards.",
+     "start": 21803,
+     "end": 21939
+    },
+    {
+     "quote": "We have calibrated our proposed internal TLAC requirements slightly below our proposed external TLAC requirements for U.S. GSIBs.",
+     "start": 31699,
+     "end": 31827
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

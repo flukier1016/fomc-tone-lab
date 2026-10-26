@@ -1,0 +1,94 @@
+{
+ "key": "statement_20221214",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20221214",
+  "previous_doc_id": "statement_20221102",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "215e603cd9ac25dd29dd3fef09f37dd1d1430daaae4748259f9fdfd8fcf7f8f7",
+ "message_id": "msg_011CgFue2BAqxkgfLKAoXLCx",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1582,
+  "output_tokens": 349,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent.\",\"after\":\"In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.\",\"direction\":\"neutral\"},{\"before\":\"The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity.\",\"after\":\"The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.\",\"direction\":\"dovish\"}],\"rationale\":\"The statement is nearly identical: it keeps the guidance that ongoing increases will be appropriate and the language on cumulative tightening and policy lags, while the 50bp hike is a smaller step than the prior pace and in line with that guidance. The only wording change, softening 'creating additional' to 'contributing to' upward pressure on inflation from the war, is a marginal dovish tweak that does not materially alter the policy signal.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent.",
+    "after": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity.",
+    "after": "The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The statement is nearly identical: it keeps the guidance that ongoing increases will be appropriate and the language on cumulative tightening and policy lags, while the 50bp hike is a smaller step than the prior pace and in line with that guidance. The only wording change, softening 'creating additional' to 'contributing to' upward pressure on inflation from the war, is a marginal dovish tweak that does not materially alter the policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 3-3/4 to 4 percent.",
+     "start": 683,
+     "end": 806
+    },
+    {
+     "quote": "The war and related events are creating additional upward pressure on inflation and are weighing on global economic activity.",
+     "start": 392,
+     "end": 516
+    }
+   ]
+  },
+  "after": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-1/4 to 4-1/2 percent.",
+     "start": 679,
+     "end": 806
+    },
+    {
+     "quote": "The war and related events are contributing to upward pressure on inflation and are weighing on global economic activity.",
+     "start": 392,
+     "end": 512
+    }
+   ]
+  }
+ }
+}

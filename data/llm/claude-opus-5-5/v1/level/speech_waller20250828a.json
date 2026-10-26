@@ -1,0 +1,121 @@
+{
+ "key": "speech_waller20250828a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_waller20250828a",
+  "doc_type": "speech",
+  "text_sha256": "46ce4f8e0bab878ef9ec5c7a0f56f133bbe9c8da34c7e4e312397080c0432db7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "23a99d24221a69062b3d66a95be170d538b4708d1d6001e3a3d0a65b9df9dc03",
+ "message_id": "msg_011CgFugGRyT4uaKHHPsqyXE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4877,
+  "output_tokens": 550,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Based on what I know today, I would support a 25 basis point cut at the Committee's meeting on September 16 and 17.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I anticipate additional cuts over the next three to six months, and the pace of rate cuts will be driven by the incoming data.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"their latest estimates imply that without these effects, underlying inflation continues to run close to the FOMC's 2 percent target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Supply-side changes can't account for the ugly jobs numbers of the past three months.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I worry that conditions could deteriorate further and quite rapidly, and I think it is important that the FOMC not wait until such a deterioration is under way and risk falling behind the curve\"},{\"dimension\":\"overall\",\"quote\":\"So, let's get on with it.\"}],\"rationale\":\"The speaker explicitly calls for a September cut and further cuts over the next three to six months, moving policy toward a neutral rate 125 to 150 basis points lower. She stresses downside labor-market risks and treats tariff-driven inflation as temporary, though she does not see a cut larger than 25 basis points as needed for now.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Based on what I know today, I would support a 25 basis point cut at the Committee's meeting on September 16 and 17."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I anticipate additional cuts over the next three to six months, and the pace of rate cuts will be driven by the incoming data."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "their latest estimates imply that without these effects, underlying inflation continues to run close to the FOMC's 2 percent target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Supply-side changes can't account for the ugly jobs numbers of the past three months."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I worry that conditions could deteriorate further and quite rapidly, and I think it is important that the FOMC not wait until such a deterioration is under way and risk falling behind the curve"
+   },
+   {
+    "dimension": "overall",
+    "quote": "So, let's get on with it."
+   }
+  ],
+  "rationale": "The speaker explicitly calls for a September cut and further cuts over the next three to six months, moving policy toward a neutral rate 125 to 150 basis points lower. She stresses downside labor-market risks and treats tariff-driven inflation as temporary, though she does not see a cut larger than 25 basis points as needed for now."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Based on what I know today, I would support a 25 basis point cut at the Committee's meeting on September 16 and 17.",
+     "start": 14528,
+     "end": 14642
+    },
+    {
+     "quote": "I anticipate additional cuts over the next three to six months, and the pace of rate cuts will be driven by the incoming data.",
+     "start": 16455,
+     "end": 16580
+    },
+    {
+     "quote": "their latest estimates imply that without these effects, underlying inflation continues to run close to the FOMC's 2 percent target.",
+     "start": 13300,
+     "end": 13431
+    },
+    {
+     "quote": "Supply-side changes can't account for the ugly jobs numbers of the past three months.",
+     "start": 6154,
+     "end": 6238
+    },
+    {
+     "quote": "I worry that conditions could deteriorate further and quite rapidly, and I think it is important that the FOMC not wait until such a deterioration is under way and risk falling behind the curve",
+     "start": 14695,
+     "end": 14888
+    },
+    {
+     "quote": "So, let's get on with it.",
+     "start": 2479,
+     "end": 2503
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

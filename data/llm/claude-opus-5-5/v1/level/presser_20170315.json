@@ -1,0 +1,121 @@
+{
+ "key": "presser_20170315",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20170315",
+  "doc_type": "presser",
+  "text_sha256": "761f24e9ddf6bb882aaa6286c98f27c17e97f1039753207c2325bbcb914590fd"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "05aacd31fa079bee15f0183f7c38d18f0e827ff45ea248494d51f8b061b2a325",
+ "message_id": "msg_011CgFugEi3ag1RrRDaaLHyE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8884,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ¾ to 1 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We continue to expect that the ongoing strength of the economy will warrant gradual increases in the federal funds rate to achieve and maintain our objectives.\"},{\"dimension\":\"overall\",\"quote\":\"Today’s decision is in line with that view and does not represent a reassessment of the economic outlook or of the appropriate course for monetary policy.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we see the risks to the outlook as roughly balanced at this point\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We’re not shooting for inflation above 2 percent, but it’s a reminder that there will be deviations above and below when we’re achieving our objective.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"We made no decisions, and we will continue our discussion at subsequent meetings.\"}],\"rationale\":\"The Committee hiked 25bp and signaled further gradual increases toward neutral, citing solid labor-market progress. However, it emphasized that there was no change in outlook, balanced risks, a symmetric inflation goal and a low neutral rate, so the hawkish lean is moderate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ¾ to 1 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We continue to expect that the ongoing strength of the economy will warrant gradual increases in the federal funds rate to achieve and maintain our objectives."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today’s decision is in line with that view and does not represent a reassessment of the economic outlook or of the appropriate course for monetary policy."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we see the risks to the outlook as roughly balanced at this point"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We’re not shooting for inflation above 2 percent, but it’s a reminder that there will be deviations above and below when we’re achieving our objective."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "We made no decisions, and we will continue our discussion at subsequent meetings."
+   }
+  ],
+  "rationale": "The Committee hiked 25bp and signaled further gradual increases toward neutral, citing solid labor-market progress. However, it emphasized that there was no change in outlook, balanced risks, a symmetric inflation goal and a low neutral rate, so the hawkish lean is moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the Federal Open Market Committee decided to raise the target range for the federal funds rate by ¼ percentage point, bringing it to ¾ to 1 percent.",
+     "start": 16,
+     "end": 169
+    },
+    {
+     "quote": "We continue to expect that the ongoing strength of the economy will warrant gradual increases in the federal funds rate to achieve and maintain our objectives.",
+     "start": 4115,
+     "end": 4273
+    },
+    {
+     "quote": "Today’s decision is in line with that view and does not represent a reassessment of the economic outlook or of the appropriate course for monetary policy.",
+     "start": 578,
+     "end": 731
+    },
+    {
+     "quote": "we see the risks to the outlook as roughly balanced at this point",
+     "start": 9396,
+     "end": 9461
+    },
+    {
+     "quote": "We’re not shooting for inflation above 2 percent, but it’s a reminder that there will be deviations above and below when we’re achieving our objective.",
+     "start": 26729,
+     "end": 26879
+    },
+    {
+     "quote": "We made no decisions, and we will continue our discussion at subsequent meetings.",
+     "start": 6565,
+     "end": 6645
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

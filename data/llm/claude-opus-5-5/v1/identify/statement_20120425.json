@@ -1,0 +1,52 @@
+{
+ "key": "statement_20120425",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20120425",
+  "release_date": "2012-04-25"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "38ab86ece8e1e2b46a7bbcac8260e0c7c15fafc7ef4fdf2447ee12d25c7435f3",
+ "message_id": "msg_011CgFudVedZbWQWxdnHWZig",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1338,
+  "output_tokens": 449,
+  "output_tokens_details": {
+   "thinking_tokens": 190
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2012,\"month\":4,\"confidence\":0.85,\"cues\":[\"Forward guidance of exceptionally low rates 'at least through late [YEAR]' (late 2014), used from January to August 2012\",\"Maturity extension program (Operation Twist) continuing, as announced in an earlier month\",\"Inflation picked up due to crude oil and gasoline prices, with 'the increase in oil and gasoline prices earlier this year' described as past, which fits spring 2012\",\"'Labor market conditions have improved in recent months' wording matches the April 2012 statement\",\"Sandra Pianalto and Sarah Bloom Raskin are voters, consistent with the 2012 rotation\",\"A lone dissent against the late-[YEAR] guidance, consistent with Lacker in 2012\"]}",
+ "parsed": {
+  "year": 2012,
+  "month": 4,
+  "confidence": 0.85,
+  "cues": [
+   "Forward guidance of exceptionally low rates 'at least through late [YEAR]' (late 2014), used from January to August 2012",
+   "Maturity extension program (Operation Twist) continuing, as announced in an earlier month",
+   "Inflation picked up due to crude oil and gasoline prices, with 'the increase in oil and gasoline prices earlier this year' described as past, which fits spring 2012",
+   "'Labor market conditions have improved in recent months' wording matches the April 2012 statement",
+   "Sandra Pianalto and Sarah Bloom Raskin are voters, consistent with the 2012 rotation",
+   "A lone dissent against the late-[YEAR] guidance, consistent with Lacker in 2012"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

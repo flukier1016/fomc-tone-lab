@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20220907a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20220907a",
+  "doc_type": "speech",
+  "text_sha256": "b23cdd7871ac3333dd676e7b2a1ca5efffb509112682f0b1359557e3219c90d6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "02ef08a65388820a961ce88649f10b9743388d208edc357b8b9511b94c0cc870",
+ "message_id": "msg_011CgFug9H7e8ihr8DMF1tkD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3828,
+  "output_tokens": 529,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We are in this for as long as it takes to get inflation down.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"So far, we have expeditiously raised the policy rate to the peak of the previous cycle, and the policy rate will need to rise further.\"},{\"dimension\":\"risk_balance\",\"quote\":\"At some point in the tightening cycle, the risks will become more two-sided.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"While the moderation in monthly inflation is welcome, it will be necessary to see several months of low monthly inflation readings to be confident that inflation is moving back down to 2 percent.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"As of this month, the maximum monthly reduction in the balance sheet will be nearly double the level of the previous cycle.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Labor demand continues to exhibit considerable strength, which is hard to reconcile with the more downbeat tone of activity.\"}],\"rationale\":\"The speaker signals further rate increases and restrictive policy for some time, emphasizing anchoring inflation expectations and avoiding pulling back too soon. She also flags overtightening risks and slowing activity, which moderates the hawkishness.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are in this for as long as it takes to get inflation down."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "So far, we have expeditiously raised the policy rate to the peak of the previous cycle, and the policy rate will need to rise further."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "At some point in the tightening cycle, the risks will become more two-sided."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "While the moderation in monthly inflation is welcome, it will be necessary to see several months of low monthly inflation readings to be confident that inflation is moving back down to 2 percent."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "As of this month, the maximum monthly reduction in the balance sheet will be nearly double the level of the previous cycle."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Labor demand continues to exhibit considerable strength, which is hard to reconcile with the more downbeat tone of activity."
+   }
+  ],
+  "rationale": "The speaker signals further rate increases and restrictive policy for some time, emphasizing anchoring inflation expectations and avoiding pulling back too soon. She also flags overtightening risks and slowing activity, which moderates the hawkishness."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are in this for as long as it takes to get inflation down.",
+     "start": 11684,
+     "end": 11744
+    },
+    {
+     "quote": "So far, we have expeditiously raised the policy rate to the peak of the previous cycle, and the policy rate will need to rise further.",
+     "start": 11746,
+     "end": 11879
+    },
+    {
+     "quote": "At some point in the tightening cycle, the risks will become more two-sided.",
+     "start": 10807,
+     "end": 10882
+    },
+    {
+     "quote": "While the moderation in monthly inflation is welcome, it will be necessary to see several months of low monthly inflation readings to be confident that inflation is moving back down to 2 percent.",
+     "start": 3939,
+     "end": 4133
+    },
+    {
+     "quote": "As of this month, the maximum monthly reduction in the balance sheet will be nearly double the level of the previous cycle.",
+     "start": 11881,
+     "end": 12003
+    },
+    {
+     "quote": "Labor demand continues to exhibit considerable strength, which is hard to reconcile with the more downbeat tone of activity.",
+     "start": 7098,
+     "end": 7221
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

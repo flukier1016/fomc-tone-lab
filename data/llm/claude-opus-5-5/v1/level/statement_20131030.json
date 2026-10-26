@@ -1,0 +1,112 @@
+{
+ "key": "statement_20131030",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20131030",
+  "doc_type": "statement",
+  "text_sha256": "876a3eb59b8a1cbcd376d140a4ea5f468fc4815c7c882fd00b98291a28f72638"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2707ec3e2f2263bd95225357c60e2d6fb0512dfadadda6ed976edc7996b2bcec",
+ "message_id": "msg_011CgFugCpSTvPUdH4zSPoWR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1585,
+  "output_tokens": 495,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated.\"}],\"rationale\":\"The Committee keeps purchases at $85 billion a month and holds the near-zero rate under threshold-based guidance, while flagging concern about below-target inflation. Its references to diminished downside risks and growing underlying strength temper the dovishness slightly.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated."
+   }
+  ],
+  "rationale": "The Committee keeps purchases at $85 billion a month and holds the near-zero rate under threshold-based guidance, while flagging concern about below-target inflation. Its references to diminished downside risks and growing underlying strength temper the dovishness slightly."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to await more evidence that progress will be sustained before adjusting the pace of its purchases.",
+     "start": 1668,
+     "end": 1787
+    },
+    {
+     "quote": "a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the asset purchase program ends and the economic recovery strengthens.",
+     "start": 3599,
+     "end": 3771
+    },
+    {
+     "quote": "inflation has been running below the Committee's longer-run objective, but longer-term inflation expectations have remained stable.",
+     "start": 548,
+     "end": 678
+    },
+    {
+     "quote": "The Committee sees the downside risks to the outlook for the economy and the labor market as having diminished, on net, since last fall.",
+     "start": 1025,
+     "end": 1160
+    },
+    {
+     "quote": "Indicators of labor market conditions have shown some further improvement, but the unemployment rate remains elevated.",
+     "start": 164,
+     "end": 281
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

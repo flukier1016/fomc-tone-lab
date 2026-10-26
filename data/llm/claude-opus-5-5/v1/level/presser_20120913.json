@@ -1,0 +1,121 @@
+{
+ "key": "presser_20120913",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20120913",
+  "doc_type": "presser",
+  "text_sha256": "771afebf6f927068bfc3d50f48d37318c4ec4ea88518b3f566da2096703b1260"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cad9682489fe8b2cb5fe9d8f208da806179b8f4fc35695f68270fdb688aac7be",
+ "message_id": "msg_011CgFugEPhL2JvgH9MWZxgR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10593,
+  "output_tokens": 541,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.95,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Specifically, the Committee decided to purchase additional agency mortgage-backed securities, or MBS, at a pace of $40 billion per month.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"exceptionally low levels for the federal funds rate are likely to be warranted at least through mid2015\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Even after the economy starts to recover more quickly, even after the unemployment rate begins to move down more decisively, we're not going to rush to begin to tighten policy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The employment situation, however, remains a grave concern.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In addition, strains in global financial markets continue to pose significant downside risks.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With inflation anticipated to run at or below our 2 percent objective, the Committee has become convinced that further policy accommodation is warranted\"}],\"rationale\":\"The Chair announces open-ended MBS purchases, extends rate guidance to mid-2015 and promises accommodation long after recovery strengthens, citing grave labor market weakness and downside risks. Inflation is described as at or below target, so there is no hawkish offset.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.95,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Specifically, the Committee decided to purchase additional agency mortgage-backed securities, or MBS, at a pace of $40 billion per month."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "exceptionally low levels for the federal funds rate are likely to be warranted at least through mid2015"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Even after the economy starts to recover more quickly, even after the unemployment rate begins to move down more decisively, we're not going to rush to begin to tighten policy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The employment situation, however, remains a grave concern."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In addition, strains in global financial markets continue to pose significant downside risks."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With inflation anticipated to run at or below our 2 percent objective, the Committee has become convinced that further policy accommodation is warranted"
+   }
+  ],
+  "rationale": "The Chair announces open-ended MBS purchases, extends rate guidance to mid-2015 and promises accommodation long after recovery strengthens, citing grave labor market weakness and downside risks. Inflation is described as at or below target, so there is no hawkish offset."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Specifically, the Committee decided to purchase additional agency mortgage-backed securities, or MBS, at a pace of $40 billion per month.",
+     "start": 3276,
+     "end": 3412
+    },
+    {
+     "quote": "exceptionally low levels for the federal funds rate are likely to be warranted at least through mid2015",
+     "start": 5277,
+     "end": 5380
+    },
+    {
+     "quote": "Even after the economy starts to recover more quickly, even after the unemployment rate begins to move down more decisively, we're not going to rush to begin to tighten policy.",
+     "start": 9844,
+     "end": 10019
+    },
+    {
+     "quote": "The employment situation, however, remains a grave concern.",
+     "start": 561,
+     "end": 619
+    },
+    {
+     "quote": "In addition, strains in global financial markets continue to pose significant downside risks.",
+     "start": 6445,
+     "end": 6537
+    },
+    {
+     "quote": "With inflation anticipated to run at or below our 2 percent objective, the Committee has become convinced that further policy accommodation is warranted",
+     "start": 2858,
+     "end": 3010
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

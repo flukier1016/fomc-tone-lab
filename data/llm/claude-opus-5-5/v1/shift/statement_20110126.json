@@ -1,0 +1,149 @@
+{
+ "key": "statement_20110126",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20110126",
+  "previous_doc_id": "statement_20101214",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4c7b609ef5647d7d54b51c84ae8f2f207c531e5b85c4f28c32c818a64e20b17d",
+ "message_id": "msg_011CgFudURThHV6mHP5xq48k",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1940,
+  "output_tokens": 629,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"though at a rate that has been insufficient to bring down unemployment.\",\"after\":\"though at a rate that has been insufficient to bring about a significant improvement in labor market conditions.\",\"direction\":\"neutral\"},{\"before\":\"Household spending is increasing at a moderate pace, but remains constrained\",\"after\":\"Growth in household spending picked up late last year, but remains constrained\",\"direction\":\"hawkish\"},{\"before\":\"Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.\",\"after\":\"Business spending on equipment and software is rising, while investment in nonresidential structures is still weak.\",\"direction\":\"hawkish\"},{\"before\":\"Longer-term inflation expectations have remained stable, but measures of underlying inflation have continued to trend downward.\",\"after\":\"Although commodity prices have risen, longer-term inflation expectations have remained stable, and measures of underlying inflation have been trending downward.\",\"direction\":\"hawkish\"},{\"before\":\"In addition, the Committee intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.\",\"after\":\"In particular, the Committee is maintaining its existing policy of reinvesting principal payments from its securities holdings and intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011.\",\"direction\":\"neutral\"},{\"before\":\"Voting against the policy was Thomas M. Hoenig.\",\"after\":\"\",\"direction\":\"dovish\"}],\"rationale\":\"The economic description is modestly firmer (spending picked up, investment no longer slowing, commodity prices noted), but policy guidance, the asset purchase program and the extended-period language are unchanged. The dissent vanished because of the voter rotation, so the change in tone is minor overall.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "though at a rate that has been insufficient to bring down unemployment.",
+    "after": "though at a rate that has been insufficient to bring about a significant improvement in labor market conditions.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Household spending is increasing at a moderate pace, but remains constrained",
+    "after": "Growth in household spending picked up late last year, but remains constrained",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.",
+    "after": "Business spending on equipment and software is rising, while investment in nonresidential structures is still weak.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Longer-term inflation expectations have remained stable, but measures of underlying inflation have continued to trend downward.",
+    "after": "Although commodity prices have risen, longer-term inflation expectations have remained stable, and measures of underlying inflation have been trending downward.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "In addition, the Committee intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.",
+    "after": "In particular, the Committee is maintaining its existing policy of reinvesting principal payments from its securities holdings and intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Voting against the policy was Thomas M. Hoenig.",
+    "after": "",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "The economic description is modestly firmer (spending picked up, investment no longer slowing, commodity prices noted), but policy guidance, the asset purchase program and the extended-period language are unchanged. The dissent vanished because of the voter rotation, so the change in tone is minor overall."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "though at a rate that has been insufficient to bring down unemployment.",
+     "start": 128,
+     "end": 198
+    },
+    {
+     "quote": "Household spending is increasing at a moderate pace, but remains constrained",
+     "start": 200,
+     "end": 276
+    },
+    {
+     "quote": "Business spending on equipment and software is rising, though less rapidly than earlier in the year, while investment in nonresidential structures continues to be weak.",
+     "start": 361,
+     "end": 528
+    },
+    {
+     "quote": "Longer-term inflation expectations have remained stable, but measures of underlying inflation have continued to trend downward.",
+     "start": 623,
+     "end": 749
+    },
+    {
+     "quote": "In addition, the Committee intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011, a pace of about $75 billion per month.",
+     "start": 1609,
+     "end": 1783
+    },
+    {
+     "quote": "Voting against the policy was Thomas M. Hoenig.",
+     "start": 2899,
+     "end": 2945
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "though at a rate that has been insufficient to bring about a significant improvement in labor market conditions.",
+     "start": 128,
+     "end": 239
+    },
+    {
+     "quote": "Growth in household spending picked up late last year, but remains constrained",
+     "start": 241,
+     "end": 319
+    },
+    {
+     "quote": "Business spending on equipment and software is rising, while investment in nonresidential structures is still weak.",
+     "start": 404,
+     "end": 518
+    },
+    {
+     "quote": "Although commodity prices have risen, longer-term inflation expectations have remained stable, and measures of underlying inflation have been trending downward.",
+     "start": 613,
+     "end": 772
+    },
+    {
+     "quote": "In particular, the Committee is maintaining its existing policy of reinvesting principal payments from its securities holdings and intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011.",
+     "start": 1520,
+     "end": 1759
+    }
+   ]
+  }
+ }
+}

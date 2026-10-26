@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20171012a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20171012a",
+  "doc_type": "speech",
+  "text_sha256": "190819dcee4d1d92909ba84ea8285d14751e24b6886afa67c72913f0b23f68fa"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ad59fcd08f18fbeb260f8f310cc7df92f6dd25737b4a25a5dfaff896aebcb03e",
+ "message_id": "msg_011CgFugAKsaGKaDFYy31AJn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5381,
+  "output_tokens": 526,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"U.S. monetary policy normalization has been and should continue to be gradual, as long as the U.S. economy evolves roughly as expected.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the shrinkage of the Fed's balance sheet is also expected to proceed quite gradually, with slowly phased-in increases in caps on the monthly reductions in the Federal Reserve's security holdings.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Fed policy normalization is occurring not in isolation, but in the context of a solid U.S. economic recovery, which should benefit all economies around the world.\"},{\"dimension\":\"risk_balance\",\"quote\":\"such episodes carry a significant risk of snowballing into something bigger that more substantially threatens the economic expansion.\"},{\"dimension\":\"overall\",\"quote\":\"the most likely outcome is that the challenges posed to EMEs by the normalization of global financial conditions will be manageable.\"}],\"rationale\":\"The speech, focused on emerging markets, endorses continued gradual rate normalization and balance sheet runoff amid a solid U.S. recovery. Its emphasis on downside market and EME risks offsets that, leaving a roughly neutral net stance.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "U.S. monetary policy normalization has been and should continue to be gradual, as long as the U.S. economy evolves roughly as expected."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the shrinkage of the Fed's balance sheet is also expected to proceed quite gradually, with slowly phased-in increases in caps on the monthly reductions in the Federal Reserve's security holdings."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Fed policy normalization is occurring not in isolation, but in the context of a solid U.S. economic recovery, which should benefit all economies around the world."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "such episodes carry a significant risk of snowballing into something bigger that more substantially threatens the economic expansion."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the most likely outcome is that the challenges posed to EMEs by the normalization of global financial conditions will be manageable."
+   }
+  ],
+  "rationale": "The speech, focused on emerging markets, endorses continued gradual rate normalization and balance sheet runoff amid a solid U.S. recovery. Its emphasis on downside market and EME risks offsets that, leaving a roughly neutral net stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "U.S. monetary policy normalization has been and should continue to be gradual, as long as the U.S. economy evolves roughly as expected.",
+     "start": 12651,
+     "end": 12785
+    },
+    {
+     "quote": "the shrinkage of the Fed's balance sheet is also expected to proceed quite gradually, with slowly phased-in increases in caps on the monthly reductions in the Federal Reserve's security holdings.",
+     "start": 13286,
+     "end": 13480
+    },
+    {
+     "quote": "Fed policy normalization is occurring not in isolation, but in the context of a solid U.S. economic recovery, which should benefit all economies around the world.",
+     "start": 16817,
+     "end": 16978
+    },
+    {
+     "quote": "such episodes carry a significant risk of snowballing into something bigger that more substantially threatens the economic expansion.",
+     "start": 15559,
+     "end": 15691
+    },
+    {
+     "quote": "the most likely outcome is that the challenges posed to EMEs by the normalization of global financial conditions will be manageable.",
+     "start": 15740,
+     "end": 15871
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20110414a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20110414a",
+  "doc_type": "speech",
+  "text_sha256": "50c7ffbf7a01f0012f8cc3918a8caaadf74370073c0dbc8577bd9ba2e9fe6575"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "0701924082cd8d4133564bdf68e44b0ffce213c9b7dfa8860e755c8563d360f7",
+ "message_id": "msg_011CgFugJSGv4EGjuPQr4Cag",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6498,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"These data add to the evidence that credit availability to small businesses is gradually improving.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recently, small business owners appear to have become more optimistic about their outlook for sales.\"},{\"dimension\":\"overall\",\"quote\":\"That said, banks report that loan demand from smaller firms remains fairly weak.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the combination of a variety of recent survey results paints a picture of increasing optimism about future sales and business conditions and a corresponding easing of credit availability for small businesses.\"}],\"rationale\":\"The speech focuses on small business credit conditions and offers no monetary policy view; it describes gradually improving credit and optimism, a mild hawkish tilt on activity. The overall stance is neutral given the low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "These data add to the evidence that credit availability to small businesses is gradually improving."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recently, small business owners appear to have become more optimistic about their outlook for sales."
+   },
+   {
+    "dimension": "overall",
+    "quote": "That said, banks report that loan demand from smaller firms remains fairly weak."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the combination of a variety of recent survey results paints a picture of increasing optimism about future sales and business conditions and a corresponding easing of credit availability for small businesses."
+   }
+  ],
+  "rationale": "The speech focuses on small business credit conditions and offers no monetary policy view; it describes gradually improving credit and optimism, a mild hawkish tilt on activity. The overall stance is neutral given the low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "These data add to the evidence that credit availability to small businesses is gradually improving.",
+     "start": 20642,
+     "end": 20740
+    },
+    {
+     "quote": "Recently, small business owners appear to have become more optimistic about their outlook for sales.",
+     "start": 11728,
+     "end": 11827
+    },
+    {
+     "quote": "That said, banks report that loan demand from smaller firms remains fairly weak.",
+     "start": 21268,
+     "end": 21347
+    },
+    {
+     "quote": "the combination of a variety of recent survey results paints a picture of increasing optimism about future sales and business conditions and a corresponding easing of credit availability for small businesses.",
+     "start": 22353,
+     "end": 22560
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

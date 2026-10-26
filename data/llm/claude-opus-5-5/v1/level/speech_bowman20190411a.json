@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20190411a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20190411a",
+  "doc_type": "speech",
+  "text_sha256": "ef28bb3bdd9278aedccd1686c6b97fbf2c00d27ea5b89175239429ca5d54b681"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2326a8bfe31b5bfe04510eec8cdab36e4bf22451fff358a96909e99b656d0924",
+ "message_id": "msg_011CgFugDuvXcGvJwt6QneMJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3975,
+  "output_tokens": 344,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"In particular, I will focus on opportunities for community banks to innovate through collaboration with fintech firms.\"},{\"dimension\":\"overall\",\"quote\":\"Given these concerns, what is the Federal Reserve Board's role, as a bank supervisor, in helping community banks chart their way through changing times?\"},{\"dimension\":\"overall\",\"quote\":\"As a regulator, my priority will always be facilitating a banking system that is safe and sound and in which consumers are treated fairly.\"}],\"rationale\":\"The speech addresses community bank innovation, fintech partnerships and supervisory guidance, and says nothing about monetary policy, inflation or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "In particular, I will focus on opportunities for community banks to innovate through collaboration with fintech firms."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Given these concerns, what is the Federal Reserve Board's role, as a bank supervisor, in helping community banks chart their way through changing times?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "As a regulator, my priority will always be facilitating a banking system that is safe and sound and in which consumers are treated fairly."
+   }
+  ],
+  "rationale": "The speech addresses community bank innovation, fintech partnerships and supervisory guidance, and says nothing about monetary policy, inflation or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In particular, I will focus on opportunities for community banks to innovate through collaboration with fintech firms.",
+     "start": 113,
+     "end": 230
+    },
+    {
+     "quote": "Given these concerns, what is the Federal Reserve Board's role, as a bank supervisor, in helping community banks chart their way through changing times?",
+     "start": 9572,
+     "end": 9724
+    },
+    {
+     "quote": "As a regulator, my priority will always be facilitating a banking system that is safe and sound and in which consumers are treated fairly.",
+     "start": 13087,
+     "end": 13224
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_barr20231002a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20231002a",
+  "doc_type": "speech",
+  "text_sha256": "c4331a707083a8da651e777ef988c4510ccb07aedc7892819d9107ee3df72522"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "527ad06b032c611445b83bfeac7358a61c21a38ba96ba27c58993df440f8597c",
+ "message_id": "msg_011CgFugFmYCQfN8cFsiQ7Xm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6280,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Given how far we have come, we are now at a point where we can proceed carefully as we determine the extent of monetary policy restriction that is needed.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the most important question at this point is not whether an additional rate increase is needed this year or not, but rather how long we will need to hold rates at a sufficiently restrictive level to achieve our goals.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"There has been a lot of progress since tightening the stance of policy began last year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"incoming data on economic activity have shown considerably more resilience than I had expected.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I expect that the full effects of past tightening are yet to come in the months ahead.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I remain highly attuned to risks to achieving both components of our mandate.\"}],\"rationale\":\"Barr de-emphasizes further hikes in favor of holding rates restrictive for some time, noting inflation progress, resilient but rebalancing labor markets, lagged tightening effects, and credit tightening. Most of the speech covers financial stability. The net signal is a near-neutral hold with a slight dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given how far we have come, we are now at a point where we can proceed carefully as we determine the extent of monetary policy restriction that is needed."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the most important question at this point is not whether an additional rate increase is needed this year or not, but rather how long we will need to hold rates at a sufficiently restrictive level to achieve our goals."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "There has been a lot of progress since tightening the stance of policy began last year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "incoming data on economic activity have shown considerably more resilience than I had expected."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I expect that the full effects of past tightening are yet to come in the months ahead."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I remain highly attuned to risks to achieving both components of our mandate."
+   }
+  ],
+  "rationale": "Barr de-emphasizes further hikes in favor of holding rates restrictive for some time, noting inflation progress, resilient but rebalancing labor markets, lagged tightening effects, and credit tightening. Most of the speech covers financial stability. The net signal is a near-neutral hold with a slight dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Given how far we have come, we are now at a point where we can proceed carefully as we determine the extent of monetary policy restriction that is needed.",
+     "start": 3041,
+     "end": 3194
+    },
+    {
+     "quote": "the most important question at this point is not whether an additional rate increase is needed this year or not, but rather how long we will need to hold rates at a sufficiently restrictive level to achieve our goals.",
+     "start": 3208,
+     "end": 3424
+    },
+    {
+     "quote": "There has been a lot of progress since tightening the stance of policy began last year.",
+     "start": 971,
+     "end": 1057
+    },
+    {
+     "quote": "incoming data on economic activity have shown considerably more resilience than I had expected.",
+     "start": 1397,
+     "end": 1491
+    },
+    {
+     "quote": "I expect that the full effects of past tightening are yet to come in the months ahead.",
+     "start": 2861,
+     "end": 2946
+    },
+    {
+     "quote": "I remain highly attuned to risks to achieving both components of our mandate.",
+     "start": 2601,
+     "end": 2677
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

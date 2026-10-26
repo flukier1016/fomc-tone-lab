@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20261001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20261001a",
+  "doc_type": "speech",
+  "text_sha256": "d1d019d5614ca2cc8ecb2f05c04e29736076feb53f5d88b40a5fe53dc44ac796"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6a19fe4e98883194fef8a27c20a5bc5591504f323c3b3e38def36e582a2b8ae1",
+ "message_id": "msg_011CgFugExg7ukLJcWEF4eMp",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2997,
+  "output_tokens": 494,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.5,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"I will start by acknowledging that inflation has been too high for too long.\"},{\"dimension\":\"risk_balance\",\"quote\":\"While I view the risks to both economic activity and employment as roughly balanced at this point, I see upside risks to inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I will continue to assess whether underlying trends suggest that inflation will return to target with sufficient speed.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I see economic activity and labor market conditions remaining broadly solid while inflation remains above our target.\"},{\"dimension\":\"overall\",\"quote\":\"This was an important step to ensure longer-term inflation expectations remain well anchored and to validate the public's confidence that we will achieve our 2 percent inflation objective in a timely manner.\"}],\"rationale\":\"The speaker supports the recent rate hike, stresses that inflation is too high for too long with upside risks, and describes solid activity, near maximum employment, and stable labor markets. Forward guidance is data-dependent and noncommittal, but it is framed around whether inflation returns to target fast enough, which leans hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.5,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I will start by acknowledging that inflation has been too high for too long."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "While I view the risks to both economic activity and employment as roughly balanced at this point, I see upside risks to inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I will continue to assess whether underlying trends suggest that inflation will return to target with sufficient speed."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I see economic activity and labor market conditions remaining broadly solid while inflation remains above our target."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This was an important step to ensure longer-term inflation expectations remain well anchored and to validate the public's confidence that we will achieve our 2 percent inflation objective in a timely manner."
+   }
+  ],
+  "rationale": "The speaker supports the recent rate hike, stresses that inflation is too high for too long with upside risks, and describes solid activity, near maximum employment, and stable labor markets. Forward guidance is data-dependent and noncommittal, but it is framed around whether inflation returns to target fast enough, which leans hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I will start by acknowledging that inflation has been too high for too long.",
+     "start": 4880,
+     "end": 4955
+    },
+    {
+     "quote": "While I view the risks to both economic activity and employment as roughly balanced at this point, I see upside risks to inflation.",
+     "start": 1202,
+     "end": 1332
+    },
+    {
+     "quote": "I will continue to assess whether underlying trends suggest that inflation will return to target with sufficient speed.",
+     "start": 8791,
+     "end": 8909
+    },
+    {
+     "quote": "I see economic activity and labor market conditions remaining broadly solid while inflation remains above our target.",
+     "start": 7896,
+     "end": 8012
+    },
+    {
+     "quote": "This was an important step to ensure longer-term inflation expectations remain well anchored and to validate the public's confidence that we will achieve our 2 percent inflation objective in a timely manner.",
+     "start": 7671,
+     "end": 7877
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

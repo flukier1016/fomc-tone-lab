@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20220806a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20220806a",
+  "doc_type": "speech",
+  "text_sha256": "e6b7bd4108c976f1f194f835bb3d0197421553413cff3d010dd70cc204a501d7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3690e0ec52786ec71231bcba0fc19d6cfe9c4339d1749ecc0ce4d32f9ae38877",
+ "message_id": "msg_011CgFug8s4NQFeGf7YpVTvZ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4286,
+  "output_tokens": 537,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.85,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"My view is that similarly-sized increases should be on the table until we see inflation declining in a consistent, meaningful, and lasting way.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I will need to see unambiguous evidence of this decline before I incorporate an easing of inflation pressures into my outlook.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see a significant risk of high inflation into next year for necessities including food, housing, fuel, and vehicles.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In fact, the larger threat to the strong labor market is excessive inflation\"},{\"dimension\":\"overall\",\"quote\":\"we must fulfill our commitment to lowering inflation, and I will remain steadfastly focused on this task.\"}],\"rationale\":\"The speaker forcefully emphasizes persistent, too-high inflation and upside risks, and supports further 75 bp increases until inflation declines meaningfully. Labor-market strength is cited to downplay employment risks, making this a clearly hawkish speech.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.85,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "My view is that similarly-sized increases should be on the table until we see inflation declining in a consistent, meaningful, and lasting way."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I will need to see unambiguous evidence of this decline before I incorporate an easing of inflation pressures into my outlook."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see a significant risk of high inflation into next year for necessities including food, housing, fuel, and vehicles."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In fact, the larger threat to the strong labor market is excessive inflation"
+   },
+   {
+    "dimension": "overall",
+    "quote": "we must fulfill our commitment to lowering inflation, and I will remain steadfastly focused on this task."
+   }
+  ],
+  "rationale": "The speaker forcefully emphasizes persistent, too-high inflation and upside risks, and supports further 75 bp increases until inflation declines meaningfully. Labor-market strength is cited to downplay employment risks, making this a clearly hawkish speech."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My view is that similarly-sized increases should be on the table until we see inflation declining in a consistent, meaningful, and lasting way.",
+     "start": 7665,
+     "end": 7807
+    },
+    {
+     "quote": "I will need to see unambiguous evidence of this decline before I incorporate an easing of inflation pressures into my outlook.",
+     "start": 1502,
+     "end": 1627
+    },
+    {
+     "quote": "I see a significant risk of high inflation into next year for necessities including food, housing, fuel, and vehicles.",
+     "start": 3714,
+     "end": 3831
+    },
+    {
+     "quote": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent.",
+     "start": 5691,
+     "end": 5845
+    },
+    {
+     "quote": "In fact, the larger threat to the strong labor market is excessive inflation",
+     "start": 9677,
+     "end": 9753
+    },
+    {
+     "quote": "we must fulfill our commitment to lowering inflation, and I will remain steadfastly focused on this task.",
+     "start": 9953,
+     "end": 10057
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

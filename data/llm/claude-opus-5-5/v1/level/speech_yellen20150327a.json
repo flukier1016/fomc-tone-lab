@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20150327a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20150327a",
+  "doc_type": "speech",
+  "text_sha256": "fa9273bb8170746e767c9573b09107c1b28f28b93a9c6980f9640f089338246f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2101cd68cd71d1a856bbda761b8e5c7bdafb201c96b794d03edd1648b8a14aed",
+ "message_id": "msg_011CgFugAGeDb4duAtQzaqvB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 8010,
+  "output_tokens": 593,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that the appropriate time has not yet arrived, but I expect that conditions may warrant an increase in the federal funds rate target sometime this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"If incoming data support such a forecast, the federal funds rate should be normalized, but at a gradual pace.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"While there has been considerable progress on the maximum employment leg of our dual mandate, progress on the price stability leg has been notably absent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"But I think we can all agree that the recovery in the labor market has been substantial.\"},{\"dimension\":\"risk_balance\",\"quote\":\"International experience therefore counsels caution in removing accommodation until the Committee is more confident that aggregate demand will continue to expand in line with its expectations\"},{\"dimension\":\"overall\",\"quote\":\"a significant pickup in incoming readings on core inflation will not be a precondition for me to judge that an initial increase in the federal funds rate would be warranted.\"}],\"rationale\":\"The Chair signals liftoff likely this year without waiting for inflation to rise, a hawkish shift from zero rates, but heavily emphasizes a gradual path, low equilibrium rates, and downside risks near the zero lower bound. On balance, the signal is roughly neutral with a slight hawkish tilt relative to the prevailing near-zero stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that the appropriate time has not yet arrived, but I expect that conditions may warrant an increase in the federal funds rate target sometime this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "If incoming data support such a forecast, the federal funds rate should be normalized, but at a gradual pace."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "While there has been considerable progress on the maximum employment leg of our dual mandate, progress on the price stability leg has been notably absent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "But I think we can all agree that the recovery in the labor market has been substantial."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "International experience therefore counsels caution in removing accommodation until the Committee is more confident that aggregate demand will continue to expand in line with its expectations"
+   },
+   {
+    "dimension": "overall",
+    "quote": "a significant pickup in incoming readings on core inflation will not be a precondition for me to judge that an initial increase in the federal funds rate would be warranted."
+   }
+  ],
+  "rationale": "The Chair signals liftoff likely this year without waiting for inflation to rise, a hawkish shift from zero rates, but heavily emphasizes a gradual path, low equilibrium rates, and downside risks near the zero lower bound. On balance, the signal is roughly neutral with a slight hawkish tilt relative to the prevailing near-zero stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that the appropriate time has not yet arrived, but I expect that conditions may warrant an increase in the federal funds rate target sometime this year.",
+     "start": 6518,
+     "end": 6679
+    },
+    {
+     "quote": "If incoming data support such a forecast, the federal funds rate should be normalized, but at a gradual pace.",
+     "start": 18565,
+     "end": 18673
+    },
+    {
+     "quote": "While there has been considerable progress on the maximum employment leg of our dual mandate, progress on the price stability leg has been notably absent.",
+     "start": 4863,
+     "end": 5016
+    },
+    {
+     "quote": "But I think we can all agree that the recovery in the labor market has been substantial.",
+     "start": 2856,
+     "end": 2943
+    },
+    {
+     "quote": "International experience therefore counsels caution in removing accommodation until the Committee is more confident that aggregate demand will continue to expand in line with its expectations",
+     "start": 20576,
+     "end": 20767
+    },
+    {
+     "quote": "a significant pickup in incoming readings on core inflation will not be a precondition for me to judge that an initial increase in the federal funds rate would be warranted.",
+     "start": 8613,
+     "end": 8785
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

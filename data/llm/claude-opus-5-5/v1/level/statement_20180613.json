@@ -1,0 +1,121 @@
+{
+ "key": "statement_20180613",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20180613",
+  "doc_type": "statement",
+  "text_sha256": "858f259d6f694cdcd2155ed191570e6c9a97e7847d2aabf1a96c56f86f35c778"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "01e5fd485e8516d6caec49d37992e710e904c456ad9fb3005c82c7ea665c902c",
+ "message_id": "msg_011CgFug8UFFsoizxzCxKCAK",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 672,
+  "output_tokens": 465,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":2,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.55,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and that economic activity has been rising at a solid rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"both overall inflation and inflation for items other than food and energy have moved close to 2 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"Risks to the economic outlook appear roughly balanced.\"},{\"dimension\":\"overall\",\"quote\":\"The stance of monetary policy remains accommodative\"}],\"rationale\":\"The Committee raised rates, signaled further gradual increases, and described strong activity and labor conditions, while inflation is near target and risks are balanced. The net signal is a clear but measured hawkish tightening path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 2,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.55,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "both overall inflation and inflation for items other than food and energy have moved close to 2 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Risks to the economic outlook appear roughly balanced."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The stance of monetary policy remains accommodative"
+   }
+  ],
+  "rationale": "The Committee raised rates, signaled further gradual increases, and described strong activity and labor conditions, while inflation is near target and risks are balanced. The net signal is a clear but measured hawkish tightening path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent",
+     "start": 1153,
+     "end": 1249
+    },
+    {
+     "quote": "The Committee expects that further gradual increases in the target range for the federal funds rate will be consistent with sustained expansion of economic activity",
+     "start": 740,
+     "end": 904
+    },
+    {
+     "quote": "the labor market has continued to strengthen and that economic activity has been rising at a solid rate",
+     "start": 87,
+     "end": 190
+    },
+    {
+     "quote": "both overall inflation and inflation for items other than food and energy have moved close to 2 percent",
+     "start": 444,
+     "end": 547
+    },
+    {
+     "quote": "Risks to the economic outlook appear roughly balanced.",
+     "start": 1025,
+     "end": 1078
+    },
+    {
+     "quote": "The stance of monetary policy remains accommodative",
+     "start": 1251,
+     "end": 1302
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

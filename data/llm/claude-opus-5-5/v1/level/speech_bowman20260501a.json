@@ -1,0 +1,85 @@
+{
+ "key": "speech_bowman20260501a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260501a",
+  "doc_type": "speech",
+  "text_sha256": "874573009dd4fbbbf8c0694029af2578543ffc48d4555684ddadf0932087cdc2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "add63d7ace8f44b88d0c11d528bd49acc5666b17443e893a8c115064ac3eefb6",
+ "message_id": "msg_011CgFugEf4zqngC3JRx74qy",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2866,
+  "output_tokens": 319,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I will discuss the use of AI in the banking system, the Federal Reserve's supervisory approach for financial institutions, and how the benefits and risks of AI are contributing to the international financial stability conversation.\"},{\"dimension\":\"overall\",\"quote\":\"Over the past year, the Federal Reserve has been working to shift our supervisory focus to identifying and remediating material financial risk.\"}],\"rationale\":\"The speech addresses AI, cybersecurity and bank supervision and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with null dimensions.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I will discuss the use of AI in the banking system, the Federal Reserve's supervisory approach for financial institutions, and how the benefits and risks of AI are contributing to the international financial stability conversation."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Over the past year, the Federal Reserve has been working to shift our supervisory focus to identifying and remediating material financial risk."
+   }
+  ],
+  "rationale": "The speech addresses AI, cybersecurity and bank supervision and contains no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with null dimensions."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I will discuss the use of AI in the banking system, the Federal Reserve's supervisory approach for financial institutions, and how the benefits and risks of AI are contributing to the international financial stability conversation.",
+     "start": 1464,
+     "end": 1701
+    },
+    {
+     "quote": "Over the past year, the Federal Reserve has been working to shift our supervisory focus to identifying and remediating material financial risk.",
+     "start": 3186,
+     "end": 3328
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "key": "statement_20090812",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20090812",
+  "previous_doc_id": "statement_20090624",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3e6ab72680502f7fc4a092442541e6111cb4f84f9b1a29411f2621f0e96050c9",
+ "message_id": "msg_011CgFudURxqBi5khucCmxyC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1536,
+  "output_tokens": 530,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in April suggests that the pace of economic contraction is slowing.\",\"after\":\"Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.\",\"direction\":\"hawkish\"},{\"before\":\"Conditions in financial markets have generally improved in recent months.\",\"after\":\"Conditions in financial markets have improved further in recent weeks.\",\"direction\":\"hawkish\"},{\"before\":\"Household spending has shown further signs of stabilizing but remains constrained by ongoing job losses, lower housing wealth, and tight credit.\",\"after\":\"Household spending has continued to show signs of stabilizing but remains constrained by ongoing job losses, sluggish income growth, lower housing wealth, and tight credit.\",\"direction\":\"dovish\"},{\"before\":\"In addition, the Federal Reserve will buy up to $300 billion of Treasury securities by autumn.\",\"after\":\"In addition, the Federal Reserve is in the process of buying $300 billion of Treasury securities. To promote a smooth transition in markets as these purchases of Treasury securities are completed, the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October.\",\"direction\":\"hawkish\"}],\"rationale\":\"The statement upgrades the economic assessment and announces a tapering and wind-down of Treasury purchases rather than any extension, a modestly hawkish shift. Rate guidance ('extended period') and the inflation outlook are unchanged, so the shift is limited.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in April suggests that the pace of economic contraction is slowing.",
+    "after": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Conditions in financial markets have generally improved in recent months.",
+    "after": "Conditions in financial markets have improved further in recent weeks.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending has shown further signs of stabilizing but remains constrained by ongoing job losses, lower housing wealth, and tight credit.",
+    "after": "Household spending has continued to show signs of stabilizing but remains constrained by ongoing job losses, sluggish income growth, lower housing wealth, and tight credit.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In addition, the Federal Reserve will buy up to $300 billion of Treasury securities by autumn.",
+    "after": "In addition, the Federal Reserve is in the process of buying $300 billion of Treasury securities. To promote a smooth transition in markets as these purchases of Treasury securities are completed, the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October.",
+    "direction": "hawkish"
+   }
+  ],
+  "rationale": "The statement upgrades the economic assessment and announces a tapering and wind-down of Treasury purchases rather than any extension, a modestly hawkish shift. Rate guidance ('extended period') and the inflation outlook are unchanged, so the shift is limited."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in April suggests that the pace of economic contraction is slowing.",
+     "start": 0,
+     "end": 131
+    },
+    {
+     "quote": "Conditions in financial markets have generally improved in recent months.",
+     "start": 133,
+     "end": 205
+    },
+    {
+     "quote": "Household spending has shown further signs of stabilizing but remains constrained by ongoing job losses, lower housing wealth, and tight credit.",
+     "start": 207,
+     "end": 350
+    },
+    {
+     "quote": "In addition, the Federal Reserve will buy up to $300 billion of Treasury securities by autumn.",
+     "start": 1735,
+     "end": 1828
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in June suggests that economic activity is leveling out.",
+     "start": 0,
+     "end": 120
+    },
+    {
+     "quote": "Conditions in financial markets have improved further in recent weeks.",
+     "start": 122,
+     "end": 191
+    },
+    {
+     "quote": "Household spending has continued to show signs of stabilizing but remains constrained by ongoing job losses, sluggish income growth, lower housing wealth, and tight credit.",
+     "start": 193,
+     "end": 364
+    },
+    {
+     "quote": "In addition, the Federal Reserve is in the process of buying $300 billion of Treasury securities. To promote a smooth transition in markets as these purchases of Treasury securities are completed, the Committee has decided to gradually slow the pace of these transactions and anticipates that the full amount will be purchased by the end of October.",
+     "start": 1746,
+     "end": 2094
+    }
+   ]
+  }
+ }
+}

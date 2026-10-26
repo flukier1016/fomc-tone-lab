@@ -1,0 +1,121 @@
+{
+ "key": "presser_20250319",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20250319",
+  "doc_type": "presser",
+  "text_sha256": "c2f6a43d60a54258ad4d4e461ba2a2e6e7911755f0fec4e2cb2bb6cb65f94d0a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "54a5398dc8a198e56f273f70a74a292260d16cbca102e362618a6400f998ca97",
+ "message_id": "msg_011CgFug95D8q55MqPxmbfz1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 12381,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We do not need to be in a hurry to adjust our policy stance, and we are well positioned to wait for greater clarity.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The median participant projects that the appropriate level of the federal funds rate will be 3.9 percent at the end of this year and 3.4 percent at the end of next year, unchanged from December.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I do think with the arrival of, of the tariff inflation, further progress may be delayed\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Beginning in April, the monthly cap on Treasury redemptions will be lowered from $25 billion to $5 billion.\"},{\"dimension\":\"risk_balance\",\"quote\":\"participants widely raised their estimate of, of the risks to our—of uncertainty, but also of the risks to growth in our employment and inflation mandates.\"}],\"rationale\":\"The Chair holds rates, keeps two projected cuts, and emphasizes patience, balancing tariff-driven inflation concerns and delayed progress against weaker growth and downside sentiment risks. Slowing QT is a modestly dovish balance-sheet step, though it is framed as technical, leaving a roughly neutral net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We do not need to be in a hurry to adjust our policy stance, and we are well positioned to wait for greater clarity."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The median participant projects that the appropriate level of the federal funds rate will be 3.9 percent at the end of this year and 3.4 percent at the end of next year, unchanged from December."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I do think with the arrival of, of the tariff inflation, further progress may be delayed"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Beginning in April, the monthly cap on Treasury redemptions will be lowered from $25 billion to $5 billion."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "participants widely raised their estimate of, of the risks to our—of uncertainty, but also of the risks to growth in our employment and inflation mandates."
+   }
+  ],
+  "rationale": "The Chair holds rates, keeps two projected cuts, and emphasizes patience, balancing tariff-driven inflation concerns and delayed progress against weaker growth and downside sentiment risks. Slowing QT is a modestly dovish balance-sheet step, though it is framed as technical, leaving a roughly neutral net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent.",
+     "start": 3158,
+     "end": 3275
+    },
+    {
+     "quote": "We do not need to be in a hurry to adjust our policy stance, and we are well positioned to wait for greater clarity.",
+     "start": 4083,
+     "end": 4198
+    },
+    {
+     "quote": "The median participant projects that the appropriate level of the federal funds rate will be 3.9 percent at the end of this year and 3.4 percent at the end of next year, unchanged from December.",
+     "start": 4490,
+     "end": 4683
+    },
+    {
+     "quote": "I do think with the arrival of, of the tariff inflation, further progress may be delayed",
+     "start": 12540,
+     "end": 12628
+    },
+    {
+     "quote": "Beginning in April, the monthly cap on Treasury redemptions will be lowered from $25 billion to $5 billion.",
+     "start": 5821,
+     "end": 5927
+    },
+    {
+     "quote": "participants widely raised their estimate of, of the risks to our—of uncertainty, but also of the risks to growth in our employment and inflation mandates.",
+     "start": 34344,
+     "end": 34498
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

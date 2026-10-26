@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20160210a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20160210a",
+  "doc_type": "speech",
+  "text_sha256": "9a9048f3645d7adb88a554eada3fe07de41d029a808211eb2569680f8cb68ffb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4e8fed60cf9874604dc73b809fa9c9201dd37f4c43c5c7af5b6b54b030a5f654",
+ "message_id": "msg_011CgFugDytHXoceNpaPzgSj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4838,
+  "output_tokens": 323,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Overall, the U.S. financial agencies collectively have substantial lender-of-last-resort authorities to meet future contingencies.\"},{\"dimension\":\"overall\",\"quote\":\"Strengthening fire prevention regulations does not imply that the fire brigade should be disbanded.\"},{\"dimension\":\"overall\",\"quote\":\"The new system has not undergone its own stress test.\"}],\"rationale\":\"The speech concerns lender-of-last-resort authority, financial regulation and crisis management under Dodd-Frank, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Overall, the U.S. financial agencies collectively have substantial lender-of-last-resort authorities to meet future contingencies."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Strengthening fire prevention regulations does not imply that the fire brigade should be disbanded."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The new system has not undergone its own stress test."
+   }
+  ],
+  "rationale": "The speech concerns lender-of-last-resort authority, financial regulation and crisis management under Dodd-Frank, with no discussion of interest rates, inflation, or the economic outlook. It carries no monetary policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Overall, the U.S. financial agencies collectively have substantial lender-of-last-resort authorities to meet future contingencies.",
+     "start": 12794,
+     "end": 12923
+    },
+    {
+     "quote": "Strengthening fire prevention regulations does not imply that the fire brigade should be disbanded.",
+     "start": 15297,
+     "end": 15395
+    },
+    {
+     "quote": "The new system has not undergone its own stress test.",
+     "start": 15457,
+     "end": 15509
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

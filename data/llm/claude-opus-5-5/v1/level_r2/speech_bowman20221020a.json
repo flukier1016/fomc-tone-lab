@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20221020a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20221020a",
+  "doc_type": "speech",
+  "text_sha256": "56af5f45c674f4b5ddc1ab950f0d722f1ebd9e9b61140d0d4d30eaf93dab8c00"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "1bc57f1276264641efca8c87a16c6645b3d067210db3a47256b049d7959663d1",
+ "message_id": "msg_011CgG28bUsiG3BKHnV3H3xq",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2043,
+  "output_tokens": 365,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today's seminar, hosted by the Board of Governors, will focus on how the COVID-19 pandemic affected educational outcomes and the subsequent impact we anticipate for transitions to the labor force.\"},{\"dimension\":\"overall\",\"quote\":\"Education is the greatest and most effective input into the future of our labor market.\"},{\"dimension\":\"overall\",\"quote\":\"The disruption of education throughout the pandemic undoubtedly led to an absence of workers in the labor force, creating a shortage that held back the early economic recovery.\"}],\"rationale\":\"These are welcoming remarks about pandemic education losses and long-run labor force effects, with no discussion of monetary policy, inflation, or the near-term outlook. The stance is neutral and relevance is low.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today's seminar, hosted by the Board of Governors, will focus on how the COVID-19 pandemic affected educational outcomes and the subsequent impact we anticipate for transitions to the labor force."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Education is the greatest and most effective input into the future of our labor market."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The disruption of education throughout the pandemic undoubtedly led to an absence of workers in the labor force, creating a shortage that held back the early economic recovery."
+   }
+  ],
+  "rationale": "These are welcoming remarks about pandemic education losses and long-run labor force effects, with no discussion of monetary policy, inflation, or the near-term outlook. The stance is neutral and relevance is low."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today's seminar, hosted by the Board of Governors, will focus on how the COVID-19 pandemic affected educational outcomes and the subsequent impact we anticipate for transitions to the labor force.",
+     "start": 800,
+     "end": 995
+    },
+    {
+     "quote": "Education is the greatest and most effective input into the future of our labor market.",
+     "start": 5741,
+     "end": 5827
+    },
+    {
+     "quote": "The disruption of education throughout the pandemic undoubtedly led to an absence of workers in the labor force, creating a shortage that held back the early economic recovery.",
+     "start": 1927,
+     "end": 2102
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

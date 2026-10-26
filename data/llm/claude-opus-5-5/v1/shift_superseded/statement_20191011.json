@@ -1,0 +1,109 @@
+{
+ "key": "statement_20191011",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20191011",
+  "previous_doc_id": "statement_20190918",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6ab443d5cd7acdbbd421325f0345bb831333c3b0d5c38694eb128e873b3ddbd5",
+ "message_id": "msg_011CgFue3qPWiNPeuWWLJiEy",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2298,
+  "output_tokens": 409,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:17+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"\",\"after\":\"the Federal Reserve will purchase Treasury bills at least into the second quarter of next year in order to maintain over time ample reserve balances at or above the level that prevailed in early September 2019.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.\",\"direction\":\"neutral\"},{\"before\":\"\",\"after\":\"the Federal Reserve will conduct term and overnight repurchase agreement operations at least through January of next year\",\"direction\":\"neutral\"},{\"before\":\"the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.\",\"after\":\"maintain the federal funds rate in a target range of 1-3/4 to 2 percent.\",\"direction\":\"neutral\"}],\"rationale\":\"The current document is a technical implementation statement that keeps the target range unchanged and explicitly says the bill purchases and repo operations do not change the policy stance. Balance-sheet expansion could be read as mildly accommodative, but the explicit disclaimer and the absence of new rate guidance imply no material shift in signal.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "",
+    "after": "the Federal Reserve will purchase Treasury bills at least into the second quarter of next year in order to maintain over time ample reserve balances at or above the level that prevailed in early September 2019.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.",
+    "direction": "neutral"
+   },
+   {
+    "before": "",
+    "after": "the Federal Reserve will conduct term and overnight repurchase agreement operations at least through January of next year",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.",
+    "after": "maintain the federal funds rate in a target range of 1-3/4 to 2 percent.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The current document is a technical implementation statement that keeps the target range unchanged and explicitly says the bill purchases and repo operations do not change the policy stance. Balance-sheet expansion could be read as mildly accommodative, but the explicit disclaimer and the absence of new rate guidance imply no material shift in signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 1,
+   "verified": 1,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate to 1-3/4 to 2 percent.",
+     "start": 883,
+     "end": 979
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Federal Reserve will purchase Treasury bills at least into the second quarter of next year in order to maintain over time ample reserve balances at or above the level that prevailed in early September 2019.",
+     "start": 813,
+     "end": 1022
+    },
+    {
+     "quote": "These actions are purely technical measures to support the effective implementation of the FOMC's monetary policy, and do not represent a change in the stance of monetary policy.",
+     "start": 1382,
+     "end": 1559
+    },
+    {
+     "quote": "the Federal Reserve will conduct term and overnight repurchase agreement operations at least through January of next year",
+     "start": 1038,
+     "end": 1159
+    },
+    {
+     "quote": "maintain the federal funds rate in a target range of 1-3/4 to 2 percent.",
+     "start": 2303,
+     "end": 2374
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_fischer20170706a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20170706a",
+  "doc_type": "speech",
+  "text_sha256": "14cc30edb18f09c2feb8fca0d51dfa9a7886185e03ab77e3c1de50a454d1dc56"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "8688ac0bd91f89218f8b834af564effdbcbfc9952ee5b4f5facc3bdbfba5e9a3",
+ "message_id": "msg_011CgFugHtHd4hp9UippSvU8",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3642,
+  "output_tokens": 314,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The record for the past five years has been particularly dismal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Nevertheless, firms as a whole seem reluctant to invest.\"},{\"dimension\":\"overall\",\"quote\":\"Governments can take sensible actions to promote more rapid productivity growth.\"}],\"rationale\":\"The speech addresses long-run productivity growth and fiscal and structural policy, not monetary policy, so it carries no rate signal. Its only macro characterization is of weak productivity and investment, which earns a mild dovish tag on activity.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The record for the past five years has been particularly dismal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Nevertheless, firms as a whole seem reluctant to invest."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Governments can take sensible actions to promote more rapid productivity growth."
+   }
+  ],
+  "rationale": "The speech addresses long-run productivity growth and fiscal and structural policy, not monetary policy, so it carries no rate signal. Its only macro characterization is of weak productivity and investment, which earns a mild dovish tag on activity."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The record for the past five years has been particularly dismal.",
+     "start": 1052,
+     "end": 1115
+    },
+    {
+     "quote": "Nevertheless, firms as a whole seem reluctant to invest.",
+     "start": 8196,
+     "end": 8251
+    },
+    {
+     "quote": "Governments can take sensible actions to promote more rapid productivity growth.",
+     "start": 11791,
+     "end": 11870
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "key": "statement_20110427",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20110427",
+  "previous_doc_id": "statement_20110315",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "555c92727867c196c1b5823939bd2b10dc884f73c8946a35e88f2e9442ea6857",
+ "message_id": "msg_011CgFudy87xiVVCEPEBTbxp",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 1894,
+  "output_tokens": 666,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"suggests that the economic recovery is on a firmer footing, and overall conditions in the labor market appear to be improving gradually\",\"after\":\"indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually\",\"direction\":\"dovish\"},{\"before\":\"Nonetheless, longer-term inflation expectations have remained stable, and measures of underlying inflation have been subdued.\",\"after\":\"Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.\",\"direction\":\"hawkish\"},{\"before\":\"The recent increases in the prices of energy and other commodities are currently putting upward pressure on inflation.\",\"after\":\"Increases in the prices of energy and other commodities have pushed up inflation in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011\",\"after\":\"will complete purchases of $600 billion of longer-term Treasury securities by the end of the current quarter\",\"direction\":\"hawkish\"},{\"before\":\"The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed\",\"after\":\"The Committee will regularly review the size and composition of its securities holdings in light of incoming information and is prepared to adjust those holdings as needed\",\"direction\":\"hawkish\"},{\"before\":\"have contributed to a sharp run-up in oil prices in recent weeks\",\"after\":\"have contributed to a further increase in oil prices since the Committee met in March\",\"direction\":\"neutral\"}],\"rationale\":\"The statement acknowledges that inflation has actually picked up and signals that QE2 will end on schedule, shifting from purchase-pace review to holdings review, which leans modestly hawkish. These are offset only slightly by a softer growth description, while the 'extended period' rate guidance is unchanged.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "suggests that the economic recovery is on a firmer footing, and overall conditions in the labor market appear to be improving gradually",
+    "after": "indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually",
+    "direction": "dovish"
+   },
+   {
+    "before": "Nonetheless, longer-term inflation expectations have remained stable, and measures of underlying inflation have been subdued.",
+    "after": "Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The recent increases in the prices of energy and other commodities are currently putting upward pressure on inflation.",
+    "after": "Increases in the prices of energy and other commodities have pushed up inflation in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011",
+    "after": "will complete purchases of $600 billion of longer-term Treasury securities by the end of the current quarter",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed",
+    "after": "The Committee will regularly review the size and composition of its securities holdings in light of incoming information and is prepared to adjust those holdings as needed",
+    "direction": "hawkish"
+   },
+   {
+    "before": "have contributed to a sharp run-up in oil prices in recent weeks",
+    "after": "have contributed to a further increase in oil prices since the Committee met in March",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement acknowledges that inflation has actually picked up and signals that QE2 will end on schedule, shifting from purchase-pace review to holdings review, which leans modestly hawkish. These are offset only slightly by a softer growth description, while the 'extended period' rate guidance is unchanged."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "suggests that the economic recovery is on a firmer footing, and overall conditions in the labor market appear to be improving gradually",
+     "start": 76,
+     "end": 211
+    },
+    {
+     "quote": "Nonetheless, longer-term inflation expectations have remained stable, and measures of underlying inflation have been subdued.",
+     "start": 590,
+     "end": 714
+    },
+    {
+     "quote": "The recent increases in the prices of energy and other commodities are currently putting upward pressure on inflation.",
+     "start": 1050,
+     "end": 1167
+    },
+    {
+     "quote": "intends to purchase $600 billion of longer-term Treasury securities by the end of the second quarter of 2011",
+     "start": 1813,
+     "end": 1921
+    },
+    {
+     "quote": "The Committee will regularly review the pace of its securities purchases and the overall size of the asset-purchase program in light of incoming information and will adjust the program as needed",
+     "start": 1923,
+     "end": 2117
+    },
+    {
+     "quote": "have contributed to a sharp run-up in oil prices in recent weeks",
+     "start": 524,
+     "end": 588
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually",
+     "start": 74,
+     "end": 210
+    },
+    {
+     "quote": "Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.",
+     "start": 611,
+     "end": 767
+    },
+    {
+     "quote": "Increases in the prices of energy and other commodities have pushed up inflation in recent months.",
+     "start": 1092,
+     "end": 1189
+    },
+    {
+     "quote": "will complete purchases of $600 billion of longer-term Treasury securities by the end of the current quarter",
+     "start": 1835,
+     "end": 1943
+    },
+    {
+     "quote": "The Committee will regularly review the size and composition of its securities holdings in light of incoming information and is prepared to adjust those holdings as needed",
+     "start": 1945,
+     "end": 2116
+    },
+    {
+     "quote": "have contributed to a further increase in oil prices since the Committee met in March",
+     "start": 524,
+     "end": 609
+    }
+   ]
+  }
+ }
+}

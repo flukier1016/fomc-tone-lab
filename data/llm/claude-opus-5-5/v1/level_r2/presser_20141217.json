@@ -1,0 +1,121 @@
+{
+ "key": "presser_20141217",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20141217",
+  "doc_type": "presser",
+  "text_sha256": "ae15aadc177141b4e671c656f39b190d415afe1bcf98e19a6c53be71a9a06245"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ce5f75d318dcce0241ac40a03230d58e73e9b5c049a00f62a9f45cf645b6a5d5",
+ "message_id": "msg_011CgG27rjd1SaWA3bSxoCdj",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10069,
+  "output_tokens": 598,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In particular, the Committee considers it unlikely to begin the normalization process for at least the next couple of meetings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"almost all participants believe that it will be appropriate to begin raising the target range for the federal funds rate in 2015.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Employment is rising at a healthy rate and the U.S. economy is strengthening, reflecting, in part, a highly accommodative stance of monetary policy.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run below the Committee’s 2 percent objective, and the recent sizable declines in oil prices will likely hold down overall inflation in the near term.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"monetary policy will still be very accommodative for a long time.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from holdings of agency debt and MBS.\"}],\"rationale\":\"The Chair holds rates at zero but replaces 'considerable time' with 'patient', implying liftoff is possible after two meetings and likely in 2015, a mild hawkish shift amid strong labor data. That shift is offset by low inflation, a gradual expected path, and continued reinvestment, leaving a near-neutral, slightly hawkish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In particular, the Committee considers it unlikely to begin the normalization process for at least the next couple of meetings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "almost all participants believe that it will be appropriate to begin raising the target range for the federal funds rate in 2015."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Employment is rising at a healthy rate and the U.S. economy is strengthening, reflecting, in part, a highly accommodative stance of monetary policy."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run below the Committee’s 2 percent objective, and the recent sizable declines in oil prices will likely hold down overall inflation in the near term."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "monetary policy will still be very accommodative for a long time."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from holdings of agency debt and MBS."
+   }
+  ],
+  "rationale": "The Chair holds rates at zero but replaces 'considerable time' with 'patient', implying liftoff is possible after two meetings and likely in 2015, a mild hawkish shift amid strong labor data. That shift is offset by low inflation, a gradual expected path, and continued reinvestment, leaving a near-neutral, slightly hawkish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In particular, the Committee considers it unlikely to begin the normalization process for at least the next couple of meetings.",
+     "start": 6701,
+     "end": 6827
+    },
+    {
+     "quote": "almost all participants believe that it will be appropriate to begin raising the target range for the federal funds rate in 2015.",
+     "start": 7784,
+     "end": 7912
+    },
+    {
+     "quote": "Employment is rising at a healthy rate and the U.S. economy is strengthening, reflecting, in part, a highly accommodative stance of monetary policy.",
+     "start": 6170,
+     "end": 6317
+    },
+    {
+     "quote": "Inflation has continued to run below the Committee’s 2 percent objective, and the recent sizable declines in oil prices will likely hold down overall inflation in the near term.",
+     "start": 2635,
+     "end": 2811
+    },
+    {
+     "quote": "monetary policy will still be very accommodative for a long time.",
+     "start": 20155,
+     "end": 20219
+    },
+    {
+     "quote": "Finally, the Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from holdings of agency debt and MBS.",
+     "start": 9499,
+     "end": 9664
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

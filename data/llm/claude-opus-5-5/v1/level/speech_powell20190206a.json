@@ -1,0 +1,85 @@
+{
+ "key": "speech_powell20190206a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20190206a",
+  "doc_type": "speech",
+  "text_sha256": "3ff0e11ce3bd40462b6e7a1a96a74168470f50c45af48f7e7e51fe434119dda4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e04cbf5fe38bd5c91594c54641c4d59d50a58298a6d5ac2ac5720411bca1befb",
+ "message_id": "msg_011CgFugEPwYsPycZfUHAAYR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1673,
+  "output_tokens": 279,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I am here today, and the Fed has organized this event, because of the importance of economics education.\"},{\"dimension\":\"overall\",\"quote\":\"Monetary policy can be a powerful tool to achieve these ends, but, in truth, its powers are dwarfed by larger forces, such as the productivity of the American people and the strength of their finances.\"}],\"rationale\":\"The speech is about economics education and Fed outreach to teachers. It offers no view on rates, inflation, the economy, or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I am here today, and the Fed has organized this event, because of the importance of economics education."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Monetary policy can be a powerful tool to achieve these ends, but, in truth, its powers are dwarfed by larger forces, such as the productivity of the American people and the strength of their finances."
+   }
+  ],
+  "rationale": "The speech is about economics education and Fed outreach to teachers. It offers no view on rates, inflation, the economy, or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I am here today, and the Fed has organized this event, because of the importance of economics education.",
+     "start": 350,
+     "end": 453
+    },
+    {
+     "quote": "Monetary policy can be a powerful tool to achieve these ends, but, in truth, its powers are dwarfed by larger forces, such as the productivity of the American people and the strength of their finances.",
+     "start": 3815,
+     "end": 4015
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

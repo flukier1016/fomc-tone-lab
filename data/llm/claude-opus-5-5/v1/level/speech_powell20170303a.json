@@ -1,0 +1,94 @@
+{
+ "key": "speech_powell20170303a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20170303a",
+  "doc_type": "speech",
+  "text_sha256": "9b9ac88051a2c15b6168d1ef417f7f35dcdd8265147b47ac22b9f0f20f6dc37c"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "496b87543e08d6d93b48c2f7c6e891fa6fe9cee4877bf171ce148d0ad8df535a",
+ "message_id": "msg_011CgFug9AusDqBjTGrBcSmj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5034,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"At the Fed, we have identified efficiency and safety as our most fundamental objectives, as set forth in our Policy on Payment System Risk.\"},{\"dimension\":\"overall\",\"quote\":\"Today, however, I will focus on the Faster Payments Task Force.\"},{\"dimension\":\"overall\",\"quote\":\"My last topic is the potential use of DLT or other technologies by central banks to issue a digital currency to the general public.\"}],\"rationale\":\"The speech addresses payments system innovation, distributed ledger technology, and central bank digital currency, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "At the Fed, we have identified efficiency and safety as our most fundamental objectives, as set forth in our Policy on Payment System Risk."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, however, I will focus on the Faster Payments Task Force."
+   },
+   {
+    "dimension": "overall",
+    "quote": "My last topic is the potential use of DLT or other technologies by central banks to issue a digital currency to the general public."
+   }
+  ],
+  "rationale": "The speech addresses payments system innovation, distributed ledger technology, and central bank digital currency, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At the Fed, we have identified efficiency and safety as our most fundamental objectives, as set forth in our Policy on Payment System Risk.",
+     "start": 1651,
+     "end": 1789
+    },
+    {
+     "quote": "Today, however, I will focus on the Faster Payments Task Force.",
+     "start": 4876,
+     "end": 4938
+    },
+    {
+     "quote": "My last topic is the potential use of DLT or other technologies by central banks to issue a digital currency to the general public.",
+     "start": 13956,
+     "end": 14086
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

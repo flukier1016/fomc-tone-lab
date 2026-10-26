@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20110427",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20110427",
+  "doc_type": "minutes",
+  "text_sha256": "6ee090683dae02e75eaa8a6b05dad3b5dd9463afb4beee07349b87ecfb0e1cde"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "5ec095f9ef18c5ec7270f6c66d2368149df3be2b6f8af18d42cf7e6377808a5c",
+ "message_id": "msg_011CgFug9PozY3nr8kSTfwXH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13916,
+  "output_tokens": 576,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"nearly all participants indicated that the first step toward normalization should be ceasing to reinvest payments of principal on agency securities\"},{\"dimension\":\"risk_balance\",\"quote\":\"Many participants had become more concerned about the upside risks to the inflation outlook\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A few of these participants thought that economic conditions might warrant action to raise the federal funds rate target or to sell assets in the SOMA portfolio later this year\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Some members pointed out that there would need to be a significant change in the economic outlook, or the risks to that outlook, before another program of asset purchases would be warranted\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants generally anticipated that the higher level of overall inflation would be transitory.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the information received since their previous meeting was broadly consistent with continuation of a moderate economic recovery, despite an unexpected slowing in the pace of economic growth in the first quarter\"}],\"rationale\":\"The minutes feature an extensive exit-strategy discussion, heightened concern about upside inflation risks, and some participants floating tightening later this year, though the extended-period guidance and the completion of QE2 were maintained. The net lean is moderately hawkish relative to the accommodative baseline.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "nearly all participants indicated that the first step toward normalization should be ceasing to reinvest payments of principal on agency securities"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Many participants had become more concerned about the upside risks to the inflation outlook"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A few of these participants thought that economic conditions might warrant action to raise the federal funds rate target or to sell assets in the SOMA portfolio later this year"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Some members pointed out that there would need to be a significant change in the economic outlook, or the risks to that outlook, before another program of asset purchases would be warranted"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants generally anticipated that the higher level of overall inflation would be transitory."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the information received since their previous meeting was broadly consistent with continuation of a moderate economic recovery, despite an unexpected slowing in the pace of economic growth in the first quarter"
+   }
+  ],
+  "rationale": "The minutes feature an extensive exit-strategy discussion, heightened concern about upside inflation risks, and some participants floating tightening later this year, though the extended-period guidance and the completion of QE2 were maintained. The net lean is moderately hawkish relative to the accommodative baseline."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "nearly all participants indicated that the first step toward normalization should be ceasing to reinvest payments of principal on agency securities",
+     "start": 6152,
+     "end": 6299
+    },
+    {
+     "quote": "Many participants had become more concerned about the upside risks to the inflation outlook",
+     "start": 35984,
+     "end": 36075
+    },
+    {
+     "quote": "A few of these participants thought that economic conditions might warrant action to raise the federal funds rate target or to sell assets in the SOMA portfolio later this year",
+     "start": 38429,
+     "end": 38605
+    },
+    {
+     "quote": "Some members pointed out that there would need to be a significant change in the economic outlook, or the risks to that outlook, before another program of asset purchases would be warranted",
+     "start": 42078,
+     "end": 42267
+    },
+    {
+     "quote": "Participants generally anticipated that the higher level of overall inflation would be transitory.",
+     "start": 35340,
+     "end": 35437
+    },
+    {
+     "quote": "the information received since their previous meeting was broadly consistent with continuation of a moderate economic recovery, despite an unexpected slowing in the pace of economic growth in the first quarter",
+     "start": 28001,
+     "end": 28210
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_brainard20151106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20151106a",
+  "doc_type": "speech",
+  "text_sha256": "376faeea053a398451d87a3e2c83ea2dace0f79267f525c5264eb321d2442af5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "60e6cb2bac4f7dafe506cb97088438087fad4e076344a583bf0bcc7e3db1a15e",
+ "message_id": "msg_011CgFugEzQc4LQ8UjXj5DBj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5005,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"Looking ahead, a further weakening of foreign growth could pose downside risks to the U.S. outlook.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"But with policy rates in the United States at the lower bound, the ability to offset spillovers from adverse developments in foreign economies with conventional policy is constrained, suggesting greater caution than normal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The feedback loop between market expectations of divergence between the United States and our major trade partners and financial tightening in the United States means that material restraint to U.S. conditions is already in place.\"},{\"dimension\":\"overall\",\"quote\":\"Increased recognition of the risks to the outlook for major emerging market economies pushed the dollar up further to 15 percent above its level last summer and contributed to a more general tightening of financial conditions over the summer.\"}],\"rationale\":\"The speech is mostly an analysis of unconventional policy spillovers. It closes by stressing downside risks from foreign weakness and financial tightening already in place, and it urges greater caution than normal at the lower bound, which implies a dovish lean against near-term tightening.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "Looking ahead, a further weakening of foreign growth could pose downside risks to the U.S. outlook."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "But with policy rates in the United States at the lower bound, the ability to offset spillovers from adverse developments in foreign economies with conventional policy is constrained, suggesting greater caution than normal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The feedback loop between market expectations of divergence between the United States and our major trade partners and financial tightening in the United States means that material restraint to U.S. conditions is already in place."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Increased recognition of the risks to the outlook for major emerging market economies pushed the dollar up further to 15 percent above its level last summer and contributed to a more general tightening of financial conditions over the summer."
+   }
+  ],
+  "rationale": "The speech is mostly an analysis of unconventional policy spillovers. It closes by stressing downside risks from foreign weakness and financial tightening already in place, and it urges greater caution than normal at the lower bound, which implies a dovish lean against near-term tightening."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Looking ahead, a further weakening of foreign growth could pose downside risks to the U.S. outlook.",
+     "start": 15886,
+     "end": 15984
+    },
+    {
+     "quote": "But with policy rates in the United States at the lower bound, the ability to offset spillovers from adverse developments in foreign economies with conventional policy is constrained, suggesting greater caution than normal.",
+     "start": 16151,
+     "end": 16373
+    },
+    {
+     "quote": "The feedback loop between market expectations of divergence between the United States and our major trade partners and financial tightening in the United States means that material restraint to U.S. conditions is already in place.",
+     "start": 15655,
+     "end": 15884
+    },
+    {
+     "quote": "Increased recognition of the risks to the outlook for major emerging market economies pushed the dollar up further to 15 percent above its level last summer and contributed to a more general tightening of financial conditions over the summer.",
+     "start": 14849,
+     "end": 15090
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

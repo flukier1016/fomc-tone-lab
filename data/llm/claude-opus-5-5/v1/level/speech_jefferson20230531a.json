@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20230531a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20230531a",
+  "doc_type": "speech",
+  "text_sha256": "a1d13e203cc2c7c3a494103428b6a48124d9c94b759d195b8bcf1eb8f223cfcc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "57836f6b1352d72cd794cc09a79e17e4d232ff805b4d6e23b00b13366b17ff8e",
+ "message_id": "msg_011CgFugEpjvhzeeQVCanxic",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3745,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Indeed, skipping a rate hike at a coming meeting would allow the Committee to see more data before making decisions about the extent of additional policy firming.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"A decision to hold our policy rate constant at a coming meeting should not be interpreted to mean that we have reached the peak rate for this cycle.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has come down substantially since last summer, but it is still too high, and by some measures progress has been decelerating recently, particularly in the core services sector.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I expect spending and economic growth to remain quite slow over the rest of 2023, due to tight financial conditions, low consumer sentiment, heightened uncertainty, and a decline in household savings\"},{\"dimension\":\"risk_balance\",\"quote\":\"I expect those strains to lead to a further tightening in credit supply from banks that will weigh on economic activity.\"}],\"rationale\":\"Jefferson signals a likely pause (skip) at the coming meeting while saying the peak may not be reached, balancing a dovish near-term signal against still-too-high inflation. He stresses slow growth, lagged effects of tightening, and credit tightening from bank stress, giving a slight dovish net lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Indeed, skipping a rate hike at a coming meeting would allow the Committee to see more data before making decisions about the extent of additional policy firming."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "A decision to hold our policy rate constant at a coming meeting should not be interpreted to mean that we have reached the peak rate for this cycle."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has come down substantially since last summer, but it is still too high, and by some measures progress has been decelerating recently, particularly in the core services sector."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I expect spending and economic growth to remain quite slow over the rest of 2023, due to tight financial conditions, low consumer sentiment, heightened uncertainty, and a decline in household savings"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I expect those strains to lead to a further tightening in credit supply from banks that will weigh on economic activity."
+   }
+  ],
+  "rationale": "Jefferson signals a likely pause (skip) at the coming meeting while saying the peak may not be reached, balancing a dovish near-term signal against still-too-high inflation. He stresses slow growth, lagged effects of tightening, and credit tightening from bank stress, giving a slight dovish net lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Indeed, skipping a rate hike at a coming meeting would allow the Committee to see more data before making decisions about the extent of additional policy firming.",
+     "start": 6951,
+     "end": 7112
+    },
+    {
+     "quote": "A decision to hold our policy rate constant at a coming meeting should not be interpreted to mean that we have reached the peak rate for this cycle.",
+     "start": 6802,
+     "end": 6949
+    },
+    {
+     "quote": "Inflation has come down substantially since last summer, but it is still too high, and by some measures progress has been decelerating recently, particularly in the core services sector.",
+     "start": 5325,
+     "end": 5510
+    },
+    {
+     "quote": "I expect spending and economic growth to remain quite slow over the rest of 2023, due to tight financial conditions, low consumer sentiment, heightened uncertainty, and a decline in household savings",
+     "start": 5074,
+     "end": 5273
+    },
+    {
+     "quote": "I expect those strains to lead to a further tightening in credit supply from banks that will weigh on economic activity.",
+     "start": 10116,
+     "end": 10235
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

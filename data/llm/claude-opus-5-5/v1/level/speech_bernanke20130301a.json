@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20130301a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20130301a",
+  "doc_type": "speech",
+  "text_sha256": "8e5522b86a5eba8baae6e605dd33141f382623a07c1ec54151300649d48fffc9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cec786ab9a5a6a1ad336d925caed1242633e0aeb0ec812dc2a0c879c6f043afc",
+ "message_id": "msg_011CgFugB528KcNFy4sSZVmR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7941,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Premature rate increases would carry a high risk of short-circuiting the recovery, possibly leading--ironically enough--to an even longer period of low long-term rates.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC stated that a highly accommodative stance of monetary policy is likely to remain appropriate for a considerable time after our current asset purchase program ends.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In light of the moderate pace of the recovery and the continued high level of economic slack, dialing back accommodation with the goal of deterring excessive risk-taking in some areas poses its own risks to growth, price stability, and, ultimately, financial stability.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Expected inflation has been low and stable, reflecting central bank mandates and credibility as well as considerable resource slack in the major industrial economies.\"},{\"dimension\":\"risk_balance\",\"quote\":\"This weakness, all else being equal, dictates that monetary policy must remain accommodative if it is to support the recovery and reduce disinflationary risks.\"}],\"rationale\":\"The speech argues forcefully against tightening to address financial stability risks, emphasizing weak recovery, slack, and disinflationary risks, and reiterating highly accommodative guidance. Financial stability concerns are acknowledged but assigned to supervisory and communication tools rather than rate policy.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Premature rate increases would carry a high risk of short-circuiting the recovery, possibly leading--ironically enough--to an even longer period of low long-term rates."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC stated that a highly accommodative stance of monetary policy is likely to remain appropriate for a considerable time after our current asset purchase program ends."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In light of the moderate pace of the recovery and the continued high level of economic slack, dialing back accommodation with the goal of deterring excessive risk-taking in some areas poses its own risks to growth, price stability, and, ultimately, financial stability."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Expected inflation has been low and stable, reflecting central bank mandates and credibility as well as considerable resource slack in the major industrial economies."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "This weakness, all else being equal, dictates that monetary policy must remain accommodative if it is to support the recovery and reduce disinflationary risks."
+   }
+  ],
+  "rationale": "The speech argues forcefully against tightening to address financial stability risks, emphasizing weak recovery, slack, and disinflationary risks, and reiterating highly accommodative guidance. Financial stability concerns are acknowledged but assigned to supervisory and communication tools rather than rate policy."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Premature rate increases would carry a high risk of short-circuiting the recovery, possibly leading--ironically enough--to an even longer period of low long-term rates.",
+     "start": 20070,
+     "end": 20237
+    },
+    {
+     "quote": "the FOMC stated that a highly accommodative stance of monetary policy is likely to remain appropriate for a considerable time after our current asset purchase program ends.",
+     "start": 23884,
+     "end": 24055
+    },
+    {
+     "quote": "In light of the moderate pace of the recovery and the continued high level of economic slack, dialing back accommodation with the goal of deterring excessive risk-taking in some areas poses its own risks to growth, price stability, and, ultimately, financial stability.",
+     "start": 25919,
+     "end": 26187
+    },
+    {
+     "quote": "Expected inflation has been low and stable, reflecting central bank mandates and credibility as well as considerable resource slack in the major industrial economies.",
+     "start": 12306,
+     "end": 12471
+    },
+    {
+     "quote": "This weakness, all else being equal, dictates that monetary policy must remain accommodative if it is to support the recovery and reduce disinflationary risks.",
+     "start": 12656,
+     "end": 12814
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "key": "speech_brainard20170927a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170927a",
+  "doc_type": "speech",
+  "text_sha256": "3b84eab1074ceb205c98c5c888320d71c699d1825b2780def0ebc2ec946faed4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dd68206e484242da8426df326b18fec2e1eb78eb6d269818700c5d95fb07bd80",
+ "message_id": "msg_011CgFugFtEodEQUo6uXGP59",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4895,
+  "output_tokens": 493,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.4,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In August, the national unemployment rate of 4.4 percent, which is low by historical standards, masked substantial differences across different demographic groups.\"},{\"dimension\":\"overall\",\"quote\":\"This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards.\"},{\"dimension\":\"overall\",\"quote\":\"a deeper understanding of labor market disparities is central to the mission of the Federal Reserve because it may help us better assess full employment, where resources may be underutilized\"}],\"rationale\":\"The speech is mostly about diversity and labor market disparities, with no explicit policy guidance. Its emphasis on possible remaining slack and on a flexible maximum-employment approach gives a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.4,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In August, the national unemployment rate of 4.4 percent, which is low by historical standards, masked substantial differences across different demographic groups."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards."
+   },
+   {
+    "dimension": "overall",
+    "quote": "a deeper understanding of labor market disparities is central to the mission of the Federal Reserve because it may help us better assess full employment, where resources may be underutilized"
+   }
+  ],
+  "rationale": "The speech is mostly about diversity and labor market disparities, with no explicit policy guidance. Its emphasis on possible remaining slack and on a flexible maximum-employment approach gives a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "it is especially important to consider whether relatively low levels of employment and labor force participation for some prime working-age groups represent slack that, if successfully tapped, could increase the labor force and boost economic activity.",
+     "start": 7195,
+     "end": 7446
+    },
+    {
+     "quote": "In August, the national unemployment rate of 4.4 percent, which is low by historical standards, masked substantial differences across different demographic groups.",
+     "start": 10016,
+     "end": 10178
+    },
+    {
+     "quote": "This approach to maximum employment has allowed the FOMC to navigate the current expansion in a way that has likely brought more people back into productive employment than might have been the case with a fixed unemployment rate target based on pre-crisis standards.",
+     "start": 6448,
+     "end": 6713
+    },
+    {
+     "quote": "a deeper understanding of labor market disparities is central to the mission of the Federal Reserve because it may help us better assess full employment, where resources may be underutilized",
+     "start": 16329,
+     "end": 16519
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

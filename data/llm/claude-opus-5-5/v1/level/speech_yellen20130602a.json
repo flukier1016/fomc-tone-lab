@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20130602a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20130602a",
+  "doc_type": "speech",
+  "text_sha256": "8e0fe9128ae09be97ffe364cb2ea746a33c9f181a8070d6f430a0b0ca73befdf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bea273f6dda5e146c8916ae3f6a388665ba5aedfd17d3709d4a1848909382942",
+ "message_id": "msg_011CgFugGvVUUY38wn2sEboT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3664,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I'll summarize the considerable progress since 2008 to make the global financial system more resilient, and then offer my views on what more should be done.\"},{\"dimension\":\"overall\",\"quote\":\"it may be appropriate to go beyond the capital surcharges put forward by the Basel Committee.\"},{\"dimension\":\"overall\",\"quote\":\"The global regulatory community should focus significant amounts of energy, now, to attack this problem.\"}],\"rationale\":\"The speech concerns financial regulation, SIFI resolution and shadow banking, with no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I'll summarize the considerable progress since 2008 to make the global financial system more resilient, and then offer my views on what more should be done."
+   },
+   {
+    "dimension": "overall",
+    "quote": "it may be appropriate to go beyond the capital surcharges put forward by the Basel Committee."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The global regulatory community should focus significant amounts of energy, now, to attack this problem."
+   }
+  ],
+  "rationale": "The speech concerns financial regulation, SIFI resolution and shadow banking, with no discussion of monetary policy, inflation, or the economic outlook. It is therefore scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I'll summarize the considerable progress since 2008 to make the global financial system more resilient, and then offer my views on what more should be done.",
+     "start": 111,
+     "end": 266
+    },
+    {
+     "quote": "it may be appropriate to go beyond the capital surcharges put forward by the Basel Committee.",
+     "start": 7679,
+     "end": 7771
+    },
+    {
+     "quote": "The global regulatory community should focus significant amounts of energy, now, to attack this problem.",
+     "start": 11458,
+     "end": 11561
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "statement_20250822",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20250822",
+  "doc_type": "statement",
+  "text_sha256": "74698ab684e5a6d379a40ee66123b5c42047ed97dbffa64584192b2c9542ad26"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6c4591beef79a0bf96155236ae12fdc85dfec15c3c113cc5c8ba2af6fe497f74",
+ "message_id": "msg_011CgFug9HcEidXGsmrXFUhj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 471,
+  "output_tokens": 347,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions\"},{\"dimension\":\"overall\",\"quote\":\"The Committee's two percent longer-run inflation goal was not a focus of the review.\"},{\"dimension\":\"overall\",\"quote\":\"Today's updates reflect lessons from the economy over the past five years, and are intended to enhance the transparency, accountability, and effectiveness of monetary policy.\"}],\"rationale\":\"The release announces procedural updates to the framework statement without describing their content or the economic outlook. It offers no directional policy signal, so the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions"
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Committee's two percent longer-run inflation goal was not a focus of the review."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today's updates reflect lessons from the economy over the past five years, and are intended to enhance the transparency, accountability, and effectiveness of monetary policy."
+   }
+  ],
+  "rationale": "The release announces procedural updates to the framework statement without describing their content or the economic outlook. It offers no directional policy signal, so the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "emphasizes that the FOMC's monetary policy strategy is designed to promote the congressionally-assigned goals of maximum employment and stable prices across a broad range of economic conditions",
+     "start": 507,
+     "end": 700
+    },
+    {
+     "quote": "The Committee's two percent longer-run inflation goal was not a focus of the review.",
+     "start": 1230,
+     "end": 1313
+    },
+    {
+     "quote": "Today's updates reflect lessons from the economy over the past five years, and are intended to enhance the transparency, accountability, and effectiveness of monetary policy.",
+     "start": 926,
+     "end": 1099
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

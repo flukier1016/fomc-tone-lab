@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20110908a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110908a",
+  "doc_type": "speech",
+  "text_sha256": "7c1e29a3ab6e8ab0790ed3122ec85b74eea15514f223d4f78e74897c0eaf79f1"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "75aabbec6db2d620338e785ee3ed7bad7b78f01814f9a2ce2eb94628e88f799c",
+ "message_id": "msg_011CgFugD7JKA3aBQWgnfGSL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5177,
+  "output_tokens": 450,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the target for the federal funds rate would be held at its current low level for at least two more years.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"are prepared to employ these tools as appropriate to promote a stronger economic recovery in a context of price stability.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, inflation is expected to moderate in the coming quarters as these transitory influences wane.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"it is clear that the recovery from the crisis has been much less robust than we had hoped.\"},{\"dimension\":\"risk_balance\",\"quote\":\"now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the June meeting, with greater downside risks to the economic outlook.\"}],\"rationale\":\"The speech stresses a weak recovery, downside risks and transitory inflation. It reaffirms exceptionally low rates through mid-2013 and signals readiness to use additional stimulus tools.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the target for the federal funds rate would be held at its current low level for at least two more years."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "are prepared to employ these tools as appropriate to promote a stronger economic recovery in a context of price stability."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, inflation is expected to moderate in the coming quarters as these transitory influences wane."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "it is clear that the recovery from the crisis has been much less robust than we had hoped."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the June meeting, with greater downside risks to the economic outlook."
+   }
+  ],
+  "rationale": "The speech stresses a weak recovery, downside risks and transitory inflation. It reaffirms exceptionally low rates through mid-2013 and signals readiness to use additional stimulus tools."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the target for the federal funds rate would be held at its current low level for at least two more years.",
+     "start": 15593,
+     "end": 15697
+    },
+    {
+     "quote": "are prepared to employ these tools as appropriate to promote a stronger economic recovery in a context of price stability.",
+     "start": 16103,
+     "end": 16224
+    },
+    {
+     "quote": "However, inflation is expected to moderate in the coming quarters as these transitory influences wane.",
+     "start": 12978,
+     "end": 13079
+    },
+    {
+     "quote": "it is clear that the recovery from the crisis has been much less robust than we had hoped.",
+     "start": 2459,
+     "end": 2548
+    },
+    {
+     "quote": "now expects a somewhat slower pace of recovery over coming quarters than it did at the time of the June meeting, with greater downside risks to the economic outlook.",
+     "start": 4006,
+     "end": 4170
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

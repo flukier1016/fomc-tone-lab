@@ -1,0 +1,112 @@
+{
+ "key": "speech_brainard20190508a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20190508a",
+  "doc_type": "speech",
+  "text_sha256": "9e13d197c45baf8da80dc0ac61895050aaf8fa7fd65f5b7df60e2c9c2aad3ac0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c8c59616c4af6365d34cea21373dd463924cdab20d77dc9484f43e9d0c083cd0",
+ "message_id": "msg_011CgFugK9h6vdgu9txw9SEj",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2868,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"But there is an important risk with today's low sensitivity of inflation to slack: It makes it more difficult to boost inflation to our objective of 2 percent on a sustainable basis.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"And the unemployment rate is at a 50-year low.\"},{\"dimension\":\"risk_balance\",\"quote\":\"But when equilibrium interest rates are low, we have less room to cut interest rates and thus less room to buffer the economy using our conventional tool.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Federal Reserve could hold interest rates lower after a recession is over, perhaps by promising not to raise interest rates until inflation or the unemployment rate have reached a particular level.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Last year, core inflation was very close to our goal.\"}],\"rationale\":\"This framework-review speech emphasizes the risk of persistently low inflation and limited policy space, and it discusses make-up and yield-target strategies that would keep rates lower for longer. It gives no near-term rate signal, so the dovish lean is mild and structural.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But there is an important risk with today's low sensitivity of inflation to slack: It makes it more difficult to boost inflation to our objective of 2 percent on a sustainable basis."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "And the unemployment rate is at a 50-year low."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "But when equilibrium interest rates are low, we have less room to cut interest rates and thus less room to buffer the economy using our conventional tool."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Federal Reserve could hold interest rates lower after a recession is over, perhaps by promising not to raise interest rates until inflation or the unemployment rate have reached a particular level."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Last year, core inflation was very close to our goal."
+   }
+  ],
+  "rationale": "This framework-review speech emphasizes the risk of persistently low inflation and limited policy space, and it discusses make-up and yield-target strategies that would keep rates lower for longer. It gives no near-term rate signal, so the dovish lean is mild and structural."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "But there is an important risk with today's low sensitivity of inflation to slack: It makes it more difficult to boost inflation to our objective of 2 percent on a sustainable basis.",
+     "start": 3660,
+     "end": 3841
+    },
+    {
+     "quote": "And the unemployment rate is at a 50-year low.",
+     "start": 1866,
+     "end": 1911
+    },
+    {
+     "quote": "But when equilibrium interest rates are low, we have less room to cut interest rates and thus less room to buffer the economy using our conventional tool.",
+     "start": 2785,
+     "end": 2938
+    },
+    {
+     "quote": "The Federal Reserve could hold interest rates lower after a recession is over, perhaps by promising not to raise interest rates until inflation or the unemployment rate have reached a particular level.",
+     "start": 5268,
+     "end": 5468
+    },
+    {
+     "quote": "Last year, core inflation was very close to our goal.",
+     "start": 1812,
+     "end": 1864
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20181025a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20181025a",
+  "doc_type": "speech",
+  "text_sha256": "8e64c47a795258a8191d6561c38b5c0ecef93b0ce0bc2708c29625b6fac9396e"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "675d3ff82f8b0542ad149504979aee4bb006b650aba6952c3b800c69ce93a77f",
+ "message_id": "msg_011CgFugGBLr4jDfqYTad7F6",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4388,
+  "output_tokens": 553,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"If the data come in as I expect, I believe that some further gradual adjustment in the federal funds rate will be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Even after our most recent policy decision to raise the range for the federal funds rate by 1/4 percentage point, monetary policy remains accommodative\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the traditional indicators of cost-push price pressure are not flashing red right now.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"In short, the labor market today is robust, and inflation is at or close to the Fed's 2 percent inflation goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Raising rates too quickly could unnecessarily shorten the economic expansion while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market might not be as tight‑‑and inflationary pressures not as strong‑‑as I once would have thought.\"}],\"rationale\":\"Clarida signals further gradual rate increases since policy remains accommodative, amid strong growth. This hawkish lean is tempered by a benign inflation view, a lower natural rate of unemployment, and symmetric risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "If the data come in as I expect, I believe that some further gradual adjustment in the federal funds rate will be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Even after our most recent policy decision to raise the range for the federal funds rate by 1/4 percentage point, monetary policy remains accommodative"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the traditional indicators of cost-push price pressure are not flashing red right now."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "In short, the labor market today is robust, and inflation is at or close to the Fed's 2 percent inflation goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Raising rates too quickly could unnecessarily shorten the economic expansion while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market might not be as tight‑‑and inflationary pressures not as strong‑‑as I once would have thought."
+   }
+  ],
+  "rationale": "Clarida signals further gradual rate increases since policy remains accommodative, amid strong growth. This hawkish lean is tempered by a benign inflation view, a lower natural rate of unemployment, and symmetric risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "If the data come in as I expect, I believe that some further gradual adjustment in the federal funds rate will be appropriate.",
+     "start": 12004,
+     "end": 12129
+    },
+    {
+     "quote": "Even after our most recent policy decision to raise the range for the federal funds rate by 1/4 percentage point, monetary policy remains accommodative",
+     "start": 13916,
+     "end": 14067
+    },
+    {
+     "quote": "the traditional indicators of cost-push price pressure are not flashing red right now.",
+     "start": 6370,
+     "end": 6455
+    },
+    {
+     "quote": "In short, the labor market today is robust, and inflation is at or close to the Fed's 2 percent inflation goal.",
+     "start": 7567,
+     "end": 7677
+    },
+    {
+     "quote": "Raising rates too quickly could unnecessarily shorten the economic expansion while moving too slowly could result in rising inflation and inflation expectations down the road that could be costly to reverse.",
+     "start": 12424,
+     "end": 12630
+    },
+    {
+     "quote": "the labor market might not be as tight‑‑and inflationary pressures not as strong‑‑as I once would have thought.",
+     "start": 5640,
+     "end": 5750
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

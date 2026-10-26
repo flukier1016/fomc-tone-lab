@@ -1,0 +1,103 @@
+{
+ "key": "speech_duke20110901a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_duke20110901a",
+  "doc_type": "speech",
+  "text_sha256": "49fb684e27510f47c5b1dc5bb4be6bc947ea6592252ff1fa9f66fe1f33afa4a7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "df14ae304c738395ea498ee9223884e2956e9aa56464b075b5556fb0aea06860",
+ "message_id": "msg_011CgFugBixfbYs58B4xmCvN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6813,
+  "output_tokens": 402,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"we, as a nation, currently have a housing market that is so severely out of balance that it is hampering our economic recovery.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"High unemployment and tight credit standards are currently precluding many families from buying homes\"},{\"dimension\":\"risk_balance\",\"quote\":\"suggesting additional pressure on house prices as the market struggles to clear the excess inventory.\"},{\"dimension\":\"overall\",\"quote\":\"removal of barriers to refinancing would boost the impetus to recovery provided by lower long-term interest rates.\"}],\"rationale\":\"The speech focuses on housing policy rather than monetary policy, but it portrays a weak housing market and high unemployment that are hampering the recovery. It also stresses strengthening the transmission of low rates, which gives it a mild dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "we, as a nation, currently have a housing market that is so severely out of balance that it is hampering our economic recovery."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "High unemployment and tight credit standards are currently precluding many families from buying homes"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "suggesting additional pressure on house prices as the market struggles to clear the excess inventory."
+   },
+   {
+    "dimension": "overall",
+    "quote": "removal of barriers to refinancing would boost the impetus to recovery provided by lower long-term interest rates."
+   }
+  ],
+  "rationale": "The speech focuses on housing policy rather than monetary policy, but it portrays a weak housing market and high unemployment that are hampering the recovery. It also stresses strengthening the transmission of low rates, which gives it a mild dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "we, as a nation, currently have a housing market that is so severely out of balance that it is hampering our economic recovery.",
+     "start": 2970,
+     "end": 3096
+    },
+    {
+     "quote": "High unemployment and tight credit standards are currently precluding many families from buying homes",
+     "start": 11176,
+     "end": 11277
+    },
+    {
+     "quote": "suggesting additional pressure on house prices as the market struggles to clear the excess inventory.",
+     "start": 11649,
+     "end": 11749
+    },
+    {
+     "quote": "removal of barriers to refinancing would boost the impetus to recovery provided by lower long-term interest rates.",
+     "start": 9973,
+     "end": 10086
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

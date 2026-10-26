@@ -1,0 +1,53 @@
+{
+ "key": "statement_20120313",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20120313",
+  "release_date": "2012-03-13"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "653c06326ca6b737e8dbdb4a1f6ab88ed5b94dc7c54a1e109a439c60f834c53c",
+ "message_id": "msg_011CgFudVTUMHuMg84B5tt5o",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1311,
+  "output_tokens": 296,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2012,\"month\":3,\"confidence\":0.85,\"cues\":[\"The forward guidance says rates stay exceptionally low 'at least through late [YEAR]', matching the late-2014 guidance adopted in January 2012.\",\"The statement says the maturity extension program (Operation Twist, announced September 2011) is continuing.\",\"The text notes that strains in global financial markets have eased, which fits March 2012 after the earlier euro-area stress.\",\"It says the unemployment rate has 'declined notably in recent months' and cites recent rises in oil and gasoline prices, both features of early 2012.\",\"Sandra Pianalto and Sarah Bloom Raskin are listed as voters, consistent with the 2012 voter rotation.\",\"A single dissent against the late-date guidance matches Lacker's dissent in March 2012.\",\"The April 2012 statement had different wording, which points to March rather than April.\"]}",
+ "parsed": {
+  "year": 2012,
+  "month": 3,
+  "confidence": 0.85,
+  "cues": [
+   "The forward guidance says rates stay exceptionally low 'at least through late [YEAR]', matching the late-2014 guidance adopted in January 2012.",
+   "The statement says the maturity extension program (Operation Twist, announced September 2011) is continuing.",
+   "The text notes that strains in global financial markets have eased, which fits March 2012 after the earlier euro-area stress.",
+   "It says the unemployment rate has 'declined notably in recent months' and cites recent rises in oil and gasoline prices, both features of early 2012.",
+   "Sandra Pianalto and Sarah Bloom Raskin are listed as voters, consistent with the 2012 voter rotation.",
+   "A single dissent against the late-date guidance matches Lacker's dissent in March 2012.",
+   "The April 2012 statement had different wording, which points to March rather than April."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

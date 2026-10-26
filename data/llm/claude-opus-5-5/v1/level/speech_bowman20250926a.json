@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20250926a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250926a",
+  "doc_type": "speech",
+  "text_sha256": "e8437169bd8194ea0ee6417dd31d36c5f1b9ff2baa4acc2a1ba4c153327f19bf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "094574b51420a87efb3ce199fecd6392bde3e3d9fc698a9ec51ea2b3a86e84f7",
+ "message_id": "msg_011CgFugJvYZXhKyzp6HN7Jq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9553,
+  "output_tokens": 606,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":1,\"overall_stance\":-2,\"stance_score\":-0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Recent data show a materially more fragile labor market along with inflation that, excluding tariffs, has continued to hover not far above our target.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"With tariff-related price increases likely being a one-time effect, my view is that inflation will return to 2 percent after these effects dissipate.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I am concerned that the labor market could enter into a precarious phase, and there is a risk that a shock could tip it into a sudden and significant deterioration.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Over the longer run, my preference is to maintain the smallest balance sheet possible with reserve balances at a level closer to scarce than ample.\"},{\"dimension\":\"overall\",\"quote\":\"In my view, it is more effective to act promptly and decisively in the face of fragility than to be forced to dramatically adjust policy after damage has occurred.\"}],\"rationale\":\"The speaker forcefully emphasizes labor market fragility, views tariff inflation as transitory, and signals potentially faster and larger rate cuts to avoid falling behind the curve. Her preference for a smaller balance sheet and MBS sales is a modest hawkish offset, but the net signal is clearly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": 1,
+  "overall_stance": -2,
+  "stance_score": -0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Recent data show a materially more fragile labor market along with inflation that, excluding tariffs, has continued to hover not far above our target."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With tariff-related price increases likely being a one-time effect, my view is that inflation will return to 2 percent after these effects dissipate."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I am concerned that the labor market could enter into a precarious phase, and there is a risk that a shock could tip it into a sudden and significant deterioration."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Over the longer run, my preference is to maintain the smallest balance sheet possible with reserve balances at a level closer to scarce than ample."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In my view, it is more effective to act promptly and decisively in the face of fragility than to be forced to dramatically adjust policy after damage has occurred."
+   }
+  ],
+  "rationale": "The speaker forcefully emphasizes labor market fragility, views tariff inflation as transitory, and signals potentially faster and larger rate cuts to avoid falling behind the curve. Her preference for a smaller balance sheet and MBS sales is a modest hawkish offset, but the net signal is clearly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Should these conditions continue, I am concerned that we will need to adjust policy at a faster pace and to a larger degree going forward.",
+     "start": 7701,
+     "end": 7838
+    },
+    {
+     "quote": "Recent data show a materially more fragile labor market along with inflation that, excluding tariffs, has continued to hover not far above our target.",
+     "start": 6762,
+     "end": 6911
+    },
+    {
+     "quote": "With tariff-related price increases likely being a one-time effect, my view is that inflation will return to 2 percent after these effects dissipate.",
+     "start": 8454,
+     "end": 8602
+    },
+    {
+     "quote": "I am concerned that the labor market could enter into a precarious phase, and there is a risk that a shock could tip it into a sudden and significant deterioration.",
+     "start": 10714,
+     "end": 10877
+    },
+    {
+     "quote": "Over the longer run, my preference is to maintain the smallest balance sheet possible with reserve balances at a level closer to scarce than ample.",
+     "start": 12290,
+     "end": 12436
+    },
+    {
+     "quote": "In my view, it is more effective to act promptly and decisively in the face of fragility than to be forced to dramatically adjust policy after damage has occurred.",
+     "start": 11760,
+     "end": 11922
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

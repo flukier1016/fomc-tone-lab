@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20260204a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260204a",
+  "doc_type": "speech",
+  "text_sha256": "54b1fa532c8649e2c090fa80629925aaccf496671f3b15f4af614ccb9583e21b"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b5e0fb42151e9fe0938ff512c6024871647d21d2d7ebb56920b00aab50ee8125",
+ "message_id": "msg_011CgFugDU8VWegAsaqPjo5x",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4020,
+  "output_tokens": 540,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"risk_balance\",\"quote\":\"At this time, I see risks as tilted toward higher inflation.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"until I see stronger evidence that inflation is moving sustainably back down to target, that is where my focus will be, in the absence of unexpected changes in the labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Those readings indicate that progress on inflation essentially stalled in 2025.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"the longer inflation remains above target, the greater the probability that higher inflation will become entrenched in expectations.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, these readings indicate to me that the labor market is roughly in balance, but I am highly attentive to developments, knowing it can shift quickly.\"},{\"dimension\":\"overall\",\"quote\":\"But they do not, in my view, reveal a signal about increased slack that we can tackle with our typical demand-side monetary policy.\"}],\"rationale\":\"The speaker sees risks tilted toward higher inflation, emphasizes that inflation progress has stalled, and stresses credibility, which implies a hold with no near-term cuts. Labor-market risks and K-shaped strains are acknowledged, which tempers the hawkish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "risk_balance",
+    "quote": "At this time, I see risks as tilted toward higher inflation."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "until I see stronger evidence that inflation is moving sustainably back down to target, that is where my focus will be, in the absence of unexpected changes in the labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Those readings indicate that progress on inflation essentially stalled in 2025."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "the longer inflation remains above target, the greater the probability that higher inflation will become entrenched in expectations."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, these readings indicate to me that the labor market is roughly in balance, but I am highly attentive to developments, knowing it can shift quickly."
+   },
+   {
+    "dimension": "overall",
+    "quote": "But they do not, in my view, reveal a signal about increased slack that we can tackle with our typical demand-side monetary policy."
+   }
+  ],
+  "rationale": "The speaker sees risks tilted toward higher inflation, emphasizes that inflation progress has stalled, and stresses credibility, which implies a hold with no near-term cuts. Labor-market risks and K-shaped strains are acknowledged, which tempers the hawkish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At this time, I see risks as tilted toward higher inflation.",
+     "start": 11702,
+     "end": 11761
+    },
+    {
+     "quote": "until I see stronger evidence that inflation is moving sustainably back down to target, that is where my focus will be, in the absence of unexpected changes in the labor market.",
+     "start": 11957,
+     "end": 12133
+    },
+    {
+     "quote": "Those readings indicate that progress on inflation essentially stalled in 2025.",
+     "start": 2032,
+     "end": 2110
+    },
+    {
+     "quote": "the longer inflation remains above target, the greater the probability that higher inflation will become entrenched in expectations.",
+     "start": 3561,
+     "end": 3692
+    },
+    {
+     "quote": "Overall, these readings indicate to me that the labor market is roughly in balance, but I am highly attentive to developments, knowing it can shift quickly.",
+     "start": 5363,
+     "end": 5518
+    },
+    {
+     "quote": "But they do not, in my view, reveal a signal about increased slack that we can tackle with our typical demand-side monetary policy.",
+     "start": 10824,
+     "end": 10954
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

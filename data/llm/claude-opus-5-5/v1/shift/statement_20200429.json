@@ -1,0 +1,173 @@
+{
+ "key": "statement_20200429",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20200429",
+  "previous_doc_id": "statement_20200315",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "adfe7587d929ac74377695c048905469367fc39cb341950f68c241254682a0e8",
+ "message_id": "msg_011CgG4fRzEC5exaf5jamuf4",
+ "request_id": "req_011CgG4fRbf3s2xXaJ3a9HSb",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 810,
+  "inference_geo": "global",
+  "input_tokens": 2032,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 810,
+    "input_tokens": 2032,
+    "model": null,
+    "output_tokens": 850,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 850,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T21:06:58+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"\",\"after\":\"The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.\",\"direction\":\"dovish\"},{\"before\":\"Information received since the Federal Open Market Committee met in January indicates that the labor market remained strong through February and economic activity rose at a moderate rate.\",\"after\":\"The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses.\",\"direction\":\"dovish\"},{\"before\":\"On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.\",\"after\":\"Weaker demand and significantly lower oil prices are holding down consumer price inflation.\",\"direction\":\"dovish\"},{\"before\":\"The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.\",\"after\":\"The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.\",\"direction\":\"dovish\"},{\"before\":\"In light of these developments, the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.\",\"after\":\"In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.\",\"direction\":\"neutral\"},{\"before\":\"over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.\",\"after\":\"the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.\",\"direction\":\"dovish\"},{\"before\":\"Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.\",\"after\":\"\",\"direction\":\"dovish\"}],\"rationale\":\"Rates are held at the zero lower bound with unchanged forward guidance, but the outlook is sharply darker, asset purchases become open-ended, and the hawkish dissent disappears. Together these point to a more dovish signal without a change in the policy rate.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "",
+    "after": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Information received since the Federal Open Market Committee met in January indicates that the labor market remained strong through February and economic activity rose at a moderate rate.",
+    "after": "The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses.",
+    "direction": "dovish"
+   },
+   {
+    "before": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+    "after": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+    "after": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+    "direction": "dovish"
+   },
+   {
+    "before": "In light of these developments, the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "after": "In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+    "direction": "neutral"
+   },
+   {
+    "before": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+    "after": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.",
+    "direction": "dovish"
+   },
+   {
+    "before": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+    "after": "",
+    "direction": "dovish"
+   }
+  ],
+  "rationale": "Rates are held at the zero lower bound with unchanged forward guidance, but the outlook is sharply darker, asset purchases become open-ended, and the hawkish dissent disappears. Together these point to a more dovish signal without a change in the policy rate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in January indicates that the labor market remained strong through February and economic activity rose at a moderate rate.",
+     "start": 301,
+     "end": 487
+    },
+    {
+     "quote": "On a 12‑month basis, overall inflation and inflation for items other than food and energy are running below 2 percent.",
+     "start": 752,
+     "end": 869
+    },
+    {
+     "quote": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook.",
+     "start": 1124,
+     "end": 1242
+    },
+    {
+     "quote": "In light of these developments, the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+     "start": 1244,
+     "end": 1370
+    },
+    {
+     "quote": "over coming months the Committee will increase its holdings of Treasury securities by at least $500 billion and its holdings of agency mortgage-backed securities by at least $200 billion.",
+     "start": 2867,
+     "end": 3053
+    },
+    {
+     "quote": "Voting against this action was Loretta J. Mester, who was fully supportive of all of the actions taken to promote the smooth functioning of markets and the flow of credit to households and businesses but preferred to reduce the target range for the federal funds rate to 1/2 to 3/4 percent at this meeting.",
+     "start": 3693,
+     "end": 3998
+    }
+   ]
+  },
+  "after": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The Federal Reserve is committed to using its full range of tools to support the U.S. economy in this challenging time, thereby promoting its maximum employment and price stability goals.",
+     "start": 0,
+     "end": 186
+    },
+    {
+     "quote": "The virus and the measures taken to protect public health are inducing sharp declines in economic activity and a surge in job losses.",
+     "start": 311,
+     "end": 443
+    },
+    {
+     "quote": "Weaker demand and significantly lower oil prices are holding down consumer price inflation.",
+     "start": 445,
+     "end": 535
+    },
+    {
+     "quote": "The ongoing public health crisis will weigh heavily on economic activity, employment, and inflation in the near term, and poses considerable risks to the economic outlook over the medium term.",
+     "start": 712,
+     "end": 903
+    },
+    {
+     "quote": "In light of these developments, the Committee decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+     "start": 905,
+     "end": 1034
+    },
+    {
+     "quote": "the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.",
+     "start": 2068,
+     "end": 2350
+    }
+   ]
+  }
+ }
+}

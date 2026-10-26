@@ -1,0 +1,121 @@
+{
+ "key": "statement_20251029",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20251029",
+  "doc_type": "statement",
+  "text_sha256": "d9af1ebb577a4ab3714062fac8b4f2135218de69c984c2355658f03c625632c5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f84de0c89a31f172bcfde7a5e227e98e3463448c139eb0987f331dcbbffd1d5e",
+ "message_id": "msg_011CgFug8pq5fzww111z6KAA",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 768,
+  "output_tokens": 515,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-2,\"forward_guidance\":-1,\"inflation_assessment\":1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.5,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent\"},{\"dimension\":\"risk_balance\",\"quote\":\"judges that downside risks to employment rose in recent months\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has moved up since earlier in the year and remains somewhat elevated.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Job gains have slowed this year, and the unemployment rate has edged up but remained low through August\"}],\"rationale\":\"The statement announces a 25 bp cut justified by rising downside employment risks and ends balance sheet runoff, with guidance leaving room for additional adjustments. Elevated inflation and dissents in both directions temper the dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -2,
+  "forward_guidance": -1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.5,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "judges that downside risks to employment rose in recent months"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has moved up since earlier in the year and remains somewhat elevated."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Job gains have slowed this year, and the unemployment rate has edged up but remained low through August"
+   }
+  ],
+  "rationale": "The statement announces a 25 bp cut justified by rising downside employment risks and ends balance sheet runoff, with guidance leaving room for additional adjustments. Elevated inflation and dissents in both directions temper the dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent",
+     "start": 725,
+     "end": 845
+    },
+    {
+     "quote": "judges that downside risks to employment rose in recent months",
+     "start": 585,
+     "end": 647
+    },
+    {
+     "quote": "Inflation has moved up since earlier in the year and remains somewhat elevated.",
+     "start": 259,
+     "end": 337
+    },
+    {
+     "quote": "The Committee decided to conclude the reduction of its aggregate securities holdings on December 1.",
+     "start": 1032,
+     "end": 1130
+    },
+    {
+     "quote": "In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks.",
+     "start": 847,
+     "end": 1030
+    },
+    {
+     "quote": "Job gains have slowed this year, and the unemployment rate has edged up but remained low through August",
+     "start": 91,
+     "end": 194
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

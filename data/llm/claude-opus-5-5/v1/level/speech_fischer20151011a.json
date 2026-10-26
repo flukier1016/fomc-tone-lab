@@ -1,0 +1,121 @@
+{
+ "key": "speech_fischer20151011a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20151011a",
+  "doc_type": "speech",
+  "text_sha256": "9bd87bb88a772b19d2a6f9cddbab3f5673cc503c4f416df2cee2cfbaabe78503"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d0f7e0397599cc5649ac346a3e45dd9b63826e6df9660f49e0ea1c2f1b4863df",
+ "message_id": "msg_011CgFugFEJJDpcYikHU7f4A",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2227,
+  "output_tokens": 580,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"most participants, myself included, anticipated that achieving these conditions would entail an initial increase in the federal funds rate later this year.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"most members of the FOMC anticipate that economic conditions are likely to warrant raising short-term interest rates at a gradual pace over the next few years.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Although the labor market has been approaching estimates of maximum employment, inflation has been well below the FOMC's 2 percent objective.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of job growth is still sufficiently strong gradually to erode slack in the labor market, and the prospects for further labor market improvement look good overall.\"},{\"dimension\":\"risk_balance\",\"quote\":\"recent global economic and financial developments highlight the risk that a slowdown in foreign growth might restrain U.S. economic activity somewhat further.\"},{\"dimension\":\"overall\",\"quote\":\"we do not currently anticipate that the effects of these recent developments on the U.S. economy will prove to be large enough to have a significant effect on the path for policy.\"}],\"rationale\":\"The speaker personally expects liftoff later this year and downplays foreign risks to the policy path, a mild hawkish lean. This is tempered by low inflation, a gradual path, and acknowledged downside risks and disappointing payrolls.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "most participants, myself included, anticipated that achieving these conditions would entail an initial increase in the federal funds rate later this year."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "most members of the FOMC anticipate that economic conditions are likely to warrant raising short-term interest rates at a gradual pace over the next few years."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Although the labor market has been approaching estimates of maximum employment, inflation has been well below the FOMC's 2 percent objective."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of job growth is still sufficiently strong gradually to erode slack in the labor market, and the prospects for further labor market improvement look good overall."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "recent global economic and financial developments highlight the risk that a slowdown in foreign growth might restrain U.S. economic activity somewhat further."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we do not currently anticipate that the effects of these recent developments on the U.S. economy will prove to be large enough to have a significant effect on the path for policy."
+   }
+  ],
+  "rationale": "The speaker personally expects liftoff later this year and downplays foreign risks to the policy path, a mild hawkish lean. This is tempered by low inflation, a gradual path, and acknowledged downside risks and disappointing payrolls."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "most participants, myself included, anticipated that achieving these conditions would entail an initial increase in the federal funds rate later this year.",
+     "start": 3761,
+     "end": 3915
+    },
+    {
+     "quote": "most members of the FOMC anticipate that economic conditions are likely to warrant raising short-term interest rates at a gradual pace over the next few years.",
+     "start": 4402,
+     "end": 4560
+    },
+    {
+     "quote": "Although the labor market has been approaching estimates of maximum employment, inflation has been well below the FOMC's 2 percent objective.",
+     "start": 2151,
+     "end": 2291
+    },
+    {
+     "quote": "the pace of job growth is still sufficiently strong gradually to erode slack in the labor market, and the prospects for further labor market improvement look good overall.",
+     "start": 1045,
+     "end": 1215
+    },
+    {
+     "quote": "recent global economic and financial developments highlight the risk that a slowdown in foreign growth might restrain U.S. economic activity somewhat further.",
+     "start": 5273,
+     "end": 5430
+    },
+    {
+     "quote": "we do not currently anticipate that the effects of these recent developments on the U.S. economy will prove to be large enough to have a significant effect on the path for policy.",
+     "start": 6214,
+     "end": 6392
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

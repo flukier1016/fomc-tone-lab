@@ -1,0 +1,121 @@
+{
+ "key": "presser_20210317",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20210317",
+  "doc_type": "presser",
+  "text_sha256": "ab1c3d9e8890259e243cc9a9116b31a1530700be7b24ec726e34546281aaa1ef"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fd1546549eff5d8495eb6aff02badcb3372a5636155a78bd4a8099a02cc6002c",
+ "message_id": "msg_011CgFugKuLDE77PoKW8RVHi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13784,
+  "output_tokens": 576,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.7,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today the FOMC kept interest rates near zero and maintained our sizable asset purchases.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We will wait until the requirements set forth in that guidance are clearly met before considering a change in our policy rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"However, these one-time increases in prices are likely to have only transient effects on inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The recovery has progressed more quickly than generally expected, and forecasts from FOMC participants for economic growth this year have been revised up notably since our December Summary of Economic Projections.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made\"},{\"dimension\":\"overall\",\"quote\":\"And we're committed to maintaining that patiently accommodative stance until the job is well and truly done.\"}],\"rationale\":\"The Chair holds rates at zero and maintains asset purchases, stresses outcome-based guidance requiring actual data, dismisses the coming inflation rise as transitory, and emphasizes labor market shortfalls. Despite an upgraded growth outlook, the overall message is strongly patient and accommodative.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.7,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today the FOMC kept interest rates near zero and maintained our sizable asset purchases."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We will wait until the requirements set forth in that guidance are clearly met before considering a change in our policy rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "However, these one-time increases in prices are likely to have only transient effects on inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The recovery has progressed more quickly than generally expected, and forecasts from FOMC participants for economic growth this year have been revised up notably since our December Summary of Economic Projections."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made"
+   },
+   {
+    "dimension": "overall",
+    "quote": "And we're committed to maintaining that patiently accommodative stance until the job is well and truly done."
+   }
+  ],
+  "rationale": "The Chair holds rates at zero and maintains asset purchases, stresses outcome-based guidance requiring actual data, dismisses the coming inflation rise as transitory, and emphasizes labor market shortfalls. Despite an upgraded growth outlook, the overall message is strongly patient and accommodative."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today the FOMC kept interest rates near zero and maintained our sizable asset purchases.",
+     "start": 1579,
+     "end": 1666
+    },
+    {
+     "quote": "We will wait until the requirements set forth in that guidance are clearly met before considering a change in our policy rate.",
+     "start": 13912,
+     "end": 14037
+    },
+    {
+     "quote": "However, these one-time increases in prices are likely to have only transient effects on inflation.",
+     "start": 5335,
+     "end": 5433
+    },
+    {
+     "quote": "The recovery has progressed more quickly than generally expected, and forecasts from FOMC participants for economic growth this year have been revised up notably since our December Summary of Economic Projections.",
+     "start": 3311,
+     "end": 3523
+    },
+    {
+     "quote": "we will continue to increase our holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made",
+     "start": 7065,
+     "end": 7287
+    },
+    {
+     "quote": "And we're committed to maintaining that patiently accommodative stance until the job is well and truly done.",
+     "start": 18887,
+     "end": 18994
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

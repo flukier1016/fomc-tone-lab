@@ -1,0 +1,121 @@
+{
+ "key": "speech_clarida20210414a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20210414a",
+  "doc_type": "speech",
+  "text_sha256": "f8cbee24f9059dc5982ab3939376ccd58938521053d6e0f59df0a8604da4d301"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a4d04bc236fddb7b1ce62165aca79a81ba3e7efb205281c571041d1af3b727a2",
+ "message_id": "msg_011CgFugBZnDV7QsSvLFb8kG",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4516,
+  "output_tokens": 619,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":null,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.6,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"First, the Committee expects to delay liftoff from the ELB until PCE inflation has risen to 2 percent and other complementary conditions, consistent with achieving this goal on a sustained basis, have also been met.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Third, the Committee expects that appropriate monetary policy will remain accommodative for some time after the conditions to commence policy normalization have been met.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"policy will not tighten solely because the unemployment rate has fallen below any particular econometric estimate of its long-run natural level.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we expect to continue our Treasury and MBS purchases at least at the current pace until we have made substantial further progress toward achieving these dual mandate goals.\"},{\"dimension\":\"risk_balance\",\"quote\":\"it can open up the risk of the downward spiral in both actual and expected inflation that has been observed in some other major economies.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"with inflation having run persistently below 2 percent, the Committee will aim to achieve inflation moderately above 2 percent for some time\"}],\"rationale\":\"This framework speech stresses delayed liftoff, a tolerated inflation overshoot, policy staying accommodative after liftoff, and continued asset purchases. It also emphasizes downside risks to inflation expectations at the lower bound, so the net signal is dovish, though it is largely descriptive of the framework.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": null,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.6,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "First, the Committee expects to delay liftoff from the ELB until PCE inflation has risen to 2 percent and other complementary conditions, consistent with achieving this goal on a sustained basis, have also been met."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Third, the Committee expects that appropriate monetary policy will remain accommodative for some time after the conditions to commence policy normalization have been met."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "policy will not tighten solely because the unemployment rate has fallen below any particular econometric estimate of its long-run natural level."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we expect to continue our Treasury and MBS purchases at least at the current pace until we have made substantial further progress toward achieving these dual mandate goals."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "it can open up the risk of the downward spiral in both actual and expected inflation that has been observed in some other major economies."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "with inflation having run persistently below 2 percent, the Committee will aim to achieve inflation moderately above 2 percent for some time"
+   }
+  ],
+  "rationale": "This framework speech stresses delayed liftoff, a tolerated inflation overshoot, policy staying accommodative after liftoff, and continued asset purchases. It also emphasizes downside risks to inflation expectations at the lower bound, so the net signal is dovish, though it is largely descriptive of the framework."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "First, the Committee expects to delay liftoff from the ELB until PCE inflation has risen to 2 percent and other complementary conditions, consistent with achieving this goal on a sustained basis, have also been met.",
+     "start": 6419,
+     "end": 6633
+    },
+    {
+     "quote": "Third, the Committee expects that appropriate monetary policy will remain accommodative for some time after the conditions to commence policy normalization have been met.",
+     "start": 6899,
+     "end": 7068
+    },
+    {
+     "quote": "policy will not tighten solely because the unemployment rate has fallen below any particular econometric estimate of its long-run natural level.",
+     "start": 12200,
+     "end": 12343
+    },
+    {
+     "quote": "we expect to continue our Treasury and MBS purchases at least at the current pace until we have made substantial further progress toward achieving these dual mandate goals.",
+     "start": 11753,
+     "end": 11924
+    },
+    {
+     "quote": "it can open up the risk of the downward spiral in both actual and expected inflation that has been observed in some other major economies.",
+     "start": 4490,
+     "end": 4627
+    },
+    {
+     "quote": "with inflation having run persistently below 2 percent, the Committee will aim to achieve inflation moderately above 2 percent for some time",
+     "start": 6646,
+     "end": 6786
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

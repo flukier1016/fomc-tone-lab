@@ -1,0 +1,121 @@
+{
+ "key": "presser_20250129",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20250129",
+  "doc_type": "presser",
+  "text_sha256": "0cbdc355c9248ae5f036aec7bab030f5c4be988b49bb90c9d09ee16c6965785b"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "54b8adda4d229759cde77737369579327dd593dad340de13abe6c20f1d5c5c8e",
+ "message_id": "msg_011CgG27w9HSTnoTPi5iZLru",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11439,
+  "output_tokens": 625,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.3,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"With our policy stance significantly less restrictive than it had been and the economy remaining strong, we do not need to be in a hurry to adjust our policy stance.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"we’re going to be focusing on seeing real progress on inflation or, alternatively, some weakness in the labor market before we—before we consider making adjustments.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has eased significantly over the past two years but remains somewhat elevated relative to our 2 percent longer-run goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the economy’s strong, the labor market’s solid, downside risks to the labor market appear to have abated, and we think disinflation continues on a slow and sometimes bumpy path.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks on both sides of our mandate.\"}],\"rationale\":\"The Committee held rates after 100bp of cuts and repeatedly signaled no hurry to cut further, conditioning easing on further inflation progress or labor weakness amid a strong economy, while continuing runoff. Risks are described as balanced, but the pause messaging gives a moderate hawkish lean relative to the prior easing path.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.3,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "With our policy stance significantly less restrictive than it had been and the economy remaining strong, we do not need to be in a hurry to adjust our policy stance."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "we’re going to be focusing on seeing real progress on inflation or, alternatively, some weakness in the labor market before we—before we consider making adjustments."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has eased significantly over the past two years but remains somewhat elevated relative to our 2 percent longer-run goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the economy’s strong, the labor market’s solid, downside risks to the labor market appear to have abated, and we think disinflation continues on a slow and sometimes bumpy path."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks on both sides of our mandate."
+   }
+  ],
+  "rationale": "The Committee held rates after 100bp of cuts and repeatedly signaled no hurry to cut further, conditioning easing on further inflation progress or labor weakness amid a strong economy, while continuing runoff. Risks are described as balanced, but the pause messaging gives a moderate hawkish lean relative to the prior easing path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to maintain the target range for the federal funds rate at 4¼ to 4½ percent.",
+     "start": 2968,
+     "end": 3085
+    },
+    {
+     "quote": "With our policy stance significantly less restrictive than it had been and the economy remaining strong, we do not need to be in a hurry to adjust our policy stance.",
+     "start": 2802,
+     "end": 2966
+    },
+    {
+     "quote": "we’re going to be focusing on seeing real progress on inflation or, alternatively, some weakness in the labor market before we—before we consider making adjustments.",
+     "start": 6911,
+     "end": 7075
+    },
+    {
+     "quote": "Inflation has eased significantly over the past two years but remains somewhat elevated relative to our 2 percent longer-run goal.",
+     "start": 1693,
+     "end": 1822
+    },
+    {
+     "quote": "the economy’s strong, the labor market’s solid, downside risks to the labor market appear to have abated, and we think disinflation continues on a slow and sometimes bumpy path.",
+     "start": 31209,
+     "end": 31385
+    },
+    {
+     "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we are attentive to the risks on both sides of our mandate.",
+     "start": 2392,
+     "end": 2548
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

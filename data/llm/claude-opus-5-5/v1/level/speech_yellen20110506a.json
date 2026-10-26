@@ -1,0 +1,94 @@
+{
+ "key": "speech_yellen20110506a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20110506a",
+  "doc_type": "speech",
+  "text_sha256": "399a597dcbe940ad868c843b7bc50505495ce7cd46a5ce0955ded181c5d657c6"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "186f64303ce77f5daa915ae25e9be141fafe3cb4028bad90211e0ed98ade3b47",
+ "message_id": "msg_011CgFugA4VqnuhVPtQyjSVn",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5883,
+  "output_tokens": 335,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I continue to believe that open capital markets offer significant benefits in terms of greater efficiency and improved standards of living\"},{\"dimension\":\"overall\",\"quote\":\"at most, capital controls should be seen as just one of many tools that can be used to manage capital inflows, and one to be used only in particularly challenging situations.\"},{\"dimension\":\"overall\",\"quote\":\"This feature of the international system inhibits the process of global rebalancing and could restrain the current recovery.\"}],\"rationale\":\"The speech addresses international capital mobility, capital controls and financial regulation, and takes no view on U.S. rates, inflation or the balance sheet. Its policy signal is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I continue to believe that open capital markets offer significant benefits in terms of greater efficiency and improved standards of living"
+   },
+   {
+    "dimension": "overall",
+    "quote": "at most, capital controls should be seen as just one of many tools that can be used to manage capital inflows, and one to be used only in particularly challenging situations."
+   },
+   {
+    "dimension": "overall",
+    "quote": "This feature of the international system inhibits the process of global rebalancing and could restrain the current recovery."
+   }
+  ],
+  "rationale": "The speech addresses international capital mobility, capital controls and financial regulation, and takes no view on U.S. rates, inflation or the balance sheet. Its policy signal is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I continue to believe that open capital markets offer significant benefits in terms of greater efficiency and improved standards of living",
+     "start": 1891,
+     "end": 2029
+    },
+    {
+     "quote": "at most, capital controls should be seen as just one of many tools that can be used to manage capital inflows, and one to be used only in particularly challenging situations.",
+     "start": 14813,
+     "end": 14986
+    },
+    {
+     "quote": "This feature of the international system inhibits the process of global rebalancing and could restrain the current recovery.",
+     "start": 14681,
+     "end": 14804
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

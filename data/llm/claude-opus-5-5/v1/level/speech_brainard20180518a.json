@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20180518a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20180518a",
+  "doc_type": "speech",
+  "text_sha256": "8a15aab9d59d3dc24d1b658bed53958ad2015d71c7f93ce4ca852be779ae1c58"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "600dc4988185f8ddf97189e4dacebcb4b11d00776277b29aa44b2debc895c196",
+ "message_id": "msg_011CgFugLZGyxTnKGbbLUZi3",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6294,
+  "output_tokens": 396,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Even as the economy looks strong overall, significant challenges remain for low- and moderate-income areas, making the CRA and its focus on local credit needs more important than ever.\"},{\"dimension\":\"overall\",\"quote\":\"CRA is a vital tool to address the credit needs of low- and moderate-income communities, and I believe the time is ripe for a refresh to make it even more relevant to today's challenges.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Like many of the nation's metropolitan areas, New York City has rebounded since the recession and is thriving.\"}],\"rationale\":\"The speech is about Community Reinvestment Act modernization and affordable housing, and it takes no view on monetary policy. Its brief mentions of a strong overall economy alongside uneven local recovery are balanced and carry no policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Even as the economy looks strong overall, significant challenges remain for low- and moderate-income areas, making the CRA and its focus on local credit needs more important than ever."
+   },
+   {
+    "dimension": "overall",
+    "quote": "CRA is a vital tool to address the credit needs of low- and moderate-income communities, and I believe the time is ripe for a refresh to make it even more relevant to today's challenges."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Like many of the nation's metropolitan areas, New York City has rebounded since the recession and is thriving."
+   }
+  ],
+  "rationale": "The speech is about Community Reinvestment Act modernization and affordable housing, and it takes no view on monetary policy. Its brief mentions of a strong overall economy alongside uneven local recovery are balanced and carry no policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Even as the economy looks strong overall, significant challenges remain for low- and moderate-income areas, making the CRA and its focus on local credit needs more important than ever.",
+     "start": 21127,
+     "end": 21310
+    },
+    {
+     "quote": "CRA is a vital tool to address the credit needs of low- and moderate-income communities, and I believe the time is ripe for a refresh to make it even more relevant to today's challenges.",
+     "start": 5943,
+     "end": 6128
+    },
+    {
+     "quote": "Like many of the nation's metropolitan areas, New York City has rebounded since the recession and is thriving.",
+     "start": 922,
+     "end": 1031
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

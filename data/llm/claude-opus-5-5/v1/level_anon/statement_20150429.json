@@ -1,0 +1,113 @@
+{
+ "key": "statement_20150429",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "statement_20150429",
+  "doc_type": "statement",
+  "transform": "anonymized",
+  "text_sha256": "2cf62e8cbc8f3bf14fc37caf4fced583e8391bcd2a8fc6a793a29c13dbe2cad0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "d25faf7eb900ee5b72e3798d8944bbf64a2ced2a4df81c3c330bae4fe2ce0295",
+ "message_id": "msg_011CgFudUsVpG4Dy7SQsdJbQ",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1150,
+  "output_tokens": 548,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:52+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":0,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Information received since the Federal Open Market Committee met in [MONTH] suggests that economic growth slowed during the winter months, in part reflecting transitory factors.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective\"},{\"dimension\":\"balance_sheet\",\"quote\":\"This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"}],\"rationale\":\"The Committee holds rates at the floor amid slowing growth and below-target inflation. Liftoff remains conditional on further labor improvement and confidence about inflation, which leaves a moderately dovish, patient stance with balanced risks.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 0,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Information received since the Federal Open Market Committee met in [MONTH] suggests that economic growth slowed during the winter months, in part reflecting transitory factors."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+   }
+  ],
+  "rationale": "The Committee holds rates at the floor amid slowing growth and below-target inflation. Liftoff remains conditional on further labor improvement and confidence about inflation, which leaves a moderately dovish, patient stance with balanced risks."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in [MONTH] suggests that economic growth slowed during the winter months, in part reflecting transitory factors.",
+     "start": 0,
+     "end": 176
+    },
+    {
+     "quote": "Inflation continued to run below the Committee's longer-run objective, partly reflecting earlier declines in energy prices and decreasing prices of non-energy imports.",
+     "start": 636,
+     "end": 802
+    },
+    {
+     "quote": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced.",
+     "start": 1376,
+     "end": 1493
+    },
+    {
+     "quote": "The Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective",
+     "start": 2483,
+     "end": 2731
+    },
+    {
+     "quote": "This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+     "start": 3007,
+     "end": 3156
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

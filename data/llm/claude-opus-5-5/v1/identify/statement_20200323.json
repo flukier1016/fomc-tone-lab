@@ -1,0 +1,51 @@
+{
+ "key": "statement_20200323",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20200323",
+  "release_date": "2020-03-23"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "89e3f148d815b5e6ff2c3ea402f33df0da6830e8eb0408300264f91008844fc0",
+ "message_id": "msg_011CgFudy59MvtinbAAWEcdd",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 851,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2020,\"month\":3,\"confidence\":0.93,\"cues\":[\"Notation vote statement on expanded asset purchases 'in the amounts needed', i.e. open-ended QE\",\"Agency CMBS added to the agency MBS purchases, announced March 23, 2020\",\"'Support the U.S. economy in this challenging time' refers to the COVID-19 shock\",\"Voting roster (Brainard, Harker, Kashkari) matches the 2020 voters\",\"Large-scale overnight and term repo operations during market strains in early pandemic\"]}",
+ "parsed": {
+  "year": 2020,
+  "month": 3,
+  "confidence": 0.93,
+  "cues": [
+   "Notation vote statement on expanded asset purchases 'in the amounts needed', i.e. open-ended QE",
+   "Agency CMBS added to the agency MBS purchases, announced March 23, 2020",
+   "'Support the U.S. economy in this challenging time' refers to the COVID-19 shock",
+   "Voting roster (Brainard, Harker, Kashkari) matches the 2020 voters",
+   "Large-scale overnight and term repo operations during market strains in early pandemic"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

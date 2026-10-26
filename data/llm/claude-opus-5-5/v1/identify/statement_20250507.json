@@ -1,0 +1,53 @@
+{
+ "key": "statement_20250507",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20250507",
+  "release_date": "2025-05-07"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bdc67a85d697872c49b1573d5f735b1be41afe8cb27b5b4dcd8ec3c817816287",
+ "message_id": "msg_011CgFudVSUkNw3dxDik6Sg8",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1084,
+  "output_tokens": 418,
+  "output_tokens_details": {
+   "thinking_tokens": 121
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2025,\"month\":5,\"confidence\":0.88,\"cues\":[\"'Although swings in net exports have affected the data' points to the tariff-driven import surge and the negative Q1 2025 GDP print.\",\"'Uncertainty about the economic outlook has increased further' follows the March 2025 statement's wording that uncertainty had increased.\",\"'The risks of higher unemployment and higher inflation have risen' fits the stagflation concerns after the April 2025 tariff announcements.\",\"The rate was held, matching the Committee's 2025 pause after the cuts in late 2024.\",\"There is no mention of slowing the pace of balance-sheet runoff, which was already decided in March 2025, and runoff continues.\",\"Neel Kashkari voting as an alternate fits a 2025 meeting, the year he was a regular alternate.\",\"Taken together, the wording matches the May 2025 FOMC statement.\"]}",
+ "parsed": {
+  "year": 2025,
+  "month": 5,
+  "confidence": 0.88,
+  "cues": [
+   "'Although swings in net exports have affected the data' points to the tariff-driven import surge and the negative Q1 2025 GDP print.",
+   "'Uncertainty about the economic outlook has increased further' follows the March 2025 statement's wording that uncertainty had increased.",
+   "'The risks of higher unemployment and higher inflation have risen' fits the stagflation concerns after the April 2025 tariff announcements.",
+   "The rate was held, matching the Committee's 2025 pause after the cuts in late 2024.",
+   "There is no mention of slowing the pace of balance-sheet runoff, which was already decided in March 2025, and runoff continues.",
+   "Neel Kashkari voting as an alternate fits a 2025 meeting, the year he was a regular alternate.",
+   "Taken together, the wording matches the May 2025 FOMC statement."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

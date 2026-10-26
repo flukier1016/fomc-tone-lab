@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20160826a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20160826a",
+  "doc_type": "speech",
+  "text_sha256": "f1ce1965754c300c06928760b04e331256c96d9fb891ff1d5aae16bbabe66b1a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ecf4e8a884fdbd954c7c6fcaac3e9af642de67ff809f0b19044d18dd37824147",
+ "message_id": "msg_011CgFugKRZP8hn9RdJpiZnN",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7587,
+  "output_tokens": 488,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.4,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe the case for an increase in the federal funds rate has strengthened in recent months.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"the FOMC continues to anticipate that gradual increases in the federal funds rate will be appropriate over time\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"While economic growth has not been rapid, it has been sufficient to generate further improvement in the labor market.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has continued to run below the FOMC's objective of 2 percent, reflecting in part the transitory effects of earlier declines in energy and import prices.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"at some point after the process of raising the federal funds rate is well under way, we will cease or phase out reinvesting repayments of principal from our securities holdings.\"}],\"rationale\":\"The near-term remarks signal a strengthened case for a rate hike on the back of solid labor market gains, while inflation is described as below target for transitory reasons. The bulk of the speech is a framework discussion of the policy toolkit with little directional signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.4,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe the case for an increase in the federal funds rate has strengthened in recent months."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "the FOMC continues to anticipate that gradual increases in the federal funds rate will be appropriate over time"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "While economic growth has not been rapid, it has been sufficient to generate further improvement in the labor market."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has continued to run below the FOMC's objective of 2 percent, reflecting in part the transitory effects of earlier declines in energy and import prices."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "at some point after the process of raising the federal funds rate is well under way, we will cease or phase out reinvesting repayments of principal from our securities holdings."
+   }
+  ],
+  "rationale": "The near-term remarks signal a strengthened case for a rate hike on the back of solid labor market gains, while inflation is described as below target for transitory reasons. The bulk of the speech is a framework discussion of the policy toolkit with little directional signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe the case for an increase in the federal funds rate has strengthened in recent months.",
+     "start": 3625,
+     "end": 3719
+    },
+    {
+     "quote": "the FOMC continues to anticipate that gradual increases in the federal funds rate will be appropriate over time",
+     "start": 3309,
+     "end": 3420
+    },
+    {
+     "quote": "While economic growth has not been rapid, it has been sufficient to generate further improvement in the labor market.",
+     "start": 2556,
+     "end": 2672
+    },
+    {
+     "quote": "Inflation has continued to run below the FOMC's objective of 2 percent, reflecting in part the transitory effects of earlier declines in energy and import prices.",
+     "start": 2922,
+     "end": 3083
+    },
+    {
+     "quote": "at some point after the process of raising the federal funds rate is well under way, we will cease or phase out reinvesting repayments of principal from our securities holdings.",
+     "start": 14467,
+     "end": 14643
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

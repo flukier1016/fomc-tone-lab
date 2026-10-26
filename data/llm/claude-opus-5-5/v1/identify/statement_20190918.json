@@ -1,0 +1,51 @@
+{
+ "key": "statement_20190918",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20190918",
+  "release_date": "2019-09-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "ae6c2643457c6dfa1821227d6b8debeb15c28085906a9fcf5f20452cb765178a",
+ "message_id": "msg_011CgFudVTUZfdby14Amkwfu",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1180,
+  "output_tokens": 454,
+  "output_tokens_details": {
+   "thinking_tokens": 191
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2019,\"month\":9,\"confidence\":0.93,\"cues\":[\"Statement announces a rate cut 'in light of the implications of global developments' and 'muted inflation pressures', the language of the 2019 mid-cycle adjustment.\",\"Three dissents: James Bullard wanted a larger cut, while two others wanted no change. That matches the September 2019 meeting.\",\"The no-change dissenters preferred to keep the range at '2 percent to [RANGE]', which fits 2 to 2-1/4 percent. That was the range in place before the September 2019 cut.\",\"The text says household spending was rising at a strong pace while business fixed investment and exports had weakened, consistent with Q3 2019 data.\",\"Lael Brainard is listed as a voter, consistent with the 2019 Board.\"]}",
+ "parsed": {
+  "year": 2019,
+  "month": 9,
+  "confidence": 0.93,
+  "cues": [
+   "Statement announces a rate cut 'in light of the implications of global developments' and 'muted inflation pressures', the language of the 2019 mid-cycle adjustment.",
+   "Three dissents: James Bullard wanted a larger cut, while two others wanted no change. That matches the September 2019 meeting.",
+   "The no-change dissenters preferred to keep the range at '2 percent to [RANGE]', which fits 2 to 2-1/4 percent. That was the range in place before the September 2019 cut.",
+   "The text says household spending was rising at a strong pace while business fixed investment and exports had weakened, consistent with Q3 2019 data.",
+   "Lael Brainard is listed as a voter, consistent with the 2019 Board."
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

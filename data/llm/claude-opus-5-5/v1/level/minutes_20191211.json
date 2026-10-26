@@ -1,0 +1,112 @@
+{
+ "key": "minutes_20191211",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20191211",
+  "doc_type": "minutes",
+  "text_sha256": "a47956b56f15dfe608674a604e76cbb103ca492ba312fc497207ad8357c610f0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "45f94ada363a2339765b8750153ccb2ecb9505cd3623e333600ed21c362a9290",
+ "message_id": "msg_011CgFugCCELdggZbwwEdFKH",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 11871,
+  "output_tokens": 563,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"participants regarded the current stance of monetary policy as likely to remain appropriate for a time as long as incoming information about the economy remained broadly consistent with the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants generally expressed concerns regarding inflation continuing to fall short of 2 percent.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants judged that conditions in the labor market remained strong, with the unemployment rate at a 50-year low, job gains remaining solid, and some measures of labor force participation increasing further.\"},{\"dimension\":\"risk_balance\",\"quote\":\"While many saw the risks as tilted somewhat to the downside, some risks were seen to have eased over recent months.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Committee directs the Desk to continue purchasing Treasury bills at least into the second quarter of 2020 to maintain over time ample reserve balances at or above the level that prevailed in early September 2019.\"}],\"rationale\":\"The minutes describe an extended hold with policy seen as appropriate for a time, a strong labor market, but persistent concern about below-target inflation and downside-tilted risks, giving a mildly dovish-to-neutral net signal. Reserve-management bill purchases expand the balance sheet though described as technical.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "participants regarded the current stance of monetary policy as likely to remain appropriate for a time as long as incoming information about the economy remained broadly consistent with the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants generally expressed concerns regarding inflation continuing to fall short of 2 percent."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants judged that conditions in the labor market remained strong, with the unemployment rate at a 50-year low, job gains remaining solid, and some measures of labor force participation increasing further."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "While many saw the risks as tilted somewhat to the downside, some risks were seen to have eased over recent months."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Committee directs the Desk to continue purchasing Treasury bills at least into the second quarter of 2020 to maintain over time ample reserve balances at or above the level that prevailed in early September 2019."
+   }
+  ],
+  "rationale": "The minutes describe an extended hold with policy seen as appropriate for a time, a strong labor market, but persistent concern about below-target inflation and downside-tilted risks, giving a mildly dovish-to-neutral net signal. Reserve-management bill purchases expand the balance sheet though described as technical."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "participants regarded the current stance of monetary policy as likely to remain appropriate for a time as long as incoming information about the economy remained broadly consistent with the economic outlook.",
+     "start": 29575,
+     "end": 29781
+    },
+    {
+     "quote": "Participants generally expressed concerns regarding inflation continuing to fall short of 2 percent.",
+     "start": 30558,
+     "end": 30657
+    },
+    {
+     "quote": "Participants judged that conditions in the labor market remained strong, with the unemployment rate at a 50-year low, job gains remaining solid, and some measures of labor force participation increasing further.",
+     "start": 25299,
+     "end": 25509
+    },
+    {
+     "quote": "While many saw the risks as tilted somewhat to the downside, some risks were seen to have eased over recent months.",
+     "start": 28240,
+     "end": 28354
+    },
+    {
+     "quote": "the Committee directs the Desk to continue purchasing Treasury bills at least into the second quarter of 2020 to maintain over time ample reserve balances at or above the level that prevailed in early September 2019.",
+     "start": 35462,
+     "end": 35677
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

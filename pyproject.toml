@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fomc-tone-duration"
+version = "0.1.0"
+description = "LLM-scored Fed communication tone and Treasury duration positioning (Columbia IEOR 4723 group project)"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+roberta = ["torch", "transformers"]  # `fomc roberta` and `fomc finetune`: the reference readers, run once offline
+
+[project.scripts]
+fomc = "fomc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fomc = ["web/*", "web/vendor/*", "test_inventory.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/fomc/llm/rubric.py" = ["E501"]   # prompts are prose
+"src/fomc/story.py" = ["E501"]        # slide prose
+"src/fomc/audit.py" = ["E501"]
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["fastapi.Depends", "fastapi.Query"]

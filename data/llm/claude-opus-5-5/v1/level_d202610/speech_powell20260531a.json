@@ -1,0 +1,108 @@
+{
+ "key": "speech_powell20260531a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20260531a",
+  "doc_type": "speech",
+  "text_sha256": "191414c4f618583f4877dae5436d3fb54a20092d61b37eb4f022b9f78fb7786c"
+ },
+ "run_tag": "d202610",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "beb0c6e0dfe4a4598c1ff8a338f2cdc07a77b3de05d41d58834f581ce1e178ed",
+ "message_id": "msg_011CgGw9fqm1JQvXsSYhQdQD",
+ "request_id": "req_011CgGw9fRTQz57Yf9cBtNv9",
+ "batch_id": null,
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1966,
+  "iterations": [
+   {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 2241,
+    "input_tokens": 1966,
+    "model": null,
+    "output_tokens": 287,
+    "type": "message"
+   }
+  ],
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "standard",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-22T08:08:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"We do not take into account the fortunes of any political party or politician in making those decisions.\"},{\"dimension\":\"overall\",\"quote\":\"Congress wisely chose to insulate monetary policy decisions from political pressure.\"},{\"dimension\":\"overall\",\"quote\":\"Even in good times, central banks make monetary policy decisions under high uncertainty\"}],\"rationale\":\"The speech is an award acceptance address about public service and Fed independence. It offers no view on inflation, growth, the policy rate path, or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "We do not take into account the fortunes of any political party or politician in making those decisions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Congress wisely chose to insulate monetary policy decisions from political pressure."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Even in good times, central banks make monetary policy decisions under high uncertainty"
+   }
+  ],
+  "rationale": "The speech is an award acceptance address about public service and Fed independence. It offers no view on inflation, growth, the policy rate path, or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We do not take into account the fortunes of any political party or politician in making those decisions.",
+     "start": 3765,
+     "end": 3868
+    },
+    {
+     "quote": "Congress wisely chose to insulate monetary policy decisions from political pressure.",
+     "start": 3944,
+     "end": 4027
+    },
+    {
+     "quote": "Even in good times, central banks make monetary policy decisions under high uncertainty",
+     "start": 3289,
+     "end": 3376
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

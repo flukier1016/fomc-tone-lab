@@ -1,0 +1,112 @@
+{
+ "key": "statement_20201216",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20201216",
+  "doc_type": "statement",
+  "text_sha256": "2dc419c7225c8cc131c1c90be5fbbca4872c1025a9210a1455fdf1cc998a2b47"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "49dd27efa6f10d8d735debf0c699166428f2f54e09d4035b22e95e4391ce8d1c",
+ "message_id": "msg_011CgFugEQvvBtwnKz3VJxiD",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 973,
+  "output_tokens": 510,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment\"},{\"dimension\":\"balance_sheet\",\"quote\":\"the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"poses considerable risks to the economic outlook over the medium term.\"}],\"rationale\":\"The Committee holds rates at zero with strong outcome-based guidance to keep them there until maximum employment is reached and inflation moderately exceeds 2 percent, and it continues large-scale asset purchases. The statement also emphasizes economic weakness, below-goal inflation and downside risks from the pandemic.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "poses considerable risks to the economic outlook over the medium term."
+   }
+  ],
+  "rationale": "The Committee holds rates at zero with strong outcome-based guidance to keep them there until maximum employment is reached and inflation moderately exceeds 2 percent, and it continues large-scale asset purchases. The statement also emphasizes economic weakness, below-goal inflation and downside risks from the pandemic."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "expects it will be appropriate to maintain this target range until labor market conditions have reached levels consistent with the Committee's assessments of maximum employment",
+     "start": 1564,
+     "end": 1740
+    },
+    {
+     "quote": "the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month",
+     "start": 1853,
+     "end": 2043
+    },
+    {
+     "quote": "Weaker demand and earlier declines in oil prices have been holding down consumer price inflation.",
+     "start": 432,
+     "end": 528
+    },
+    {
+     "quote": "Economic activity and employment have continued to recover but remain well below their levels at the beginning of the year.",
+     "start": 308,
+     "end": 430
+    },
+    {
+     "quote": "poses considerable risks to the economic outlook over the medium term.",
+     "start": 902,
+     "end": 971
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

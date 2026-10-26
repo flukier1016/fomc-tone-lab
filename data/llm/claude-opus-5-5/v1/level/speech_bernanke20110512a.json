@@ -1,0 +1,85 @@
+{
+ "key": "speech_bernanke20110512a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20110512a",
+  "doc_type": "speech",
+  "text_sha256": "a1bba0ce7e6d2d7c350ebb269d03320e1b0b8f2626671dca6b2c9e2d786ffd37"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c6443a16853fbc62f198135904c01602f1b225af6c293e3c7c0e669bb3d9daf3",
+ "message_id": "msg_011CgFug9AB6BfgT6G2xUuuL",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1144,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Not surprisingly, then, the growth of the Mexican and U.S. economies are strongly related.\"},{\"dimension\":\"overall\",\"quote\":\"We are working together to promote international financial stability, both bilaterally and through international forums such as the Group of Twenty and the Basel Committee on Banking Supervision.\"}],\"rationale\":\"This is a ceremonial award acceptance speech about U.S.-Mexico ties and contains no view on U.S. monetary policy, inflation, or the outlook. All policy dimensions are null and the stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Not surprisingly, then, the growth of the Mexican and U.S. economies are strongly related."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We are working together to promote international financial stability, both bilaterally and through international forums such as the Group of Twenty and the Basel Committee on Banking Supervision."
+   }
+  ],
+  "rationale": "This is a ceremonial award acceptance speech about U.S.-Mexico ties and contains no view on U.S. monetary policy, inflation, or the outlook. All policy dimensions are null and the stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 2,
+   "verified": 2,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Not surprisingly, then, the growth of the Mexican and U.S. economies are strongly related.",
+     "start": 2469,
+     "end": 2558
+    },
+    {
+     "quote": "We are working together to promote international financial stability, both bilaterally and through international forums such as the Group of Twenty and the Basel Committee on Banking Supervision.",
+     "start": 3158,
+     "end": 3352
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

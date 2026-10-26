@@ -1,0 +1,121 @@
+{
+ "key": "presser_20241107",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20241107",
+  "doc_type": "presser",
+  "text_sha256": "2af5c8583d4dda28c96a009b606bfa16a551e76eb344397edbe5366a889d7668"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "9777cee8fd62295e53ad892e8f7112b023f7082c5e1f27c78d160d11796c8b6e",
+ "message_id": "msg_011CgFugFEnvnyZxf1xb4vdE",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 9883,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.25,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"At today’s meeting, the Committee decided to lower the target range for the federal funds rate by ¼ percentage point, to 4½ percent to 4¾ percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Nothing in the economic data suggests that the Committee has any need to be in a hurry to get there.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We’re on a path to a more neutral stance. And, and that’s very much what we’re on.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"So, in the main, the economic activity data have been stronger than expected.\"},{\"dimension\":\"risk_balance\",\"quote\":\"We see the risks to achieving our employment and inflation goals as being roughly in balance, and we’re attentive to the risks to both sides of our mandate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Overall, inflation has moved much closer to our 2 percent longer-run goal, but core inflation remains somewhat elevated.\"}],\"rationale\":\"The Fed cut 25bp and reaffirmed a path toward neutral with policy still restrictive, which is dovish. Strong activity data, balanced risks, and hints of slowing the pace near neutral temper the easing signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.25,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "At today’s meeting, the Committee decided to lower the target range for the federal funds rate by ¼ percentage point, to 4½ percent to 4¾ percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Nothing in the economic data suggests that the Committee has any need to be in a hurry to get there."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We’re on a path to a more neutral stance. And, and that’s very much what we’re on."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "So, in the main, the economic activity data have been stronger than expected."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we’re attentive to the risks to both sides of our mandate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Overall, inflation has moved much closer to our 2 percent longer-run goal, but core inflation remains somewhat elevated."
+   }
+  ],
+  "rationale": "The Fed cut 25bp and reaffirmed a path toward neutral with policy still restrictive, which is dovish. Strong activity data, balanced risks, and hints of slowing the pace near neutral temper the easing signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "At today’s meeting, the Committee decided to lower the target range for the federal funds rate by ¼ percentage point, to 4½ percent to 4¾ percent.",
+     "start": 3312,
+     "end": 3457
+    },
+    {
+     "quote": "Nothing in the economic data suggests that the Committee has any need to be in a hurry to get there.",
+     "start": 19639,
+     "end": 19738
+    },
+    {
+     "quote": "We’re on a path to a more neutral stance. And, and that’s very much what we’re on.",
+     "start": 9959,
+     "end": 10040
+    },
+    {
+     "quote": "So, in the main, the economic activity data have been stronger than expected.",
+     "start": 7783,
+     "end": 7859
+    },
+    {
+     "quote": "We see the risks to achieving our employment and inflation goals as being roughly in balance, and we’re attentive to the risks to both sides of our mandate.",
+     "start": 3155,
+     "end": 3310
+    },
+    {
+     "quote": "Overall, inflation has moved much closer to our 2 percent longer-run goal, but core inflation remains somewhat elevated.",
+     "start": 2706,
+     "end": 2825
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

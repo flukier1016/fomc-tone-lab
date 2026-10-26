@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20170301a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170301a",
+  "doc_type": "speech",
+  "text_sha256": "897340757a49b72f606e53400b3b12e312bf74ee29ab0f19cf009ec33afe18e7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "17aa25fe250eba6771efa7a65d906026bc72d21972b982235c74d6db1788f61c",
+ "message_id": "msg_011CgFugBYYSSLVgzCQoRwaM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6305,
+  "output_tokens": 561,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Assuming continued progress, it will likely be appropriate soon to remove additional accommodation, continuing on a gradual path.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"As the federal funds rate continues to move higher toward its expected longer-run level, a transition in balance sheet policy will also be warranted.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"We appear to be closing in on full employment.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Still, core inflation has been below our 2 percent target for almost all of the past eight years, and further progress is necessary to reach and sustain our symmetric inflation goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The increase in upside risks to domestic demand and the diminution of foreign risks together suggest that risks to the outlook are more balanced today than they had been for the preceding two years.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"some could judge normalization to be well under way before too long. Thus, monetary policy too may be approaching a transition.\"}],\"rationale\":\"The speech signals a rate increase soon and an eventual end to reinvestment with passive balance sheet runoff, which leans hawkish. It is tempered by below-target inflation, a low neutral rate, and an emphasis on gradualism and lower-bound asymmetry.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Assuming continued progress, it will likely be appropriate soon to remove additional accommodation, continuing on a gradual path."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "As the federal funds rate continues to move higher toward its expected longer-run level, a transition in balance sheet policy will also be warranted."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "We appear to be closing in on full employment."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Still, core inflation has been below our 2 percent target for almost all of the past eight years, and further progress is necessary to reach and sustain our symmetric inflation goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The increase in upside risks to domestic demand and the diminution of foreign risks together suggest that risks to the outlook are more balanced today than they had been for the preceding two years."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "some could judge normalization to be well under way before too long. Thus, monetary policy too may be approaching a transition."
+   }
+  ],
+  "rationale": "The speech signals a rate increase soon and an eventual end to reinvestment with passive balance sheet runoff, which leans hawkish. It is tempered by below-target inflation, a low neutral rate, and an emphasis on gradualism and lower-bound asymmetry."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Assuming continued progress, it will likely be appropriate soon to remove additional accommodation, continuing on a gradual path.",
+     "start": 253,
+     "end": 381
+    },
+    {
+     "quote": "As the federal funds rate continues to move higher toward its expected longer-run level, a transition in balance sheet policy will also be warranted.",
+     "start": 20628,
+     "end": 20776
+    },
+    {
+     "quote": "We appear to be closing in on full employment.",
+     "start": 6358,
+     "end": 6403
+    },
+    {
+     "quote": "Still, core inflation has been below our 2 percent target for almost all of the past eight years, and further progress is necessary to reach and sustain our symmetric inflation goal.",
+     "start": 8218,
+     "end": 8399
+    },
+    {
+     "quote": "The increase in upside risks to domestic demand and the diminution of foreign risks together suggest that risks to the outlook are more balanced today than they had been for the preceding two years.",
+     "start": 10303,
+     "end": 10500
+    },
+    {
+     "quote": "some could judge normalization to be well under way before too long. Thus, monetary policy too may be approaching a transition.",
+     "start": 12803,
+     "end": 12929
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

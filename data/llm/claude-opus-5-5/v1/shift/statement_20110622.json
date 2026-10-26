@@ -1,0 +1,164 @@
+{
+ "key": "statement_20110622",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20110622",
+  "previous_doc_id": "statement_20110427",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "499d364bd60c6fb7273cc5492d9f2c3b10de64ce61e1b65b87f5546c681b6940",
+ "message_id": "msg_011CgFudUb8jYEi9RG1R5oDC",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1882,
+  "output_tokens": 1056,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":-1,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in March indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually.\",\"after\":\"Information received since the Federal Open Market Committee met in April indicates that the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected. Also, recent labor market indicators have been weaker than anticipated.\",\"direction\":\"dovish\"},{\"before\":\"\",\"after\":\"The slower pace of the recovery reflects in part factors that are likely to be temporary, including the damping effect of higher food and energy prices on consumer purchasing power and spending as well as supply chain disruptions associated with the tragic events in Japan.\",\"direction\":\"neutral\"},{\"before\":\"Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.\",\"after\":\"Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions. However, longer-term inflation expectations have remained stable.\",\"direction\":\"hawkish\"},{\"before\":\"The Committee expects these effects to be transitory, but it will pay close attention to the evolution of inflation and inflation expectations.\",\"after\":\"Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate.\",\"direction\":\"dovish\"},{\"before\":\"The unemployment rate remains elevated, and measures of underlying inflation continue to be somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate.\",\"after\":\"The unemployment rate remains elevated; however, the Committee expects the pace of recovery to pick up over coming quarters and the unemployment rate to resume its gradual decline toward levels that the Committee judges to be consistent with its dual mandate.\",\"direction\":\"hawkish\"},{\"before\":\"including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\",\"after\":\"including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate for an extended period.\",\"direction\":\"neutral\"},{\"before\":\"The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.\",\"after\":\"The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability.\",\"direction\":\"neutral\"}],\"rationale\":\"The statement acknowledges a slower-than-expected recovery and weaker labor data, and projects inflation subsiding to at or below mandate-consistent levels. Rate guidance and the plan to finish asset purchases are unchanged, so the net tilt is mildly dovish.\"}",
+ "parsed": {
+  "shift_score": -1,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in March indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually.",
+    "after": "Information received since the Federal Open Market Committee met in April indicates that the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected. Also, recent labor market indicators have been weaker than anticipated.",
+    "direction": "dovish"
+   },
+   {
+    "before": "",
+    "after": "The slower pace of the recovery reflects in part factors that are likely to be temporary, including the damping effect of higher food and energy prices on consumer purchasing power and spending as well as supply chain disruptions associated with the tragic events in Japan.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.",
+    "after": "Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions. However, longer-term inflation expectations have remained stable.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "The Committee expects these effects to be transitory, but it will pay close attention to the evolution of inflation and inflation expectations.",
+    "after": "Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate.",
+    "direction": "dovish"
+   },
+   {
+    "before": "The unemployment rate remains elevated, and measures of underlying inflation continue to be somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate.",
+    "after": "The unemployment rate remains elevated; however, the Committee expects the pace of recovery to pick up over coming quarters and the unemployment rate to resume its gradual decline toward levels that the Committee judges to be consistent with its dual mandate.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+    "after": "including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+    "direction": "neutral"
+   },
+   {
+    "before": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.",
+    "after": "The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The statement acknowledges a slower-than-expected recovery and weaker labor data, and projects inflation subsiding to at or below mandate-consistent levels. Rate guidance and the plan to finish asset purchases are unchanged, so the net tilt is mildly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in March indicates that the economic recovery is proceeding at a moderate pace and overall conditions in the labor market are improving gradually.",
+     "start": 0,
+     "end": 210
+    },
+    {
+     "quote": "Inflation has picked up in recent months, but longer-term inflation expectations have remained stable and measures of underlying inflation are still subdued.",
+     "start": 611,
+     "end": 767
+    },
+    {
+     "quote": "The Committee expects these effects to be transitory, but it will pay close attention to the evolution of inflation and inflation expectations.",
+     "start": 1191,
+     "end": 1333
+    },
+    {
+     "quote": "The unemployment rate remains elevated, and measures of underlying inflation continue to be somewhat low, relative to levels that the Committee judges to be consistent, over the longer run, with its dual mandate.",
+     "start": 879,
+     "end": 1090
+    },
+    {
+     "quote": "including low rates of resource utilization, subdued inflation trends, and stable inflation expectations, are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 2319,
+     "end": 2521
+    },
+    {
+     "quote": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to support the economic recovery and to help ensure that inflation, over time, is at levels consistent with its mandate.",
+     "start": 2524,
+     "end": 2776
+    }
+   ]
+  },
+  "after": {
+   "n": 7,
+   "verified": 7,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in April indicates that the economic recovery is continuing at a moderate pace, though somewhat more slowly than the Committee had expected. Also, recent labor market indicators have been weaker than anticipated.",
+     "start": 0,
+     "end": 276
+    },
+    {
+     "quote": "The slower pace of the recovery reflects in part factors that are likely to be temporary, including the damping effect of higher food and energy prices on consumer purchasing power and spending as well as supply chain disruptions associated with the tragic events in Japan.",
+     "start": 278,
+     "end": 550
+    },
+    {
+     "quote": "Inflation has picked up in recent months, mainly reflecting higher prices for some commodities and imported goods, as well as the recent supply chain disruptions. However, longer-term inflation expectations have remained stable.",
+     "start": 755,
+     "end": 982
+    },
+    {
+     "quote": "Inflation has moved up recently, but the Committee anticipates that inflation will subside to levels at or below those consistent with the Committee's dual mandate as the effects of past energy and other commodity price increases dissipate.",
+     "start": 1354,
+     "end": 1593
+    },
+    {
+     "quote": "The unemployment rate remains elevated; however, the Committee expects the pace of recovery to pick up over coming quarters and the unemployment rate to resume its gradual decline toward levels that the Committee judges to be consistent with its dual mandate.",
+     "start": 1094,
+     "end": 1352
+    },
+    {
+     "quote": "including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate for an extended period.",
+     "start": 2008,
+     "end": 2205
+    },
+    {
+     "quote": "The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability.",
+     "start": 2573,
+     "end": 2724
+    }
+   ]
+  }
+ }
+}

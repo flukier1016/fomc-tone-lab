@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20191001a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20191001a",
+  "doc_type": "speech",
+  "text_sha256": "ca1915c24b4dc38b9ec9d9f9a268ea59775177175dc7fe9f69ab91912c54ecdb"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6b1f0970a89e2611ac980abb37fa91bc72ab6ec23b3d191f29ba98dc4bf408de",
+ "message_id": "msg_011CgFugAjBJd2tNdN2nEfNM",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5593,
+  "output_tokens": 334,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to share with you some of my thoughts and observations on the forces influencing the future of banking, and community banking in particular.\"},{\"dimension\":\"overall\",\"quote\":\"Or have low interest rates meant that net interest rate margins are just too narrow?\"},{\"dimension\":\"overall\",\"quote\":\"In other words, we have a more resilient, stronger community banking sector, but one with fewer locally headquartered banks.\"}],\"rationale\":\"The speech is about community bank consolidation, regulation, and research needs, with no discussion of monetary policy, inflation, or the macro outlook. The passing mention of low interest rates concerns bank margins and gives no policy signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to share with you some of my thoughts and observations on the forces influencing the future of banking, and community banking in particular."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Or have low interest rates meant that net interest rate margins are just too narrow?"
+   },
+   {
+    "dimension": "overall",
+    "quote": "In other words, we have a more resilient, stronger community banking sector, but one with fewer locally headquartered banks."
+   }
+  ],
+  "rationale": "The speech is about community bank consolidation, regulation, and research needs, with no discussion of monetary policy, inflation, or the macro outlook. The passing mention of low interest rates concerns bank margins and gives no policy signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to share with you some of my thoughts and observations on the forces influencing the future of banking, and community banking in particular.",
+     "start": 1328,
+     "end": 1480
+    },
+    {
+     "quote": "Or have low interest rates meant that net interest rate margins are just too narrow?",
+     "start": 19679,
+     "end": 19763
+    },
+    {
+     "quote": "In other words, we have a more resilient, stronger community banking sector, but one with fewer locally headquartered banks.",
+     "start": 4920,
+     "end": 5043
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

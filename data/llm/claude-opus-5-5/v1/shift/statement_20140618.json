@@ -1,0 +1,124 @@
+{
+ "key": "statement_20140618",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20140618",
+  "previous_doc_id": "statement_20140430",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "cdc1218c6115227d409cff20e343e07a0e3a58530e8375ebbcfe2b8cd7e142eb",
+ "message_id": "msg_011CgFudURxQgU5cnMg43Zsi",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 3279,
+  "output_tokens": 620,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":0,\"changes\":[{\"before\":\"Information received since the Federal Open Market Committee met in March indicates that growth in economic activity has picked up recently, after having slowed sharply during the winter in part because of adverse weather conditions.\",\"after\":\"Information received since the Federal Open Market Committee met in April indicates that growth in economic activity has rebounded in recent months.\",\"direction\":\"hawkish\"},{\"before\":\"Labor market indicators were mixed but on balance showed further improvement. The unemployment rate, however, remains elevated.\",\"after\":\"Labor market indicators generally showed further improvement. The unemployment rate, though lower, remains elevated.\",\"direction\":\"hawkish\"},{\"before\":\"Household spending appears to be rising more quickly. Business fixed investment edged down, while the recovery in the housing sector remained slow.\",\"after\":\"Household spending appears to be rising moderately and business fixed investment resumed its advance, while the recovery in the housing sector remained slow.\",\"direction\":\"neutral\"},{\"before\":\"Beginning in May, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $20 billion per month rather than $25 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $25 billion per month rather than $30 billion per month.\",\"after\":\"Beginning in July, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $15 billion per month rather than $20 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $20 billion per month rather than $25 billion per month.\",\"direction\":\"neutral\"}],\"rationale\":\"The taper continued at the expected $10 billion pace and forward guidance was unchanged, so there was no material policy shift. The modestly upgraded description of activity and the labor market is offset by unchanged inflation and rate language.\"}",
+ "parsed": {
+  "shift_score": 0,
+  "changes": [
+   {
+    "before": "Information received since the Federal Open Market Committee met in March indicates that growth in economic activity has picked up recently, after having slowed sharply during the winter in part because of adverse weather conditions.",
+    "after": "Information received since the Federal Open Market Committee met in April indicates that growth in economic activity has rebounded in recent months.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Labor market indicators were mixed but on balance showed further improvement. The unemployment rate, however, remains elevated.",
+    "after": "Labor market indicators generally showed further improvement. The unemployment rate, though lower, remains elevated.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "Household spending appears to be rising more quickly. Business fixed investment edged down, while the recovery in the housing sector remained slow.",
+    "after": "Household spending appears to be rising moderately and business fixed investment resumed its advance, while the recovery in the housing sector remained slow.",
+    "direction": "neutral"
+   },
+   {
+    "before": "Beginning in May, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $20 billion per month rather than $25 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $25 billion per month rather than $30 billion per month.",
+    "after": "Beginning in July, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $15 billion per month rather than $20 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $20 billion per month rather than $25 billion per month.",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The taper continued at the expected $10 billion pace and forward guidance was unchanged, so there was no material policy shift. The modestly upgraded description of activity and the labor market is offset by unchanged inflation and rate language."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in March indicates that growth in economic activity has picked up recently, after having slowed sharply during the winter in part because of adverse weather conditions.",
+     "start": 0,
+     "end": 232
+    },
+    {
+     "quote": "Labor market indicators were mixed but on balance showed further improvement. The unemployment rate, however, remains elevated.",
+     "start": 234,
+     "end": 360
+    },
+    {
+     "quote": "Household spending appears to be rising more quickly. Business fixed investment edged down, while the recovery in the housing sector remained slow.",
+     "start": 362,
+     "end": 508
+    },
+    {
+     "quote": "Beginning in May, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $20 billion per month rather than $25 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $25 billion per month rather than $30 billion per month.",
+     "start": 1906,
+     "end": 2202
+    }
+   ]
+  },
+  "after": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Information received since the Federal Open Market Committee met in April indicates that growth in economic activity has rebounded in recent months.",
+     "start": 0,
+     "end": 147
+    },
+    {
+     "quote": "Labor market indicators generally showed further improvement. The unemployment rate, though lower, remains elevated.",
+     "start": 149,
+     "end": 264
+    },
+    {
+     "quote": "Household spending appears to be rising moderately and business fixed investment resumed its advance, while the recovery in the housing sector remained slow.",
+     "start": 266,
+     "end": 422
+    },
+    {
+     "quote": "Beginning in July, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $15 billion per month rather than $20 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $20 billion per month rather than $25 billion per month.",
+     "start": 1820,
+     "end": 2117
+    }
+   ]
+  }
+ }
+}

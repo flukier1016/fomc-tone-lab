@@ -1,0 +1,121 @@
+{
+ "key": "presser_20221214",
+ "mode": "level",
+ "meta": {
+  "doc_id": "presser_20221214",
+  "doc_type": "presser",
+  "text_sha256": "1ce4418bb4a3733fbf66f7a07b9324c5e9183fa6084ed46ccec50aae435b3d84"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f43677032d5fb028c1786dde17d6226a7d206d52cc3099a9c6342cb51a5c842d",
+ "message_id": "msg_011CgG2A4UsE4bQDZxMfBgtT",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 10396,
+  "output_tokens": 581,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":1,\"forward_guidance\":2,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":1,\"overall_stance\":2,\"stance_score\":0.75,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"Today, the FOMC raised our policy interest rate by ½ percentage point.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I would say it's our judgment today that we're not at a sufficiently restrictive policy stance yet, which is why we say that we would expect that ongoing hikes would be appropriate.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The historical record cautions strongly against prematurely loosening policy. We will stay the course until the job is done.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"But it will take substantially more evidence to give confidence that inflation is on a sustained downward path.\"},{\"dimension\":\"risk_balance\",\"quote\":\"overwhelmingly, FOMC participants believe that inflation risks are to the upside.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate near a 50-year low, job vacancies still very high, and wage growth elevated.\"}],\"rationale\":\"The Fed hiked 50bp, a step-down in pace, but signaled ongoing increases to a higher peak above 5 percent, no cuts in 2023, and restrictive policy held for some time. Inflation risks were emphasized as to the upside, and the labor market was described as very tight, so the net signal is strongly hawkish despite the slower pace of hikes.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 1,
+  "forward_guidance": 2,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": 1,
+  "overall_stance": 2,
+  "stance_score": 0.75,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "Today, the FOMC raised our policy interest rate by ½ percentage point."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would say it's our judgment today that we're not at a sufficiently restrictive policy stance yet, which is why we say that we would expect that ongoing hikes would be appropriate."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The historical record cautions strongly against prematurely loosening policy. We will stay the course until the job is done."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "But it will take substantially more evidence to give confidence that inflation is on a sustained downward path."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "overwhelmingly, FOMC participants believe that inflation risks are to the upside."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate near a 50-year low, job vacancies still very high, and wage growth elevated."
+   }
+  ],
+  "rationale": "The Fed hiked 50bp, a step-down in pace, but signaled ongoing increases to a higher peak above 5 percent, no cuts in 2023, and restrictive policy held for some time. Inflation risks were emphasized as to the upside, and the labor market was described as very tight, so the net signal is strongly hawkish despite the slower pace of hikes."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, the FOMC raised our policy interest rate by ½ percentage point.",
+     "start": 806,
+     "end": 875
+    },
+    {
+     "quote": "I would say it's our judgment today that we're not at a sufficiently restrictive policy stance yet, which is why we say that we would expect that ongoing hikes would be appropriate.",
+     "start": 8943,
+     "end": 9123
+    },
+    {
+     "quote": "The historical record cautions strongly against prematurely loosening policy. We will stay the course until the job is done.",
+     "start": 7816,
+     "end": 7939
+    },
+    {
+     "quote": "But it will take substantially more evidence to give confidence that inflation is on a sustained downward path.",
+     "start": 3556,
+     "end": 3666
+    },
+    {
+     "quote": "overwhelmingly, FOMC participants believe that inflation risks are to the upside.",
+     "start": 9649,
+     "end": 9729
+    },
+    {
+     "quote": "Despite the slowdown in growth, the labor market remains extremely tight, with the unemployment rate near a 50-year low, job vacancies still very high, and wage growth elevated.",
+     "start": 2228,
+     "end": 2404
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

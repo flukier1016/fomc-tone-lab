@@ -1,0 +1,121 @@
+{
+ "key": "speech_bowman20250109a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20250109a",
+  "doc_type": "speech",
+  "text_sha256": "9e96488183bd1b69b2389d3cce64f67cde5b829d4284024550d0221787497dbf"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "63e55ba001a0e93eb3aec1166d823599cab951451aa0a93d2052d4c4ab246bcc",
+ "message_id": "msg_011CgFugKEeZNeohJr91vv4R",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 7406,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":2,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.65,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I supported the December policy action because, in my view, it represented the Committee's final step in the policy recalibration phase.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"this progress appears to have stalled last year with core inflation still uncomfortably above the Committee's 2 percent goal.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I continue to see greater risks to price stability, especially while the labor market remains near full employment\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I also continue to be concerned that the current stance of policy may not be as restrictive as others may see it.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The U.S. economy remained strong through the end of last year, with solid growth in economic activity and a labor market near full employment.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"In light of these considerations, I continue to prefer a cautious and gradual approach to adjusting policy.\"}],\"rationale\":\"Bowman calls December's cut the final step of recalibration and says she could have supported no cut. She stresses stalled inflation progress, upside inflation risks and doubts that policy is restrictive, though she stops short of signaling hikes.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 2,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.65,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I supported the December policy action because, in my view, it represented the Committee's final step in the policy recalibration phase."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "this progress appears to have stalled last year with core inflation still uncomfortably above the Committee's 2 percent goal."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I continue to see greater risks to price stability, especially while the labor market remains near full employment"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I also continue to be concerned that the current stance of policy may not be as restrictive as others may see it."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The U.S. economy remained strong through the end of last year, with solid growth in economic activity and a labor market near full employment."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "In light of these considerations, I continue to prefer a cautious and gradual approach to adjusting policy."
+   }
+  ],
+  "rationale": "Bowman calls December's cut the final step of recalibration and says she could have supported no cut. She stresses stalled inflation progress, upside inflation risks and doubts that policy is restrictive, though she stops short of signaling hikes."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I supported the December policy action because, in my view, it represented the Committee's final step in the policy recalibration phase.",
+     "start": 2103,
+     "end": 2238
+    },
+    {
+     "quote": "this progress appears to have stalled last year with core inflation still uncomfortably above the Committee's 2 percent goal.",
+     "start": 3616,
+     "end": 3740
+    },
+    {
+     "quote": "I continue to see greater risks to price stability, especially while the labor market remains near full employment",
+     "start": 7971,
+     "end": 8085
+    },
+    {
+     "quote": "I also continue to be concerned that the current stance of policy may not be as restrictive as others may see it.",
+     "start": 9411,
+     "end": 9523
+    },
+    {
+     "quote": "The U.S. economy remained strong through the end of last year, with solid growth in economic activity and a labor market near full employment.",
+     "start": 3323,
+     "end": 3464
+    },
+    {
+     "quote": "In light of these considerations, I continue to prefer a cautious and gradual approach to adjusting policy.",
+     "start": 10018,
+     "end": 10124
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20170905a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20170905a",
+  "doc_type": "speech",
+  "text_sha256": "8198a5500bcb0cdfd1228cc6ea1cc609f07f4815e00e0aa478431bd044db873f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "3333ba0f552d49799a6024e5dedc44c19f37beb9861434b6db7fbe585ed01766",
+ "message_id": "msg_011CgFug98BzZMAhQ6qVm3wT",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5876,
+  "output_tokens": 552,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:01+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-2,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":1,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"My own view is that we should be cautious about tightening policy further until we are confident inflation is on track to achieve our target.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In contrast, what is troubling is five straight years in which inflation fell short of our target despite a sharp improvement in resource utilization.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Overall, the U.S. economy remains on solid footing, against the backdrop of the first synchronized global economic growth we have seen in many years and accommodative financial conditions.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we should allow the balance sheet to run off in the background at the gradual pace that was announced.\"},{\"dimension\":\"risk_balance\",\"quote\":\"In short, frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations.\"},{\"dimension\":\"overall\",\"quote\":\"In that case, it would be prudent to raise the federal funds rate more gradually.\"}],\"rationale\":\"The speaker forcefully stresses persistently low inflation and falling underlying expectations, urging caution on further rate hikes and tolerance of modest overshooting, despite a solid economy. Support for starting gradual balance sheet runoff is a mild hawkish element, but the net signal is dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": 1,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "My own view is that we should be cautious about tightening policy further until we are confident inflation is on track to achieve our target."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In contrast, what is troubling is five straight years in which inflation fell short of our target despite a sharp improvement in resource utilization."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Overall, the U.S. economy remains on solid footing, against the backdrop of the first synchronized global economic growth we have seen in many years and accommodative financial conditions."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we should allow the balance sheet to run off in the background at the gradual pace that was announced."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "In short, frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In that case, it would be prudent to raise the federal funds rate more gradually."
+   }
+  ],
+  "rationale": "The speaker forcefully stresses persistently low inflation and falling underlying expectations, urging caution on further rate hikes and tolerance of modest overshooting, despite a solid economy. Support for starting gradual balance sheet runoff is a mild hawkish element, but the net signal is dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "My own view is that we should be cautious about tightening policy further until we are confident inflation is on track to achieve our target.",
+     "start": 14291,
+     "end": 14431
+    },
+    {
+     "quote": "In contrast, what is troubling is five straight years in which inflation fell short of our target despite a sharp improvement in resource utilization.",
+     "start": 5981,
+     "end": 6130
+    },
+    {
+     "quote": "Overall, the U.S. economy remains on solid footing, against the backdrop of the first synchronized global economic growth we have seen in many years and accommodative financial conditions.",
+     "start": 0,
+     "end": 187
+    },
+    {
+     "quote": "we should allow the balance sheet to run off in the background at the gradual pace that was announced.",
+     "start": 13739,
+     "end": 13840
+    },
+    {
+     "quote": "In short, frequent or extended periods of low inflation run the risk of pulling down private-sector inflation expectations.",
+     "start": 10575,
+     "end": 10697
+    },
+    {
+     "quote": "In that case, it would be prudent to raise the federal funds rate more gradually.",
+     "start": 19543,
+     "end": 19623
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

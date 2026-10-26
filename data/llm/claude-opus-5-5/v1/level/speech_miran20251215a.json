@@ -1,0 +1,121 @@
+{
+ "key": "speech_miran20251215a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_miran20251215a",
+  "doc_type": "speech",
+  "text_sha256": "a148d10471d5abe163af2a9c7740c621c557bc48ec2e5da9b112fcbdc3d814c3"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b93cce58d7cf5841883d287f58832821af389877b8646c8f0e6772bbcddd2e45",
+ "message_id": "msg_011CgFugDpiRjmcNbyyZrkb1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5630,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":null,\"overall_stance\":-2,\"stance_score\":-0.9,\"confidence\":0.92,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"a quicker pace of easing policy—as I have advocated—would appropriately move us closer to a neutral stance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Underlying inflation is near, and further approaching, our target.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Yet here we are, keeping interest rates too high because of the phantom inflation of portfolio advisory fees.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Unemployment has trended higher for over two years, and wage growth lower.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Keeping policy unnecessarily tight because of an imbalance from 2022, or because of artifacts of the statistical measurement process, will lead to job losses.\"},{\"dimension\":\"risk_balance\",\"quote\":\"If I am right about shelter but wrong about tariffs, we will undershoot our inflation target.\"}],\"rationale\":\"The speaker argues underlying inflation is near target, shelter disinflation will accelerate and tariff effects are noise, while labor market risks are to the downside. He explicitly advocates a quicker pace of easing, a strongly dovish signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": null,
+  "overall_stance": -2,
+  "stance_score": -0.9,
+  "confidence": 0.92,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "a quicker pace of easing policy—as I have advocated—would appropriately move us closer to a neutral stance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Underlying inflation is near, and further approaching, our target."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Yet here we are, keeping interest rates too high because of the phantom inflation of portfolio advisory fees."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Unemployment has trended higher for over two years, and wage growth lower."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Keeping policy unnecessarily tight because of an imbalance from 2022, or because of artifacts of the statistical measurement process, will lead to job losses."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "If I am right about shelter but wrong about tariffs, we will undershoot our inflation target."
+   }
+  ],
+  "rationale": "The speaker argues underlying inflation is near target, shelter disinflation will accelerate and tariff effects are noise, while labor market risks are to the downside. He explicitly advocates a quicker pace of easing, a strongly dovish signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "a quicker pace of easing policy—as I have advocated—would appropriately move us closer to a neutral stance.",
+     "start": 17851,
+     "end": 17957
+    },
+    {
+     "quote": "Underlying inflation is near, and further approaching, our target.",
+     "start": 17579,
+     "end": 17644
+    },
+    {
+     "quote": "Yet here we are, keeping interest rates too high because of the phantom inflation of portfolio advisory fees.",
+     "start": 5500,
+     "end": 5608
+    },
+    {
+     "quote": "Unemployment has trended higher for over two years, and wage growth lower.",
+     "start": 3162,
+     "end": 3235
+    },
+    {
+     "quote": "Keeping policy unnecessarily tight because of an imbalance from 2022, or because of artifacts of the statistical measurement process, will lead to job losses.",
+     "start": 16937,
+     "end": 17094
+    },
+    {
+     "quote": "If I am right about shelter but wrong about tariffs, we will undershoot our inflation target.",
+     "start": 15303,
+     "end": 15395
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

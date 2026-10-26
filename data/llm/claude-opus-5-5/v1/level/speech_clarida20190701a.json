@@ -1,0 +1,112 @@
+{
+ "key": "speech_clarida20190701a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_clarida20190701a",
+  "doc_type": "speech",
+  "text_sha256": "9ea68c72241e497d371d5688acb5067491381c831b1da6e931991eb3e0528275"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "15cad59a117bc70eee0e4b25ea68ec14ca17332db0105c84428934eab9e7d3e0",
+ "message_id": "msg_011CgFug97C7UkA22dn15wW2",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5680,
+  "output_tokens": 484,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:58+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.15,\"confidence\":0.45,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"The fact that the Federal Reserve is conducting this review does not suggest that we are dissatisfied with the existing policy framework.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective.\"},{\"dimension\":\"risk_balance\",\"quote\":\"All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"I believe the range of plausible estimates extends to 4 percent or below.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal.\"}],\"rationale\":\"This is a framework-review speech with no near-term policy signal, though it leans slightly dovish. It stresses ELB risks and inflation shortfalls and suggests the labor market may not be beyond full employment.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.15,
+  "confidence": 0.45,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "The fact that the Federal Reserve is conducting this review does not suggest that we are dissatisfied with the existing policy framework."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "I believe the range of plausible estimates extends to 4 percent or below."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal."
+   }
+  ],
+  "rationale": "This is a framework-review speech with no near-term policy signal, though it leans slightly dovish. It stresses ELB risks and inflation shortfalls and suggests the labor market may not be beyond full employment."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The fact that the Federal Reserve is conducting this review does not suggest that we are dissatisfied with the existing policy framework.",
+     "start": 813,
+     "end": 949
+    },
+    {
+     "quote": "The unemployment rate is near a 50-year low, and inflation is running close to our 2 percent objective.",
+     "start": 1717,
+     "end": 1819
+    },
+    {
+     "quote": "All else being equal, a fall in neutral rates increases the likelihood that a central bank's policy rate will reach its effective lower bound (ELB) in future economic downturns.",
+     "start": 2860,
+     "end": 3036
+    },
+    {
+     "quote": "I believe the range of plausible estimates extends to 4 percent or below.",
+     "start": 4579,
+     "end": 4651
+    },
+    {
+     "quote": "Persistent inflation shortfalls carry the risk that longer-term inflation expectations become poorly anchored or become anchored below the stated inflation goal.",
+     "start": 9143,
+     "end": 9303
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

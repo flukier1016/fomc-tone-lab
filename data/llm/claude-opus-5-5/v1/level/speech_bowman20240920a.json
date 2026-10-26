@@ -1,0 +1,112 @@
+{
+ "key": "speech_bowman20240920a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20240920a",
+  "doc_type": "speech",
+  "text_sha256": "1029f28368fa558f2917ac19cb5ef2f5204cf438b5e0b9b2366aed04f8f098e4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b649782e234e49a900828eed4c848107d17c948327743238262569ea450e94e4",
+ "message_id": "msg_011CgFugE666MHaNus1sqKGW",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 957,
+  "output_tokens": 466,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I preferred to lower the target range for the federal funds rate by 1/4 percentage point to 5 to 5-1/4 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that moving at a measured pace toward a more neutral policy stance will ensure further progress in bringing inflation down to our 2 percent target.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"We have not yet achieved our inflation goal.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The U.S. economy remains strong, with solid underlying growth in economic activity and a labor market near full employment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"I see the risk that the Committee's larger policy action could be interpreted as a premature declaration of victory on our price stability mandate.\"}],\"rationale\":\"The governor dissented in favor of a smaller cut, citing a strong economy and persistent inflation, and urged a measured pace of easing. This leans hawkish relative to the Committee, though she still supports moving toward a neutral stance.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I preferred to lower the target range for the federal funds rate by 1/4 percentage point to 5 to 5-1/4 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that moving at a measured pace toward a more neutral policy stance will ensure further progress in bringing inflation down to our 2 percent target."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "We have not yet achieved our inflation goal."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The U.S. economy remains strong, with solid underlying growth in economic activity and a labor market near full employment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "I see the risk that the Committee's larger policy action could be interpreted as a premature declaration of victory on our price stability mandate."
+   }
+  ],
+  "rationale": "The governor dissented in favor of a smaller cut, citing a strong economy and persistent inflation, and urged a measured pace of easing. This leans hawkish relative to the Committee, though she still supports moving toward a neutral stance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I preferred to lower the target range for the federal funds rate by 1/4 percentage point to 5 to 5-1/4 percent.",
+     "start": 252,
+     "end": 362
+    },
+    {
+     "quote": "I believe that moving at a measured pace toward a more neutral policy stance will ensure further progress in bringing inflation down to our 2 percent target.",
+     "start": 2286,
+     "end": 2442
+    },
+    {
+     "quote": "We have not yet achieved our inflation goal.",
+     "start": 2241,
+     "end": 2284
+    },
+    {
+     "quote": "The U.S. economy remains strong, with solid underlying growth in economic activity and a labor market near full employment.",
+     "start": 775,
+     "end": 897
+    },
+    {
+     "quote": "I see the risk that the Committee's larger policy action could be interpreted as a premature declaration of victory on our price stability mandate.",
+     "start": 2092,
+     "end": 2238
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

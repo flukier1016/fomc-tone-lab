@@ -1,0 +1,121 @@
+{
+ "key": "minutes_20150917",
+ "mode": "level",
+ "meta": {
+  "doc_id": "minutes_20150917",
+  "doc_type": "minutes",
+  "text_sha256": "632735a9aadc75fce98aee92ccb955ae978b347e9aa70ba558a6dc89cad95def"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "4a9e58c0cb33c6e382f9685cb8b8b2c395606572b9591f09b7c6608bda3f602f",
+ "message_id": "msg_011CgG2T8BqZw7zTcczXuXV1",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 13180,
+  "output_tokens": 568,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":1,\"risk_balance\":-1,\"balance_sheet\":-1,\"overall_stance\":-1,\"stance_score\":-0.3,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants continued to anticipate that, based on their assessment of current economic conditions and their outlook for economic activity, the labor market, and inflation, the conditions for policy firming had been met or would likely be met by the end of the year.\"},{\"dimension\":\"risk_balance\",\"quote\":\"compared with their previous forecasts, more now saw the risks to inflation as tilted to the downside.\"},{\"dimension\":\"overall\",\"quote\":\"the Committee decided that it was prudent to wait for additional information confirming that the economic outlook had not deteriorated\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Participants agreed that labor market conditions had improved considerably since earlier in the year.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"Several participants emphasized that continuing reinvestments for some time after the initial policy firming could help manage potential risks\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Participants anticipated that recent global developments would likely put further downward pressure on inflation in the near term\"}],\"rationale\":\"The minutes describe a decision to delay liftoff amid heightened downside risks to growth and inflation, with more participants seeing inflation risks tilted down and support for gradualism and continued reinvestment. Strong labor markets and most participants still expecting firming by year-end keep the dovish lean moderate.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 1,
+  "risk_balance": -1,
+  "balance_sheet": -1,
+  "overall_stance": -1,
+  "stance_score": -0.3,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants continued to anticipate that, based on their assessment of current economic conditions and their outlook for economic activity, the labor market, and inflation, the conditions for policy firming had been met or would likely be met by the end of the year."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "compared with their previous forecasts, more now saw the risks to inflation as tilted to the downside."
+   },
+   {
+    "dimension": "overall",
+    "quote": "the Committee decided that it was prudent to wait for additional information confirming that the economic outlook had not deteriorated"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Participants agreed that labor market conditions had improved considerably since earlier in the year."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "Several participants emphasized that continuing reinvestments for some time after the initial policy firming could help manage potential risks"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Participants anticipated that recent global developments would likely put further downward pressure on inflation in the near term"
+   }
+  ],
+  "rationale": "The minutes describe a decision to delay liftoff amid heightened downside risks to growth and inflation, with more participants seeing inflation risks tilted down and support for gradualism and continued reinvestment. Strong labor markets and most participants still expecting firming by year-end keep the dovish lean moderate."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Most participants continued to anticipate that, based on their assessment of current economic conditions and their outlook for economic activity, the labor market, and inflation, the conditions for policy firming had been met or would likely be met by the end of the year.",
+     "start": 29669,
+     "end": 29940
+    },
+    {
+     "quote": "compared with their previous forecasts, more now saw the risks to inflation as tilted to the downside.",
+     "start": 21228,
+     "end": 21329
+    },
+    {
+     "quote": "the Committee decided that it was prudent to wait for additional information confirming that the economic outlook had not deteriorated",
+     "start": 36971,
+     "end": 37105
+    },
+    {
+     "quote": "Participants agreed that labor market conditions had improved considerably since earlier in the year.",
+     "start": 23988,
+     "end": 24088
+    },
+    {
+     "quote": "Several participants emphasized that continuing reinvestments for some time after the initial policy firming could help manage potential risks",
+     "start": 2702,
+     "end": 2844
+    },
+    {
+     "quote": "Participants anticipated that recent global developments would likely put further downward pressure on inflation in the near term",
+     "start": 21097,
+     "end": 21226
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "statement_20170315",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20170315",
+  "doc_type": "statement",
+  "text_sha256": "1d2ff9c007cfa2ae07849768964e3a6d78635105c98b952e54185a1ce9d105ff"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b1cdd1ea8938dd7f0fe2f24367c7ed6740bbb47abd8dbbe446d52a3eb34e1687",
+ "message_id": "msg_011CgFugQiJWF75qKGGy2TdJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1093,
+  "output_tokens": 520,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":2,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":-1,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"policy_action\",\"quote\":\"the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation has increased in recent quarters, moving close to the Committee's 2 percent longer-run objective\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace\"},{\"dimension\":\"risk_balance\",\"quote\":\"Near-term risks to the economic outlook appear roughly balanced.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it anticipates doing so until normalization of the level of the federal funds rate is well under way\"}],\"rationale\":\"The Committee hikes rates and signals further gradual increases, citing a strengthening labor market and inflation near 2 percent. Guidance stresses that hikes will be gradual, policy remains accommodative, and reinvestment continues, which tempers the hawkish signal; one member dissented in favor of holding.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": 2,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": -1,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "policy_action",
+    "quote": "the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation has increased in recent quarters, moving close to the Committee's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Near-term risks to the economic outlook appear roughly balanced."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way"
+   }
+  ],
+  "rationale": "The Committee hikes rates and signals further gradual increases, citing a strengthening labor market and inflation near 2 percent. Guidance stresses that hikes will be gradual, policy remains accommodative, and reinvestment continues, which tempers the hawkish signal; one member dissented in favor of holding."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent",
+     "start": 1406,
+     "end": 1500
+    },
+    {
+     "quote": "The Committee expects that economic conditions will evolve in a manner that will warrant gradual increases in the federal funds rate",
+     "start": 2280,
+     "end": 2412
+    },
+    {
+     "quote": "Inflation has increased in recent quarters, moving close to the Committee's 2 percent longer-run objective",
+     "start": 413,
+     "end": 519
+    },
+    {
+     "quote": "the labor market has continued to strengthen and that economic activity has continued to expand at a moderate pace",
+     "start": 92,
+     "end": 206
+    },
+    {
+     "quote": "Near-term risks to the economic outlook appear roughly balanced.",
+     "start": 1156,
+     "end": 1219
+    },
+    {
+     "quote": "it anticipates doing so until normalization of the level of the federal funds rate is well under way",
+     "start": 2908,
+     "end": 3008
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

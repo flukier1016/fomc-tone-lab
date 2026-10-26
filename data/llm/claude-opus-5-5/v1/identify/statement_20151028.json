@@ -1,0 +1,51 @@
+{
+ "key": "statement_20151028",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20151028",
+  "release_date": "2015-10-28"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "91993dbfe0b009e3056232f49c4021336dca127e84dc62fe0c2ca36fecd49402",
+ "message_id": "msg_011CgFudVXwVULZjivhVUfpW",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1583,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2015,\"month\":10,\"confidence\":0.93,\"cues\":[\"'whether it will be appropriate to raise the target range at its next meeting' - unique October 2015 language signaling December liftoff\",\"'monitoring global economic and financial developments' replacing September 2015's language about global developments restraining activity\",\"'pace of job gains slowed' and net exports soft, matching autumn 2015 data\",\"Dissent by a voter preferring a 25 bp hike (Lacker, 2015 voter)\",\"Rate still at the zero lower bound with liftoff anticipated; Brainard and Fischer listed as voters\"]}",
+ "parsed": {
+  "year": 2015,
+  "month": 10,
+  "confidence": 0.93,
+  "cues": [
+   "'whether it will be appropriate to raise the target range at its next meeting' - unique October 2015 language signaling December liftoff",
+   "'monitoring global economic and financial developments' replacing September 2015's language about global developments restraining activity",
+   "'pace of job gains slowed' and net exports soft, matching autumn 2015 data",
+   "Dissent by a voter preferring a 25 bp hike (Lacker, 2015 voter)",
+   "Rate still at the zero lower bound with liftoff anticipated; Brainard and Fischer listed as voters"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

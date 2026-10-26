@@ -1,0 +1,139 @@
+{
+ "key": "statement_20180801",
+ "mode": "shift",
+ "meta": {
+  "doc_id": "statement_20180801",
+  "previous_doc_id": "statement_20180613",
+  "doc_type": "statement"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "534f87536239e883f78a66487c31dcd480abb60ccd32c1114be103cc62397398",
+ "message_id": "msg_011CgFudUkogYhXqP1GmxDfL",
+ "request_id": null,
+ "batch_id": "msgbatch_014j5mj3Ck6gv1seSbdKNQNu",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 810
+  },
+  "cache_creation_input_tokens": 810,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1311,
+  "output_tokens": 393,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:18+00:00",
+ "raw_text": "{\"shift_score\":1,\"changes\":[{\"before\":\"economic activity has been rising at a solid rate\",\"after\":\"economic activity has been rising at a strong rate\",\"direction\":\"hawkish\"},{\"before\":\"and the unemployment rate has declined\",\"after\":\"and the unemployment rate has stayed low\",\"direction\":\"neutral\"},{\"before\":\"Recent data suggest that growth of household spending has picked up, while business fixed investment has continued to grow strongly.\",\"after\":\"Household spending and business fixed investment have grown strongly.\",\"direction\":\"hawkish\"},{\"before\":\"have moved close to 2 percent\",\"after\":\"remain near 2 percent\",\"direction\":\"neutral\"},{\"before\":\"the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent\",\"after\":\"the Committee decided to maintain the target range for the federal funds rate at 1-3/4 to 2 percent\",\"direction\":\"neutral\"}],\"rationale\":\"The hold follows the prior hike with unchanged guidance for further gradual increases, so it is expected rather than a dovish pivot. The upgraded growth language ('strong rate', household spending growing strongly) modestly reinforces the tightening path.\"}",
+ "parsed": {
+  "shift_score": 1,
+  "changes": [
+   {
+    "before": "economic activity has been rising at a solid rate",
+    "after": "economic activity has been rising at a strong rate",
+    "direction": "hawkish"
+   },
+   {
+    "before": "and the unemployment rate has declined",
+    "after": "and the unemployment rate has stayed low",
+    "direction": "neutral"
+   },
+   {
+    "before": "Recent data suggest that growth of household spending has picked up, while business fixed investment has continued to grow strongly.",
+    "after": "Household spending and business fixed investment have grown strongly.",
+    "direction": "hawkish"
+   },
+   {
+    "before": "have moved close to 2 percent",
+    "after": "remain near 2 percent",
+    "direction": "neutral"
+   },
+   {
+    "before": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent",
+    "after": "the Committee decided to maintain the target range for the federal funds rate at 1-3/4 to 2 percent",
+    "direction": "neutral"
+   }
+  ],
+  "rationale": "The hold follows the prior hike with unchanged guidance for further gradual increases, so it is expected rather than a dovish pivot. The upgraded growth language ('strong rate', household spending growing strongly) modestly reinforces the tightening path."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "before": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity has been rising at a solid rate",
+     "start": 141,
+     "end": 190
+    },
+    {
+     "quote": "and the unemployment rate has declined",
+     "start": 250,
+     "end": 288
+    },
+    {
+     "quote": "Recent data suggest that growth of household spending has picked up, while business fixed investment has continued to grow strongly.",
+     "start": 290,
+     "end": 421
+    },
+    {
+     "quote": "have moved close to 2 percent",
+     "start": 518,
+     "end": 547
+    },
+    {
+     "quote": "the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent",
+     "start": 1153,
+     "end": 1249
+    }
+   ]
+  },
+  "after": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "economic activity has been rising at a strong rate",
+     "start": 142,
+     "end": 192
+    },
+    {
+     "quote": "and the unemployment rate has stayed low",
+     "start": 252,
+     "end": 292
+    },
+    {
+     "quote": "Household spending and business fixed investment have grown strongly.",
+     "start": 294,
+     "end": 362
+    },
+    {
+     "quote": "remain near 2 percent",
+     "start": 459,
+     "end": 480
+    },
+    {
+     "quote": "the Committee decided to maintain the target range for the federal funds rate at 1-3/4 to 2 percent",
+     "start": 1086,
+     "end": 1185
+    }
+   ]
+  }
+ }
+}

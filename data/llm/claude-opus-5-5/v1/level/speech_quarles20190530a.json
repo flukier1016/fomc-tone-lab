@@ -1,0 +1,103 @@
+{
+ "key": "speech_quarles20190530a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190530a",
+  "doc_type": "speech",
+  "text_sha256": "115e0bfac7b5a57378f3b3f970a8c52a29e2479438c81fe1ef1563eb46259bb0"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "11f1a9565a6debadc54a7c6c88408b706b8919ab36c5a33e1697526332b35d5f",
+ "message_id": "msg_011CgFug99vVjsvLhaqm3f5R",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3459,
+  "output_tokens": 487,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.1,\"confidence\":0.5,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"a general consensus has emerged that monetary policy should be guided primarily by the outlook for unemployment and inflation and not by the state of financial vulnerabilities.\"},{\"dimension\":\"risk_balance\",\"quote\":\"My own assessment is that even though business debt is elevated, at least by some measures, overall financial stability risks are not\"},{\"dimension\":\"risk_balance\",\"quote\":\"if the economy weakens, some businesses may default on this debt, potentially leading to a contraction in investment, a slow-down in hiring, and possibly to an unusual tightening in financial conditions.\"},{\"dimension\":\"overall\",\"quote\":\"macroprudential policies—through-the-cycle resilience, stress tests, and the countercyclical capital buffer (CCyB)—may be better targeted to promoting financial stability than monetary policy.\"}],\"rationale\":\"The speech argues against leaning against financial vulnerabilities with monetary policy, favoring macroprudential tools, which is mildly dovish in that it removes a rationale for tightening. It offers no guidance on the rate path and only notes modest downside risks from elevated business debt.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.1,
+  "confidence": 0.5,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "a general consensus has emerged that monetary policy should be guided primarily by the outlook for unemployment and inflation and not by the state of financial vulnerabilities."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "My own assessment is that even though business debt is elevated, at least by some measures, overall financial stability risks are not"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "if the economy weakens, some businesses may default on this debt, potentially leading to a contraction in investment, a slow-down in hiring, and possibly to an unusual tightening in financial conditions."
+   },
+   {
+    "dimension": "overall",
+    "quote": "macroprudential policies—through-the-cycle resilience, stress tests, and the countercyclical capital buffer (CCyB)—may be better targeted to promoting financial stability than monetary policy."
+   }
+  ],
+  "rationale": "The speech argues against leaning against financial vulnerabilities with monetary policy, favoring macroprudential tools, which is mildly dovish in that it removes a rationale for tightening. It offers no guidance on the rate path and only notes modest downside risks from elevated business debt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "a general consensus has emerged that monetary policy should be guided primarily by the outlook for unemployment and inflation and not by the state of financial vulnerabilities.",
+     "start": 10900,
+     "end": 11075
+    },
+    {
+     "quote": "My own assessment is that even though business debt is elevated, at least by some measures, overall financial stability risks are not",
+     "start": 1999,
+     "end": 2132
+    },
+    {
+     "quote": "if the economy weakens, some businesses may default on this debt, potentially leading to a contraction in investment, a slow-down in hiring, and possibly to an unusual tightening in financial conditions.",
+     "start": 2354,
+     "end": 2556
+    },
+    {
+     "quote": "macroprudential policies—through-the-cycle resilience, stress tests, and the countercyclical capital buffer (CCyB)—may be better targeted to promoting financial stability than monetary policy.",
+     "start": 1147,
+     "end": 1338
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_powell20200513a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20200513a",
+  "doc_type": "speech",
+  "text_sha256": "b927d2403f12d4b33559c79d1f00b64eb2145453855b5a99614e6ecb65618e26"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "fea96d9d4a1a51c8322822757de268bd5ee53404a49ccc9b261ddb4466664bf9",
+ "message_id": "msg_011CgFugEEmFZhFEq5gYXe2e",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 2193,
+  "output_tokens": 511,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.85,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The scope and speed of this downturn are without modern precedent, significantly worse than any recession since World War II.\"},{\"dimension\":\"risk_balance\",\"quote\":\"the path ahead is both highly uncertain and subject to significant downside risks.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"At the Fed, we will continue to use our tools to their fullest until the crisis has passed and the economic recovery is well under way.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"First, outright purchases of Treasuries and agency mortgage-backed securities to restore functionality in these critical markets.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This time, high inflation was not a problem.\"},{\"dimension\":\"overall\",\"quote\":\"We ought to do what we can to avoid these outcomes, and that may require additional policy measures.\"}],\"rationale\":\"The speech describes an unprecedented downturn with significant downside risks and commits to using Fed tools to their fullest until recovery is well under way, while also flagging that additional policy measures may be needed. Inflation is not a concern, and asset purchases are expansionary, so the overall signal is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.85,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The scope and speed of this downturn are without modern precedent, significantly worse than any recession since World War II."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "the path ahead is both highly uncertain and subject to significant downside risks."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "At the Fed, we will continue to use our tools to their fullest until the crisis has passed and the economic recovery is well under way."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "First, outright purchases of Treasuries and agency mortgage-backed securities to restore functionality in these critical markets."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This time, high inflation was not a problem."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We ought to do what we can to avoid these outcomes, and that may require additional policy measures."
+   }
+  ],
+  "rationale": "The speech describes an unprecedented downturn with significant downside risks and commits to using Fed tools to their fullest until recovery is well under way, while also flagging that additional policy measures may be needed. Inflation is not a concern, and asset purchases are expansionary, so the overall signal is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "The scope and speed of this downturn are without modern precedent, significantly worse than any recession since World War II.",
+     "start": 874,
+     "end": 998
+    },
+    {
+     "quote": "the path ahead is both highly uncertain and subject to significant downside risks.",
+     "start": 4628,
+     "end": 4709
+    },
+    {
+     "quote": "At the Fed, we will continue to use our tools to their fullest until the crisis has passed and the economic recovery is well under way.",
+     "start": 6666,
+     "end": 6800
+    },
+    {
+     "quote": "First, outright purchases of Treasuries and agency mortgage-backed securities to restore functionality in these critical markets.",
+     "start": 3444,
+     "end": 3572
+    },
+    {
+     "quote": "This time, high inflation was not a problem.",
+     "start": 2214,
+     "end": 2257
+    },
+    {
+     "quote": "We ought to do what we can to avoid these outcomes, and that may require additional policy measures.",
+     "start": 6565,
+     "end": 6664
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

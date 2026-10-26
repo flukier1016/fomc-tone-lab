@@ -1,0 +1,112 @@
+{
+ "key": "statement_20120125",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20120125",
+  "doc_type": "statement",
+  "text_sha256": "b27cfc0b013c0f831262bef3b0840a090b24f8e4aca1ad8c7a49755be2567cc4"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b81b902e877f39d1e00d1d2395a31878b53ec88f9e13bec854173408cc6e491d",
+ "message_id": "msg_011CgFugDAGuS9vvaWcxr8ne",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 891,
+  "output_tokens": 435,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.85,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014\"},{\"dimension\":\"risk_balance\",\"quote\":\"Strains in global financial markets continue to pose significant downside risks to the economic outlook.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"inflation will run at levels at or below those consistent with the Committee's dual mandate\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"anticipates that the unemployment rate will decline only gradually\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September.\"}],\"rationale\":\"The statement holds rates at zero but extends the low-rate guidance to at least late 2014. It also stresses significant downside risks and subdued inflation, and continues the maturity extension program, giving it a strongly dovish net signal.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.85,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "inflation will run at levels at or below those consistent with the Committee's dual mandate"
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "anticipates that the unemployment rate will decline only gradually"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September."
+   }
+  ],
+  "rationale": "The statement holds rates at zero but extends the low-rate guidance to at least late 2014. It also stresses significant downside risks and subdued inflation, and continues the maturity extension program, giving it a strongly dovish net signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate at least through late 2014",
+     "start": 1642,
+     "end": 1742
+    },
+    {
+     "quote": "Strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+     "start": 899,
+     "end": 1002
+    },
+    {
+     "quote": "inflation will run at levels at or below those consistent with the Committee's dual mandate",
+     "start": 1062,
+     "end": 1153
+    },
+    {
+     "quote": "anticipates that the unemployment rate will decline only gradually",
+     "start": 752,
+     "end": 818
+    },
+    {
+     "quote": "The Committee also decided to continue its program to extend the average maturity of its holdings of securities as announced in September.",
+     "start": 1745,
+     "end": 1882
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

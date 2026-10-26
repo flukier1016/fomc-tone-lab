@@ -1,0 +1,51 @@
+{
+ "key": "statement_20140917",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20140917",
+  "release_date": "2014-09-17"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "e8595603840da8e634e8b5e52bbf7cb792239b5850e30cb433af9efb523db7bc",
+ "message_id": "msg_011CgFudV9sE5Ebs6iyzqcaj",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2209,
+  "output_tokens": 181,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2014,\"month\":9,\"confidence\":0.95,\"cues\":[\"Taper from $10B to $5B MBS and $15B to $10B Treasuries beginning in October 2014\",\"Statement that purchases will end at the next meeting (October 2014)\",\"Two dissents (Fisher and Plosser) over 'considerable time' forward guidance language\",\"Lael Brainard and Stanley Fischer listed as voters, both joining in 2014\",\"'Significant underutilization of labor resources' wording, used in mid-to-late 2014 statements\"]}",
+ "parsed": {
+  "year": 2014,
+  "month": 9,
+  "confidence": 0.95,
+  "cues": [
+   "Taper from $10B to $5B MBS and $15B to $10B Treasuries beginning in October 2014",
+   "Statement that purchases will end at the next meeting (October 2014)",
+   "Two dissents (Fisher and Plosser) over 'considerable time' forward guidance language",
+   "Lael Brainard and Stanley Fischer listed as voters, both joining in 2014",
+   "'Significant underutilization of labor resources' wording, used in mid-to-late 2014 statements"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

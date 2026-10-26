@@ -1,0 +1,112 @@
+{
+ "key": "speech_bernanke20121115a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bernanke20121115a",
+  "doc_type": "speech",
+  "text_sha256": "979cd82a8203ce7c72105ddfc519f2569e9544694829a635b7a4b4ee1b92a192"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a989872da91bf15444b0a3f4d15ce1a15d974b42934bb267d0d42dadf4884f9",
+ "message_id": "msg_011CgFugEbM5hwXxSvyQ3emR",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6791,
+  "output_tokens": 499,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":-1,\"stance_score\":-0.45,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"In September, we took the added step of stating that we will continue actions to put downward pressure on longer-term interest rates until the outlook for the job market improves substantially in a context of price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"My colleagues and I have been and remain quite concerned about the stubbornly high level of unemployment--particularly long-term unemployment.\"},{\"dimension\":\"risk_balance\",\"quote\":\"overly tight lending standards may now be preventing creditworthy borrowers from buying homes, thereby slowing the revival in housing and impeding the economic recovery.\"},{\"dimension\":\"overall\",\"quote\":\"we will continue to use the policy tools that we have to help support economic recovery.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"To be sure, the housing sector is far from being out of the woods.\"}],\"rationale\":\"The speech is mainly about housing and credit access, but it reaffirms the commitment to keep putting downward pressure on longer-term rates until the job market improves substantially. It stresses concern about high unemployment, a clear accommodative lean, though it announces no new policy steps.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": -1,
+  "stance_score": -0.45,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "In September, we took the added step of stating that we will continue actions to put downward pressure on longer-term interest rates until the outlook for the job market improves substantially in a context of price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "My colleagues and I have been and remain quite concerned about the stubbornly high level of unemployment--particularly long-term unemployment."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "overly tight lending standards may now be preventing creditworthy borrowers from buying homes, thereby slowing the revival in housing and impeding the economic recovery."
+   },
+   {
+    "dimension": "overall",
+    "quote": "we will continue to use the policy tools that we have to help support economic recovery."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "To be sure, the housing sector is far from being out of the woods."
+   }
+  ],
+  "rationale": "The speech is mainly about housing and credit access, but it reaffirms the commitment to keep putting downward pressure on longer-term rates until the job market improves substantially. It stresses concern about high unemployment, a clear accommodative lean, though it announces no new policy steps."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "In September, we took the added step of stating that we will continue actions to put downward pressure on longer-term interest rates until the outlook for the job market improves substantially in a context of price stability.",
+     "start": 14286,
+     "end": 14510
+    },
+    {
+     "quote": "My colleagues and I have been and remain quite concerned about the stubbornly high level of unemployment--particularly long-term unemployment.",
+     "start": 14038,
+     "end": 14179
+    },
+    {
+     "quote": "overly tight lending standards may now be preventing creditworthy borrowers from buying homes, thereby slowing the revival in housing and impeding the economic recovery.",
+     "start": 10236,
+     "end": 10404
+    },
+    {
+     "quote": "we will continue to use the policy tools that we have to help support economic recovery.",
+     "start": 658,
+     "end": 745
+    },
+    {
+     "quote": "To be sure, the housing sector is far from being out of the woods.",
+     "start": 3014,
+     "end": 3079
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

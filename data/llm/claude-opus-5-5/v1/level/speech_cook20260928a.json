@@ -1,0 +1,121 @@
+{
+ "key": "speech_cook20260928a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20260928a",
+  "doc_type": "speech",
+  "text_sha256": "19666975999157fb3f3677cef4ccd0bdf07245873e858ef38caa3e1b001f517a"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "b4f9ed2744a35adcad4cc566954ec2e2740b560daddad49d5ae8a02caebb41da",
+ "message_id": "msg_011CgFugBbGp9ffkzVGuGMYJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5407,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":2,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.6,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"This increase was to address inflation, which has been too high for too long.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Looking ahead, I will consider what policy rate may be needed to continue to guide inflation down to our target.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The labor market appears to be well positioned to handle an increase in rates.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, I do not expect those effects to arrive in time to offset the broadening inflationary pressure later this year.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"In the short term, AI appears to be adding inflationary pressures to the economy, postponing inflation's return to our 2 percent target.\"},{\"dimension\":\"overall\",\"quote\":\"We could lower the federal funds rate in an attempt to bring down high unemployment, but that could risk fueling inflation.\"}],\"rationale\":\"The speaker defends a recent rate hike, stresses broadening inflation pressure from AI, oil and supply disruptions, and judges the labor market strong enough to absorb higher rates, while leaving the door open to further adjustments. Medium-term labor-transition risks and expected productivity disinflation temper the hawkishness somewhat.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 2,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.6,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This increase was to address inflation, which has been too high for too long."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Looking ahead, I will consider what policy rate may be needed to continue to guide inflation down to our target."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The labor market appears to be well positioned to handle an increase in rates."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, I do not expect those effects to arrive in time to offset the broadening inflationary pressure later this year."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "In the short term, AI appears to be adding inflationary pressures to the economy, postponing inflation's return to our 2 percent target."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We could lower the federal funds rate in an attempt to bring down high unemployment, but that could risk fueling inflation."
+   }
+  ],
+  "rationale": "The speaker defends a recent rate hike, stresses broadening inflation pressure from AI, oil and supply disruptions, and judges the labor market strong enough to absorb higher rates, while leaving the door open to further adjustments. Medium-term labor-transition risks and expected productivity disinflation temper the hawkishness somewhat."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This increase was to address inflation, which has been too high for too long.",
+     "start": 16586,
+     "end": 16662
+    },
+    {
+     "quote": "Looking ahead, I will consider what policy rate may be needed to continue to guide inflation down to our target.",
+     "start": 17683,
+     "end": 17794
+    },
+    {
+     "quote": "The labor market appears to be well positioned to handle an increase in rates.",
+     "start": 17108,
+     "end": 17185
+    },
+    {
+     "quote": "However, I do not expect those effects to arrive in time to offset the broadening inflationary pressure later this year.",
+     "start": 6332,
+     "end": 6451
+    },
+    {
+     "quote": "In the short term, AI appears to be adding inflationary pressures to the economy, postponing inflation's return to our 2 percent target.",
+     "start": 15656,
+     "end": 15791
+    },
+    {
+     "quote": "We could lower the federal funds rate in an attempt to bring down high unemployment, but that could risk fueling inflation.",
+     "start": 11446,
+     "end": 11568
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "key": "speech_yellen20101201a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20101201a",
+  "doc_type": "speech",
+  "text_sha256": "438327b39a39cc9fd95ecf52bbac9021d52d271eb7a80079c2ca341f5d344f7f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f86d38a9e3b5ec20fbb9226945220b89843a712ca7a72e343f5ee2021f280ee6",
+ "message_id": "msg_011CgFug9Pp2uCXp7a41iGAd",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4373,
+  "output_tokens": 515,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:57+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-2,\"risk_balance\":-1,\"balance_sheet\":-2,\"overall_stance\":-1,\"stance_score\":-0.55,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"balance_sheet\",\"quote\":\"I strongly supported the Federal Reserve's recent action because I believe it will be helpful in strengthening the recovery.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The economy remains far from full employment even though a year and a half has elapsed since the trough of the business cycle.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Meanwhile, measures of underlying inflation have continued to trend lower and are now below the levels the Federal Open Market Committee (FOMC) judges to be consistent\"},{\"dimension\":\"risk_balance\",\"quote\":\"fiscal tightening, were it to occur prematurely, could retard an already tepid economic recovery.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"at the appropriate time, as the economy more fully recovers, the Federal Reserve will need to remove this extraordinary monetary accommodation in order to maintain price stability\"}],\"rationale\":\"The speech is mainly about fiscal policy, but it strongly endorses the Fed's $600 billion asset purchase program and describes weak employment and below-target inflation. The eventual-exit language is generic and far off, so the net signal is dovish.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -2,
+  "risk_balance": -1,
+  "balance_sheet": -2,
+  "overall_stance": -1,
+  "stance_score": -0.55,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "balance_sheet",
+    "quote": "I strongly supported the Federal Reserve's recent action because I believe it will be helpful in strengthening the recovery."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The economy remains far from full employment even though a year and a half has elapsed since the trough of the business cycle."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Meanwhile, measures of underlying inflation have continued to trend lower and are now below the levels the Federal Open Market Committee (FOMC) judges to be consistent"
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "fiscal tightening, were it to occur prematurely, could retard an already tepid economic recovery."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "at the appropriate time, as the economy more fully recovers, the Federal Reserve will need to remove this extraordinary monetary accommodation in order to maintain price stability"
+   }
+  ],
+  "rationale": "The speech is mainly about fiscal policy, but it strongly endorses the Fed's $600 billion asset purchase program and describes weak employment and below-target inflation. The eventual-exit language is generic and far off, so the net signal is dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I strongly supported the Federal Reserve's recent action because I believe it will be helpful in strengthening the recovery.",
+     "start": 9116,
+     "end": 9239
+    },
+    {
+     "quote": "The economy remains far from full employment even though a year and a half has elapsed since the trough of the business cycle.",
+     "start": 6845,
+     "end": 6970
+    },
+    {
+     "quote": "Meanwhile, measures of underlying inflation have continued to trend lower and are now below the levels the Federal Open Market Committee (FOMC) judges to be consistent",
+     "start": 7194,
+     "end": 7361
+    },
+    {
+     "quote": "fiscal tightening, were it to occur prematurely, could retard an already tepid economic recovery.",
+     "start": 6378,
+     "end": 6474
+    },
+    {
+     "quote": "at the appropriate time, as the economy more fully recovers, the Federal Reserve will need to remove this extraordinary monetary accommodation in order to maintain price stability",
+     "start": 8783,
+     "end": 8962
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

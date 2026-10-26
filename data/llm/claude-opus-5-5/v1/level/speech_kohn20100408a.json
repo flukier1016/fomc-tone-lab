@@ -1,0 +1,121 @@
+{
+ "key": "speech_kohn20100408a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_kohn20100408a",
+  "doc_type": "speech",
+  "text_sha256": "11074a28314e25babfee793858ce7db0f228596f587980c77f501adad244e10f"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2a2c2a918399f4077824173811901dffc1a3aa986e6fae90c9550ef85d79984d",
+ "message_id": "msg_011CgFugFzBo1utUCRQktUsX",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6693,
+  "output_tokens": 583,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-1,\"inflation_assessment\":-1,\"activity_labor_assessment\":-1,\"risk_balance\":0,\"balance_sheet\":0,\"overall_stance\":-1,\"stance_score\":-0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the current exceptionally low level of interest rates is likely to be required for \\\"an extended period\\\" to make progress toward our legislative goals of maximum employment and stable prices.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"I anticipate that inflation will remain low for a while, with core PCE inflation not likely to fall much further from the subdued pace I cited a few minutes ago.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Despite that good news, the labor market remains extremely weak.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Given the lags in the effects of monetary policy, that means we will not be able to wait until the unemployment rate is down close to its long-term level.\"},{\"dimension\":\"risk_balance\",\"quote\":\"However, another risk is that expectations could increase, perhaps reflecting concerns about the Federal Reserve's balance sheet or the federal budget deficit.\"},{\"dimension\":\"overall\",\"quote\":\"With only a moderate recovery likely on tap, I expect unemployment to come down only slowly from its currently elevated level.\"}],\"rationale\":\"The speech endorses extended-period low rates amid substantial slack, decelerating inflation, and a gradual recovery. It also notes that stimulus will eventually need withdrawing before unemployment normalizes and cites two-sided inflation-expectation risks, which tempers the dovish lean.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -1,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": -1,
+  "risk_balance": 0,
+  "balance_sheet": 0,
+  "overall_stance": -1,
+  "stance_score": -0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the current exceptionally low level of interest rates is likely to be required for \"an extended period\" to make progress toward our legislative goals of maximum employment and stable prices."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "I anticipate that inflation will remain low for a while, with core PCE inflation not likely to fall much further from the subdued pace I cited a few minutes ago."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Despite that good news, the labor market remains extremely weak."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Given the lags in the effects of monetary policy, that means we will not be able to wait until the unemployment rate is down close to its long-term level."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "However, another risk is that expectations could increase, perhaps reflecting concerns about the Federal Reserve's balance sheet or the federal budget deficit."
+   },
+   {
+    "dimension": "overall",
+    "quote": "With only a moderate recovery likely on tap, I expect unemployment to come down only slowly from its currently elevated level."
+   }
+  ],
+  "rationale": "The speech endorses extended-period low rates amid substantial slack, decelerating inflation, and a gradual recovery. It also notes that stimulus will eventually need withdrawing before unemployment normalizes and cites two-sided inflation-expectation risks, which tempers the dovish lean."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the current exceptionally low level of interest rates is likely to be required for \"an extended period\" to make progress toward our legislative goals of maximum employment and stable prices.",
+     "start": 17222,
+     "end": 17411
+    },
+    {
+     "quote": "I anticipate that inflation will remain low for a while, with core PCE inflation not likely to fall much further from the subdued pace I cited a few minutes ago.",
+     "start": 12146,
+     "end": 12306
+    },
+    {
+     "quote": "Despite that good news, the labor market remains extremely weak.",
+     "start": 4553,
+     "end": 4616
+    },
+    {
+     "quote": "Given the lags in the effects of monetary policy, that means we will not be able to wait until the unemployment rate is down close to its long-term level.",
+     "start": 18259,
+     "end": 18412
+    },
+    {
+     "quote": "However, another risk is that expectations could increase, perhaps reflecting concerns about the Federal Reserve's balance sheet or the federal budget deficit.",
+     "start": 18718,
+     "end": 18876
+    },
+    {
+     "quote": "With only a moderate recovery likely on tap, I expect unemployment to come down only slowly from its currently elevated level.",
+     "start": 11535,
+     "end": 11660
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

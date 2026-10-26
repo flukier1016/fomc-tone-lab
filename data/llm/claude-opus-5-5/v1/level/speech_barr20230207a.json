@@ -1,0 +1,94 @@
+{
+ "key": "speech_barr20230207a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_barr20230207a",
+  "doc_type": "speech",
+  "text_sha256": "9ba2dbfcec5b3b8e6b9ee8b6b9b3badd61033a818114426f0a598884dbb22399"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "af7b632e5f2ac8aa3403df2d4468e9c3c516389c3c77a9e7417add7c5f585f1a",
+ "message_id": "msg_011CgFugEWe1v1Y2sM5UXpdJ",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6343,
+  "output_tokens": 364,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I'm going to speak to three drivers of this disparity, and three ways that the financial services community should work together to address them.\"},{\"dimension\":\"overall\",\"quote\":\"The last major revisions to the CRA's regulations were made in 1995, and it is high time that we strengthen and modernize the regulations to reflect the many changes in banking since then.\"},{\"dimension\":\"overall\",\"quote\":\"We're working to launch FedNow, which, once widely adopted, will better enable banks to offer customers the ability to send and receive money immediately at low cost.\"}],\"rationale\":\"The speech addresses racial disparities in lending, CRA modernization, and financial inclusion, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I'm going to speak to three drivers of this disparity, and three ways that the financial services community should work together to address them."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The last major revisions to the CRA's regulations were made in 1995, and it is high time that we strengthen and modernize the regulations to reflect the many changes in banking since then."
+   },
+   {
+    "dimension": "overall",
+    "quote": "We're working to launch FedNow, which, once widely adopted, will better enable banks to offer customers the ability to send and receive money immediately at low cost."
+   }
+  ],
+  "rationale": "The speech addresses racial disparities in lending, CRA modernization, and financial inclusion, with no discussion of monetary policy, inflation, or the economic outlook. It carries no policy stance signal."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I'm going to speak to three drivers of this disparity, and three ways that the financial services community should work together to address them.",
+     "start": 2911,
+     "end": 3055
+    },
+    {
+     "quote": "The last major revisions to the CRA's regulations were made in 1995, and it is high time that we strengthen and modernize the regulations to reflect the many changes in banking since then.",
+     "start": 14324,
+     "end": 14511
+    },
+    {
+     "quote": "We're working to launch FedNow, which, once widely adopted, will better enable banks to offer customers the ability to send and receive money immediately at low cost.",
+     "start": 18402,
+     "end": 18567
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

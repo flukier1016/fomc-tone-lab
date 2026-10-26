@@ -1,0 +1,17 @@
+{
+  "tests": 132,
+  "by_file": {
+    "test_duration.py": 37,
+    "test_finetune.py": 4,
+    "test_forecast.py": 1,
+    "test_forward.py": 3,
+    "test_members.py": 4,
+    "test_ops.py": 8,
+    "test_research.py": 16,
+    "test_scorer_offline.py": 4,
+    "test_store_api.py": 32,
+    "test_submission.py": 8,
+    "test_text_and_scoring.py": 7,
+    "test_timing.py": 8
+  }
+}

@@ -1,0 +1,121 @@
+{
+ "key": "speech_yellen20140822a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_yellen20140822a",
+  "doc_type": "speech",
+  "text_sha256": "c7f2ff4a41a7744a8f110ef43825b54c3e3a6419ef9d9a4b8c0752ace2f2dd97"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "dfec411940417af8ad246616552551f38a52e7b0776c7572e3da38077a9b768e",
+ "message_id": "msg_011CgFugBDCd99288K1Vfzp5",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6820,
+  "output_tokens": 564,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":-1,\"activity_labor_assessment\":0,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.65,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"then increases in the federal funds rate target could come sooner than the Committee currently expects and could be more rapid thereafter.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"then the future path of interest rates likely would be more accommodative than we currently anticipate.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Nevertheless, the Committee judged that underutilization of labor resources still remains significant.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"This pattern of subdued real wage gains suggests that nominal compensation could rise more quickly without exerting any meaningful upward pressure on inflation.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"we have reduced our pace of asset purchases and expect to complete this program in October.\"},{\"dimension\":\"risk_balance\",\"quote\":\"maintaining a high degree of monetary policy accommodation until inflation pressures emerge could, in this case, unduly delay the removal of accommodation, necessitating an abrupt and potentially disruptive tightening of policy later on.\"}],\"rationale\":\"The speech reaffirms the 'considerable time' guidance and stresses significant remaining slack and subdued wages. It also notes faster-than-expected labor improvement and two-sided risks around removing accommodation, making it roughly balanced with a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": -1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.65,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "then increases in the federal funds rate target could come sooner than the Committee currently expects and could be more rapid thereafter."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "then the future path of interest rates likely would be more accommodative than we currently anticipate."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Nevertheless, the Committee judged that underutilization of labor resources still remains significant."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "This pattern of subdued real wage gains suggests that nominal compensation could rise more quickly without exerting any meaningful upward pressure on inflation."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "we have reduced our pace of asset purchases and expect to complete this program in October."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "maintaining a high degree of monetary policy accommodation until inflation pressures emerge could, in this case, unduly delay the removal of accommodation, necessitating an abrupt and potentially disruptive tightening of policy later on."
+   }
+  ],
+  "rationale": "The speech reaffirms the 'considerable time' guidance and stresses significant remaining slack and subdued wages. It also notes faster-than-expected labor improvement and two-sided risks around removing accommodation, making it roughly balanced with a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "then increases in the federal funds rate target could come sooner than the Committee currently expects and could be more rapid thereafter.",
+     "start": 22444,
+     "end": 22581
+    },
+    {
+     "quote": "then the future path of interest rates likely would be more accommodative than we currently anticipate.",
+     "start": 22715,
+     "end": 22817
+    },
+    {
+     "quote": "Nevertheless, the Committee judged that underutilization of labor resources still remains significant.",
+     "start": 21619,
+     "end": 21720
+    },
+    {
+     "quote": "This pattern of subdued real wage gains suggests that nominal compensation could rise more quickly without exerting any meaningful upward pressure on inflation.",
+     "start": 13056,
+     "end": 13215
+    },
+    {
+     "quote": "we have reduced our pace of asset purchases and expect to complete this program in October.",
+     "start": 3422,
+     "end": 3512
+    },
+    {
+     "quote": "maintaining a high degree of monetary policy accommodation until inflation pressures emerge could, in this case, unduly delay the removal of accommodation, necessitating an abrupt and potentially disruptive tightening of policy later on.",
+     "start": 19427,
+     "end": 19663
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

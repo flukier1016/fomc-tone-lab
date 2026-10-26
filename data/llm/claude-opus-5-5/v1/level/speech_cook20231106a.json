@@ -1,0 +1,103 @@
+{
+ "key": "speech_cook20231106a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_cook20231106a",
+  "doc_type": "speech",
+  "text_sha256": "c4355869531593de1250948b500ec3b40364079e6a7a67ae4e1435504f9d9cd9"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "412ab7c19295dfdb0c275aafc00a11bb82e35a1b7cb13d2fb8be34ac27181684",
+ "message_id": "msg_011CgFugHsnzYWCU48MCrLkq",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4747,
+  "output_tokens": 414,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":null,\"activity_labor_assessment\":0,\"risk_balance\":-1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I would say that an expectation of higher near-term policy rates does not appear to be causing the increase in longer-term rates.\"},{\"dimension\":\"risk_balance\",\"quote\":\"An unexpected sharp increase in rates could lead to heightened volatility in financial markets, stresses to market liquidity, and downward pressures for asset prices.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The household sector, taken as a whole, looks quite resilient.\"},{\"dimension\":\"overall\",\"quote\":\"In conclusion, the financial system is substantially more resilient than it was in the mid-2000s.\"}],\"rationale\":\"This is a financial stability speech that takes no explicit monetary policy view; its only policy-adjacent remark notes that markets are not pricing higher near-term policy rates. Its emphasis on downside financial risks from higher rates gives a slight dovish tilt.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": null,
+  "activity_labor_assessment": 0,
+  "risk_balance": -1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I would say that an expectation of higher near-term policy rates does not appear to be causing the increase in longer-term rates."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "An unexpected sharp increase in rates could lead to heightened volatility in financial markets, stresses to market liquidity, and downward pressures for asset prices."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The household sector, taken as a whole, looks quite resilient."
+   },
+   {
+    "dimension": "overall",
+    "quote": "In conclusion, the financial system is substantially more resilient than it was in the mid-2000s."
+   }
+  ],
+  "rationale": "This is a financial stability speech that takes no explicit monetary policy view; its only policy-adjacent remark notes that markets are not pricing higher near-term policy rates. Its emphasis on downside financial risks from higher rates gives a slight dovish tilt."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 4,
+   "verified": 4,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would say that an expectation of higher near-term policy rates does not appear to be causing the increase in longer-term rates.",
+     "start": 5780,
+     "end": 5908
+    },
+    {
+     "quote": "An unexpected sharp increase in rates could lead to heightened volatility in financial markets, stresses to market liquidity, and downward pressures for asset prices.",
+     "start": 11902,
+     "end": 12067
+    },
+    {
+     "quote": "The household sector, taken as a whole, looks quite resilient.",
+     "start": 7398,
+     "end": 7459
+    },
+    {
+     "quote": "In conclusion, the financial system is substantially more resilient than it was in the mid-2000s.",
+     "start": 13909,
+     "end": 14005
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "key": "minutes_20161214",
+ "mode": "level_anon",
+ "meta": {
+  "doc_id": "minutes_20161214",
+  "doc_type": "minutes",
+  "transform": "anonymized",
+  "text_sha256": "20e8579045020a3ec0763fa9d33a21cb51ff9dc78cae18154079442af05533d5"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a9b385ce9df1d5d41e94ce57403cf8f7d9a964dc58282f51444a7b59474ab2e9",
+ "message_id": "msg_011CgFudSKi228EhTDdQv9TA",
+ "request_id": null,
+ "batch_id": "msgbatch_01KsYP6rnu5WmMVx8CAwRXf9",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 2241
+  },
+  "cache_creation_input_tokens": 2241,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 14610,
+  "output_tokens": 612,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:53+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":1,\"balance_sheet\":0,\"overall_stance\":1,\"stance_score\":0.45,\"confidence\":0.75,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"the Committee might need to raise the federal funds rate more quickly than currently anticipated to limit the degree of undershooting and stem a potential buildup of inflationary pressures\"},{\"dimension\":\"forward_guidance\",\"quote\":\"Most participants judged that a gradual pace of rate increases was likely to be appropriate to promote the Committee's objectives of maximum employment and 2 percent inflation.\"},{\"dimension\":\"risk_balance\",\"quote\":\"almost all also indicated that the upside risks to their forecasts for economic growth had increased as a result of prospects for more expansionary fiscal policies in coming years.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Most participants viewed the cumulative progress in the labor market as having brought labor market conditions to or close to those consistent with the Committee's maximum-employment objective.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Inflation had increased since earlier in the year but was still below the Committee's 2 percent longer-run objective\"},{\"dimension\":\"balance_sheet\",\"quote\":\"it anticipated doing so until normalization of the level of the federal funds rate is well under way.\"}],\"rationale\":\"The minutes describe a rate hike with guidance of gradual increases, while many participants saw growing upside risks from fiscal stimulus and labor market undershooting that could require faster tightening. Inflation is still below target with balanced risks, and reinvestment policy is unchanged, so the net lean is moderately hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 1,
+  "balance_sheet": 0,
+  "overall_stance": 1,
+  "stance_score": 0.45,
+  "confidence": 0.75,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "the Committee might need to raise the federal funds rate more quickly than currently anticipated to limit the degree of undershooting and stem a potential buildup of inflationary pressures"
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "Most participants judged that a gradual pace of rate increases was likely to be appropriate to promote the Committee's objectives of maximum employment and 2 percent inflation."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "almost all also indicated that the upside risks to their forecasts for economic growth had increased as a result of prospects for more expansionary fiscal policies in coming years."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Most participants viewed the cumulative progress in the labor market as having brought labor market conditions to or close to those consistent with the Committee's maximum-employment objective."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Inflation had increased since earlier in the year but was still below the Committee's 2 percent longer-run objective"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "it anticipated doing so until normalization of the level of the federal funds rate is well under way."
+   }
+  ],
+  "rationale": "The minutes describe a rate hike with guidance of gradual increases, while many participants saw growing upside risks from fiscal stimulus and labor market undershooting that could require faster tightening. Inflation is still below target with balanced risks, and reinvestment policy is unchanged, so the net lean is moderately hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "the Committee might need to raise the federal funds rate more quickly than currently anticipated to limit the degree of undershooting and stem a potential buildup of inflationary pressures",
+     "start": 36963,
+     "end": 37151
+    },
+    {
+     "quote": "Most participants judged that a gradual pace of rate increases was likely to be appropriate to promote the Committee's objectives of maximum employment and 2 percent inflation.",
+     "start": 34756,
+     "end": 34931
+    },
+    {
+     "quote": "almost all also indicated that the upside risks to their forecasts for economic growth had increased as a result of prospects for more expansionary fiscal policies in coming years.",
+     "start": 24560,
+     "end": 24739
+    },
+    {
+     "quote": "Most participants viewed the cumulative progress in the labor market as having brought labor market conditions to or close to those consistent with the Committee's maximum-employment objective.",
+     "start": 28868,
+     "end": 29060
+    },
+    {
+     "quote": "Inflation had increased since earlier in the year but was still below the Committee's 2 percent longer-run objective",
+     "start": 22783,
+     "end": 22899
+    },
+    {
+     "quote": "it anticipated doing so until normalization of the level of the federal funds rate is well under way.",
+     "start": 42896,
+     "end": 42996
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

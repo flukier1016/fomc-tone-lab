@@ -1,0 +1,112 @@
+{
+ "key": "statement_20100921",
+ "mode": "level",
+ "meta": {
+  "doc_id": "statement_20100921",
+  "doc_type": "statement",
+  "text_sha256": "fb5b18e513f84d49a237524bbe669c7e164e48e14ed3ee37fcf3142112f23d5d"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2759a5ab4427ee804d7baaf5b09965cdd5510f0ca906e1805c63509eeef3606e",
+ "message_id": "msg_011CgFugERBdjiVjdBqw6Ukm",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 893,
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":-1,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":-2,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the pace of recovery in output and employment has slowed in recent months\"},{\"dimension\":\"policy_action\",\"quote\":\"are likely to warrant exceptionally low levels for the federal funds rate for an extended period\"},{\"dimension\":\"balance_sheet\",\"quote\":\"The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.\"}],\"rationale\":\"The statement holds rates at zero with extended-period guidance, flags below-mandate inflation and a slowing recovery, and explicitly signals readiness for additional accommodation. This is a clear easing bias, and only one dissent pushes in the hawkish direction.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": -1,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": -2,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate"
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the pace of recovery in output and employment has slowed in recent months"
+   },
+   {
+    "dimension": "policy_action",
+    "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period"
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings."
+   }
+  ],
+  "rationale": "The statement holds rates at zero with extended-period guidance, flags below-mandate inflation and a slowing recovery, and explicitly signals readiness for additional accommodation. This is a clear easing bias, and only one dissent pushes in the hawkish direction."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "is prepared to provide additional accommodation if needed to support the economic recovery and to return inflation, over time, to levels consistent with its mandate",
+     "start": 1863,
+     "end": 2027
+    },
+    {
+     "quote": "Measures of underlying inflation are currently at levels somewhat below those the Committee judges most consistent, over the longer run, with its mandate to promote maximum employment and price stability.",
+     "start": 852,
+     "end": 1055
+    },
+    {
+     "quote": "the pace of recovery in output and employment has slowed in recent months",
+     "start": 90,
+     "end": 163
+    },
+    {
+     "quote": "are likely to warrant exceptionally low levels for the federal funds rate for an extended period",
+     "start": 1556,
+     "end": 1652
+    },
+    {
+     "quote": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+     "start": 1654,
+     "end": 1769
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

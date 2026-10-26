@@ -1,0 +1,112 @@
+{
+ "key": "speech_fischer20150323a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_fischer20150323a",
+  "doc_type": "speech",
+  "text_sha256": "7f97ac2845735ab7766612648d8bb6f4814c7aa21226c61271751886b867adb1"
+ },
+ "run_tag": "r2",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "15971d7f9330b5a9928f073fa124a9944b4bb007691b4e746362fb1df211b923",
+ "message_id": "msg_011CgG28ZK9hTJWTb8oVakkf",
+ "request_id": null,
+ "batch_id": "msgbatch_015YFfvYtrVB4YESV3VjjxED",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 5800,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T20:39:06+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":0,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":1,\"overall_stance\":1,\"stance_score\":0.35,\"confidence\":0.7,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"An increase in the target federal funds range likely will be warranted before the end of the year.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The unemployment rate, at 5.5 percent in February, is nearing estimates of its natural rate, and we expect that inflation will gradually rise toward the Fed's target of 2 percent.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"We anticipate that it will be appropriate to raise the target range when there has been further improvement in the labor market and we are reasonably confident that inflation will move back to our 2 percent objective over the medium term.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"When the time comes, we plan to normalize the balance sheet primarily by ceasing reinvestment of principal payments on existing holdings.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"I know of no plans for the FOMC to behave that way.\"}],\"rationale\":\"The speaker signals liftoff likely before year-end on the strength of labor-market progress, a moderately hawkish lean, while tempering it with conditionality and rejecting a mechanical pace of hikes. Inflation is described neutrally as expected to rise gradually, and balance-sheet runoff is planned for later.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 0,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": 1,
+  "overall_stance": 1,
+  "stance_score": 0.35,
+  "confidence": 0.7,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "An increase in the target federal funds range likely will be warranted before the end of the year."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The unemployment rate, at 5.5 percent in February, is nearing estimates of its natural rate, and we expect that inflation will gradually rise toward the Fed's target of 2 percent."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "We anticipate that it will be appropriate to raise the target range when there has been further improvement in the labor market and we are reasonably confident that inflation will move back to our 2 percent objective over the medium term."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "When the time comes, we plan to normalize the balance sheet primarily by ceasing reinvestment of principal payments on existing holdings."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "I know of no plans for the FOMC to behave that way."
+   }
+  ],
+  "rationale": "The speaker signals liftoff likely before year-end on the strength of labor-market progress, a moderately hawkish lean, while tempering it with conditionality and rejecting a mechanical pace of hikes. Inflation is described neutrally as expected to rise gradually, and balance-sheet runoff is planned for later."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "An increase in the target federal funds range likely will be warranted before the end of the year.",
+     "start": 8838,
+     "end": 8935
+    },
+    {
+     "quote": "The unemployment rate, at 5.5 percent in February, is nearing estimates of its natural rate, and we expect that inflation will gradually rise toward the Fed's target of 2 percent.",
+     "start": 574,
+     "end": 752
+    },
+    {
+     "quote": "We anticipate that it will be appropriate to raise the target range when there has been further improvement in the labor market and we are reasonably confident that inflation will move back to our 2 percent objective over the medium term.",
+     "start": 9241,
+     "end": 9478
+    },
+    {
+     "quote": "When the time comes, we plan to normalize the balance sheet primarily by ceasing reinvestment of principal payments on existing holdings.",
+     "start": 11771,
+     "end": 11907
+    },
+    {
+     "quote": "I know of no plans for the FOMC to behave that way.",
+     "start": 14438,
+     "end": 14488
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

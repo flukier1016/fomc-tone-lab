@@ -1,0 +1,52 @@
+{
+ "key": "statement_20130918",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20130918",
+  "release_date": "2013-09-18"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "01a97bb66c3d094f46ab005e6c47c05918959c8b067166d9162f11339ad85475",
+ "message_id": "msg_011CgFudVGZnB13B8gmdjYzs",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 2012,
+  "output_tokens": 248,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2013,\"month\":9,\"confidence\":0.93,\"cues\":[\"Famous September 2013 'no taper' statement: 'decided to await more evidence that progress will be sustained before adjusting the pace of its purchases'\",\"Asset purchases at $40B MBS and $45B Treasuries per month (pre-taper)\",\"'since it began its asset purchase program a year ago' (QE3 began September 2012)\",\"'tightening of financial conditions observed in recent months' and 'mortgage rates have risen further' after the taper tantrum\",\"'fiscal retrenchment' language\",\"Single dissent by Esther George (KC Fed) on imbalances and inflation expectations, consistent with 2013 voters; James Bullard named as a 2013 voter\"]}",
+ "parsed": {
+  "year": 2013,
+  "month": 9,
+  "confidence": 0.93,
+  "cues": [
+   "Famous September 2013 'no taper' statement: 'decided to await more evidence that progress will be sustained before adjusting the pace of its purchases'",
+   "Asset purchases at $40B MBS and $45B Treasuries per month (pre-taper)",
+   "'since it began its asset purchase program a year ago' (QE3 began September 2012)",
+   "'tightening of financial conditions observed in recent months' and 'mortgage rates have risen further' after the taper tantrum",
+   "'fiscal retrenchment' language",
+   "Single dissent by Esther George (KC Fed) on imbalances and inflation expectations, consistent with 2013 voters; James Bullard named as a 2013 voter"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

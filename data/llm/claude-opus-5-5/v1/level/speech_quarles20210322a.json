@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20210322a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20210322a",
+  "doc_type": "speech",
+  "text_sha256": "3b5742c9011ad0cb27e9aacd948ebc94aea468722af8d2cb78ed9b9f3f70d7c8"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "a673e1a7b06c0d6c978683df44cbf10f9d67d84fd8ba7905bfc507ec976537c5",
+ "message_id": "msg_011CgFug8i8mxWo8p5JkE7EV",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3978,
+  "output_tokens": 321,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.95,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"This year, however, it is finally time for everyone to actively transition away from using LIBOR.\"},{\"dimension\":\"overall\",\"quote\":\"There is no scenario in which a panel-based USD LIBOR will continue past June 2023, and nobody should expect it to.\"},{\"dimension\":\"overall\",\"quote\":\"While we will examine against all of these points, what is most important this year is that firms should end new use of LIBOR.\"}],\"rationale\":\"The speech concerns the LIBOR transition and supervisory expectations, not monetary policy or the economic outlook. It carries no signal on rates, inflation, activity or the balance sheet.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.95,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "This year, however, it is finally time for everyone to actively transition away from using LIBOR."
+   },
+   {
+    "dimension": "overall",
+    "quote": "There is no scenario in which a panel-based USD LIBOR will continue past June 2023, and nobody should expect it to."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While we will examine against all of these points, what is most important this year is that firms should end new use of LIBOR."
+   }
+  ],
+  "rationale": "The speech concerns the LIBOR transition and supervisory expectations, not monetary policy or the economic outlook. It carries no signal on rates, inflation, activity or the balance sheet."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "This year, however, it is finally time for everyone to actively transition away from using LIBOR.",
+     "start": 695,
+     "end": 791
+    },
+    {
+     "quote": "There is no scenario in which a panel-based USD LIBOR will continue past June 2023, and nobody should expect it to.",
+     "start": 2971,
+     "end": 3085
+    },
+    {
+     "quote": "While we will examine against all of these points, what is most important this year is that firms should end new use of LIBOR.",
+     "start": 11507,
+     "end": 11632
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

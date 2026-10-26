@@ -1,0 +1,94 @@
+{
+ "key": "speech_bowman20260713a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_bowman20260713a",
+  "doc_type": "speech",
+  "text_sha256": "89ba65b9b6eac326fd7e97e09b12126c6904111a999a78fb5a7a3f09e6c6eb02"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "2b20fa24b2a4d3304143db8e8e0f501a291388129b5375b9b284e19766321644",
+ "message_id": "msg_011CgFugEEWwrm6DAxRDZU2m",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 3530,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"Today, I would like to discuss the work that is currently under way in the Financial Stability Board's Standing Committee on Supervisory and Regulatory Cooperation (or \\\"SRC\\\") on modernizing financial regulation and supervision.\"},{\"dimension\":\"overall\",\"quote\":\"One of the primary U.S. modernization priorities includes reforming the capital framework.\"},{\"dimension\":\"overall\",\"quote\":\"The lesson is that more findings do not equal better supervision.\"}],\"rationale\":\"The speech covers bank supervision and regulatory modernization (capital framework, FSB principles, AI) and offers no view on monetary policy, inflation, or the economic outlook. All monetary dimensions are therefore null and the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "Today, I would like to discuss the work that is currently under way in the Financial Stability Board's Standing Committee on Supervisory and Regulatory Cooperation (or \"SRC\") on modernizing financial regulation and supervision."
+   },
+   {
+    "dimension": "overall",
+    "quote": "One of the primary U.S. modernization priorities includes reforming the capital framework."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The lesson is that more findings do not equal better supervision."
+   }
+  ],
+  "rationale": "The speech covers bank supervision and regulatory modernization (capital framework, FSB principles, AI) and offers no view on monetary policy, inflation, or the economic outlook. All monetary dimensions are therefore null and the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Today, I would like to discuss the work that is currently under way in the Financial Stability Board's Standing Committee on Supervisory and Regulatory Cooperation (or \"SRC\") on modernizing financial regulation and supervision.",
+     "start": 59,
+     "end": 285
+    },
+    {
+     "quote": "One of the primary U.S. modernization priorities includes reforming the capital framework.",
+     "start": 5392,
+     "end": 5481
+    },
+    {
+     "quote": "The lesson is that more findings do not equal better supervision.",
+     "start": 2068,
+     "end": 2132
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "key": "speech_quarles20190210a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_quarles20190210a",
+  "doc_type": "speech",
+  "text_sha256": "7292e1bf7b53c40d8df608d2fe2c83f10a30c0c66ec39e2b9fae325e0e38fa07"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "6cda26934011a5780189561fe90cc7f341fd126a5f008d004df665d9612ce86b",
+ "message_id": "msg_011CgFugGKnBj91o5QgRrubB",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4638,
+  "output_tokens": 334,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:56+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":null,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.0,\"confidence\":0.9,\"evidence\":[{\"dimension\":\"overall\",\"quote\":\"I would like to discuss with you tonight my view of how the work of the FSB must evolve, and some key principles that I think should inform that work.\"},{\"dimension\":\"overall\",\"quote\":\"Today, however, the post-crisis reform agenda has been largely completed.\"},{\"dimension\":\"overall\",\"quote\":\"However, we cannot be complacent and assume that we are safe from all shocks.\"}],\"rationale\":\"The speech concerns the Financial Stability Board's governance, outreach, vulnerability assessment and evaluation of regulatory reforms, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": null,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.0,
+  "confidence": 0.9,
+  "evidence": [
+   {
+    "dimension": "overall",
+    "quote": "I would like to discuss with you tonight my view of how the work of the FSB must evolve, and some key principles that I think should inform that work."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Today, however, the post-crisis reform agenda has been largely completed."
+   },
+   {
+    "dimension": "overall",
+    "quote": "However, we cannot be complacent and assume that we are safe from all shocks."
+   }
+  ],
+  "rationale": "The speech concerns the Financial Stability Board's governance, outreach, vulnerability assessment and evaluation of regulatory reforms, with no discussion of monetary policy, inflation, or the economic outlook. It is scored neutral with low policy relevance."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I would like to discuss with you tonight my view of how the work of the FSB must evolve, and some key principles that I think should inform that work.",
+     "start": 480,
+     "end": 629
+    },
+    {
+     "quote": "Today, however, the post-crisis reform agenda has been largely completed.",
+     "start": 1346,
+     "end": 1418
+    },
+    {
+     "quote": "However, we cannot be complacent and assume that we are safe from all shocks.",
+     "start": 10812,
+     "end": 10888
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

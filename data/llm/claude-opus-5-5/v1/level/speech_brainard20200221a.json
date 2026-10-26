@@ -1,0 +1,121 @@
+{
+ "key": "speech_brainard20200221a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20200221a",
+  "doc_type": "speech",
+  "text_sha256": "4a459a561f19f9aa8741f8f4a6f7593e782c6493bc82f0d420d2b76067c7cd30"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "83c63d17223dc472f36a69c5d326802752af95d2911952b21fcd67220ad9dd4a",
+ "message_id": "msg_011CgFug93yEG376u6qfxFQC",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4617,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":-2,\"inflation_assessment\":-2,\"activity_labor_assessment\":null,\"risk_balance\":-2,\"balance_sheet\":-1,\"overall_stance\":-2,\"stance_score\":-0.8,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"inflation_assessment\",\"quote\":\"With trend inflation running below the symmetric 2 percent objective, there is a risk that inflation expectations have slipped.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"policy may have to remain accommodative for a long time to achieve 2 percent inflation following a period of undershooting.\"},{\"dimension\":\"forward_guidance\",\"quote\":\"The lessons from the crisis would argue for an approach that commits to maintain policy at the lower bound until full employment and target inflation are achieved.\"},{\"dimension\":\"overall\",\"quote\":\"Flexible inflation averaging would imply supporting inflation a bit above 2 percent for some time to compensate for the inflation shortfall over previous years and anchor inflation expectations at 2 percent.\"},{\"dimension\":\"risk_balance\",\"quote\":\"The likelihood that the policy rate will be stuck at the lower bound more frequently risks eroding expected inflation and actual inflation, which could further compress the room to cut nominal interest rates in a downward spiral.\"},{\"dimension\":\"balance_sheet\",\"quote\":\"I expect these tools to be deployed more forcefully and readily in the future.\"}],\"rationale\":\"Brainard advocates forceful, pre-committed accommodation, yield curve caps, and makeup inflation strategies to address persistently low inflation and slipping expectations. The emphasis on downside inflation risks and lower-bound constraints is strongly dovish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": -2,
+  "inflation_assessment": -2,
+  "activity_labor_assessment": null,
+  "risk_balance": -2,
+  "balance_sheet": -1,
+  "overall_stance": -2,
+  "stance_score": -0.8,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "inflation_assessment",
+    "quote": "With trend inflation running below the symmetric 2 percent objective, there is a risk that inflation expectations have slipped."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "policy may have to remain accommodative for a long time to achieve 2 percent inflation following a period of undershooting."
+   },
+   {
+    "dimension": "forward_guidance",
+    "quote": "The lessons from the crisis would argue for an approach that commits to maintain policy at the lower bound until full employment and target inflation are achieved."
+   },
+   {
+    "dimension": "overall",
+    "quote": "Flexible inflation averaging would imply supporting inflation a bit above 2 percent for some time to compensate for the inflation shortfall over previous years and anchor inflation expectations at 2 percent."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "The likelihood that the policy rate will be stuck at the lower bound more frequently risks eroding expected inflation and actual inflation, which could further compress the room to cut nominal interest rates in a downward spiral."
+   },
+   {
+    "dimension": "balance_sheet",
+    "quote": "I expect these tools to be deployed more forcefully and readily in the future."
+   }
+  ],
+  "rationale": "Brainard advocates forceful, pre-committed accommodation, yield curve caps, and makeup inflation strategies to address persistently low inflation and slipping expectations. The emphasis on downside inflation risks and lower-bound constraints is strongly dovish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 6,
+   "verified": 6,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "With trend inflation running below the symmetric 2 percent objective, there is a risk that inflation expectations have slipped.",
+     "start": 4785,
+     "end": 4911
+    },
+    {
+     "quote": "policy may have to remain accommodative for a long time to achieve 2 percent inflation following a period of undershooting.",
+     "start": 4986,
+     "end": 5108
+    },
+    {
+     "quote": "The lessons from the crisis would argue for an approach that commits to maintain policy at the lower bound until full employment and target inflation are achieved.",
+     "start": 6220,
+     "end": 6382
+    },
+    {
+     "quote": "Flexible inflation averaging would imply supporting inflation a bit above 2 percent for some time to compensate for the inflation shortfall over previous years and anchor inflation expectations at 2 percent.",
+     "start": 9722,
+     "end": 9928
+    },
+    {
+     "quote": "The likelihood that the policy rate will be stuck at the lower bound more frequently risks eroding expected inflation and actual inflation, which could further compress the room to cut nominal interest rates in a downward spiral.",
+     "start": 5484,
+     "end": 5712
+    },
+    {
+     "quote": "I expect these tools to be deployed more forcefully and readily in the future.",
+     "start": 3049,
+     "end": 3126
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

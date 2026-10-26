@@ -1,0 +1,52 @@
+{
+ "key": "statement_20220615",
+ "mode": "identify",
+ "meta": {
+  "doc_id": "statement_20220615",
+  "release_date": "2022-06-15"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "f8256a3812ccb0eb2231b782a2c8e58ab8ded3b9b0f6e644ba65a16cd2772683",
+ "message_id": "msg_011CgFudVWwt9ANjjnudsHxm",
+ "request_id": null,
+ "batch_id": "msgbatch_01UEECgkqvJtBhpv4q6W1uXG",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "global",
+  "input_tokens": 1195,
+  "output_tokens": 148,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:10:49+00:00",
+ "raw_text": "{\"year\":2022,\"month\":6,\"confidence\":0.95,\"cues\":[\"Target range raised to 1-1/2 to 1-3/4 percent (75bp hike)\",\"Dissent preferring 50bp hike (Esther George)\",\"Activity picked up after edging down in first quarter\",\"Balance sheet plans issued in May\",\"COVID lockdowns in China, Russia invasion of Ukraine\",\"Patrick Harker voting as alternate\"]}",
+ "parsed": {
+  "year": 2022,
+  "month": 6,
+  "confidence": 0.95,
+  "cues": [
+   "Target range raised to 1-1/2 to 1-3/4 percent (75bp hike)",
+   "Dissent preferring 50bp hike (Esther George)",
+   "Activity picked up after edging down in first quarter",
+   "Balance sheet plans issued in May",
+   "COVID lockdowns in China, Russia invasion of Ukraine",
+   "Patrick Harker voting as alternate"
+  ]
+ },
+ "status": "ok",
+ "error": null
+}

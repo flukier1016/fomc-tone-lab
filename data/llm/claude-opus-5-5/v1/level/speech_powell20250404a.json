@@ -1,0 +1,112 @@
+{
+ "key": "speech_powell20250404a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_powell20250404a",
+  "doc_type": "speech",
+  "text_sha256": "372ac46603f4ded37049b76608396ed063f2d906e59c1203b057386567a31ce7"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "bb9d79c9360814c83546e20f0db9242f981c2904ab4e213d62084c0ed2f1774c",
+ "message_id": "msg_011CgFug9THRVEMXze4B1zn1",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 1681,
+  "output_tokens": 475,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"high\",\"policy_action\":null,\"forward_guidance\":0,\"inflation_assessment\":1,\"activity_labor_assessment\":0,\"risk_balance\":1,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":0.15,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"We are well positioned to wait for greater clarity before considering any adjustments to our policy stance.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Looking ahead, higher tariffs will be working their way through our economy and are likely to raise inflation in coming quarters.\"},{\"dimension\":\"risk_balance\",\"quote\":\"Our obligation is to keep longer-term inflation expectations well anchored and to make certain that a one-time increase in the price level does not become an ongoing inflation problem.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"the labor market appears to be broadly in balance and is not a significant source of inflationary pressure.\"},{\"dimension\":\"risk_balance\",\"quote\":\"we face a highly uncertain outlook with elevated risks of both higher unemployment and higher inflation.\"}],\"rationale\":\"The speech signals a patient hold, with no near-term cuts, and acknowledges two-sided risks. Its emphasis on tariff-driven inflation and on preventing a one-time price increase from persisting tilts it slightly hawkish.\"}",
+ "parsed": {
+  "policy_relevance": "high",
+  "policy_action": null,
+  "forward_guidance": 0,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 0,
+  "risk_balance": 1,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": 0.15,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "We are well positioned to wait for greater clarity before considering any adjustments to our policy stance."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Looking ahead, higher tariffs will be working their way through our economy and are likely to raise inflation in coming quarters."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "Our obligation is to keep longer-term inflation expectations well anchored and to make certain that a one-time increase in the price level does not become an ongoing inflation problem."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "the labor market appears to be broadly in balance and is not a significant source of inflationary pressure."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "we face a highly uncertain outlook with elevated risks of both higher unemployment and higher inflation."
+   }
+  ],
+  "rationale": "The speech signals a patient hold, with no near-term cuts, and acknowledges two-sided risks. Its emphasis on tariff-driven inflation and on preventing a one-time price increase from persisting tilts it slightly hawkish."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "We are well positioned to wait for greater clarity before considering any adjustments to our policy stance.",
+     "start": 4917,
+     "end": 5023
+    },
+    {
+     "quote": "Looking ahead, higher tariffs will be working their way through our economy and are likely to raise inflation in coming quarters.",
+     "start": 2514,
+     "end": 2642
+    },
+    {
+     "quote": "Our obligation is to keep longer-term inflation expectations well anchored and to make certain that a one-time increase in the price level does not become an ongoing inflation problem.",
+     "start": 4626,
+     "end": 4809
+    },
+    {
+     "quote": "the labor market appears to be broadly in balance and is not a significant source of inflationary pressure.",
+     "start": 1536,
+     "end": 1642
+    },
+    {
+     "quote": "we face a highly uncertain outlook with elevated risks of both higher unemployment and higher inflation.",
+     "start": 3035,
+     "end": 3138
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

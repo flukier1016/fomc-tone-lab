@@ -1,0 +1,112 @@
+{
+ "key": "speech_jefferson20250219a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_jefferson20250219a",
+  "doc_type": "speech",
+  "text_sha256": "be5934b20b9971664bdf11a1a6538b80371a0b6ee37db49c2c23bbafef0553cc"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "c926efcc6eb66739479ddf45233c7627ce7b8a414e0c085dbb995d4e79ca9e7e",
+ "message_id": "msg_011CgFug8oLb3NTacDG5kfLi",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 6429,
+  "output_tokens": 488,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:12:00+00:00",
+ "raw_text": "{\"policy_relevance\":\"medium\",\"policy_action\":null,\"forward_guidance\":1,\"inflation_assessment\":1,\"activity_labor_assessment\":1,\"risk_balance\":0,\"balance_sheet\":null,\"overall_stance\":1,\"stance_score\":0.25,\"confidence\":0.6,\"evidence\":[{\"dimension\":\"forward_guidance\",\"quote\":\"I believe that, with a strong economy and a solid labor market, we can take our time to assess the incoming data to make any further adjustments to our policy rate.\"},{\"dimension\":\"inflation_assessment\",\"quote\":\"Progress toward our 2 percent objective has been slow in the past year. I expect the path of inflation to continue to be bumpy.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"The performance of the U.S. economy has been quite strong overall.\"},{\"dimension\":\"risk_balance\",\"quote\":\"These indicators suggest that certain groups of households may have a hard time weathering unexpected costs or economic shocks.\"},{\"dimension\":\"overall\",\"quote\":\"While a cumulative cut in the policy rate by 100 basis points last year has brought the stance of monetary policy closer to a neutral setting, monetary policy continues to be restrictive.\"}],\"rationale\":\"The speaker describes a strong economy, slow and bumpy inflation progress, and signals patience on further cuts, which is a mild hawkish lean. Concerns about stretched lower-income households provide modest offsetting downside risk.\"}",
+ "parsed": {
+  "policy_relevance": "medium",
+  "policy_action": null,
+  "forward_guidance": 1,
+  "inflation_assessment": 1,
+  "activity_labor_assessment": 1,
+  "risk_balance": 0,
+  "balance_sheet": null,
+  "overall_stance": 1,
+  "stance_score": 0.25,
+  "confidence": 0.6,
+  "evidence": [
+   {
+    "dimension": "forward_guidance",
+    "quote": "I believe that, with a strong economy and a solid labor market, we can take our time to assess the incoming data to make any further adjustments to our policy rate."
+   },
+   {
+    "dimension": "inflation_assessment",
+    "quote": "Progress toward our 2 percent objective has been slow in the past year. I expect the path of inflation to continue to be bumpy."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "The performance of the U.S. economy has been quite strong overall."
+   },
+   {
+    "dimension": "risk_balance",
+    "quote": "These indicators suggest that certain groups of households may have a hard time weathering unexpected costs or economic shocks."
+   },
+   {
+    "dimension": "overall",
+    "quote": "While a cumulative cut in the policy rate by 100 basis points last year has brought the stance of monetary policy closer to a neutral setting, monetary policy continues to be restrictive."
+   }
+  ],
+  "rationale": "The speaker describes a strong economy, slow and bumpy inflation progress, and signals patience on further cuts, which is a mild hawkish lean. Concerns about stretched lower-income households provide modest offsetting downside risk."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 5,
+   "verified": 5,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "I believe that, with a strong economy and a solid labor market, we can take our time to assess the incoming data to make any further adjustments to our policy rate.",
+     "start": 1874,
+     "end": 2037
+    },
+    {
+     "quote": "Progress toward our 2 percent objective has been slow in the past year. I expect the path of inflation to continue to be bumpy.",
+     "start": 1558,
+     "end": 1684
+    },
+    {
+     "quote": "The performance of the U.S. economy has been quite strong overall.",
+     "start": 998,
+     "end": 1063
+    },
+    {
+     "quote": "These indicators suggest that certain groups of households may have a hard time weathering unexpected costs or economic shocks.",
+     "start": 20991,
+     "end": 21117
+    },
+    {
+     "quote": "While a cumulative cut in the policy rate by 100 basis points last year has brought the stance of monetary policy closer to a neutral setting, monetary policy continues to be restrictive.",
+     "start": 1686,
+     "end": 1872
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

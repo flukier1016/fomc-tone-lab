@@ -1,0 +1,94 @@
+{
+ "key": "speech_brainard20201015a",
+ "mode": "level",
+ "meta": {
+  "doc_id": "speech_brainard20201015a",
+  "doc_type": "speech",
+  "text_sha256": "d6afab4f5ba53ba01fd059a86583d481eb24e45568334149bac325787701d0d2"
+ },
+ "run_tag": "",
+ "model_requested": "claude-opus-5-5",
+ "model_served": "claude-opus-5-5",
+ "effort": "medium",
+ "rubric_version": "v1",
+ "input_sha256": "80f0c4e1458fb9c5b3e760014f6eb41fae68ea267a23fbaff130cce8e17166ea",
+ "message_id": "msg_011CgFugFuUkyzvfdLom7czb",
+ "request_id": null,
+ "batch_id": "msgbatch_011BG3PasXKPUt2QVkN5sM5P",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2241,
+  "inference_geo": "global",
+  "input_tokens": 4176,
+  "output_tokens": 414,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "service_tier": "batch",
+  "speed": "standard"
+ },
+ "fallback_used": false,
+ "created_at": "2026-10-21T19:11:59+00:00",
+ "raw_text": "{\"policy_relevance\":\"low\",\"policy_action\":null,\"forward_guidance\":null,\"inflation_assessment\":null,\"activity_labor_assessment\":-1,\"risk_balance\":null,\"balance_sheet\":null,\"overall_stance\":0,\"stance_score\":-0.05,\"confidence\":0.8,\"evidence\":[{\"dimension\":\"activity_labor_assessment\",\"quote\":\"Black employment, in particular, is recovering at a much slower pace than employment in the overall population, and unemployment for Black and Hispanic/Latinx workers remains higher than for the workforce as a whole.\"},{\"dimension\":\"activity_labor_assessment\",\"quote\":\"As of last month, the overall unemployment rate had come down to 7.9 percent, which was a marked improvement from 14.7 percent in April.\"},{\"dimension\":\"overall\",\"quote\":\"The Community Reinvestment Act (CRA) is one of the most powerful tools we have for addressing systemic inequities in credit access for minority individuals and communities.\"}],\"rationale\":\"The speech is mainly about CRA reform and minority depository institutions, with no monetary policy view. It notes labor market disparities and slow recovery for minority workers, a mild dovish tone on activity, but the overall stance is neutral.\"}",
+ "parsed": {
+  "policy_relevance": "low",
+  "policy_action": null,
+  "forward_guidance": null,
+  "inflation_assessment": null,
+  "activity_labor_assessment": -1,
+  "risk_balance": null,
+  "balance_sheet": null,
+  "overall_stance": 0,
+  "stance_score": -0.05,
+  "confidence": 0.8,
+  "evidence": [
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "Black employment, in particular, is recovering at a much slower pace than employment in the overall population, and unemployment for Black and Hispanic/Latinx workers remains higher than for the workforce as a whole."
+   },
+   {
+    "dimension": "activity_labor_assessment",
+    "quote": "As of last month, the overall unemployment rate had come down to 7.9 percent, which was a marked improvement from 14.7 percent in April."
+   },
+   {
+    "dimension": "overall",
+    "quote": "The Community Reinvestment Act (CRA) is one of the most powerful tools we have for addressing systemic inequities in credit access for minority individuals and communities."
+   }
+  ],
+  "rationale": "The speech is mainly about CRA reform and minority depository institutions, with no monetary policy view. It notes labor market disparities and slow recovery for minority workers, a mild dovish tone on activity, but the overall stance is neutral."
+ },
+ "status": "ok",
+ "error": null,
+ "checks": {
+  "evidence": {
+   "n": 3,
+   "verified": 3,
+   "share": 1.0,
+   "unverified": [],
+   "spans": [
+    {
+     "quote": "Black employment, in particular, is recovering at a much slower pace than employment in the overall population, and unemployment for Black and Hispanic/Latinx workers remains higher than for the workforce as a whole.",
+     "start": 1036,
+     "end": 1251
+    },
+    {
+     "quote": "As of last month, the overall unemployment rate had come down to 7.9 percent, which was a marked improvement from 14.7 percent in April.",
+     "start": 1253,
+     "end": 1388
+    },
+    {
+     "quote": "The Community Reinvestment Act (CRA) is one of the most powerful tools we have for addressing systemic inequities in credit access for minority individuals and communities.",
+     "start": 5825,
+     "end": 5996
+    }
+   ]
+  },
+  "stance_score_in_range": true,
+  "confidence_in_range": true
+ }
+}

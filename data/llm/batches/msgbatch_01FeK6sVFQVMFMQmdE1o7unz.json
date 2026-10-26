@@ -1,0 +1,34 @@
+{
+ "batch_id": "msgbatch_01FeK6sVFQVMFMQmdE1o7unz",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "run_tag": "",
+ "rubric_version": "v1",
+ "created_at": "2026-10-21T19:07:47.667869+00:00",
+ "jobs": {
+  "team_00000": {
+   "mode": "sentences",
+   "input_sha256": "1f125f3f493c8c1f7d4de6570f15c4802b4617089071fa6787a5b447cfa5632a"
+  },
+  "team_00025": {
+   "mode": "sentences",
+   "input_sha256": "a83fbdf4bdac3bdbfdcd4c762de3ea1226627c0b411a2260caec12a2add56daa"
+  },
+  "team_00050": {
+   "mode": "sentences",
+   "input_sha256": "e11394f839f07a088f0b4011d9025d6fd7e604a8b2d31865770b3e7e3c6acf4b"
+  },
+  "team_00075": {
+   "mode": "sentences",
+   "input_sha256": "eb1bf2e9d4d89e423252d2ba9c2cd0ebdfc3b1ec4e687019c9d9e9e949eb7b96"
+  },
+  "team_00100": {
+   "mode": "sentences",
+   "input_sha256": "3fe4856882f93d1a002417cfb5d2a08c1e34402d7f6149a9595b4718d02e7029"
+  },
+  "team_00125": {
+   "mode": "sentences",
+   "input_sha256": "1ade4fcc9bfd3008b71f75ea5c8acb2cfde8a77f2e303af0831340da35d04af8"
+  }
+ }
+}
