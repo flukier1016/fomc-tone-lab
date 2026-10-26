@@ -1,6 +1,6 @@
 """Render the submission write-up through Pandoc and XeLaTeX, in the page style of the course homework.
 
-Usage: .venv/bin/python scripts/export_writeup.py --out /path/to/FOMC-Tone-Lab-writeup.pdf
+Usage: .venv/bin/python scripts/export_writeup.py --out /path/to/group2-final-project-03-writeup.pdf
 Requires Pandoc and XeLaTeX (TeX Live or MacTeX); no network calls, API keys or research computation.
 docs/WRITEUP.md stays the single source: numbered markers such as [3] become superscript citations, and its final
 section becomes the numbered list of references and sources. The page design is scripts/writeup_template.tex.

@@ -2374,6 +2374,9 @@ function storyBrief(v) {
 function storyAgenda(v) {
   return `<div class="s-agenda">${v.sections.map(([n, t, d]) => `<div class="ag"><span class="num">${esc(n)}</span><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}</div>`;
 }
+function storyContents(v) {
+  return `<div class="s-contents">${v.rows.map(([name, about, range], i) => `<div class="ct"><span class="num">${String(i + 1).padStart(2, "0")}</span><b>${esc(name)}</b><span>${esc(about)}</span><span class="range">${esc(String(range).replace("-", "–"))}</span></div>`).join("")}</div>`;
+}
 function storyAnswers(v) {
   return `<div class="s-answers">${v.cards.map(([h, claim, verdict, metric]) => { const [cls, icon] = VERDICT[verdict] || VERDICT[verdict.split(" on ")[0]] || ["mixed", "&#8776;"];
     return `<div class="ans ${cls}"><span class="h">${esc(h)}</span><b>${esc(claim)}</b><span class="verdict"><i>${icon}</i>${esc(verdict)}</span><span class="metric">${esc(metric)}</span></div>`; }).join("")}</div>`;
@@ -2448,7 +2451,7 @@ function storyAudit(el, v) {
 // The technical appendix's plain visuals: a table, a block of code or formulas, confusion matrices.
 function storyTable(v) {
   const cls = (i) => (v.align && v.align[i] === "r" ? ' class="r"' : "");
-  const size = v.rows.length <= 5 ? "few" : v.rows.length <= 10 ? "mid" : "";
+  const size = v.rows.length <= 5 ? "few" : v.rows.length <= 10 ? "mid" : "many";
   return `<div class="s-table ${size}"><table><thead><tr>${v.columns.map((h, i) => `<th${cls(i)}>${esc(h)}</th>`).join("")}</tr></thead>
     <tbody>${v.rows.map((r, k) => `<tr${k === v.highlight ? ' class="hl"' : ""}>${r.map((x, i) => `<td${cls(i)}>${esc(x)}</td>`).join("")}</tr>`).join("")}</tbody></table>${v.note ? `<p class="s-note">${esc(v.note)}</p>` : ""}</div>`;
 }
@@ -2464,11 +2467,12 @@ function storyMatrices(v) {
 }
 function storyHtmlVisual(s) {
   const v = s.visual;
+  if (s.id === "agenda") return storyContents(v);
   const html = { primer: storyPrimer, brief: storyBrief, agenda: storyAgenda, answers: storyAnswers, timeline: storyTimeline, flow: storyFlow,
     reading: storyReading, architecture: storyArchitecture, tiles: storyTiles, screens: storyScreens, table: storyTable, code: storyCode, matrices: storyMatrices }[v.kind];
   if (html) return html(v);
   if (v.kind === "steps") return `<div class="s-steps n${v.steps.length}">${v.steps.map(([t, d], i) => `<div class="s-step"><span class="n">${i + 1}</span><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}</div>`;
-  if (v.kind === "cards") return `<div class="s-cards n${v.cards.length}">${v.cards.map(([t, d], i) => `<div class="s-card"><span class="n">${i + 1}</span><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}</div>`;
+  if (v.kind === "cards") return `<div class="s-cards n${v.cards.length}">${v.cards.map(([t, d], i) => `<div class="s-card"><span class="n">${String(i + 1).padStart(2, "0")}</span><b>${esc(t)}</b><span>${esc(d)}</span></div>`).join("")}</div>`;
   return null;
 }
 function drawStoryVisual(box, s) {

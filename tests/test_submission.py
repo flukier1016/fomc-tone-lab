@@ -45,8 +45,8 @@ def test_package_lists_only_four_active_deliverables_and_reads_actual_slide_coun
     _presentation(source / "FOMC-Tone-Lab-editable.pptx", 13)  # deliberately different from the current deck
     out = tmp_path / "submission"
     out.mkdir()
-    (out / "FOMC-Tone-Lab.pdf").write_bytes(b"reviewed integrated deck")
-    (out / "FOMC-Tone-Lab-writeup.pdf").write_bytes(b"reviewed write-up")
+    (out / "group2-final-project-01-slides.pdf").write_bytes(b"reviewed integrated deck")
+    (out / "group2-final-project-03-writeup.pdf").write_bytes(b"reviewed write-up")
     legacy = out / "FOMC-Tone-Lab-technical.pdf"
     legacy.write_bytes(b"preserve historical export")
     (out / "SHA256SUMS.txt").write_text("stale checksums from an earlier package\n")
@@ -69,7 +69,7 @@ def test_package_lists_only_four_active_deliverables_and_reads_actual_slide_coun
     monkeypatch.setattr(submission.subprocess, "check_output", git_output)
     monkeypatch.setattr(submission.subprocess, "run", git_archive)
     submission.package(out)
-    manifest = (out / "SUBMISSION.md").read_text()
+    manifest = (out / "group2-final-project-00-SUBMISSION.md").read_text()
     assert "13 slides: introduction, methods, results and implementation" in manifest
     assert "Deadline" not in manifest and "SHA256" not in manifest  # a guide for graders, not a packing note
     assert "Team contributions" not in manifest and "【填写】" not in manifest
@@ -77,13 +77,15 @@ def test_package_lists_only_four_active_deliverables_and_reads_actual_slide_coun
     assert "FOMC-Tone-Lab-technical" not in manifest
     assert "https://github.com/flukier1016/fomc-tone-lab" in manifest  # graders can open the code online
     assert not (out / "SHA256SUMS.txt").exists()
-    for name in [
-        "FOMC-Tone-Lab.pdf",
-        "FOMC-Tone-Lab-editable.pptx",
-        "FOMC-Tone-Lab-writeup.pdf",
-        "fomc-tone-duration-aaaaaaa.zip",
+    for name in [  # the group's prefix, then the course's numbering
+        "group2-final-project-01-slides.pdf",
+        "group2-final-project-01-slides-editable.pptx",
+        "group2-final-project-02-codebase-aaaaaaa.zip",
+        "group2-final-project-03-writeup.pdf",
     ]:
         assert f"`{name}`" in manifest and (out / name).is_file()
+    listed = [line.split("`")[1] for line in manifest.splitlines() if line.startswith("| `")]
+    assert [n.split("-")[3] for n in listed] == ["01", "01", "02", "03"]  # slides, code, write-up, as in the brief
 
 
 @pytest.mark.parametrize(

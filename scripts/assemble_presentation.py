@@ -1,12 +1,15 @@
 """Turn a finalized editorial build into the delivered files, after its pages have been reviewed.
 
 Writes the two PowerPoints to docs/slides with the deck's own document properties (title, authors, slide count)
-in place of the exporter's, the text outline and the contact sheet next to them, and the page-image PDF with one
-bookmark per slide to --pdf, which must lie outside the repository. Nothing else in the decks changes.
+in place of the exporter's and table borders every presentation program reads alike, the text outline and the
+contact sheet next to them, and the presentation PDF, without bookmarks, to --pdf, which must lie outside the
+repository. The PDF is the editable deck converted by LibreOffice (headless), so its text can be selected and
+searched; without LibreOffice it falls back to the reviewed page images.
 
 Usage, after render_presentation.py, export_presentation.mjs and finalize_presentation.mjs
 (docs/PRESENTATION_DESIGN.md):
-  .venv/bin/python scripts/assemble_presentation.py qa/<work> --pdf /path/outside/the/repository/FOMC-Tone-Lab.pdf
+  .venv/bin/python scripts/assemble_presentation.py qa/<work> \
+    --pdf /path/outside/the/repository/group2-final-project-01-slides.pdf
 """
 
 from __future__ import annotations
@@ -15,6 +18,7 @@ import argparse
 import json
 import re
 import shutil
+import subprocess
 import tempfile
 import zipfile
 from pathlib import Path
@@ -24,6 +28,16 @@ from fomc.slides import contact_sheet, outline, pdf
 
 ROOT = Path(__file__).resolve().parents[1]
 DECKS = ("FOMC-Tone-Lab-editable.pptx", "FOMC-Tone-Lab.pptx")
+SOFFICE = ("/Applications/LibreOffice.app/Contents/MacOS/soffice", "soffice", "libreoffice")
+NO_GRID = "{2D5ABB26-0587-4C30-8999-92F81FD0307C}"  # PowerPoint's built-in "No Style, No Grid" table style
+ZERO_LINE = re.compile(r'<a:ln([LRTB]) w="0"><a:noFill ?/></a:ln\1>')
+
+
+def _plain_tables(xml: str) -> str:
+    """Cell borders say "none" without a zero width, and tables name the no-grid style: PowerPoint read the
+    exporter's zero-width borders as intended, but LibreOffice and Keynote drew a black grid over them."""
+    xml = ZERO_LINE.sub(r"<a:ln\1><a:noFill/></a:ln\1>", xml)
+    return xml.replace("<a:tblPr />", f"<a:tblPr><a:tableStyleId>{NO_GRID}</a:tableStyleId></a:tblPr>")
 
 
 def _set(xml: str, tag: str, value: str) -> str:
@@ -36,7 +50,7 @@ def _set(xml: str, tag: str, value: str) -> str:
 
 
 def properties(src: Path, dst: Path, story: dict) -> None:
-    """Copy a deck entry by entry, rewriting only docProps/core.xml and docProps/app.xml."""
+    """Copy a deck entry by entry, rewriting docProps/core.xml, docProps/app.xml and the slides' table borders."""
     count = len(story["slides"])
     with tempfile.TemporaryDirectory() as tmp:
         staged = Path(tmp) / dst.name
@@ -56,8 +70,34 @@ def properties(src: Path, dst: Path, story: dict) -> None:
                     text = _set(text, "Slides", str(count))
                     text = _set(text, "Notes", str(count))
                     data = text.encode("utf-8")
+                elif re.fullmatch(r"ppt/slides/slide\d+\.xml", item.filename):
+                    data = _plain_tables(data.decode("utf-8")).encode("utf-8")
                 out.writestr(item, data)
         shutil.copyfile(staged, dst)
+
+
+def text_pdf(deck: Path, out: Path, story: dict) -> bool:
+    """The editable deck as a PDF with real text and no bookmarks (46 were too many to be useful); False when
+    LibreOffice is not installed."""
+    from pypdf import PdfWriter
+
+    soffice = next((p for p in (shutil.which(c) or c for c in SOFFICE) if Path(p).is_file()), None)
+    if not soffice:
+        return False
+    with tempfile.TemporaryDirectory() as tmp:
+        profile = (Path(tmp) / "profile").as_uri()  # a private profile, so a running LibreOffice is not disturbed
+        cmd = [soffice, "--headless", "--norestore", f"-env:UserInstallation={profile}", "--convert-to", "pdf"]
+        subprocess.run([*cmd, "--outdir", tmp, str(deck)], check=True, capture_output=True, timeout=900)
+        doc = PdfWriter()
+        doc.append(str(Path(tmp) / f"{deck.stem}.pdf"), import_outline=False)
+    if len(doc.pages) != len(story["slides"]):
+        raise SystemExit(f"LibreOffice wrote {len(doc.pages)} pages for {len(story['slides'])} slides.")
+    cover = story["slides"][0].get("subtitle", "")
+    doc.add_metadata({"/Title": "FOMC Tone Lab", "/Author": ", ".join(story["team"]), "/Subject": cover})
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, "wb") as f:
+        doc.write(f)
+    return True
 
 
 def assemble(work: Path, pdf_out: Path) -> None:
@@ -74,8 +114,11 @@ def assemble(work: Path, pdf_out: Path) -> None:
         properties(work / "final" / name, slides / name, story)
     outline(story, slides / "outline.md")
     contact_sheet(images, slides / "contact-sheet.jpg")
-    pdf(images, pdf_out, story)
-    print(f"{len(images)} slides: {', '.join(DECKS)}, outline.md and contact-sheet.jpg in docs/slides; {pdf_out}")
+    kind = "text" if text_pdf(slides / DECKS[0], pdf_out, story) else "page-image"
+    if kind == "page-image":
+        pdf(images, pdf_out, story)
+    print(f"{len(images)} slides: {', '.join(DECKS)}, outline.md and contact-sheet.jpg in docs/slides")
+    print(f"{kind} PDF: {pdf_out}")
 
 
 if __name__ == "__main__":

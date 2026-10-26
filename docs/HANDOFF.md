@@ -37,13 +37,15 @@ design. Then, with every change committed and the previous package moved to `05_
 The write-up export needs Pandoc and XeLaTeX (MacTeX or TeX Live) on the path; Chrome is not used.
 
 ```bash
-.venv/bin/python scripts/export_writeup.py --out /absolute/path/to/submission/FOMC-Tone-Lab-writeup.pdf
+.venv/bin/python scripts/export_writeup.py --out /absolute/path/to/submission/group2-final-project-03-writeup.pdf
 .venv/bin/python scripts/package_submission.py /absolute/path/to/submission --revision "$(git rev-parse HEAD)"
 ```
 
-The packager refuses uncommitted tracked changes and an older code ZIP in the folder. The active package contains
-four deliverables: the unified PDF, its editable PPTX, the write-up PDF and a code ZIP, plus `SUBMISSION.md`, a
-short guide for graders (files, links, how to run it and the results). Legacy technical files are historical copies, not additional upload requirements. `git archive` leaves
+The packager refuses uncommitted tracked changes and an older codebase ZIP in the folder. File names follow the
+course's list, after the group prefix: `group2-final-project-01-slides.pdf` (selectable text, converted from the
+editable deck by LibreOffice) and `-01-slides-editable.pptx`, `-02-codebase-<revision>.zip`, `-03-writeup.pdf`, and
+`-00-SUBMISSION.md`, a short guide for graders (files, links, how to run it and the results). Legacy technical files
+are historical copies, not additional upload requirements. `git archive` leaves
 out the internal agent notes (`AGENTS.md` and the two handoffs to coding agents).
 The unified PDF and editable PPTX contain the same presentation. CourseWorks submission is performed
 by a team member. The optional cross-model comparison has not been run.

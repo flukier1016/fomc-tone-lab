@@ -67,7 +67,7 @@ finalization refuses to overwrite a validated deck. From the repository root:
 "$RUNTIME_NODE" scripts/export_presentation.mjs qa/presentation_export
 "$RUNTIME_NODE" scripts/finalize_presentation.mjs qa/presentation_export
 # review every page in qa/presentation_export/rendered, then:
-.venv/bin/python scripts/assemble_presentation.py qa/presentation_export --pdf /path/to/submission/FOMC-Tone-Lab.pdf
+.venv/bin/python scripts/assemble_presentation.py qa/presentation_export --pdf /path/to/submission/group2-final-project-01-slides.pdf
 ```
 
 The renderer starts a temporary local server, reads the Story and captures exhibits headlessly.
@@ -76,8 +76,10 @@ imports the draft again, renders every page, and creates the matching image Powe
 No data pipeline, training job or model API is called.
 
 The assembler writes both PowerPoints to `docs/slides/` with the deck's own title, authors and slide count in their
-document properties, regenerates `outline.md` and `contact-sheet.jpg` there, and writes the page-image PDF, with a
-bookmark for every slide, to the given path outside the repository. Keep PDFs and private QA captures out of tracked
+document properties and table borders that LibreOffice and Keynote read as PowerPoint does, regenerates
+`outline.md` and `contact-sheet.jpg` there, and writes the presentation PDF, without bookmarks, to the given path
+outside the repository. The PDF is the editable deck converted by LibreOffice in headless mode, so its
+text can be selected and searched; without LibreOffice the script falls back to a PDF of the reviewed page images. Keep PDFs and private QA captures out of tracked
 source. Preserve the previous submission directory in its archive. Commit substantive source and PowerPoint changes
 before running `scripts/package_submission.py`, so the submitted code ZIP is an exact committed revision.
 

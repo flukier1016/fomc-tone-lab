@@ -1,8 +1,10 @@
 """Assemble previously reviewed exports and an exact HEAD archive outside the repository.
 
 First commit every source and deck change, then put the reviewed presentation PDF (docs/PRESENTATION_DESIGN.md) and
-the write-up PDF (scripts/export_writeup.py) in OUT. This command refuses uncommitted tracked changes and an earlier
-code ZIP in OUT, copies the committed editable deck, archives HEAD and writes SUBMISSION.md, a short guide for graders.
+the write-up PDF (scripts/export_writeup.py) in OUT under the names below. This command refuses uncommitted tracked
+changes and an earlier codebase ZIP in OUT, copies the committed editable deck, archives HEAD and writes the
+SUBMISSION guide for graders. File names start with PREFIX and the number of the course's list: 01 slides,
+02 code, 03 write-up (00 is the guide).
 Do not run `fomc slides --out docs/slides` first: it replaces the reviewed editorial decks with the standard design.
 Legacy technical exports are left untouched and are not part of the active package.
 """
@@ -17,6 +19,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+PREFIX = "group2-final-project-"
 
 
 def slide_count(pptx: Path) -> int:
@@ -44,21 +47,19 @@ def package(out: Path, expect: str | None = None) -> None:
     if expect and not revision.startswith(expect):
         raise SystemExit(f"HEAD is {short}, not the expected revision {expect}.")
     out.mkdir(parents=True, exist_ok=True)
-    older = [p.name for p in out.glob("fomc-tone-duration-*.zip") if p.name != f"fomc-tone-duration-{short}.zip"]
+    zip_name = f"{PREFIX}02-codebase-{short}.zip"
+    zips = [*out.glob("*codebase-*.zip"), *out.glob("fomc-tone-duration-*.zip")]  # the second: the old naming
+    older = [p.name for p in zips if p.name != zip_name]
     if older:
         raise SystemExit(f"Archive the previous package first; {out} still holds {', '.join(sorted(older))}.")
-    name = "FOMC-Tone-Lab-editable.pptx"
-    shutil.copy2(ROOT / "docs/slides" / name, out / name)
-    count = slide_count(out / name)
-    required = [
-        "FOMC-Tone-Lab.pdf",
-        "FOMC-Tone-Lab-editable.pptx",
-        "FOMC-Tone-Lab-writeup.pdf",
-    ]
+    deck = f"{PREFIX}01-slides-editable.pptx"
+    shutil.copy2(ROOT / "docs/slides/FOMC-Tone-Lab-editable.pptx", out / deck)
+    count = slide_count(out / deck)
+    required = [f"{PREFIX}01-slides.pdf", deck, f"{PREFIX}03-writeup.pdf"]
     for name in required:
         if not (out / name).is_file():
             raise SystemExit(f"Missing reviewed export: {name}")
-    archive = out / f"fomc-tone-duration-{short}.zip"
+    archive = out / zip_name
     subprocess.run(["git", "archive", "--format=zip", "-o", str(archive), "HEAD"], cwd=ROOT, check=True)
     with zipfile.ZipFile(archive) as code:
         names = set(code.namelist())
@@ -75,12 +76,12 @@ def package(out: Path, expect: str | None = None) -> None:
             raise SystemExit("Code archive unexpectedly includes internal or local files.")
         if "deploy/fomc.db.gz" not in names:
             raise SystemExit("The code archive must include its demo database snapshot.")
-    required.append(archive.name)
+    required.insert(2, archive.name)  # in the course's order: slides, code, write-up
     descriptions = [
         f"The presentation, {count} slides: introduction, methods, results and implementation",
         "The same presentation in PowerPoint; text, tables and method steps can be edited, charts are pictures",
+        f"The codebase: the complete code with a snapshot of the data and results (revision `{short}`)",
         "The research write-up, with references and sources at the end",
-        f"The complete code with a snapshot of the data and results (revision `{short}`)",
     ]
     files = "\n".join(f"| `{n}` | {d} |" for n, d in zip(required, descriptions))
     manifest = f"""# FOMC Tone Lab
@@ -97,13 +98,13 @@ scored by Claude with quoted evidence, tested on Treasury yields and traded as a
 |---|---|
 {files}
 
-The presentation PDF is made of page images. To search or copy its text and numbers, use the PowerPoint or
-`docs/slides/outline.md` in the code ZIP, which also holds the speaker notes.
+The presentation PDF has selectable, searchable text; the speaker notes are in the PowerPoint and in
+`docs/slides/outline.md` in the codebase ZIP.
 
 ## Online
 
 - Live demo, read-only: <https://fedtone.web.app> (the presentation is at <https://fedtone.web.app/story>)
-- Code: <https://github.com/flukier1016/fomc-tone-lab>, the same files as the code ZIP
+- Code: <https://github.com/flukier1016/fomc-tone-lab>, the same files as the codebase ZIP
 - Backup of the demo: <https://fomc-tone-lab-production.up.railway.app>
 
 The live site can be updated after submission; the submitted files define the reported results.
@@ -111,7 +112,7 @@ The live site can be updated after submission; the submitted files define the re
 ## Running it
 
 Requires Python 3.11 or newer (3.12 recommended) and `make`. `make setup` uses uv when it is installed and
-otherwise `python3 -m venv`; macOS ships Python 3.9, so install Python 3.12 or uv first. Extract the code ZIP into
+otherwise `python3 -m venv`; macOS ships Python 3.9, so install Python 3.12 or uv first. Extract the codebase ZIP into
 a fresh folder, or clone the repository above, open a terminal there and run:
 
 ```bash
@@ -135,9 +136,10 @@ The research results were frozen on 21 October 2026.
 - H3, the pre-registered next-day duration trade: not supported (Sharpe −0.18, placebo p = 0.28).
 - H4, recognition: mixed. Masked and raw scores agree (r = 0.99), which only partly addresses training exposure.
 """
-    (out / "SUBMISSION.md").write_text(manifest)
+    (out / f"{PREFIX}00-SUBMISSION.md").write_text(manifest)
     (out / "SHA256SUMS.txt").unlink(missing_ok=True)  # earlier packages wrote checksums; a stale copy would mislead
-    print(f"Submission package: {out}\nCode revision: {short}\n{len(required)} deliverable files plus SUBMISSION.md")
+    print(f"Submission package: {out}\nCode revision: {short}")
+    print(f"{len(required)} deliverable files plus {PREFIX}00-SUBMISSION.md")
 
 
 if __name__ == "__main__":
