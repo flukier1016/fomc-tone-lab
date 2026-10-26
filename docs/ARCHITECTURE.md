@@ -127,7 +127,7 @@ No build step: one ES module, vendored ECharts, and open-source assets checked i
 | Practice | Source of the pattern | What it does here |
 |---|---|---|
 | Lucide icons as one inline SVG sprite | Lucide (ISC), `scripts/build_icons.py` | One consistent icon set; no icon requests; CI checks the sprite is up to date |
-| Two system typefaces, Georgia for titles and headings and Arial for everything else, the same as the deck and write-up | System fonts on macOS and Windows; nothing downloaded | No font request at all; one face for what you read first, one for everything you scan, with lining tabular figures; the site, slides and write-up look alike |
+| Two system typefaces, Georgia for titles and headings and Arial for everything else, the same as the deck | System fonts on macOS and Windows; nothing downloaded | No font request at all; one face for what you read first, one for everything you scan, with lining tabular figures; the site and slides look alike (the write-up follows the course homework style) |
 | “Ink and Vermilion” tokens: ink-on-paper chrome, color only for data, light and dark each chosen | dataviz validator (OKLab ΔE under simulated color blindness, WCAG contrast) | Hawk and dove, the series and the document types stay distinct for color-blind readers; brand color never doubles as a signal |
 | Stale-while-revalidate client cache, in-flight sharing, prefetch on hover | the SWR pattern | Page switches render from memory; hovering a nav item warms its data |
 | ETag on the read-only endpoints (not health or the labeling queue, which change on every call), `Cache-Control: no-cache` | HTTP validation (RFC 9110) | Unchanged data costs a 304 with no body; the tag changes with the store, the date and a restart |

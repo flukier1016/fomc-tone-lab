@@ -15,14 +15,20 @@ The redesign changes presentation, not research estimates, model records or labe
   current progress segment, step numerals and the For the desk rule. Sources, kickers and page numbers use a darker
   gray than before so the small text stays legible. Data keep the application's reader, document-type and
   hawkish/dovish colors, which were checked for color-vision separation and contrast.
-- The write-up PDF (`scripts/export_writeup.py`) reads the same theme: Georgia section headings, Arial for text,
-  tables, code and paths, the section number in vermilion in its running header, and source lines styled like
-  the slides' citation line.
+- The write-up PDF (`scripts/export_writeup.py`) follows the course homework instead: an A4 article in Latin Modern
+  set by XeLaTeX from `scripts/writeup_template.tex`, with superscript citations and a numbered list of references
+  and sources at the end.
 - `scripts/deck_theme.json` holds the typefaces and colors; the export and finalize scripts read it, and
   `DECK_THEME=/path/to/candidate.json` renders a candidate theme for comparison without editing it.
 - One shared title, subtitle, exhibit and citation grid. Large figures receive most of the page;
   supporting statistics use flat rules and text rather than repeated rounded cards.
 - The five sections appear in the header and the bottom progress rule. Their first slides have a stronger header rule.
+- From a Claude Design draft the team compared on 26 October, the deck kept four things: the contents page as a list
+  (vermilion numerals, Georgia section names, one line each and the slide range), the four answers as cards whose
+  verdict is a word on a tinted label, the summary slides (cover, answers, takeaways, limits, close) on the warmer
+  paper `#F1ECE2` with cards, and running text one size larger (sources 16 px, chips 20, tables 20 to 24 on the
+  1600-wide canvas). Every slide still carries a one-line `Source:` footer naming only the data, literature or code
+  behind it; the contents page has none.
 - The contents, course mapping, methods, evidence and limitations stay at their existing page positions.
   No divider slides were added.
 

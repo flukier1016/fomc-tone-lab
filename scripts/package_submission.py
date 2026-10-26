@@ -2,7 +2,7 @@
 
 First commit every source and deck change, then put the reviewed presentation PDF (docs/PRESENTATION_DESIGN.md) and
 the write-up PDF (scripts/export_writeup.py) in OUT. This command refuses uncommitted tracked changes and an earlier
-code ZIP in OUT, copies the committed editable deck, archives HEAD and writes a four-deliverable manifest.
+code ZIP in OUT, copies the committed editable deck, archives HEAD and writes SUBMISSION.md, a short guide for graders.
 Do not run `fomc slides --out docs/slides` first: it replaces the reviewed editorial decks with the standard design.
 Legacy technical exports are left untouched and are not part of the active package.
 """
@@ -10,7 +10,6 @@ Legacy technical exports are left untouched and are not part of the active packa
 from __future__ import annotations
 
 import argparse
-import hashlib
 import shutil
 import subprocess
 import xml.etree.ElementTree as ET
@@ -78,31 +77,42 @@ def package(out: Path, expect: str | None = None) -> None:
             raise SystemExit("The code archive must include its demo database snapshot.")
     required.append(archive.name)
     descriptions = [
-        f"Unified presentation, {count} self-contained slides integrating the introduction, methods, "
-        "results and implementation",
-        "The same presentation as an editable PowerPoint: text, tables and method steps are native; "
-        "charts are pictures",
-        "Research write-up",
-        "Complete code and demo snapshot at the exact revision below",
+        f"The presentation, {count} slides: introduction, methods, results and implementation",
+        "The same presentation in PowerPoint; text, tables and method steps can be edited, charts are pictures",
+        "The research write-up, with references and sources at the end",
+        f"The complete code with a snapshot of the data and results (revision `{short}`)",
     ]
     files = "\n".join(f"| `{n}` | {d} |" for n, d in zip(required, descriptions))
-    manifest = f"""# FOMC Tone Lab: unified presentation submission
+    manifest = f"""# FOMC Tone Lab
 
-IEOR 4723, Final Project Group 2: Genie Zhang, Hong-syuan Lin, Myron Pang, Weijun Situ.
+IEOR 4723, AI-Augmented Investment Management, Fall 2026. Final Project Group 2: Genie Zhang, Hong-syuan Lin,
+Myron Pang and Weijun Situ.
 
-Deadline: **27 October 2026, 11:59 p.m. America/New_York (EDT)**. One submission per group.
-Research results frozen on **21 October 2026**. Code revision: `{revision}`.
+A hawkish-dovish index from every Fed statement, set of minutes, press conference and Board speech since 2009,
+scored by Claude with quoted evidence, tested on Treasury yields and traded as a duration tilt.
 
-| File | Purpose |
+## Files
+
+| File | Contents |
 |---|---|
 {files}
 
-## Five-minute reproduction
+The presentation PDF is made of page images. To search or copy its text and numbers, use the PowerPoint or
+`docs/slides/outline.md` in the code ZIP, which also holds the speaker notes.
+
+## Online
+
+- Live demo, read-only: <https://fedtone.web.app> (the presentation is at <https://fedtone.web.app/story>)
+- Code: <https://github.com/flukier1016/fomc-tone-lab>, the same files as the code ZIP
+- Backup of the demo: <https://fomc-tone-lab-production.up.railway.app>
+
+The live site can be updated after submission; the submitted files define the reported results.
+
+## Running it
 
 Requires Python 3.11 or newer (3.12 recommended) and `make`. `make setup` uses uv when it is installed and
-otherwise `python3 -m venv`; macOS ships Python 3.9, so install Python 3.12 or uv first.
-Extract the code ZIP into a fresh folder, or clone the public repository below (the same files), open a terminal
-there, then run:
+otherwise `python3 -m venv`; macOS ships Python 3.9, so install Python 3.12 or uv first. Extract the code ZIP into
+a fresh folder, or clone the repository above, open a terminal there and run:
 
 ```bash
 make setup
@@ -110,35 +120,24 @@ make test
 make demo-data && make serve
 ```
 
-Open <http://127.0.0.1:8000>. The shipped snapshot includes the research results and model records;
-no API key, paid scoring or model training is needed. `make demo-data` replaces the local database,
-so use a fresh extracted folder. Start at Home, then Research (Event study, Validity) and Duration
-(Signal to exposure, Historical test). The presentation is also at <http://127.0.0.1:8000/story>.
+Open <http://127.0.0.1:8000>. The shipped snapshot holds the research results and model records, so no API key,
+paid scoring or model training is needed. `make demo-data` replaces the local database, so use a fresh folder.
+Start at Home, then Research (Event study, Validity) and Duration (Signal to exposure, Historical test). The
+presentation is also at <http://127.0.0.1:8000/story>.
 
-The presentation PDF is made of page images. To search or copy its text and numbers, use the editable PPTX
-or `docs/slides/outline.md` in the code ZIP, which also holds the speaker notes and sources.
+## Results
 
-Public read-only demonstration: <https://fedtone.web.app>.
-Public repository: <https://github.com/flukier1016/fomc-tone-lab>, holding the same files as the code ZIP.
-Backup: <https://fomc-tone-lab-production.up.railway.app>.
-The live site can receive later operational updates; the submitted files define the reported results.
+The research results were frozen on 21 October 2026.
 
-H1 is supported on public expert labels (p = 0.004); the post-cutoff human test was not run.
-Public labels may be in training data. Masked/raw agreement (r = 0.99) only partly addresses that risk.
-H2 is release-window association evidence; H3's pre-registered daily trade is not supported.
-
-Upload the slides, code ZIP and write-up as the course requires; the repository link above can accompany them.
-`SHA256SUMS.txt` records integrity checks for these four active deliverables.
-There is one presentation: its introduction, research methods, results and technical implementation form a single deck.
-Any legacy technical exports retained elsewhere are historical copies, not additional submission requirements.
+- H1, measurement: supported on public expert labels (macro-F1 0.661 against 0.578 for the best baseline,
+  p = 0.004). The post-cutoff human test was not run, and the public labels may be in the model's training data.
+- H2, release-window association: supported as association evidence, not as a causal effect.
+- H3, the pre-registered next-day duration trade: not supported (Sharpe −0.18, placebo p = 0.28).
+- H4, recognition: mixed. Masked and raw scores agree (r = 0.99), which only partly addresses training exposure.
 """
     (out / "SUBMISSION.md").write_text(manifest)
-    checksums = [f"{hashlib.sha256((out / n).read_bytes()).hexdigest()}  {n}" for n in required]
-    (out / "SHA256SUMS.txt").write_text("\n".join(checksums) + "\n")
-    print(
-        f"Submission package: {out}\nCode revision: {short}\n"
-        f"{len(required)} deliverable files plus manifest and checksums"
-    )
+    (out / "SHA256SUMS.txt").unlink(missing_ok=True)  # earlier packages wrote checksums; a stale copy would mislead
+    print(f"Submission package: {out}\nCode revision: {short}\n{len(required)} deliverable files plus SUBMISSION.md")
 
 
 if __name__ == "__main__":

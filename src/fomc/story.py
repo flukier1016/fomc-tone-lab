@@ -28,6 +28,8 @@ GROUP_NAMES = {
 }
 TYPE_LABELS = {"statement": "statements", "minutes": "minutes", "presser": "press conferences", "speech": "speeches"}
 TENOR_NAMES = {"d3m": "3-month bill", "d2y": "2-year", "d5y": "5-year", "d10y": "10-year", "d30y": "30-year"}
+SITE = "fedtone.web.app"  # the read-only demo and the public code, on the first and last slides
+REPO = "github.com/flukier1016/fomc-tone-lab"
 MINUS = re.compile(r"(?<![\w.])-(?=\d)")  # a hyphen before a number becomes a true minus sign on the slide
 SECTIONS = [
     ("01", "Data and timing", "What we read, and the minute each document became public"),
@@ -36,11 +38,11 @@ SECTIONS = [
     ("04", "How it is built", "Architecture, engineering and the product"),
 ]
 MAIN_SECTIONS = [
-    ("Question and data", "The task, course connections, corpus and release clocks"),
-    ("Readers and validation", "Claude, local fine-tuning, expert labels and contamination"),
-    ("Index, yields and duration", "Tone history, release-window tests and the duration trade"),
-    ("Forward checks and system", "Prospective evaluation, implementation and the dashboard"),
-    ("Conclusions and limits", "Brief coverage, practical findings and remaining uncertainty"),
+    ("Question and data", "The task, course lessons, the data and release times"),
+    ("Readers and validation", "How each reader scores tone and how accurate it is"),
+    ("Index, yields and duration", "Tone over time, Treasury reactions and the duration trade"),
+    ("Forward checks and system", "Tests on new data, the system and the dashboard"),
+    ("Conclusions and limits", "What we found and what remains open"),
 ]
 
 
@@ -191,6 +193,7 @@ def _cover(c):
         "title": "FOMC Tone Lab",
         "subtitle": "Measuring Fed Communication and Testing Duration Signals",
         "team": c["proj"]["team"],
+        "links": [["Live demo", SITE], ["Code", REPO]],
         "notes": "We are Group 2. Our topic is the central bank communication index: read everything the Fed publishes, "
         "score its tone with Claude, see whether Treasuries react, and ask whether a duration trade can use it. "
         "Everything on these slides is computed live from our system.",
@@ -261,10 +264,8 @@ def _primer(c):
         "kicker": "Topic 4 in one picture",
         "title": "The Fed moves Treasuries with words",
         "subtitle": "So its tone might tell a bond portfolio how much duration to hold",
-        "desk": "Can Claude read the Fed’s tone well and early enough to lean duration before the market prices it?",
-        "desk_label": "The question",
-        "source": (f"Quotes: Claude’s evidence from the statements of {examples}; " if quotes else "")
-        + "SHY and IEF durations as in the backtest.",
+        "source": (f"FOMC statements of {examples}, scored by Claude; " if quotes else "")
+        + "IEF and SHY durations from the backtest.",
         "notes": "Before the results, the idea. The Fed sets short-term interest rates, and it signals where they are going "
         "through what it says: statements, minutes, press conferences and speeches. When it sounds hawkish, ready to raise "
         "rates to cool inflation, yields rise and bond prices fall; when it sounds dovish, they move the other way. How "
@@ -272,7 +273,11 @@ def _primer(c):
         "if yields rise one point. So the topic asks: can we read the tone of the Fed’s words, turn it into an index, and "
         "use it to decide how much duration to hold?",
         "link": "#/tracker",
-        "visual": {"kind": "primer", "steps": steps},
+        "visual": {
+            "kind": "primer",
+            "steps": steps,
+            "question": "Can Claude read the Fed’s tone well and early enough to lean duration before the market prices it?",
+        },
     }
 
 
@@ -313,7 +318,7 @@ def _brief(c):
         "desk": "The brief’s key insight shapes every test: the market reprices a statement within minutes, so any "
         "tradable edge has to sit in slower documents or in the change of tone.",
         "desk_label": "Why it matters",
-        "source": "IEOR 4723 final project brief, topic 4; the right-hand column is what this project delivers.",
+        "source": "IEOR 4723 final project brief, Topic 4.",
         "notes": "Our topic is number four: build a hawkish-dovish index from everything the Fed publishes, score it with "
         "Claude against a defined rubric with evidence, compare it with simpler baselines, test it on Treasury yields "
         "across the curve, and use it to tilt duration in a bond portfolio. The left column is what the brief asks for; "
@@ -329,14 +334,13 @@ def _agenda(c):
         "layout": "wide",
         "kicker": "Roadmap",
         "title": "Contents",
-        "subtitle": "The investment question, the measurement test and the portfolio test are separate steps",
-        "source": "Page ranges follow this integrated presentation and update when data-dependent slides are omitted.",
+        "subtitle": "Five sections, from the question to the conclusions",
         "notes": "First define the investment question and the information available at each release. Then explain "
         "the readers, including the model fine-tuned locally, before judging their accuracy and recognition risk. "
         "Only then move to Treasury responses and the delayed duration trade. Forward evaluation and implementation "
         "follow the research results, and the close separates delivered functionality from evidence of profitability.",
         "link": "#/pipeline",
-        "visual": {"kind": "table", "columns": ["Section", "What it answers", "Slides"], "rows": []},
+        "visual": {"kind": "table", "columns": ["Section", "What it covers", "Slides"], "rows": []},
     }
 
 
@@ -348,7 +352,7 @@ def _course_links(c):
         "kicker": "From the course",
         "title": "What we learned in the course, and how we used it",
         "subtitle": "Six lessons from the lectures, each put to work in this project",
-        "source": "Lectures, Sessions 1 to 4, and the Topic 4 brief; page references in docs/COURSE_ALIGNMENT.md.",
+        "source": "IEOR 4723 Sessions 1 to 4 and the Topic 4 brief; page references in docs/COURSE_ALIGNMENT.md.",
         "notes": "Six things from the lectures shaped how we built this. From Session One: prompting a general model "
         "has a ceiling, and training on labeled data can go past it, so we fine-tuned RoBERTa on the expert labels "
         "and report that it beats Claude. From Session Two: treat the prompt as a specification you version and "
@@ -407,7 +411,7 @@ def _local_training(c):
         "kicker": "The model we trained locally",
         "title": "How we fine-tuned RoBERTa locally",
         "subtitle": "A supervised reference added after the original study, using public expert labels",
-        "source": "finetune.py; stored readers.roberta_tuned; data/baselines/roberta-tuned.json (device: MPS, split hashes, revisions, runs).",
+        "source": "RoBERTa (Liu et al., 2019); Trillion Dollar Words training labels; finetune.py.",
         "notes": "The model is a pretrained RoBERTa encoder with a three-class classification head. We update all "
         "its parameters locally on an Apple GPU through PyTorch MPS. The saved record identifies the backbone "
         "revision, train/test sentence hashes, device, software versions, every search run and the final seeds. "
@@ -451,7 +455,7 @@ def _beyond(c):
         "kicker": "Beyond topic 4",
         "title": "What we added beyond the brief",
         "subtitle": "Measurement checks, a forward test, and a system that keeps the evidence auditable",
-        "source": "docs/ASSIGNMENT.md; finetune.py, evaluate/forward.py, audit.py, members.py, api.py and cli.py.",
+        "source": "Project code; docs/ASSIGNMENT.md.",
         "notes": "These additions extend the brief without changing the frozen H1 to H4 results. The trained "
         "transformer and forecast are exploratory references. The forward test uses new releases under fixed rules.",
         "link": "#/system",
@@ -535,7 +539,7 @@ def _answers(c):
             if pays
             else "do not expect a daily duration tilt on tone alone to pay."
         ),
-        "source": "H1 labels may be in training; no post-cutoff human test. Only H3 was pre-registered; its corrected rerun is disclosed.",
+        "source": "Project results, frozen 21 October 2026; design and pre-registration in docs/DESIGN.md.",
         "notes": "Here are the answers before the evidence, one card per hypothesis. "
         + " ".join(f"{h.upper()}: {verdict.lower()}." for h, verdict in v.items()),
         "link": "#/event-study",
@@ -587,7 +591,7 @@ def _data(c):
             f"{int(docs.loc[t, 'n']):,} {TYPE_LABELS[t]}; {provenance[t]}" for t in TYPE_LABELS if t in docs.index
         ],
         "desk": "One searchable store keeps source text, time provenance and every score, so a reading can be checked against its source.",
-        "source": f"Fed calendar, source pages and speech feed; release-time conventions retained in the store. Speeches under {min_words} words excluded; SQLite FTS5 search.",
+        "source": "Federal Reserve Board website: FOMC calendar, statements, minutes, press conferences and speeches.",
         "notes": "The corpus is collected from the Federal Reserve Board's own calendar, statements, minutes, transcripts and speech feed. "
         "Each release minute retains its source: text, the speech feed or a recorded convention. Press conferences keep the Chair's words, "
         f"minutes omit attendance lists, and speeches under {min_words} words are excluded. The counts and annual bars use documents without an exclusion note.",
@@ -612,7 +616,7 @@ def _timing(c):
             "Return clock: first return after entry, never the return ending at that close",
         ],
         "desk": "The event study asks when yields adjust; the backtest asks whether a later executable position can use the signal.",
-        "source": "Treasury and ETF clocks are shown in the diagram; the speech buffer guards both. align.py; tests/test_timing.py.",
+        "source": "Fed release times; Treasury par yields (about 3:30 p.m.) and ETF closes (4:00 p.m.); align.py.",
         "notes": "A document's event window begins at the last Treasury fix before the first information is public, and ends at the first eligible fix after the full text is available. "
         "A statement has one fix-to-fix window; a press conference that straddles the Treasury fix spans two. "
         f"A feed-timestamped speech's availability is delayed by {gap} minutes for both the Treasury-window end and ETF-entry calculation. "
@@ -654,7 +658,7 @@ def _engine(c):
         "number_label": label,
         "chips": chips,
         "desk": "Matched spans make scores inspectable; quote matching alone does not establish that an economic interpretation is correct.",
-        "source": "Typography-normalized source checks; mean document match share. A match verifies quotation fidelity, not economic interpretation.",
+        "source": "Claude Opus 5.5 readings in the project store; quote checks in llm/scorer.py.",
         "notes": "Each document is scored against six policy dimensions with a holistic stance, a continuous score, confidence and quoted evidence. "
         "Every returned quote is checked against the cleaned source with typography normalized; matched spans are located as character offsets. "
         f"The mean document evidence-match share is {(llm['share'] or 0):.2%} over {llm['level']:,} level records. "
@@ -702,7 +706,7 @@ def _reading(c):
         "title": f"Claude reads the {when:%-d %B} statement as {stance}",
         "subtitle": "And shows, word for word, where the statement says so",
         "desk": "An analyst can check any score in seconds: the highlighted words are the evidence, located in the source.",
-        "source": f"Statement of {when:%-d %B %Y}; Claude Opus 5.5, rubric v1; highlights are the evidence spans returned with the score.",
+        "source": f"FOMC statement of {when:%-d %B %Y}; Claude Opus 5.5, rubric v1.",
         "notes": f"Here is one real reading: the statement of {when:%-d %B}. Claude scores it {score:+.2f}, {stance}, with "
         f"confidence {parsed.get('confidence', 0):.2f}. The highlights are its evidence: the rate decision, the inflation "
         "language, the commitment to price stability. Each quote was found in the source text.",
@@ -766,7 +770,7 @@ def _validity(c):
             f"Fine-tuned RoBERTa {tuned:.2f}, for reference" if tuned is not None else "",
         ],
         "desk": "The baselines see words; Claude sees policy. The gap is largest on sentences that hedge, qualify or look ahead.",
-        "source": "496 public expert labels may have appeared in training. The lead uses paired bootstrap; the masking audit partly addresses contamination.",
+        "source": "Trillion Dollar Words test split, 496 expert-labeled sentences (Shah, Paturi and Chava, 2023).",
         "notes": "Four readers on the same 496 sentences that finance experts labeled hawkish, dovish or neutral. A "
         f"dictionary of policy words reaches {dict_f1:.2f}; two learned baselines, TF-IDF and sentence embeddings, reach "
         f"about {c['f1_base']:.2f}. Claude reaches {c['f1_llm']:.2f}, the highest agreement beyond chance of the four."
@@ -822,8 +826,7 @@ def _readers(c):
         "evidence."
         if lead > 0.01
         else "Even a transformer trained on the same labels does not beat Claude, which needed none.",
-        "source": "RoBERTa (Liu et al. 2019) fine-tuned on the Trillion Dollar Words train split; settings chosen by "
-        "five-fold CV; added after the results, outside H1.",
+        "source": "RoBERTa (Liu et al., 2019); Trillion Dollar Words (Shah, Paturi and Chava, 2023).",
         "notes": "The obvious question after the last slide: what if, instead of an LLM, we train a transformer on the "
         "same 1,984 hand-labeled sentences the TF-IDF classifier learns from? We fine-tuned RoBERTa, tried "
         f"{len(r['search'])} settings on the same five folds, refit the best with five seeds and read the test "
@@ -866,7 +869,7 @@ def _tone(c):
         "desk": f"Words lean {mood} and the 2-year sits {lean:+d} bp over the overnight rate: language and pricing point the same way."
         if agrees
         else f"Words lean {mood}; check whether pricing agrees before leaning on it.",
-        "source": f"Tone by {_label(c['method'])}; percentile against the same document type since 2009.",
+        "source": f"FOMC minutes since 2009, scored by {_label(c['method'])}.",
         "notes": f"Each dot is a set of minutes scored by {_label(c['method'])}; the line is a rolling median. The latest "
         f"minutes, released {date.fromisoformat(m['date']):%-d %B}, rank in the {_ordinal(m['percentile'])} percentile "
         "of all minutes since 2009.",
@@ -899,9 +902,7 @@ def _tracker(c):
         "number_label": f"of the wording changed against the previous decision (median since 2009: {median}%)",
         "chips": chips,
         "desk": "Read the redline, not only the decision: new phrases and vanished dissents show how much conviction is behind a move.",
-        "source": "Target range parsed from every statement ("
-        + decision_mix(c["decision_counts"])
-        + " since 2009); word-level diff against the previous decision.",
+        "source": "FOMC statements since 2009 (" + decision_mix(c["decision_counts"]) + ").",
         "notes": f"Every statement is parsed for the decision and compared word by word with the previous one. The {month} "
         f"{act} rewrote {changed} percent of the statement against a median of {median} percent."
         + (
@@ -965,7 +966,7 @@ def _event(c):
             if drift is not None
             else "These observational associations do not identify an exogenous communication shock."
         ),
-        "source": f"OLS, HC1; {int(best['n'])} release windows. Shared news and overlapping releases limit causal interpretation.",
+        "source": f"Treasury par yields; {int(best['n'])} release windows; evaluate/event_study.py.",
         "notes": "The lines show the average path of the 2-year around release days for the most dovish, middle and most "
         f"hawkish thirds of tone {best['regressor']} in {group}. One SD more hawkish accompanies a 2-year move of "
         f"{best['beta_bp_per_sd']:+.1f} basis points over the release window, t of {best['t']:.2f}."
@@ -1026,7 +1027,7 @@ def _term(c):
             if holds
             else "Daily fixes cannot isolate statement information from an overlapping press conference."
         ),
-        "source": "Release-window changes on the shift since the previous decision (notices excluded); 95% intervals (HC1).",
+        "source": "FOMC statements and Treasury par yields; evaluate/event_study.py.",
         "notes": "This is the brief’s tone shift between consecutive statements. We regress each yield’s move over the "
         "statement window on the change in level score since the previous decision. The strongest association is at the "
         f"{tenor}; the result is descriptive, not a causal estimate."
@@ -1082,7 +1083,7 @@ def _fdr(c):
             "Placebo, drift, controls and split samples are separate diagnostics",
         ],
         "desk": "False-discovery control addresses specification search, not shared news or causal identification.",
-        "source": "Main grid: the four document types, every method and regressor, 3-month to 30-year yields and 2s10s; HC1; Benjamini-Hochberg.",
+        "source": "Benjamini and Hochberg (1995); evaluate/event_study.py.",
         "notes": f"We ran {n} exploratory release-window regressions and corrected for that family. {k} survive at a 10 percent "
         f"false-discovery rate, and {k_llm} of them use Claude’s reading. The chart shows the 2-year coefficients by "
         "document group for the three strongest readers.",
@@ -1136,7 +1137,7 @@ def _backtest(c):
         "number_label": label,
         "chips": chips,
         "desk": "PSR tests Sharpe against zero; DSR raises the benchmark for the search across all variants.",
-        "source": f"IEF minus SHY, ±1 year on AGG or IEI; {n} variants. DSR: Bailey and López de Prado. Rerun disclosure: DESIGN.md (21 Oct 2026).",
+        "source": "Yahoo Finance ETF closes; Bailey and López de Prado (2014); evaluate/backtest.py; docs/DESIGN.md.",
         "notes": notes,
         "link": "#/backtest",
         "visual": {"kind": "sharpes", "bars": bars.to_dict("records"), "hurdle": hurdle},
@@ -1176,7 +1177,7 @@ def _audit(c):
             f"{c['post_cutoff_docs']} documents released after the model’s knowledge cutoff so far",
         ],
         "desk": "The model knows Fed history, so trust rests on two checks: masked scores match, and the post-cutoff sample keeps growing.",
-        "source": "Masking removes dates, names, numbers and rate levels; identification asks for the month of issue. After the HW2 GameStop audit.",
+        "source": "audit.py: masked and raw readings, month identification.",
         "notes": "An honest worry: Claude has read history, including what markets did. With every date, name and rate "
         f"level masked, it still dates {ident['exact_month']:.0%} of statements to the exact month, so it recognizes them. "
         f"But its scores barely move when those details are removed: correlation {inv['corr_stance_score']:.2f}. The "
@@ -1217,7 +1218,7 @@ def _fed(c):
         else "Into the next decision, the curve prices cuts the overnight rate does not show yet."
         if lean < -25
         else "Into the next decision, the curve and the overnight rate roughly agree.",
-        "source": "Effective fed funds rate and SOFR from the New York Fed; Committee roster from the minutes; 2-year from FRED or the Treasury.",
+        "source": "New York Fed (EFFR, SOFR); FRED or U.S. Treasury (2-year); FOMC minutes (roster).",
         "notes": "This is the live Fed-now page. The band is the target range, the blue line is where overnight money "
         "trades, and the orange line is the 2-year. The gap between the last two is a rough read of where the market "
         "thinks policy is going.",
@@ -1250,7 +1251,7 @@ def _architecture(c):
         "subtitle": "Five public sources feed a pipeline that writes a single SQLite store",
         "desk": "Stages talk only through the store, so each can be rerun, tested or replaced on its own.",
         "desk_label": "Why it matters",
-        "source": "Python 3.12 · pandas · statsmodels · scikit-learn · fastembed (ONNX) · Anthropic SDK · SQLite FTS5 · FastAPI · ECharts · Docker · Cloud Run",
+        "source": "Project code in src/fomc/ (Python 3.12, SQLite, FastAPI, ECharts), deployed on Cloud Run.",
         "notes": "The architecture in one picture. Five public sources feed ten pipeline stages. Every stage writes to a "
         "single SQLite store, and three front doors read it: the command line that runs the research, a REST API, and the "
         "dashboard, deployed as a read-only demo.",
@@ -1316,8 +1317,7 @@ def _engineering(c):
         "subtitle": "Cached inputs avoid repeat calls; the frozen study stays fixed as new documents arrive",
         "desk": "Anyone on the team can rebuild the deck from scratch with two commands: make run, then make slides.",
         "desk_label": "Why it matters",
-        "source": "GitHub Actions runs lint, tests and front-end checks on every push and redeploys the demo on Cloud Run every "
-        "evening.",
+        "source": ".github/workflows/; docs/OPERATIONS.md.",
         "notes": "A few engineering choices that matter. One command rebuilds everything, and stages whose inputs have not "
         "changed are skipped. Downloads and Claude calls are cached by content; new documents may need paid scoring. The test suite "
         "runs on every push, and the public demo carries no keys.",
@@ -1335,7 +1335,7 @@ def _screens(c):
         "subtitle": "Source documents, clearer comparisons and a linked duration workspace",
         "desk": "Everything in this deck is one click away in the live app, with the source documents behind every number.",
         "desk_label": "Try it",
-        "source": "Live demo: fedtone.web.app (read-only); run locally with make serve.",
+        "source": "fedtone.web.app (read-only demo).",
         "notes": "This is the product: a home page with the Fed pulse and the four findings, the Fed-now pages with rates, "
         "the Committee (click a member for their background, the tone of every speech and their dissents) and every "
         "decision redlined, and the research pages. It is live; we can switch to it now.",
@@ -1359,7 +1359,7 @@ def _duration_workspace(c):
         "kicker": "The duration workflow",
         "title": "From a Fed document to duration exposure",
         "subtitle": "A traceable rule replay connects evidence with sizing and its historical test",
-        "source": "api/duration/context; duration.py; frozen primary reader and entry rules. This is one document's rule, not the combined backtest position.",
+        "source": "duration.py; frozen reader and entry rules from the backtest.",
         "notes": "Open a document and choose Explore duration. The workspace reads its score from the frozen primary model. "
         "It standardizes only against earlier eligible documents of the same type. The fixed rule maps that z-score "
         "to a share of the duration budget, as in the historical test. The user supplies capital, portfolio duration "
@@ -1387,7 +1387,7 @@ def _brief_audit(c):
         "kicker": "Assignment coverage",
         "title": "Topic 4 coverage and its limits",
         "subtitle": "Seven functional requirements have evidence, with profitability reported honestly",
-        "source": "docs/ASSIGNMENT.md; docs/BRIEF_AUDIT.md; read-only audit of the frozen store.",
+        "source": "docs/ASSIGNMENT.md and docs/BRIEF_AUDIT.md.",
         "notes": "The seven components in the brief are implemented. A negative trading result does not mean the "
         "backtest is missing. The corpus covers the four requested document types. Claude scores have a defined rubric "
         "and evidence spans. Dictionary and sentence-embedding baselines share an expert-labeled test. Five Treasury "
@@ -1454,7 +1454,7 @@ def _takeaways(c):
         "title": "Three things a rates desk can use",
         "subtitle": "What the evidence supports, and how to use it",
         "desk": "Use the evidence-linked index for inspection; the tested daily tilt does not establish an investable edge.",
-        "source": "Frozen store results. Public expert labels may be in training; masking provides partial reassurance only.",
+        "source": "Project results, frozen 21 October 2026.",
         "notes": "Three takeaways. Claude outperforms the stated baselines on public expert sentences, with no "
         "task-specific training, but public-label exposure remains possible. Tone is associated with release-window "
         "yield changes. The tested delayed duration tilt does not beat chance; this does not prove full market pricing.",
@@ -1464,9 +1464,6 @@ def _takeaways(c):
 
 
 def _limits(c):
-    inv = c["audit"].get("invariance", {})
-    p = _p(c["lead"]["p_boot"]) if c["lead"] else "unavailable"
-    corr = f"{inv['corr_stance_score']:.2f}" if inv else "unavailable"
     cards = [
         [
             "Daily closes, not ticks",
@@ -1493,7 +1490,7 @@ def _limits(c):
         "subtitle": "H1 is supported on public expert labels; independent human validation remains absent",
         "desk": "Independent labels, intraday yields, and more frozen-rule releases would strengthen the evidence.",
         "desk_label": "Next",
-        "source": f"H1 on public expert labels: p = {p}. Masked/raw r = {corr} partly addresses possible training exposure.",
+        "source": "docs/DESIGN.md (limitations); docs/PRODUCT_VALIDATION.md.",
         "notes": "Limits, stated plainly. We use daily closes; intraday data would sharpen the statement tests. The sample "
         "after the configured cutoff is still small. The post-cutoff human test was not run. H1 is supported on the "
         "public expert labels, which may have appeared in training. The masking audit only partly addresses that risk.",
@@ -1510,8 +1507,10 @@ def _closing(c):
         "title": "Thank you",
         "subtitle": "Questions and discussion",
         "team": c["proj"]["team"],
-        "url": "fedtone.web.app",
-        "notes": "Thank you. Happy to take questions, or to open any page of the dashboard live.",
+        "url": SITE,
+        "repo": REPO,
+        "notes": "Thank you. Happy to take questions, or to open any page of the dashboard live. "
+        f"The code is public at {REPO}, with the same files as the submitted code ZIP.",
         "link": "#/overview",
     }
 
@@ -1539,7 +1538,7 @@ def _forecast(c):
         "desk": "Adding tone reduces real-time forecast error in this sample; independent forward evaluation remains necessary."
         if helps
         else "Adding tone does not reduce real-time forecast error in this sample; the test is exploratory.",
-        "source": "Decisions and pre-meeting yields/tone; linear model, HC1. MSE: mean squared error for cut/hold/hike (−1/0/+1).",
+        "source": "FOMC decisions and pre-meeting Treasury yields; evaluate/forecast.py.",
         "notes": f"Does Claude's reading add to what the market already prices about the next decision? For each of the {f['n']} "
         "decisions since 2009 we model the decision (cut, hold or hike) on the 3-month bill and 2-year over the policy rate at the "
         "last close before it, and on the tone of the latest minutes, the speeches of the previous 60 days and the previous "

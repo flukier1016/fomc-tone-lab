@@ -226,6 +226,8 @@ def editable_deck(story: dict, visuals: dict[int, Path], out: Path, logo: Path |
                 x += w + 14
             if s.get("url"):
                 _text(slide, 128, 650, 1200, 34, s["url"], 14, ACCENT_INK, bold=True)
+            if s.get("repo"):
+                _text(slide, 128, 690, 1200, 34, s["repo"], 14, ACCENT_INK, bold=True)
         elif lay == "divider":
             _text(slide, 110, 250, 560, 380, s["number"], 170, ACCENT, bold=True, font=SERIF)
             _text(slide, 700, 270, 820, 30, s["kicker"], 13, ACCENT, bold=True, caps=True)
@@ -269,7 +271,7 @@ def editable_deck(story: dict, visuals: dict[int, Path], out: Path, logo: Path |
                 h += 0 if s.get("desk") else 74  # no desk band: the visual takes its room
                 slide.shapes.add_picture(str(visuals[s["n"]]), _px(x), _px(y), _px(w), _px(h))
             if not s.get("desk"):
-                _text(slide, 72, 850, 1200, 30, s.get("source", ""), 10, TEXT2)
+                _text(slide, 72, 850, 1200, 30, f"Source: {s['source']}" if s.get("source") else "", 10, TEXT2)
                 _notes(slide, s)
                 continue
             band = slide.shapes.add_shape(MSO_SHAPE.ROUNDED_RECTANGLE, _px(72), _px(762), _px(1456), _px(64))
@@ -283,7 +285,7 @@ def editable_deck(story: dict, visuals: dict[int, Path], out: Path, logo: Path |
             edge.line.fill.background()
             _text(slide, 98, 784, 220, 24, s.get("desk_label", "For the desk"), 9.5, ACCENT_INK, bold=True, caps=True)
             _text(slide, 320, 774, 1190, 50, s.get("desk", ""), 12.5)
-            _text(slide, 72, 850, 1200, 30, s.get("source", ""), 10, TEXT2)
+            _text(slide, 72, 850, 1200, 30, f"Source: {s['source']}" if s.get("source") else "", 10, TEXT2)
         _notes(slide, s)
     prs.save(out)
     return out

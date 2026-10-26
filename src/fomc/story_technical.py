@@ -96,7 +96,7 @@ def agenda(c):
         "desk": "Every number here is read from the same store as the main deck and the dashboard, when the deck "
         "opens.",
         "desk_label": "How to read it",
-        "source": "Main deck: /story. This appendix: /story?deck=technical. Code: src/fomc/.",
+        "source": "Project code in src/fomc/.",
         "notes": "Four layers. Data and timing: what we collect and how we know the minute each document became "
         "public. "
         "Measurement: the rubric, the scoring engine, the baselines, a fine-tuned transformer and the statistics that "
@@ -174,9 +174,8 @@ def corpus(c):
         "subtitle": "When each became public, and where that minute comes from",
         "desk": "The release minute decides which prices a document could have moved, so its source is kept with it.",
         "desk_label": "Why it matters",
-        "source": "Federal Reserve Board: FOMC calendar, statements, minutes, press-conference transcripts, speech "
-        "feed; "
-        "pages cached by URL.",
+        "source": "Federal Reserve Board: FOMC calendar, statements, minutes, press-conference transcripts and "
+        "speeches.",
         "notes": f"{total:,} documents and {words / 1e6:.1f} million words after cleaning. Press conferences keep the "
         "Chair's words only: reporters' questions and the moderator are removed. Minutes drop the attendance list. "
         "Speeches shorter than 300 words are left out, which is most of the excluded count. The last column shows "
@@ -211,7 +210,7 @@ def windows(c):
         ],
         "desk": "No price fixed before a release can enter its window or its trade; tests in tests/test_timing.py hold "
         "each rule.",
-        "source": "src/fomc/align.py; Treasury par yields fixed near 3:30 p.m. ET; ETF closes at 4:00 p.m. ET.",
+        "source": "align.py; Treasury par yields near 3:30 p.m. ET; ETF closes at 4:00 p.m. ET.",
         "notes": "The window for a 2 p.m. statement runs from the 3:30 fix the day before to the 3:30 fix the same "
         "day. "
         "A press conference starts at 2:30 and runs past the fix, so it gets two days. Speech times come from the "
@@ -258,7 +257,7 @@ def rubric_slide(c):
             f"Any change to the prompt or schema bumps {rubric.RUBRIC_VERSION} and starts new records",
         ],
         "desk": "The stance_score is the index; dimensions explain it and quotes locate supporting language.",
-        "source": "src/fomc/llm/rubric.py (prompts and schemas); src/fomc/llm/scorer.py (jobs, records, checks).",
+        "source": "llm/rubric.py and llm/scorer.py.",
         "notes": "Each level reading returns this object. Six dimensions on an integer scale from minus two to plus "
         "two, "
         "null when a document does not address one; an overall stance that weighs forward guidance and the balance of "
@@ -305,7 +304,7 @@ def engine(c):
             "Refusals, truncation and schema misses are recorded, not retried silently",
         ],
         "desk": "Every reading is reproducible from its record: request and message IDs, tokens, cost and raw text.",
-        "source": "src/fomc/llm/provider.py (credentials), scorer.py (jobs, batches, records); data/llm/ in git.",
+        "source": "Anthropic Message Batches records in data/llm/; llm/scorer.py.",
         "notes": f"All Claude traffic goes through one module. The full corpus ran as {batches} Message Batches at "
         "half "
         f"price, with the system prompt cached. Each record is keyed by a hash of prompt, schema and text, so a rerun "
@@ -342,7 +341,7 @@ def evidence(c):
             "The share is kept per document and shown beside its score",
         ],
         "desk": "A score whose evidence is not in the document is a flag to read, not a number to average.",
-        "source": "src/fomc/llm/scorer.py (verify); Documents shows each score with its quotes highlighted.",
+        "source": "llm/scorer.py.",
         "notes": f"After each answer, every quote is searched in the cleaned text, ignoring curly quotes, dash "
         "types and "
         f"spacing. {full:,} of {n:,} documents have every quote found; the lowest share in any document is "
@@ -414,8 +413,7 @@ def baselines(c):
         "subtitle": "H1 uses the same test sentences; corpus scoring uses full documents",
         "desk": "Same data, same folds, same score: the readers differ only in how they represent a sentence.",
         "desk_label": "Why it matters",
-        "source": "Trillion Dollar Words (Shah, Paturi and Chava, ACL 2023), train split 1,984, test split 496; "
-        "dictionary.py, supervised.py, embeddings.py, finetune.py.",
+        "source": "Trillion Dollar Words (Shah, Paturi and Chava, 2023): 1,984 training and 496 test sentences.",
         "notes": "Five readers. The dictionary needs no training. TF-IDF and sentence embeddings each fit a balanced "
         "logistic regression, with the penalty chosen by five-fold cross-validated macro-F1 on the train split. The "
         "RoBERTa reference uses the same folds and score. Claude reads the same test sentences for H1, and whole "
@@ -473,7 +471,7 @@ def search(c):
             "Validation macro-F1 after every epoch: the epoch is chosen too",
         ],
         "desk": "The test split was read once, by the chosen setting; every setting tried is in the record.",
-        "source": "src/fomc/finetune.py; data/baselines/roberta-tuned.json (search, revisions, labels, scores).",
+        "source": "finetune.py; data/baselines/roberta-tuned.json.",
         "notes": "The search ran RoBERTa-base at four learning rates and RoBERTa-large at three, then two "
         "refinements of "
         "the best: layer-wise learning-rate decay and batches of 32. Each setting ran on the TF-IDF baseline's five "
@@ -563,8 +561,7 @@ def validity_tests(c):
         "only "
         "one of them gets right.",
         "desk_label": "How to read it",
-        "source": f"{int(val['n'].iloc[0])} Trillion Dollar Words test sentences; paired bootstrap of the macro-F1 gap "
-        "(2,000 resamples); McNemar's exact test; evaluate/validity.py.",
+        "source": f"Trillion Dollar Words test split ({int(val['n'].iloc[0])} sentences); evaluate/validity.py.",
         "notes": f"Claude's macro-F1 is {f1:.3f}. Against each reader, the gap is bootstrapped by resampling the same "
         "sentences 2,000 times; the interval and two-sided p come from that distribution. McNemar's test uses only the "
         "sentences the two readers label differently. These labels have been public since 2023 and may be in training. "
@@ -607,7 +604,7 @@ def confusions(c):
         "number_label": f"of {sum(m[i])} {LABELS[i].lower()} test sentences Claude read as {LABELS[j].lower()}",
         "chips": chips,
         "desk": "Shading is each row's share: a dark diagonal is a reader that agrees with the experts.",
-        "source": "Rows: the experts' label; columns: the reader's; Trillion Dollar Words test split.",
+        "source": "Trillion Dollar Words test split; rows are the experts’ labels, columns the reader’s.",
         "notes": f"The matrices count the 496 test sentences by the experts' label in rows and the reader's label in "
         f"columns. Claude's largest error is reading {LABELS[i].lower()} sentences as {LABELS[j].lower()}: it leans "
         "where the annotators saw none, which fits a reader of whole documents applied to single sentences.",
@@ -657,7 +654,7 @@ def reliability(c):
             "Drift flag: mean change above 0.10 or stance agreement below 75%",
         ],
         "desk": "Masking dates and names barely changes scores; recognition risk and possible shared bias remain.",
-        "source": "audit.py: stability (run tag r2), identification and invariance (masked), drift (monthly anchors).",
+        "source": "audit.py.",
         "notes": "Four checks. A separate batch of 152 documents re-scored gives r of 0.996. Masked statements are "
         "dated to the exact month almost every time, consistent with recognition but not proof of memorization. "
         "Scores with dates, names and rate "
@@ -701,7 +698,7 @@ def event_spec(c):
             "Controls and split samples are exploratory diagnostics outside the main family",
         ],
         "desk": "BH adjustment addresses the main-grid search; it does not identify an exogenous communication shock.",
-        "source": "Stored OLS, HC1 errors; observational associations. Only the H3 primary trade was pre-registered.",
+        "source": "evaluate/event_study.py.",
         "notes": f"One specification across the grid: the yield change over the release window on standardized tone, "
         f"with HC1 errors. The main grid crosses four document groups, the readers, level and shift, and six "
         f"outcomes: {len(tests)} tests, with Benjamini-Hochberg q-values across all of them. {len(surv)} survive at q "
@@ -764,7 +761,7 @@ def robustness(c):
         f"{_label(best['method'])}'s {best['regressor']}",
         "chips": [f"{p['label']}: t = {p['t']:.2f}" for p in points[1:4]],
         "desk": "Control and split-sample checks do not separate an exogenous language shock from shared news.",
-        "source": "Stored event-study estimates; 95% intervals use β ± 1.96 HC1 SE from unrounded β/t; no refitting.",
+        "source": "Stored event-study estimates; evaluate/event_study.py.",
         "notes": "The strongest 2-year relationship, read across every robustness row. The near-term surprise, the "
         "announced move and the TF-IDF tone of the same transcript each leave it significant, so Claude reads "
         "something the decision and word counts do not. It holds in both halves of the sample. The day-before "
@@ -814,8 +811,7 @@ def backtest_math(c):
             f"Probabilistic Sharpe {p['psr']:.0%}; {p['active_bp']:+.0f} bp a year on AGG",
         ],
         "desk": "Every parameter was written down before the first run; the code is the pre-registration.",
-        "source": f"evaluate/backtest.py; {cfg['long_etf']} minus {cfg['short_etf']}, durations held at "
-        f"{d[cfg['long_etf']]} and {d[cfg['short_etf']]} years; Bailey and López de Prado (2012, 2014).",
+        "source": "Bailey and López de Prado (2012, 2014); evaluate/backtest.py.",
         "notes": "Signals are standardized against earlier documents of the same type only. A hawkish document sets a "
         "negative position, capped so one signal moves at most half a unit and all open trades at most one. Returns "
         "are the IEF-minus-SHY spread with costs on both legs for every change. The probabilistic Sharpe ratio allows "
@@ -852,7 +848,7 @@ def selection(c):
             "A null at the daily horizon fits a market that prices within minutes",
         ],
         "desk": "Search is charged for: the more variants, the higher the bar every one of them has to clear.",
-        "source": "backtests table; deflated Sharpe ratio (Bailey and López de Prado 2014); evaluate/backtest.py.",
+        "source": "Bailey and López de Prado (2014); evaluate/backtest.py.",
         "notes": f"We ran {len(bt)} variants and report all of them. With that many tries, the best Sharpe expected "
         "from "
         f"no skill is about {p['sharpe_hurdle']:.2f}; the deflated Sharpe ratio asks each variant to beat that. None "
@@ -892,7 +888,7 @@ def forecast(c):
             f"Expanding window: each of {oos['n']} forecasts uses only earlier decisions",
         ],
         "desk": "Adding tone does not lower real-time forecast error in this sample; this result is exploratory.",
-        "source": "evaluate/forecast.py; added after the results, charged to no hypothesis.",
+        "source": "evaluate/forecast.py.",
         "notes": "Each decision since 2009 is modeled on the market's lean the evening before and on the tone of the "
         "latest minutes, recent speeches and the previous statement. In sample the tone terms are jointly significant "
         f"at the 5% level; R² is {ins['r2_market']:.3f} for the market and {ins['r2_both']:.3f} with tone. "
@@ -938,7 +934,7 @@ def forward(c):
             "A one-sided binomial test from 10 releases; no verdict before a year",
         ],
         "desk": "Rules and coefficients were frozen before these releases; no post-freeze refitting.",
-        "source": "evaluate/forward.py; data/forward/rules.json (written once); fomc run leaves the research frozen.",
+        "source": "evaluate/forward.py; data/forward/rules.json.",
         "notes": "On 21 October 2026 the research was frozen. For each document type the strongest surviving 2-year "
         "relationship was written to a file with its coefficient and the in-sample mean and SD of its tone measure. "
         "Every evening each new release gets a predicted move beside its actual one, and the pre-registered trade runs "
@@ -976,7 +972,7 @@ def store(c):
         "desk": f"{c['tables']} tables, schema v4 with automatic migrations; every stage run is logged in "
         "pipeline_runs.",
         "desk_label": "The store",
-        "source": "src/fomc/db.py (schema, migrations), store.py, cli.py (fomc run, fingerprints); System › Pipeline.",
+        "source": "db.py, store.py and cli.py.",
         "notes": "fomc run walks ten stages in order. Each stage's inputs are hashed, files, code and the parts of the "
         "settings it reads, and the stage is skipped when the hash matches the last run. Since the freeze the research "
         "stages are skipped regardless, unless asked to unfreeze. Full-text search is an FTS5 index over the documents "
@@ -996,7 +992,7 @@ def serving(c):
         "subtitle": "Read-only and keyless: dashboard, unified story, feed and exports",
         "desk": "The hosted app holds no key: settings, scoring and labeling are locked by FOMC_PUBLIC=1.",
         "desk_label": "Security",
-        "source": "FastAPI, gzip, ETags; vanilla JavaScript with ECharts; headless Chrome for slides (slides.py).",
+        "source": "api.py and web/app.js.",
         "notes": f"FastAPI serves {c['endpoints']} JSON endpoints; every read carries a validator, so an unchanged "
         "response costs a 304. The front end has no build step. The deck is rendered by parallel headless Chrome into "
         "one unified story with PDF and editable PowerPoint exports. An Atom feed gives each new document with its "
@@ -1026,8 +1022,7 @@ def deploy(c):
         "subtitle": "Configured schedules, spending caps and checks for missing data",
         "desk": "A refresh that stops bringing things in fails loudly: GitHub emails the owner.",
         "desk_label": "Operations",
-        "source": "GitHub Actions (.github/workflows/refresh.yml), Cloud Build, Artifact Registry, Cloud Run us-east4, "
-        "Firebase Hosting, Cloud Scheduler; docs/OPERATIONS.md.",
+        "source": ".github/workflows/refresh.yml; docs/OPERATIONS.md.",
         "notes": "A workflow is configured for every evening and the afternoon of a statement or minutes, after a "
         "fifteen-second check. It refreshes data, scores what is new under the caps, runs the forward test, then signs "
         "in to Google Cloud without a key and rolls out a new revision. A strict check fails the run if a scheduled "
@@ -1086,8 +1081,7 @@ def tests(c):
             "Lint and a front-end check run beside the tests",
         ],
         "desk": "The rules that make a result trustworthy, like no look-ahead, are tests, not intentions.",
-        "source": "Counts: pytest --collect-only on this revision (src/fomc/test_inventory.json). make test runs them; "
-        "the CI workflow also runs make lint.",
+        "source": "pytest collection of this revision (src/fomc/test_inventory.json).",
         "notes": f"{total} tests run offline on this revision. The duration tests check the sizing identities, "
         "prior-only signals and input validation. The timing suite holds the no-look-ahead rules. The "
         "scoring engine is tested against a stub client, so the suite never spends money. The research tests check "

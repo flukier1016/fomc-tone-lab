@@ -16,7 +16,7 @@ const SKILL=process.env.PRESENTATION_SKILL_DIR;
 if(!SKILL)throw new Error('Set PRESENTATION_SKILL_DIR to the bundled presentation skill directory.');
 const {finalizePresentation}=await import(path.join(SKILL,'container_tools/artifact_tool_utils.mjs'));
 const common={workspaceDir:work,pythonExecutable:process.env.RUNTIME_PYTHON||path.resolve('.venv/bin/python'),integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu',`${ref.cx},${ref.cy}`,'--validate-heading-fit'],explicitTotalSlideCount:story.slides.length,verifyArtifactToolImport:true};
-const tableOwners=story.slides.filter(s=>s.visual?.kind==='table').map(s=>s.n);
+const tableOwners=story.slides.filter(s=>s.visual?.kind==='table'&&s.id!=='agenda').map(s=>s.n);  // the contents page is a list
 const editable=path.join(out,'FOMC-Tone-Lab-editable.pptx');
 await finalizePresentation({...common,candidatePath:path.join(dir,'candidate-editable.pptx'),finalPath:editable,requiredNativeTableOwnerSlides:tableOwners,layoutArgs:[...common.layoutArgs,...tableOwners.flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'design',families:[...new Set([theme.fonts.display,theme.fonts.text])]},receiptPath:path.join(dir,'editable-validation.json')});
 console.log('Editable finalization passed.');

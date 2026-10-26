@@ -1,6 +1,5 @@
 """The active submission has one integrated deck, not a separate technical appendix."""
 
-import hashlib
 import importlib.util
 import json
 import xml.etree.ElementTree as ET
@@ -50,6 +49,7 @@ def test_package_lists_only_four_active_deliverables_and_reads_actual_slide_coun
     (out / "FOMC-Tone-Lab-writeup.pdf").write_bytes(b"reviewed write-up")
     legacy = out / "FOMC-Tone-Lab-technical.pdf"
     legacy.write_bytes(b"preserve historical export")
+    (out / "SHA256SUMS.txt").write_text("stale checksums from an earlier package\n")
     monkeypatch.setattr(submission, "ROOT", repo)
     revision = "a" * 40
 
@@ -70,21 +70,20 @@ def test_package_lists_only_four_active_deliverables_and_reads_actual_slide_coun
     monkeypatch.setattr(submission.subprocess, "run", git_archive)
     submission.package(out)
     manifest = (out / "SUBMISSION.md").read_text()
-    assert "13 self-contained slides" in manifest and "four active deliverables" in manifest
-    assert "introduction, methods, results and implementation" in manifest
+    assert "13 slides: introduction, methods, results and implementation" in manifest
+    assert "Deadline" not in manifest and "SHA256" not in manifest  # a guide for graders, not a packing note
     assert "Team contributions" not in manifest and "【填写】" not in manifest
     assert legacy.read_bytes() == b"preserve historical export"
     assert "FOMC-Tone-Lab-technical" not in manifest
     assert "https://github.com/flukier1016/fomc-tone-lab" in manifest  # graders can open the code online
-    checksums = dict(line.split("  ", 1)[::-1] for line in (out / "SHA256SUMS.txt").read_text().splitlines())
-    assert set(checksums) == {
+    assert not (out / "SHA256SUMS.txt").exists()
+    for name in [
         "FOMC-Tone-Lab.pdf",
         "FOMC-Tone-Lab-editable.pptx",
         "FOMC-Tone-Lab-writeup.pdf",
         "fomc-tone-duration-aaaaaaa.zip",
-    }
-    for name, digest in checksums.items():
-        assert hashlib.sha256((out / name).read_bytes()).hexdigest() == digest
+    ]:
+        assert f"`{name}`" in manifest and (out / name).is_file()
 
 
 @pytest.mark.parametrize(

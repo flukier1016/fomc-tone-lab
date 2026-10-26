@@ -12,15 +12,14 @@ Measuring Fed Communication and Testing Duration Signals
 ## 2. Contents
 
 *Roadmap*
-| Section | What it answers | Slides |
+| Section | What it covers | Slides |
 |---|---|---|
-| Question and data | The task, course connections, corpus and release clocks | 3-8 |
-| Readers and validation | Claude, local fine-tuning, expert labels and contamination | 9-21 |
-| Index, yields and duration | Tone history, release-window tests and the duration trade | 22-31 |
-| Forward checks and system | Prospective evaluation, implementation and the dashboard | 32-41 |
-| Conclusions and limits | Brief coverage, practical findings and remaining uncertainty | 42-46 |
-The investment question, the measurement test and the portfolio test are separate steps
-Source: Page ranges follow this integrated presentation and update when data-dependent slides are omitted.
+| Question and data | The task, course lessons, the data and release times | 3-8 |
+| Readers and validation | How each reader scores tone and how accurate it is | 9-21 |
+| Index, yields and duration | Tone over time, Treasury reactions and the duration trade | 22-31 |
+| Forward checks and system | Tests on new data, the system and the dashboard | 32-41 |
+| Conclusions and limits | What we found and what remains open | 42-46 |
+Five sections, from the question to the conclusions
 
 > First define the investment question and the information available at each release. Then explain the readers, including the model fine-tuned locally, before judging their accuracy and recognition risk. Only then move to Treasury responses and the delayed duration trade. Forward evaluation and implementation follow the research results, and the close separates delivered functionality from evidence of profitability.
 
@@ -34,9 +33,9 @@ Source: Page ranges follow this integrated presentation and update when data-dep
 3. **Yields move** Hawkish news raises the expected path of the policy rate, so yields rise, most at two to five years; dovish news pulls them down. Bond prices move the other way
 4. **Duration sets the gain or loss** ΔP / P ≈ −D × Δy If yields rise 10 bp, IEF (D ≈ 7.1) loses about 0.7% and SHY (D ≈ 1.9) about 0.2%. Hawkish: shorten. Dovish: lengthen. Within ±1 year.
 So its tone might tell a bond portfolio how much duration to hold
-Source: Quotes: Claude’s evidence from the statements of 21 Sep 2022 (+0.90) and 15 Mar 2020 (−0.95); SHY and IEF durations as in the backtest.
+Source: FOMC statements of 21 Sep 2022 (+0.90) and 15 Mar 2020 (−0.95), scored by Claude; IEF and SHY durations from the backtest.
 
-> Before the results, the idea. The Fed sets short-term interest rates, and it signals where they are going through what it says: statements, minutes, press conferences and speeches. When it sounds hawkish, ready to raise rates to cool inflation, yields rise and bond prices fall; when it sounds dovish, they move the other way. How much a bond portfolio gains or loses depends on its duration: seven years of duration loses about seven percent if yields rise one point. So the topic asks: can we read the tone of the Fed’s words, turn it into an index, and use it to decide how much duration to hold? The question: Can Claude read the Fed’s tone well and early enough to lean duration before the market prices it?
+> Before the results, the idea. The Fed sets short-term interest rates, and it signals where they are going through what it says: statements, minutes, press conferences and speeches. When it sounds hawkish, ready to raise rates to cool inflation, yields rise and bond prices fall; when it sounds dovish, they move the other way. How much a bond portfolio gains or loses depends on its duration: seven years of duration loses about seven percent if yields rise one point. So the topic asks: can we read the tone of the Fed’s words, turn it into an index, and use it to decide how much duration to hold?
 
 ## 4. What the brief asks, and what we built
 
@@ -47,7 +46,7 @@ Source: Quotes: Claude’s evidence from the statements of 21 Sep 2022 (+0.90) a
 - Tested against subsequent Treasury yield changes from FRED across the curve → 3-month to 30-year yields and the 2s10s slope over each release window; FRED first, the Treasury par curve it republishes as fallback (used this run)
 - A duration tilt in a Treasury or aggregate-bond portfolio, respecting that statements are priced within minutes → IEF against SHY, applied to AGG and IEI; entry the day after release; minutes, speeches and statement-to-statement shifts
 Topic 4: a central bank communication index and duration positioning
-Source: IEOR 4723 final project brief, topic 4; the right-hand column is what this project delivers.
+Source: IEOR 4723 final project brief, Topic 4.
 
 > Our topic is number four: build a hawkish-dovish index from everything the Fed publishes, score it with Claude against a defined rubric with evidence, compare it with simpler baselines, test it on Treasury yields across the curve, and use it to tilt duration in a bond portfolio. The left column is what the brief asks for; the right column is what we built for each line. Why it matters: The brief’s key insight shapes every test: the market reprices a statement within minutes, so any tradable edge has to sit in slower documents or in the change of tone.
 
@@ -63,7 +62,7 @@ Source: IEOR 4723 final project brief, topic 4; the right-hand column is what th
 | Count every variant you try, and charge for costs | Reported 116 strategy variants with costs and placebos, including the negative result |
 | Ground answers in sources | Every score links to the Fed's own words; the full archive is searchable |
 Six lessons from the lectures, each put to work in this project
-Source: Lectures, Sessions 1 to 4, and the Topic 4 brief; page references in docs/COURSE_ALIGNMENT.md.
+Source: IEOR 4723 Sessions 1 to 4 and the Topic 4 brief; page references in docs/COURSE_ALIGNMENT.md.
 
 > Six things from the lectures shaped how we built this. From Session One: prompting a general model has a ceiling, and training on labeled data can go past it, so we fine-tuned RoBERTa on the expert labels and report that it beats Claude. From Session Two: treat the prompt as a specification you version and check, and test whether a model is simply remembering history; hence the JSON rubric, the quote checks, the masked dates and the re-scoring. From Session Three: use only information that was public at the time, and count every variant you try; hence the release clocks, the next-close entry, and every strategy reported with costs and a placebo, including the one that failed. From Session Four: ground answers in sources; every score links back to the Fed's own words, and the archive is searchable by full text.
 
@@ -75,7 +74,7 @@ Source: Lectures, Sessions 1 to 4, and the Topic 4 brief; page references in doc
 - H3 · Tradability: A pre-registered next-day duration tilt beats chance (Not supported; Sharpe −0.18, placebo p = 0.28)
 - H4 · Contamination: Masked scores are stable; recognition risk remains (Mixed; Dates 99% of masked statements, yet masked scores track raw ones (r = 0.99))
 Public-label accuracy and release-window associations; no delayed trading edge detected
-Source: H1 labels may be in training; no post-cutoff human test. Only H3 was pre-registered; its corrected rerun is disclosed.
+Source: Project results, frozen 21 October 2026; design and pre-registration in docs/DESIGN.md.
 
 > Here are the answers before the evidence, one card per hypothesis. H1: supported. H2: supported. H3: not supported. H4: mixed. For the desk: Use Claude to read the Fed faster and with evidence; do not expect a daily duration tilt on tone alone to pay.
 
@@ -88,7 +87,7 @@ Source: H1 labels may be in training; no post-cutoff human test. Only H3 was pre
 - 95 press conferences; Chair's words only
 - 1,123 speeches; time from the Fed's feed
 Fed source text, recorded release times, and consistent cleaning
-Source: Fed calendar, source pages and speech feed; release-time conventions retained in the store. Speeches under 300 words excluded; SQLite FTS5 search.
+Source: Federal Reserve Board website: FOMC calendar, statements, minutes, press conferences and speeches.
 
 > The corpus is collected from the Federal Reserve Board's own calendar, statements, minutes, transcripts and speech feed. Each release minute retains its source: text, the speech feed or a recorded convention. Press conferences keep the Chair's words, minutes omit attendance lists, and speeches under 300 words are excluded. The counts and annual bars use documents without an exclusion note. For the desk: One searchable store keeps source text, time provenance and every score, so a reading can be checked against its source.
 
@@ -101,7 +100,7 @@ Source: Fed calendar, source pages and speech feed; release-time conventions ret
 - Entry clock: first eligible ETF close, then one more trading day for the primary
 - Return clock: first return after entry, never the return ending at that close
 Event windows measure repricing; returns begin only after entry
-Source: Treasury and ETF clocks are shown in the diagram; the speech buffer guards both. align.py; tests/test_timing.py.
+Source: Fed release times; Treasury par yields (about 3:30 p.m.) and ETF closes (4:00 p.m.); align.py.
 
 > A document's event window begins at the last Treasury fix before the first information is public, and ends at the first eligible fix after the full text is available. A statement has one fix-to-fix window; a press conference that straddles the Treasury fix spans two. A feed-timestamped speech's availability is delayed by 60 minutes for both the Treasury-window end and ETF-entry calculation. The exploratory entry is the first eligible ETF close; the primary waits one more trading day. A position earns only close-to-close returns after its entry. Weekends and holidays follow the observed trading calendar. For the desk: The event study asks when yields adjust; the backtest asks whether a later executable position can use the signal.
 
@@ -128,7 +127,7 @@ Source: Treasury and ETF clocks are shown in the diagram; the speech buffer guar
 }
 ```
 Positive is hawkish; negative is dovish; stance_score is the index
-Source: src/fomc/llm/rubric.py (prompts and schemas); src/fomc/llm/scorer.py (jobs, records, checks).
+Source: llm/rubric.py and llm/scorer.py.
 
 > Each level reading returns this object. Six dimensions on an integer scale from minus two to plus two, null when a document does not address one; an overall stance that weighs forward guidance and the balance of risks most; a continuous score for finer ranking between documents with the same stance; a confidence; and evidence quotes tied to a dimension. The schema is enforced by structured outputs, so nothing is parsed from prose. For the desk: The stance_score is the index; dimensions explain it and quotes locate supporting language.
 
@@ -141,7 +140,7 @@ Source: src/fomc/llm/rubric.py (prompts and schemas); src/fomc/llm/scorer.py (jo
 - 3 documents contain an unmatched quote
 - Lowest document match share: 67%
 Claude supplies quoted spans; we verify each quote against the source
-Source: Typography-normalized source checks; mean document match share. A match verifies quotation fidelity, not economic interpretation.
+Source: Claude Opus 5.5 readings in the project store; quote checks in llm/scorer.py.
 
 > Each document is scored against six policy dimensions with a holistic stance, a continuous score, confidence and quoted evidence. Every returned quote is checked against the cleaned source with typography normalized; matched spans are located as character offsets. The mean document evidence-match share is 99.96% over 1,509 level records. Unmatched quotes are disclosed, not treated as verified evidence. Finding the quoted language proves its location, not the correctness of the model's economic judgment. Request provenance and spending are detailed on the next page. For the desk: Matched spans make scores inspectable; quote matching alone does not establish that an economic interpretation is correct.
 
@@ -163,7 +162,7 @@ Source: Typography-normalized source checks; mean document match share. A match 
 | Failures | 0 failed requests |
 | Caps | at most 40 new jobs a run; 5 USD a month of scheduled scoring |
 Operational snapshot through 2026-10-22, including monthly re-reads
-Source: src/fomc/llm/provider.py (credentials), scorer.py (jobs, batches, records); data/llm/ in git.
+Source: Anthropic Message Batches records in data/llm/; llm/scorer.py.
 
 > All Claude traffic goes through one module. The full corpus ran as 7 Message Batches at half price, with the system prompt cached. Each record is keyed by a hash of prompt, schema and text, so a rerun never pays twice, and the 2,057 records are committed. 21 direct calls are the scheduled scoring of new documents and the monthly re-read. For the desk: Every reading is reproducible from its record: request and message IDs, tokens, cost and raw text.
 
@@ -171,7 +170,7 @@ Source: src/fomc/llm/provider.py (credentials), scorer.py (jobs, batches, record
 
 *One reading, end to end*
 And shows, word for word, where the statement says so
-Source: Statement of 16 September 2026; Claude Opus 5.5, rubric v1; highlights are the evidence spans returned with the score.
+Source: FOMC statement of 16 September 2026; Claude Opus 5.5, rubric v1.
 
 > Here is one real reading: the statement of 16 September. Claude scores it +0.75, hawkish, with confidence 0.85. The highlights are its evidence: the rate decision, the inflation language, the commitment to price stability. Each quote was found in the source text. For the desk: An analyst can check any score in seconds: the highlighted words are the evidence, located in the source.
 
@@ -186,7 +185,7 @@ Source: Statement of 16 September 2026; Claude Opus 5.5, rubric v1; highlights a
 | Fine-tuned RoBERTa | RoBERTa-large, 355M parameters | fine-tuned end to end | 9 settings × 5 folds | 0.724 | 0.737 |
 | Claude Opus 5.5 | sentences (H1); documents (index) | zero-shot rubric | none | – | 0.661 |
 H1 uses the same test sentences; corpus scoring uses full documents
-Source: Trillion Dollar Words (Shah, Paturi and Chava, ACL 2023), train split 1,984, test split 496; dictionary.py, supervised.py, embeddings.py, finetune.py.
+Source: Trillion Dollar Words (Shah, Paturi and Chava, 2023): 1,984 training and 496 test sentences.
 
 > Five readers. The dictionary needs no training. TF-IDF and sentence embeddings each fit a balanced logistic regression, with the penalty chosen by five-fold cross-validated macro-F1 on the train split. The RoBERTa reference uses the same folds and score. Claude reads the same test sentences for H1, and whole documents for the index, without task-specific training. A document's score for the sentence readers is the mean of P(hawkish) minus P(dovish) over its sentences. Why it matters: Same data, same folds, same score: the readers differ only in how they represent a sentence.
 
@@ -198,7 +197,7 @@ Source: Trillion Dollar Words (Shah, Paturi and Chava, ACL 2023), train split 1,
 3. **Fit the chosen model locally** Full-parameter RoBERTa fine-tuning on Apple MPS; 5 seeds. Chosen learning rate 2e-5, stopping at epoch 9.
 4. **Evaluate the fixed ensemble** Average the seeds' class probabilities. Test once; then average P(hawkish) minus P(dovish) over each document's sentences.
 A supervised reference added after the original study, using public expert labels
-Source: finetune.py; stored readers.roberta_tuned; data/baselines/roberta-tuned.json (device: MPS, split hashes, revisions, runs).
+Source: RoBERTa (Liu et al., 2019); Trillion Dollar Words training labels; finetune.py.
 
 > The model is a pretrained RoBERTa encoder with a three-class classification head. We update all its parameters locally on an Apple GPU through PyTorch MPS. The saved record identifies the backbone revision, train/test sentence hashes, device, software versions, every search run and the final seeds. The 1,984 training sentences and the 496-sentence held-out test are the same split used by the supervised baselines. Five-fold stratified validation selects architecture, learning rate and stopping epoch without consulting test performance. Training uses class-balanced cross-entropy, AdamW, 10% warmup, linear decay and gradient clipping. The final chosen configuration is fit on all training sentences with five seeds; their class probabilities are averaged before the fixed ensemble is evaluated. Document tone is the mean of P(hawkish) minus P(dovish) across sentences. This reference was added after the original results and does not replace the frozen Claude H1 comparison, event study or duration strategy. The next slide shows the complete parameter search; the following slides compare held-out performance.
 
@@ -222,7 +221,7 @@ Axis: Cross-validated macro-F1. Mean ±1 fold SD; purple is the chosen setting.
 | large; 2e-5; decay 0.9 | 0.713 | 0.696 to 0.730 | best epoch 10; batch 16; fold SD 0.017 |
 | large; 2e-5; b32 | 0.720 | 0.697 to 0.742 | best epoch 8; batch 32; fold SD 0.023 |
 The best setting is refit on all 1,984 sentences with five seeds, then averaged
-Source: src/fomc/finetune.py; data/baselines/roberta-tuned.json (search, revisions, labels, scores).
+Source: finetune.py; data/baselines/roberta-tuned.json.
 
 > The search ran RoBERTa-base at four learning rates and RoBERTa-large at three, then two refinements of the best: layer-wise learning-rate decay and batches of 32. Each setting ran on the TF-IDF baseline's five folds for ten epochs, scored after each, so the epoch with the best average was chosen with the rest. The winner was refit on all 1,984 sentences with five seeds, stopped at that epoch, and their probabilities averaged. For the desk: The test split was read once, by the chosen setting; every setting tried is in the record.
 
@@ -235,7 +234,7 @@ Source: src/fomc/finetune.py; data/baselines/roberta-tuned.json (search, revisio
 - Lead +0.08, 95% interval +0.03 to +0.14
 - Fine-tuned RoBERTa 0.74, for reference
 Public expert labels support H1; the post-cutoff human test was not run
-Source: 496 public expert labels may have appeared in training. The lead uses paired bootstrap; the masking audit partly addresses contamination.
+Source: Trillion Dollar Words test split, 496 expert-labeled sentences (Shah, Paturi and Chava, 2023).
 
 > Four readers on the same 496 sentences that finance experts labeled hawkish, dovish or neutral. A dictionary of policy words reaches 0.51; two learned baselines, TF-IDF and sentence embeddings, reach about 0.58. Claude reaches 0.66, the highest agreement beyond chance of the four. For reference, added after the results: a RoBERTa we fine-tuned on the same 1,984 labeled sentences reaches 0.74. Trained on the labels, a transformer does better still; Claude needed none. For the desk: The baselines see words; Claude sees policy. The gap is largest on sentences that hedge, qualify or look ahead.
 
@@ -250,7 +249,7 @@ Source: 496 public expert labels may have appeared in training. The lead uses pa
 | Sentence embeddings | 0.599 | 0.576 | 0.374 | +0.085 | +0.030 to +0.136 | 0.002 | 0.002 |
 | Dictionary | 0.569 | 0.511 | 0.264 | +0.150 | +0.094 to +0.205 | < 0.001 | < 0.001 |
 Paired macro-F1 gaps on public expert labels; positive favors Claude
-Source: 496 Trillion Dollar Words test sentences; paired bootstrap of the macro-F1 gap (2,000 resamples); McNemar's exact test; evaluate/validity.py.
+Source: Trillion Dollar Words test split (496 sentences); evaluate/validity.py.
 
 > Claude's macro-F1 is 0.661. Against each reader, the gap is bootstrapped by resampling the same sentences 2,000 times; the interval and two-sided p come from that distribution. McNemar's test uses only the sentences the two readers label differently. These labels have been public since 2023 and may be in training. The post-cutoff human test was not run; masked/raw agreement partly addresses contamination risk. How to read it: A paired test on the same sentences: each reader's gap to Claude, its interval, and the sentences only one of them gets right.
 
@@ -286,7 +285,7 @@ Source: 496 Trillion Dollar Words test sentences; paired bootstrap of the macro-
 | Neutral | 40 | 43 | 164 |
 
 Each reader's labels against the experts' on the 496 test sentences
-Source: Rows: the experts' label; columns: the reader's; Trillion Dollar Words test split.
+Source: Trillion Dollar Words test split; rows are the experts’ labels, columns the reader’s.
 
 > The matrices count the 496 test sentences by the experts' label in rows and the reader's label in columns. Claude's largest error is reading neutral sentences as dovish: it leans where the annotators saw none, which fits a reader of whole documents applied to single sentences. For the desk: Shading is each row's share: a dark diagonal is a reader that agrees with the experts.
 
@@ -298,7 +297,7 @@ Source: Rows: the experts' label; columns: the reader's; Trillion Dollar Words t
 - Five seeds averaged; alone 0.71 to 0.74
 - Agreement with Claude on documents, r: statements 0.77 · minutes 0.86 · press conferences 0.79 · speeches 0.70
 The same 1,984 hand-labeled sentences improve accuracy; Claude needs no task-specific training
-Source: RoBERTa (Liu et al. 2019) fine-tuned on the Trillion Dollar Words train split; settings chosen by five-fold CV; added after the results, outside H1.
+Source: RoBERTa (Liu et al., 2019); Trillion Dollar Words (Shah, Paturi and Chava, 2023).
 
 > The obvious question after the last slide: what if, instead of an LLM, we train a transformer on the same 1,984 hand-labeled sentences the TF-IDF classifier learns from? We fine-tuned RoBERTa, tried 9 settings on the same five folds, refit the best with five seeds and read the test sentences once. It reaches 0.74, above Claude's 0.66. On whole documents the two readers mostly agree: r = statements 0.77 · minutes 0.86 · press conferences 0.79 · speeches 0.70. Because it came after the results, it is a reference, not part of H1. For the desk: Labels buy accuracy on sentences like these; Claude needs none, reads whole documents and quotes its evidence.
 
@@ -310,7 +309,7 @@ Source: RoBERTa (Liu et al. 2019) fine-tuned on the Trillion Dollar Words train 
 - Same overall stance on 93% of masked documents
 - 34 documents released after the model’s knowledge cutoff so far
 Masked scores track raw scores, a partial reassurance rather than proof against memorization
-Source: Masking removes dates, names, numbers and rate levels; identification asks for the month of issue. After the HW2 GameStop audit.
+Source: audit.py: masked and raw readings, month identification.
 
 > An honest worry: Claude has read history, including what markets did. With every date, name and rate level masked, it still dates 99% of statements to the exact month, so it recognizes them. But its scores barely move when those details are removed: correlation 0.99. The check partly addresses recognition risk; it cannot rule out contamination. For the desk: The model knows Fed history, so trust rests on two checks: masked scores match, and the post-cutoff sample keeps growing.
 
@@ -326,7 +325,7 @@ Source: Masking removes dates, names, numbers and rate levels; identification as
 - **r = 0.99** masked against raw scores on 60 documents
 - **100%** same stance on the 8 anchors re-read in 2026-10; mean change 0.025
 Masking dates and names barely moves scores; it cannot rule out contamination
-Source: audit.py: stability (run tag r2), identification and invariance (masked), drift (monthly anchors).
+Source: audit.py.
 
 > Four checks. A separate batch of 152 documents re-scored gives r of 0.996. Masked statements are dated to the exact month almost every time, consistent with recognition but not proof of memorization. Scores with dates, names and rate levels masked track the raw ones at r of 0.99. Every month eight anchor documents are read again through the current model and pipeline; a change past the limits starts a new experiment. For the desk: Masking dates and names barely changes scores; recognition risk and possible shared bias remain.
 
@@ -339,7 +338,7 @@ Source: audit.py: stability (run tag r2), identification and invariance (masked)
 - Last 25 speeches 90th
 Into the 28 October decision; the latest minutes against every set since 2009
 For the desk: Words lean hawkish and the 2-year sits +81 bp over the overnight rate: language and pricing point the same way.
-Source: Tone by Claude Opus 5.5; percentile against the same document type since 2009.
+Source: FOMC minutes since 2009, scored by Claude Opus 5.5.
 
 > Each dot is a set of minutes scored by Claude Opus 5.5; the line is a rolling median. The latest minutes, released 7 October, rank in the 96th percentile of all minutes since 2009.
 
@@ -351,7 +350,7 @@ Source: Tone by Claude Opus 5.5; percentile against the same document type since
 - Vote 12–0
 - 3 dissents at the previous meeting wanted a hike
 A word-level redline of every decision against the one before
-Source: Target range parsed from every statement (21 hikes, 11 cuts, 111 holds since 2009); word-level diff against the previous decision.
+Source: FOMC statements since 2009 (21 hikes, 11 cuts, 111 holds).
 
 > Every statement is parsed for the decision and compared word by word with the previous one. The September hike rewrote 35 percent of the statement against a median of 14 percent. At the previous meeting 3 members had dissented for a hike. For the desk: Read the redline, not only the decision: new phrases and vanished dissents show how much conviction is behind a move.
 
@@ -376,7 +375,7 @@ controls  3-month bill (the surprise), the announced move,
 family    Benjamini-Hochberg q over the 198 main tests
 ```
 Exploratory main-grid tests share one BH adjustment; diagnostics are separate
-Source: Stored OLS, HC1 errors; observational associations. Only the H3 primary trade was pre-registered.
+Source: evaluate/event_study.py.
 
 > One specification across the grid: the yield change over the release window on standardized tone, with HC1 errors. The main grid crosses four document groups, the readers, level and shift, and six outcomes: 198 tests, with Benjamini-Hochberg q-values across all of them. 26 survive at q below 0.10. Controls, split samples, the day-before placebo and the drift outcomes are reported beside each test, outside the family. For the desk: BH adjustment addresses the main-grid search; it does not identify an exogenous communication shock.
 
@@ -389,7 +388,7 @@ Source: Stored OLS, HC1 errors; observational associations. Only the H3 primary 
 - TF-IDF tone as a control: t = 3.57
 Press conferences: change in the level score between releases
 For the desk: No detectable five-day drift (t = 0.37); this does not establish full pricing.
-Source: OLS, HC1; 94 release windows. Shared news and overlapping releases limit causal interpretation.
+Source: Treasury par yields; 94 release windows; evaluate/event_study.py.
 
 > The lines show the average path of the 2-year around release days for the most dovish, middle and most hawkish thirds of tone shift in press conferences. One SD more hawkish accompanies a 2-year move of +3.9 basis points over the release window, t of 3.90. The day before: t of 1.71. With the 3-month bill as a control: t of 3.20. With the TF-IDF classifier's tone of the same documents as a control, Claude's tone still has a t of 3.57; it adds an association beyond the TF-IDF score.
 
@@ -402,7 +401,7 @@ Source: OLS, HC1; 94 release windows. Shared news and overlapping releases limit
 - Meetings without a press conference: t = 1.91 (n = 46)
 - Press conference’s tone as a control: t = 0.01
 Level-score changes between policy decisions; statement and conference windows overlap
-Source: Release-window changes on the shift since the previous decision (notices excluded); 95% intervals (HC1).
+Source: FOMC statements and Treasury par yields; evaluate/event_study.py.
 
 > This is the brief’s tone shift between consecutive statements. We regress each yield’s move over the statement window on the change in level score since the previous decision. The strongest association is at the 5-year; the result is descriptive, not a causal estimate. The yields are the Treasury’s daily par curve, the same series FRED republishes; FRED was unavailable when we last ran the pipeline, and the next run tries it first again. For the desk: Daily fixes cannot isolate statement information from an overlapping press conference.
 
@@ -426,7 +425,7 @@ Axis: 2-year move, bp per SD of tone. 95% HC1 intervals; hollow dots cross zero.
 | 5-day drift | 0.30 | -1.30 to 1.91 | n = 94; t = 0.37 |
 | 20-day drift | 0.82 | -3.13 to 4.77 | n = 94; t = 0.41 |
 The association survives controls and sample splits; no significant later drift
-Source: Stored event-study estimates; 95% intervals use β ± 1.96 HC1 SE from unrounded β/t; no refitting.
+Source: Stored event-study estimates; evaluate/event_study.py.
 
 > The strongest 2-year relationship, read across every robustness row. The near-term surprise, the announced move and the TF-IDF tone of the same transcript each leave it significant, so Claude reads something the decision and word counts do not. It holds in both halves of the sample. The day-before placebo is weaker and later drift is not statistically detectable; full market pricing is not established. For the desk: Control and split-sample checks do not separate an exogenous language shock from shared news.
 
@@ -438,7 +437,7 @@ Source: Stored event-study estimates; 95% intervals use β ± 1.96 HC1 SE from u
 - Dictionary, TF-IDF and embeddings: 10 of 144
 - Placebo, drift, controls and split samples are separate diagnostics
 Exploratory release-window associations; BH adjustment across 198 tests
-Source: Main grid: the four document types, every method and regressor, 3-month to 30-year yields and 2s10s; HC1; Benjamini-Hochberg.
+Source: Benjamini and Hochberg (1995); evaluate/event_study.py.
 
 > We ran 198 exploratory release-window regressions and corrected for that family. 26 survive at a 10 percent false-discovery rate, and 16 of them use Claude’s reading. The chart shows the 2-year coefficients by document group for the three strongest readers. For the desk: False-discovery control addresses specification search, not shared news or causal identification.
 
@@ -463,7 +462,7 @@ SR: daily Sharpe; T: days; γ3: skewness; γ4: kurtosis; Φ: normal CDF
 ```
 Standardize, cap, hold five days, pay costs: the code is the pre-registration
 For the desk: Every parameter was written down before the first run; the code is the pre-registration.
-Source: evaluate/backtest.py; IEF minus SHY, durations held at 7.1 and 1.9 years; Bailey and López de Prado (2012, 2014).
+Source: Bailey and López de Prado (2012, 2014); evaluate/backtest.py.
 
 > Signals are standardized against earlier documents of the same type only. A hawkish document sets a negative position, capped so one signal moves at most half a unit and all open trades at most one. Returns are the IEF-minus-SHY spread with costs on both legs for every change. The probabilistic Sharpe ratio allows for skew and fat tails; the deflated one raises the bar to what the best of all variants would show by luck.
 
@@ -477,7 +476,7 @@ Source: evaluate/backtest.py; IEF minus SHY, durations held at 7.1 and 1.9 years
 - 21 Oct correction: Sharpe −0.23 → −0.18; verdict unchanged
 One primary specification; every exploratory variant is counted in the search
 For the desk: PSR tests Sharpe against zero; DSR raises the benchmark for the search across all variants.
-Source: IEF minus SHY, ±1 year on AGG or IEI; 116 variants. DSR: Bailey and López de Prado. Rerun disclosure: DESIGN.md (21 Oct 2026).
+Source: Yahoo Finance ETF closes; Bailey and López de Prado (2014); evaluate/backtest.py; docs/DESIGN.md.
 
 > The primary tilt was specified before results: Claude's level scores on minutes and speeches, next-day ETF entry, five-day hold, after costs. Its Sharpe is -0.18. All 116 tested variants are reported; 0 pass the 95% deflated-Sharpe criterion, against an expected-best no-skill Sharpe of 0.48. PSR compares the primary Sharpe with zero; DSR adjusts the comparison for the search. The primary test was rerun once on 21 October 2026 after code review restored the speech-availability buffer and decision-with-decision comparisons in the written design. Sharpe changed from −0.23 to -0.18; the verdict did not change. This daily-horizon result does not establish that every possible trading edge has disappeared.
 
@@ -489,7 +488,7 @@ Source: IEF minus SHY, ±1 year on AGG or IEI; 116 variants. DSR: Bailey and Ló
 3. **Translate to money** User capital and duration budget, dollar DV01, ETF legs and round-trip cost
 4. **Challenge the result** Parallel shocks, the stored historical test and prospective evaluation
 A traceable rule replay connects evidence with sizing and its historical test
-Source: api/duration/context; duration.py; frozen primary reader and entry rules. This is one document's rule, not the combined backtest position.
+Source: duration.py; frozen reader and entry rules from the backtest.
 
 > Open a document and choose Explore duration. The workspace reads its score from the frozen primary model. It standardizes only against earlier eligible documents of the same type. The fixed rule maps that z-score to a share of the duration budget, as in the historical test. The user supplies capital, portfolio duration and the budget; an equal-dollar ETF overlay then gives dollar DV01, round-trip trading cost and parallel-shock P&L. Non-primary types, insufficient history and low policy relevance receive no rule-sized trade. Manual overrides remain labeled. Historical and forward tests stay one click away, including the negative H3 result. This tool does not add evidence of profitability.
 
@@ -503,7 +502,7 @@ Source: api/duration/context; duration.py; frozen primary reader and entry rules
 - Latest vote 12–0
 The 2-year sits 81 bp above the overnight rate
 For the desk: Into the next decision, the curve prices more tightening than the overnight rate shows.
-Source: Effective fed funds rate and SOFR from the New York Fed; Committee roster from the minutes; 2-year from FRED or the Treasury.
+Source: New York Fed (EFFR, SOFR); FRED or U.S. Treasury (2-year); FOMC minutes (roster).
 
 > This is the live Fed-now page. The band is the target range, the blue line is where overnight money trades, and the orange line is the 2-year. The gap between the last two is a rough read of where the market thinks policy is going.
 
@@ -517,7 +516,7 @@ Source: Effective fed funds rate and SOFR from the New York Fed; Committee roste
 - Exploratory: added after the results
 Exploratory expanding-window forecasts use only earlier decisions
 For the desk: Adding tone does not reduce real-time forecast error in this sample; the test is exploratory.
-Source: Decisions and pre-meeting yields/tone; linear model, HC1. MSE: mean squared error for cut/hold/hike (−1/0/+1).
+Source: FOMC decisions and pre-meeting Treasury yields; evaluate/forecast.py.
 
 > Does Claude's reading add to what the market already prices about the next decision? For each of the 142 decisions since 2009 we model the decision (cut, hold or hike) on the 3-month bill and 2-year over the policy rate at the last close before it, and on the tone of the latest minutes, the speeches of the previous 60 days and the previous statement. The market's lean alone explains 63%; tone adds a little in sample. In real time, forecasting every decision from 2017 with only earlier data, adding tone does not lower the error. We added this test after the results, so treat it as exploratory.
 
@@ -539,7 +538,7 @@ Source: Decisions and pre-meeting yields/tone; linear model, HC1. MSE: mean squa
 | F-test of the three tone terms | F = 2.82 |  | 0.041 |
 | Real-time MSE from 2017: tone + market vs market | 0.153 vs 0.149 |  | 0.68 |
 No reduction in real-time forecast error from tone
-Source: evaluate/forecast.py; added after the results, charged to no hypothesis.
+Source: evaluate/forecast.py.
 
 > Each decision since 2009 is modeled on the market's lean the evening before and on the tone of the latest minutes, recent speeches and the previous statement. In sample the tone terms are jointly significant at the 5% level; R² is 0.625 for the market and 0.644 with tone. Forecasting each decision from 2017 with only earlier data, adding tone does not lower the error. For the desk: Adding tone does not lower real-time forecast error in this sample; this result is exploratory.
 
@@ -558,7 +557,7 @@ Source: evaluate/forecast.py; added after the results, charged to no hypothesis.
 | Statements | Claude's comparison with the last decision | +1.96 | 2.97 | 0.036 |
 The same rules run on new data only, as it is collected
 For the desk: Rules and coefficients were frozen before these releases; no post-freeze refitting.
-Source: evaluate/forward.py; data/forward/rules.json (written once); fomc run leaves the research frozen.
+Source: evaluate/forward.py; data/forward/rules.json.
 
 > On 21 October 2026 the research was frozen. For each document type the strongest surviving 2-year relationship was written to a file with its coefficient and the in-sample mean and SD of its tone measure. Every evening each new release gets a predicted move beside its actual one, and the pre-registered trade runs through the backtest's own code, counted from the first close after the freeze.
 
@@ -570,7 +569,7 @@ Source: evaluate/forward.py; data/forward/rules.json (written once); fomc run le
 - Store: 20 tables, schema v4; FTS5 search over 4.5M words; 6,178 scores
 - Ways in: Command line (fomc run, llm-*, slides); REST API (36 endpoints, ETags on reads); Dashboard (live demo, no build step)
 Five public sources feed a pipeline that writes a single SQLite store
-Source: Python 3.12 · pandas · statsmodels · scikit-learn · fastembed (ONNX) · Anthropic SDK · SQLite FTS5 · FastAPI · ECharts · Docker · Cloud Run
+Source: Project code in src/fomc/ (Python 3.12, SQLite, FastAPI, ECharts), deployed on Cloud Run.
 
 > The architecture in one picture. Five public sources feed ten pipeline stages. Every stage writes to a single SQLite store, and three front doors read it: the command line that runs the research, a REST API, and the dashboard, deployed as a read-only demo. Why it matters: Stages talk only through the store, so each can be rerun, tested or replaced on its own.
 
@@ -590,7 +589,7 @@ Source: Python 3.12 · pandas · statsmodels · scikit-learn · fastembed (ONNX)
 | forecast | scores, decisions, yields | meta.forecast | frozen |
 | forward | the same, after the freeze | meta.forward | inputs unchanged |
 Stages talk only through the store and rerun only when their inputs change
-Source: src/fomc/db.py (schema, migrations), store.py, cli.py (fomc run, fingerprints); System › Pipeline.
+Source: db.py, store.py and cli.py.
 
 > fomc run walks ten stages in order. Each stage's inputs are hashed, files, code and the parts of the settings it reads, and the stage is skipped when the hash matches the last run. Since the freeze the research stages are skipped regardless, unless asked to unfreeze. Full-text search is an FTS5 index over the documents table without duplicating text. The store: 20 tables, schema v4 with automatic migrations; every stage run is logged in pipeline_runs.
 
@@ -604,7 +603,7 @@ Source: src/fomc/db.py (schema, migrations), store.py, cli.py (fomc run, fingerp
 - **One story** Introduction and technical detail; PDF and editable PowerPoint exports
 - **1,601** source files cached by URL, so nothing is downloaded twice
 Read-only and keyless: dashboard, unified story, feed and exports
-Source: FastAPI, gzip, ETags; vanilla JavaScript with ECharts; headless Chrome for slides (slides.py).
+Source: api.py and web/app.js.
 
 > FastAPI serves 36 JSON endpoints; every read carries a validator, so an unchanged response costs a 304. The front end has no build step. The deck is rendered by parallel headless Chrome into one unified story with PDF and editable PowerPoint exports. An Atom feed gives each new document with its reading. Security: The hosted app holds no key: settings, scoring and labeling are locked by FOMC_PUBLIC=1.
 
@@ -618,7 +617,7 @@ Source: FastAPI, gzip, ETags; vanilla JavaScript with ECharts; headless Chrome f
 5. **Guard** fomc doctor --strict: statements, minutes, prices and readings must keep arriving
 6. **Cap** a 1 USD budget unlinks billing through Pub/Sub and a function
 Configured schedules, spending caps and checks for missing data
-Source: GitHub Actions (.github/workflows/refresh.yml), Cloud Build, Artifact Registry, Cloud Run us-east4, Firebase Hosting, Cloud Scheduler; docs/OPERATIONS.md.
+Source: .github/workflows/refresh.yml; docs/OPERATIONS.md.
 
 > A workflow is configured for every evening and the afternoon of a statement or minutes, after a fifteen-second check. It refreshes data, scores what is new under the caps, runs the forward test, then signs in to Google Cloud without a key and rolls out a new revision. A strict check fails the run if a scheduled release never arrives. The service scales to zero, kept warm by a free scheduler ping. These are configured controls; verify the workflow and cloud build's terminal state before treating a refresh as successful. Operations: A refresh that stops bringing things in fails loudly: GitHub emails the owner.
 
@@ -644,7 +643,7 @@ Source: GitHub Actions (.github/workflows/refresh.yml), Cloud Build, Artifact Re
 | forward | 3 | the freeze: returns after it only, rules that cannot move |
 | forecast | 1 | the next-decision inputs never look ahead |
 Checks cover timing, scoring, statistics, the API, operations and delivery
-Source: Counts: pytest --collect-only on this revision (src/fomc/test_inventory.json). make test runs them; the CI workflow also runs make lint.
+Source: pytest collection of this revision (src/fomc/test_inventory.json).
 
 > 132 tests run offline on this revision. The duration tests check the sizing identities, prior-only signals and input validation. The timing suite holds the no-look-ahead rules. The scoring engine is tested against a stub client, so the suite never spends money. The research tests check Benjamini-Hochberg against statsmodels and the Sharpe statistics. The operations tests cover the release-day check, the cap, drift and the strict freshness check. For the desk: The rules that make a result trustworthy, like no look-ahead, are tests, not intentions.
 
@@ -652,7 +651,7 @@ Source: Counts: pytest --collect-only on this revision (src/fomc/test_inventory.
 
 *The product*
 Source documents, clearer comparisons and a linked duration workspace
-Source: Live demo: fedtone.web.app (read-only); run locally with make serve.
+Source: fedtone.web.app (read-only demo).
 
 > This is the product: a home page with the Fed pulse and the four findings, the Fed-now pages with rates, the Committee (click a member for their background, the tone of every speech and their dissents) and every decision redlined, and the research pages. It is live; we can switch to it now. Try it: Everything in this deck is one click away in the live app, with the source documents behind every number.
 
@@ -668,7 +667,7 @@ Source: Live demo: fedtone.web.app (read-only); run locally with make serve.
 - **Refresh and caps** Automatic collection and refresh, with spending limits and freshness checks
 - **Shared store** The unified story and read-only dashboard read the same versioned store
 Measurement checks, a forward test, and a system that keeps the evidence auditable
-Source: docs/ASSIGNMENT.md; finetune.py, evaluate/forward.py, audit.py, members.py, api.py and cli.py.
+Source: Project code; docs/ASSIGNMENT.md.
 
 > These additions extend the brief without changing the frozen H1 to H4 results. The trained transformer and forecast are exploratory references. The forward test uses new releases under fixed rules.
 
@@ -685,7 +684,7 @@ Source: docs/ASSIGNMENT.md; finetune.py, evaluate/forward.py, audit.py, members.
 | Release-time backtest | Delayed entry, costs, placebos | Daily data, not ticks |
 | Minutes, speeches and shifts | Primary and exploratory tests | No reliable H3 edge |
 Seven functional requirements have evidence, with profitability reported honestly
-Source: docs/ASSIGNMENT.md; docs/BRIEF_AUDIT.md; read-only audit of the frozen store.
+Source: docs/ASSIGNMENT.md and docs/BRIEF_AUDIT.md.
 
 > The seven components in the brief are implemented. A negative trading result does not mean the backtest is missing. The corpus covers the four requested document types. Claude scores have a defined rubric and evidence spans. Dictionary and sentence-embedding baselines share an expert-labeled test. Five Treasury tenors use the FRED series with an official Treasury fallback. AGG and IEI views expose the delayed duration tilt, including costs and multiple-testing controls. Daily windows respect public-release times but cannot identify minute-by-minute pricing. Minutes, speeches and statement shifts are all tested. Optional post-cutoff human annotation was not run and is not presented as completed.
 
@@ -696,7 +695,7 @@ Source: docs/ASSIGNMENT.md; docs/BRIEF_AUDIT.md; read-only audit of the frozen s
 - **Tone accompanies release-window repricing** 26 of 198 exploratory release-window tests survive adjustment, 16 on Claude’s reading. Shared news and overlapping releases prevent a causal interpretation.
 - **No delayed trading edge detected** The pre-registered trade has a Sharpe of −0.18 (placebo p = 0.28); no variant clears the luck hurdle.
 What the evidence supports, and how to use it
-Source: Frozen store results. Public expert labels may be in training; masking provides partial reassurance only.
+Source: Project results, frozen 21 October 2026.
 
 > Three takeaways. Claude outperforms the stated baselines on public expert sentences, with no task-specific training, but public-label exposure remains possible. Tone is associated with release-window yield changes. The tested delayed duration tilt does not beat chance; this does not prove full market pricing. For the desk: Use the evidence-linked index for inspection; the tested daily tilt does not establish an investable edge.
 
@@ -709,7 +708,7 @@ Source: Frozen store results. Public expert labels may be in training; masking p
 - **Public labels may be familiar** Expert labels may be in the model's training data. Masking dates and names partly addresses this risk.
 H1 is supported on public expert labels; independent human validation remains absent
 Next: Independent labels, intraday yields, and more frozen-rule releases would strengthen the evidence.
-Source: H1 on public expert labels: p = 0.004. Masked/raw r = 0.99 partly addresses possible training exposure.
+Source: docs/DESIGN.md (limitations); docs/PRODUCT_VALIDATION.md.
 
 > Limits, stated plainly. We use daily closes; intraday data would sharpen the statement tests. The sample after the configured cutoff is still small. The post-cutoff human test was not run. H1 is supported on the public expert labels, which may have appeared in training. The masking audit only partly addresses that risk.
 
@@ -718,4 +717,4 @@ Source: H1 on public expert labels: p = 0.004. Masked/raw r = 0.99 partly addres
 *Final Project Group 2 · IEOR 4723, AI-Augmented Investment Management, Fall 2026*
 Questions and discussion
 
-> Thank you. Happy to take questions, or to open any page of the dashboard live.
+> Thank you. Happy to take questions, or to open any page of the dashboard live. The code is public at github.com/flukier1016/fomc-tone-lab, with the same files as the submitted code ZIP.

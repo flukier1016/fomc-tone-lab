@@ -16,6 +16,12 @@
     "accent": "#C8401F",
     "highlight": "#ECE8E1",
     "ok": "#0D6332",
-    "no": "#AE2513"
+    "no": "#AE2513",
+    "warm": "#F1ECE2",
+    "card": "#FAF8F3",
+    "okSoft": "#E1EDE3",
+    "noSoft": "#F5E0DA",
+    "mixed": "#84550F",
+    "mixedSoft": "#F2E7D2"
   }
 }

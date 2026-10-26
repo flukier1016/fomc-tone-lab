@@ -26,12 +26,15 @@ Every line of the brief is built and has been run on the full data; [ASSIGNMENT.
 The default deck now has 46 slides integrating the introduction, research methods, results and technical
 implementation and additions beyond the brief. A generated contents page, an explicit course mapping and a local RoBERTa training walkthrough make the sequence easier to follow. All four team members are named on the cover and closing slides. H1 wording states that public
 expert labels support the result and that the post-cutoff human test was not run. `docs/WRITEUP.md`
-is the seven-page report source.
+is the report source: Pandoc and XeLaTeX set it as an eight-page A4 article in the homework style, its numbered
+markers such as [3] becoming superscript citations to the list of references and sources at the end.
 
 The delivered decks use the reviewed editorial design: rebuild them with [PRESENTATION_DESIGN.md](PRESENTATION_DESIGN.md),
 whose last step writes the decks to `docs/slides` and the presentation PDF to the submission folder. Do not run
 `fomc slides --out docs/slides` for a delivery: that standard exporter replaces the editorial decks with the plain
 design. Then, with every change committed and the previous package moved to `05_project/archive/`:
+
+The write-up export needs Pandoc and XeLaTeX (MacTeX or TeX Live) on the path; Chrome is not used.
 
 ```bash
 .venv/bin/python scripts/export_writeup.py --out /absolute/path/to/submission/FOMC-Tone-Lab-writeup.pdf
@@ -39,8 +42,8 @@ design. Then, with every change committed and the previous package moved to `05_
 ```
 
 The packager refuses uncommitted tracked changes and an older code ZIP in the folder. The active package contains
-four deliverables: the unified PDF, its editable PPTX, the write-up PDF and a code ZIP, plus `SUBMISSION.md` and
-checksums. Legacy technical files are historical copies, not additional upload requirements. `git archive` leaves
+four deliverables: the unified PDF, its editable PPTX, the write-up PDF and a code ZIP, plus `SUBMISSION.md`, a
+short guide for graders (files, links, how to run it and the results). Legacy technical files are historical copies, not additional upload requirements. `git archive` leaves
 out the internal agent notes (`AGENTS.md` and the two handoffs to coding agents).
 The unified PDF and editable PPTX contain the same presentation. CourseWorks submission is performed
 by a team member. The optional cross-model comparison has not been run.

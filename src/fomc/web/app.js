@@ -2362,9 +2362,10 @@ const VERDICT = { Supported: ["ok", "&#10003;"], "Not supported": ["no", "&#1000
 function storyPrimer(v) {
   const quote = (q) => `<div class="pq ${q.side}"><span class="k">${esc(q.label)}</span><span class="g">${esc(q.gloss)}</span>
     <q>${esc(q.text)}</q><span class="src">${esc(q.when)} &middot; Claude ${fmt.signed(q.score).replace("-", "&minus;")}</span></div>`;
-  return `<div class="s-primer">${v.steps.map((s, i) => `${i ? '<span class="arrow" aria-hidden="true">&rarr;</span>' : ""}<div class="pm"><span class="n">${i + 1}</span><b>${esc(s.title)}</b>
+  return `<div class="s-primer"><div class="pm-row">${v.steps.map((s, i) => `${i ? '<span class="arrow" aria-hidden="true">&rarr;</span>' : ""}<div class="pm"><span class="n">${String(i + 1).padStart(2, "0")}</span><b>${esc(s.title)}</b>
     ${s.formula ? `<span class="formula">${esc(s.formula)}</span>` : ""}${s.body ? `<p>${esc(s.body)}</p>` : ""}${(s.quotes || []).map(quote).join("")}
-    ${s.foot ? `<span class="foot">${esc(s.foot)}</span>` : ""}</div>`).join("")}</div>`;
+    ${s.foot ? `<span class="foot">${esc(s.foot)}</span>` : ""}</div>`).join("")}</div>
+    ${v.question ? `<div class="pm-q"><b>The question</b><span>${esc(v.question)}</span></div>` : ""}</div>`;
 }
 function storyBrief(v) {
   return `<div class="s-brief"><div class="bh"><span></span><span>The brief asks for</span><span></span><span>What we built</span></div>
@@ -2502,12 +2503,13 @@ function slideHtml(s, total, i) {
   if (s.layout === "cover") {
     return `<section class="slide cover editorial"><div class="cover-masthead">${LOGO}<span class="s-kicker">${esc(s.kicker)}</span></div>
       <div class="cover-copy"><h1 class="cover-title">${esc(s.title)}</h1><p class="cover-sub">${esc(s.subtitle)}</p></div>
-      <div class="cover-pipeline">${[["Read", "Fed language"], ["Measure", "Policy tone"], ["Test", "Treasury yields"], ["Size", "Portfolio duration"]].map(([a,b],j)=>`<div><span>0${j+1} / ${a}</span><b>${b}</b></div>`).join("")}</div>${teamChips(s.team)}</section>`;
+      <div class="cover-pipeline">${[["Read", "Fed language"], ["Measure", "Policy tone"], ["Test", "Treasury yields"], ["Size", "Portfolio duration"]].map(([a,b],j)=>`<div><span>0${j+1} / ${a}</span><b>${b}</b></div>`).join("")}</div>
+      <div class="cover-links">${(s.links || []).map(([a,b])=>`<div><span>${esc(a)}</span><b>${esc(b)}</b></div>`).join("")}</div>${teamChips(s.team)}</section>`;
   }
   if (s.layout === "closing") {
     return `<section class="slide cover closing editorial"><div class="cover-masthead">${LOGO}<span class="s-kicker">${esc(s.kicker)}</span></div>
       <div class="cover-copy"><h1 class="cover-title">${esc(s.title)}</h1><p class="cover-sub">${esc(s.subtitle)}</p>
-      <div class="closing-url">${esc(s.url)}</div></div>${teamChips(s.team)}</section>`;
+      <div class="closing-links">${[s.url, s.repo].filter(Boolean).map((u)=>`<div class="closing-url">${esc(u)}</div>`).join("")}</div></div>${teamChips(s.team)}</section>`;
   }
   if (s.layout === "divider") {
     return `<section class="slide divider"><div class="dv-num">${esc(s.number)}</div><div class="dv-body"><span class="s-kicker">${esc(s.kicker)}</span>
@@ -2538,7 +2540,7 @@ function slideHtml(s, total, i) {
     <div class="s-titles"><h1 class="s-title" title="${esc(s.title)}">${esc(s.title)}</h1>${s.subtitle ? `<p class="s-sub">${esc(s.subtitle)}</p>` : ""}</div>
     <div class="s-body">${body}</div>
     ${s.desk ? `<div class="s-desk"><b>${esc(s.desk_label || "For the desk")}</b><span>${esc(s.desk)}</span></div>` : ""}
-    <footer class="s-foot"><span>${esc(s.source || "")}</span><a href="${esc(s.link)}" class="s-open" data-story-open>Open in the app &rarr;</a></footer>${storyRail(s)}
+    <footer class="s-foot${s.source ? "" : " empty"}"><span>${s.source ? `Source: ${esc(s.source)}` : ""}</span><a href="${esc(s.link)}" class="s-open" data-story-open>Open in the app &rarr;</a></footer>${storyRail(s)}
   </section>`;
 }
 function fitStage() {
